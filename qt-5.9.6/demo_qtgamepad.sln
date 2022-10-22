@@ -1,0 +1,63 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo_qtgamepad", "1_demo_qtgamepad", "{E1E0E099-6519-4799-BFF7-AB6DCB8B3353}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{9F47D849-D97D-441F-9967-749FDEFD9526}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gamepad", "gamepad", "{CBC87E15-AD4F-40FE-A4BB-1E5ADB6216C0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple", "demo\qtgamepad\examples\gamepad\simple\simple.vcxproj", "{CE0B2A84-6BC2-3536-95EC-49322CEA5623}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mouseItem", "demo\qtgamepad\examples\gamepad\mouseItem\mouseItem.vcxproj", "{33B01DCE-8BD9-3890-97DA-B3EF30F4F663}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "keyNavigation", "demo\qtgamepad\examples\gamepad\keyNavigation\keyNavigation.vcxproj", "{7E7BE05D-A2B5-3A64-8897-DCEA1CA970C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "configureButtons", "demo\qtgamepad\examples\gamepad\configureButtons\configureButtons.vcxproj", "{AE3F11CD-F5FE-390A-8D8B-0B289532132A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quickGamepad", "demo\qtgamepad\examples\gamepad\quickGamepad\quickGamepad.vcxproj", "{4534AF84-534B-3AC7-B8B1-441FA2DFCE11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE0B2A84-6BC2-3536-95EC-49322CEA5623}.Debug|x64.ActiveCfg = Debug|x64
+		{CE0B2A84-6BC2-3536-95EC-49322CEA5623}.Debug|x64.Build.0 = Debug|x64
+		{CE0B2A84-6BC2-3536-95EC-49322CEA5623}.Release|x64.ActiveCfg = Release|x64
+		{CE0B2A84-6BC2-3536-95EC-49322CEA5623}.Release|x64.Build.0 = Release|x64
+		{33B01DCE-8BD9-3890-97DA-B3EF30F4F663}.Debug|x64.ActiveCfg = Debug|x64
+		{33B01DCE-8BD9-3890-97DA-B3EF30F4F663}.Debug|x64.Build.0 = Debug|x64
+		{33B01DCE-8BD9-3890-97DA-B3EF30F4F663}.Release|x64.ActiveCfg = Release|x64
+		{33B01DCE-8BD9-3890-97DA-B3EF30F4F663}.Release|x64.Build.0 = Release|x64
+		{7E7BE05D-A2B5-3A64-8897-DCEA1CA970C3}.Debug|x64.ActiveCfg = Debug|x64
+		{7E7BE05D-A2B5-3A64-8897-DCEA1CA970C3}.Debug|x64.Build.0 = Debug|x64
+		{7E7BE05D-A2B5-3A64-8897-DCEA1CA970C3}.Release|x64.ActiveCfg = Release|x64
+		{7E7BE05D-A2B5-3A64-8897-DCEA1CA970C3}.Release|x64.Build.0 = Release|x64
+		{AE3F11CD-F5FE-390A-8D8B-0B289532132A}.Debug|x64.ActiveCfg = Debug|x64
+		{AE3F11CD-F5FE-390A-8D8B-0B289532132A}.Debug|x64.Build.0 = Debug|x64
+		{AE3F11CD-F5FE-390A-8D8B-0B289532132A}.Release|x64.ActiveCfg = Release|x64
+		{AE3F11CD-F5FE-390A-8D8B-0B289532132A}.Release|x64.Build.0 = Release|x64
+		{4534AF84-534B-3AC7-B8B1-441FA2DFCE11}.Debug|x64.ActiveCfg = Debug|x64
+		{4534AF84-534B-3AC7-B8B1-441FA2DFCE11}.Debug|x64.Build.0 = Debug|x64
+		{4534AF84-534B-3AC7-B8B1-441FA2DFCE11}.Release|x64.ActiveCfg = Release|x64
+		{4534AF84-534B-3AC7-B8B1-441FA2DFCE11}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F47D849-D97D-441F-9967-749FDEFD9526} = {E1E0E099-6519-4799-BFF7-AB6DCB8B3353}
+		{CBC87E15-AD4F-40FE-A4BB-1E5ADB6216C0} = {9F47D849-D97D-441F-9967-749FDEFD9526}
+		{CE0B2A84-6BC2-3536-95EC-49322CEA5623} = {CBC87E15-AD4F-40FE-A4BB-1E5ADB6216C0}
+		{33B01DCE-8BD9-3890-97DA-B3EF30F4F663} = {CBC87E15-AD4F-40FE-A4BB-1E5ADB6216C0}
+		{7E7BE05D-A2B5-3A64-8897-DCEA1CA970C3} = {CBC87E15-AD4F-40FE-A4BB-1E5ADB6216C0}
+		{AE3F11CD-F5FE-390A-8D8B-0B289532132A} = {CBC87E15-AD4F-40FE-A4BB-1E5ADB6216C0}
+		{4534AF84-534B-3AC7-B8B1-441FA2DFCE11} = {CBC87E15-AD4F-40FE-A4BB-1E5ADB6216C0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA6CF0D4-42B4-48A7-88C3-1B011718E854}
+	EndGlobalSection
+EndGlobal

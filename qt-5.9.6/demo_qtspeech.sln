@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo_qtspeech", "1_demo_qtspeech", "{7E79FA1F-EA01-49A9-9CE8-7C00B5E49656}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{BE892A49-66E9-436B-B32D-91C9EDA02543}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{FA2D238D-42A6-4093-BF0C-CD55ACC16D45}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hello_speak", "demo\qtspeech\examples\speech\hello_speak\hello_speak.vcxproj", "{2CCF0E6E-0C91-3F42-9363-F853936E8599}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qtexttospeech", "demo\qtspeech\tests\auto\texttospeech\tst_qtexttospeech.vcxproj", "{2E3AE3BD-B6ED-346A-B819-A629AF9C52FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CCF0E6E-0C91-3F42-9363-F853936E8599}.Debug|x64.ActiveCfg = Debug|x64
+		{2CCF0E6E-0C91-3F42-9363-F853936E8599}.Debug|x64.Build.0 = Debug|x64
+		{2CCF0E6E-0C91-3F42-9363-F853936E8599}.Release|x64.ActiveCfg = Release|x64
+		{2CCF0E6E-0C91-3F42-9363-F853936E8599}.Release|x64.Build.0 = Release|x64
+		{2E3AE3BD-B6ED-346A-B819-A629AF9C52FB}.Debug|x64.ActiveCfg = Debug|x64
+		{2E3AE3BD-B6ED-346A-B819-A629AF9C52FB}.Debug|x64.Build.0 = Debug|x64
+		{2E3AE3BD-B6ED-346A-B819-A629AF9C52FB}.Release|x64.ActiveCfg = Release|x64
+		{2E3AE3BD-B6ED-346A-B819-A629AF9C52FB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE892A49-66E9-436B-B32D-91C9EDA02543} = {7E79FA1F-EA01-49A9-9CE8-7C00B5E49656}
+		{FA2D238D-42A6-4093-BF0C-CD55ACC16D45} = {7E79FA1F-EA01-49A9-9CE8-7C00B5E49656}
+		{2CCF0E6E-0C91-3F42-9363-F853936E8599} = {BE892A49-66E9-436B-B32D-91C9EDA02543}
+		{2E3AE3BD-B6ED-346A-B819-A629AF9C52FB} = {FA2D238D-42A6-4093-BF0C-CD55ACC16D45}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B5ACD52-06B9-44F3-88CE-8D934A797B9B}
+		Qt5Version = msvc2017_64
+	EndGlobalSection
+EndGlobal

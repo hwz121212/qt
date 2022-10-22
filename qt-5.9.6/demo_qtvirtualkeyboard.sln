@@ -1,0 +1,64 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo_qtvirtualkeyboard", "1_demo_qtvirtualkeyboard", "{6E0E8055-D09B-44BF-BF2B-C8A7901014A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{77668D4F-D182-44D9-80A8-B98B1639BDED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A4561E34-F9B7-44A2-9B8C-5A880768E18F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basic", "demo\qtvirtualkeyboard\examples\virtualkeyboard\basic\basic.vcxproj", "{07D52801-21A3-337A-B1C3-3BF6B0FA00BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_inputpanel", "demo\qtvirtualkeyboard\tests\auto\inputpanel\tst_inputpanel.vcxproj", "{BEAD386E-E2FD-3B2D-948C-F1D1E6CE8192}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_styles", "demo\qtvirtualkeyboard\tests\auto\styles\tst_styles.vcxproj", "{9C501F63-0ED6-3313-AD22-C4772A06BE2F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_layoutfilesystem", "demo\qtvirtualkeyboard\tests\auto\layoutfilesystem\tst_layoutfilesystem.vcxproj", "{9660D84C-2054-3330-B728-B02880BBC8A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_layoutresources", "demo\qtvirtualkeyboard\tests\auto\layoutresources\tst_layoutresources.vcxproj", "{CA48D3BB-85E8-3A56-8233-6BF073B26EB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07D52801-21A3-337A-B1C3-3BF6B0FA00BC}.Debug|x64.ActiveCfg = Debug|x64
+		{07D52801-21A3-337A-B1C3-3BF6B0FA00BC}.Debug|x64.Build.0 = Debug|x64
+		{07D52801-21A3-337A-B1C3-3BF6B0FA00BC}.Release|x64.ActiveCfg = Release|x64
+		{07D52801-21A3-337A-B1C3-3BF6B0FA00BC}.Release|x64.Build.0 = Release|x64
+		{BEAD386E-E2FD-3B2D-948C-F1D1E6CE8192}.Debug|x64.ActiveCfg = Debug|x64
+		{BEAD386E-E2FD-3B2D-948C-F1D1E6CE8192}.Debug|x64.Build.0 = Debug|x64
+		{BEAD386E-E2FD-3B2D-948C-F1D1E6CE8192}.Release|x64.ActiveCfg = Release|x64
+		{BEAD386E-E2FD-3B2D-948C-F1D1E6CE8192}.Release|x64.Build.0 = Release|x64
+		{9C501F63-0ED6-3313-AD22-C4772A06BE2F}.Debug|x64.ActiveCfg = Debug|x64
+		{9C501F63-0ED6-3313-AD22-C4772A06BE2F}.Debug|x64.Build.0 = Debug|x64
+		{9C501F63-0ED6-3313-AD22-C4772A06BE2F}.Release|x64.ActiveCfg = Release|x64
+		{9C501F63-0ED6-3313-AD22-C4772A06BE2F}.Release|x64.Build.0 = Release|x64
+		{9660D84C-2054-3330-B728-B02880BBC8A2}.Debug|x64.ActiveCfg = Debug|x64
+		{9660D84C-2054-3330-B728-B02880BBC8A2}.Debug|x64.Build.0 = Debug|x64
+		{9660D84C-2054-3330-B728-B02880BBC8A2}.Release|x64.ActiveCfg = Release|x64
+		{9660D84C-2054-3330-B728-B02880BBC8A2}.Release|x64.Build.0 = Release|x64
+		{CA48D3BB-85E8-3A56-8233-6BF073B26EB8}.Debug|x64.ActiveCfg = Debug|x64
+		{CA48D3BB-85E8-3A56-8233-6BF073B26EB8}.Debug|x64.Build.0 = Debug|x64
+		{CA48D3BB-85E8-3A56-8233-6BF073B26EB8}.Release|x64.ActiveCfg = Release|x64
+		{CA48D3BB-85E8-3A56-8233-6BF073B26EB8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77668D4F-D182-44D9-80A8-B98B1639BDED} = {6E0E8055-D09B-44BF-BF2B-C8A7901014A3}
+		{A4561E34-F9B7-44A2-9B8C-5A880768E18F} = {6E0E8055-D09B-44BF-BF2B-C8A7901014A3}
+		{07D52801-21A3-337A-B1C3-3BF6B0FA00BC} = {77668D4F-D182-44D9-80A8-B98B1639BDED}
+		{BEAD386E-E2FD-3B2D-948C-F1D1E6CE8192} = {A4561E34-F9B7-44A2-9B8C-5A880768E18F}
+		{9C501F63-0ED6-3313-AD22-C4772A06BE2F} = {A4561E34-F9B7-44A2-9B8C-5A880768E18F}
+		{9660D84C-2054-3330-B728-B02880BBC8A2} = {A4561E34-F9B7-44A2-9B8C-5A880768E18F}
+		{CA48D3BB-85E8-3A56-8233-6BF073B26EB8} = {A4561E34-F9B7-44A2-9B8C-5A880768E18F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66116ED7-5EAF-4261-BB1A-677A9F9ADAE1}
+		Qt5Version = msvc2017_64
+	EndGlobalSection
+EndGlobal

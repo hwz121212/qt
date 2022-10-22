@@ -1,0 +1,71 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo_qtnetworkauth", "1_demo_qtnetworkauth", "{B4FB21B1-516B-43EA-ADA6-A594E6AB09D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{C4BA43F6-3B32-40FF-A705-3F9607AB90EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_oauth1", "demo\qtnetworkauth\tests\oauth1\tst_oauth1.vcxproj", "{4FD88513-CD1F-3485-BAE2-F39FD18AFF69}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_oauth1signature", "demo\qtnetworkauth\tests\oauth1signature\tst_oauth1signature.vcxproj", "{84B22187-C0D9-30EB-BB42-D6331ABEB7B8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_oauthhttpserverreplyhandler", "demo\qtnetworkauth\tests\oauthhttpserverreplyhandler\tst_oauthhttpserverreplyhandler.vcxproj", "{F058477E-EEDE-384B-A0C2-2E19B9CAD3E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_abstractoauth", "demo\qtnetworkauth\tests\abstractoauth\tst_abstractoauth.vcxproj", "{36C34A18-5D30-4CF0-AF1C-EF373362BB01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{B0CA54C1-68C9-4967-861E-38B0651165D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "redditclient", "demo\qtnetworkauth\examples\redditclient\redditclient.vcxproj", "{80F87484-C57E-4F61-97F9-AB31B991EE44}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "twittertimeline", "demo\qtnetworkauth\examples\twittertimeline\twittertimeline.vcxproj", "{12B681C6-8B3E-430B-8457-DE2AE431F8AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4FD88513-CD1F-3485-BAE2-F39FD18AFF69}.Debug|x64.ActiveCfg = Debug|x64
+		{4FD88513-CD1F-3485-BAE2-F39FD18AFF69}.Debug|x64.Build.0 = Debug|x64
+		{4FD88513-CD1F-3485-BAE2-F39FD18AFF69}.Release|x64.ActiveCfg = Release|x64
+		{4FD88513-CD1F-3485-BAE2-F39FD18AFF69}.Release|x64.Build.0 = Release|x64
+		{84B22187-C0D9-30EB-BB42-D6331ABEB7B8}.Debug|x64.ActiveCfg = Debug|x64
+		{84B22187-C0D9-30EB-BB42-D6331ABEB7B8}.Debug|x64.Build.0 = Debug|x64
+		{84B22187-C0D9-30EB-BB42-D6331ABEB7B8}.Release|x64.ActiveCfg = Release|x64
+		{84B22187-C0D9-30EB-BB42-D6331ABEB7B8}.Release|x64.Build.0 = Release|x64
+		{F058477E-EEDE-384B-A0C2-2E19B9CAD3E7}.Debug|x64.ActiveCfg = Debug|x64
+		{F058477E-EEDE-384B-A0C2-2E19B9CAD3E7}.Debug|x64.Build.0 = Debug|x64
+		{F058477E-EEDE-384B-A0C2-2E19B9CAD3E7}.Release|x64.ActiveCfg = Release|x64
+		{F058477E-EEDE-384B-A0C2-2E19B9CAD3E7}.Release|x64.Build.0 = Release|x64
+		{36C34A18-5D30-4CF0-AF1C-EF373362BB01}.Debug|x64.ActiveCfg = Debug|x64
+		{36C34A18-5D30-4CF0-AF1C-EF373362BB01}.Debug|x64.Build.0 = Debug|x64
+		{36C34A18-5D30-4CF0-AF1C-EF373362BB01}.Release|x64.ActiveCfg = Release|x64
+		{36C34A18-5D30-4CF0-AF1C-EF373362BB01}.Release|x64.Build.0 = Release|x64
+		{80F87484-C57E-4F61-97F9-AB31B991EE44}.Debug|x64.ActiveCfg = Debug|x64
+		{80F87484-C57E-4F61-97F9-AB31B991EE44}.Debug|x64.Build.0 = Debug|x64
+		{80F87484-C57E-4F61-97F9-AB31B991EE44}.Release|x64.ActiveCfg = Release|x64
+		{80F87484-C57E-4F61-97F9-AB31B991EE44}.Release|x64.Build.0 = Release|x64
+		{12B681C6-8B3E-430B-8457-DE2AE431F8AF}.Debug|x64.ActiveCfg = Debug|x64
+		{12B681C6-8B3E-430B-8457-DE2AE431F8AF}.Debug|x64.Build.0 = Debug|x64
+		{12B681C6-8B3E-430B-8457-DE2AE431F8AF}.Release|x64.ActiveCfg = Release|x64
+		{12B681C6-8B3E-430B-8457-DE2AE431F8AF}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C4BA43F6-3B32-40FF-A705-3F9607AB90EF} = {B4FB21B1-516B-43EA-ADA6-A594E6AB09D6}
+		{4FD88513-CD1F-3485-BAE2-F39FD18AFF69} = {C4BA43F6-3B32-40FF-A705-3F9607AB90EF}
+		{84B22187-C0D9-30EB-BB42-D6331ABEB7B8} = {C4BA43F6-3B32-40FF-A705-3F9607AB90EF}
+		{F058477E-EEDE-384B-A0C2-2E19B9CAD3E7} = {C4BA43F6-3B32-40FF-A705-3F9607AB90EF}
+		{36C34A18-5D30-4CF0-AF1C-EF373362BB01} = {C4BA43F6-3B32-40FF-A705-3F9607AB90EF}
+		{B0CA54C1-68C9-4967-861E-38B0651165D1} = {B4FB21B1-516B-43EA-ADA6-A594E6AB09D6}
+		{80F87484-C57E-4F61-97F9-AB31B991EE44} = {B0CA54C1-68C9-4967-861E-38B0651165D1}
+		{12B681C6-8B3E-430B-8457-DE2AE431F8AF} = {B0CA54C1-68C9-4967-861E-38B0651165D1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = 5.9.6_msvc2017_64
+		SolutionGuid = {2B71EAA6-8A83-4257-86C8-23F6E2559AB9}
+	EndGlobalSection
+EndGlobal

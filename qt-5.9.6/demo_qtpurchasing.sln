@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo_qtpurchasing", "1_demo_qtpurchasing", "{825E03D9-A64D-4965-A309-A2FD87546C57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{A6374716-40D9-4982-BF19-CE2C5BC0B2B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{8D983FE7-1966-4068-BC85-75E4F166164F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qthangman", "demo\qtpurchasing\examples\purchasing\qthangman\qthangman.vcxproj", "{5F29C5B2-5D24-39C2-B59C-1BA5295C7999}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qinappstore", "demo\qtpurchasing\tests\auto\purchasing\qinappstore\tst_qinappstore.vcxproj", "{6C151BEC-217D-3688-B53E-EC7CF17BF0D2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F29C5B2-5D24-39C2-B59C-1BA5295C7999}.Debug|x64.ActiveCfg = Debug|x64
+		{5F29C5B2-5D24-39C2-B59C-1BA5295C7999}.Debug|x64.Build.0 = Debug|x64
+		{5F29C5B2-5D24-39C2-B59C-1BA5295C7999}.Release|x64.ActiveCfg = Release|x64
+		{5F29C5B2-5D24-39C2-B59C-1BA5295C7999}.Release|x64.Build.0 = Release|x64
+		{6C151BEC-217D-3688-B53E-EC7CF17BF0D2}.Debug|x64.ActiveCfg = Debug|x64
+		{6C151BEC-217D-3688-B53E-EC7CF17BF0D2}.Debug|x64.Build.0 = Debug|x64
+		{6C151BEC-217D-3688-B53E-EC7CF17BF0D2}.Release|x64.ActiveCfg = Release|x64
+		{6C151BEC-217D-3688-B53E-EC7CF17BF0D2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A6374716-40D9-4982-BF19-CE2C5BC0B2B9} = {825E03D9-A64D-4965-A309-A2FD87546C57}
+		{8D983FE7-1966-4068-BC85-75E4F166164F} = {825E03D9-A64D-4965-A309-A2FD87546C57}
+		{5F29C5B2-5D24-39C2-B59C-1BA5295C7999} = {A6374716-40D9-4982-BF19-CE2C5BC0B2B9}
+		{6C151BEC-217D-3688-B53E-EC7CF17BF0D2} = {8D983FE7-1966-4068-BC85-75E4F166164F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {17447E8F-2A50-47F4-8EE5-B6E0B12692B6}
+		Qt5Version = msvc2017_64
+	EndGlobalSection
+EndGlobal

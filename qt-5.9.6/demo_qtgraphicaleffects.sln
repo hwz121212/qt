@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo_qtgraphicaleffects", "1_demo_qtgraphicaleffects", "{46DFA13C-0BA4-41FF-B839-D3EC14689811}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qtgraphicaleffects", "demo\qtgraphicaleffects\tests\auto\tst_qtgraphicaleffects.vcxproj", "{880DBA4A-3EDE-3F96-BB0B-66506915F2BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{880DBA4A-3EDE-3F96-BB0B-66506915F2BA}.Debug|x64.ActiveCfg = Debug|x64
+		{880DBA4A-3EDE-3F96-BB0B-66506915F2BA}.Debug|x64.Build.0 = Debug|x64
+		{880DBA4A-3EDE-3F96-BB0B-66506915F2BA}.Release|x64.ActiveCfg = Release|x64
+		{880DBA4A-3EDE-3F96-BB0B-66506915F2BA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{880DBA4A-3EDE-3F96-BB0B-66506915F2BA} = {46DFA13C-0BA4-41FF-B839-D3EC14689811}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {015D5532-F3BD-4DFE-B1AD-A7361EAB3720}
+		Qt5Version = msvc2017_64
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,120 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo_qtserialport", "1_demo_qtserialport", "{F27F0342-82C9-4137-A1DE-25FD701777A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{02BD99A4-F5E7-41F1-B898-E7E621A3B7CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{93E8E86F-472E-47AF-A5E9-E2722A8FF305}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cenumerator", "demo\qtserialport\examples\serialport\cenumerator\cenumerator.vcxproj", "{7B01260C-7145-33BD-846C-68F57E3E6C80}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "creaderasync", "demo\qtserialport\examples\serialport\creaderasync\creaderasync.vcxproj", "{4D92A9A6-3A1F-30D9-A057-FA371DEF0915}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "creadersync", "demo\qtserialport\examples\serialport\creadersync\creadersync.vcxproj", "{AA728D4C-C887-3272-AC30-48C9E97DD8F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cwriterasync", "demo\qtserialport\examples\serialport\cwriterasync\cwriterasync.vcxproj", "{C62F5EE6-60C8-3910-8F48-80AB422F12C7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cwritersync", "demo\qtserialport\examples\serialport\cwritersync\cwritersync.vcxproj", "{209A1653-1FB0-33B1-B49F-431A79756350}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "enumerator", "demo\qtserialport\examples\serialport\enumerator\enumerator.vcxproj", "{CFDD5895-CD2E-356B-887B-403A4D6EF75B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "terminal", "demo\qtserialport\examples\serialport\terminal\terminal.vcxproj", "{3EA3A5AF-1F41-32BD-9D77-8FB0BE54E6B1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "blockingmaster", "demo\qtserialport\examples\serialport\blockingmaster\blockingmaster.vcxproj", "{A802ABB5-0AD4-3A54-8B1E-B064A1D5CD61}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "blockingslave", "demo\qtserialport\examples\serialport\blockingslave\blockingslave.vcxproj", "{9E3CD3AD-9DF7-3FEE-85D8-0781534F959A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "master", "demo\qtserialport\examples\serialport\master\master.vcxproj", "{4E0C459A-0E73-3F27-8E84-9C5F8C16AB0D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "slave", "demo\qtserialport\examples\serialport\slave\slave.vcxproj", "{00EB72C9-882A-331A-BDC9-983453181FA6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qserialport", "demo\qtserialport\tests\auto\qserialport\tst_qserialport.vcxproj", "{626C3752-48B2-3F7C-9119-CA532C3D2E8E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qserialportinfo", "demo\qtserialport\tests\auto\qserialportinfo\tst_qserialportinfo.vcxproj", "{D047303B-D2BE-3894-B719-33BF63E8A29C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B01260C-7145-33BD-846C-68F57E3E6C80}.Debug|x64.ActiveCfg = Debug|x64
+		{7B01260C-7145-33BD-846C-68F57E3E6C80}.Debug|x64.Build.0 = Debug|x64
+		{7B01260C-7145-33BD-846C-68F57E3E6C80}.Release|x64.ActiveCfg = Release|x64
+		{7B01260C-7145-33BD-846C-68F57E3E6C80}.Release|x64.Build.0 = Release|x64
+		{4D92A9A6-3A1F-30D9-A057-FA371DEF0915}.Debug|x64.ActiveCfg = Debug|x64
+		{4D92A9A6-3A1F-30D9-A057-FA371DEF0915}.Debug|x64.Build.0 = Debug|x64
+		{4D92A9A6-3A1F-30D9-A057-FA371DEF0915}.Release|x64.ActiveCfg = Release|x64
+		{4D92A9A6-3A1F-30D9-A057-FA371DEF0915}.Release|x64.Build.0 = Release|x64
+		{AA728D4C-C887-3272-AC30-48C9E97DD8F1}.Debug|x64.ActiveCfg = Debug|x64
+		{AA728D4C-C887-3272-AC30-48C9E97DD8F1}.Debug|x64.Build.0 = Debug|x64
+		{AA728D4C-C887-3272-AC30-48C9E97DD8F1}.Release|x64.ActiveCfg = Release|x64
+		{AA728D4C-C887-3272-AC30-48C9E97DD8F1}.Release|x64.Build.0 = Release|x64
+		{C62F5EE6-60C8-3910-8F48-80AB422F12C7}.Debug|x64.ActiveCfg = Debug|x64
+		{C62F5EE6-60C8-3910-8F48-80AB422F12C7}.Debug|x64.Build.0 = Debug|x64
+		{C62F5EE6-60C8-3910-8F48-80AB422F12C7}.Release|x64.ActiveCfg = Release|x64
+		{C62F5EE6-60C8-3910-8F48-80AB422F12C7}.Release|x64.Build.0 = Release|x64
+		{209A1653-1FB0-33B1-B49F-431A79756350}.Debug|x64.ActiveCfg = Debug|x64
+		{209A1653-1FB0-33B1-B49F-431A79756350}.Debug|x64.Build.0 = Debug|x64
+		{209A1653-1FB0-33B1-B49F-431A79756350}.Release|x64.ActiveCfg = Release|x64
+		{209A1653-1FB0-33B1-B49F-431A79756350}.Release|x64.Build.0 = Release|x64
+		{CFDD5895-CD2E-356B-887B-403A4D6EF75B}.Debug|x64.ActiveCfg = Debug|x64
+		{CFDD5895-CD2E-356B-887B-403A4D6EF75B}.Debug|x64.Build.0 = Debug|x64
+		{CFDD5895-CD2E-356B-887B-403A4D6EF75B}.Release|x64.ActiveCfg = Release|x64
+		{CFDD5895-CD2E-356B-887B-403A4D6EF75B}.Release|x64.Build.0 = Release|x64
+		{3EA3A5AF-1F41-32BD-9D77-8FB0BE54E6B1}.Debug|x64.ActiveCfg = Debug|x64
+		{3EA3A5AF-1F41-32BD-9D77-8FB0BE54E6B1}.Debug|x64.Build.0 = Debug|x64
+		{3EA3A5AF-1F41-32BD-9D77-8FB0BE54E6B1}.Release|x64.ActiveCfg = Release|x64
+		{3EA3A5AF-1F41-32BD-9D77-8FB0BE54E6B1}.Release|x64.Build.0 = Release|x64
+		{A802ABB5-0AD4-3A54-8B1E-B064A1D5CD61}.Debug|x64.ActiveCfg = Debug|x64
+		{A802ABB5-0AD4-3A54-8B1E-B064A1D5CD61}.Debug|x64.Build.0 = Debug|x64
+		{A802ABB5-0AD4-3A54-8B1E-B064A1D5CD61}.Release|x64.ActiveCfg = Release|x64
+		{A802ABB5-0AD4-3A54-8B1E-B064A1D5CD61}.Release|x64.Build.0 = Release|x64
+		{9E3CD3AD-9DF7-3FEE-85D8-0781534F959A}.Debug|x64.ActiveCfg = Debug|x64
+		{9E3CD3AD-9DF7-3FEE-85D8-0781534F959A}.Debug|x64.Build.0 = Debug|x64
+		{9E3CD3AD-9DF7-3FEE-85D8-0781534F959A}.Release|x64.ActiveCfg = Release|x64
+		{9E3CD3AD-9DF7-3FEE-85D8-0781534F959A}.Release|x64.Build.0 = Release|x64
+		{4E0C459A-0E73-3F27-8E84-9C5F8C16AB0D}.Debug|x64.ActiveCfg = Debug|x64
+		{4E0C459A-0E73-3F27-8E84-9C5F8C16AB0D}.Debug|x64.Build.0 = Debug|x64
+		{4E0C459A-0E73-3F27-8E84-9C5F8C16AB0D}.Release|x64.ActiveCfg = Release|x64
+		{4E0C459A-0E73-3F27-8E84-9C5F8C16AB0D}.Release|x64.Build.0 = Release|x64
+		{00EB72C9-882A-331A-BDC9-983453181FA6}.Debug|x64.ActiveCfg = Debug|x64
+		{00EB72C9-882A-331A-BDC9-983453181FA6}.Debug|x64.Build.0 = Debug|x64
+		{00EB72C9-882A-331A-BDC9-983453181FA6}.Release|x64.ActiveCfg = Release|x64
+		{00EB72C9-882A-331A-BDC9-983453181FA6}.Release|x64.Build.0 = Release|x64
+		{626C3752-48B2-3F7C-9119-CA532C3D2E8E}.Debug|x64.ActiveCfg = Debug|x64
+		{626C3752-48B2-3F7C-9119-CA532C3D2E8E}.Debug|x64.Build.0 = Debug|x64
+		{626C3752-48B2-3F7C-9119-CA532C3D2E8E}.Release|x64.ActiveCfg = Release|x64
+		{626C3752-48B2-3F7C-9119-CA532C3D2E8E}.Release|x64.Build.0 = Release|x64
+		{D047303B-D2BE-3894-B719-33BF63E8A29C}.Debug|x64.ActiveCfg = Debug|x64
+		{D047303B-D2BE-3894-B719-33BF63E8A29C}.Debug|x64.Build.0 = Debug|x64
+		{D047303B-D2BE-3894-B719-33BF63E8A29C}.Release|x64.ActiveCfg = Release|x64
+		{D047303B-D2BE-3894-B719-33BF63E8A29C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02BD99A4-F5E7-41F1-B898-E7E621A3B7CD} = {F27F0342-82C9-4137-A1DE-25FD701777A0}
+		{93E8E86F-472E-47AF-A5E9-E2722A8FF305} = {F27F0342-82C9-4137-A1DE-25FD701777A0}
+		{7B01260C-7145-33BD-846C-68F57E3E6C80} = {02BD99A4-F5E7-41F1-B898-E7E621A3B7CD}
+		{4D92A9A6-3A1F-30D9-A057-FA371DEF0915} = {02BD99A4-F5E7-41F1-B898-E7E621A3B7CD}
+		{AA728D4C-C887-3272-AC30-48C9E97DD8F1} = {02BD99A4-F5E7-41F1-B898-E7E621A3B7CD}
+		{C62F5EE6-60C8-3910-8F48-80AB422F12C7} = {02BD99A4-F5E7-41F1-B898-E7E621A3B7CD}
+		{209A1653-1FB0-33B1-B49F-431A79756350} = {02BD99A4-F5E7-41F1-B898-E7E621A3B7CD}
+		{CFDD5895-CD2E-356B-887B-403A4D6EF75B} = {02BD99A4-F5E7-41F1-B898-E7E621A3B7CD}
+		{3EA3A5AF-1F41-32BD-9D77-8FB0BE54E6B1} = {02BD99A4-F5E7-41F1-B898-E7E621A3B7CD}
+		{A802ABB5-0AD4-3A54-8B1E-B064A1D5CD61} = {02BD99A4-F5E7-41F1-B898-E7E621A3B7CD}
+		{9E3CD3AD-9DF7-3FEE-85D8-0781534F959A} = {02BD99A4-F5E7-41F1-B898-E7E621A3B7CD}
+		{4E0C459A-0E73-3F27-8E84-9C5F8C16AB0D} = {02BD99A4-F5E7-41F1-B898-E7E621A3B7CD}
+		{00EB72C9-882A-331A-BDC9-983453181FA6} = {02BD99A4-F5E7-41F1-B898-E7E621A3B7CD}
+		{626C3752-48B2-3F7C-9119-CA532C3D2E8E} = {93E8E86F-472E-47AF-A5E9-E2722A8FF305}
+		{D047303B-D2BE-3894-B719-33BF63E8A29C} = {93E8E86F-472E-47AF-A5E9-E2722A8FF305}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41CB7B83-A607-4B0B-A3B9-78A0D0F5D01B}
+		Qt5Version = msvc2017_64
+	EndGlobalSection
+EndGlobal

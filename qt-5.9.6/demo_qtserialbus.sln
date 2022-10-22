@@ -1,0 +1,154 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo_qtserialbus", "1_demo_qtserialbus", "{AD2800E2-3F1F-41F0-8679-FF587103F3E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{98C54727-4ECB-436E-B36D-AD03E9D2148B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{94BF6CF2-2970-4185-A4F9-3382371D97D7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "can", "demo\qtserialbus\examples\serialbus\can\can.vcxproj", "{186B4F8C-6F7D-3BC3-8F4A-5D6E94D81C99}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "modbusmaster", "demo\qtserialbus\examples\serialbus\modbus\master\modbusmaster.vcxproj", "{23328215-B043-3CD0-A0FA-E82C53731F3C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "modbusslave", "demo\qtserialbus\examples\serialbus\modbus\slave\modbusslave.vcxproj", "{1EE408FE-88A1-3FAE-BAA7-7D8470280B8A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "adueditor", "demo\qtserialbus\examples\serialbus\modbus\adueditor\adueditor.vcxproj", "{48C67BEC-FDB0-3CE6-80B6-CEAB500C3B0C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qcanbusframe", "demo\qtserialbus\tests\auto\qcanbusframe\tst_qcanbusframe.vcxproj", "{D2A9F6C9-800E-3F18-8C56-A23B6AB4BF87}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qcanbus", "demo\qtserialbus\tests\auto\qcanbus\tst_qcanbus.vcxproj", "{FE3EAAD1-6B7E-3BF8-A620-895875025F0B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qcanbusdevice", "demo\qtserialbus\tests\auto\qcanbusdevice\tst_qcanbusdevice.vcxproj", "{C7F551FC-A380-3750-85CF-FAB3E89C0EB3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qmodbusdataunit", "demo\qtserialbus\tests\auto\qmodbusdataunit\tst_qmodbusdataunit.vcxproj", "{82A55FAC-00D6-358E-85DF-241320CCDAAB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qmodbusreply", "demo\qtserialbus\tests\auto\qmodbusreply\tst_qmodbusreply.vcxproj", "{EBD5FDBE-D42C-3630-9689-238EA1A025F2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qmodbusdevice", "demo\qtserialbus\tests\auto\qmodbusdevice\tst_qmodbusdevice.vcxproj", "{D32975FB-A885-347E-B365-74D33B9A2BC1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qmodbuspdu", "demo\qtserialbus\tests\auto\qmodbuspdu\tst_qmodbuspdu.vcxproj", "{42BE2923-6D5D-3FBC-9866-4D9DF3D1B60B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qmodbusserver", "demo\qtserialbus\tests\auto\qmodbusserver\tst_qmodbusserver.vcxproj", "{86B67548-3BE9-393D-8A5D-8CB5F0F09583}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qmodbuscommevent", "demo\qtserialbus\tests\auto\qmodbuscommevent\tst_qmodbuscommevent.vcxproj", "{2039DD94-532C-3921-88A9-508C043C4D04}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qmodbusadu", "demo\qtserialbus\tests\auto\qmodbusadu\tst_qmodbusadu.vcxproj", "{61D9C85F-8636-3052-8BD3-F8C59DAD1D96}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qmodbusdeviceidentification", "demo\qtserialbus\tests\auto\qmodbusdeviceidentification\tst_qmodbusdeviceidentification.vcxproj", "{34D7D3C1-A2FD-3658-ADE3-42EE4510A65B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qmodbusrtuserialmaster", "demo\qtserialbus\tests\auto\qmodbusrtuserialmaster\tst_qmodbusrtuserialmaster.vcxproj", "{658064C9-11D7-3FAA-97D8-05DD997C6EBD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtcanbustestgeneric", "demo\qtserialbus\tests\auto\plugins\genericcanbus\qtcanbustestgeneric.vcxproj", "{0058E997-F504-345E-94D6-9B01452829A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtcanbustestgenericv1", "demo\qtserialbus\tests\auto\plugins\genericcanbusv1\qtcanbustestgenericv1.vcxproj", "{A21CC6EC-B66A-3E98-8B21-E59453F7CDCE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{186B4F8C-6F7D-3BC3-8F4A-5D6E94D81C99}.Debug|x64.ActiveCfg = Debug|x64
+		{186B4F8C-6F7D-3BC3-8F4A-5D6E94D81C99}.Debug|x64.Build.0 = Debug|x64
+		{186B4F8C-6F7D-3BC3-8F4A-5D6E94D81C99}.Release|x64.ActiveCfg = Release|x64
+		{186B4F8C-6F7D-3BC3-8F4A-5D6E94D81C99}.Release|x64.Build.0 = Release|x64
+		{23328215-B043-3CD0-A0FA-E82C53731F3C}.Debug|x64.ActiveCfg = Debug|x64
+		{23328215-B043-3CD0-A0FA-E82C53731F3C}.Debug|x64.Build.0 = Debug|x64
+		{23328215-B043-3CD0-A0FA-E82C53731F3C}.Release|x64.ActiveCfg = Release|x64
+		{23328215-B043-3CD0-A0FA-E82C53731F3C}.Release|x64.Build.0 = Release|x64
+		{1EE408FE-88A1-3FAE-BAA7-7D8470280B8A}.Debug|x64.ActiveCfg = Debug|x64
+		{1EE408FE-88A1-3FAE-BAA7-7D8470280B8A}.Debug|x64.Build.0 = Debug|x64
+		{1EE408FE-88A1-3FAE-BAA7-7D8470280B8A}.Release|x64.ActiveCfg = Release|x64
+		{1EE408FE-88A1-3FAE-BAA7-7D8470280B8A}.Release|x64.Build.0 = Release|x64
+		{48C67BEC-FDB0-3CE6-80B6-CEAB500C3B0C}.Debug|x64.ActiveCfg = Debug|x64
+		{48C67BEC-FDB0-3CE6-80B6-CEAB500C3B0C}.Debug|x64.Build.0 = Debug|x64
+		{48C67BEC-FDB0-3CE6-80B6-CEAB500C3B0C}.Release|x64.ActiveCfg = Release|x64
+		{48C67BEC-FDB0-3CE6-80B6-CEAB500C3B0C}.Release|x64.Build.0 = Release|x64
+		{D2A9F6C9-800E-3F18-8C56-A23B6AB4BF87}.Debug|x64.ActiveCfg = Debug|x64
+		{D2A9F6C9-800E-3F18-8C56-A23B6AB4BF87}.Debug|x64.Build.0 = Debug|x64
+		{D2A9F6C9-800E-3F18-8C56-A23B6AB4BF87}.Release|x64.ActiveCfg = Release|x64
+		{D2A9F6C9-800E-3F18-8C56-A23B6AB4BF87}.Release|x64.Build.0 = Release|x64
+		{FE3EAAD1-6B7E-3BF8-A620-895875025F0B}.Debug|x64.ActiveCfg = Debug|x64
+		{FE3EAAD1-6B7E-3BF8-A620-895875025F0B}.Debug|x64.Build.0 = Debug|x64
+		{FE3EAAD1-6B7E-3BF8-A620-895875025F0B}.Release|x64.ActiveCfg = Release|x64
+		{FE3EAAD1-6B7E-3BF8-A620-895875025F0B}.Release|x64.Build.0 = Release|x64
+		{C7F551FC-A380-3750-85CF-FAB3E89C0EB3}.Debug|x64.ActiveCfg = Debug|x64
+		{C7F551FC-A380-3750-85CF-FAB3E89C0EB3}.Debug|x64.Build.0 = Debug|x64
+		{C7F551FC-A380-3750-85CF-FAB3E89C0EB3}.Release|x64.ActiveCfg = Release|x64
+		{C7F551FC-A380-3750-85CF-FAB3E89C0EB3}.Release|x64.Build.0 = Release|x64
+		{82A55FAC-00D6-358E-85DF-241320CCDAAB}.Debug|x64.ActiveCfg = Debug|x64
+		{82A55FAC-00D6-358E-85DF-241320CCDAAB}.Debug|x64.Build.0 = Debug|x64
+		{82A55FAC-00D6-358E-85DF-241320CCDAAB}.Release|x64.ActiveCfg = Release|x64
+		{82A55FAC-00D6-358E-85DF-241320CCDAAB}.Release|x64.Build.0 = Release|x64
+		{EBD5FDBE-D42C-3630-9689-238EA1A025F2}.Debug|x64.ActiveCfg = Debug|x64
+		{EBD5FDBE-D42C-3630-9689-238EA1A025F2}.Debug|x64.Build.0 = Debug|x64
+		{EBD5FDBE-D42C-3630-9689-238EA1A025F2}.Release|x64.ActiveCfg = Release|x64
+		{EBD5FDBE-D42C-3630-9689-238EA1A025F2}.Release|x64.Build.0 = Release|x64
+		{D32975FB-A885-347E-B365-74D33B9A2BC1}.Debug|x64.ActiveCfg = Debug|x64
+		{D32975FB-A885-347E-B365-74D33B9A2BC1}.Debug|x64.Build.0 = Debug|x64
+		{D32975FB-A885-347E-B365-74D33B9A2BC1}.Release|x64.ActiveCfg = Release|x64
+		{D32975FB-A885-347E-B365-74D33B9A2BC1}.Release|x64.Build.0 = Release|x64
+		{42BE2923-6D5D-3FBC-9866-4D9DF3D1B60B}.Debug|x64.ActiveCfg = Debug|x64
+		{42BE2923-6D5D-3FBC-9866-4D9DF3D1B60B}.Debug|x64.Build.0 = Debug|x64
+		{42BE2923-6D5D-3FBC-9866-4D9DF3D1B60B}.Release|x64.ActiveCfg = Release|x64
+		{42BE2923-6D5D-3FBC-9866-4D9DF3D1B60B}.Release|x64.Build.0 = Release|x64
+		{86B67548-3BE9-393D-8A5D-8CB5F0F09583}.Debug|x64.ActiveCfg = Debug|x64
+		{86B67548-3BE9-393D-8A5D-8CB5F0F09583}.Debug|x64.Build.0 = Debug|x64
+		{86B67548-3BE9-393D-8A5D-8CB5F0F09583}.Release|x64.ActiveCfg = Release|x64
+		{86B67548-3BE9-393D-8A5D-8CB5F0F09583}.Release|x64.Build.0 = Release|x64
+		{2039DD94-532C-3921-88A9-508C043C4D04}.Debug|x64.ActiveCfg = Debug|x64
+		{2039DD94-532C-3921-88A9-508C043C4D04}.Debug|x64.Build.0 = Debug|x64
+		{2039DD94-532C-3921-88A9-508C043C4D04}.Release|x64.ActiveCfg = Release|x64
+		{2039DD94-532C-3921-88A9-508C043C4D04}.Release|x64.Build.0 = Release|x64
+		{61D9C85F-8636-3052-8BD3-F8C59DAD1D96}.Debug|x64.ActiveCfg = Debug|x64
+		{61D9C85F-8636-3052-8BD3-F8C59DAD1D96}.Debug|x64.Build.0 = Debug|x64
+		{61D9C85F-8636-3052-8BD3-F8C59DAD1D96}.Release|x64.ActiveCfg = Release|x64
+		{61D9C85F-8636-3052-8BD3-F8C59DAD1D96}.Release|x64.Build.0 = Release|x64
+		{34D7D3C1-A2FD-3658-ADE3-42EE4510A65B}.Debug|x64.ActiveCfg = Debug|x64
+		{34D7D3C1-A2FD-3658-ADE3-42EE4510A65B}.Debug|x64.Build.0 = Debug|x64
+		{34D7D3C1-A2FD-3658-ADE3-42EE4510A65B}.Release|x64.ActiveCfg = Release|x64
+		{34D7D3C1-A2FD-3658-ADE3-42EE4510A65B}.Release|x64.Build.0 = Release|x64
+		{658064C9-11D7-3FAA-97D8-05DD997C6EBD}.Debug|x64.ActiveCfg = Debug|x64
+		{658064C9-11D7-3FAA-97D8-05DD997C6EBD}.Debug|x64.Build.0 = Debug|x64
+		{658064C9-11D7-3FAA-97D8-05DD997C6EBD}.Release|x64.ActiveCfg = Release|x64
+		{658064C9-11D7-3FAA-97D8-05DD997C6EBD}.Release|x64.Build.0 = Release|x64
+		{0058E997-F504-345E-94D6-9B01452829A4}.Debug|x64.ActiveCfg = Debug|x64
+		{0058E997-F504-345E-94D6-9B01452829A4}.Debug|x64.Build.0 = Debug|x64
+		{0058E997-F504-345E-94D6-9B01452829A4}.Release|x64.ActiveCfg = Release|x64
+		{0058E997-F504-345E-94D6-9B01452829A4}.Release|x64.Build.0 = Release|x64
+		{A21CC6EC-B66A-3E98-8B21-E59453F7CDCE}.Debug|x64.ActiveCfg = Debug|x64
+		{A21CC6EC-B66A-3E98-8B21-E59453F7CDCE}.Debug|x64.Build.0 = Debug|x64
+		{A21CC6EC-B66A-3E98-8B21-E59453F7CDCE}.Release|x64.ActiveCfg = Release|x64
+		{A21CC6EC-B66A-3E98-8B21-E59453F7CDCE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98C54727-4ECB-436E-B36D-AD03E9D2148B} = {AD2800E2-3F1F-41F0-8679-FF587103F3E3}
+		{94BF6CF2-2970-4185-A4F9-3382371D97D7} = {AD2800E2-3F1F-41F0-8679-FF587103F3E3}
+		{186B4F8C-6F7D-3BC3-8F4A-5D6E94D81C99} = {98C54727-4ECB-436E-B36D-AD03E9D2148B}
+		{23328215-B043-3CD0-A0FA-E82C53731F3C} = {98C54727-4ECB-436E-B36D-AD03E9D2148B}
+		{1EE408FE-88A1-3FAE-BAA7-7D8470280B8A} = {98C54727-4ECB-436E-B36D-AD03E9D2148B}
+		{48C67BEC-FDB0-3CE6-80B6-CEAB500C3B0C} = {98C54727-4ECB-436E-B36D-AD03E9D2148B}
+		{D2A9F6C9-800E-3F18-8C56-A23B6AB4BF87} = {94BF6CF2-2970-4185-A4F9-3382371D97D7}
+		{FE3EAAD1-6B7E-3BF8-A620-895875025F0B} = {94BF6CF2-2970-4185-A4F9-3382371D97D7}
+		{C7F551FC-A380-3750-85CF-FAB3E89C0EB3} = {94BF6CF2-2970-4185-A4F9-3382371D97D7}
+		{82A55FAC-00D6-358E-85DF-241320CCDAAB} = {94BF6CF2-2970-4185-A4F9-3382371D97D7}
+		{EBD5FDBE-D42C-3630-9689-238EA1A025F2} = {94BF6CF2-2970-4185-A4F9-3382371D97D7}
+		{D32975FB-A885-347E-B365-74D33B9A2BC1} = {94BF6CF2-2970-4185-A4F9-3382371D97D7}
+		{42BE2923-6D5D-3FBC-9866-4D9DF3D1B60B} = {94BF6CF2-2970-4185-A4F9-3382371D97D7}
+		{86B67548-3BE9-393D-8A5D-8CB5F0F09583} = {94BF6CF2-2970-4185-A4F9-3382371D97D7}
+		{2039DD94-532C-3921-88A9-508C043C4D04} = {94BF6CF2-2970-4185-A4F9-3382371D97D7}
+		{61D9C85F-8636-3052-8BD3-F8C59DAD1D96} = {94BF6CF2-2970-4185-A4F9-3382371D97D7}
+		{34D7D3C1-A2FD-3658-ADE3-42EE4510A65B} = {94BF6CF2-2970-4185-A4F9-3382371D97D7}
+		{658064C9-11D7-3FAA-97D8-05DD997C6EBD} = {94BF6CF2-2970-4185-A4F9-3382371D97D7}
+		{0058E997-F504-345E-94D6-9B01452829A4} = {94BF6CF2-2970-4185-A4F9-3382371D97D7}
+		{A21CC6EC-B66A-3E98-8B21-E59453F7CDCE} = {94BF6CF2-2970-4185-A4F9-3382371D97D7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3233FF4A-0375-4996-A740-19AE34C65EEF}
+	EndGlobalSection
+EndGlobal
