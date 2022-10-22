@@ -1,0 +1,171 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qdiriterator.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qdiriterator.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QDirIterator_t {
+    QByteArrayData data[16];
+    char stringdata0[268];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QDirIterator_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QDirIterator_t qt_meta_stringdata_tst_QDirIterator = {
+    {
+QT_MOC_LITERAL(0, 0, 16), // "tst_QDirIterator"
+QT_MOC_LITERAL(1, 17, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 30, 0), // ""
+QT_MOC_LITERAL(3, 31, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(4, 47, 29), // "iterateRelativeDirectory_data"
+QT_MOC_LITERAL(5, 77, 24), // "iterateRelativeDirectory"
+QT_MOC_LITERAL(6, 102, 20), // "iterateResource_data"
+QT_MOC_LITERAL(7, 123, 15), // "iterateResource"
+QT_MOC_LITERAL(8, 139, 12), // "stopLinkLoop"
+QT_MOC_LITERAL(9, 152, 41), // "absoluteFilePathsFromRelative..."
+QT_MOC_LITERAL(10, 194, 18), // "recurseWithFilters"
+QT_MOC_LITERAL(11, 213, 8), // "longPath"
+QT_MOC_LITERAL(12, 222, 8), // "dirorder"
+QT_MOC_LITERAL(13, 231, 13), // "relativePaths"
+QT_MOC_LITERAL(14, 245, 13), // "uncPaths_data"
+QT_MOC_LITERAL(15, 259, 8) // "uncPaths"
+
+    },
+    "tst_QDirIterator\0initTestCase\0\0"
+    "cleanupTestCase\0iterateRelativeDirectory_data\0"
+    "iterateRelativeDirectory\0iterateResource_data\0"
+    "iterateResource\0stopLinkLoop\0"
+    "absoluteFilePathsFromRelativeIteratorPath\0"
+    "recurseWithFilters\0longPath\0dirorder\0"
+    "relativePaths\0uncPaths_data\0uncPaths"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QDirIterator[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      14,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   84,    2, 0x08 /* Private */,
+       3,    0,   85,    2, 0x08 /* Private */,
+       4,    0,   86,    2, 0x08 /* Private */,
+       5,    0,   87,    2, 0x08 /* Private */,
+       6,    0,   88,    2, 0x08 /* Private */,
+       7,    0,   89,    2, 0x08 /* Private */,
+       8,    0,   90,    2, 0x08 /* Private */,
+       9,    0,   91,    2, 0x08 /* Private */,
+      10,    0,   92,    2, 0x08 /* Private */,
+      11,    0,   93,    2, 0x08 /* Private */,
+      12,    0,   94,    2, 0x08 /* Private */,
+      13,    0,   95,    2, 0x08 /* Private */,
+      14,    0,   96,    2, 0x08 /* Private */,
+      15,    0,   97,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QDirIterator::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QDirIterator *_t = static_cast<tst_QDirIterator *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->cleanupTestCase(); break;
+        case 2: _t->iterateRelativeDirectory_data(); break;
+        case 3: _t->iterateRelativeDirectory(); break;
+        case 4: _t->iterateResource_data(); break;
+        case 5: _t->iterateResource(); break;
+        case 6: _t->stopLinkLoop(); break;
+        case 7: _t->absoluteFilePathsFromRelativeIteratorPath(); break;
+        case 8: _t->recurseWithFilters(); break;
+        case 9: _t->longPath(); break;
+        case 10: _t->dirorder(); break;
+        case 11: _t->relativePaths(); break;
+        case 12: _t->uncPaths_data(); break;
+        case 13: _t->uncPaths(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QDirIterator::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QDirIterator.data,
+      qt_meta_data_tst_QDirIterator,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QDirIterator::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QDirIterator::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QDirIterator.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QDirIterator::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 14)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 14;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 14)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 14;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hangmangame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="hangmangame.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qml\qthangman\GameView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\GuessWordView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\Hangman.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\HowToView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\Key.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\Letter.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\LetterSelector.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\MainView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\PageHeader.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\ScoreItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\+windows\Settings.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\Settings.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\SimpleButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\SplashScreen.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\StoreItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\StoreView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\Word.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="enable2.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qthangman\qmldir">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="resources.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>

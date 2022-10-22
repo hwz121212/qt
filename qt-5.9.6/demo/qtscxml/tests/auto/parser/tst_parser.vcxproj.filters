@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="tst_parser.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    <CustomBuild Include=".moc\debug\tst_parser.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\tst_parser.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\badInitial.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\badInitial.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\commentInScript.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\commentInScript.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\empty.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\empty.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\eventnames.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\eventnames.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\ids1.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\ids1.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\ids2.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\ids2.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidContent.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidContent.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidRoot1.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidRoot1.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidRoot2.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidRoot2.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidRoot3.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidRoot3.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidRoot6.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidRoot6.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidUnicode1.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidUnicode1.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidXmlHeader1.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidXmlHeader1.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidXmlHeader2.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidXmlHeader2.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidstatemachinename.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\invalidstatemachinename.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\misplacedinvoke.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\misplacedinvoke.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\namespaces1.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\namespaces1.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\nestedScxml.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\nestedScxml.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\noContentInInvoke1.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\noContentInInvoke1.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\noContentInInvoke2.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\noContentInInvoke2.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\noContentInInvoke3.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\noContentInInvoke3.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\noContentInInvoke4.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\noContentInInvoke4.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\prematureEndOfDocument1.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\prematureEndOfDocument1.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\prematureEndOfDocument2.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\prematureEndOfDocument2.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\scxml1.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\scxml1.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\scxml2.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\scxml2.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors1.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors1.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors10.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors10.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors11.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors11.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors12.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors12.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors13.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors13.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors14.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors14.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors15.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors15.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors2.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors2.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors3.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors3.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors4.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors4.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors5.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors5.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors7.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors7.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors9.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\syntaxErrors9.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\test1.scxml.errors">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\test1.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="tst_parser.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>

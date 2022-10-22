@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\snippets\frequencymonitor\frequencymonitor.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <ClCompile Include="..\snippets\frequencymonitor\frequencymonitordeclarative.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snippets\performancemonitor\performancemonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snippets\performancemonitor\performancemonitordeclarative.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\snippets\frequencymonitor\frequencymonitor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\snippets\performancemonitor\performancemonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\snippets\performancemonitor\performancemonitordeclarative.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qml\qmlvideo\Button.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\CameraBasic.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\CameraDrag.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\CameraDummy.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\CameraFullScreen.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\CameraFullScreenInverted.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\CameraItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\CameraMove.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\CameraOverlay.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\CameraResize.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\CameraRotate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\CameraSpin.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\Content.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\ErrorDialog.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\FileBrowser.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\snippets\frequencymonitor\qml\frequencymonitor\FrequencyItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\snippets\performancemonitor\qml\performancemonitor\PerformanceItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\Scene.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\SceneBasic.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\SceneDrag.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\SceneFullScreen.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\SceneFullScreenInverted.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\SceneMove.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\SceneMulti.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\SceneOverlay.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\SceneResize.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\SceneRotate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\SceneSelectionPanel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\SceneSpin.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\SeekControl.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoBasic.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoDrag.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoDummy.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoFillMode.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoFullScreen.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoFullScreenInverted.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoMetadata.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoMove.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoOverlay.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoPlaybackRate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoResize.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoRotate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoSeek.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\VideoSpin.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\folder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\snippets\frequencymonitor\frequencymonitordeclarative.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="images\leaves.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideo\main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\snippets\performancemonitor\performancemonitordeclarative.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="qmlvideo.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="images\up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

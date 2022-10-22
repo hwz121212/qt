@@ -1,0 +1,325 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qcircularbuffer.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qcircularbuffer.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QCircularBuffer_t {
+    QByteArrayData data[52];
+    char stringdata0[613];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QCircularBuffer_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QCircularBuffer_t qt_meta_stringdata_tst_QCircularBuffer = {
+    {
+QT_MOC_LITERAL(0, 0, 19), // "tst_QCircularBuffer"
+QT_MOC_LITERAL(1, 20, 12), // "construction"
+QT_MOC_LITERAL(2, 33, 0), // ""
+QT_MOC_LITERAL(3, 34, 11), // "destruction"
+QT_MOC_LITERAL(4, 46, 6), // "append"
+QT_MOC_LITERAL(5, 53, 2), // "at"
+QT_MOC_LITERAL(6, 56, 8), // "capacity"
+QT_MOC_LITERAL(7, 65, 5), // "clear"
+QT_MOC_LITERAL(8, 71, 8), // "contains"
+QT_MOC_LITERAL(9, 80, 5), // "count"
+QT_MOC_LITERAL(10, 86, 4), // "data"
+QT_MOC_LITERAL(11, 91, 10), // "dataOneTwo"
+QT_MOC_LITERAL(12, 102, 8), // "endsWith"
+QT_MOC_LITERAL(13, 111, 5), // "erase"
+QT_MOC_LITERAL(14, 117, 4), // "fill"
+QT_MOC_LITERAL(15, 122, 5), // "first"
+QT_MOC_LITERAL(16, 128, 8), // "fromList"
+QT_MOC_LITERAL(17, 137, 10), // "fromVector"
+QT_MOC_LITERAL(18, 148, 7), // "indexOf"
+QT_MOC_LITERAL(19, 156, 6), // "insert"
+QT_MOC_LITERAL(20, 163, 14), // "insertIterator"
+QT_MOC_LITERAL(21, 178, 7), // "isEmpty"
+QT_MOC_LITERAL(22, 186, 6), // "isFull"
+QT_MOC_LITERAL(23, 193, 12), // "isLinearised"
+QT_MOC_LITERAL(24, 206, 4), // "last"
+QT_MOC_LITERAL(25, 211, 11), // "lastIndexOf"
+QT_MOC_LITERAL(26, 223, 9), // "linearise"
+QT_MOC_LITERAL(27, 233, 7), // "prepend"
+QT_MOC_LITERAL(28, 241, 8), // "sharable"
+QT_MOC_LITERAL(29, 250, 22), // "removeStaticLinearised"
+QT_MOC_LITERAL(30, 273, 25), // "removeStaticNonLinearised"
+QT_MOC_LITERAL(31, 299, 23), // "removeMovableLinearised"
+QT_MOC_LITERAL(32, 323, 31), // "removeMovableNonLinearisedUpper"
+QT_MOC_LITERAL(33, 355, 31), // "removeMovableNonLinearisedLower"
+QT_MOC_LITERAL(34, 387, 7), // "replace"
+QT_MOC_LITERAL(35, 395, 6), // "resize"
+QT_MOC_LITERAL(36, 402, 17), // "setCapacityStatic"
+QT_MOC_LITERAL(37, 420, 18), // "setCapacityMovable"
+QT_MOC_LITERAL(38, 439, 4), // "size"
+QT_MOC_LITERAL(39, 444, 13), // "sizeAvailable"
+QT_MOC_LITERAL(40, 458, 10), // "startsWith"
+QT_MOC_LITERAL(41, 469, 6), // "toList"
+QT_MOC_LITERAL(42, 476, 8), // "toVector"
+QT_MOC_LITERAL(43, 485, 5), // "value"
+QT_MOC_LITERAL(44, 491, 16), // "operatorEquality"
+QT_MOC_LITERAL(45, 508, 18), // "operatorInequality"
+QT_MOC_LITERAL(46, 527, 12), // "operatorPlus"
+QT_MOC_LITERAL(47, 540, 18), // "operatorPlusEquals"
+QT_MOC_LITERAL(48, 559, 14), // "operatorStream"
+QT_MOC_LITERAL(49, 574, 14), // "const_iterator"
+QT_MOC_LITERAL(50, 589, 8), // "iterator"
+QT_MOC_LITERAL(51, 598, 14) // "testAppendFifo"
+
+    },
+    "tst_QCircularBuffer\0construction\0\0"
+    "destruction\0append\0at\0capacity\0clear\0"
+    "contains\0count\0data\0dataOneTwo\0endsWith\0"
+    "erase\0fill\0first\0fromList\0fromVector\0"
+    "indexOf\0insert\0insertIterator\0isEmpty\0"
+    "isFull\0isLinearised\0last\0lastIndexOf\0"
+    "linearise\0prepend\0sharable\0"
+    "removeStaticLinearised\0removeStaticNonLinearised\0"
+    "removeMovableLinearised\0"
+    "removeMovableNonLinearisedUpper\0"
+    "removeMovableNonLinearisedLower\0replace\0"
+    "resize\0setCapacityStatic\0setCapacityMovable\0"
+    "size\0sizeAvailable\0startsWith\0toList\0"
+    "toVector\0value\0operatorEquality\0"
+    "operatorInequality\0operatorPlus\0"
+    "operatorPlusEquals\0operatorStream\0"
+    "const_iterator\0iterator\0testAppendFifo"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QCircularBuffer[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      50,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  264,    2, 0x08 /* Private */,
+       3,    0,  265,    2, 0x08 /* Private */,
+       4,    0,  266,    2, 0x08 /* Private */,
+       5,    0,  267,    2, 0x08 /* Private */,
+       6,    0,  268,    2, 0x08 /* Private */,
+       7,    0,  269,    2, 0x08 /* Private */,
+       8,    0,  270,    2, 0x08 /* Private */,
+       9,    0,  271,    2, 0x08 /* Private */,
+      10,    0,  272,    2, 0x08 /* Private */,
+      11,    0,  273,    2, 0x08 /* Private */,
+      12,    0,  274,    2, 0x08 /* Private */,
+      13,    0,  275,    2, 0x08 /* Private */,
+      14,    0,  276,    2, 0x08 /* Private */,
+      15,    0,  277,    2, 0x08 /* Private */,
+      16,    0,  278,    2, 0x08 /* Private */,
+      17,    0,  279,    2, 0x08 /* Private */,
+      18,    0,  280,    2, 0x08 /* Private */,
+      19,    0,  281,    2, 0x08 /* Private */,
+      20,    0,  282,    2, 0x08 /* Private */,
+      21,    0,  283,    2, 0x08 /* Private */,
+      22,    0,  284,    2, 0x08 /* Private */,
+      23,    0,  285,    2, 0x08 /* Private */,
+      24,    0,  286,    2, 0x08 /* Private */,
+      25,    0,  287,    2, 0x08 /* Private */,
+      26,    0,  288,    2, 0x08 /* Private */,
+      27,    0,  289,    2, 0x08 /* Private */,
+      28,    0,  290,    2, 0x08 /* Private */,
+      29,    0,  291,    2, 0x08 /* Private */,
+      30,    0,  292,    2, 0x08 /* Private */,
+      31,    0,  293,    2, 0x08 /* Private */,
+      32,    0,  294,    2, 0x08 /* Private */,
+      33,    0,  295,    2, 0x08 /* Private */,
+      34,    0,  296,    2, 0x08 /* Private */,
+      35,    0,  297,    2, 0x08 /* Private */,
+      36,    0,  298,    2, 0x08 /* Private */,
+      37,    0,  299,    2, 0x08 /* Private */,
+      38,    0,  300,    2, 0x08 /* Private */,
+      39,    0,  301,    2, 0x08 /* Private */,
+      40,    0,  302,    2, 0x08 /* Private */,
+      41,    0,  303,    2, 0x08 /* Private */,
+      42,    0,  304,    2, 0x08 /* Private */,
+      43,    0,  305,    2, 0x08 /* Private */,
+      44,    0,  306,    2, 0x08 /* Private */,
+      45,    0,  307,    2, 0x08 /* Private */,
+      46,    0,  308,    2, 0x08 /* Private */,
+      47,    0,  309,    2, 0x08 /* Private */,
+      48,    0,  310,    2, 0x08 /* Private */,
+      49,    0,  311,    2, 0x08 /* Private */,
+      50,    0,  312,    2, 0x08 /* Private */,
+      51,    0,  313,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QCircularBuffer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QCircularBuffer *_t = static_cast<tst_QCircularBuffer *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->construction(); break;
+        case 1: _t->destruction(); break;
+        case 2: _t->append(); break;
+        case 3: _t->at(); break;
+        case 4: _t->capacity(); break;
+        case 5: _t->clear(); break;
+        case 6: _t->contains(); break;
+        case 7: _t->count(); break;
+        case 8: _t->data(); break;
+        case 9: _t->dataOneTwo(); break;
+        case 10: _t->endsWith(); break;
+        case 11: _t->erase(); break;
+        case 12: _t->fill(); break;
+        case 13: _t->first(); break;
+        case 14: _t->fromList(); break;
+        case 15: _t->fromVector(); break;
+        case 16: _t->indexOf(); break;
+        case 17: _t->insert(); break;
+        case 18: _t->insertIterator(); break;
+        case 19: _t->isEmpty(); break;
+        case 20: _t->isFull(); break;
+        case 21: _t->isLinearised(); break;
+        case 22: _t->last(); break;
+        case 23: _t->lastIndexOf(); break;
+        case 24: _t->linearise(); break;
+        case 25: _t->prepend(); break;
+        case 26: _t->sharable(); break;
+        case 27: _t->removeStaticLinearised(); break;
+        case 28: _t->removeStaticNonLinearised(); break;
+        case 29: _t->removeMovableLinearised(); break;
+        case 30: _t->removeMovableNonLinearisedUpper(); break;
+        case 31: _t->removeMovableNonLinearisedLower(); break;
+        case 32: _t->replace(); break;
+        case 33: _t->resize(); break;
+        case 34: _t->setCapacityStatic(); break;
+        case 35: _t->setCapacityMovable(); break;
+        case 36: _t->size(); break;
+        case 37: _t->sizeAvailable(); break;
+        case 38: _t->startsWith(); break;
+        case 39: _t->toList(); break;
+        case 40: _t->toVector(); break;
+        case 41: _t->value(); break;
+        case 42: _t->operatorEquality(); break;
+        case 43: _t->operatorInequality(); break;
+        case 44: _t->operatorPlus(); break;
+        case 45: _t->operatorPlusEquals(); break;
+        case 46: _t->operatorStream(); break;
+        case 47: _t->const_iterator(); break;
+        case 48: _t->iterator(); break;
+        case 49: _t->testAppendFifo(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QCircularBuffer::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QCircularBuffer.data,
+      qt_meta_data_tst_QCircularBuffer,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QCircularBuffer::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QCircularBuffer::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QCircularBuffer.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QCircularBuffer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 50)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 50;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 50)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 50;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

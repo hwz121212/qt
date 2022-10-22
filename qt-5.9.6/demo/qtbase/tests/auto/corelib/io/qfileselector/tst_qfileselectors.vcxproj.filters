@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="tst_qfileselector.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="qfileselector.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="extras\test2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+android\test2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+haiku\test2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+ios\test2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+linux\test2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+macos\test2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+qnx\test2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+wince\test2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+winnt\test2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+winrt\test2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\test2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="extras\+custom1\test3">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+unix\test3">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+windows\test3">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\test3">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+osx\test4">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\test4">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+mac\test5">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\test5">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="extras\+custom1\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="extras\+custom2\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="extras\+custom3\+custom2\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="extras\+custom3\+custom4\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="extras\+custom3\+custom5\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="extras\+custom3\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="extras\+custom5\+custom3\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="extras\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+android\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+darwin\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+haiku\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+ios\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+linux\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+mac\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+macos\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+osx\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+qnx\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+unix\+android\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+unix\+darwin\+mac\+ios\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+unix\+darwin\+mac\+osx\+macos\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+unix\+darwin\+mac\+osx\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+unix\+darwin\+mac\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+unix\+darwin\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+unix\+haiku\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+unix\+linux\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+unix\+qnx\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+unix\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+wince\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+windows\+wince\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+windows\+winnt\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+windows\+winrt\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+windows\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\+winrt\test">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="platforms\test">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

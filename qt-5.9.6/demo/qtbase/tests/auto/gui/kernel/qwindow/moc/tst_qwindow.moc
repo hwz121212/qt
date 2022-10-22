@@ -1,0 +1,404 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qwindow.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qwindow.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QWindow_t {
+    QByteArrayData data[53];
+    char stringdata0[933];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QWindow_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QWindow_t qt_meta_stringdata_tst_QWindow = {
+    {
+QT_MOC_LITERAL(0, 0, 11), // "tst_QWindow"
+QT_MOC_LITERAL(1, 12, 6), // "create"
+QT_MOC_LITERAL(2, 19, 0), // ""
+QT_MOC_LITERAL(3, 20, 9), // "setParent"
+QT_MOC_LITERAL(4, 30, 10), // "setVisible"
+QT_MOC_LITERAL(5, 41, 34), // "setVisibleFalseDoesNotCreateW..."
+QT_MOC_LITERAL(6, 76, 16), // "eventOrderOnShow"
+QT_MOC_LITERAL(7, 93, 22), // "resizeEventAfterResize"
+QT_MOC_LITERAL(8, 116, 30), // "exposeEventOnShrink_QTBUG54040"
+QT_MOC_LITERAL(9, 147, 9), // "mapGlobal"
+QT_MOC_LITERAL(10, 157, 16), // "positioning_data"
+QT_MOC_LITERAL(11, 174, 11), // "positioning"
+QT_MOC_LITERAL(12, 186, 26), // "positioningDuringMinimized"
+QT_MOC_LITERAL(13, 213, 27), // "childWindowPositioning_data"
+QT_MOC_LITERAL(14, 241, 22), // "childWindowPositioning"
+QT_MOC_LITERAL(15, 264, 16), // "childWindowLevel"
+QT_MOC_LITERAL(16, 281, 15), // "platformSurface"
+QT_MOC_LITERAL(17, 297, 9), // "isExposed"
+QT_MOC_LITERAL(18, 307, 8), // "isActive"
+QT_MOC_LITERAL(19, 316, 15), // "testInputEvents"
+QT_MOC_LITERAL(20, 332, 23), // "touchToMouseTranslation"
+QT_MOC_LITERAL(21, 356, 33), // "touchToMouseTranslationForDev..."
+QT_MOC_LITERAL(22, 390, 23), // "mouseToTouchTranslation"
+QT_MOC_LITERAL(23, 414, 16), // "mouseToTouchLoop"
+QT_MOC_LITERAL(24, 431, 11), // "touchCancel"
+QT_MOC_LITERAL(25, 443, 27), // "touchCancelWithTouchToMouse"
+QT_MOC_LITERAL(26, 471, 23), // "touchInterruptedByPopup"
+QT_MOC_LITERAL(27, 495, 11), // "orientation"
+QT_MOC_LITERAL(28, 507, 5), // "sizes"
+QT_MOC_LITERAL(29, 513, 5), // "close"
+QT_MOC_LITERAL(30, 519, 16), // "activateAndClose"
+QT_MOC_LITERAL(31, 536, 18), // "mouseEventSequence"
+QT_MOC_LITERAL(32, 555, 14), // "windowModality"
+QT_MOC_LITERAL(33, 570, 15), // "inputReentrancy"
+QT_MOC_LITERAL(34, 586, 12), // "tabletEvents"
+QT_MOC_LITERAL(35, 599, 25), // "windowModality_QTBUG27039"
+QT_MOC_LITERAL(36, 625, 10), // "visibility"
+QT_MOC_LITERAL(37, 636, 4), // "mask"
+QT_MOC_LITERAL(38, 641, 11), // "initialSize"
+QT_MOC_LITERAL(39, 653, 11), // "modalDialog"
+QT_MOC_LITERAL(40, 665, 31), // "modalDialogClosingOneOfTwoModal"
+QT_MOC_LITERAL(41, 697, 20), // "modalWithChildWindow"
+QT_MOC_LITERAL(42, 718, 20), // "modalWindowModallity"
+QT_MOC_LITERAL(43, 739, 19), // "modalWindowPosition"
+QT_MOC_LITERAL(44, 759, 38), // "modalWindowEnterEventOnHide_Q..."
+QT_MOC_LITERAL(45, 798, 24), // "windowsTransientChildren"
+QT_MOC_LITERAL(46, 823, 13), // "requestUpdate"
+QT_MOC_LITERAL(47, 837, 12), // "initTestCase"
+QT_MOC_LITERAL(48, 850, 16), // "stateChange_data"
+QT_MOC_LITERAL(49, 867, 11), // "stateChange"
+QT_MOC_LITERAL(50, 879, 5), // "flags"
+QT_MOC_LITERAL(51, 885, 7), // "cleanup"
+QT_MOC_LITERAL(52, 893, 39) // "testBlockingWindowShownAfterM..."
+
+    },
+    "tst_QWindow\0create\0\0setParent\0setVisible\0"
+    "setVisibleFalseDoesNotCreateWindow\0"
+    "eventOrderOnShow\0resizeEventAfterResize\0"
+    "exposeEventOnShrink_QTBUG54040\0mapGlobal\0"
+    "positioning_data\0positioning\0"
+    "positioningDuringMinimized\0"
+    "childWindowPositioning_data\0"
+    "childWindowPositioning\0childWindowLevel\0"
+    "platformSurface\0isExposed\0isActive\0"
+    "testInputEvents\0touchToMouseTranslation\0"
+    "touchToMouseTranslationForDevices\0"
+    "mouseToTouchTranslation\0mouseToTouchLoop\0"
+    "touchCancel\0touchCancelWithTouchToMouse\0"
+    "touchInterruptedByPopup\0orientation\0"
+    "sizes\0close\0activateAndClose\0"
+    "mouseEventSequence\0windowModality\0"
+    "inputReentrancy\0tabletEvents\0"
+    "windowModality_QTBUG27039\0visibility\0"
+    "mask\0initialSize\0modalDialog\0"
+    "modalDialogClosingOneOfTwoModal\0"
+    "modalWithChildWindow\0modalWindowModallity\0"
+    "modalWindowPosition\0"
+    "modalWindowEnterEventOnHide_QTBUG35109\0"
+    "windowsTransientChildren\0requestUpdate\0"
+    "initTestCase\0stateChange_data\0stateChange\0"
+    "flags\0cleanup\0testBlockingWindowShownAfterModalDialog"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QWindow[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      51,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  269,    2, 0x08 /* Private */,
+       3,    0,  270,    2, 0x08 /* Private */,
+       4,    0,  271,    2, 0x08 /* Private */,
+       5,    0,  272,    2, 0x08 /* Private */,
+       6,    0,  273,    2, 0x08 /* Private */,
+       7,    0,  274,    2, 0x08 /* Private */,
+       8,    0,  275,    2, 0x08 /* Private */,
+       9,    0,  276,    2, 0x08 /* Private */,
+      10,    0,  277,    2, 0x08 /* Private */,
+      11,    0,  278,    2, 0x08 /* Private */,
+      12,    0,  279,    2, 0x08 /* Private */,
+      13,    0,  280,    2, 0x08 /* Private */,
+      14,    0,  281,    2, 0x08 /* Private */,
+      15,    0,  282,    2, 0x08 /* Private */,
+      16,    0,  283,    2, 0x08 /* Private */,
+      17,    0,  284,    2, 0x08 /* Private */,
+      18,    0,  285,    2, 0x08 /* Private */,
+      19,    0,  286,    2, 0x08 /* Private */,
+      20,    0,  287,    2, 0x08 /* Private */,
+      21,    0,  288,    2, 0x08 /* Private */,
+      22,    0,  289,    2, 0x08 /* Private */,
+      23,    0,  290,    2, 0x08 /* Private */,
+      24,    0,  291,    2, 0x08 /* Private */,
+      25,    0,  292,    2, 0x08 /* Private */,
+      26,    0,  293,    2, 0x08 /* Private */,
+      27,    0,  294,    2, 0x08 /* Private */,
+      28,    0,  295,    2, 0x08 /* Private */,
+      29,    0,  296,    2, 0x08 /* Private */,
+      30,    0,  297,    2, 0x08 /* Private */,
+      31,    0,  298,    2, 0x08 /* Private */,
+      32,    0,  299,    2, 0x08 /* Private */,
+      33,    0,  300,    2, 0x08 /* Private */,
+      34,    0,  301,    2, 0x08 /* Private */,
+      35,    0,  302,    2, 0x08 /* Private */,
+      36,    0,  303,    2, 0x08 /* Private */,
+      37,    0,  304,    2, 0x08 /* Private */,
+      38,    0,  305,    2, 0x08 /* Private */,
+      39,    0,  306,    2, 0x08 /* Private */,
+      40,    0,  307,    2, 0x08 /* Private */,
+      41,    0,  308,    2, 0x08 /* Private */,
+      42,    0,  309,    2, 0x08 /* Private */,
+      43,    0,  310,    2, 0x08 /* Private */,
+      44,    0,  311,    2, 0x08 /* Private */,
+      45,    0,  312,    2, 0x08 /* Private */,
+      46,    0,  313,    2, 0x08 /* Private */,
+      47,    0,  314,    2, 0x08 /* Private */,
+      48,    0,  315,    2, 0x08 /* Private */,
+      49,    0,  316,    2, 0x08 /* Private */,
+      50,    0,  317,    2, 0x08 /* Private */,
+      51,    0,  318,    2, 0x08 /* Private */,
+      52,    0,  319,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QWindow *_t = static_cast<tst_QWindow *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->create(); break;
+        case 1: _t->setParent(); break;
+        case 2: _t->setVisible(); break;
+        case 3: _t->setVisibleFalseDoesNotCreateWindow(); break;
+        case 4: _t->eventOrderOnShow(); break;
+        case 5: _t->resizeEventAfterResize(); break;
+        case 6: _t->exposeEventOnShrink_QTBUG54040(); break;
+        case 7: _t->mapGlobal(); break;
+        case 8: _t->positioning_data(); break;
+        case 9: _t->positioning(); break;
+        case 10: _t->positioningDuringMinimized(); break;
+        case 11: _t->childWindowPositioning_data(); break;
+        case 12: _t->childWindowPositioning(); break;
+        case 13: _t->childWindowLevel(); break;
+        case 14: _t->platformSurface(); break;
+        case 15: _t->isExposed(); break;
+        case 16: _t->isActive(); break;
+        case 17: _t->testInputEvents(); break;
+        case 18: _t->touchToMouseTranslation(); break;
+        case 19: _t->touchToMouseTranslationForDevices(); break;
+        case 20: _t->mouseToTouchTranslation(); break;
+        case 21: _t->mouseToTouchLoop(); break;
+        case 22: _t->touchCancel(); break;
+        case 23: _t->touchCancelWithTouchToMouse(); break;
+        case 24: _t->touchInterruptedByPopup(); break;
+        case 25: _t->orientation(); break;
+        case 26: _t->sizes(); break;
+        case 27: _t->close(); break;
+        case 28: _t->activateAndClose(); break;
+        case 29: _t->mouseEventSequence(); break;
+        case 30: _t->windowModality(); break;
+        case 31: _t->inputReentrancy(); break;
+        case 32: _t->tabletEvents(); break;
+        case 33: _t->windowModality_QTBUG27039(); break;
+        case 34: _t->visibility(); break;
+        case 35: _t->mask(); break;
+        case 36: _t->initialSize(); break;
+        case 37: _t->modalDialog(); break;
+        case 38: _t->modalDialogClosingOneOfTwoModal(); break;
+        case 39: _t->modalWithChildWindow(); break;
+        case 40: _t->modalWindowModallity(); break;
+        case 41: _t->modalWindowPosition(); break;
+        case 42: _t->modalWindowEnterEventOnHide_QTBUG35109(); break;
+        case 43: _t->windowsTransientChildren(); break;
+        case 44: _t->requestUpdate(); break;
+        case 45: _t->initTestCase(); break;
+        case 46: _t->stateChange_data(); break;
+        case 47: _t->stateChange(); break;
+        case 48: _t->flags(); break;
+        case 49: _t->cleanup(); break;
+        case 50: _t->testBlockingWindowShownAfterModalDialog(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QWindow::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QWindow.data,
+      qt_meta_data_tst_QWindow,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QWindow::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QWindow::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QWindow.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 51)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 51;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 51)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 51;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_PlatformWindowFilter_t {
+    QByteArrayData data[1];
+    char stringdata0[21];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_PlatformWindowFilter_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_PlatformWindowFilter_t qt_meta_stringdata_PlatformWindowFilter = {
+    {
+QT_MOC_LITERAL(0, 0, 20) // "PlatformWindowFilter"
+
+    },
+    "PlatformWindowFilter"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_PlatformWindowFilter[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void PlatformWindowFilter::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject PlatformWindowFilter::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_PlatformWindowFilter.data,
+      qt_meta_data_PlatformWindowFilter,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *PlatformWindowFilter::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *PlatformWindowFilter::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_PlatformWindowFilter.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int PlatformWindowFilter::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

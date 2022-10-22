@@ -1,0 +1,7 @@
+$(QTDIR)\bin\idc.exe "$(TargetPath)" /idl $(IntDir)simpleqmlax.idl -version 1.0
+if errorlevel 1 goto VCEnd
+ midl /NOLOGO $(IntDir)simpleqmlax.idl /nologo /tlb $(IntDir)simpleqmlax.tlb
+if errorlevel 1 goto VCEnd
+ $(QTDIR)\bin\idc.exe "$(TargetPath)" /tlb $(IntDir)simpleqmlax.tlb
+if errorlevel 1 goto VCEnd
+ $(QTDIR)\bin\idc.exe "$(TargetPath)" /regserver

@@ -1,0 +1,1662 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qsortfilterproxymodel.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#include <QtCore/QList>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qsortfilterproxymodel.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QSortFilterProxyModel_t {
+    QByteArrayData data[84];
+    char stringdata0[1593];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QSortFilterProxyModel_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QSortFilterProxyModel_t qt_meta_stringdata_tst_QSortFilterProxyModel = {
+    {
+QT_MOC_LITERAL(0, 0, 25), // "tst_QSortFilterProxyModel"
+QT_MOC_LITERAL(1, 26, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 39, 0), // ""
+QT_MOC_LITERAL(3, 40, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(4, 56, 7), // "cleanup"
+QT_MOC_LITERAL(5, 64, 11), // "getSetCheck"
+QT_MOC_LITERAL(6, 76, 9), // "sort_data"
+QT_MOC_LITERAL(7, 86, 4), // "sort"
+QT_MOC_LITERAL(8, 91, 18), // "sortHierarchy_data"
+QT_MOC_LITERAL(9, 110, 13), // "sortHierarchy"
+QT_MOC_LITERAL(10, 124, 15), // "insertRows_data"
+QT_MOC_LITERAL(11, 140, 10), // "insertRows"
+QT_MOC_LITERAL(12, 151, 10), // "prependRow"
+QT_MOC_LITERAL(13, 162, 15), // "removeRows_data"
+QT_MOC_LITERAL(14, 178, 10), // "removeRows"
+QT_MOC_LITERAL(15, 189, 18), // "removeColumns_data"
+QT_MOC_LITERAL(16, 208, 13), // "removeColumns"
+QT_MOC_LITERAL(17, 222, 17), // "insertAfterSelect"
+QT_MOC_LITERAL(18, 240, 17), // "removeAfterSelect"
+QT_MOC_LITERAL(19, 258, 11), // "filter_data"
+QT_MOC_LITERAL(20, 270, 6), // "filter"
+QT_MOC_LITERAL(21, 277, 20), // "filterHierarchy_data"
+QT_MOC_LITERAL(22, 298, 15), // "filterHierarchy"
+QT_MOC_LITERAL(23, 314, 18), // "filterColumns_data"
+QT_MOC_LITERAL(24, 333, 13), // "filterColumns"
+QT_MOC_LITERAL(25, 347, 11), // "filterTable"
+QT_MOC_LITERAL(26, 359, 13), // "filterCurrent"
+QT_MOC_LITERAL(27, 373, 17), // "filter_qtbug30662"
+QT_MOC_LITERAL(28, 391, 18), // "changeSourceLayout"
+QT_MOC_LITERAL(29, 410, 29), // "changeSourceLayoutFilteredOut"
+QT_MOC_LITERAL(30, 440, 21), // "removeSourceRows_data"
+QT_MOC_LITERAL(31, 462, 16), // "removeSourceRows"
+QT_MOC_LITERAL(32, 479, 21), // "insertSourceRows_data"
+QT_MOC_LITERAL(33, 501, 16), // "insertSourceRows"
+QT_MOC_LITERAL(34, 518, 17), // "changeFilter_data"
+QT_MOC_LITERAL(35, 536, 12), // "changeFilter"
+QT_MOC_LITERAL(36, 549, 21), // "changeSourceData_data"
+QT_MOC_LITERAL(37, 571, 16), // "changeSourceData"
+QT_MOC_LITERAL(38, 588, 44), // "changeSourceDataKeepsStableSo..."
+QT_MOC_LITERAL(39, 633, 40), // "changeSourceDataForwardsRoles..."
+QT_MOC_LITERAL(40, 674, 31), // "resortingDoesNotBreakTreeModels"
+QT_MOC_LITERAL(41, 706, 14), // "sortFilterRole"
+QT_MOC_LITERAL(42, 721, 20), // "selectionFilteredOut"
+QT_MOC_LITERAL(43, 742, 10), // "match_data"
+QT_MOC_LITERAL(44, 753, 5), // "match"
+QT_MOC_LITERAL(45, 759, 26), // "insertIntoChildrenlessItem"
+QT_MOC_LITERAL(46, 786, 24), // "invalidateMappedChildren"
+QT_MOC_LITERAL(47, 811, 27), // "insertRowIntoFilteredParent"
+QT_MOC_LITERAL(48, 839, 31), // "filterOutParentAndFilterInChild"
+QT_MOC_LITERAL(49, 871, 16), // "sourceInsertRows"
+QT_MOC_LITERAL(50, 888, 19), // "sourceModelDeletion"
+QT_MOC_LITERAL(51, 908, 19), // "sortColumnTracking1"
+QT_MOC_LITERAL(52, 928, 19), // "sortColumnTracking2"
+QT_MOC_LITERAL(53, 948, 10), // "sortStable"
+QT_MOC_LITERAL(54, 959, 13), // "hiddenColumns"
+QT_MOC_LITERAL(55, 973, 14), // "insertRowsSort"
+QT_MOC_LITERAL(56, 988, 13), // "staticSorting"
+QT_MOC_LITERAL(57, 1002, 14), // "dynamicSorting"
+QT_MOC_LITERAL(58, 1017, 9), // "fetchMore"
+QT_MOC_LITERAL(59, 1027, 14), // "hiddenChildren"
+QT_MOC_LITERAL(60, 1042, 15), // "mapFromToSource"
+QT_MOC_LITERAL(61, 1058, 19), // "removeRowsRecursive"
+QT_MOC_LITERAL(62, 1078, 34), // "doubleProxySelectionSetSource..."
+QT_MOC_LITERAL(63, 1113, 14), // "appearsAndSort"
+QT_MOC_LITERAL(64, 1128, 25), // "unnecessaryDynamicSorting"
+QT_MOC_LITERAL(65, 1154, 22), // "unnecessaryMapCreation"
+QT_MOC_LITERAL(66, 1177, 20), // "resetInvalidate_data"
+QT_MOC_LITERAL(67, 1198, 15), // "resetInvalidate"
+QT_MOC_LITERAL(68, 1214, 32), // "testMultipleProxiesWithSelection"
+QT_MOC_LITERAL(69, 1247, 22), // "mapSelectionFromSource"
+QT_MOC_LITERAL(70, 1270, 21), // "testResetInternalData"
+QT_MOC_LITERAL(71, 1292, 15), // "filteredColumns"
+QT_MOC_LITERAL(72, 1308, 17), // "headerDataChanged"
+QT_MOC_LITERAL(73, 1326, 23), // "testParentLayoutChanged"
+QT_MOC_LITERAL(74, 1350, 14), // "moveSourceRows"
+QT_MOC_LITERAL(75, 1365, 27), // "hierarchyFilterInvalidation"
+QT_MOC_LITERAL(76, 1393, 24), // "simpleFilterInvalidation"
+QT_MOC_LITERAL(77, 1418, 26), // "chainedProxyModelRoleNames"
+QT_MOC_LITERAL(78, 1445, 22), // "noMapAfterSourceDelete"
+QT_MOC_LITERAL(79, 1468, 14), // "forwardDropApi"
+QT_MOC_LITERAL(80, 1483, 15), // "canDropMimeData"
+QT_MOC_LITERAL(81, 1499, 10), // "filterHint"
+QT_MOC_LITERAL(82, 1510, 46), // "sourceLayoutChangeLeavesValid..."
+QT_MOC_LITERAL(83, 1557, 35) // "rowMoveLeavesValidPersistentI..."
+
+    },
+    "tst_QSortFilterProxyModel\0initTestCase\0"
+    "\0cleanupTestCase\0cleanup\0getSetCheck\0"
+    "sort_data\0sort\0sortHierarchy_data\0"
+    "sortHierarchy\0insertRows_data\0insertRows\0"
+    "prependRow\0removeRows_data\0removeRows\0"
+    "removeColumns_data\0removeColumns\0"
+    "insertAfterSelect\0removeAfterSelect\0"
+    "filter_data\0filter\0filterHierarchy_data\0"
+    "filterHierarchy\0filterColumns_data\0"
+    "filterColumns\0filterTable\0filterCurrent\0"
+    "filter_qtbug30662\0changeSourceLayout\0"
+    "changeSourceLayoutFilteredOut\0"
+    "removeSourceRows_data\0removeSourceRows\0"
+    "insertSourceRows_data\0insertSourceRows\0"
+    "changeFilter_data\0changeFilter\0"
+    "changeSourceData_data\0changeSourceData\0"
+    "changeSourceDataKeepsStableSorting_qtbug1548\0"
+    "changeSourceDataForwardsRoles_qtbug35440\0"
+    "resortingDoesNotBreakTreeModels\0"
+    "sortFilterRole\0selectionFilteredOut\0"
+    "match_data\0match\0insertIntoChildrenlessItem\0"
+    "invalidateMappedChildren\0"
+    "insertRowIntoFilteredParent\0"
+    "filterOutParentAndFilterInChild\0"
+    "sourceInsertRows\0sourceModelDeletion\0"
+    "sortColumnTracking1\0sortColumnTracking2\0"
+    "sortStable\0hiddenColumns\0insertRowsSort\0"
+    "staticSorting\0dynamicSorting\0fetchMore\0"
+    "hiddenChildren\0mapFromToSource\0"
+    "removeRowsRecursive\0"
+    "doubleProxySelectionSetSourceModel\0"
+    "appearsAndSort\0unnecessaryDynamicSorting\0"
+    "unnecessaryMapCreation\0resetInvalidate_data\0"
+    "resetInvalidate\0testMultipleProxiesWithSelection\0"
+    "mapSelectionFromSource\0testResetInternalData\0"
+    "filteredColumns\0headerDataChanged\0"
+    "testParentLayoutChanged\0moveSourceRows\0"
+    "hierarchyFilterInvalidation\0"
+    "simpleFilterInvalidation\0"
+    "chainedProxyModelRoleNames\0"
+    "noMapAfterSourceDelete\0forwardDropApi\0"
+    "canDropMimeData\0filterHint\0"
+    "sourceLayoutChangeLeavesValidPersistentIndexes\0"
+    "rowMoveLeavesValidPersistentIndexes"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QSortFilterProxyModel[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      82,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  424,    2, 0x0a /* Public */,
+       3,    0,  425,    2, 0x0a /* Public */,
+       4,    0,  426,    2, 0x0a /* Public */,
+       5,    0,  427,    2, 0x08 /* Private */,
+       6,    0,  428,    2, 0x08 /* Private */,
+       7,    0,  429,    2, 0x08 /* Private */,
+       8,    0,  430,    2, 0x08 /* Private */,
+       9,    0,  431,    2, 0x08 /* Private */,
+      10,    0,  432,    2, 0x08 /* Private */,
+      11,    0,  433,    2, 0x08 /* Private */,
+      12,    0,  434,    2, 0x08 /* Private */,
+      13,    0,  435,    2, 0x08 /* Private */,
+      14,    0,  436,    2, 0x08 /* Private */,
+      15,    0,  437,    2, 0x08 /* Private */,
+      16,    0,  438,    2, 0x08 /* Private */,
+      17,    0,  439,    2, 0x08 /* Private */,
+      18,    0,  440,    2, 0x08 /* Private */,
+      19,    0,  441,    2, 0x08 /* Private */,
+      20,    0,  442,    2, 0x08 /* Private */,
+      21,    0,  443,    2, 0x08 /* Private */,
+      22,    0,  444,    2, 0x08 /* Private */,
+      23,    0,  445,    2, 0x08 /* Private */,
+      24,    0,  446,    2, 0x08 /* Private */,
+      25,    0,  447,    2, 0x08 /* Private */,
+      26,    0,  448,    2, 0x08 /* Private */,
+      27,    0,  449,    2, 0x08 /* Private */,
+      28,    0,  450,    2, 0x08 /* Private */,
+      29,    0,  451,    2, 0x08 /* Private */,
+      30,    0,  452,    2, 0x08 /* Private */,
+      31,    0,  453,    2, 0x08 /* Private */,
+      32,    0,  454,    2, 0x08 /* Private */,
+      33,    0,  455,    2, 0x08 /* Private */,
+      34,    0,  456,    2, 0x08 /* Private */,
+      35,    0,  457,    2, 0x08 /* Private */,
+      36,    0,  458,    2, 0x08 /* Private */,
+      37,    0,  459,    2, 0x08 /* Private */,
+      38,    0,  460,    2, 0x08 /* Private */,
+      39,    0,  461,    2, 0x08 /* Private */,
+      40,    0,  462,    2, 0x08 /* Private */,
+      41,    0,  463,    2, 0x08 /* Private */,
+      42,    0,  464,    2, 0x08 /* Private */,
+      43,    0,  465,    2, 0x08 /* Private */,
+      44,    0,  466,    2, 0x08 /* Private */,
+      45,    0,  467,    2, 0x08 /* Private */,
+      46,    0,  468,    2, 0x08 /* Private */,
+      47,    0,  469,    2, 0x08 /* Private */,
+      48,    0,  470,    2, 0x08 /* Private */,
+      49,    0,  471,    2, 0x08 /* Private */,
+      50,    0,  472,    2, 0x08 /* Private */,
+      51,    0,  473,    2, 0x08 /* Private */,
+      52,    0,  474,    2, 0x08 /* Private */,
+      53,    0,  475,    2, 0x08 /* Private */,
+      54,    0,  476,    2, 0x08 /* Private */,
+      55,    0,  477,    2, 0x08 /* Private */,
+      56,    0,  478,    2, 0x08 /* Private */,
+      57,    0,  479,    2, 0x08 /* Private */,
+      58,    0,  480,    2, 0x08 /* Private */,
+      59,    0,  481,    2, 0x08 /* Private */,
+      60,    0,  482,    2, 0x08 /* Private */,
+      61,    0,  483,    2, 0x08 /* Private */,
+      62,    0,  484,    2, 0x08 /* Private */,
+      63,    0,  485,    2, 0x08 /* Private */,
+      64,    0,  486,    2, 0x08 /* Private */,
+      65,    0,  487,    2, 0x08 /* Private */,
+      66,    0,  488,    2, 0x08 /* Private */,
+      67,    0,  489,    2, 0x08 /* Private */,
+      68,    0,  490,    2, 0x08 /* Private */,
+      69,    0,  491,    2, 0x08 /* Private */,
+      70,    0,  492,    2, 0x08 /* Private */,
+      71,    0,  493,    2, 0x08 /* Private */,
+      72,    0,  494,    2, 0x08 /* Private */,
+      73,    0,  495,    2, 0x08 /* Private */,
+      74,    0,  496,    2, 0x08 /* Private */,
+      75,    0,  497,    2, 0x08 /* Private */,
+      76,    0,  498,    2, 0x08 /* Private */,
+      77,    0,  499,    2, 0x08 /* Private */,
+      78,    0,  500,    2, 0x08 /* Private */,
+      79,    0,  501,    2, 0x08 /* Private */,
+      80,    0,  502,    2, 0x08 /* Private */,
+      81,    0,  503,    2, 0x08 /* Private */,
+      82,    0,  504,    2, 0x08 /* Private */,
+      83,    0,  505,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QSortFilterProxyModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QSortFilterProxyModel *_t = static_cast<tst_QSortFilterProxyModel *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->cleanupTestCase(); break;
+        case 2: _t->cleanup(); break;
+        case 3: _t->getSetCheck(); break;
+        case 4: _t->sort_data(); break;
+        case 5: _t->sort(); break;
+        case 6: _t->sortHierarchy_data(); break;
+        case 7: _t->sortHierarchy(); break;
+        case 8: _t->insertRows_data(); break;
+        case 9: _t->insertRows(); break;
+        case 10: _t->prependRow(); break;
+        case 11: _t->removeRows_data(); break;
+        case 12: _t->removeRows(); break;
+        case 13: _t->removeColumns_data(); break;
+        case 14: _t->removeColumns(); break;
+        case 15: _t->insertAfterSelect(); break;
+        case 16: _t->removeAfterSelect(); break;
+        case 17: _t->filter_data(); break;
+        case 18: _t->filter(); break;
+        case 19: _t->filterHierarchy_data(); break;
+        case 20: _t->filterHierarchy(); break;
+        case 21: _t->filterColumns_data(); break;
+        case 22: _t->filterColumns(); break;
+        case 23: _t->filterTable(); break;
+        case 24: _t->filterCurrent(); break;
+        case 25: _t->filter_qtbug30662(); break;
+        case 26: _t->changeSourceLayout(); break;
+        case 27: _t->changeSourceLayoutFilteredOut(); break;
+        case 28: _t->removeSourceRows_data(); break;
+        case 29: _t->removeSourceRows(); break;
+        case 30: _t->insertSourceRows_data(); break;
+        case 31: _t->insertSourceRows(); break;
+        case 32: _t->changeFilter_data(); break;
+        case 33: _t->changeFilter(); break;
+        case 34: _t->changeSourceData_data(); break;
+        case 35: _t->changeSourceData(); break;
+        case 36: _t->changeSourceDataKeepsStableSorting_qtbug1548(); break;
+        case 37: _t->changeSourceDataForwardsRoles_qtbug35440(); break;
+        case 38: _t->resortingDoesNotBreakTreeModels(); break;
+        case 39: _t->sortFilterRole(); break;
+        case 40: _t->selectionFilteredOut(); break;
+        case 41: _t->match_data(); break;
+        case 42: _t->match(); break;
+        case 43: _t->insertIntoChildrenlessItem(); break;
+        case 44: _t->invalidateMappedChildren(); break;
+        case 45: _t->insertRowIntoFilteredParent(); break;
+        case 46: _t->filterOutParentAndFilterInChild(); break;
+        case 47: _t->sourceInsertRows(); break;
+        case 48: _t->sourceModelDeletion(); break;
+        case 49: _t->sortColumnTracking1(); break;
+        case 50: _t->sortColumnTracking2(); break;
+        case 51: _t->sortStable(); break;
+        case 52: _t->hiddenColumns(); break;
+        case 53: _t->insertRowsSort(); break;
+        case 54: _t->staticSorting(); break;
+        case 55: _t->dynamicSorting(); break;
+        case 56: _t->fetchMore(); break;
+        case 57: _t->hiddenChildren(); break;
+        case 58: _t->mapFromToSource(); break;
+        case 59: _t->removeRowsRecursive(); break;
+        case 60: _t->doubleProxySelectionSetSourceModel(); break;
+        case 61: _t->appearsAndSort(); break;
+        case 62: _t->unnecessaryDynamicSorting(); break;
+        case 63: _t->unnecessaryMapCreation(); break;
+        case 64: _t->resetInvalidate_data(); break;
+        case 65: _t->resetInvalidate(); break;
+        case 66: _t->testMultipleProxiesWithSelection(); break;
+        case 67: _t->mapSelectionFromSource(); break;
+        case 68: _t->testResetInternalData(); break;
+        case 69: _t->filteredColumns(); break;
+        case 70: _t->headerDataChanged(); break;
+        case 71: _t->testParentLayoutChanged(); break;
+        case 72: _t->moveSourceRows(); break;
+        case 73: _t->hierarchyFilterInvalidation(); break;
+        case 74: _t->simpleFilterInvalidation(); break;
+        case 75: _t->chainedProxyModelRoleNames(); break;
+        case 76: _t->noMapAfterSourceDelete(); break;
+        case 77: _t->forwardDropApi(); break;
+        case 78: _t->canDropMimeData(); break;
+        case 79: _t->filterHint(); break;
+        case 80: _t->sourceLayoutChangeLeavesValidPersistentIndexes(); break;
+        case 81: _t->rowMoveLeavesValidPersistentIndexes(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QSortFilterProxyModel::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QSortFilterProxyModel.data,
+      qt_meta_data_tst_QSortFilterProxyModel,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QSortFilterProxyModel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QSortFilterProxyModel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QSortFilterProxyModel.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QSortFilterProxyModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 82)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 82;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 82)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 82;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_MyFilteredColumnProxyModel_t {
+    QByteArrayData data[1];
+    char stringdata0[27];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_MyFilteredColumnProxyModel_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_MyFilteredColumnProxyModel_t qt_meta_stringdata_MyFilteredColumnProxyModel = {
+    {
+QT_MOC_LITERAL(0, 0, 26) // "MyFilteredColumnProxyModel"
+
+    },
+    "MyFilteredColumnProxyModel"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_MyFilteredColumnProxyModel[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void MyFilteredColumnProxyModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject MyFilteredColumnProxyModel::staticMetaObject = {
+    { &QSortFilterProxyModel::staticMetaObject, qt_meta_stringdata_MyFilteredColumnProxyModel.data,
+      qt_meta_data_MyFilteredColumnProxyModel,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *MyFilteredColumnProxyModel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *MyFilteredColumnProxyModel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_MyFilteredColumnProxyModel.stringdata0))
+        return static_cast<void*>(this);
+    return QSortFilterProxyModel::qt_metacast(_clname);
+}
+
+int MyFilteredColumnProxyModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QSortFilterProxyModel::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_SelectionProxyModel_t {
+    QByteArrayData data[4];
+    char stringdata0[64];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_SelectionProxyModel_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_SelectionProxyModel_t qt_meta_stringdata_SelectionProxyModel = {
+    {
+QT_MOC_LITERAL(0, 0, 19), // "SelectionProxyModel"
+QT_MOC_LITERAL(1, 20, 25), // "sourceModelAboutToBeReset"
+QT_MOC_LITERAL(2, 46, 0), // ""
+QT_MOC_LITERAL(3, 47, 16) // "sourceModelReset"
+
+    },
+    "SelectionProxyModel\0sourceModelAboutToBeReset\0"
+    "\0sourceModelReset"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_SelectionProxyModel[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   24,    2, 0x08 /* Private */,
+       3,    0,   25,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void SelectionProxyModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        SelectionProxyModel *_t = static_cast<SelectionProxyModel *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->sourceModelAboutToBeReset(); break;
+        case 1: _t->sourceModelReset(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject SelectionProxyModel::staticMetaObject = {
+    { &QAbstractProxyModel::staticMetaObject, qt_meta_stringdata_SelectionProxyModel.data,
+      qt_meta_data_SelectionProxyModel,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *SelectionProxyModel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *SelectionProxyModel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_SelectionProxyModel.stringdata0))
+        return static_cast<void*>(this);
+    return QAbstractProxyModel::qt_metacast(_clname);
+}
+
+int SelectionProxyModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QAbstractProxyModel::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 2)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 2;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_Model10287_t {
+    QByteArrayData data[1];
+    char stringdata0[11];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_Model10287_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_Model10287_t qt_meta_stringdata_Model10287 = {
+    {
+QT_MOC_LITERAL(0, 0, 10) // "Model10287"
+
+    },
+    "Model10287"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_Model10287[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void Model10287::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject Model10287::staticMetaObject = {
+    { &QStandardItemModel::staticMetaObject, qt_meta_stringdata_Model10287.data,
+      qt_meta_data_Model10287,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *Model10287::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *Model10287::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_Model10287.stringdata0))
+        return static_cast<void*>(this);
+    return QStandardItemModel::qt_metacast(_clname);
+}
+
+int Model10287::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QStandardItemModel::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_Proxy10287_t {
+    QByteArrayData data[1];
+    char stringdata0[11];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_Proxy10287_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_Proxy10287_t qt_meta_stringdata_Proxy10287 = {
+    {
+QT_MOC_LITERAL(0, 0, 10) // "Proxy10287"
+
+    },
+    "Proxy10287"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_Proxy10287[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void Proxy10287::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject Proxy10287::staticMetaObject = {
+    { &QSortFilterProxyModel::staticMetaObject, qt_meta_stringdata_Proxy10287.data,
+      qt_meta_data_Proxy10287,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *Proxy10287::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *Proxy10287::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_Proxy10287.stringdata0))
+        return static_cast<void*>(this);
+    return QSortFilterProxyModel::qt_metacast(_clname);
+}
+
+int Proxy10287::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QSortFilterProxyModel::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_FilteredColumnProxyModel_t {
+    QByteArrayData data[1];
+    char stringdata0[25];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_FilteredColumnProxyModel_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_FilteredColumnProxyModel_t qt_meta_stringdata_FilteredColumnProxyModel = {
+    {
+QT_MOC_LITERAL(0, 0, 24) // "FilteredColumnProxyModel"
+
+    },
+    "FilteredColumnProxyModel"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_FilteredColumnProxyModel[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void FilteredColumnProxyModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject FilteredColumnProxyModel::staticMetaObject = {
+    { &QSortFilterProxyModel::staticMetaObject, qt_meta_stringdata_FilteredColumnProxyModel.data,
+      qt_meta_data_FilteredColumnProxyModel,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *FilteredColumnProxyModel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *FilteredColumnProxyModel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_FilteredColumnProxyModel.stringdata0))
+        return static_cast<void*>(this);
+    return QSortFilterProxyModel::qt_metacast(_clname);
+}
+
+int FilteredColumnProxyModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QSortFilterProxyModel::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_ChangableHeaderData_t {
+    QByteArrayData data[1];
+    char stringdata0[20];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ChangableHeaderData_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ChangableHeaderData_t qt_meta_stringdata_ChangableHeaderData = {
+    {
+QT_MOC_LITERAL(0, 0, 19) // "ChangableHeaderData"
+
+    },
+    "ChangableHeaderData"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_ChangableHeaderData[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void ChangableHeaderData::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject ChangableHeaderData::staticMetaObject = {
+    { &QStringListModel::staticMetaObject, qt_meta_stringdata_ChangableHeaderData.data,
+      qt_meta_data_ChangableHeaderData,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *ChangableHeaderData::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ChangableHeaderData::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ChangableHeaderData.stringdata0))
+        return static_cast<void*>(this);
+    return QStringListModel::qt_metacast(_clname);
+}
+
+int ChangableHeaderData::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QStringListModel::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_CustomDataProxy_t {
+    QByteArrayData data[3];
+    char stringdata0[35];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_CustomDataProxy_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_CustomDataProxy_t qt_meta_stringdata_CustomDataProxy = {
+    {
+QT_MOC_LITERAL(0, 0, 15), // "CustomDataProxy"
+QT_MOC_LITERAL(1, 16, 17), // "resetInternalData"
+QT_MOC_LITERAL(2, 34, 0) // ""
+
+    },
+    "CustomDataProxy\0resetInternalData\0"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_CustomDataProxy[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   19,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void CustomDataProxy::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        CustomDataProxy *_t = static_cast<CustomDataProxy *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->resetInternalData(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject CustomDataProxy::staticMetaObject = {
+    { &QSortFilterProxyModel::staticMetaObject, qt_meta_stringdata_CustomDataProxy.data,
+      qt_meta_data_CustomDataProxy,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *CustomDataProxy::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *CustomDataProxy::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CustomDataProxy.stringdata0))
+        return static_cast<void*>(this);
+    return QSortFilterProxyModel::qt_metacast(_clname);
+}
+
+int CustomDataProxy::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QSortFilterProxyModel::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_ModelObserver_t {
+    QByteArrayData data[4];
+    char stringdata0[46];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ModelObserver_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ModelObserver_t qt_meta_stringdata_ModelObserver = {
+    {
+QT_MOC_LITERAL(0, 0, 13), // "ModelObserver"
+QT_MOC_LITERAL(1, 14, 19), // "modelAboutToBeReset"
+QT_MOC_LITERAL(2, 34, 0), // ""
+QT_MOC_LITERAL(3, 35, 10) // "modelReset"
+
+    },
+    "ModelObserver\0modelAboutToBeReset\0\0"
+    "modelReset"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_ModelObserver[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   24,    2, 0x0a /* Public */,
+       3,    0,   25,    2, 0x0a /* Public */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void ModelObserver::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        ModelObserver *_t = static_cast<ModelObserver *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->modelAboutToBeReset(); break;
+        case 1: _t->modelReset(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject ModelObserver::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_ModelObserver.data,
+      qt_meta_data_ModelObserver,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *ModelObserver::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ModelObserver::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ModelObserver.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int ModelObserver::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 2)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 2;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_SignalArgumentChecker_t {
+    QByteArrayData data[10];
+    char stringdata0[145];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_SignalArgumentChecker_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_SignalArgumentChecker_t qt_meta_stringdata_SignalArgumentChecker = {
+    {
+QT_MOC_LITERAL(0, 0, 21), // "SignalArgumentChecker"
+QT_MOC_LITERAL(1, 22, 18), // "rowsAboutToBeMoved"
+QT_MOC_LITERAL(2, 41, 0), // ""
+QT_MOC_LITERAL(3, 42, 6), // "source"
+QT_MOC_LITERAL(4, 49, 11), // "destination"
+QT_MOC_LITERAL(5, 61, 9), // "rowsMoved"
+QT_MOC_LITERAL(6, 71, 22), // "layoutAboutToBeChanged"
+QT_MOC_LITERAL(7, 94, 28), // "QList<QPersistentModelIndex>"
+QT_MOC_LITERAL(8, 123, 7), // "parents"
+QT_MOC_LITERAL(9, 131, 13) // "layoutChanged"
+
+    },
+    "SignalArgumentChecker\0rowsAboutToBeMoved\0"
+    "\0source\0destination\0rowsMoved\0"
+    "layoutAboutToBeChanged\0"
+    "QList<QPersistentModelIndex>\0parents\0"
+    "layoutChanged"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_SignalArgumentChecker[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       4,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    5,   34,    2, 0x08 /* Private */,
+       5,    5,   45,    2, 0x08 /* Private */,
+       6,    1,   56,    2, 0x08 /* Private */,
+       9,    1,   59,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::QModelIndex, QMetaType::Int, QMetaType::Int, QMetaType::QModelIndex, QMetaType::Int,    3,    2,    2,    4,    2,
+    QMetaType::Void, QMetaType::QModelIndex, QMetaType::Int, QMetaType::Int, QMetaType::QModelIndex, QMetaType::Int,    3,    2,    2,    4,    2,
+    QMetaType::Void, 0x80000000 | 7,    8,
+    QMetaType::Void, 0x80000000 | 7,    8,
+
+       0        // eod
+};
+
+void SignalArgumentChecker::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        SignalArgumentChecker *_t = static_cast<SignalArgumentChecker *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->rowsAboutToBeMoved((*reinterpret_cast< const QModelIndex(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< const QModelIndex(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5]))); break;
+        case 1: _t->rowsMoved((*reinterpret_cast< const QModelIndex(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3])),(*reinterpret_cast< const QModelIndex(*)>(_a[4])),(*reinterpret_cast< int(*)>(_a[5]))); break;
+        case 2: _t->layoutAboutToBeChanged((*reinterpret_cast< const QList<QPersistentModelIndex>(*)>(_a[1]))); break;
+        case 3: _t->layoutChanged((*reinterpret_cast< const QList<QPersistentModelIndex>(*)>(_a[1]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 2:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QList<QPersistentModelIndex> >(); break;
+            }
+            break;
+        case 3:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QList<QPersistentModelIndex> >(); break;
+            }
+            break;
+        }
+    }
+}
+
+const QMetaObject SignalArgumentChecker::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_SignalArgumentChecker.data,
+      qt_meta_data_SignalArgumentChecker,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *SignalArgumentChecker::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *SignalArgumentChecker::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_SignalArgumentChecker.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int SignalArgumentChecker::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 4)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 4;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 4)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 4;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_FilterProxy_t {
+    QByteArrayData data[4];
+    char stringdata0[24];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_FilterProxy_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_FilterProxy_t qt_meta_stringdata_FilterProxy = {
+    {
+QT_MOC_LITERAL(0, 0, 11), // "FilterProxy"
+QT_MOC_LITERAL(1, 12, 7), // "setMode"
+QT_MOC_LITERAL(2, 20, 0), // ""
+QT_MOC_LITERAL(3, 21, 2) // "on"
+
+    },
+    "FilterProxy\0setMode\0\0on"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_FilterProxy[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    1,   19,    2, 0x0a /* Public */,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::Bool,    3,
+
+       0        // eod
+};
+
+void FilterProxy::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        FilterProxy *_t = static_cast<FilterProxy *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->setMode((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObject FilterProxy::staticMetaObject = {
+    { &QSortFilterProxyModel::staticMetaObject, qt_meta_stringdata_FilterProxy.data,
+      qt_meta_data_FilterProxy,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *FilterProxy::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *FilterProxy::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_FilterProxy.stringdata0))
+        return static_cast<void*>(this);
+    return QSortFilterProxyModel::qt_metacast(_clname);
+}
+
+int FilterProxy::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QSortFilterProxyModel::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_FilterProxy2_t {
+    QByteArrayData data[4];
+    char stringdata0[25];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_FilterProxy2_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_FilterProxy2_t qt_meta_stringdata_FilterProxy2 = {
+    {
+QT_MOC_LITERAL(0, 0, 12), // "FilterProxy2"
+QT_MOC_LITERAL(1, 13, 7), // "setMode"
+QT_MOC_LITERAL(2, 21, 0), // ""
+QT_MOC_LITERAL(3, 22, 2) // "on"
+
+    },
+    "FilterProxy2\0setMode\0\0on"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_FilterProxy2[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    1,   19,    2, 0x0a /* Public */,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::Bool,    3,
+
+       0        // eod
+};
+
+void FilterProxy2::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        FilterProxy2 *_t = static_cast<FilterProxy2 *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->setMode((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObject FilterProxy2::staticMetaObject = {
+    { &QSortFilterProxyModel::staticMetaObject, qt_meta_stringdata_FilterProxy2.data,
+      qt_meta_data_FilterProxy2,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *FilterProxy2::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *FilterProxy2::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_FilterProxy2.stringdata0))
+        return static_cast<void*>(this);
+    return QSortFilterProxyModel::qt_metacast(_clname);
+}
+
+int FilterProxy2::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QSortFilterProxyModel::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_CustomRoleNameModel_t {
+    QByteArrayData data[1];
+    char stringdata0[20];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_CustomRoleNameModel_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_CustomRoleNameModel_t qt_meta_stringdata_CustomRoleNameModel = {
+    {
+QT_MOC_LITERAL(0, 0, 19) // "CustomRoleNameModel"
+
+    },
+    "CustomRoleNameModel"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_CustomRoleNameModel[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void CustomRoleNameModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject CustomRoleNameModel::staticMetaObject = {
+    { &QAbstractListModel::staticMetaObject, qt_meta_stringdata_CustomRoleNameModel.data,
+      qt_meta_data_CustomRoleNameModel,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *CustomRoleNameModel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *CustomRoleNameModel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CustomRoleNameModel.stringdata0))
+        return static_cast<void*>(this);
+    return QAbstractListModel::qt_metacast(_clname);
+}
+
+int CustomRoleNameModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QAbstractListModel::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_DropOnOddRows_t {
+    QByteArrayData data[1];
+    char stringdata0[14];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_DropOnOddRows_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_DropOnOddRows_t qt_meta_stringdata_DropOnOddRows = {
+    {
+QT_MOC_LITERAL(0, 0, 13) // "DropOnOddRows"
+
+    },
+    "DropOnOddRows"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_DropOnOddRows[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void DropOnOddRows::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject DropOnOddRows::staticMetaObject = {
+    { &QAbstractListModel::staticMetaObject, qt_meta_stringdata_DropOnOddRows.data,
+      qt_meta_data_DropOnOddRows,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *DropOnOddRows::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *DropOnOddRows::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_DropOnOddRows.stringdata0))
+        return static_cast<void*>(this);
+    return QAbstractListModel::qt_metacast(_clname);
+}
+
+int DropOnOddRows::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QAbstractListModel::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_SourceAssertion_t {
+    QByteArrayData data[1];
+    char stringdata0[16];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_SourceAssertion_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_SourceAssertion_t qt_meta_stringdata_SourceAssertion = {
+    {
+QT_MOC_LITERAL(0, 0, 15) // "SourceAssertion"
+
+    },
+    "SourceAssertion"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_SourceAssertion[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void SourceAssertion::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject SourceAssertion::staticMetaObject = {
+    { &QSortFilterProxyModel::staticMetaObject, qt_meta_stringdata_SourceAssertion.data,
+      qt_meta_data_SourceAssertion,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *SourceAssertion::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *SourceAssertion::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_SourceAssertion.stringdata0))
+        return static_cast<void*>(this);
+    return QSortFilterProxyModel::qt_metacast(_clname);
+}
+
+int SourceAssertion::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QSortFilterProxyModel::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_StepTreeModel_t {
+    QByteArrayData data[1];
+    char stringdata0[14];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_StepTreeModel_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_StepTreeModel_t qt_meta_stringdata_StepTreeModel = {
+    {
+QT_MOC_LITERAL(0, 0, 13) // "StepTreeModel"
+
+    },
+    "StepTreeModel"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_StepTreeModel[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void StepTreeModel::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject StepTreeModel::staticMetaObject = {
+    { &QAbstractItemModel::staticMetaObject, qt_meta_stringdata_StepTreeModel.data,
+      qt_meta_data_StepTreeModel,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *StepTreeModel::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *StepTreeModel::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_StepTreeModel.stringdata0))
+        return static_cast<void*>(this);
+    return QAbstractItemModel::qt_metacast(_clname);
+}
+
+int StepTreeModel::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QAbstractItemModel::qt_metacall(_c, _id, _a);
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

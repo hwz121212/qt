@@ -1,0 +1,737 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qxmlquery.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qxmlquery.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QXmlQuery_t {
+    QByteArrayData data[134];
+    char stringdata0[3440];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QXmlQuery_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QXmlQuery_t qt_meta_stringdata_tst_QXmlQuery = {
+    {
+QT_MOC_LITERAL(0, 0, 13), // "tst_QXmlQuery"
+QT_MOC_LITERAL(1, 14, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 27, 0), // ""
+QT_MOC_LITERAL(3, 28, 18), // "defaultConstructor"
+QT_MOC_LITERAL(4, 47, 15), // "copyConstructor"
+QT_MOC_LITERAL(5, 63, 23), // "constructorQXmlNamePool"
+QT_MOC_LITERAL(6, 87, 36), // "constructorQXmlNamePoolQueryL..."
+QT_MOC_LITERAL(7, 124, 48), // "constructorQXmlNamePoolWithin..."
+QT_MOC_LITERAL(8, 173, 18), // "assignmentOperator"
+QT_MOC_LITERAL(9, 192, 7), // "isValid"
+QT_MOC_LITERAL(10, 200, 19), // "sequentialExecution"
+QT_MOC_LITERAL(11, 220, 19), // "bindVariableQString"
+QT_MOC_LITERAL(12, 240, 40), // "bindVariableQStringNoExternal..."
+QT_MOC_LITERAL(13, 281, 20), // "bindVariableQXmlName"
+QT_MOC_LITERAL(14, 302, 35), // "bindVariableQXmlNameTriggerWa..."
+QT_MOC_LITERAL(15, 338, 28), // "bindVariableQStringQIODevice"
+QT_MOC_LITERAL(16, 367, 41), // "bindVariableQStringQIODeviceW..."
+QT_MOC_LITERAL(17, 409, 38), // "bindVariableQStringQIODeviceW..."
+QT_MOC_LITERAL(18, 448, 37), // "bindVariableQStringQIODeviceW..."
+QT_MOC_LITERAL(19, 486, 29), // "bindVariableQXmlNameQIODevice"
+QT_MOC_LITERAL(20, 516, 44), // "bindVariableQXmlNameQIODevice..."
+QT_MOC_LITERAL(21, 561, 23), // "bindVariableXSLTSuccess"
+QT_MOC_LITERAL(22, 585, 25), // "bindVariableTemporaryNode"
+QT_MOC_LITERAL(23, 611, 17), // "setMessageHandler"
+QT_MOC_LITERAL(24, 629, 14), // "messageHandler"
+QT_MOC_LITERAL(25, 644, 45), // "evaluateToQAbstractXmlReceive..."
+QT_MOC_LITERAL(26, 690, 25), // "evaluateToQXmlResultItems"
+QT_MOC_LITERAL(27, 716, 40), // "evaluateToQXmlResultItemsTrig..."
+QT_MOC_LITERAL(28, 757, 35), // "evaluateToQXmlResultItemsErro..."
+QT_MOC_LITERAL(29, 793, 18), // "evaluateToReceiver"
+QT_MOC_LITERAL(30, 812, 23), // "evaluateToReceiver_data"
+QT_MOC_LITERAL(31, 836, 32), // "evaluateToReceiverOnInvalidQuery"
+QT_MOC_LITERAL(32, 869, 29), // "evaluateToQStringTriggerError"
+QT_MOC_LITERAL(33, 899, 17), // "evaluateToQString"
+QT_MOC_LITERAL(34, 917, 22), // "evaluateToQString_data"
+QT_MOC_LITERAL(35, 940, 26), // "evaluateToQStringSignature"
+QT_MOC_LITERAL(36, 967, 23), // "checkGeneratedBaselines"
+QT_MOC_LITERAL(37, 991, 24), // "basicXQueryToQtTypeCheck"
+QT_MOC_LITERAL(38, 1016, 24), // "basicQtToXQueryTypeCheck"
+QT_MOC_LITERAL(39, 1041, 8), // "bindNode"
+QT_MOC_LITERAL(40, 1050, 15), // "relativeBaseURI"
+QT_MOC_LITERAL(41, 1066, 12), // "emptyBaseURI"
+QT_MOC_LITERAL(42, 1079, 27), // "roundTripDateWithinQXmlItem"
+QT_MOC_LITERAL(43, 1107, 14), // "bindingMissing"
+QT_MOC_LITERAL(44, 1122, 26), // "bindDefaultConstructedItem"
+QT_MOC_LITERAL(45, 1149, 31), // "bindDefaultConstructedItem_data"
+QT_MOC_LITERAL(46, 1181, 19), // "bindEmptyNullString"
+QT_MOC_LITERAL(47, 1201, 15), // "bindEmptyString"
+QT_MOC_LITERAL(48, 1217, 22), // "rebindVariableSameType"
+QT_MOC_LITERAL(49, 1240, 27), // "rebindVariableDifferentType"
+QT_MOC_LITERAL(50, 1268, 26), // "rebindVariableWithNullItem"
+QT_MOC_LITERAL(51, 1295, 20), // "eraseQXmlItemBinding"
+QT_MOC_LITERAL(52, 1316, 18), // "eraseDeviceBinding"
+QT_MOC_LITERAL(53, 1335, 16), // "constCorrectness"
+QT_MOC_LITERAL(54, 1352, 10), // "objectSize"
+QT_MOC_LITERAL(55, 1363, 14), // "setUriResolver"
+QT_MOC_LITERAL(56, 1378, 11), // "uriResolver"
+QT_MOC_LITERAL(57, 1390, 10), // "messageXML"
+QT_MOC_LITERAL(58, 1401, 27), // "resultItemsDeallocatedQuery"
+QT_MOC_LITERAL(59, 1429, 23), // "copyCheckMessageHandler"
+QT_MOC_LITERAL(60, 1453, 17), // "shadowedVariables"
+QT_MOC_LITERAL(61, 1471, 16), // "setFocusQXmlItem"
+QT_MOC_LITERAL(62, 1488, 12), // "setFocusQUrl"
+QT_MOC_LITERAL(63, 1501, 17), // "setFocusQIODevice"
+QT_MOC_LITERAL(64, 1519, 35), // "setFocusQIODeviceAvoidVariabl..."
+QT_MOC_LITERAL(65, 1555, 24), // "setFocusQIODeviceFailure"
+QT_MOC_LITERAL(66, 1580, 32), // "setFocusQIODeviceTriggerWarnings"
+QT_MOC_LITERAL(67, 1613, 15), // "setFocusQString"
+QT_MOC_LITERAL(68, 1629, 22), // "setFocusQStringFailure"
+QT_MOC_LITERAL(69, 1652, 24), // "setFocusQStringSignature"
+QT_MOC_LITERAL(70, 1677, 40), // "recompilationWithEvaluateToRe..."
+QT_MOC_LITERAL(71, 1718, 43), // "secondEvaluationWithEvaluateT..."
+QT_MOC_LITERAL(72, 1762, 35), // "recompilationWithEvaluateToRe..."
+QT_MOC_LITERAL(73, 1798, 23), // "fnDocOnQIODeviceTimeout"
+QT_MOC_LITERAL(74, 1822, 35), // "evaluateToQStringListOnInvali..."
+QT_MOC_LITERAL(75, 1858, 21), // "evaluateToQStringList"
+QT_MOC_LITERAL(76, 1880, 36), // "evaluateToQStringListTriggerW..."
+QT_MOC_LITERAL(77, 1917, 26), // "evaluateToQStringList_data"
+QT_MOC_LITERAL(78, 1944, 33), // "evaluateToQStringListNoConver..."
+QT_MOC_LITERAL(79, 1978, 19), // "evaluateToQIODevice"
+QT_MOC_LITERAL(80, 1998, 34), // "evaluateToQIODeviceTriggerWar..."
+QT_MOC_LITERAL(81, 2033, 28), // "evaluateToQIODeviceSignature"
+QT_MOC_LITERAL(82, 2062, 33), // "evaluateToQIODeviceOnInvalidQ..."
+QT_MOC_LITERAL(83, 2096, 21), // "setQueryQIODeviceQUrl"
+QT_MOC_LITERAL(84, 2118, 36), // "setQueryQIODeviceQUrlTriggerW..."
+QT_MOC_LITERAL(85, 2155, 15), // "setQueryQString"
+QT_MOC_LITERAL(86, 2171, 19), // "setQueryQUrlSuccess"
+QT_MOC_LITERAL(87, 2191, 24), // "setQueryQUrlSuccess_data"
+QT_MOC_LITERAL(88, 2216, 23), // "setQueryQUrlFailSucceed"
+QT_MOC_LITERAL(89, 2240, 19), // "setQueryQUrlFailure"
+QT_MOC_LITERAL(90, 2260, 24), // "setQueryQUrlFailure_data"
+QT_MOC_LITERAL(91, 2285, 19), // "setQueryQUrlBaseURI"
+QT_MOC_LITERAL(92, 2305, 24), // "setQueryQUrlBaseURI_data"
+QT_MOC_LITERAL(93, 2330, 39), // "setQueryWithNonExistentQUrlOn..."
+QT_MOC_LITERAL(94, 2370, 44), // "setQueryWithInvalidQueryFromQ..."
+QT_MOC_LITERAL(95, 2415, 21), // "retrieveNameFromQuery"
+QT_MOC_LITERAL(96, 2437, 26), // "retrieveNameFromQuery_data"
+QT_MOC_LITERAL(97, 2464, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(98, 2480, 26), // "declareUnavailableExternal"
+QT_MOC_LITERAL(99, 2507, 14), // "msvcCacheIssue"
+QT_MOC_LITERAL(100, 2522, 27), // "unavailableExternalVariable"
+QT_MOC_LITERAL(101, 2550, 14), // "useUriResolver"
+QT_MOC_LITERAL(102, 2565, 25), // "queryWithFocusAndVariable"
+QT_MOC_LITERAL(103, 2591, 14), // "undefinedFocus"
+QT_MOC_LITERAL(104, 2606, 15), // "basicFocusUsage"
+QT_MOC_LITERAL(105, 2622, 13), // "queryLanguage"
+QT_MOC_LITERAL(106, 2636, 22), // "queryLanguageSignature"
+QT_MOC_LITERAL(107, 2659, 17), // "enumQueryLanguage"
+QT_MOC_LITERAL(108, 2677, 23), // "setNetworkAccessManager"
+QT_MOC_LITERAL(109, 2701, 29), // "networkAccessManagerSignature"
+QT_MOC_LITERAL(110, 2731, 32), // "networkAccessManagerDefaultValue"
+QT_MOC_LITERAL(111, 2764, 20), // "networkAccessManager"
+QT_MOC_LITERAL(112, 2785, 30), // "setInitialTemplateNameQXmlName"
+QT_MOC_LITERAL(113, 2816, 39), // "setInitialTemplateNameQXmlNam..."
+QT_MOC_LITERAL(114, 2856, 29), // "setInitialTemplateNameQString"
+QT_MOC_LITERAL(115, 2886, 38), // "setInitialTemplateNameQString..."
+QT_MOC_LITERAL(116, 2925, 19), // "initialTemplateName"
+QT_MOC_LITERAL(117, 2945, 28), // "initialTemplateNameSignature"
+QT_MOC_LITERAL(118, 2974, 25), // "fnDocNetworkAccessSuccess"
+QT_MOC_LITERAL(119, 3000, 30), // "fnDocNetworkAccessSuccess_data"
+QT_MOC_LITERAL(120, 3031, 25), // "fnDocNetworkAccessFailure"
+QT_MOC_LITERAL(121, 3057, 30), // "fnDocNetworkAccessFailure_data"
+QT_MOC_LITERAL(122, 3088, 20), // "multipleDocsAndFocus"
+QT_MOC_LITERAL(123, 3109, 37), // "multipleEvaluationsWithDiffer..."
+QT_MOC_LITERAL(124, 3147, 21), // "bindVariableQXmlQuery"
+QT_MOC_LITERAL(125, 3169, 26), // "bindVariableQXmlQuery_data"
+QT_MOC_LITERAL(126, 3196, 37), // "bindVariableQStringQXmlQueryS..."
+QT_MOC_LITERAL(127, 3234, 38), // "bindVariableQXmlNameQXmlQuery..."
+QT_MOC_LITERAL(128, 3273, 29), // "bindVariableQXmlNameQXmlQuery"
+QT_MOC_LITERAL(129, 3303, 31), // "bindVariableQXmlQueryInvalidate"
+QT_MOC_LITERAL(130, 3335, 21), // "unknownSourceLocation"
+QT_MOC_LITERAL(131, 3357, 25), // "identityConstraintSuccess"
+QT_MOC_LITERAL(132, 3383, 25), // "identityConstraintFailure"
+QT_MOC_LITERAL(133, 3409, 30) // "identityConstraintFailure_data"
+
+    },
+    "tst_QXmlQuery\0initTestCase\0\0"
+    "defaultConstructor\0copyConstructor\0"
+    "constructorQXmlNamePool\0"
+    "constructorQXmlNamePoolQueryLanguage\0"
+    "constructorQXmlNamePoolWithinQSimpleXmlNodeModel\0"
+    "assignmentOperator\0isValid\0"
+    "sequentialExecution\0bindVariableQString\0"
+    "bindVariableQStringNoExternalDeclaration\0"
+    "bindVariableQXmlName\0"
+    "bindVariableQXmlNameTriggerWarnings\0"
+    "bindVariableQStringQIODevice\0"
+    "bindVariableQStringQIODeviceWithByteArray\0"
+    "bindVariableQStringQIODeviceWithString\0"
+    "bindVariableQStringQIODeviceWithQFile\0"
+    "bindVariableQXmlNameQIODevice\0"
+    "bindVariableQXmlNameQIODeviceTriggerWarnings\0"
+    "bindVariableXSLTSuccess\0"
+    "bindVariableTemporaryNode\0setMessageHandler\0"
+    "messageHandler\0"
+    "evaluateToQAbstractXmlReceiverTriggerWarnings\0"
+    "evaluateToQXmlResultItems\0"
+    "evaluateToQXmlResultItemsTriggerWarnings\0"
+    "evaluateToQXmlResultItemsErrorAtEnd\0"
+    "evaluateToReceiver\0evaluateToReceiver_data\0"
+    "evaluateToReceiverOnInvalidQuery\0"
+    "evaluateToQStringTriggerError\0"
+    "evaluateToQString\0evaluateToQString_data\0"
+    "evaluateToQStringSignature\0"
+    "checkGeneratedBaselines\0"
+    "basicXQueryToQtTypeCheck\0"
+    "basicQtToXQueryTypeCheck\0bindNode\0"
+    "relativeBaseURI\0emptyBaseURI\0"
+    "roundTripDateWithinQXmlItem\0bindingMissing\0"
+    "bindDefaultConstructedItem\0"
+    "bindDefaultConstructedItem_data\0"
+    "bindEmptyNullString\0bindEmptyString\0"
+    "rebindVariableSameType\0"
+    "rebindVariableDifferentType\0"
+    "rebindVariableWithNullItem\0"
+    "eraseQXmlItemBinding\0eraseDeviceBinding\0"
+    "constCorrectness\0objectSize\0setUriResolver\0"
+    "uriResolver\0messageXML\0"
+    "resultItemsDeallocatedQuery\0"
+    "copyCheckMessageHandler\0shadowedVariables\0"
+    "setFocusQXmlItem\0setFocusQUrl\0"
+    "setFocusQIODevice\0setFocusQIODeviceAvoidVariableClash\0"
+    "setFocusQIODeviceFailure\0"
+    "setFocusQIODeviceTriggerWarnings\0"
+    "setFocusQString\0setFocusQStringFailure\0"
+    "setFocusQStringSignature\0"
+    "recompilationWithEvaluateToResultFailing\0"
+    "secondEvaluationWithEvaluateToResultFailing\0"
+    "recompilationWithEvaluateToReceiver\0"
+    "fnDocOnQIODeviceTimeout\0"
+    "evaluateToQStringListOnInvalidQuery\0"
+    "evaluateToQStringList\0"
+    "evaluateToQStringListTriggerWarnings\0"
+    "evaluateToQStringList_data\0"
+    "evaluateToQStringListNoConversion\0"
+    "evaluateToQIODevice\0"
+    "evaluateToQIODeviceTriggerWarnings\0"
+    "evaluateToQIODeviceSignature\0"
+    "evaluateToQIODeviceOnInvalidQuery\0"
+    "setQueryQIODeviceQUrl\0"
+    "setQueryQIODeviceQUrlTriggerWarnings\0"
+    "setQueryQString\0setQueryQUrlSuccess\0"
+    "setQueryQUrlSuccess_data\0"
+    "setQueryQUrlFailSucceed\0setQueryQUrlFailure\0"
+    "setQueryQUrlFailure_data\0setQueryQUrlBaseURI\0"
+    "setQueryQUrlBaseURI_data\0"
+    "setQueryWithNonExistentQUrlOnValidQuery\0"
+    "setQueryWithInvalidQueryFromQUrlOnValidQuery\0"
+    "retrieveNameFromQuery\0retrieveNameFromQuery_data\0"
+    "cleanupTestCase\0declareUnavailableExternal\0"
+    "msvcCacheIssue\0unavailableExternalVariable\0"
+    "useUriResolver\0queryWithFocusAndVariable\0"
+    "undefinedFocus\0basicFocusUsage\0"
+    "queryLanguage\0queryLanguageSignature\0"
+    "enumQueryLanguage\0setNetworkAccessManager\0"
+    "networkAccessManagerSignature\0"
+    "networkAccessManagerDefaultValue\0"
+    "networkAccessManager\0"
+    "setInitialTemplateNameQXmlName\0"
+    "setInitialTemplateNameQXmlNameSignature\0"
+    "setInitialTemplateNameQString\0"
+    "setInitialTemplateNameQStringSignature\0"
+    "initialTemplateName\0initialTemplateNameSignature\0"
+    "fnDocNetworkAccessSuccess\0"
+    "fnDocNetworkAccessSuccess_data\0"
+    "fnDocNetworkAccessFailure\0"
+    "fnDocNetworkAccessFailure_data\0"
+    "multipleDocsAndFocus\0"
+    "multipleEvaluationsWithDifferentFocus\0"
+    "bindVariableQXmlQuery\0bindVariableQXmlQuery_data\0"
+    "bindVariableQStringQXmlQuerySignature\0"
+    "bindVariableQXmlNameQXmlQuerySignature\0"
+    "bindVariableQXmlNameQXmlQuery\0"
+    "bindVariableQXmlQueryInvalidate\0"
+    "unknownSourceLocation\0identityConstraintSuccess\0"
+    "identityConstraintFailure\0"
+    "identityConstraintFailure_data"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QXmlQuery[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+     132,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  674,    2, 0x08 /* Private */,
+       3,    0,  675,    2, 0x08 /* Private */,
+       4,    0,  676,    2, 0x08 /* Private */,
+       5,    0,  677,    2, 0x08 /* Private */,
+       6,    0,  678,    2, 0x08 /* Private */,
+       7,    0,  679,    2, 0x08 /* Private */,
+       8,    0,  680,    2, 0x08 /* Private */,
+       9,    0,  681,    2, 0x08 /* Private */,
+      10,    0,  682,    2, 0x08 /* Private */,
+      11,    0,  683,    2, 0x08 /* Private */,
+      12,    0,  684,    2, 0x08 /* Private */,
+      13,    0,  685,    2, 0x08 /* Private */,
+      14,    0,  686,    2, 0x08 /* Private */,
+      15,    0,  687,    2, 0x08 /* Private */,
+      16,    0,  688,    2, 0x08 /* Private */,
+      17,    0,  689,    2, 0x08 /* Private */,
+      18,    0,  690,    2, 0x08 /* Private */,
+      19,    0,  691,    2, 0x08 /* Private */,
+      20,    0,  692,    2, 0x08 /* Private */,
+      21,    0,  693,    2, 0x08 /* Private */,
+      22,    0,  694,    2, 0x08 /* Private */,
+      23,    0,  695,    2, 0x08 /* Private */,
+      24,    0,  696,    2, 0x08 /* Private */,
+      25,    0,  697,    2, 0x08 /* Private */,
+      26,    0,  698,    2, 0x08 /* Private */,
+      27,    0,  699,    2, 0x08 /* Private */,
+      28,    0,  700,    2, 0x08 /* Private */,
+      29,    0,  701,    2, 0x08 /* Private */,
+      30,    0,  702,    2, 0x08 /* Private */,
+      31,    0,  703,    2, 0x08 /* Private */,
+      32,    0,  704,    2, 0x08 /* Private */,
+      33,    0,  705,    2, 0x08 /* Private */,
+      34,    0,  706,    2, 0x08 /* Private */,
+      35,    0,  707,    2, 0x08 /* Private */,
+      36,    0,  708,    2, 0x08 /* Private */,
+      37,    0,  709,    2, 0x08 /* Private */,
+      38,    0,  710,    2, 0x08 /* Private */,
+      39,    0,  711,    2, 0x08 /* Private */,
+      40,    0,  712,    2, 0x08 /* Private */,
+      41,    0,  713,    2, 0x08 /* Private */,
+      42,    0,  714,    2, 0x08 /* Private */,
+      43,    0,  715,    2, 0x08 /* Private */,
+      44,    0,  716,    2, 0x08 /* Private */,
+      45,    0,  717,    2, 0x08 /* Private */,
+      46,    0,  718,    2, 0x08 /* Private */,
+      47,    0,  719,    2, 0x08 /* Private */,
+      48,    0,  720,    2, 0x08 /* Private */,
+      49,    0,  721,    2, 0x08 /* Private */,
+      50,    0,  722,    2, 0x08 /* Private */,
+      51,    0,  723,    2, 0x08 /* Private */,
+      52,    0,  724,    2, 0x08 /* Private */,
+      53,    0,  725,    2, 0x08 /* Private */,
+      54,    0,  726,    2, 0x08 /* Private */,
+      55,    0,  727,    2, 0x08 /* Private */,
+      56,    0,  728,    2, 0x08 /* Private */,
+      57,    0,  729,    2, 0x08 /* Private */,
+      58,    0,  730,    2, 0x08 /* Private */,
+      59,    0,  731,    2, 0x08 /* Private */,
+      60,    0,  732,    2, 0x08 /* Private */,
+      61,    0,  733,    2, 0x08 /* Private */,
+      62,    0,  734,    2, 0x08 /* Private */,
+      63,    0,  735,    2, 0x08 /* Private */,
+      64,    0,  736,    2, 0x08 /* Private */,
+      65,    0,  737,    2, 0x08 /* Private */,
+      66,    0,  738,    2, 0x08 /* Private */,
+      67,    0,  739,    2, 0x08 /* Private */,
+      68,    0,  740,    2, 0x08 /* Private */,
+      69,    0,  741,    2, 0x08 /* Private */,
+      70,    0,  742,    2, 0x08 /* Private */,
+      71,    0,  743,    2, 0x08 /* Private */,
+      72,    0,  744,    2, 0x08 /* Private */,
+      73,    0,  745,    2, 0x08 /* Private */,
+      74,    0,  746,    2, 0x08 /* Private */,
+      75,    0,  747,    2, 0x08 /* Private */,
+      76,    0,  748,    2, 0x08 /* Private */,
+      77,    0,  749,    2, 0x08 /* Private */,
+      78,    0,  750,    2, 0x08 /* Private */,
+      79,    0,  751,    2, 0x08 /* Private */,
+      80,    0,  752,    2, 0x08 /* Private */,
+      81,    0,  753,    2, 0x08 /* Private */,
+      82,    0,  754,    2, 0x08 /* Private */,
+      83,    0,  755,    2, 0x08 /* Private */,
+      84,    0,  756,    2, 0x08 /* Private */,
+      85,    0,  757,    2, 0x08 /* Private */,
+      86,    0,  758,    2, 0x08 /* Private */,
+      87,    0,  759,    2, 0x08 /* Private */,
+      88,    0,  760,    2, 0x08 /* Private */,
+      89,    0,  761,    2, 0x08 /* Private */,
+      90,    0,  762,    2, 0x08 /* Private */,
+      91,    0,  763,    2, 0x08 /* Private */,
+      92,    0,  764,    2, 0x08 /* Private */,
+      93,    0,  765,    2, 0x08 /* Private */,
+      94,    0,  766,    2, 0x08 /* Private */,
+      95,    0,  767,    2, 0x08 /* Private */,
+      96,    0,  768,    2, 0x08 /* Private */,
+      97,    0,  769,    2, 0x08 /* Private */,
+      98,    0,  770,    2, 0x08 /* Private */,
+      99,    0,  771,    2, 0x08 /* Private */,
+     100,    0,  772,    2, 0x08 /* Private */,
+     101,    0,  773,    2, 0x08 /* Private */,
+     102,    0,  774,    2, 0x08 /* Private */,
+     103,    0,  775,    2, 0x08 /* Private */,
+     104,    0,  776,    2, 0x08 /* Private */,
+     105,    0,  777,    2, 0x08 /* Private */,
+     106,    0,  778,    2, 0x08 /* Private */,
+     107,    0,  779,    2, 0x08 /* Private */,
+     108,    0,  780,    2, 0x08 /* Private */,
+     109,    0,  781,    2, 0x08 /* Private */,
+     110,    0,  782,    2, 0x08 /* Private */,
+     111,    0,  783,    2, 0x08 /* Private */,
+     112,    0,  784,    2, 0x08 /* Private */,
+     113,    0,  785,    2, 0x08 /* Private */,
+     114,    0,  786,    2, 0x08 /* Private */,
+     115,    0,  787,    2, 0x08 /* Private */,
+     116,    0,  788,    2, 0x08 /* Private */,
+     117,    0,  789,    2, 0x08 /* Private */,
+     118,    0,  790,    2, 0x08 /* Private */,
+     119,    0,  791,    2, 0x08 /* Private */,
+     120,    0,  792,    2, 0x08 /* Private */,
+     121,    0,  793,    2, 0x08 /* Private */,
+     122,    0,  794,    2, 0x08 /* Private */,
+     123,    0,  795,    2, 0x08 /* Private */,
+     124,    0,  796,    2, 0x08 /* Private */,
+     125,    0,  797,    2, 0x08 /* Private */,
+     126,    0,  798,    2, 0x08 /* Private */,
+     127,    0,  799,    2, 0x08 /* Private */,
+     128,    0,  800,    2, 0x08 /* Private */,
+     129,    0,  801,    2, 0x08 /* Private */,
+     130,    0,  802,    2, 0x08 /* Private */,
+     131,    0,  803,    2, 0x08 /* Private */,
+     132,    0,  804,    2, 0x08 /* Private */,
+     133,    0,  805,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QXmlQuery::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QXmlQuery *_t = static_cast<tst_QXmlQuery *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->defaultConstructor(); break;
+        case 2: _t->copyConstructor(); break;
+        case 3: _t->constructorQXmlNamePool(); break;
+        case 4: _t->constructorQXmlNamePoolQueryLanguage(); break;
+        case 5: _t->constructorQXmlNamePoolWithinQSimpleXmlNodeModel(); break;
+        case 6: _t->assignmentOperator(); break;
+        case 7: _t->isValid(); break;
+        case 8: _t->sequentialExecution(); break;
+        case 9: _t->bindVariableQString(); break;
+        case 10: _t->bindVariableQStringNoExternalDeclaration(); break;
+        case 11: _t->bindVariableQXmlName(); break;
+        case 12: _t->bindVariableQXmlNameTriggerWarnings(); break;
+        case 13: _t->bindVariableQStringQIODevice(); break;
+        case 14: _t->bindVariableQStringQIODeviceWithByteArray(); break;
+        case 15: _t->bindVariableQStringQIODeviceWithString(); break;
+        case 16: _t->bindVariableQStringQIODeviceWithQFile(); break;
+        case 17: _t->bindVariableQXmlNameQIODevice(); break;
+        case 18: _t->bindVariableQXmlNameQIODeviceTriggerWarnings(); break;
+        case 19: _t->bindVariableXSLTSuccess(); break;
+        case 20: _t->bindVariableTemporaryNode(); break;
+        case 21: _t->setMessageHandler(); break;
+        case 22: _t->messageHandler(); break;
+        case 23: _t->evaluateToQAbstractXmlReceiverTriggerWarnings(); break;
+        case 24: _t->evaluateToQXmlResultItems(); break;
+        case 25: _t->evaluateToQXmlResultItemsTriggerWarnings(); break;
+        case 26: _t->evaluateToQXmlResultItemsErrorAtEnd(); break;
+        case 27: _t->evaluateToReceiver(); break;
+        case 28: _t->evaluateToReceiver_data(); break;
+        case 29: _t->evaluateToReceiverOnInvalidQuery(); break;
+        case 30: _t->evaluateToQStringTriggerError(); break;
+        case 31: _t->evaluateToQString(); break;
+        case 32: _t->evaluateToQString_data(); break;
+        case 33: _t->evaluateToQStringSignature(); break;
+        case 34: _t->checkGeneratedBaselines(); break;
+        case 35: _t->basicXQueryToQtTypeCheck(); break;
+        case 36: _t->basicQtToXQueryTypeCheck(); break;
+        case 37: _t->bindNode(); break;
+        case 38: _t->relativeBaseURI(); break;
+        case 39: _t->emptyBaseURI(); break;
+        case 40: _t->roundTripDateWithinQXmlItem(); break;
+        case 41: _t->bindingMissing(); break;
+        case 42: _t->bindDefaultConstructedItem(); break;
+        case 43: _t->bindDefaultConstructedItem_data(); break;
+        case 44: _t->bindEmptyNullString(); break;
+        case 45: _t->bindEmptyString(); break;
+        case 46: _t->rebindVariableSameType(); break;
+        case 47: _t->rebindVariableDifferentType(); break;
+        case 48: _t->rebindVariableWithNullItem(); break;
+        case 49: _t->eraseQXmlItemBinding(); break;
+        case 50: _t->eraseDeviceBinding(); break;
+        case 51: _t->constCorrectness(); break;
+        case 52: _t->objectSize(); break;
+        case 53: _t->setUriResolver(); break;
+        case 54: _t->uriResolver(); break;
+        case 55: _t->messageXML(); break;
+        case 56: _t->resultItemsDeallocatedQuery(); break;
+        case 57: _t->copyCheckMessageHandler(); break;
+        case 58: _t->shadowedVariables(); break;
+        case 59: _t->setFocusQXmlItem(); break;
+        case 60: _t->setFocusQUrl(); break;
+        case 61: _t->setFocusQIODevice(); break;
+        case 62: _t->setFocusQIODeviceAvoidVariableClash(); break;
+        case 63: _t->setFocusQIODeviceFailure(); break;
+        case 64: _t->setFocusQIODeviceTriggerWarnings(); break;
+        case 65: _t->setFocusQString(); break;
+        case 66: _t->setFocusQStringFailure(); break;
+        case 67: _t->setFocusQStringSignature(); break;
+        case 68: _t->recompilationWithEvaluateToResultFailing(); break;
+        case 69: _t->secondEvaluationWithEvaluateToResultFailing(); break;
+        case 70: _t->recompilationWithEvaluateToReceiver(); break;
+        case 71: _t->fnDocOnQIODeviceTimeout(); break;
+        case 72: _t->evaluateToQStringListOnInvalidQuery(); break;
+        case 73: _t->evaluateToQStringList(); break;
+        case 74: _t->evaluateToQStringListTriggerWarnings(); break;
+        case 75: _t->evaluateToQStringList_data(); break;
+        case 76: _t->evaluateToQStringListNoConversion(); break;
+        case 77: _t->evaluateToQIODevice(); break;
+        case 78: _t->evaluateToQIODeviceTriggerWarnings(); break;
+        case 79: _t->evaluateToQIODeviceSignature(); break;
+        case 80: _t->evaluateToQIODeviceOnInvalidQuery(); break;
+        case 81: _t->setQueryQIODeviceQUrl(); break;
+        case 82: _t->setQueryQIODeviceQUrlTriggerWarnings(); break;
+        case 83: _t->setQueryQString(); break;
+        case 84: _t->setQueryQUrlSuccess(); break;
+        case 85: _t->setQueryQUrlSuccess_data(); break;
+        case 86: _t->setQueryQUrlFailSucceed(); break;
+        case 87: _t->setQueryQUrlFailure(); break;
+        case 88: _t->setQueryQUrlFailure_data(); break;
+        case 89: _t->setQueryQUrlBaseURI(); break;
+        case 90: _t->setQueryQUrlBaseURI_data(); break;
+        case 91: _t->setQueryWithNonExistentQUrlOnValidQuery(); break;
+        case 92: _t->setQueryWithInvalidQueryFromQUrlOnValidQuery(); break;
+        case 93: _t->retrieveNameFromQuery(); break;
+        case 94: _t->retrieveNameFromQuery_data(); break;
+        case 95: _t->cleanupTestCase(); break;
+        case 96: _t->declareUnavailableExternal(); break;
+        case 97: _t->msvcCacheIssue(); break;
+        case 98: _t->unavailableExternalVariable(); break;
+        case 99: _t->useUriResolver(); break;
+        case 100: _t->queryWithFocusAndVariable(); break;
+        case 101: _t->undefinedFocus(); break;
+        case 102: _t->basicFocusUsage(); break;
+        case 103: _t->queryLanguage(); break;
+        case 104: _t->queryLanguageSignature(); break;
+        case 105: _t->enumQueryLanguage(); break;
+        case 106: _t->setNetworkAccessManager(); break;
+        case 107: _t->networkAccessManagerSignature(); break;
+        case 108: _t->networkAccessManagerDefaultValue(); break;
+        case 109: _t->networkAccessManager(); break;
+        case 110: _t->setInitialTemplateNameQXmlName(); break;
+        case 111: _t->setInitialTemplateNameQXmlNameSignature(); break;
+        case 112: _t->setInitialTemplateNameQString(); break;
+        case 113: _t->setInitialTemplateNameQStringSignature(); break;
+        case 114: _t->initialTemplateName(); break;
+        case 115: _t->initialTemplateNameSignature(); break;
+        case 116: _t->fnDocNetworkAccessSuccess(); break;
+        case 117: _t->fnDocNetworkAccessSuccess_data(); break;
+        case 118: _t->fnDocNetworkAccessFailure(); break;
+        case 119: _t->fnDocNetworkAccessFailure_data(); break;
+        case 120: _t->multipleDocsAndFocus(); break;
+        case 121: _t->multipleEvaluationsWithDifferentFocus(); break;
+        case 122: _t->bindVariableQXmlQuery(); break;
+        case 123: _t->bindVariableQXmlQuery_data(); break;
+        case 124: _t->bindVariableQStringQXmlQuerySignature(); break;
+        case 125: _t->bindVariableQXmlNameQXmlQuerySignature(); break;
+        case 126: _t->bindVariableQXmlNameQXmlQuery(); break;
+        case 127: _t->bindVariableQXmlQueryInvalidate(); break;
+        case 128: _t->unknownSourceLocation(); break;
+        case 129: _t->identityConstraintSuccess(); break;
+        case 130: _t->identityConstraintFailure(); break;
+        case 131: _t->identityConstraintFailure_data(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QXmlQuery::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QXmlQuery.data,
+      qt_meta_data_tst_QXmlQuery,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QXmlQuery::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QXmlQuery::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QXmlQuery.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QXmlQuery::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 132)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 132;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 132)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 132;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

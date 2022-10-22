@@ -1,0 +1,37 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qmltest", "auto\qmltest\tst_qmltest.vcxproj", "{8B8085B4-4B90-3269-8C29-BC7E3EBA7972}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "commandthroughput", "manual\commandthroughput\commandthroughput.vcxproj", "{1C9A8AE1-304E-3F84-83F5-6A90CE3692BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "multiwindowtest", "manual\multiwindowtest\multiwindowtest.vcxproj", "{AE2BBF26-4B6B-3CCE-B639-83CB548D1763}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B8085B4-4B90-3269-8C29-BC7E3EBA7972}.Debug|x64.ActiveCfg = Debug|x64
+		{8B8085B4-4B90-3269-8C29-BC7E3EBA7972}.Debug|x64.Build.0 = Debug|x64
+		{8B8085B4-4B90-3269-8C29-BC7E3EBA7972}.Release|x64.ActiveCfg = Release|x64
+		{8B8085B4-4B90-3269-8C29-BC7E3EBA7972}.Release|x64.Build.0 = Release|x64
+		{1C9A8AE1-304E-3F84-83F5-6A90CE3692BF}.Debug|x64.ActiveCfg = Debug|x64
+		{1C9A8AE1-304E-3F84-83F5-6A90CE3692BF}.Debug|x64.Build.0 = Debug|x64
+		{1C9A8AE1-304E-3F84-83F5-6A90CE3692BF}.Release|x64.ActiveCfg = Release|x64
+		{1C9A8AE1-304E-3F84-83F5-6A90CE3692BF}.Release|x64.Build.0 = Release|x64
+		{AE2BBF26-4B6B-3CCE-B639-83CB548D1763}.Debug|x64.ActiveCfg = Debug|x64
+		{AE2BBF26-4B6B-3CCE-B639-83CB548D1763}.Debug|x64.Build.0 = Debug|x64
+		{AE2BBF26-4B6B-3CCE-B639-83CB548D1763}.Release|x64.ActiveCfg = Release|x64
+		{AE2BBF26-4B6B-3CCE-B639-83CB548D1763}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = msvc2017_64
+		SolutionGuid = {49CE18FD-1F90-4ABB-8916-EDB695BB0DB1}
+	EndGlobalSection
+EndGlobal

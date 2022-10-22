@@ -1,0 +1,1201 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qstring.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qstring.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QString_t {
+    QByteArrayData data[247];
+    char stringdata0[4162];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QString_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QString_t qt_meta_stringdata_tst_QString = {
+    {
+QT_MOC_LITERAL(0, 0, 11), // "tst_QString"
+QT_MOC_LITERAL(1, 12, 7), // "cleanup"
+QT_MOC_LITERAL(2, 20, 0), // ""
+QT_MOC_LITERAL(3, 21, 13), // "fromStdString"
+QT_MOC_LITERAL(4, 35, 11), // "toStdString"
+QT_MOC_LITERAL(5, 47, 19), // "check_QTextIOStream"
+QT_MOC_LITERAL(6, 67, 17), // "check_QTextStream"
+QT_MOC_LITERAL(7, 85, 17), // "check_QDataStream"
+QT_MOC_LITERAL(8, 103, 11), // "fromRawData"
+QT_MOC_LITERAL(9, 115, 10), // "setRawData"
+QT_MOC_LITERAL(10, 126, 8), // "endsWith"
+QT_MOC_LITERAL(11, 135, 10), // "startsWith"
+QT_MOC_LITERAL(12, 146, 6), // "setNum"
+QT_MOC_LITERAL(13, 153, 13), // "toDouble_data"
+QT_MOC_LITERAL(14, 167, 8), // "toDouble"
+QT_MOC_LITERAL(15, 176, 7), // "toFloat"
+QT_MOC_LITERAL(16, 184, 11), // "toLong_data"
+QT_MOC_LITERAL(17, 196, 6), // "toLong"
+QT_MOC_LITERAL(18, 203, 12), // "toULong_data"
+QT_MOC_LITERAL(19, 216, 7), // "toULong"
+QT_MOC_LITERAL(20, 224, 10), // "toLongLong"
+QT_MOC_LITERAL(21, 235, 11), // "toULongLong"
+QT_MOC_LITERAL(22, 247, 6), // "toUInt"
+QT_MOC_LITERAL(23, 254, 5), // "toInt"
+QT_MOC_LITERAL(24, 260, 7), // "toShort"
+QT_MOC_LITERAL(25, 268, 8), // "toUShort"
+QT_MOC_LITERAL(26, 277, 24), // "replace_qchar_qchar_data"
+QT_MOC_LITERAL(27, 302, 19), // "replace_qchar_qchar"
+QT_MOC_LITERAL(28, 322, 26), // "replace_qchar_qstring_data"
+QT_MOC_LITERAL(29, 349, 21), // "replace_qchar_qstring"
+QT_MOC_LITERAL(30, 371, 22), // "replace_uint_uint_data"
+QT_MOC_LITERAL(31, 394, 17), // "replace_uint_uint"
+QT_MOC_LITERAL(32, 412, 13), // "replace_extra"
+QT_MOC_LITERAL(33, 426, 19), // "replace_string_data"
+QT_MOC_LITERAL(34, 446, 14), // "replace_string"
+QT_MOC_LITERAL(35, 461, 19), // "replace_regexp_data"
+QT_MOC_LITERAL(36, 481, 14), // "replace_regexp"
+QT_MOC_LITERAL(37, 496, 21), // "remove_uint_uint_data"
+QT_MOC_LITERAL(38, 518, 16), // "remove_uint_uint"
+QT_MOC_LITERAL(39, 535, 18), // "remove_string_data"
+QT_MOC_LITERAL(40, 554, 13), // "remove_string"
+QT_MOC_LITERAL(41, 568, 18), // "remove_regexp_data"
+QT_MOC_LITERAL(42, 587, 13), // "remove_regexp"
+QT_MOC_LITERAL(43, 601, 4), // "swap"
+QT_MOC_LITERAL(44, 606, 15), // "prepend_qstring"
+QT_MOC_LITERAL(45, 622, 20), // "prepend_qstring_data"
+QT_MOC_LITERAL(46, 643, 18), // "prepend_qstringref"
+QT_MOC_LITERAL(47, 662, 23), // "prepend_qstringref_data"
+QT_MOC_LITERAL(48, 686, 21), // "prepend_qlatin1string"
+QT_MOC_LITERAL(49, 708, 26), // "prepend_qlatin1string_data"
+QT_MOC_LITERAL(50, 735, 21), // "prepend_qcharstar_int"
+QT_MOC_LITERAL(51, 757, 26), // "prepend_qcharstar_int_data"
+QT_MOC_LITERAL(52, 784, 13), // "prepend_qchar"
+QT_MOC_LITERAL(53, 798, 18), // "prepend_qchar_data"
+QT_MOC_LITERAL(54, 817, 18), // "prepend_qbytearray"
+QT_MOC_LITERAL(55, 836, 23), // "prepend_qbytearray_data"
+QT_MOC_LITERAL(56, 860, 12), // "prepend_char"
+QT_MOC_LITERAL(57, 873, 17), // "prepend_char_data"
+QT_MOC_LITERAL(58, 891, 16), // "prepend_charstar"
+QT_MOC_LITERAL(59, 908, 21), // "prepend_charstar_data"
+QT_MOC_LITERAL(60, 930, 36), // "prepend_bytearray_special_cas..."
+QT_MOC_LITERAL(61, 967, 31), // "prepend_bytearray_special_cases"
+QT_MOC_LITERAL(62, 999, 14), // "append_qstring"
+QT_MOC_LITERAL(63, 1014, 19), // "append_qstring_data"
+QT_MOC_LITERAL(64, 1034, 17), // "append_qstringref"
+QT_MOC_LITERAL(65, 1052, 22), // "append_qstringref_data"
+QT_MOC_LITERAL(66, 1075, 20), // "append_qlatin1string"
+QT_MOC_LITERAL(67, 1096, 25), // "append_qlatin1string_data"
+QT_MOC_LITERAL(68, 1122, 20), // "append_qcharstar_int"
+QT_MOC_LITERAL(69, 1143, 25), // "append_qcharstar_int_data"
+QT_MOC_LITERAL(70, 1169, 12), // "append_qchar"
+QT_MOC_LITERAL(71, 1182, 17), // "append_qchar_data"
+QT_MOC_LITERAL(72, 1200, 17), // "append_qbytearray"
+QT_MOC_LITERAL(73, 1218, 22), // "append_qbytearray_data"
+QT_MOC_LITERAL(74, 1241, 11), // "append_char"
+QT_MOC_LITERAL(75, 1253, 16), // "append_char_data"
+QT_MOC_LITERAL(76, 1270, 15), // "append_charstar"
+QT_MOC_LITERAL(77, 1286, 20), // "append_charstar_data"
+QT_MOC_LITERAL(78, 1307, 20), // "append_special_cases"
+QT_MOC_LITERAL(79, 1328, 35), // "append_bytearray_special_case..."
+QT_MOC_LITERAL(80, 1364, 30), // "append_bytearray_special_cases"
+QT_MOC_LITERAL(81, 1395, 23), // "operator_pluseq_qstring"
+QT_MOC_LITERAL(82, 1419, 28), // "operator_pluseq_qstring_data"
+QT_MOC_LITERAL(83, 1448, 26), // "operator_pluseq_qstringref"
+QT_MOC_LITERAL(84, 1475, 31), // "operator_pluseq_qstringref_data"
+QT_MOC_LITERAL(85, 1507, 29), // "operator_pluseq_qlatin1string"
+QT_MOC_LITERAL(86, 1537, 34), // "operator_pluseq_qlatin1string..."
+QT_MOC_LITERAL(87, 1572, 21), // "operator_pluseq_qchar"
+QT_MOC_LITERAL(88, 1594, 26), // "operator_pluseq_qchar_data"
+QT_MOC_LITERAL(89, 1621, 26), // "operator_pluseq_qbytearray"
+QT_MOC_LITERAL(90, 1648, 31), // "operator_pluseq_qbytearray_data"
+QT_MOC_LITERAL(91, 1680, 20), // "operator_pluseq_char"
+QT_MOC_LITERAL(92, 1701, 25), // "operator_pluseq_char_data"
+QT_MOC_LITERAL(93, 1727, 24), // "operator_pluseq_charstar"
+QT_MOC_LITERAL(94, 1752, 29), // "operator_pluseq_charstar_data"
+QT_MOC_LITERAL(95, 1782, 44), // "operator_pluseq_bytearray_spe..."
+QT_MOC_LITERAL(96, 1827, 39), // "operator_pluseq_bytearray_spe..."
+QT_MOC_LITERAL(97, 1867, 28), // "operator_eqeq_bytearray_data"
+QT_MOC_LITERAL(98, 1896, 23), // "operator_eqeq_bytearray"
+QT_MOC_LITERAL(99, 1920, 24), // "operator_eqeq_nullstring"
+QT_MOC_LITERAL(100, 1945, 16), // "operator_smaller"
+QT_MOC_LITERAL(101, 1962, 14), // "insert_qstring"
+QT_MOC_LITERAL(102, 1977, 19), // "insert_qstring_data"
+QT_MOC_LITERAL(103, 1997, 17), // "insert_qstringref"
+QT_MOC_LITERAL(104, 2015, 22), // "insert_qstringref_data"
+QT_MOC_LITERAL(105, 2038, 20), // "insert_qlatin1string"
+QT_MOC_LITERAL(106, 2059, 25), // "insert_qlatin1string_data"
+QT_MOC_LITERAL(107, 2085, 20), // "insert_qcharstar_int"
+QT_MOC_LITERAL(108, 2106, 25), // "insert_qcharstar_int_data"
+QT_MOC_LITERAL(109, 2132, 12), // "insert_qchar"
+QT_MOC_LITERAL(110, 2145, 17), // "insert_qchar_data"
+QT_MOC_LITERAL(111, 2163, 17), // "insert_qbytearray"
+QT_MOC_LITERAL(112, 2181, 22), // "insert_qbytearray_data"
+QT_MOC_LITERAL(113, 2204, 11), // "insert_char"
+QT_MOC_LITERAL(114, 2216, 16), // "insert_char_data"
+QT_MOC_LITERAL(115, 2233, 15), // "insert_charstar"
+QT_MOC_LITERAL(116, 2249, 20), // "insert_charstar_data"
+QT_MOC_LITERAL(117, 2270, 20), // "insert_special_cases"
+QT_MOC_LITERAL(118, 2291, 15), // "simplified_data"
+QT_MOC_LITERAL(119, 2307, 10), // "simplified"
+QT_MOC_LITERAL(120, 2318, 7), // "trimmed"
+QT_MOC_LITERAL(121, 2326, 7), // "toUpper"
+QT_MOC_LITERAL(122, 2334, 7), // "toLower"
+QT_MOC_LITERAL(123, 2342, 12), // "toCaseFolded"
+QT_MOC_LITERAL(124, 2355, 14), // "rightJustified"
+QT_MOC_LITERAL(125, 2370, 13), // "leftJustified"
+QT_MOC_LITERAL(126, 2384, 3), // "mid"
+QT_MOC_LITERAL(127, 2388, 5), // "right"
+QT_MOC_LITERAL(128, 2394, 4), // "left"
+QT_MOC_LITERAL(129, 2399, 6), // "midRef"
+QT_MOC_LITERAL(130, 2406, 8), // "rightRef"
+QT_MOC_LITERAL(131, 2415, 7), // "leftRef"
+QT_MOC_LITERAL(132, 2423, 9), // "stringRef"
+QT_MOC_LITERAL(133, 2433, 8), // "contains"
+QT_MOC_LITERAL(134, 2442, 5), // "count"
+QT_MOC_LITERAL(135, 2448, 16), // "lastIndexOf_data"
+QT_MOC_LITERAL(136, 2465, 11), // "lastIndexOf"
+QT_MOC_LITERAL(137, 2477, 23), // "lastIndexOfInvalidRegex"
+QT_MOC_LITERAL(138, 2501, 12), // "indexOf_data"
+QT_MOC_LITERAL(139, 2514, 7), // "indexOf"
+QT_MOC_LITERAL(140, 2522, 19), // "indexOfInvalidRegex"
+QT_MOC_LITERAL(141, 2542, 13), // "indexOf2_data"
+QT_MOC_LITERAL(142, 2556, 8), // "indexOf2"
+QT_MOC_LITERAL(143, 2565, 13), // "indexOf3_data"
+QT_MOC_LITERAL(144, 2579, 7), // "sprintf"
+QT_MOC_LITERAL(145, 2587, 8), // "sprintfS"
+QT_MOC_LITERAL(146, 2596, 4), // "fill"
+QT_MOC_LITERAL(147, 2601, 8), // "truncate"
+QT_MOC_LITERAL(148, 2610, 9), // "chop_data"
+QT_MOC_LITERAL(149, 2620, 4), // "chop"
+QT_MOC_LITERAL(150, 2625, 11), // "constructor"
+QT_MOC_LITERAL(151, 2637, 26), // "constructorQByteArray_data"
+QT_MOC_LITERAL(152, 2664, 21), // "constructorQByteArray"
+QT_MOC_LITERAL(153, 2686, 3), // "STL"
+QT_MOC_LITERAL(154, 2690, 8), // "macTypes"
+QT_MOC_LITERAL(155, 2699, 7), // "isEmpty"
+QT_MOC_LITERAL(156, 2707, 6), // "isNull"
+QT_MOC_LITERAL(157, 2714, 6), // "acc_01"
+QT_MOC_LITERAL(158, 2721, 11), // "length_data"
+QT_MOC_LITERAL(159, 2733, 6), // "length"
+QT_MOC_LITERAL(160, 2740, 9), // "utf8_data"
+QT_MOC_LITERAL(161, 2750, 4), // "utf8"
+QT_MOC_LITERAL(162, 2755, 13), // "fromUtf8_data"
+QT_MOC_LITERAL(163, 2769, 8), // "fromUtf8"
+QT_MOC_LITERAL(164, 2778, 12), // "nullFromUtf8"
+QT_MOC_LITERAL(165, 2791, 18), // "fromLocal8Bit_data"
+QT_MOC_LITERAL(166, 2810, 13), // "fromLocal8Bit"
+QT_MOC_LITERAL(167, 2824, 14), // "local8Bit_data"
+QT_MOC_LITERAL(168, 2839, 9), // "local8Bit"
+QT_MOC_LITERAL(169, 2849, 23), // "invalidToLocal8Bit_data"
+QT_MOC_LITERAL(170, 2873, 18), // "invalidToLocal8Bit"
+QT_MOC_LITERAL(171, 2892, 17), // "nullFromLocal8Bit"
+QT_MOC_LITERAL(172, 2910, 24), // "fromLatin1Roundtrip_data"
+QT_MOC_LITERAL(173, 2935, 19), // "fromLatin1Roundtrip"
+QT_MOC_LITERAL(174, 2955, 22), // "toLatin1Roundtrip_data"
+QT_MOC_LITERAL(175, 2978, 17), // "toLatin1Roundtrip"
+QT_MOC_LITERAL(176, 2996, 32), // "stringRef_toLatin1Roundtrip_data"
+QT_MOC_LITERAL(177, 3029, 27), // "stringRef_toLatin1Roundtrip"
+QT_MOC_LITERAL(178, 3057, 19), // "stringRef_utf8_data"
+QT_MOC_LITERAL(179, 3077, 14), // "stringRef_utf8"
+QT_MOC_LITERAL(180, 3092, 24), // "stringRef_local8Bit_data"
+QT_MOC_LITERAL(181, 3117, 19), // "stringRef_local8Bit"
+QT_MOC_LITERAL(182, 3137, 10), // "fromLatin1"
+QT_MOC_LITERAL(183, 3148, 9), // "fromAscii"
+QT_MOC_LITERAL(184, 3158, 8), // "fromUcs4"
+QT_MOC_LITERAL(185, 3167, 6), // "toUcs4"
+QT_MOC_LITERAL(186, 3174, 3), // "arg"
+QT_MOC_LITERAL(187, 3178, 6), // "number"
+QT_MOC_LITERAL(188, 3185, 17), // "arg_fillChar_data"
+QT_MOC_LITERAL(189, 3203, 12), // "arg_fillChar"
+QT_MOC_LITERAL(190, 3216, 13), // "capacity_data"
+QT_MOC_LITERAL(191, 3230, 8), // "capacity"
+QT_MOC_LITERAL(192, 3239, 12), // "section_data"
+QT_MOC_LITERAL(193, 3252, 7), // "section"
+QT_MOC_LITERAL(194, 3260, 22), // "double_conversion_data"
+QT_MOC_LITERAL(195, 3283, 17), // "double_conversion"
+QT_MOC_LITERAL(196, 3301, 23), // "integer_conversion_data"
+QT_MOC_LITERAL(197, 3325, 18), // "integer_conversion"
+QT_MOC_LITERAL(198, 3344, 20), // "tortureSprintfDouble"
+QT_MOC_LITERAL(199, 3365, 5), // "toNum"
+QT_MOC_LITERAL(200, 3371, 16), // "reverseIterators"
+QT_MOC_LITERAL(201, 3388, 10), // "split_data"
+QT_MOC_LITERAL(202, 3399, 5), // "split"
+QT_MOC_LITERAL(203, 3405, 17), // "split_regexp_data"
+QT_MOC_LITERAL(204, 3423, 12), // "split_regexp"
+QT_MOC_LITERAL(205, 3436, 28), // "split_regularexpression_data"
+QT_MOC_LITERAL(206, 3465, 23), // "split_regularexpression"
+QT_MOC_LITERAL(207, 3489, 13), // "splitRef_data"
+QT_MOC_LITERAL(208, 3503, 8), // "splitRef"
+QT_MOC_LITERAL(209, 3512, 20), // "splitRef_regexp_data"
+QT_MOC_LITERAL(210, 3533, 15), // "splitRef_regexp"
+QT_MOC_LITERAL(211, 3549, 31), // "splitRef_regularexpression_data"
+QT_MOC_LITERAL(212, 3581, 26), // "splitRef_regularexpression"
+QT_MOC_LITERAL(213, 3608, 14), // "fromUtf16_data"
+QT_MOC_LITERAL(214, 3623, 9), // "fromUtf16"
+QT_MOC_LITERAL(215, 3633, 21), // "fromUtf16_char16_data"
+QT_MOC_LITERAL(216, 3655, 16), // "fromUtf16_char16"
+QT_MOC_LITERAL(217, 3672, 12), // "latin1String"
+QT_MOC_LITERAL(218, 3685, 9), // "nanAndInf"
+QT_MOC_LITERAL(219, 3695, 12), // "compare_data"
+QT_MOC_LITERAL(220, 3708, 7), // "compare"
+QT_MOC_LITERAL(221, 3716, 6), // "resize"
+QT_MOC_LITERAL(222, 3723, 22), // "resizeAfterFromRawData"
+QT_MOC_LITERAL(223, 3746, 18), // "resizeAfterReserve"
+QT_MOC_LITERAL(224, 3765, 18), // "resizeWithNegative"
+QT_MOC_LITERAL(225, 3784, 20), // "truncateWithNegative"
+QT_MOC_LITERAL(226, 3805, 22), // "QCharRefMutableUnicode"
+QT_MOC_LITERAL(227, 3828, 17), // "QCharRefDetaching"
+QT_MOC_LITERAL(228, 3846, 9), // "sprintfZU"
+QT_MOC_LITERAL(229, 3856, 17), // "repeatedSignature"
+QT_MOC_LITERAL(230, 3874, 8), // "repeated"
+QT_MOC_LITERAL(231, 3883, 13), // "repeated_data"
+QT_MOC_LITERAL(232, 3897, 10), // "compareRef"
+QT_MOC_LITERAL(233, 3908, 10), // "arg_locale"
+QT_MOC_LITERAL(234, 3919, 21), // "eightBitLiterals_data"
+QT_MOC_LITERAL(235, 3941, 16), // "eightBitLiterals"
+QT_MOC_LITERAL(236, 3958, 7), // "reserve"
+QT_MOC_LITERAL(237, 3966, 18), // "toHtmlEscaped_data"
+QT_MOC_LITERAL(238, 3985, 13), // "toHtmlEscaped"
+QT_MOC_LITERAL(239, 3999, 32), // "operatorGreaterWithQLatin1String"
+QT_MOC_LITERAL(240, 4032, 21), // "compareQLatin1Strings"
+QT_MOC_LITERAL(241, 4054, 27), // "fromQLatin1StringWithLength"
+QT_MOC_LITERAL(242, 4082, 19), // "assignQLatin1String"
+QT_MOC_LITERAL(243, 4102, 11), // "assignQChar"
+QT_MOC_LITERAL(244, 4114, 18), // "isRightToLeft_data"
+QT_MOC_LITERAL(245, 4133, 13), // "isRightToLeft"
+QT_MOC_LITERAL(246, 4147, 14) // "unicodeStrings"
+
+    },
+    "tst_QString\0cleanup\0\0fromStdString\0"
+    "toStdString\0check_QTextIOStream\0"
+    "check_QTextStream\0check_QDataStream\0"
+    "fromRawData\0setRawData\0endsWith\0"
+    "startsWith\0setNum\0toDouble_data\0"
+    "toDouble\0toFloat\0toLong_data\0toLong\0"
+    "toULong_data\0toULong\0toLongLong\0"
+    "toULongLong\0toUInt\0toInt\0toShort\0"
+    "toUShort\0replace_qchar_qchar_data\0"
+    "replace_qchar_qchar\0replace_qchar_qstring_data\0"
+    "replace_qchar_qstring\0replace_uint_uint_data\0"
+    "replace_uint_uint\0replace_extra\0"
+    "replace_string_data\0replace_string\0"
+    "replace_regexp_data\0replace_regexp\0"
+    "remove_uint_uint_data\0remove_uint_uint\0"
+    "remove_string_data\0remove_string\0"
+    "remove_regexp_data\0remove_regexp\0swap\0"
+    "prepend_qstring\0prepend_qstring_data\0"
+    "prepend_qstringref\0prepend_qstringref_data\0"
+    "prepend_qlatin1string\0prepend_qlatin1string_data\0"
+    "prepend_qcharstar_int\0prepend_qcharstar_int_data\0"
+    "prepend_qchar\0prepend_qchar_data\0"
+    "prepend_qbytearray\0prepend_qbytearray_data\0"
+    "prepend_char\0prepend_char_data\0"
+    "prepend_charstar\0prepend_charstar_data\0"
+    "prepend_bytearray_special_cases_data\0"
+    "prepend_bytearray_special_cases\0"
+    "append_qstring\0append_qstring_data\0"
+    "append_qstringref\0append_qstringref_data\0"
+    "append_qlatin1string\0append_qlatin1string_data\0"
+    "append_qcharstar_int\0append_qcharstar_int_data\0"
+    "append_qchar\0append_qchar_data\0"
+    "append_qbytearray\0append_qbytearray_data\0"
+    "append_char\0append_char_data\0"
+    "append_charstar\0append_charstar_data\0"
+    "append_special_cases\0"
+    "append_bytearray_special_cases_data\0"
+    "append_bytearray_special_cases\0"
+    "operator_pluseq_qstring\0"
+    "operator_pluseq_qstring_data\0"
+    "operator_pluseq_qstringref\0"
+    "operator_pluseq_qstringref_data\0"
+    "operator_pluseq_qlatin1string\0"
+    "operator_pluseq_qlatin1string_data\0"
+    "operator_pluseq_qchar\0operator_pluseq_qchar_data\0"
+    "operator_pluseq_qbytearray\0"
+    "operator_pluseq_qbytearray_data\0"
+    "operator_pluseq_char\0operator_pluseq_char_data\0"
+    "operator_pluseq_charstar\0"
+    "operator_pluseq_charstar_data\0"
+    "operator_pluseq_bytearray_special_cases_data\0"
+    "operator_pluseq_bytearray_special_cases\0"
+    "operator_eqeq_bytearray_data\0"
+    "operator_eqeq_bytearray\0"
+    "operator_eqeq_nullstring\0operator_smaller\0"
+    "insert_qstring\0insert_qstring_data\0"
+    "insert_qstringref\0insert_qstringref_data\0"
+    "insert_qlatin1string\0insert_qlatin1string_data\0"
+    "insert_qcharstar_int\0insert_qcharstar_int_data\0"
+    "insert_qchar\0insert_qchar_data\0"
+    "insert_qbytearray\0insert_qbytearray_data\0"
+    "insert_char\0insert_char_data\0"
+    "insert_charstar\0insert_charstar_data\0"
+    "insert_special_cases\0simplified_data\0"
+    "simplified\0trimmed\0toUpper\0toLower\0"
+    "toCaseFolded\0rightJustified\0leftJustified\0"
+    "mid\0right\0left\0midRef\0rightRef\0leftRef\0"
+    "stringRef\0contains\0count\0lastIndexOf_data\0"
+    "lastIndexOf\0lastIndexOfInvalidRegex\0"
+    "indexOf_data\0indexOf\0indexOfInvalidRegex\0"
+    "indexOf2_data\0indexOf2\0indexOf3_data\0"
+    "sprintf\0sprintfS\0fill\0truncate\0chop_data\0"
+    "chop\0constructor\0constructorQByteArray_data\0"
+    "constructorQByteArray\0STL\0macTypes\0"
+    "isEmpty\0isNull\0acc_01\0length_data\0"
+    "length\0utf8_data\0utf8\0fromUtf8_data\0"
+    "fromUtf8\0nullFromUtf8\0fromLocal8Bit_data\0"
+    "fromLocal8Bit\0local8Bit_data\0local8Bit\0"
+    "invalidToLocal8Bit_data\0invalidToLocal8Bit\0"
+    "nullFromLocal8Bit\0fromLatin1Roundtrip_data\0"
+    "fromLatin1Roundtrip\0toLatin1Roundtrip_data\0"
+    "toLatin1Roundtrip\0stringRef_toLatin1Roundtrip_data\0"
+    "stringRef_toLatin1Roundtrip\0"
+    "stringRef_utf8_data\0stringRef_utf8\0"
+    "stringRef_local8Bit_data\0stringRef_local8Bit\0"
+    "fromLatin1\0fromAscii\0fromUcs4\0toUcs4\0"
+    "arg\0number\0arg_fillChar_data\0arg_fillChar\0"
+    "capacity_data\0capacity\0section_data\0"
+    "section\0double_conversion_data\0"
+    "double_conversion\0integer_conversion_data\0"
+    "integer_conversion\0tortureSprintfDouble\0"
+    "toNum\0reverseIterators\0split_data\0"
+    "split\0split_regexp_data\0split_regexp\0"
+    "split_regularexpression_data\0"
+    "split_regularexpression\0splitRef_data\0"
+    "splitRef\0splitRef_regexp_data\0"
+    "splitRef_regexp\0splitRef_regularexpression_data\0"
+    "splitRef_regularexpression\0fromUtf16_data\0"
+    "fromUtf16\0fromUtf16_char16_data\0"
+    "fromUtf16_char16\0latin1String\0nanAndInf\0"
+    "compare_data\0compare\0resize\0"
+    "resizeAfterFromRawData\0resizeAfterReserve\0"
+    "resizeWithNegative\0truncateWithNegative\0"
+    "QCharRefMutableUnicode\0QCharRefDetaching\0"
+    "sprintfZU\0repeatedSignature\0repeated\0"
+    "repeated_data\0compareRef\0arg_locale\0"
+    "eightBitLiterals_data\0eightBitLiterals\0"
+    "reserve\0toHtmlEscaped_data\0toHtmlEscaped\0"
+    "operatorGreaterWithQLatin1String\0"
+    "compareQLatin1Strings\0fromQLatin1StringWithLength\0"
+    "assignQLatin1String\0assignQChar\0"
+    "isRightToLeft_data\0isRightToLeft\0"
+    "unicodeStrings"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QString[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+     245,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0, 1239,    2, 0x0a /* Public */,
+       3,    0, 1240,    2, 0x08 /* Private */,
+       4,    0, 1241,    2, 0x08 /* Private */,
+       5,    0, 1242,    2, 0x08 /* Private */,
+       6,    0, 1243,    2, 0x08 /* Private */,
+       7,    0, 1244,    2, 0x08 /* Private */,
+       8,    0, 1245,    2, 0x08 /* Private */,
+       9,    0, 1246,    2, 0x08 /* Private */,
+      10,    0, 1247,    2, 0x08 /* Private */,
+      11,    0, 1248,    2, 0x08 /* Private */,
+      12,    0, 1249,    2, 0x08 /* Private */,
+      13,    0, 1250,    2, 0x08 /* Private */,
+      14,    0, 1251,    2, 0x08 /* Private */,
+      15,    0, 1252,    2, 0x08 /* Private */,
+      16,    0, 1253,    2, 0x08 /* Private */,
+      17,    0, 1254,    2, 0x08 /* Private */,
+      18,    0, 1255,    2, 0x08 /* Private */,
+      19,    0, 1256,    2, 0x08 /* Private */,
+      20,    0, 1257,    2, 0x08 /* Private */,
+      21,    0, 1258,    2, 0x08 /* Private */,
+      22,    0, 1259,    2, 0x08 /* Private */,
+      23,    0, 1260,    2, 0x08 /* Private */,
+      24,    0, 1261,    2, 0x08 /* Private */,
+      25,    0, 1262,    2, 0x08 /* Private */,
+      26,    0, 1263,    2, 0x08 /* Private */,
+      27,    0, 1264,    2, 0x08 /* Private */,
+      28,    0, 1265,    2, 0x08 /* Private */,
+      29,    0, 1266,    2, 0x08 /* Private */,
+      30,    0, 1267,    2, 0x08 /* Private */,
+      31,    0, 1268,    2, 0x08 /* Private */,
+      32,    0, 1269,    2, 0x08 /* Private */,
+      33,    0, 1270,    2, 0x08 /* Private */,
+      34,    0, 1271,    2, 0x08 /* Private */,
+      35,    0, 1272,    2, 0x08 /* Private */,
+      36,    0, 1273,    2, 0x08 /* Private */,
+      37,    0, 1274,    2, 0x08 /* Private */,
+      38,    0, 1275,    2, 0x08 /* Private */,
+      39,    0, 1276,    2, 0x08 /* Private */,
+      40,    0, 1277,    2, 0x08 /* Private */,
+      41,    0, 1278,    2, 0x08 /* Private */,
+      42,    0, 1279,    2, 0x08 /* Private */,
+      43,    0, 1280,    2, 0x08 /* Private */,
+      44,    0, 1281,    2, 0x08 /* Private */,
+      45,    0, 1282,    2, 0x08 /* Private */,
+      46,    0, 1283,    2, 0x08 /* Private */,
+      47,    0, 1284,    2, 0x08 /* Private */,
+      48,    0, 1285,    2, 0x08 /* Private */,
+      49,    0, 1286,    2, 0x08 /* Private */,
+      50,    0, 1287,    2, 0x08 /* Private */,
+      51,    0, 1288,    2, 0x08 /* Private */,
+      52,    0, 1289,    2, 0x08 /* Private */,
+      53,    0, 1290,    2, 0x08 /* Private */,
+      54,    0, 1291,    2, 0x08 /* Private */,
+      55,    0, 1292,    2, 0x08 /* Private */,
+      56,    0, 1293,    2, 0x08 /* Private */,
+      57,    0, 1294,    2, 0x08 /* Private */,
+      58,    0, 1295,    2, 0x08 /* Private */,
+      59,    0, 1296,    2, 0x08 /* Private */,
+      60,    0, 1297,    2, 0x08 /* Private */,
+      61,    0, 1298,    2, 0x08 /* Private */,
+      62,    0, 1299,    2, 0x08 /* Private */,
+      63,    0, 1300,    2, 0x08 /* Private */,
+      64,    0, 1301,    2, 0x08 /* Private */,
+      65,    0, 1302,    2, 0x08 /* Private */,
+      66,    0, 1303,    2, 0x08 /* Private */,
+      67,    0, 1304,    2, 0x08 /* Private */,
+      68,    0, 1305,    2, 0x08 /* Private */,
+      69,    0, 1306,    2, 0x08 /* Private */,
+      70,    0, 1307,    2, 0x08 /* Private */,
+      71,    0, 1308,    2, 0x08 /* Private */,
+      72,    0, 1309,    2, 0x08 /* Private */,
+      73,    0, 1310,    2, 0x08 /* Private */,
+      74,    0, 1311,    2, 0x08 /* Private */,
+      75,    0, 1312,    2, 0x08 /* Private */,
+      76,    0, 1313,    2, 0x08 /* Private */,
+      77,    0, 1314,    2, 0x08 /* Private */,
+      78,    0, 1315,    2, 0x08 /* Private */,
+      79,    0, 1316,    2, 0x08 /* Private */,
+      80,    0, 1317,    2, 0x08 /* Private */,
+      81,    0, 1318,    2, 0x08 /* Private */,
+      82,    0, 1319,    2, 0x08 /* Private */,
+      83,    0, 1320,    2, 0x08 /* Private */,
+      84,    0, 1321,    2, 0x08 /* Private */,
+      85,    0, 1322,    2, 0x08 /* Private */,
+      86,    0, 1323,    2, 0x08 /* Private */,
+      87,    0, 1324,    2, 0x08 /* Private */,
+      88,    0, 1325,    2, 0x08 /* Private */,
+      89,    0, 1326,    2, 0x08 /* Private */,
+      90,    0, 1327,    2, 0x08 /* Private */,
+      91,    0, 1328,    2, 0x08 /* Private */,
+      92,    0, 1329,    2, 0x08 /* Private */,
+      93,    0, 1330,    2, 0x08 /* Private */,
+      94,    0, 1331,    2, 0x08 /* Private */,
+      95,    0, 1332,    2, 0x08 /* Private */,
+      96,    0, 1333,    2, 0x08 /* Private */,
+      97,    0, 1334,    2, 0x08 /* Private */,
+      98,    0, 1335,    2, 0x08 /* Private */,
+      99,    0, 1336,    2, 0x08 /* Private */,
+     100,    0, 1337,    2, 0x08 /* Private */,
+     101,    0, 1338,    2, 0x08 /* Private */,
+     102,    0, 1339,    2, 0x08 /* Private */,
+     103,    0, 1340,    2, 0x08 /* Private */,
+     104,    0, 1341,    2, 0x08 /* Private */,
+     105,    0, 1342,    2, 0x08 /* Private */,
+     106,    0, 1343,    2, 0x08 /* Private */,
+     107,    0, 1344,    2, 0x08 /* Private */,
+     108,    0, 1345,    2, 0x08 /* Private */,
+     109,    0, 1346,    2, 0x08 /* Private */,
+     110,    0, 1347,    2, 0x08 /* Private */,
+     111,    0, 1348,    2, 0x08 /* Private */,
+     112,    0, 1349,    2, 0x08 /* Private */,
+     113,    0, 1350,    2, 0x08 /* Private */,
+     114,    0, 1351,    2, 0x08 /* Private */,
+     115,    0, 1352,    2, 0x08 /* Private */,
+     116,    0, 1353,    2, 0x08 /* Private */,
+     117,    0, 1354,    2, 0x08 /* Private */,
+     118,    0, 1355,    2, 0x08 /* Private */,
+     119,    0, 1356,    2, 0x08 /* Private */,
+     120,    0, 1357,    2, 0x08 /* Private */,
+     121,    0, 1358,    2, 0x08 /* Private */,
+     122,    0, 1359,    2, 0x08 /* Private */,
+     123,    0, 1360,    2, 0x08 /* Private */,
+     124,    0, 1361,    2, 0x08 /* Private */,
+     125,    0, 1362,    2, 0x08 /* Private */,
+     126,    0, 1363,    2, 0x08 /* Private */,
+     127,    0, 1364,    2, 0x08 /* Private */,
+     128,    0, 1365,    2, 0x08 /* Private */,
+     129,    0, 1366,    2, 0x08 /* Private */,
+     130,    0, 1367,    2, 0x08 /* Private */,
+     131,    0, 1368,    2, 0x08 /* Private */,
+     132,    0, 1369,    2, 0x08 /* Private */,
+     133,    0, 1370,    2, 0x08 /* Private */,
+     134,    0, 1371,    2, 0x08 /* Private */,
+     135,    0, 1372,    2, 0x08 /* Private */,
+     136,    0, 1373,    2, 0x08 /* Private */,
+     137,    0, 1374,    2, 0x08 /* Private */,
+     138,    0, 1375,    2, 0x08 /* Private */,
+     139,    0, 1376,    2, 0x08 /* Private */,
+     140,    0, 1377,    2, 0x08 /* Private */,
+     141,    0, 1378,    2, 0x08 /* Private */,
+     142,    0, 1379,    2, 0x08 /* Private */,
+     143,    0, 1380,    2, 0x08 /* Private */,
+     144,    0, 1381,    2, 0x08 /* Private */,
+     145,    0, 1382,    2, 0x08 /* Private */,
+     146,    0, 1383,    2, 0x08 /* Private */,
+     147,    0, 1384,    2, 0x08 /* Private */,
+     148,    0, 1385,    2, 0x08 /* Private */,
+     149,    0, 1386,    2, 0x08 /* Private */,
+     150,    0, 1387,    2, 0x08 /* Private */,
+     151,    0, 1388,    2, 0x08 /* Private */,
+     152,    0, 1389,    2, 0x08 /* Private */,
+     153,    0, 1390,    2, 0x08 /* Private */,
+     154,    0, 1391,    2, 0x08 /* Private */,
+     155,    0, 1392,    2, 0x08 /* Private */,
+     156,    0, 1393,    2, 0x08 /* Private */,
+     157,    0, 1394,    2, 0x08 /* Private */,
+     158,    0, 1395,    2, 0x08 /* Private */,
+     159,    0, 1396,    2, 0x08 /* Private */,
+     160,    0, 1397,    2, 0x08 /* Private */,
+     161,    0, 1398,    2, 0x08 /* Private */,
+     162,    0, 1399,    2, 0x08 /* Private */,
+     163,    0, 1400,    2, 0x08 /* Private */,
+     164,    0, 1401,    2, 0x08 /* Private */,
+     165,    0, 1402,    2, 0x08 /* Private */,
+     166,    0, 1403,    2, 0x08 /* Private */,
+     167,    0, 1404,    2, 0x08 /* Private */,
+     168,    0, 1405,    2, 0x08 /* Private */,
+     169,    0, 1406,    2, 0x08 /* Private */,
+     170,    0, 1407,    2, 0x08 /* Private */,
+     171,    0, 1408,    2, 0x08 /* Private */,
+     172,    0, 1409,    2, 0x08 /* Private */,
+     173,    0, 1410,    2, 0x08 /* Private */,
+     174,    0, 1411,    2, 0x08 /* Private */,
+     175,    0, 1412,    2, 0x08 /* Private */,
+     176,    0, 1413,    2, 0x08 /* Private */,
+     177,    0, 1414,    2, 0x08 /* Private */,
+     178,    0, 1415,    2, 0x08 /* Private */,
+     179,    0, 1416,    2, 0x08 /* Private */,
+     180,    0, 1417,    2, 0x08 /* Private */,
+     181,    0, 1418,    2, 0x08 /* Private */,
+     182,    0, 1419,    2, 0x08 /* Private */,
+     183,    0, 1420,    2, 0x08 /* Private */,
+     184,    0, 1421,    2, 0x08 /* Private */,
+     185,    0, 1422,    2, 0x08 /* Private */,
+     186,    0, 1423,    2, 0x08 /* Private */,
+     187,    0, 1424,    2, 0x08 /* Private */,
+     188,    0, 1425,    2, 0x08 /* Private */,
+     189,    0, 1426,    2, 0x08 /* Private */,
+     190,    0, 1427,    2, 0x08 /* Private */,
+     191,    0, 1428,    2, 0x08 /* Private */,
+     192,    0, 1429,    2, 0x08 /* Private */,
+     193,    0, 1430,    2, 0x08 /* Private */,
+     194,    0, 1431,    2, 0x08 /* Private */,
+     195,    0, 1432,    2, 0x08 /* Private */,
+     196,    0, 1433,    2, 0x08 /* Private */,
+     197,    0, 1434,    2, 0x08 /* Private */,
+     198,    0, 1435,    2, 0x08 /* Private */,
+     199,    0, 1436,    2, 0x08 /* Private */,
+     200,    0, 1437,    2, 0x08 /* Private */,
+     201,    0, 1438,    2, 0x08 /* Private */,
+     202,    0, 1439,    2, 0x08 /* Private */,
+     203,    0, 1440,    2, 0x08 /* Private */,
+     204,    0, 1441,    2, 0x08 /* Private */,
+     205,    0, 1442,    2, 0x08 /* Private */,
+     206,    0, 1443,    2, 0x08 /* Private */,
+     207,    0, 1444,    2, 0x08 /* Private */,
+     208,    0, 1445,    2, 0x08 /* Private */,
+     209,    0, 1446,    2, 0x08 /* Private */,
+     210,    0, 1447,    2, 0x08 /* Private */,
+     211,    0, 1448,    2, 0x08 /* Private */,
+     212,    0, 1449,    2, 0x08 /* Private */,
+     213,    0, 1450,    2, 0x08 /* Private */,
+     214,    0, 1451,    2, 0x08 /* Private */,
+     215,    0, 1452,    2, 0x08 /* Private */,
+     216,    0, 1453,    2, 0x08 /* Private */,
+     217,    0, 1454,    2, 0x08 /* Private */,
+     218,    0, 1455,    2, 0x08 /* Private */,
+     219,    0, 1456,    2, 0x08 /* Private */,
+     220,    0, 1457,    2, 0x08 /* Private */,
+     221,    0, 1458,    2, 0x08 /* Private */,
+     222,    0, 1459,    2, 0x08 /* Private */,
+     223,    0, 1460,    2, 0x08 /* Private */,
+     224,    0, 1461,    2, 0x08 /* Private */,
+     225,    0, 1462,    2, 0x08 /* Private */,
+     226,    0, 1463,    2, 0x08 /* Private */,
+     227,    0, 1464,    2, 0x08 /* Private */,
+     228,    0, 1465,    2, 0x08 /* Private */,
+     229,    0, 1466,    2, 0x08 /* Private */,
+     230,    0, 1467,    2, 0x08 /* Private */,
+     231,    0, 1468,    2, 0x08 /* Private */,
+     232,    0, 1469,    2, 0x08 /* Private */,
+     233,    0, 1470,    2, 0x08 /* Private */,
+     234,    0, 1471,    2, 0x08 /* Private */,
+     235,    0, 1472,    2, 0x08 /* Private */,
+     236,    0, 1473,    2, 0x08 /* Private */,
+     237,    0, 1474,    2, 0x08 /* Private */,
+     238,    0, 1475,    2, 0x08 /* Private */,
+     239,    0, 1476,    2, 0x08 /* Private */,
+     240,    0, 1477,    2, 0x08 /* Private */,
+     241,    0, 1478,    2, 0x08 /* Private */,
+     242,    0, 1479,    2, 0x08 /* Private */,
+     243,    0, 1480,    2, 0x08 /* Private */,
+     244,    0, 1481,    2, 0x08 /* Private */,
+     245,    0, 1482,    2, 0x08 /* Private */,
+     246,    0, 1483,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QString::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QString *_t = static_cast<tst_QString *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->cleanup(); break;
+        case 1: _t->fromStdString(); break;
+        case 2: _t->toStdString(); break;
+        case 3: _t->check_QTextIOStream(); break;
+        case 4: _t->check_QTextStream(); break;
+        case 5: _t->check_QDataStream(); break;
+        case 6: _t->fromRawData(); break;
+        case 7: _t->setRawData(); break;
+        case 8: _t->endsWith(); break;
+        case 9: _t->startsWith(); break;
+        case 10: _t->setNum(); break;
+        case 11: _t->toDouble_data(); break;
+        case 12: _t->toDouble(); break;
+        case 13: _t->toFloat(); break;
+        case 14: _t->toLong_data(); break;
+        case 15: _t->toLong(); break;
+        case 16: _t->toULong_data(); break;
+        case 17: _t->toULong(); break;
+        case 18: _t->toLongLong(); break;
+        case 19: _t->toULongLong(); break;
+        case 20: _t->toUInt(); break;
+        case 21: _t->toInt(); break;
+        case 22: _t->toShort(); break;
+        case 23: _t->toUShort(); break;
+        case 24: _t->replace_qchar_qchar_data(); break;
+        case 25: _t->replace_qchar_qchar(); break;
+        case 26: _t->replace_qchar_qstring_data(); break;
+        case 27: _t->replace_qchar_qstring(); break;
+        case 28: _t->replace_uint_uint_data(); break;
+        case 29: _t->replace_uint_uint(); break;
+        case 30: _t->replace_extra(); break;
+        case 31: _t->replace_string_data(); break;
+        case 32: _t->replace_string(); break;
+        case 33: _t->replace_regexp_data(); break;
+        case 34: _t->replace_regexp(); break;
+        case 35: _t->remove_uint_uint_data(); break;
+        case 36: _t->remove_uint_uint(); break;
+        case 37: _t->remove_string_data(); break;
+        case 38: _t->remove_string(); break;
+        case 39: _t->remove_regexp_data(); break;
+        case 40: _t->remove_regexp(); break;
+        case 41: _t->swap(); break;
+        case 42: _t->prepend_qstring(); break;
+        case 43: _t->prepend_qstring_data(); break;
+        case 44: _t->prepend_qstringref(); break;
+        case 45: _t->prepend_qstringref_data(); break;
+        case 46: _t->prepend_qlatin1string(); break;
+        case 47: _t->prepend_qlatin1string_data(); break;
+        case 48: _t->prepend_qcharstar_int(); break;
+        case 49: _t->prepend_qcharstar_int_data(); break;
+        case 50: _t->prepend_qchar(); break;
+        case 51: _t->prepend_qchar_data(); break;
+        case 52: _t->prepend_qbytearray(); break;
+        case 53: _t->prepend_qbytearray_data(); break;
+        case 54: _t->prepend_char(); break;
+        case 55: _t->prepend_char_data(); break;
+        case 56: _t->prepend_charstar(); break;
+        case 57: _t->prepend_charstar_data(); break;
+        case 58: _t->prepend_bytearray_special_cases_data(); break;
+        case 59: _t->prepend_bytearray_special_cases(); break;
+        case 60: _t->append_qstring(); break;
+        case 61: _t->append_qstring_data(); break;
+        case 62: _t->append_qstringref(); break;
+        case 63: _t->append_qstringref_data(); break;
+        case 64: _t->append_qlatin1string(); break;
+        case 65: _t->append_qlatin1string_data(); break;
+        case 66: _t->append_qcharstar_int(); break;
+        case 67: _t->append_qcharstar_int_data(); break;
+        case 68: _t->append_qchar(); break;
+        case 69: _t->append_qchar_data(); break;
+        case 70: _t->append_qbytearray(); break;
+        case 71: _t->append_qbytearray_data(); break;
+        case 72: _t->append_char(); break;
+        case 73: _t->append_char_data(); break;
+        case 74: _t->append_charstar(); break;
+        case 75: _t->append_charstar_data(); break;
+        case 76: _t->append_special_cases(); break;
+        case 77: _t->append_bytearray_special_cases_data(); break;
+        case 78: _t->append_bytearray_special_cases(); break;
+        case 79: _t->operator_pluseq_qstring(); break;
+        case 80: _t->operator_pluseq_qstring_data(); break;
+        case 81: _t->operator_pluseq_qstringref(); break;
+        case 82: _t->operator_pluseq_qstringref_data(); break;
+        case 83: _t->operator_pluseq_qlatin1string(); break;
+        case 84: _t->operator_pluseq_qlatin1string_data(); break;
+        case 85: _t->operator_pluseq_qchar(); break;
+        case 86: _t->operator_pluseq_qchar_data(); break;
+        case 87: _t->operator_pluseq_qbytearray(); break;
+        case 88: _t->operator_pluseq_qbytearray_data(); break;
+        case 89: _t->operator_pluseq_char(); break;
+        case 90: _t->operator_pluseq_char_data(); break;
+        case 91: _t->operator_pluseq_charstar(); break;
+        case 92: _t->operator_pluseq_charstar_data(); break;
+        case 93: _t->operator_pluseq_bytearray_special_cases_data(); break;
+        case 94: _t->operator_pluseq_bytearray_special_cases(); break;
+        case 95: _t->operator_eqeq_bytearray_data(); break;
+        case 96: _t->operator_eqeq_bytearray(); break;
+        case 97: _t->operator_eqeq_nullstring(); break;
+        case 98: _t->operator_smaller(); break;
+        case 99: _t->insert_qstring(); break;
+        case 100: _t->insert_qstring_data(); break;
+        case 101: _t->insert_qstringref(); break;
+        case 102: _t->insert_qstringref_data(); break;
+        case 103: _t->insert_qlatin1string(); break;
+        case 104: _t->insert_qlatin1string_data(); break;
+        case 105: _t->insert_qcharstar_int(); break;
+        case 106: _t->insert_qcharstar_int_data(); break;
+        case 107: _t->insert_qchar(); break;
+        case 108: _t->insert_qchar_data(); break;
+        case 109: _t->insert_qbytearray(); break;
+        case 110: _t->insert_qbytearray_data(); break;
+        case 111: _t->insert_char(); break;
+        case 112: _t->insert_char_data(); break;
+        case 113: _t->insert_charstar(); break;
+        case 114: _t->insert_charstar_data(); break;
+        case 115: _t->insert_special_cases(); break;
+        case 116: _t->simplified_data(); break;
+        case 117: _t->simplified(); break;
+        case 118: _t->trimmed(); break;
+        case 119: _t->toUpper(); break;
+        case 120: _t->toLower(); break;
+        case 121: _t->toCaseFolded(); break;
+        case 122: _t->rightJustified(); break;
+        case 123: _t->leftJustified(); break;
+        case 124: _t->mid(); break;
+        case 125: _t->right(); break;
+        case 126: _t->left(); break;
+        case 127: _t->midRef(); break;
+        case 128: _t->rightRef(); break;
+        case 129: _t->leftRef(); break;
+        case 130: _t->stringRef(); break;
+        case 131: _t->contains(); break;
+        case 132: _t->count(); break;
+        case 133: _t->lastIndexOf_data(); break;
+        case 134: _t->lastIndexOf(); break;
+        case 135: _t->lastIndexOfInvalidRegex(); break;
+        case 136: _t->indexOf_data(); break;
+        case 137: _t->indexOf(); break;
+        case 138: _t->indexOfInvalidRegex(); break;
+        case 139: _t->indexOf2_data(); break;
+        case 140: _t->indexOf2(); break;
+        case 141: _t->indexOf3_data(); break;
+        case 142: _t->sprintf(); break;
+        case 143: _t->sprintfS(); break;
+        case 144: _t->fill(); break;
+        case 145: _t->truncate(); break;
+        case 146: _t->chop_data(); break;
+        case 147: _t->chop(); break;
+        case 148: _t->constructor(); break;
+        case 149: _t->constructorQByteArray_data(); break;
+        case 150: _t->constructorQByteArray(); break;
+        case 151: _t->STL(); break;
+        case 152: _t->macTypes(); break;
+        case 153: _t->isEmpty(); break;
+        case 154: _t->isNull(); break;
+        case 155: _t->acc_01(); break;
+        case 156: _t->length_data(); break;
+        case 157: _t->length(); break;
+        case 158: _t->utf8_data(); break;
+        case 159: _t->utf8(); break;
+        case 160: _t->fromUtf8_data(); break;
+        case 161: _t->fromUtf8(); break;
+        case 162: _t->nullFromUtf8(); break;
+        case 163: _t->fromLocal8Bit_data(); break;
+        case 164: _t->fromLocal8Bit(); break;
+        case 165: _t->local8Bit_data(); break;
+        case 166: _t->local8Bit(); break;
+        case 167: _t->invalidToLocal8Bit_data(); break;
+        case 168: _t->invalidToLocal8Bit(); break;
+        case 169: _t->nullFromLocal8Bit(); break;
+        case 170: _t->fromLatin1Roundtrip_data(); break;
+        case 171: _t->fromLatin1Roundtrip(); break;
+        case 172: _t->toLatin1Roundtrip_data(); break;
+        case 173: _t->toLatin1Roundtrip(); break;
+        case 174: _t->stringRef_toLatin1Roundtrip_data(); break;
+        case 175: _t->stringRef_toLatin1Roundtrip(); break;
+        case 176: _t->stringRef_utf8_data(); break;
+        case 177: _t->stringRef_utf8(); break;
+        case 178: _t->stringRef_local8Bit_data(); break;
+        case 179: _t->stringRef_local8Bit(); break;
+        case 180: _t->fromLatin1(); break;
+        case 181: _t->fromAscii(); break;
+        case 182: _t->fromUcs4(); break;
+        case 183: _t->toUcs4(); break;
+        case 184: _t->arg(); break;
+        case 185: _t->number(); break;
+        case 186: _t->arg_fillChar_data(); break;
+        case 187: _t->arg_fillChar(); break;
+        case 188: _t->capacity_data(); break;
+        case 189: _t->capacity(); break;
+        case 190: _t->section_data(); break;
+        case 191: _t->section(); break;
+        case 192: _t->double_conversion_data(); break;
+        case 193: _t->double_conversion(); break;
+        case 194: _t->integer_conversion_data(); break;
+        case 195: _t->integer_conversion(); break;
+        case 196: _t->tortureSprintfDouble(); break;
+        case 197: _t->toNum(); break;
+        case 198: _t->reverseIterators(); break;
+        case 199: _t->split_data(); break;
+        case 200: _t->split(); break;
+        case 201: _t->split_regexp_data(); break;
+        case 202: _t->split_regexp(); break;
+        case 203: _t->split_regularexpression_data(); break;
+        case 204: _t->split_regularexpression(); break;
+        case 205: _t->splitRef_data(); break;
+        case 206: _t->splitRef(); break;
+        case 207: _t->splitRef_regexp_data(); break;
+        case 208: _t->splitRef_regexp(); break;
+        case 209: _t->splitRef_regularexpression_data(); break;
+        case 210: _t->splitRef_regularexpression(); break;
+        case 211: _t->fromUtf16_data(); break;
+        case 212: _t->fromUtf16(); break;
+        case 213: _t->fromUtf16_char16_data(); break;
+        case 214: _t->fromUtf16_char16(); break;
+        case 215: _t->latin1String(); break;
+        case 216: _t->nanAndInf(); break;
+        case 217: _t->compare_data(); break;
+        case 218: _t->compare(); break;
+        case 219: _t->resize(); break;
+        case 220: _t->resizeAfterFromRawData(); break;
+        case 221: _t->resizeAfterReserve(); break;
+        case 222: _t->resizeWithNegative(); break;
+        case 223: _t->truncateWithNegative(); break;
+        case 224: _t->QCharRefMutableUnicode(); break;
+        case 225: _t->QCharRefDetaching(); break;
+        case 226: _t->sprintfZU(); break;
+        case 227: _t->repeatedSignature(); break;
+        case 228: _t->repeated(); break;
+        case 229: _t->repeated_data(); break;
+        case 230: _t->compareRef(); break;
+        case 231: _t->arg_locale(); break;
+        case 232: _t->eightBitLiterals_data(); break;
+        case 233: _t->eightBitLiterals(); break;
+        case 234: _t->reserve(); break;
+        case 235: _t->toHtmlEscaped_data(); break;
+        case 236: _t->toHtmlEscaped(); break;
+        case 237: _t->operatorGreaterWithQLatin1String(); break;
+        case 238: _t->compareQLatin1Strings(); break;
+        case 239: _t->fromQLatin1StringWithLength(); break;
+        case 240: _t->assignQLatin1String(); break;
+        case 241: _t->assignQChar(); break;
+        case 242: _t->isRightToLeft_data(); break;
+        case 243: _t->isRightToLeft(); break;
+        case 244: _t->unicodeStrings(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QString::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QString.data,
+      qt_meta_data_tst_QString,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QString::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QString::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QString.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QString::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 245)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 245;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 245)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 245;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gallery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pages\BusyIndicatorPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\ButtonPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\CheckBoxPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\ComboBoxPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\DelayButtonPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\DelegatePage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\DialPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\DialogPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\FramePage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\GroupBoxPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\PageIndicatorPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\ProgressBarPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\RadioButtonPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\RangeSliderPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\ScrollBarPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\ScrollIndicatorPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\ScrollablePage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\SliderPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\SpinBoxPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\StackViewPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\SwipeViewPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\SwitchPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\TabBarPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\TextAreaPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\TextFieldPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\ToolTipPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pages\TumblerPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\arrow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\arrow@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\arrow@3x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\arrow@4x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\arrows.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\arrows@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\arrows@3x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\arrows@4x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\+material\back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\+material\back@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\back@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\+material\back@3x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\back@3x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\+material\back@4x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\back@4x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\+material\drawer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\drawer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\+material\drawer@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\drawer@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\+material\drawer@3x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\drawer@3x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\+material\drawer@4x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\drawer@4x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gallery.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\+material\menu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\+material\menu@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\+material\menu@3x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu@3x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\+material\menu@4x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu@4x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include=".rcc\debug\qmake_qmake_immediate.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include=".rcc\release\qmake_qmake_immediate.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="images\qt-logo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qt-logo@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qt-logo@3x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qt-logo@4x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qtquickcontrols2.conf">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

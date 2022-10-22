@@ -1,0 +1,86 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsqlfield", "F:/qt/Src/qtbase/tests/auto/sql/kernel/qsqlfield\tst_qsqlfield.vcxproj", "{FB3E9E5A-E4E3-3D8D-B44F-11F5AAB769E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsqldatabase", "F:/qt/Src/qtbase/tests/auto/sql/kernel/qsqldatabase\tst_qsqldatabase.vcxproj", "{3544D361-C1C3-3224-A987-2AD7881E185B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsqlerror", "F:/qt/Src/qtbase/tests/auto/sql/kernel/qsqlerror\tst_qsqlerror.vcxproj", "{A7AE634B-6AA4-3413-A7DC-BE4D8DDE219D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsqldriver", "F:/qt/Src/qtbase/tests/auto/sql/kernel/qsqldriver\tst_qsqldriver.vcxproj", "{D515F13A-F238-3484-B3D0-17CBA5E8198F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsqlquery", "F:/qt/Src/qtbase/tests/auto/sql/kernel/qsqlquery\tst_qsqlquery.vcxproj", "{BFAD18DD-5301-3854-9708-1625CEBAED28}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsqlrecord", "F:/qt/Src/qtbase/tests/auto/sql/kernel/qsqlrecord\tst_qsqlrecord.vcxproj", "{B739BDE8-1C8D-3767-BE0C-CADC913E1799}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsqlthread", "F:/qt/Src/qtbase/tests/auto/sql/kernel/qsqlthread\tst_qsqlthread.vcxproj", "{449E38CE-A24D-331F-84BF-5D335579C4BD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsql", "F:/qt/Src/qtbase/tests/auto/sql/kernel/qsql\tst_qsql.vcxproj", "{21B2E4DC-E3B8-30C1-89E5-7BB88770D25E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsqlresult", "F:/qt/Src/qtbase/tests/auto/sql/kernel/qsqlresult\tst_qsqlresult.vcxproj", "{7595E4CF-8DEA-3153-9F51-85D0250A7933}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsqlquerymodel", "F:/qt/Src/qtbase/tests/auto/sql/models/qsqlquerymodel\tst_qsqlquerymodel.vcxproj", "{802929CF-6494-3D9A-BD52-AC0532858790}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsqlrelationaltablemodel", "F:/qt/Src/qtbase/tests/auto/sql/models/qsqlrelationaltablemodel\tst_qsqlrelationaltablemodel.vcxproj", "{A21910F7-B6E7-3D52-86AB-9E63C30208B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsqltablemodel", "F:/qt/Src/qtbase/tests/auto/sql/models/qsqltablemodel\tst_qsqltablemodel.vcxproj", "{6171D1E2-45D1-3A07-9D19-84DBA273FE23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB3E9E5A-E4E3-3D8D-B44F-11F5AAB769E5}.Debug|x64.ActiveCfg = Debug|x64
+		{FB3E9E5A-E4E3-3D8D-B44F-11F5AAB769E5}.Debug|x64.Build.0 = Debug|x64
+		{FB3E9E5A-E4E3-3D8D-B44F-11F5AAB769E5}.Release|x64.ActiveCfg = Release|x64
+		{FB3E9E5A-E4E3-3D8D-B44F-11F5AAB769E5}.Release|x64.Build.0 = Release|x64
+		{3544D361-C1C3-3224-A987-2AD7881E185B}.Debug|x64.ActiveCfg = Debug|x64
+		{3544D361-C1C3-3224-A987-2AD7881E185B}.Debug|x64.Build.0 = Debug|x64
+		{3544D361-C1C3-3224-A987-2AD7881E185B}.Release|x64.ActiveCfg = Release|x64
+		{3544D361-C1C3-3224-A987-2AD7881E185B}.Release|x64.Build.0 = Release|x64
+		{A7AE634B-6AA4-3413-A7DC-BE4D8DDE219D}.Debug|x64.ActiveCfg = Debug|x64
+		{A7AE634B-6AA4-3413-A7DC-BE4D8DDE219D}.Debug|x64.Build.0 = Debug|x64
+		{A7AE634B-6AA4-3413-A7DC-BE4D8DDE219D}.Release|x64.ActiveCfg = Release|x64
+		{A7AE634B-6AA4-3413-A7DC-BE4D8DDE219D}.Release|x64.Build.0 = Release|x64
+		{D515F13A-F238-3484-B3D0-17CBA5E8198F}.Debug|x64.ActiveCfg = Debug|x64
+		{D515F13A-F238-3484-B3D0-17CBA5E8198F}.Debug|x64.Build.0 = Debug|x64
+		{D515F13A-F238-3484-B3D0-17CBA5E8198F}.Release|x64.ActiveCfg = Release|x64
+		{D515F13A-F238-3484-B3D0-17CBA5E8198F}.Release|x64.Build.0 = Release|x64
+		{BFAD18DD-5301-3854-9708-1625CEBAED28}.Debug|x64.ActiveCfg = Debug|x64
+		{BFAD18DD-5301-3854-9708-1625CEBAED28}.Debug|x64.Build.0 = Debug|x64
+		{BFAD18DD-5301-3854-9708-1625CEBAED28}.Release|x64.ActiveCfg = Release|x64
+		{BFAD18DD-5301-3854-9708-1625CEBAED28}.Release|x64.Build.0 = Release|x64
+		{B739BDE8-1C8D-3767-BE0C-CADC913E1799}.Debug|x64.ActiveCfg = Debug|x64
+		{B739BDE8-1C8D-3767-BE0C-CADC913E1799}.Debug|x64.Build.0 = Debug|x64
+		{B739BDE8-1C8D-3767-BE0C-CADC913E1799}.Release|x64.ActiveCfg = Release|x64
+		{B739BDE8-1C8D-3767-BE0C-CADC913E1799}.Release|x64.Build.0 = Release|x64
+		{449E38CE-A24D-331F-84BF-5D335579C4BD}.Debug|x64.ActiveCfg = Debug|x64
+		{449E38CE-A24D-331F-84BF-5D335579C4BD}.Debug|x64.Build.0 = Debug|x64
+		{449E38CE-A24D-331F-84BF-5D335579C4BD}.Release|x64.ActiveCfg = Release|x64
+		{449E38CE-A24D-331F-84BF-5D335579C4BD}.Release|x64.Build.0 = Release|x64
+		{21B2E4DC-E3B8-30C1-89E5-7BB88770D25E}.Debug|x64.ActiveCfg = Debug|x64
+		{21B2E4DC-E3B8-30C1-89E5-7BB88770D25E}.Debug|x64.Build.0 = Debug|x64
+		{21B2E4DC-E3B8-30C1-89E5-7BB88770D25E}.Release|x64.ActiveCfg = Release|x64
+		{21B2E4DC-E3B8-30C1-89E5-7BB88770D25E}.Release|x64.Build.0 = Release|x64
+		{7595E4CF-8DEA-3153-9F51-85D0250A7933}.Debug|x64.ActiveCfg = Debug|x64
+		{7595E4CF-8DEA-3153-9F51-85D0250A7933}.Debug|x64.Build.0 = Debug|x64
+		{7595E4CF-8DEA-3153-9F51-85D0250A7933}.Release|x64.ActiveCfg = Release|x64
+		{7595E4CF-8DEA-3153-9F51-85D0250A7933}.Release|x64.Build.0 = Release|x64
+		{802929CF-6494-3D9A-BD52-AC0532858790}.Debug|x64.ActiveCfg = Debug|x64
+		{802929CF-6494-3D9A-BD52-AC0532858790}.Debug|x64.Build.0 = Debug|x64
+		{802929CF-6494-3D9A-BD52-AC0532858790}.Release|x64.ActiveCfg = Release|x64
+		{802929CF-6494-3D9A-BD52-AC0532858790}.Release|x64.Build.0 = Release|x64
+		{A21910F7-B6E7-3D52-86AB-9E63C30208B0}.Debug|x64.ActiveCfg = Debug|x64
+		{A21910F7-B6E7-3D52-86AB-9E63C30208B0}.Debug|x64.Build.0 = Debug|x64
+		{A21910F7-B6E7-3D52-86AB-9E63C30208B0}.Release|x64.ActiveCfg = Release|x64
+		{A21910F7-B6E7-3D52-86AB-9E63C30208B0}.Release|x64.Build.0 = Release|x64
+		{6171D1E2-45D1-3A07-9D19-84DBA273FE23}.Debug|x64.ActiveCfg = Debug|x64
+		{6171D1E2-45D1-3A07-9D19-84DBA273FE23}.Debug|x64.Build.0 = Debug|x64
+		{6171D1E2-45D1-3A07-9D19-84DBA273FE23}.Release|x64.ActiveCfg = Release|x64
+		{6171D1E2-45D1-3A07-9D19-84DBA273FE23}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

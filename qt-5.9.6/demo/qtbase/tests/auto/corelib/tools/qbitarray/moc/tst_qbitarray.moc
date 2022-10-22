@@ -1,0 +1,214 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qbitarray.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qbitarray.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QBitArray_t {
+    QByteArrayData data[26];
+    char stringdata0[325];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QBitArray_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QBitArray_t qt_meta_stringdata_tst_QBitArray = {
+    {
+QT_MOC_LITERAL(0, 0, 13), // "tst_QBitArray"
+QT_MOC_LITERAL(1, 14, 9), // "size_data"
+QT_MOC_LITERAL(2, 24, 0), // ""
+QT_MOC_LITERAL(3, 25, 4), // "size"
+QT_MOC_LITERAL(4, 30, 14), // "countBits_data"
+QT_MOC_LITERAL(5, 45, 9), // "countBits"
+QT_MOC_LITERAL(6, 55, 10), // "countBits2"
+QT_MOC_LITERAL(7, 66, 7), // "isEmpty"
+QT_MOC_LITERAL(8, 74, 4), // "swap"
+QT_MOC_LITERAL(9, 79, 4), // "fill"
+QT_MOC_LITERAL(10, 84, 14), // "toggleBit_data"
+QT_MOC_LITERAL(11, 99, 9), // "toggleBit"
+QT_MOC_LITERAL(12, 109, 19), // "operator_andeq_data"
+QT_MOC_LITERAL(13, 129, 14), // "operator_andeq"
+QT_MOC_LITERAL(14, 144, 18), // "operator_oreq_data"
+QT_MOC_LITERAL(15, 163, 13), // "operator_oreq"
+QT_MOC_LITERAL(16, 177, 19), // "operator_xoreq_data"
+QT_MOC_LITERAL(17, 197, 14), // "operator_xoreq"
+QT_MOC_LITERAL(18, 212, 17), // "operator_neg_data"
+QT_MOC_LITERAL(19, 230, 12), // "operator_neg"
+QT_MOC_LITERAL(20, 243, 15), // "datastream_data"
+QT_MOC_LITERAL(21, 259, 10), // "datastream"
+QT_MOC_LITERAL(22, 270, 12), // "invertOnNull"
+QT_MOC_LITERAL(23, 283, 19), // "operator_noteq_data"
+QT_MOC_LITERAL(24, 303, 14), // "operator_noteq"
+QT_MOC_LITERAL(25, 318, 6) // "resize"
+
+    },
+    "tst_QBitArray\0size_data\0\0size\0"
+    "countBits_data\0countBits\0countBits2\0"
+    "isEmpty\0swap\0fill\0toggleBit_data\0"
+    "toggleBit\0operator_andeq_data\0"
+    "operator_andeq\0operator_oreq_data\0"
+    "operator_oreq\0operator_xoreq_data\0"
+    "operator_xoreq\0operator_neg_data\0"
+    "operator_neg\0datastream_data\0datastream\0"
+    "invertOnNull\0operator_noteq_data\0"
+    "operator_noteq\0resize"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QBitArray[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      24,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  134,    2, 0x08 /* Private */,
+       3,    0,  135,    2, 0x08 /* Private */,
+       4,    0,  136,    2, 0x08 /* Private */,
+       5,    0,  137,    2, 0x08 /* Private */,
+       6,    0,  138,    2, 0x08 /* Private */,
+       7,    0,  139,    2, 0x08 /* Private */,
+       8,    0,  140,    2, 0x08 /* Private */,
+       9,    0,  141,    2, 0x08 /* Private */,
+      10,    0,  142,    2, 0x08 /* Private */,
+      11,    0,  143,    2, 0x08 /* Private */,
+      12,    0,  144,    2, 0x08 /* Private */,
+      13,    0,  145,    2, 0x08 /* Private */,
+      14,    0,  146,    2, 0x08 /* Private */,
+      15,    0,  147,    2, 0x08 /* Private */,
+      16,    0,  148,    2, 0x08 /* Private */,
+      17,    0,  149,    2, 0x08 /* Private */,
+      18,    0,  150,    2, 0x08 /* Private */,
+      19,    0,  151,    2, 0x08 /* Private */,
+      20,    0,  152,    2, 0x08 /* Private */,
+      21,    0,  153,    2, 0x08 /* Private */,
+      22,    0,  154,    2, 0x08 /* Private */,
+      23,    0,  155,    2, 0x08 /* Private */,
+      24,    0,  156,    2, 0x08 /* Private */,
+      25,    0,  157,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QBitArray::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QBitArray *_t = static_cast<tst_QBitArray *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->size_data(); break;
+        case 1: _t->size(); break;
+        case 2: _t->countBits_data(); break;
+        case 3: _t->countBits(); break;
+        case 4: _t->countBits2(); break;
+        case 5: _t->isEmpty(); break;
+        case 6: _t->swap(); break;
+        case 7: _t->fill(); break;
+        case 8: _t->toggleBit_data(); break;
+        case 9: _t->toggleBit(); break;
+        case 10: _t->operator_andeq_data(); break;
+        case 11: _t->operator_andeq(); break;
+        case 12: _t->operator_oreq_data(); break;
+        case 13: _t->operator_oreq(); break;
+        case 14: _t->operator_xoreq_data(); break;
+        case 15: _t->operator_xoreq(); break;
+        case 16: _t->operator_neg_data(); break;
+        case 17: _t->operator_neg(); break;
+        case 18: _t->datastream_data(); break;
+        case 19: _t->datastream(); break;
+        case 20: _t->invertOnNull(); break;
+        case 21: _t->operator_noteq_data(); break;
+        case 22: _t->operator_noteq(); break;
+        case 23: _t->resize(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QBitArray::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QBitArray.data,
+      qt_meta_data_tst_QBitArray,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QBitArray::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QBitArray::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QBitArray.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QBitArray::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 24)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 24;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 24)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 24;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

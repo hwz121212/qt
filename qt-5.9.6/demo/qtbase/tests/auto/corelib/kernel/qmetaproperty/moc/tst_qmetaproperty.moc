@@ -1,0 +1,643 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qmetaproperty.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qmetaproperty.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QMetaProperty_t {
+    QByteArrayData data[20];
+    char stringdata0[201];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QMetaProperty_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QMetaProperty_t qt_meta_stringdata_tst_QMetaProperty = {
+    {
+QT_MOC_LITERAL(0, 0, 17), // "tst_QMetaProperty"
+QT_MOC_LITERAL(1, 18, 12), // "hasStdCppSet"
+QT_MOC_LITERAL(2, 31, 0), // ""
+QT_MOC_LITERAL(3, 32, 10), // "isConstant"
+QT_MOC_LITERAL(4, 43, 7), // "isFinal"
+QT_MOC_LITERAL(5, 51, 6), // "gadget"
+QT_MOC_LITERAL(6, 58, 32), // "readAndWriteWithLazyRegistration"
+QT_MOC_LITERAL(7, 91, 11), // "mapProperty"
+QT_MOC_LITERAL(8, 103, 10), // "conversion"
+QT_MOC_LITERAL(9, 114, 5), // "value"
+QT_MOC_LITERAL(10, 120, 8), // "EnumType"
+QT_MOC_LITERAL(11, 129, 6), // "value2"
+QT_MOC_LITERAL(12, 136, 6), // "value7"
+QT_MOC_LITERAL(13, 143, 6), // "value8"
+QT_MOC_LITERAL(14, 150, 6), // "value9"
+QT_MOC_LITERAL(15, 157, 7), // "value10"
+QT_MOC_LITERAL(16, 165, 3), // "map"
+QT_MOC_LITERAL(17, 169, 13), // "QMap<int,int>"
+QT_MOC_LITERAL(18, 183, 6), // "custom"
+QT_MOC_LITERAL(19, 190, 10) // "CustomType"
+
+    },
+    "tst_QMetaProperty\0hasStdCppSet\0\0"
+    "isConstant\0isFinal\0gadget\0"
+    "readAndWriteWithLazyRegistration\0"
+    "mapProperty\0conversion\0value\0EnumType\0"
+    "value2\0value7\0value8\0value9\0value10\0"
+    "map\0QMap<int,int>\0custom\0CustomType"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QMetaProperty[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       7,   14, // methods
+       8,   56, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   49,    2, 0x08 /* Private */,
+       3,    0,   50,    2, 0x08 /* Private */,
+       4,    0,   51,    2, 0x08 /* Private */,
+       5,    0,   52,    2, 0x08 /* Private */,
+       6,    0,   53,    2, 0x08 /* Private */,
+       7,    0,   54,    2, 0x08 /* Private */,
+       8,    0,   55,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+ // properties: name, type, flags
+       9, 0x80000000 | 10, 0x0009510b,
+      11, 0x80000000 | 10, 0x0009500b,
+      12, QMetaType::QString, 0x00095007,
+      13, QMetaType::Int, 0x00095001,
+      14, QMetaType::Int, 0x00095401,
+      15, QMetaType::Int, 0x00095801,
+      16, 0x80000000 | 17, 0x0009500b,
+      18, 0x80000000 | 19, 0x0009500b,
+
+       0        // eod
+};
+
+void tst_QMetaProperty::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QMetaProperty *_t = static_cast<tst_QMetaProperty *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->hasStdCppSet(); break;
+        case 1: _t->isConstant(); break;
+        case 2: _t->isFinal(); break;
+        case 3: _t->gadget(); break;
+        case 4: _t->readAndWriteWithLazyRegistration(); break;
+        case 5: _t->mapProperty(); break;
+        case 6: _t->conversion(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::RegisterPropertyMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 7:
+            *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< CustomType >(); break;
+        }
+    }
+
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        tst_QMetaProperty *_t = static_cast<tst_QMetaProperty *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< EnumType*>(_v) = _t->getValue(); break;
+        case 1: *reinterpret_cast< EnumType*>(_v) = _t->get_value(); break;
+        case 2: *reinterpret_cast< QString*>(_v) = _t->value7; break;
+        case 3: *reinterpret_cast< int*>(_v) = _t->value8(); break;
+        case 4: *reinterpret_cast< int*>(_v) = _t->value9(); break;
+        case 5: *reinterpret_cast< int*>(_v) = _t->value10(); break;
+        case 6: *reinterpret_cast< QMap<int,int>*>(_v) = _t->map; break;
+        case 7: *reinterpret_cast< CustomType*>(_v) = _t->custom; break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        tst_QMetaProperty *_t = static_cast<tst_QMetaProperty *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setValue(*reinterpret_cast< EnumType*>(_v)); break;
+        case 1: _t->set_value(*reinterpret_cast< EnumType*>(_v)); break;
+        case 2:
+            if (_t->value7 != *reinterpret_cast< QString*>(_v)) {
+                _t->value7 = *reinterpret_cast< QString*>(_v);
+            }
+            break;
+        case 6:
+            if (_t->map != *reinterpret_cast< QMap<int,int>*>(_v)) {
+                _t->map = *reinterpret_cast< QMap<int,int>*>(_v);
+            }
+            break;
+        case 7:
+            if (_t->custom != *reinterpret_cast< CustomType*>(_v)) {
+                _t->custom = *reinterpret_cast< CustomType*>(_v);
+            }
+            break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+        tst_QMetaProperty *_t = static_cast<tst_QMetaProperty *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 2: _t->resetValue7(); break;
+        default: break;
+        }
+    }
+#endif // QT_NO_PROPERTIES
+}
+
+const QMetaObject tst_QMetaProperty::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QMetaProperty.data,
+      qt_meta_data_tst_QMetaProperty,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QMetaProperty::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QMetaProperty::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QMetaProperty.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QMetaProperty::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 7)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 7;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 7)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 7;
+    }
+#ifndef QT_NO_PROPERTIES
+   else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 8;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 8;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 8;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 8;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 8;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 8;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+struct qt_meta_stringdata_MyGadget_t {
+    QByteArrayData data[2];
+    char stringdata0[15];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_MyGadget_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_MyGadget_t qt_meta_stringdata_MyGadget = {
+    {
+QT_MOC_LITERAL(0, 0, 8), // "MyGadget"
+QT_MOC_LITERAL(1, 9, 5) // "value"
+
+    },
+    "MyGadget\0value"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_MyGadget[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       1,   14, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       4,       // flags
+       0,       // signalCount
+
+ // properties: name, type, flags
+       1, QMetaType::QString, 0x00095107,
+
+       0        // eod
+};
+
+void MyGadget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+
+#ifndef QT_NO_PROPERTIES
+    if (_c == QMetaObject::ReadProperty) {
+        MyGadget *_t = reinterpret_cast<MyGadget *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< QString*>(_v) = _t->getValue(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        MyGadget *_t = reinterpret_cast<MyGadget *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setValue(*reinterpret_cast< QString*>(_v)); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+        MyGadget *_t = reinterpret_cast<MyGadget *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->resetValue(); break;
+        default: break;
+        }
+    }
+#endif // QT_NO_PROPERTIES
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject MyGadget::staticMetaObject = {
+    { nullptr, qt_meta_stringdata_MyGadget.data,
+      qt_meta_data_MyGadget,  qt_static_metacall, nullptr, nullptr}
+};
+
+struct qt_meta_stringdata_CustomReadObject_t {
+    QByteArrayData data[1];
+    char stringdata0[17];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_CustomReadObject_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_CustomReadObject_t qt_meta_stringdata_CustomReadObject = {
+    {
+QT_MOC_LITERAL(0, 0, 16) // "CustomReadObject"
+
+    },
+    "CustomReadObject"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_CustomReadObject[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void CustomReadObject::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject CustomReadObject::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_CustomReadObject.data,
+      qt_meta_data_CustomReadObject,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *CustomReadObject::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *CustomReadObject::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CustomReadObject.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int CustomReadObject::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_CustomWriteObject_t {
+    QByteArrayData data[1];
+    char stringdata0[18];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_CustomWriteObject_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_CustomWriteObject_t qt_meta_stringdata_CustomWriteObject = {
+    {
+QT_MOC_LITERAL(0, 0, 17) // "CustomWriteObject"
+
+    },
+    "CustomWriteObject"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_CustomWriteObject[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void CustomWriteObject::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject CustomWriteObject::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_CustomWriteObject.data,
+      qt_meta_data_CustomWriteObject,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *CustomWriteObject::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *CustomWriteObject::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CustomWriteObject.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int CustomWriteObject::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_CustomWriteObjectChild_t {
+    QByteArrayData data[1];
+    char stringdata0[23];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_CustomWriteObjectChild_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_CustomWriteObjectChild_t qt_meta_stringdata_CustomWriteObjectChild = {
+    {
+QT_MOC_LITERAL(0, 0, 22) // "CustomWriteObjectChild"
+
+    },
+    "CustomWriteObjectChild"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_CustomWriteObjectChild[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void CustomWriteObjectChild::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject CustomWriteObjectChild::staticMetaObject = {
+    { &CustomWriteObject::staticMetaObject, qt_meta_stringdata_CustomWriteObjectChild.data,
+      qt_meta_data_CustomWriteObjectChild,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *CustomWriteObjectChild::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *CustomWriteObjectChild::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CustomWriteObjectChild.stringdata0))
+        return static_cast<void*>(this);
+    return CustomWriteObject::qt_metacast(_clname);
+}
+
+int CustomWriteObjectChild::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = CustomWriteObject::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_TypeLazyRegistration_t {
+    QByteArrayData data[5];
+    char stringdata0[69];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_TypeLazyRegistration_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_TypeLazyRegistration_t qt_meta_stringdata_TypeLazyRegistration = {
+    {
+QT_MOC_LITERAL(0, 0, 20), // "TypeLazyRegistration"
+QT_MOC_LITERAL(1, 21, 4), // "read"
+QT_MOC_LITERAL(2, 26, 17), // "CustomReadObject*"
+QT_MOC_LITERAL(3, 44, 5), // "write"
+QT_MOC_LITERAL(4, 50, 18) // "CustomWriteObject*"
+
+    },
+    "TypeLazyRegistration\0read\0CustomReadObject*\0"
+    "write\0CustomWriteObject*"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_TypeLazyRegistration[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       2,   14, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // properties: name, type, flags
+       1, 0x80000000 | 2, 0x0009500b,
+       3, 0x80000000 | 4, 0x0009500b,
+
+       0        // eod
+};
+
+void TypeLazyRegistration::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::RegisterPropertyMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 0:
+            *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< CustomReadObject* >(); break;
+        case 1:
+            *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< CustomWriteObject* >(); break;
+        }
+    }
+
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        TypeLazyRegistration *_t = static_cast<TypeLazyRegistration *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< CustomReadObject**>(_v) = _t->_read; break;
+        case 1: *reinterpret_cast< CustomWriteObject**>(_v) = _t->_write; break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        TypeLazyRegistration *_t = static_cast<TypeLazyRegistration *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0:
+            if (_t->_read != *reinterpret_cast< CustomReadObject**>(_v)) {
+                _t->_read = *reinterpret_cast< CustomReadObject**>(_v);
+            }
+            break;
+        case 1:
+            if (_t->_write != *reinterpret_cast< CustomWriteObject**>(_v)) {
+                _t->_write = *reinterpret_cast< CustomWriteObject**>(_v);
+            }
+            break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+    Q_UNUSED(_o);
+}
+
+const QMetaObject TypeLazyRegistration::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_TypeLazyRegistration.data,
+      qt_meta_data_TypeLazyRegistration,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *TypeLazyRegistration::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *TypeLazyRegistration::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_TypeLazyRegistration.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int TypeLazyRegistration::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    
+#ifndef QT_NO_PROPERTIES
+   if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 2;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

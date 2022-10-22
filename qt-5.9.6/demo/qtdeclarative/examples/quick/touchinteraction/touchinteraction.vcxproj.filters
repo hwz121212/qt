@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="multipointtouch\content\AugmentedTouchPoint.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="multipointtouch\content\Bear0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="multipointtouch\content\Bear1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="multipointtouch\content\Bear2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="multipointtouch\content\Bear3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="multipointtouch\content\BearB.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="multipointtouch\content\BearWhackParticleSystem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\Button.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\CheckBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\Label.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\LauncherList.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickable\content\Panel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="multipointtouch\content\ParticleFlame.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\SimpleLauncherDelegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\Slider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\TabSet.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\TextField.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\images\back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickable\basic-flickable.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="multipointtouch\bearwhack.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="multipointtouch\content\blur-circle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="multipointtouch\content\blur-circle3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\images\checkmark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickable\content\cork.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickable\corkboards.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pincharea\flickresize.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="multipointtouch\content\heart-blur.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="multipointtouch\multiflame.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\images\next.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickable\content\note-yellow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pincharea\qt-logo.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\images\qt-logo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\shared\shared.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="..\shared\images\slider_handle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\images\tab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickable\content\tack.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="multipointtouch\content\title.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="touchinteraction.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="touchinteraction.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsensor", "F:/qt/Src/qtsensors/tests/auto/qsensor\tst_qsensor.vcxproj", "{0684EA7C-DB75-3125-B941-E187FC106BD8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_sensors2qmlapi", "F:/qt/Src/qtsensors/tests/auto/sensors2qmlapi\tst_sensors2qmlapi.vcxproj", "{3AC63348-DA95-3A1B-93E4-126B17F6E0D5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qtsensors5", "F:/qt/Src/qtsensors/tests/auto/qtsensors5\tst_qtsensors5.vcxproj", "{D5453B33-5200-37AD-BF08-3932E2DB6450}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsensorgesturetest", "F:/qt/Src/qtsensors/tests/auto/qsensorgestures\tst_qsensorgesturetest.vcxproj", "{836323FB-4722-3BB8-B462-DB42AF70F0EB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsensorgesturepluginstest", "F:/qt/Src/qtsensors/tests/auto/qsensorgestureplugins\tst_qsensorgesturepluginstest.vcxproj", "{152BF630-1F1D-3108-B524-32F07677779C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0684EA7C-DB75-3125-B941-E187FC106BD8}.Debug|x64.ActiveCfg = Debug|x64
+		{0684EA7C-DB75-3125-B941-E187FC106BD8}.Debug|x64.Build.0 = Debug|x64
+		{0684EA7C-DB75-3125-B941-E187FC106BD8}.Release|x64.ActiveCfg = Release|x64
+		{0684EA7C-DB75-3125-B941-E187FC106BD8}.Release|x64.Build.0 = Release|x64
+		{3AC63348-DA95-3A1B-93E4-126B17F6E0D5}.Debug|x64.ActiveCfg = Debug|x64
+		{3AC63348-DA95-3A1B-93E4-126B17F6E0D5}.Debug|x64.Build.0 = Debug|x64
+		{3AC63348-DA95-3A1B-93E4-126B17F6E0D5}.Release|x64.ActiveCfg = Release|x64
+		{3AC63348-DA95-3A1B-93E4-126B17F6E0D5}.Release|x64.Build.0 = Release|x64
+		{D5453B33-5200-37AD-BF08-3932E2DB6450}.Debug|x64.ActiveCfg = Debug|x64
+		{D5453B33-5200-37AD-BF08-3932E2DB6450}.Debug|x64.Build.0 = Debug|x64
+		{D5453B33-5200-37AD-BF08-3932E2DB6450}.Release|x64.ActiveCfg = Release|x64
+		{D5453B33-5200-37AD-BF08-3932E2DB6450}.Release|x64.Build.0 = Release|x64
+		{836323FB-4722-3BB8-B462-DB42AF70F0EB}.Debug|x64.ActiveCfg = Debug|x64
+		{836323FB-4722-3BB8-B462-DB42AF70F0EB}.Debug|x64.Build.0 = Debug|x64
+		{836323FB-4722-3BB8-B462-DB42AF70F0EB}.Release|x64.ActiveCfg = Release|x64
+		{836323FB-4722-3BB8-B462-DB42AF70F0EB}.Release|x64.Build.0 = Release|x64
+		{152BF630-1F1D-3108-B524-32F07677779C}.Debug|x64.ActiveCfg = Debug|x64
+		{152BF630-1F1D-3108-B524-32F07677779C}.Debug|x64.Build.0 = Debug|x64
+		{152BF630-1F1D-3108-B524-32F07677779C}.Release|x64.ActiveCfg = Release|x64
+		{152BF630-1F1D-3108-B524-32F07677779C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d11aab1d-cd90-4783-ac99-740905ba9195}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="tst_qtiff.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tiff\colorful.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\corrupt-data.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\grayscale-ref.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\grayscale.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\image.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\image_100dpi.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\indexed_orientation_1.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\indexed_orientation_2.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\indexed_orientation_3.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\indexed_orientation_4.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\indexed_orientation_5.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\indexed_orientation_6.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\indexed_orientation_7.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\indexed_orientation_8.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\mono_orientation_1.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\mono_orientation_2.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\mono_orientation_3.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\mono_orientation_4.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\mono_orientation_5.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\mono_orientation_6.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\mono_orientation_7.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\mono_orientation_8.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\multipage.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\oddsize_grayscale.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\oddsize_mono.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\original_grayscale.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\original_indexed.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\original_mono.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\original_rgb.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\rgb_orientation_1.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\rgb_orientation_2.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\rgb_orientation_3.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\rgb_orientation_4.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\rgb_orientation_5.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\rgb_orientation_6.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\rgb_orientation_7.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\rgb_orientation_8.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\rgba_adobedeflate_littleendian.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\rgba_lzw_littleendian.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\rgba_nocompression_bigendian.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\rgba_nocompression_littleendian.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\rgba_packbits_littleendian.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\rgba_zipdeflate_littleendian.tif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\teapot.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="tiff.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="tiff\tiled_grayscale.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\tiled_indexed.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\tiled_mono.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\tiled_oddsize_grayscale.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\tiled_oddsize_mono.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tiff\tiled_rgb.tiff">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tst_qtiff.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

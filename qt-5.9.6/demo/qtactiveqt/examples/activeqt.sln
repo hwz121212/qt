@@ -1,0 +1,62 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "comapp", "F:/qt/Src/qtactiveqt/examples/activeqt/comapp\comapp.vcxproj", "{2BE265BD-CF43-369A-93E0-41E5C50B5BDA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hierarchyax", "F:/qt/Src/qtactiveqt/examples/activeqt/hierarchy\hierarchyax.vcxproj", "{94B03825-76BA-3285-A688-D23D1D1F2663}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "menusax", "F:/qt/Src/qtactiveqt/examples/activeqt/menus\menusax.vcxproj", "{06638B52-8738-3206-A152-D1210FC44ACD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "multipleax", "F:/qt/Src/qtactiveqt/examples/activeqt/multiple\multipleax.vcxproj", "{C13069C5-A823-3851-98B5-E6F6666264E1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleax", "F:/qt/Src/qtactiveqt/examples/activeqt/simple\simpleax.vcxproj", "{A298CF23-DCF3-336A-A4D2-76D200524D7B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wrapperax", "F:/qt/Src/qtactiveqt/examples/activeqt/wrapper\wrapperax.vcxproj", "{98B1825D-5B89-3925-B559-90D282287056}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "webbrowser", "F:/qt/Src/qtactiveqt/examples/activeqt/webbrowser\webbrowser.vcxproj", "{D0817C73-5AB0-32E2-ADDA-757991D12776}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simpleqmlax", "F:/qt/Src/qtactiveqt/examples/activeqt/simpleqml\simpleqmlax.vcxproj", "{21B1E38E-D997-3E9C-9EB4-7E665C1124EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BE265BD-CF43-369A-93E0-41E5C50B5BDA}.Debug|x64.ActiveCfg = Debug|x64
+		{2BE265BD-CF43-369A-93E0-41E5C50B5BDA}.Debug|x64.Build.0 = Debug|x64
+		{2BE265BD-CF43-369A-93E0-41E5C50B5BDA}.Release|x64.ActiveCfg = Release|x64
+		{2BE265BD-CF43-369A-93E0-41E5C50B5BDA}.Release|x64.Build.0 = Release|x64
+		{94B03825-76BA-3285-A688-D23D1D1F2663}.Debug|x64.ActiveCfg = Debug|x64
+		{94B03825-76BA-3285-A688-D23D1D1F2663}.Debug|x64.Build.0 = Debug|x64
+		{94B03825-76BA-3285-A688-D23D1D1F2663}.Release|x64.ActiveCfg = Release|x64
+		{94B03825-76BA-3285-A688-D23D1D1F2663}.Release|x64.Build.0 = Release|x64
+		{06638B52-8738-3206-A152-D1210FC44ACD}.Debug|x64.ActiveCfg = Debug|x64
+		{06638B52-8738-3206-A152-D1210FC44ACD}.Debug|x64.Build.0 = Debug|x64
+		{06638B52-8738-3206-A152-D1210FC44ACD}.Release|x64.ActiveCfg = Release|x64
+		{06638B52-8738-3206-A152-D1210FC44ACD}.Release|x64.Build.0 = Release|x64
+		{C13069C5-A823-3851-98B5-E6F6666264E1}.Debug|x64.ActiveCfg = Debug|x64
+		{C13069C5-A823-3851-98B5-E6F6666264E1}.Debug|x64.Build.0 = Debug|x64
+		{C13069C5-A823-3851-98B5-E6F6666264E1}.Release|x64.ActiveCfg = Release|x64
+		{C13069C5-A823-3851-98B5-E6F6666264E1}.Release|x64.Build.0 = Release|x64
+		{A298CF23-DCF3-336A-A4D2-76D200524D7B}.Debug|x64.ActiveCfg = Debug|x64
+		{A298CF23-DCF3-336A-A4D2-76D200524D7B}.Debug|x64.Build.0 = Debug|x64
+		{A298CF23-DCF3-336A-A4D2-76D200524D7B}.Release|x64.ActiveCfg = Release|x64
+		{A298CF23-DCF3-336A-A4D2-76D200524D7B}.Release|x64.Build.0 = Release|x64
+		{98B1825D-5B89-3925-B559-90D282287056}.Debug|x64.ActiveCfg = Debug|x64
+		{98B1825D-5B89-3925-B559-90D282287056}.Debug|x64.Build.0 = Debug|x64
+		{98B1825D-5B89-3925-B559-90D282287056}.Release|x64.ActiveCfg = Release|x64
+		{98B1825D-5B89-3925-B559-90D282287056}.Release|x64.Build.0 = Release|x64
+		{D0817C73-5AB0-32E2-ADDA-757991D12776}.Debug|x64.ActiveCfg = Debug|x64
+		{D0817C73-5AB0-32E2-ADDA-757991D12776}.Debug|x64.Build.0 = Debug|x64
+		{D0817C73-5AB0-32E2-ADDA-757991D12776}.Release|x64.ActiveCfg = Release|x64
+		{D0817C73-5AB0-32E2-ADDA-757991D12776}.Release|x64.Build.0 = Release|x64
+		{21B1E38E-D997-3E9C-9EB4-7E665C1124EC}.Debug|x64.ActiveCfg = Debug|x64
+		{21B1E38E-D997-3E9C-9EB4-7E665C1124EC}.Debug|x64.Build.0 = Debug|x64
+		{21B1E38E-D997-3E9C-9EB4-7E665C1124EC}.Release|x64.ActiveCfg = Release|x64
+		{21B1E38E-D997-3E9C-9EB4-7E665C1124EC}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

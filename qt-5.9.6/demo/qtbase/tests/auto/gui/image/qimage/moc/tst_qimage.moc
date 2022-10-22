@@ -1,0 +1,578 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qimage.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qimage.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QImage_t {
+    QByteArrayData data[107];
+    char stringdata0[1795];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QImage_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QImage_t qt_meta_stringdata_tst_QImage = {
+    {
+QT_MOC_LITERAL(0, 0, 10), // "tst_QImage"
+QT_MOC_LITERAL(1, 11, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 24, 0), // ""
+QT_MOC_LITERAL(3, 25, 4), // "swap"
+QT_MOC_LITERAL(4, 30, 6), // "create"
+QT_MOC_LITERAL(5, 37, 16), // "createInvalidXPM"
+QT_MOC_LITERAL(6, 54, 15), // "createFromUChar"
+QT_MOC_LITERAL(7, 70, 24), // "formatHandlersInput_data"
+QT_MOC_LITERAL(8, 95, 19), // "formatHandlersInput"
+QT_MOC_LITERAL(9, 115, 20), // "setAlphaChannel_data"
+QT_MOC_LITERAL(10, 136, 15), // "setAlphaChannel"
+QT_MOC_LITERAL(11, 152, 12), // "alphaChannel"
+QT_MOC_LITERAL(12, 165, 20), // "convertToFormat_data"
+QT_MOC_LITERAL(13, 186, 15), // "convertToFormat"
+QT_MOC_LITERAL(14, 202, 29), // "convertToFormatWithColorTable"
+QT_MOC_LITERAL(15, 232, 28), // "convertToFormatRgb888ToRGB32"
+QT_MOC_LITERAL(16, 261, 20), // "createAlphaMask_data"
+QT_MOC_LITERAL(17, 282, 15), // "createAlphaMask"
+QT_MOC_LITERAL(18, 298, 19), // "createHeuristicMask"
+QT_MOC_LITERAL(19, 318, 16), // "dotsPerMeterZero"
+QT_MOC_LITERAL(20, 335, 18), // "dotsPerMeterAndDpi"
+QT_MOC_LITERAL(21, 354, 34), // "convertToFormatPreserveDotsPr..."
+QT_MOC_LITERAL(22, 389, 27), // "convertToFormatPreserveText"
+QT_MOC_LITERAL(23, 417, 11), // "rotate_data"
+QT_MOC_LITERAL(24, 429, 6), // "rotate"
+QT_MOC_LITERAL(25, 436, 4), // "copy"
+QT_MOC_LITERAL(26, 441, 4), // "load"
+QT_MOC_LITERAL(27, 446, 12), // "loadFromData"
+QT_MOC_LITERAL(28, 459, 18), // "loadFromDataStream"
+QT_MOC_LITERAL(29, 478, 13), // "setPixel_data"
+QT_MOC_LITERAL(30, 492, 8), // "setPixel"
+QT_MOC_LITERAL(31, 501, 22), // "defaultColorTable_data"
+QT_MOC_LITERAL(32, 524, 17), // "defaultColorTable"
+QT_MOC_LITERAL(33, 542, 13), // "setColorCount"
+QT_MOC_LITERAL(34, 556, 8), // "setColor"
+QT_MOC_LITERAL(35, 565, 14), // "rasterClipping"
+QT_MOC_LITERAL(36, 580, 14), // "pointOverloads"
+QT_MOC_LITERAL(37, 595, 10), // "destructor"
+QT_MOC_LITERAL(38, 606, 8), // "cacheKey"
+QT_MOC_LITERAL(39, 615, 11), // "smoothScale"
+QT_MOC_LITERAL(40, 627, 17), // "smoothScale2_data"
+QT_MOC_LITERAL(41, 645, 12), // "smoothScale2"
+QT_MOC_LITERAL(42, 658, 17), // "smoothScale3_data"
+QT_MOC_LITERAL(43, 676, 12), // "smoothScale3"
+QT_MOC_LITERAL(44, 689, 12), // "smoothScale4"
+QT_MOC_LITERAL(45, 702, 14), // "smoothScaleBig"
+QT_MOC_LITERAL(46, 717, 16), // "smoothScaleAlpha"
+QT_MOC_LITERAL(47, 734, 16), // "transformed_data"
+QT_MOC_LITERAL(48, 751, 11), // "transformed"
+QT_MOC_LITERAL(49, 763, 12), // "transformed2"
+QT_MOC_LITERAL(50, 776, 6), // "scaled"
+QT_MOC_LITERAL(51, 783, 11), // "paintEngine"
+QT_MOC_LITERAL(52, 795, 28), // "setAlphaChannelWhilePainting"
+QT_MOC_LITERAL(53, 824, 20), // "smoothScaledSubImage"
+QT_MOC_LITERAL(54, 845, 13), // "nullSize_data"
+QT_MOC_LITERAL(55, 859, 8), // "nullSize"
+QT_MOC_LITERAL(56, 868, 29), // "premultipliedAlphaConsistency"
+QT_MOC_LITERAL(57, 898, 14), // "compareIndexed"
+QT_MOC_LITERAL(58, 913, 14), // "fillColor_data"
+QT_MOC_LITERAL(59, 928, 9), // "fillColor"
+QT_MOC_LITERAL(60, 938, 18), // "fillColorWithAlpha"
+QT_MOC_LITERAL(61, 957, 10), // "fillRGB888"
+QT_MOC_LITERAL(62, 968, 14), // "fillPixel_data"
+QT_MOC_LITERAL(63, 983, 9), // "fillPixel"
+QT_MOC_LITERAL(64, 993, 15), // "rgbSwapped_data"
+QT_MOC_LITERAL(65, 1009, 10), // "rgbSwapped"
+QT_MOC_LITERAL(66, 1020, 13), // "mirrored_data"
+QT_MOC_LITERAL(67, 1034, 8), // "mirrored"
+QT_MOC_LITERAL(68, 1043, 22), // "inplaceRgbSwapped_data"
+QT_MOC_LITERAL(69, 1066, 17), // "inplaceRgbSwapped"
+QT_MOC_LITERAL(70, 1084, 20), // "inplaceMirrored_data"
+QT_MOC_LITERAL(71, 1105, 15), // "inplaceMirrored"
+QT_MOC_LITERAL(72, 1121, 23), // "inplaceMirroredOdd_data"
+QT_MOC_LITERAL(73, 1145, 18), // "inplaceMirroredOdd"
+QT_MOC_LITERAL(74, 1164, 18), // "inplaceRgbMirrored"
+QT_MOC_LITERAL(75, 1183, 25), // "genericRgbConversion_data"
+QT_MOC_LITERAL(76, 1209, 20), // "genericRgbConversion"
+QT_MOC_LITERAL(77, 1230, 25), // "inplaceRgbConversion_data"
+QT_MOC_LITERAL(78, 1256, 20), // "inplaceRgbConversion"
+QT_MOC_LITERAL(79, 1277, 26), // "deepCopyWhenPaintingActive"
+QT_MOC_LITERAL(80, 1304, 17), // "scaled_QTBUG19157"
+QT_MOC_LITERAL(81, 1322, 19), // "convertOverUnPreMul"
+QT_MOC_LITERAL(82, 1342, 17), // "scaled_QTBUG35972"
+QT_MOC_LITERAL(83, 1360, 20), // "convertToPixelFormat"
+QT_MOC_LITERAL(84, 1381, 25), // "convertToImageFormat_data"
+QT_MOC_LITERAL(85, 1407, 20), // "convertToImageFormat"
+QT_MOC_LITERAL(86, 1428, 20), // "invertPixelsRGB_data"
+QT_MOC_LITERAL(87, 1449, 15), // "invertPixelsRGB"
+QT_MOC_LITERAL(88, 1465, 20), // "exifOrientation_data"
+QT_MOC_LITERAL(89, 1486, 15), // "exifOrientation"
+QT_MOC_LITERAL(90, 1502, 15), // "exif_QTBUG45865"
+QT_MOC_LITERAL(91, 1518, 20), // "exifInvalidData_data"
+QT_MOC_LITERAL(92, 1539, 15), // "exifInvalidData"
+QT_MOC_LITERAL(93, 1555, 16), // "cleanupFunctions"
+QT_MOC_LITERAL(94, 1572, 16), // "devicePixelRatio"
+QT_MOC_LITERAL(95, 1589, 13), // "rgb30Unpremul"
+QT_MOC_LITERAL(96, 1603, 18), // "rgb30Repremul_data"
+QT_MOC_LITERAL(97, 1622, 13), // "rgb30Repremul"
+QT_MOC_LITERAL(98, 1636, 19), // "metadataPassthrough"
+QT_MOC_LITERAL(99, 1656, 10), // "pixelColor"
+QT_MOC_LITERAL(100, 1667, 5), // "pixel"
+QT_MOC_LITERAL(101, 1673, 19), // "ditherGradient_data"
+QT_MOC_LITERAL(102, 1693, 14), // "ditherGradient"
+QT_MOC_LITERAL(103, 1708, 24), // "reinterpretAsFormat_data"
+QT_MOC_LITERAL(104, 1733, 19), // "reinterpretAsFormat"
+QT_MOC_LITERAL(105, 1753, 20), // "reinterpretAsFormat2"
+QT_MOC_LITERAL(106, 1774, 20) // "complexTransform8bit"
+
+    },
+    "tst_QImage\0initTestCase\0\0swap\0create\0"
+    "createInvalidXPM\0createFromUChar\0"
+    "formatHandlersInput_data\0formatHandlersInput\0"
+    "setAlphaChannel_data\0setAlphaChannel\0"
+    "alphaChannel\0convertToFormat_data\0"
+    "convertToFormat\0convertToFormatWithColorTable\0"
+    "convertToFormatRgb888ToRGB32\0"
+    "createAlphaMask_data\0createAlphaMask\0"
+    "createHeuristicMask\0dotsPerMeterZero\0"
+    "dotsPerMeterAndDpi\0"
+    "convertToFormatPreserveDotsPrMeter\0"
+    "convertToFormatPreserveText\0rotate_data\0"
+    "rotate\0copy\0load\0loadFromData\0"
+    "loadFromDataStream\0setPixel_data\0"
+    "setPixel\0defaultColorTable_data\0"
+    "defaultColorTable\0setColorCount\0"
+    "setColor\0rasterClipping\0pointOverloads\0"
+    "destructor\0cacheKey\0smoothScale\0"
+    "smoothScale2_data\0smoothScale2\0"
+    "smoothScale3_data\0smoothScale3\0"
+    "smoothScale4\0smoothScaleBig\0"
+    "smoothScaleAlpha\0transformed_data\0"
+    "transformed\0transformed2\0scaled\0"
+    "paintEngine\0setAlphaChannelWhilePainting\0"
+    "smoothScaledSubImage\0nullSize_data\0"
+    "nullSize\0premultipliedAlphaConsistency\0"
+    "compareIndexed\0fillColor_data\0fillColor\0"
+    "fillColorWithAlpha\0fillRGB888\0"
+    "fillPixel_data\0fillPixel\0rgbSwapped_data\0"
+    "rgbSwapped\0mirrored_data\0mirrored\0"
+    "inplaceRgbSwapped_data\0inplaceRgbSwapped\0"
+    "inplaceMirrored_data\0inplaceMirrored\0"
+    "inplaceMirroredOdd_data\0inplaceMirroredOdd\0"
+    "inplaceRgbMirrored\0genericRgbConversion_data\0"
+    "genericRgbConversion\0inplaceRgbConversion_data\0"
+    "inplaceRgbConversion\0deepCopyWhenPaintingActive\0"
+    "scaled_QTBUG19157\0convertOverUnPreMul\0"
+    "scaled_QTBUG35972\0convertToPixelFormat\0"
+    "convertToImageFormat_data\0"
+    "convertToImageFormat\0invertPixelsRGB_data\0"
+    "invertPixelsRGB\0exifOrientation_data\0"
+    "exifOrientation\0exif_QTBUG45865\0"
+    "exifInvalidData_data\0exifInvalidData\0"
+    "cleanupFunctions\0devicePixelRatio\0"
+    "rgb30Unpremul\0rgb30Repremul_data\0"
+    "rgb30Repremul\0metadataPassthrough\0"
+    "pixelColor\0pixel\0ditherGradient_data\0"
+    "ditherGradient\0reinterpretAsFormat_data\0"
+    "reinterpretAsFormat\0reinterpretAsFormat2\0"
+    "complexTransform8bit"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QImage[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+     105,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  539,    2, 0x08 /* Private */,
+       3,    0,  540,    2, 0x08 /* Private */,
+       4,    0,  541,    2, 0x08 /* Private */,
+       5,    0,  542,    2, 0x08 /* Private */,
+       6,    0,  543,    2, 0x08 /* Private */,
+       7,    0,  544,    2, 0x08 /* Private */,
+       8,    0,  545,    2, 0x08 /* Private */,
+       9,    0,  546,    2, 0x08 /* Private */,
+      10,    0,  547,    2, 0x08 /* Private */,
+      11,    0,  548,    2, 0x08 /* Private */,
+      12,    0,  549,    2, 0x08 /* Private */,
+      13,    0,  550,    2, 0x08 /* Private */,
+      14,    0,  551,    2, 0x08 /* Private */,
+      15,    0,  552,    2, 0x08 /* Private */,
+      16,    0,  553,    2, 0x08 /* Private */,
+      17,    0,  554,    2, 0x08 /* Private */,
+      18,    0,  555,    2, 0x08 /* Private */,
+      19,    0,  556,    2, 0x08 /* Private */,
+      20,    0,  557,    2, 0x08 /* Private */,
+      21,    0,  558,    2, 0x08 /* Private */,
+      22,    0,  559,    2, 0x08 /* Private */,
+      23,    0,  560,    2, 0x08 /* Private */,
+      24,    0,  561,    2, 0x08 /* Private */,
+      25,    0,  562,    2, 0x08 /* Private */,
+      26,    0,  563,    2, 0x08 /* Private */,
+      27,    0,  564,    2, 0x08 /* Private */,
+      28,    0,  565,    2, 0x08 /* Private */,
+      29,    0,  566,    2, 0x08 /* Private */,
+      30,    0,  567,    2, 0x08 /* Private */,
+      31,    0,  568,    2, 0x08 /* Private */,
+      32,    0,  569,    2, 0x08 /* Private */,
+      33,    0,  570,    2, 0x08 /* Private */,
+      34,    0,  571,    2, 0x08 /* Private */,
+      35,    0,  572,    2, 0x08 /* Private */,
+      36,    0,  573,    2, 0x08 /* Private */,
+      37,    0,  574,    2, 0x08 /* Private */,
+      38,    0,  575,    2, 0x08 /* Private */,
+      39,    0,  576,    2, 0x08 /* Private */,
+      40,    0,  577,    2, 0x08 /* Private */,
+      41,    0,  578,    2, 0x08 /* Private */,
+      42,    0,  579,    2, 0x08 /* Private */,
+      43,    0,  580,    2, 0x08 /* Private */,
+      44,    0,  581,    2, 0x08 /* Private */,
+      45,    0,  582,    2, 0x08 /* Private */,
+      46,    0,  583,    2, 0x08 /* Private */,
+      47,    0,  584,    2, 0x08 /* Private */,
+      48,    0,  585,    2, 0x08 /* Private */,
+      49,    0,  586,    2, 0x08 /* Private */,
+      50,    0,  587,    2, 0x08 /* Private */,
+      51,    0,  588,    2, 0x08 /* Private */,
+      52,    0,  589,    2, 0x08 /* Private */,
+      53,    0,  590,    2, 0x08 /* Private */,
+      54,    0,  591,    2, 0x08 /* Private */,
+      55,    0,  592,    2, 0x08 /* Private */,
+      56,    0,  593,    2, 0x08 /* Private */,
+      57,    0,  594,    2, 0x08 /* Private */,
+      58,    0,  595,    2, 0x08 /* Private */,
+      59,    0,  596,    2, 0x08 /* Private */,
+      60,    0,  597,    2, 0x08 /* Private */,
+      61,    0,  598,    2, 0x08 /* Private */,
+      62,    0,  599,    2, 0x08 /* Private */,
+      63,    0,  600,    2, 0x08 /* Private */,
+      64,    0,  601,    2, 0x08 /* Private */,
+      65,    0,  602,    2, 0x08 /* Private */,
+      66,    0,  603,    2, 0x08 /* Private */,
+      67,    0,  604,    2, 0x08 /* Private */,
+      68,    0,  605,    2, 0x08 /* Private */,
+      69,    0,  606,    2, 0x08 /* Private */,
+      70,    0,  607,    2, 0x08 /* Private */,
+      71,    0,  608,    2, 0x08 /* Private */,
+      72,    0,  609,    2, 0x08 /* Private */,
+      73,    0,  610,    2, 0x08 /* Private */,
+      74,    0,  611,    2, 0x08 /* Private */,
+      75,    0,  612,    2, 0x08 /* Private */,
+      76,    0,  613,    2, 0x08 /* Private */,
+      77,    0,  614,    2, 0x08 /* Private */,
+      78,    0,  615,    2, 0x08 /* Private */,
+      79,    0,  616,    2, 0x08 /* Private */,
+      80,    0,  617,    2, 0x08 /* Private */,
+      81,    0,  618,    2, 0x08 /* Private */,
+      82,    0,  619,    2, 0x08 /* Private */,
+      83,    0,  620,    2, 0x08 /* Private */,
+      84,    0,  621,    2, 0x08 /* Private */,
+      85,    0,  622,    2, 0x08 /* Private */,
+      86,    0,  623,    2, 0x08 /* Private */,
+      87,    0,  624,    2, 0x08 /* Private */,
+      88,    0,  625,    2, 0x08 /* Private */,
+      89,    0,  626,    2, 0x08 /* Private */,
+      90,    0,  627,    2, 0x08 /* Private */,
+      91,    0,  628,    2, 0x08 /* Private */,
+      92,    0,  629,    2, 0x08 /* Private */,
+      93,    0,  630,    2, 0x08 /* Private */,
+      94,    0,  631,    2, 0x08 /* Private */,
+      95,    0,  632,    2, 0x08 /* Private */,
+      96,    0,  633,    2, 0x08 /* Private */,
+      97,    0,  634,    2, 0x08 /* Private */,
+      98,    0,  635,    2, 0x08 /* Private */,
+      99,    0,  636,    2, 0x08 /* Private */,
+     100,    0,  637,    2, 0x08 /* Private */,
+     101,    0,  638,    2, 0x08 /* Private */,
+     102,    0,  639,    2, 0x08 /* Private */,
+     103,    0,  640,    2, 0x08 /* Private */,
+     104,    0,  641,    2, 0x08 /* Private */,
+     105,    0,  642,    2, 0x08 /* Private */,
+     106,    0,  643,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QImage::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QImage *_t = static_cast<tst_QImage *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->swap(); break;
+        case 2: _t->create(); break;
+        case 3: _t->createInvalidXPM(); break;
+        case 4: _t->createFromUChar(); break;
+        case 5: _t->formatHandlersInput_data(); break;
+        case 6: _t->formatHandlersInput(); break;
+        case 7: _t->setAlphaChannel_data(); break;
+        case 8: _t->setAlphaChannel(); break;
+        case 9: _t->alphaChannel(); break;
+        case 10: _t->convertToFormat_data(); break;
+        case 11: _t->convertToFormat(); break;
+        case 12: _t->convertToFormatWithColorTable(); break;
+        case 13: _t->convertToFormatRgb888ToRGB32(); break;
+        case 14: _t->createAlphaMask_data(); break;
+        case 15: _t->createAlphaMask(); break;
+        case 16: _t->createHeuristicMask(); break;
+        case 17: _t->dotsPerMeterZero(); break;
+        case 18: _t->dotsPerMeterAndDpi(); break;
+        case 19: _t->convertToFormatPreserveDotsPrMeter(); break;
+        case 20: _t->convertToFormatPreserveText(); break;
+        case 21: _t->rotate_data(); break;
+        case 22: _t->rotate(); break;
+        case 23: _t->copy(); break;
+        case 24: _t->load(); break;
+        case 25: _t->loadFromData(); break;
+        case 26: _t->loadFromDataStream(); break;
+        case 27: _t->setPixel_data(); break;
+        case 28: _t->setPixel(); break;
+        case 29: _t->defaultColorTable_data(); break;
+        case 30: _t->defaultColorTable(); break;
+        case 31: _t->setColorCount(); break;
+        case 32: _t->setColor(); break;
+        case 33: _t->rasterClipping(); break;
+        case 34: _t->pointOverloads(); break;
+        case 35: _t->destructor(); break;
+        case 36: _t->cacheKey(); break;
+        case 37: _t->smoothScale(); break;
+        case 38: _t->smoothScale2_data(); break;
+        case 39: _t->smoothScale2(); break;
+        case 40: _t->smoothScale3_data(); break;
+        case 41: _t->smoothScale3(); break;
+        case 42: _t->smoothScale4(); break;
+        case 43: _t->smoothScaleBig(); break;
+        case 44: _t->smoothScaleAlpha(); break;
+        case 45: _t->transformed_data(); break;
+        case 46: _t->transformed(); break;
+        case 47: _t->transformed2(); break;
+        case 48: _t->scaled(); break;
+        case 49: _t->paintEngine(); break;
+        case 50: _t->setAlphaChannelWhilePainting(); break;
+        case 51: _t->smoothScaledSubImage(); break;
+        case 52: _t->nullSize_data(); break;
+        case 53: _t->nullSize(); break;
+        case 54: _t->premultipliedAlphaConsistency(); break;
+        case 55: _t->compareIndexed(); break;
+        case 56: _t->fillColor_data(); break;
+        case 57: _t->fillColor(); break;
+        case 58: _t->fillColorWithAlpha(); break;
+        case 59: _t->fillRGB888(); break;
+        case 60: _t->fillPixel_data(); break;
+        case 61: _t->fillPixel(); break;
+        case 62: _t->rgbSwapped_data(); break;
+        case 63: _t->rgbSwapped(); break;
+        case 64: _t->mirrored_data(); break;
+        case 65: _t->mirrored(); break;
+        case 66: _t->inplaceRgbSwapped_data(); break;
+        case 67: _t->inplaceRgbSwapped(); break;
+        case 68: _t->inplaceMirrored_data(); break;
+        case 69: _t->inplaceMirrored(); break;
+        case 70: _t->inplaceMirroredOdd_data(); break;
+        case 71: _t->inplaceMirroredOdd(); break;
+        case 72: _t->inplaceRgbMirrored(); break;
+        case 73: _t->genericRgbConversion_data(); break;
+        case 74: _t->genericRgbConversion(); break;
+        case 75: _t->inplaceRgbConversion_data(); break;
+        case 76: _t->inplaceRgbConversion(); break;
+        case 77: _t->deepCopyWhenPaintingActive(); break;
+        case 78: _t->scaled_QTBUG19157(); break;
+        case 79: _t->convertOverUnPreMul(); break;
+        case 80: _t->scaled_QTBUG35972(); break;
+        case 81: _t->convertToPixelFormat(); break;
+        case 82: _t->convertToImageFormat_data(); break;
+        case 83: _t->convertToImageFormat(); break;
+        case 84: _t->invertPixelsRGB_data(); break;
+        case 85: _t->invertPixelsRGB(); break;
+        case 86: _t->exifOrientation_data(); break;
+        case 87: _t->exifOrientation(); break;
+        case 88: _t->exif_QTBUG45865(); break;
+        case 89: _t->exifInvalidData_data(); break;
+        case 90: _t->exifInvalidData(); break;
+        case 91: _t->cleanupFunctions(); break;
+        case 92: _t->devicePixelRatio(); break;
+        case 93: _t->rgb30Unpremul(); break;
+        case 94: _t->rgb30Repremul_data(); break;
+        case 95: _t->rgb30Repremul(); break;
+        case 96: _t->metadataPassthrough(); break;
+        case 97: _t->pixelColor(); break;
+        case 98: _t->pixel(); break;
+        case 99: _t->ditherGradient_data(); break;
+        case 100: _t->ditherGradient(); break;
+        case 101: _t->reinterpretAsFormat_data(); break;
+        case 102: _t->reinterpretAsFormat(); break;
+        case 103: _t->reinterpretAsFormat2(); break;
+        case 104: _t->complexTransform8bit(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QImage::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QImage.data,
+      qt_meta_data_tst_QImage,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QImage::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QImage::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QImage.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QImage::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 105)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 105;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 105)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 105;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

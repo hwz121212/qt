@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qdeclarativemultimediaglobal", "F:/qt/Src/qtmultimedia/tests/auto/unit/qdeclarativemultimediaglobal\tst_qdeclarativemultimediaglobal.vcxproj", "{1335A001-4157-33C3-A105-E3C7D674E123}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qdeclarativeaudio", "F:/qt/Src/qtmultimedia/tests/auto/unit/qdeclarativeaudio\tst_qdeclarativeaudio.vcxproj", "{215613AE-466F-35FA-B503-E4DCB5633DB4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qdeclarativecamera", "F:/qt/Src/qtmultimedia/tests/auto/unit/qdeclarativecamera\tst_qdeclarativecamera.vcxproj", "{9E6920A7-097D-30F3-9592-AEB038F738C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1335A001-4157-33C3-A105-E3C7D674E123}.Debug|x64.ActiveCfg = Debug|x64
+		{1335A001-4157-33C3-A105-E3C7D674E123}.Debug|x64.Build.0 = Debug|x64
+		{1335A001-4157-33C3-A105-E3C7D674E123}.Release|x64.ActiveCfg = Release|x64
+		{1335A001-4157-33C3-A105-E3C7D674E123}.Release|x64.Build.0 = Release|x64
+		{215613AE-466F-35FA-B503-E4DCB5633DB4}.Debug|x64.ActiveCfg = Debug|x64
+		{215613AE-466F-35FA-B503-E4DCB5633DB4}.Debug|x64.Build.0 = Debug|x64
+		{215613AE-466F-35FA-B503-E4DCB5633DB4}.Release|x64.ActiveCfg = Release|x64
+		{215613AE-466F-35FA-B503-E4DCB5633DB4}.Release|x64.Build.0 = Release|x64
+		{9E6920A7-097D-30F3-9592-AEB038F738C4}.Debug|x64.ActiveCfg = Debug|x64
+		{9E6920A7-097D-30F3-9592-AEB038F738C4}.Debug|x64.Build.0 = Debug|x64
+		{9E6920A7-097D-30F3-9592-AEB038F738C4}.Release|x64.ActiveCfg = Release|x64
+		{9E6920A7-097D-30F3-9592-AEB038F738C4}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

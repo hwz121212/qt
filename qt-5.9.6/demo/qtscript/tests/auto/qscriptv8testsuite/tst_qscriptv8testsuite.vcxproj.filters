@@ -1,0 +1,499 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="abstracttestsuite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tst_qscriptv8testsuite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="abstracttestsuite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tests\apply.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\arguments-call-apply.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\arguments-enum.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\arguments-indirect.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\arguments-opt.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\arguments.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\array-concat.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\array-functions-prototype.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\array-indexing.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\array-iteration.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\array-join.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\array-length.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\array-sort.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\array-splice-webkit.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\array-splice.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\array_length.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\ascii-regexp-subject.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\binary-operation-overwrite.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\body-not-visible.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\call-non-function-call.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\call-non-function.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\call.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\char-escape.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\class-of-builtins.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\closure.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\compare-nan.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\const-redecl.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\const.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\cyclic-array-to-string.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\date-parse.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\date.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\declare-locally.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\deep-recursion.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\delay-syntax-error.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\delete-global-properties.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\delete-in-eval.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\delete-in-with.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\delete-vars-from-eval.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\delete.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\do-not-strip-fc.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\dont-enum-array-holes.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\dont-reinit-global-var.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\double-equals.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\dtoa.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\enumeration_order.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\escape.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\eval-typeof-non-existing.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\execScript-case-insensitive.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="expect_fail.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\extra-arguments.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\extra-commas.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\for-in-null-or-undefined.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\for-in-special-cases.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\for-in.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\fun-as-prototype.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\fun_name.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\function-arguments-null.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\function-caller.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\function-property.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\function-prototype.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\function-source.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\function.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\fuzz-accessors.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\getter-in-value-prototype.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\global-const-var-conflicts.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\global-vars-eval.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\global-vars-with.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\has-own-property.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\html-comments.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\html-string-funcs.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\if-in-undefined.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\in.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\instanceof.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\integer-to-string.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\invalid-lhs.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\keyed-ic.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\large-object-literal.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\lazy-load.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\length.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\math-min-max.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\megamorphic-callbacks.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\mjsunit.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\mul-exhaustive.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\negate-zero.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\negate.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\nested-repetition-count-overflow.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\new.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\newline-in-string.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\no-branch-elimination.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\no-octal-constants-above-256.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\no-semicolon.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\non-ascii-replace.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\nul-characters.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\number-limits.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\number-tostring.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\obj-construct.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\parse-int-float.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\property-object-key.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\proto.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\prototype.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qscriptv8testsuite.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="tests\regexp-multiline-stack-trace.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\regexp-multiline.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\regexp-standalones.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\regexp-static.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\regexp.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\scanner.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="skip.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\smi-negative-zero.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\smi-ops.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\sparse-array-reverse.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\sparse-array.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\str-to-num.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\stress-array-push.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\strict-equals.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\string-case.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\string-charat.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\string-charcodeat.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\string-flatten.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\string-index.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\string-indexof.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\string-lastindexof.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\string-localecompare.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\string-search.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\string-split.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\substr.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\this-in-callbacks.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\this.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\throw-exception-for-null-access.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\to-precision.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\tobool.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\toint32.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\touint32.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\try-finally-nested.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\try.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\try_catch_scopes.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\unicode-string-to-number.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\unicode-test.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\unusual-constructor.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\uri.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\value-callic-prototype-change.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\var.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\with-leave.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\with-parameter-access.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tests\with-value.js">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

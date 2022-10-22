@@ -1,0 +1,10 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="ContactDelegate.ui.qml">ContactDelegate.ui.qml</file>
+<file alias="ContactDialog.qml">ContactDialog.qml</file>
+<file alias="ContactForm.ui.qml">ContactForm.ui.qml</file>
+<file alias="contactlist.qml">contactlist.qml</file>
+<file alias="ContactView.ui.qml">ContactView.ui.qml</file>
+<file alias="SectionDelegate.ui.qml">SectionDelegate.ui.qml</file>
+</qresource>
+</RCC>

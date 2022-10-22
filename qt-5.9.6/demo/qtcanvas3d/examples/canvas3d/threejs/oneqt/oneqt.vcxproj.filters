@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImageCube.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="InfoSheet.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Navibutton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SwipeArea.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="textures\dataviz.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="textures\devices.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="textures\embedded.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="imagecube.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="textures\iot.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="textures\multiscreen.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="oneqt.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="oneqt.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="textures\puzzle-pieces.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="textures\qtlogo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="textures\qtlogosmall.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\three.js">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImageCube.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

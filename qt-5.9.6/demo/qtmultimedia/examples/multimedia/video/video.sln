@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qmlvideo", "F:/qt/Src/qtmultimedia/examples/multimedia/video/qmlvideo\qmlvideo.vcxproj", "{A3230A98-313D-3C93-B6FA-2C149C6DEA24}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qmlvideofx", "F:/qt/Src/qtmultimedia/examples/multimedia/video/qmlvideofx\qmlvideofx.vcxproj", "{79B49CC7-FDD6-3BF6-A1AD-3845E83092FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3230A98-313D-3C93-B6FA-2C149C6DEA24}.Debug|x64.ActiveCfg = Debug|x64
+		{A3230A98-313D-3C93-B6FA-2C149C6DEA24}.Debug|x64.Build.0 = Debug|x64
+		{A3230A98-313D-3C93-B6FA-2C149C6DEA24}.Release|x64.ActiveCfg = Release|x64
+		{A3230A98-313D-3C93-B6FA-2C149C6DEA24}.Release|x64.Build.0 = Release|x64
+		{79B49CC7-FDD6-3BF6-A1AD-3845E83092FA}.Debug|x64.ActiveCfg = Debug|x64
+		{79B49CC7-FDD6-3BF6-A1AD-3845E83092FA}.Debug|x64.Build.0 = Debug|x64
+		{79B49CC7-FDD6-3BF6-A1AD-3845E83092FA}.Release|x64.ActiveCfg = Release|x64
+		{79B49CC7-FDD6-3BF6-A1AD-3845E83092FA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

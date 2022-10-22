@@ -1,0 +1,167 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qmutex.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qmutex.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QMutex_t {
+    QByteArrayData data[15];
+    char stringdata0[256];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QMutex_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QMutex_t qt_meta_stringdata_tst_QMutex = {
+    {
+QT_MOC_LITERAL(0, 0, 10), // "tst_QMutex"
+QT_MOC_LITERAL(1, 11, 13), // "noThread_data"
+QT_MOC_LITERAL(2, 25, 0), // ""
+QT_MOC_LITERAL(3, 26, 8), // "noThread"
+QT_MOC_LITERAL(4, 35, 18), // "constructionNative"
+QT_MOC_LITERAL(5, 54, 17), // "uncontendedNative"
+QT_MOC_LITERAL(6, 72, 18), // "constructionQMutex"
+QT_MOC_LITERAL(7, 91, 17), // "uncontendedQMutex"
+QT_MOC_LITERAL(8, 109, 23), // "uncontendedQMutexLocker"
+QT_MOC_LITERAL(9, 133, 20), // "contendedNative_data"
+QT_MOC_LITERAL(10, 154, 20), // "contendedQMutex_data"
+QT_MOC_LITERAL(11, 175, 26), // "contendedQMutexLocker_data"
+QT_MOC_LITERAL(12, 202, 15), // "contendedNative"
+QT_MOC_LITERAL(13, 218, 15), // "contendedQMutex"
+QT_MOC_LITERAL(14, 234, 21) // "contendedQMutexLocker"
+
+    },
+    "tst_QMutex\0noThread_data\0\0noThread\0"
+    "constructionNative\0uncontendedNative\0"
+    "constructionQMutex\0uncontendedQMutex\0"
+    "uncontendedQMutexLocker\0contendedNative_data\0"
+    "contendedQMutex_data\0contendedQMutexLocker_data\0"
+    "contendedNative\0contendedQMutex\0"
+    "contendedQMutexLocker"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QMutex[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      13,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   79,    2, 0x08 /* Private */,
+       3,    0,   80,    2, 0x08 /* Private */,
+       4,    0,   81,    2, 0x08 /* Private */,
+       5,    0,   82,    2, 0x08 /* Private */,
+       6,    0,   83,    2, 0x08 /* Private */,
+       7,    0,   84,    2, 0x08 /* Private */,
+       8,    0,   85,    2, 0x08 /* Private */,
+       9,    0,   86,    2, 0x08 /* Private */,
+      10,    0,   87,    2, 0x08 /* Private */,
+      11,    0,   88,    2, 0x08 /* Private */,
+      12,    0,   89,    2, 0x08 /* Private */,
+      13,    0,   90,    2, 0x08 /* Private */,
+      14,    0,   91,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QMutex::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QMutex *_t = static_cast<tst_QMutex *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->noThread_data(); break;
+        case 1: _t->noThread(); break;
+        case 2: _t->constructionNative(); break;
+        case 3: _t->uncontendedNative(); break;
+        case 4: _t->constructionQMutex(); break;
+        case 5: _t->uncontendedQMutex(); break;
+        case 6: _t->uncontendedQMutexLocker(); break;
+        case 7: _t->contendedNative_data(); break;
+        case 8: _t->contendedQMutex_data(); break;
+        case 9: _t->contendedQMutexLocker_data(); break;
+        case 10: _t->contendedNative(); break;
+        case 11: _t->contendedQMutex(); break;
+        case 12: _t->contendedQMutexLocker(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QMutex::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QMutex.data,
+      qt_meta_data_tst_QMutex,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QMutex::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QMutex::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QMutex.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QMutex::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 13)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 13;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 13)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 13;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

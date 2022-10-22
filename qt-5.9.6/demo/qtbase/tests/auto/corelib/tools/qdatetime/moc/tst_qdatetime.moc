@@ -1,0 +1,486 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qdatetime.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qdatetime.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QDateTime_t {
+    QByteArrayData data[87];
+    char stringdata0[1396];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QDateTime_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QDateTime_t qt_meta_stringdata_tst_QDateTime = {
+    {
+QT_MOC_LITERAL(0, 0, 13), // "tst_QDateTime"
+QT_MOC_LITERAL(1, 14, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 27, 0), // ""
+QT_MOC_LITERAL(3, 28, 4), // "init"
+QT_MOC_LITERAL(4, 33, 4), // "ctor"
+QT_MOC_LITERAL(5, 38, 11), // "operator_eq"
+QT_MOC_LITERAL(6, 50, 6), // "isNull"
+QT_MOC_LITERAL(7, 57, 7), // "isValid"
+QT_MOC_LITERAL(8, 65, 4), // "date"
+QT_MOC_LITERAL(9, 70, 4), // "time"
+QT_MOC_LITERAL(10, 75, 8), // "timeSpec"
+QT_MOC_LITERAL(11, 84, 21), // "toSecsSinceEpoch_data"
+QT_MOC_LITERAL(12, 106, 16), // "toSecsSinceEpoch"
+QT_MOC_LITERAL(13, 123, 30), // "daylightSavingsTimeChange_data"
+QT_MOC_LITERAL(14, 154, 25), // "daylightSavingsTimeChange"
+QT_MOC_LITERAL(15, 180, 18), // "springForward_data"
+QT_MOC_LITERAL(16, 199, 13), // "springForward"
+QT_MOC_LITERAL(17, 213, 7), // "setDate"
+QT_MOC_LITERAL(18, 221, 12), // "setTime_data"
+QT_MOC_LITERAL(19, 234, 7), // "setTime"
+QT_MOC_LITERAL(20, 242, 16), // "setTimeSpec_data"
+QT_MOC_LITERAL(21, 259, 11), // "setTimeSpec"
+QT_MOC_LITERAL(22, 271, 17), // "setSecsSinceEpoch"
+QT_MOC_LITERAL(23, 289, 23), // "setMSecsSinceEpoch_data"
+QT_MOC_LITERAL(24, 313, 18), // "setMSecsSinceEpoch"
+QT_MOC_LITERAL(25, 332, 24), // "fromMSecsSinceEpoch_data"
+QT_MOC_LITERAL(26, 357, 19), // "fromMSecsSinceEpoch"
+QT_MOC_LITERAL(27, 377, 21), // "toString_isoDate_data"
+QT_MOC_LITERAL(28, 399, 16), // "toString_isoDate"
+QT_MOC_LITERAL(29, 416, 22), // "toString_isoDate_extra"
+QT_MOC_LITERAL(30, 439, 22), // "toString_textDate_data"
+QT_MOC_LITERAL(31, 462, 17), // "toString_textDate"
+QT_MOC_LITERAL(32, 480, 23), // "toString_textDate_extra"
+QT_MOC_LITERAL(33, 504, 21), // "toString_rfcDate_data"
+QT_MOC_LITERAL(34, 526, 16), // "toString_rfcDate"
+QT_MOC_LITERAL(35, 543, 19), // "toString_enumformat"
+QT_MOC_LITERAL(36, 563, 18), // "toString_strformat"
+QT_MOC_LITERAL(37, 582, 7), // "addDays"
+QT_MOC_LITERAL(38, 590, 9), // "addMonths"
+QT_MOC_LITERAL(39, 600, 14), // "addMonths_data"
+QT_MOC_LITERAL(40, 615, 8), // "addYears"
+QT_MOC_LITERAL(41, 624, 13), // "addYears_data"
+QT_MOC_LITERAL(42, 638, 12), // "addSecs_data"
+QT_MOC_LITERAL(43, 651, 7), // "addSecs"
+QT_MOC_LITERAL(44, 659, 13), // "addMSecs_data"
+QT_MOC_LITERAL(45, 673, 8), // "addMSecs"
+QT_MOC_LITERAL(46, 682, 15), // "toTimeSpec_data"
+QT_MOC_LITERAL(47, 698, 10), // "toTimeSpec"
+QT_MOC_LITERAL(48, 709, 16), // "toLocalTime_data"
+QT_MOC_LITERAL(49, 726, 11), // "toLocalTime"
+QT_MOC_LITERAL(50, 738, 10), // "toUTC_data"
+QT_MOC_LITERAL(51, 749, 5), // "toUTC"
+QT_MOC_LITERAL(52, 755, 6), // "daysTo"
+QT_MOC_LITERAL(53, 762, 11), // "secsTo_data"
+QT_MOC_LITERAL(54, 774, 6), // "secsTo"
+QT_MOC_LITERAL(55, 781, 12), // "msecsTo_data"
+QT_MOC_LITERAL(56, 794, 7), // "msecsTo"
+QT_MOC_LITERAL(57, 802, 18), // "operator_eqeq_data"
+QT_MOC_LITERAL(58, 821, 13), // "operator_eqeq"
+QT_MOC_LITERAL(59, 835, 28), // "operator_insert_extract_data"
+QT_MOC_LITERAL(60, 864, 23), // "operator_insert_extract"
+QT_MOC_LITERAL(61, 888, 15), // "currentDateTime"
+QT_MOC_LITERAL(62, 904, 18), // "currentDateTimeUtc"
+QT_MOC_LITERAL(63, 923, 19), // "currentDateTimeUtc2"
+QT_MOC_LITERAL(64, 943, 25), // "fromStringDateFormat_data"
+QT_MOC_LITERAL(65, 969, 20), // "fromStringDateFormat"
+QT_MOC_LITERAL(66, 990, 27), // "fromStringStringFormat_data"
+QT_MOC_LITERAL(67, 1018, 22), // "fromStringStringFormat"
+QT_MOC_LITERAL(68, 1041, 33), // "fromStringStringFormatLocale_..."
+QT_MOC_LITERAL(69, 1075, 28), // "fromStringStringFormatLocale"
+QT_MOC_LITERAL(70, 1104, 24), // "fromString_LOCALE_ILDATE"
+QT_MOC_LITERAL(71, 1129, 29), // "fromStringToStringLocale_data"
+QT_MOC_LITERAL(72, 1159, 24), // "fromStringToStringLocale"
+QT_MOC_LITERAL(73, 1184, 13), // "offsetFromUtc"
+QT_MOC_LITERAL(74, 1198, 16), // "setOffsetFromUtc"
+QT_MOC_LITERAL(75, 1215, 15), // "toOffsetFromUtc"
+QT_MOC_LITERAL(76, 1231, 20), // "timeZoneAbbreviation"
+QT_MOC_LITERAL(77, 1252, 7), // "getDate"
+QT_MOC_LITERAL(78, 1260, 15), // "fewDigitsInYear"
+QT_MOC_LITERAL(79, 1276, 17), // "printNegativeYear"
+QT_MOC_LITERAL(80, 1294, 21), // "roundtripGermanLocale"
+QT_MOC_LITERAL(81, 1316, 17), // "utcOffsetLessThan"
+QT_MOC_LITERAL(82, 1334, 14), // "isDaylightTime"
+QT_MOC_LITERAL(83, 1349, 19), // "daylightTransitions"
+QT_MOC_LITERAL(84, 1369, 9), // "timeZones"
+QT_MOC_LITERAL(85, 1379, 7), // "invalid"
+QT_MOC_LITERAL(86, 1387, 8) // "macTypes"
+
+    },
+    "tst_QDateTime\0initTestCase\0\0init\0ctor\0"
+    "operator_eq\0isNull\0isValid\0date\0time\0"
+    "timeSpec\0toSecsSinceEpoch_data\0"
+    "toSecsSinceEpoch\0daylightSavingsTimeChange_data\0"
+    "daylightSavingsTimeChange\0springForward_data\0"
+    "springForward\0setDate\0setTime_data\0"
+    "setTime\0setTimeSpec_data\0setTimeSpec\0"
+    "setSecsSinceEpoch\0setMSecsSinceEpoch_data\0"
+    "setMSecsSinceEpoch\0fromMSecsSinceEpoch_data\0"
+    "fromMSecsSinceEpoch\0toString_isoDate_data\0"
+    "toString_isoDate\0toString_isoDate_extra\0"
+    "toString_textDate_data\0toString_textDate\0"
+    "toString_textDate_extra\0toString_rfcDate_data\0"
+    "toString_rfcDate\0toString_enumformat\0"
+    "toString_strformat\0addDays\0addMonths\0"
+    "addMonths_data\0addYears\0addYears_data\0"
+    "addSecs_data\0addSecs\0addMSecs_data\0"
+    "addMSecs\0toTimeSpec_data\0toTimeSpec\0"
+    "toLocalTime_data\0toLocalTime\0toUTC_data\0"
+    "toUTC\0daysTo\0secsTo_data\0secsTo\0"
+    "msecsTo_data\0msecsTo\0operator_eqeq_data\0"
+    "operator_eqeq\0operator_insert_extract_data\0"
+    "operator_insert_extract\0currentDateTime\0"
+    "currentDateTimeUtc\0currentDateTimeUtc2\0"
+    "fromStringDateFormat_data\0"
+    "fromStringDateFormat\0fromStringStringFormat_data\0"
+    "fromStringStringFormat\0"
+    "fromStringStringFormatLocale_data\0"
+    "fromStringStringFormatLocale\0"
+    "fromString_LOCALE_ILDATE\0"
+    "fromStringToStringLocale_data\0"
+    "fromStringToStringLocale\0offsetFromUtc\0"
+    "setOffsetFromUtc\0toOffsetFromUtc\0"
+    "timeZoneAbbreviation\0getDate\0"
+    "fewDigitsInYear\0printNegativeYear\0"
+    "roundtripGermanLocale\0utcOffsetLessThan\0"
+    "isDaylightTime\0daylightTransitions\0"
+    "timeZones\0invalid\0macTypes"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QDateTime[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      85,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  439,    2, 0x0a /* Public */,
+       3,    0,  440,    2, 0x0a /* Public */,
+       4,    0,  441,    2, 0x08 /* Private */,
+       5,    0,  442,    2, 0x08 /* Private */,
+       6,    0,  443,    2, 0x08 /* Private */,
+       7,    0,  444,    2, 0x08 /* Private */,
+       8,    0,  445,    2, 0x08 /* Private */,
+       9,    0,  446,    2, 0x08 /* Private */,
+      10,    0,  447,    2, 0x08 /* Private */,
+      11,    0,  448,    2, 0x08 /* Private */,
+      12,    0,  449,    2, 0x08 /* Private */,
+      13,    0,  450,    2, 0x08 /* Private */,
+      14,    0,  451,    2, 0x08 /* Private */,
+      15,    0,  452,    2, 0x08 /* Private */,
+      16,    0,  453,    2, 0x08 /* Private */,
+      17,    0,  454,    2, 0x08 /* Private */,
+      18,    0,  455,    2, 0x08 /* Private */,
+      19,    0,  456,    2, 0x08 /* Private */,
+      20,    0,  457,    2, 0x08 /* Private */,
+      21,    0,  458,    2, 0x08 /* Private */,
+      22,    0,  459,    2, 0x08 /* Private */,
+      23,    0,  460,    2, 0x08 /* Private */,
+      24,    0,  461,    2, 0x08 /* Private */,
+      25,    0,  462,    2, 0x08 /* Private */,
+      26,    0,  463,    2, 0x08 /* Private */,
+      27,    0,  464,    2, 0x08 /* Private */,
+      28,    0,  465,    2, 0x08 /* Private */,
+      29,    0,  466,    2, 0x08 /* Private */,
+      30,    0,  467,    2, 0x08 /* Private */,
+      31,    0,  468,    2, 0x08 /* Private */,
+      32,    0,  469,    2, 0x08 /* Private */,
+      33,    0,  470,    2, 0x08 /* Private */,
+      34,    0,  471,    2, 0x08 /* Private */,
+      35,    0,  472,    2, 0x08 /* Private */,
+      36,    0,  473,    2, 0x08 /* Private */,
+      37,    0,  474,    2, 0x08 /* Private */,
+      38,    0,  475,    2, 0x08 /* Private */,
+      39,    0,  476,    2, 0x08 /* Private */,
+      40,    0,  477,    2, 0x08 /* Private */,
+      41,    0,  478,    2, 0x08 /* Private */,
+      42,    0,  479,    2, 0x08 /* Private */,
+      43,    0,  480,    2, 0x08 /* Private */,
+      44,    0,  481,    2, 0x08 /* Private */,
+      45,    0,  482,    2, 0x08 /* Private */,
+      46,    0,  483,    2, 0x08 /* Private */,
+      47,    0,  484,    2, 0x08 /* Private */,
+      48,    0,  485,    2, 0x08 /* Private */,
+      49,    0,  486,    2, 0x08 /* Private */,
+      50,    0,  487,    2, 0x08 /* Private */,
+      51,    0,  488,    2, 0x08 /* Private */,
+      52,    0,  489,    2, 0x08 /* Private */,
+      53,    0,  490,    2, 0x08 /* Private */,
+      54,    0,  491,    2, 0x08 /* Private */,
+      55,    0,  492,    2, 0x08 /* Private */,
+      56,    0,  493,    2, 0x08 /* Private */,
+      57,    0,  494,    2, 0x08 /* Private */,
+      58,    0,  495,    2, 0x08 /* Private */,
+      59,    0,  496,    2, 0x08 /* Private */,
+      60,    0,  497,    2, 0x08 /* Private */,
+      61,    0,  498,    2, 0x08 /* Private */,
+      62,    0,  499,    2, 0x08 /* Private */,
+      63,    0,  500,    2, 0x08 /* Private */,
+      64,    0,  501,    2, 0x08 /* Private */,
+      65,    0,  502,    2, 0x08 /* Private */,
+      66,    0,  503,    2, 0x08 /* Private */,
+      67,    0,  504,    2, 0x08 /* Private */,
+      68,    0,  505,    2, 0x08 /* Private */,
+      69,    0,  506,    2, 0x08 /* Private */,
+      70,    0,  507,    2, 0x08 /* Private */,
+      71,    0,  508,    2, 0x08 /* Private */,
+      72,    0,  509,    2, 0x08 /* Private */,
+      73,    0,  510,    2, 0x08 /* Private */,
+      74,    0,  511,    2, 0x08 /* Private */,
+      75,    0,  512,    2, 0x08 /* Private */,
+      76,    0,  513,    2, 0x08 /* Private */,
+      77,    0,  514,    2, 0x08 /* Private */,
+      78,    0,  515,    2, 0x08 /* Private */,
+      79,    0,  516,    2, 0x08 /* Private */,
+      80,    0,  517,    2, 0x08 /* Private */,
+      81,    0,  518,    2, 0x08 /* Private */,
+      82,    0,  519,    2, 0x08 /* Private */,
+      83,    0,  520,    2, 0x08 /* Private */,
+      84,    0,  521,    2, 0x08 /* Private */,
+      85,    0,  522,    2, 0x08 /* Private */,
+      86,    0,  523,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QDateTime::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QDateTime *_t = static_cast<tst_QDateTime *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->init(); break;
+        case 2: _t->ctor(); break;
+        case 3: _t->operator_eq(); break;
+        case 4: _t->isNull(); break;
+        case 5: _t->isValid(); break;
+        case 6: _t->date(); break;
+        case 7: _t->time(); break;
+        case 8: _t->timeSpec(); break;
+        case 9: _t->toSecsSinceEpoch_data(); break;
+        case 10: _t->toSecsSinceEpoch(); break;
+        case 11: _t->daylightSavingsTimeChange_data(); break;
+        case 12: _t->daylightSavingsTimeChange(); break;
+        case 13: _t->springForward_data(); break;
+        case 14: _t->springForward(); break;
+        case 15: _t->setDate(); break;
+        case 16: _t->setTime_data(); break;
+        case 17: _t->setTime(); break;
+        case 18: _t->setTimeSpec_data(); break;
+        case 19: _t->setTimeSpec(); break;
+        case 20: _t->setSecsSinceEpoch(); break;
+        case 21: _t->setMSecsSinceEpoch_data(); break;
+        case 22: _t->setMSecsSinceEpoch(); break;
+        case 23: _t->fromMSecsSinceEpoch_data(); break;
+        case 24: _t->fromMSecsSinceEpoch(); break;
+        case 25: _t->toString_isoDate_data(); break;
+        case 26: _t->toString_isoDate(); break;
+        case 27: _t->toString_isoDate_extra(); break;
+        case 28: _t->toString_textDate_data(); break;
+        case 29: _t->toString_textDate(); break;
+        case 30: _t->toString_textDate_extra(); break;
+        case 31: _t->toString_rfcDate_data(); break;
+        case 32: _t->toString_rfcDate(); break;
+        case 33: _t->toString_enumformat(); break;
+        case 34: _t->toString_strformat(); break;
+        case 35: _t->addDays(); break;
+        case 36: _t->addMonths(); break;
+        case 37: _t->addMonths_data(); break;
+        case 38: _t->addYears(); break;
+        case 39: _t->addYears_data(); break;
+        case 40: _t->addSecs_data(); break;
+        case 41: _t->addSecs(); break;
+        case 42: _t->addMSecs_data(); break;
+        case 43: _t->addMSecs(); break;
+        case 44: _t->toTimeSpec_data(); break;
+        case 45: _t->toTimeSpec(); break;
+        case 46: _t->toLocalTime_data(); break;
+        case 47: _t->toLocalTime(); break;
+        case 48: _t->toUTC_data(); break;
+        case 49: _t->toUTC(); break;
+        case 50: _t->daysTo(); break;
+        case 51: _t->secsTo_data(); break;
+        case 52: _t->secsTo(); break;
+        case 53: _t->msecsTo_data(); break;
+        case 54: _t->msecsTo(); break;
+        case 55: _t->operator_eqeq_data(); break;
+        case 56: _t->operator_eqeq(); break;
+        case 57: _t->operator_insert_extract_data(); break;
+        case 58: _t->operator_insert_extract(); break;
+        case 59: _t->currentDateTime(); break;
+        case 60: _t->currentDateTimeUtc(); break;
+        case 61: _t->currentDateTimeUtc2(); break;
+        case 62: _t->fromStringDateFormat_data(); break;
+        case 63: _t->fromStringDateFormat(); break;
+        case 64: _t->fromStringStringFormat_data(); break;
+        case 65: _t->fromStringStringFormat(); break;
+        case 66: _t->fromStringStringFormatLocale_data(); break;
+        case 67: _t->fromStringStringFormatLocale(); break;
+        case 68: _t->fromString_LOCALE_ILDATE(); break;
+        case 69: _t->fromStringToStringLocale_data(); break;
+        case 70: _t->fromStringToStringLocale(); break;
+        case 71: _t->offsetFromUtc(); break;
+        case 72: _t->setOffsetFromUtc(); break;
+        case 73: _t->toOffsetFromUtc(); break;
+        case 74: _t->timeZoneAbbreviation(); break;
+        case 75: _t->getDate(); break;
+        case 76: _t->fewDigitsInYear(); break;
+        case 77: _t->printNegativeYear(); break;
+        case 78: _t->roundtripGermanLocale(); break;
+        case 79: _t->utcOffsetLessThan(); break;
+        case 80: _t->isDaylightTime(); break;
+        case 81: _t->daylightTransitions(); break;
+        case 82: _t->timeZones(); break;
+        case 83: _t->invalid(); break;
+        case 84: _t->macTypes(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QDateTime::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QDateTime.data,
+      qt_meta_data_tst_QDateTime,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QDateTime::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QDateTime::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QDateTime.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QDateTime::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 85)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 85;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 85)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 85;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

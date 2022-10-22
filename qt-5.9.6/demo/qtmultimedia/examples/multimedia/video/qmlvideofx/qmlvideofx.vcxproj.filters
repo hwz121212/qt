@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="filereader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <QtMoc Include="..\snippets\frequencymonitor\frequencymonitor.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+    <ClCompile Include="..\snippets\frequencymonitor\frequencymonitordeclarative.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snippets\performancemonitor\performancemonitor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\snippets\performancemonitor\performancemonitordeclarative.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="filereader.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="..\snippets\frequencymonitor\frequencymonitor.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="..\snippets\performancemonitor\performancemonitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\snippets\performancemonitor\performancemonitordeclarative.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qml\qmlvideofx\Button.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\Content.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\ContentCamera.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\ContentImage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\ContentVideo.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\Curtain.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\Divider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\Dropdown_arrows.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\Effect.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectBillboard.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectBlackAndWhite.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectEmboss.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectGaussianBlur.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectGlow.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectIsolate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectMagnify.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectPageCurl.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectPassThrough.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectPixelate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectPosterize.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectRipple.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectSelectionList.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectSepia.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectSharpen.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectShockwave.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectSobelEdgeDetection1.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectTiltShift.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectToon.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectVignette.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectWarhol.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\EffectWobble.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\FileBrowser.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\FileOpen.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\snippets\frequencymonitor\qml\frequencymonitor\FrequencyItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\HintedMouseArea.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\Main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\ParameterPanel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\snippets\performancemonitor\qml\performancemonitor\PerformanceItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\qmlvideofx\Slider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\Slider_bar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\Slider_handle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\Triangle_Top.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\Triangle_bottom.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\billboard.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\blackandwhite.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\emboss.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\snippets\frequencymonitor\frequencymonitordeclarative.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="shaders\gaussianblur_h.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\gaussianblur_v.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\glow.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\icon_BackArrow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\icon_Folder.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\icon_Menu.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\isolate.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\magnify.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\pagecurl.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\snippets\performancemonitor\performancemonitordeclarative.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="shaders\pixelate.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\posterize.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qmlvideofx.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="images\qt-logo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\ripple.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\selectionpanel.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\sepia.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\sharpen.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\shockwave.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\sobeledgedetection1.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\tiltshift.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\toon.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\vignette.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\warhol.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\wobble.fsh">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

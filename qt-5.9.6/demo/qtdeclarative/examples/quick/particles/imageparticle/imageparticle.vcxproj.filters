@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\shared\Button.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\CheckBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\Label.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\LauncherList.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\SimpleLauncherDelegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\Slider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\TabSet.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\TextField.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\_explo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\allatonce.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\images\back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\backgroundLeaves.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\bear_tiles.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\candle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\images\checkmark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\colored.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\colortable.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\colortable.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\deformation.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\finalfrontier.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\flower.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="imageparticle.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="imageparticle.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="..\images.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="..\images\matchmask.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\meteor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\meteor_explo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\meteors.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\images\next.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\nullRock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\particle2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\particle3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\particleA.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\portal_bg.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\images\qt-logo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\realLeaf1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\realLeaf2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\realLeaf3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\realLeaf4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\rocket.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\rocket2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\rotation.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\..\shared\shared.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="content\sharing.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\sizeInOut.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\images\slider_handle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\snowflake.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\sparkleSize.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\sprites.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\starfish_0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\starfish_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\starfish_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\starfish_3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\starfish_4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\images\starfish_mask.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\shared\images\tab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

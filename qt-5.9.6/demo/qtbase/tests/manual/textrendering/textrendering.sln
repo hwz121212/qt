@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "glyphshaping", "F:/qt/Src/qtbase/tests/manual/textrendering/glyphshaping\glyphshaping.vcxproj", "{9AEC61A2-70EE-370E-BED4-64A2DB1BE37A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "textperformance", "F:/qt/Src/qtbase/tests/manual/textrendering/textperformance\textperformance.vcxproj", "{A7A8F149-C8AD-391E-AD90-03BF6E4BD61D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9AEC61A2-70EE-370E-BED4-64A2DB1BE37A}.Debug|x64.ActiveCfg = Debug|x64
+		{9AEC61A2-70EE-370E-BED4-64A2DB1BE37A}.Debug|x64.Build.0 = Debug|x64
+		{9AEC61A2-70EE-370E-BED4-64A2DB1BE37A}.Release|x64.ActiveCfg = Release|x64
+		{9AEC61A2-70EE-370E-BED4-64A2DB1BE37A}.Release|x64.Build.0 = Release|x64
+		{A7A8F149-C8AD-391E-AD90-03BF6E4BD61D}.Debug|x64.ActiveCfg = Debug|x64
+		{A7A8F149-C8AD-391E-AD90-03BF6E4BD61D}.Debug|x64.Build.0 = Debug|x64
+		{A7A8F149-C8AD-391E-AD90-03BF6E4BD61D}.Release|x64.ActiveCfg = Release|x64
+		{A7A8F149-C8AD-391E-AD90-03BF6E4BD61D}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

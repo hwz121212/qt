@@ -1,0 +1,241 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qatomicinteger.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qatomicinteger.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QAtomicInteger_uint_t {
+    QByteArrayData data[32];
+    char stringdata0[460];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QAtomicInteger_uint_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QAtomicInteger_uint_t qt_meta_stringdata_tst_QAtomicInteger_uint = {
+    {
+QT_MOC_LITERAL(0, 0, 23), // "tst_QAtomicInteger_uint"
+QT_MOC_LITERAL(1, 24, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 37, 0), // ""
+QT_MOC_LITERAL(3, 38, 13), // "static_checks"
+QT_MOC_LITERAL(4, 52, 16), // "constructor_data"
+QT_MOC_LITERAL(5, 69, 11), // "constructor"
+QT_MOC_LITERAL(6, 81, 9), // "copy_data"
+QT_MOC_LITERAL(7, 91, 4), // "copy"
+QT_MOC_LITERAL(8, 96, 11), // "assign_data"
+QT_MOC_LITERAL(9, 108, 6), // "assign"
+QT_MOC_LITERAL(10, 115, 20), // "operatorInteger_data"
+QT_MOC_LITERAL(11, 136, 15), // "operatorInteger"
+QT_MOC_LITERAL(12, 152, 28), // "loadAcquireStoreRelease_data"
+QT_MOC_LITERAL(13, 181, 23), // "loadAcquireStoreRelease"
+QT_MOC_LITERAL(14, 205, 13), // "refDeref_data"
+QT_MOC_LITERAL(15, 219, 8), // "refDeref"
+QT_MOC_LITERAL(16, 228, 15), // "testAndSet_data"
+QT_MOC_LITERAL(17, 244, 10), // "testAndSet"
+QT_MOC_LITERAL(18, 255, 16), // "testAndSet3_data"
+QT_MOC_LITERAL(19, 272, 11), // "testAndSet3"
+QT_MOC_LITERAL(20, 284, 18), // "fetchAndStore_data"
+QT_MOC_LITERAL(21, 303, 13), // "fetchAndStore"
+QT_MOC_LITERAL(22, 317, 16), // "fetchAndAdd_data"
+QT_MOC_LITERAL(23, 334, 11), // "fetchAndAdd"
+QT_MOC_LITERAL(24, 346, 16), // "fetchAndSub_data"
+QT_MOC_LITERAL(25, 363, 11), // "fetchAndSub"
+QT_MOC_LITERAL(26, 375, 15), // "fetchAndOr_data"
+QT_MOC_LITERAL(27, 391, 10), // "fetchAndOr"
+QT_MOC_LITERAL(28, 402, 16), // "fetchAndAnd_data"
+QT_MOC_LITERAL(29, 419, 11), // "fetchAndAnd"
+QT_MOC_LITERAL(30, 431, 16), // "fetchAndXor_data"
+QT_MOC_LITERAL(31, 448, 11) // "fetchAndXor"
+
+    },
+    "tst_QAtomicInteger_uint\0initTestCase\0"
+    "\0static_checks\0constructor_data\0"
+    "constructor\0copy_data\0copy\0assign_data\0"
+    "assign\0operatorInteger_data\0operatorInteger\0"
+    "loadAcquireStoreRelease_data\0"
+    "loadAcquireStoreRelease\0refDeref_data\0"
+    "refDeref\0testAndSet_data\0testAndSet\0"
+    "testAndSet3_data\0testAndSet3\0"
+    "fetchAndStore_data\0fetchAndStore\0"
+    "fetchAndAdd_data\0fetchAndAdd\0"
+    "fetchAndSub_data\0fetchAndSub\0"
+    "fetchAndOr_data\0fetchAndOr\0fetchAndAnd_data\0"
+    "fetchAndAnd\0fetchAndXor_data\0fetchAndXor"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QAtomicInteger_uint[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      30,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  164,    2, 0x08 /* Private */,
+       3,    0,  165,    2, 0x08 /* Private */,
+       4,    0,  166,    2, 0x08 /* Private */,
+       5,    0,  167,    2, 0x08 /* Private */,
+       6,    0,  168,    2, 0x08 /* Private */,
+       7,    0,  169,    2, 0x08 /* Private */,
+       8,    0,  170,    2, 0x08 /* Private */,
+       9,    0,  171,    2, 0x08 /* Private */,
+      10,    0,  172,    2, 0x08 /* Private */,
+      11,    0,  173,    2, 0x08 /* Private */,
+      12,    0,  174,    2, 0x08 /* Private */,
+      13,    0,  175,    2, 0x08 /* Private */,
+      14,    0,  176,    2, 0x08 /* Private */,
+      15,    0,  177,    2, 0x08 /* Private */,
+      16,    0,  178,    2, 0x08 /* Private */,
+      17,    0,  179,    2, 0x08 /* Private */,
+      18,    0,  180,    2, 0x08 /* Private */,
+      19,    0,  181,    2, 0x08 /* Private */,
+      20,    0,  182,    2, 0x08 /* Private */,
+      21,    0,  183,    2, 0x08 /* Private */,
+      22,    0,  184,    2, 0x08 /* Private */,
+      23,    0,  185,    2, 0x08 /* Private */,
+      24,    0,  186,    2, 0x08 /* Private */,
+      25,    0,  187,    2, 0x08 /* Private */,
+      26,    0,  188,    2, 0x08 /* Private */,
+      27,    0,  189,    2, 0x08 /* Private */,
+      28,    0,  190,    2, 0x08 /* Private */,
+      29,    0,  191,    2, 0x08 /* Private */,
+      30,    0,  192,    2, 0x08 /* Private */,
+      31,    0,  193,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QAtomicInteger_uint::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QAtomicInteger_uint *_t = static_cast<tst_QAtomicInteger_uint *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->static_checks(); break;
+        case 2: _t->constructor_data(); break;
+        case 3: _t->constructor(); break;
+        case 4: _t->copy_data(); break;
+        case 5: _t->copy(); break;
+        case 6: _t->assign_data(); break;
+        case 7: _t->assign(); break;
+        case 8: _t->operatorInteger_data(); break;
+        case 9: _t->operatorInteger(); break;
+        case 10: _t->loadAcquireStoreRelease_data(); break;
+        case 11: _t->loadAcquireStoreRelease(); break;
+        case 12: _t->refDeref_data(); break;
+        case 13: _t->refDeref(); break;
+        case 14: _t->testAndSet_data(); break;
+        case 15: _t->testAndSet(); break;
+        case 16: _t->testAndSet3_data(); break;
+        case 17: _t->testAndSet3(); break;
+        case 18: _t->fetchAndStore_data(); break;
+        case 19: _t->fetchAndStore(); break;
+        case 20: _t->fetchAndAdd_data(); break;
+        case 21: _t->fetchAndAdd(); break;
+        case 22: _t->fetchAndSub_data(); break;
+        case 23: _t->fetchAndSub(); break;
+        case 24: _t->fetchAndOr_data(); break;
+        case 25: _t->fetchAndOr(); break;
+        case 26: _t->fetchAndAnd_data(); break;
+        case 27: _t->fetchAndAnd(); break;
+        case 28: _t->fetchAndXor_data(); break;
+        case 29: _t->fetchAndXor(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QAtomicInteger_uint::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QAtomicInteger_uint.data,
+      qt_meta_data_tst_QAtomicInteger_uint,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QAtomicInteger_uint::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QAtomicInteger_uint::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QAtomicInteger_uint.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QAtomicInteger_uint::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 30)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 30;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 30)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 30;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

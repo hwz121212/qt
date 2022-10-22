@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\controls\ControlEventSource.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="FpsDisplay.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="InfoSheet.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PlanetButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="StyledSlider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\earth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\earthbump1k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\earthcloudmapcolortrans.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\earthmap1k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\earthspec1k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\galaxy_starfield.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\jupiter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\jupitermap.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\mars.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\marsbump1k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\marsmap1k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\mercury.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\mercurybump.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\mercurymap.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\moonbump1k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\moonmap1k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\neptune.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\neptunemap.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="planets.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="planets.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="planets.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="images\saturn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\saturnmap.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\saturnringcolortrans.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\sun.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\sunmap.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\three.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\threex.planets.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\uranus.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\uranusmap.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\uranusringcolortrans.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\venus.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\venusbump.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\venusmap.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

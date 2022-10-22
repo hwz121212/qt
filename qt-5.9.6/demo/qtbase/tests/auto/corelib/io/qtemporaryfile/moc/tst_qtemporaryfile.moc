@@ -1,0 +1,236 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qtemporaryfile.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qtemporaryfile.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QTemporaryFile_t {
+    QByteArrayData data[31];
+    char stringdata0[451];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QTemporaryFile_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QTemporaryFile_t qt_meta_stringdata_tst_QTemporaryFile = {
+    {
+QT_MOC_LITERAL(0, 0, 18), // "tst_QTemporaryFile"
+QT_MOC_LITERAL(1, 19, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 32, 0), // ""
+QT_MOC_LITERAL(3, 33, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(4, 49, 12), // "construction"
+QT_MOC_LITERAL(5, 62, 12), // "fileTemplate"
+QT_MOC_LITERAL(6, 75, 17), // "fileTemplate_data"
+QT_MOC_LITERAL(7, 93, 11), // "getSetCheck"
+QT_MOC_LITERAL(8, 105, 8), // "fileName"
+QT_MOC_LITERAL(9, 114, 15), // "fileNameIsEmpty"
+QT_MOC_LITERAL(10, 130, 10), // "autoRemove"
+QT_MOC_LITERAL(11, 141, 21), // "nonWritableCurrentDir"
+QT_MOC_LITERAL(12, 163, 5), // "write"
+QT_MOC_LITERAL(13, 169, 18), // "openCloseOpenClose"
+QT_MOC_LITERAL(14, 188, 15), // "removeAndReOpen"
+QT_MOC_LITERAL(15, 204, 4), // "size"
+QT_MOC_LITERAL(16, 209, 6), // "resize"
+QT_MOC_LITERAL(17, 216, 16), // "openOnRootDrives"
+QT_MOC_LITERAL(18, 233, 10), // "stressTest"
+QT_MOC_LITERAL(19, 244, 6), // "rename"
+QT_MOC_LITERAL(20, 251, 12), // "renameFdLeak"
+QT_MOC_LITERAL(21, 264, 18), // "reOpenThroughQFile"
+QT_MOC_LITERAL(22, 283, 12), // "keepOpenMode"
+QT_MOC_LITERAL(23, 296, 23), // "resetTemplateAfterError"
+QT_MOC_LITERAL(24, 320, 20), // "setTemplateAfterOpen"
+QT_MOC_LITERAL(25, 341, 27), // "autoRemoveAfterFailedRename"
+QT_MOC_LITERAL(26, 369, 21), // "createNativeFile_data"
+QT_MOC_LITERAL(27, 391, 16), // "createNativeFile"
+QT_MOC_LITERAL(28, 408, 15), // "QTBUG_4796_data"
+QT_MOC_LITERAL(29, 424, 10), // "QTBUG_4796"
+QT_MOC_LITERAL(30, 435, 15) // "guaranteeUnique"
+
+    },
+    "tst_QTemporaryFile\0initTestCase\0\0"
+    "cleanupTestCase\0construction\0fileTemplate\0"
+    "fileTemplate_data\0getSetCheck\0fileName\0"
+    "fileNameIsEmpty\0autoRemove\0"
+    "nonWritableCurrentDir\0write\0"
+    "openCloseOpenClose\0removeAndReOpen\0"
+    "size\0resize\0openOnRootDrives\0stressTest\0"
+    "rename\0renameFdLeak\0reOpenThroughQFile\0"
+    "keepOpenMode\0resetTemplateAfterError\0"
+    "setTemplateAfterOpen\0autoRemoveAfterFailedRename\0"
+    "createNativeFile_data\0createNativeFile\0"
+    "QTBUG_4796_data\0QTBUG_4796\0guaranteeUnique"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QTemporaryFile[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      29,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  159,    2, 0x0a /* Public */,
+       3,    0,  160,    2, 0x0a /* Public */,
+       4,    0,  161,    2, 0x08 /* Private */,
+       5,    0,  162,    2, 0x08 /* Private */,
+       6,    0,  163,    2, 0x08 /* Private */,
+       7,    0,  164,    2, 0x08 /* Private */,
+       8,    0,  165,    2, 0x08 /* Private */,
+       9,    0,  166,    2, 0x08 /* Private */,
+      10,    0,  167,    2, 0x08 /* Private */,
+      11,    0,  168,    2, 0x08 /* Private */,
+      12,    0,  169,    2, 0x08 /* Private */,
+      13,    0,  170,    2, 0x08 /* Private */,
+      14,    0,  171,    2, 0x08 /* Private */,
+      15,    0,  172,    2, 0x08 /* Private */,
+      16,    0,  173,    2, 0x08 /* Private */,
+      17,    0,  174,    2, 0x08 /* Private */,
+      18,    0,  175,    2, 0x08 /* Private */,
+      19,    0,  176,    2, 0x08 /* Private */,
+      20,    0,  177,    2, 0x08 /* Private */,
+      21,    0,  178,    2, 0x08 /* Private */,
+      22,    0,  179,    2, 0x08 /* Private */,
+      23,    0,  180,    2, 0x08 /* Private */,
+      24,    0,  181,    2, 0x08 /* Private */,
+      25,    0,  182,    2, 0x08 /* Private */,
+      26,    0,  183,    2, 0x08 /* Private */,
+      27,    0,  184,    2, 0x08 /* Private */,
+      28,    0,  185,    2, 0x08 /* Private */,
+      29,    0,  186,    2, 0x08 /* Private */,
+      30,    0,  187,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QTemporaryFile::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QTemporaryFile *_t = static_cast<tst_QTemporaryFile *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->cleanupTestCase(); break;
+        case 2: _t->construction(); break;
+        case 3: _t->fileTemplate(); break;
+        case 4: _t->fileTemplate_data(); break;
+        case 5: _t->getSetCheck(); break;
+        case 6: _t->fileName(); break;
+        case 7: _t->fileNameIsEmpty(); break;
+        case 8: _t->autoRemove(); break;
+        case 9: _t->nonWritableCurrentDir(); break;
+        case 10: _t->write(); break;
+        case 11: _t->openCloseOpenClose(); break;
+        case 12: _t->removeAndReOpen(); break;
+        case 13: _t->size(); break;
+        case 14: _t->resize(); break;
+        case 15: _t->openOnRootDrives(); break;
+        case 16: _t->stressTest(); break;
+        case 17: _t->rename(); break;
+        case 18: _t->renameFdLeak(); break;
+        case 19: _t->reOpenThroughQFile(); break;
+        case 20: _t->keepOpenMode(); break;
+        case 21: _t->resetTemplateAfterError(); break;
+        case 22: _t->setTemplateAfterOpen(); break;
+        case 23: _t->autoRemoveAfterFailedRename(); break;
+        case 24: _t->createNativeFile_data(); break;
+        case 25: _t->createNativeFile(); break;
+        case 26: _t->QTBUG_4796_data(); break;
+        case 27: _t->QTBUG_4796(); break;
+        case 28: _t->guaranteeUnique(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QTemporaryFile::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QTemporaryFile.data,
+      qt_meta_data_tst_QTemporaryFile,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QTemporaryFile::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QTemporaryFile::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QTemporaryFile.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QTemporaryFile::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 29)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 29;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 29)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 29;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

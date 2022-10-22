@@ -1,0 +1,301 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qalgorithms.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qalgorithms.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QAlgorithms_t {
+    QByteArrayData data[45];
+    char stringdata0[744];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QAlgorithms_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QAlgorithms_t qt_meta_stringdata_tst_QAlgorithms = {
+    {
+QT_MOC_LITERAL(0, 0, 15), // "tst_QAlgorithms"
+QT_MOC_LITERAL(1, 16, 21), // "test_qLowerBound_data"
+QT_MOC_LITERAL(2, 38, 0), // ""
+QT_MOC_LITERAL(3, 39, 16), // "test_qLowerBound"
+QT_MOC_LITERAL(4, 56, 21), // "test_qUpperBound_data"
+QT_MOC_LITERAL(5, 78, 16), // "test_qUpperBound"
+QT_MOC_LITERAL(6, 95, 21), // "test_qBinaryFind_data"
+QT_MOC_LITERAL(7, 117, 16), // "test_qBinaryFind"
+QT_MOC_LITERAL(8, 134, 19), // "qBinaryFindOneEntry"
+QT_MOC_LITERAL(9, 154, 4), // "swap"
+QT_MOC_LITERAL(10, 159, 5), // "swap2"
+QT_MOC_LITERAL(11, 165, 13), // "sortEmptyList"
+QT_MOC_LITERAL(12, 179, 10), // "sortedList"
+QT_MOC_LITERAL(13, 190, 11), // "sortAPItest"
+QT_MOC_LITERAL(14, 202, 14), // "stableSortTest"
+QT_MOC_LITERAL(15, 217, 30), // "stableSortCorrectnessTest_data"
+QT_MOC_LITERAL(16, 248, 25), // "stableSortCorrectnessTest"
+QT_MOC_LITERAL(17, 274, 14), // "convenienceAPI"
+QT_MOC_LITERAL(18, 289, 15), // "qCountIterators"
+QT_MOC_LITERAL(19, 305, 15), // "qCountContainer"
+QT_MOC_LITERAL(20, 321, 26), // "binaryFindOnLargeContainer"
+QT_MOC_LITERAL(21, 348, 15), // "popCount08_data"
+QT_MOC_LITERAL(22, 364, 15), // "popCount16_data"
+QT_MOC_LITERAL(23, 380, 15), // "popCount32_data"
+QT_MOC_LITERAL(24, 396, 15), // "popCount64_data"
+QT_MOC_LITERAL(25, 412, 10), // "popCount08"
+QT_MOC_LITERAL(26, 423, 10), // "popCount16"
+QT_MOC_LITERAL(27, 434, 10), // "popCount32"
+QT_MOC_LITERAL(28, 445, 10), // "popCount64"
+QT_MOC_LITERAL(29, 456, 20), // "countTrailing08_data"
+QT_MOC_LITERAL(30, 477, 20), // "countTrailing16_data"
+QT_MOC_LITERAL(31, 498, 20), // "countTrailing32_data"
+QT_MOC_LITERAL(32, 519, 20), // "countTrailing64_data"
+QT_MOC_LITERAL(33, 540, 15), // "countTrailing08"
+QT_MOC_LITERAL(34, 556, 15), // "countTrailing16"
+QT_MOC_LITERAL(35, 572, 15), // "countTrailing32"
+QT_MOC_LITERAL(36, 588, 15), // "countTrailing64"
+QT_MOC_LITERAL(37, 604, 19), // "countLeading08_data"
+QT_MOC_LITERAL(38, 624, 19), // "countLeading16_data"
+QT_MOC_LITERAL(39, 644, 19), // "countLeading32_data"
+QT_MOC_LITERAL(40, 664, 19), // "countLeading64_data"
+QT_MOC_LITERAL(41, 684, 14), // "countLeading08"
+QT_MOC_LITERAL(42, 699, 14), // "countLeading16"
+QT_MOC_LITERAL(43, 714, 14), // "countLeading32"
+QT_MOC_LITERAL(44, 729, 14) // "countLeading64"
+
+    },
+    "tst_QAlgorithms\0test_qLowerBound_data\0"
+    "\0test_qLowerBound\0test_qUpperBound_data\0"
+    "test_qUpperBound\0test_qBinaryFind_data\0"
+    "test_qBinaryFind\0qBinaryFindOneEntry\0"
+    "swap\0swap2\0sortEmptyList\0sortedList\0"
+    "sortAPItest\0stableSortTest\0"
+    "stableSortCorrectnessTest_data\0"
+    "stableSortCorrectnessTest\0convenienceAPI\0"
+    "qCountIterators\0qCountContainer\0"
+    "binaryFindOnLargeContainer\0popCount08_data\0"
+    "popCount16_data\0popCount32_data\0"
+    "popCount64_data\0popCount08\0popCount16\0"
+    "popCount32\0popCount64\0countTrailing08_data\0"
+    "countTrailing16_data\0countTrailing32_data\0"
+    "countTrailing64_data\0countTrailing08\0"
+    "countTrailing16\0countTrailing32\0"
+    "countTrailing64\0countLeading08_data\0"
+    "countLeading16_data\0countLeading32_data\0"
+    "countLeading64_data\0countLeading08\0"
+    "countLeading16\0countLeading32\0"
+    "countLeading64"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QAlgorithms[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      43,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  229,    2, 0x08 /* Private */,
+       3,    0,  230,    2, 0x08 /* Private */,
+       4,    0,  231,    2, 0x08 /* Private */,
+       5,    0,  232,    2, 0x08 /* Private */,
+       6,    0,  233,    2, 0x08 /* Private */,
+       7,    0,  234,    2, 0x08 /* Private */,
+       8,    0,  235,    2, 0x08 /* Private */,
+       9,    0,  236,    2, 0x08 /* Private */,
+      10,    0,  237,    2, 0x08 /* Private */,
+      11,    0,  238,    2, 0x08 /* Private */,
+      12,    0,  239,    2, 0x08 /* Private */,
+      13,    0,  240,    2, 0x08 /* Private */,
+      14,    0,  241,    2, 0x08 /* Private */,
+      15,    0,  242,    2, 0x08 /* Private */,
+      16,    0,  243,    2, 0x08 /* Private */,
+      17,    0,  244,    2, 0x08 /* Private */,
+      18,    0,  245,    2, 0x08 /* Private */,
+      19,    0,  246,    2, 0x08 /* Private */,
+      20,    0,  247,    2, 0x08 /* Private */,
+      21,    0,  248,    2, 0x08 /* Private */,
+      22,    0,  249,    2, 0x08 /* Private */,
+      23,    0,  250,    2, 0x08 /* Private */,
+      24,    0,  251,    2, 0x08 /* Private */,
+      25,    0,  252,    2, 0x08 /* Private */,
+      26,    0,  253,    2, 0x08 /* Private */,
+      27,    0,  254,    2, 0x08 /* Private */,
+      28,    0,  255,    2, 0x08 /* Private */,
+      29,    0,  256,    2, 0x08 /* Private */,
+      30,    0,  257,    2, 0x08 /* Private */,
+      31,    0,  258,    2, 0x08 /* Private */,
+      32,    0,  259,    2, 0x08 /* Private */,
+      33,    0,  260,    2, 0x08 /* Private */,
+      34,    0,  261,    2, 0x08 /* Private */,
+      35,    0,  262,    2, 0x08 /* Private */,
+      36,    0,  263,    2, 0x08 /* Private */,
+      37,    0,  264,    2, 0x08 /* Private */,
+      38,    0,  265,    2, 0x08 /* Private */,
+      39,    0,  266,    2, 0x08 /* Private */,
+      40,    0,  267,    2, 0x08 /* Private */,
+      41,    0,  268,    2, 0x08 /* Private */,
+      42,    0,  269,    2, 0x08 /* Private */,
+      43,    0,  270,    2, 0x08 /* Private */,
+      44,    0,  271,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QAlgorithms::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QAlgorithms *_t = static_cast<tst_QAlgorithms *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->test_qLowerBound_data(); break;
+        case 1: _t->test_qLowerBound(); break;
+        case 2: _t->test_qUpperBound_data(); break;
+        case 3: _t->test_qUpperBound(); break;
+        case 4: _t->test_qBinaryFind_data(); break;
+        case 5: _t->test_qBinaryFind(); break;
+        case 6: _t->qBinaryFindOneEntry(); break;
+        case 7: _t->swap(); break;
+        case 8: _t->swap2(); break;
+        case 9: _t->sortEmptyList(); break;
+        case 10: _t->sortedList(); break;
+        case 11: _t->sortAPItest(); break;
+        case 12: _t->stableSortTest(); break;
+        case 13: _t->stableSortCorrectnessTest_data(); break;
+        case 14: _t->stableSortCorrectnessTest(); break;
+        case 15: _t->convenienceAPI(); break;
+        case 16: _t->qCountIterators(); break;
+        case 17: _t->qCountContainer(); break;
+        case 18: _t->binaryFindOnLargeContainer(); break;
+        case 19: _t->popCount08_data(); break;
+        case 20: _t->popCount16_data(); break;
+        case 21: _t->popCount32_data(); break;
+        case 22: _t->popCount64_data(); break;
+        case 23: _t->popCount08(); break;
+        case 24: _t->popCount16(); break;
+        case 25: _t->popCount32(); break;
+        case 26: _t->popCount64(); break;
+        case 27: _t->countTrailing08_data(); break;
+        case 28: _t->countTrailing16_data(); break;
+        case 29: _t->countTrailing32_data(); break;
+        case 30: _t->countTrailing64_data(); break;
+        case 31: _t->countTrailing08(); break;
+        case 32: _t->countTrailing16(); break;
+        case 33: _t->countTrailing32(); break;
+        case 34: _t->countTrailing64(); break;
+        case 35: _t->countLeading08_data(); break;
+        case 36: _t->countLeading16_data(); break;
+        case 37: _t->countLeading32_data(); break;
+        case 38: _t->countLeading64_data(); break;
+        case 39: _t->countLeading08(); break;
+        case 40: _t->countLeading16(); break;
+        case 41: _t->countLeading32(); break;
+        case 42: _t->countLeading64(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QAlgorithms::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QAlgorithms.data,
+      qt_meta_data_tst_QAlgorithms,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QAlgorithms::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QAlgorithms::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QAlgorithms.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QAlgorithms::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 43)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 43;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 43)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 43;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

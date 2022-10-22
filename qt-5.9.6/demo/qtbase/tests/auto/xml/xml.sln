@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qdom", "F:/qt/Src/qtbase/tests/auto/xml/dom/qdom\tst_qdom.vcxproj", "{3DC827B1-7B01-379C-AF18-467CEC9D94D6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qxml", "F:/qt/Src/qtbase/tests/auto/xml/sax/qxml\tst_qxml.vcxproj", "{7BE9E809-F399-3480-B149-BD2CAE20804D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qxmlinputsource", "F:/qt/Src/qtbase/tests/auto/xml/sax/qxmlinputsource\tst_qxmlinputsource.vcxproj", "{80969EC8-A5F6-3818-A07B-41C3F1DEA876}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qxmlsimplereader", "F:/qt/Src/qtbase/tests/auto/xml/sax/qxmlsimplereader\tst_qxmlsimplereader.vcxproj", "{D18DE37C-1737-3020-A034-F88940C78A96}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DC827B1-7B01-379C-AF18-467CEC9D94D6}.Debug|x64.ActiveCfg = Debug|x64
+		{3DC827B1-7B01-379C-AF18-467CEC9D94D6}.Debug|x64.Build.0 = Debug|x64
+		{3DC827B1-7B01-379C-AF18-467CEC9D94D6}.Release|x64.ActiveCfg = Release|x64
+		{3DC827B1-7B01-379C-AF18-467CEC9D94D6}.Release|x64.Build.0 = Release|x64
+		{7BE9E809-F399-3480-B149-BD2CAE20804D}.Debug|x64.ActiveCfg = Debug|x64
+		{7BE9E809-F399-3480-B149-BD2CAE20804D}.Debug|x64.Build.0 = Debug|x64
+		{7BE9E809-F399-3480-B149-BD2CAE20804D}.Release|x64.ActiveCfg = Release|x64
+		{7BE9E809-F399-3480-B149-BD2CAE20804D}.Release|x64.Build.0 = Release|x64
+		{80969EC8-A5F6-3818-A07B-41C3F1DEA876}.Debug|x64.ActiveCfg = Debug|x64
+		{80969EC8-A5F6-3818-A07B-41C3F1DEA876}.Debug|x64.Build.0 = Debug|x64
+		{80969EC8-A5F6-3818-A07B-41C3F1DEA876}.Release|x64.ActiveCfg = Release|x64
+		{80969EC8-A5F6-3818-A07B-41C3F1DEA876}.Release|x64.Build.0 = Release|x64
+		{D18DE37C-1737-3020-A034-F88940C78A96}.Debug|x64.ActiveCfg = Debug|x64
+		{D18DE37C-1737-3020-A034-F88940C78A96}.Debug|x64.Build.0 = Debug|x64
+		{D18DE37C-1737-3020-A034-F88940C78A96}.Release|x64.ActiveCfg = Release|x64
+		{D18DE37C-1737-3020-A034-F88940C78A96}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

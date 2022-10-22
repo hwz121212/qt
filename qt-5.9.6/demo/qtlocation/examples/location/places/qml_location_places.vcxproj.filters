@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="views\CategoryDelegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="views\CategoryView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="views\EditorialDelegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="views\EditorialPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="views\EditorialView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="views\ImageView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="items\MainMenu.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="items\MapComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\Message.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\MessageForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\PlaceDetails.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\PlaceDetailsForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="views\RatingView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="views\ReviewDelegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="views\ReviewPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="views\ReviewView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="items\SearchBar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\SearchBoundingBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\SearchBoundingBoxForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\SearchBoundingCircle.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\SearchBoundingCircleForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\SearchCenter.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\SearchCenterForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\SearchOptions.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\SearchOptionsForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="views\SearchResultDelegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="views\SearchResultView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="views\SuggestionView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\categories.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="helper.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\left.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\marker.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="places.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="places.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="resources\right.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scale.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scale_end.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\search.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\star.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

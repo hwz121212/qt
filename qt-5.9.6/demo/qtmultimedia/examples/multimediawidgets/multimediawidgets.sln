@@ -1,0 +1,50 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "camera", "F:/qt/Src/qtmultimedia/examples/multimediawidgets/camera\camera.vcxproj", "{34D26ADC-7860-3AD9-8973-78A3E8E8180C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "videographicsitem", "F:/qt/Src/qtmultimedia/examples/multimediawidgets/videographicsitem\videographicsitem.vcxproj", "{EF65E1B6-37A7-38BC-A707-9C861183884B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "videowidget", "F:/qt/Src/qtmultimedia/examples/multimediawidgets/videowidget\videowidget.vcxproj", "{C435EA93-932A-3C3A-B7D2-F40B7AA8F542}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "player", "F:/qt/Src/qtmultimedia/examples/multimediawidgets/player\player.vcxproj", "{548EF23B-6B4A-3C5E-A9B0-3836BB967045}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "customvideoitem", "F:/qt/Src/qtmultimedia/examples/multimediawidgets/customvideosurface/customvideoitem\customvideoitem.vcxproj", "{4675B013-8058-3034-B43B-93A25D54622C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "customvideowidget", "F:/qt/Src/qtmultimedia/examples/multimediawidgets/customvideosurface/customvideowidget\customvideowidget.vcxproj", "{BAECCEC7-04FF-3324-ABF0-DFBCF911ABA1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34D26ADC-7860-3AD9-8973-78A3E8E8180C}.Debug|x64.ActiveCfg = Debug|x64
+		{34D26ADC-7860-3AD9-8973-78A3E8E8180C}.Debug|x64.Build.0 = Debug|x64
+		{34D26ADC-7860-3AD9-8973-78A3E8E8180C}.Release|x64.ActiveCfg = Release|x64
+		{34D26ADC-7860-3AD9-8973-78A3E8E8180C}.Release|x64.Build.0 = Release|x64
+		{EF65E1B6-37A7-38BC-A707-9C861183884B}.Debug|x64.ActiveCfg = Debug|x64
+		{EF65E1B6-37A7-38BC-A707-9C861183884B}.Debug|x64.Build.0 = Debug|x64
+		{EF65E1B6-37A7-38BC-A707-9C861183884B}.Release|x64.ActiveCfg = Release|x64
+		{EF65E1B6-37A7-38BC-A707-9C861183884B}.Release|x64.Build.0 = Release|x64
+		{C435EA93-932A-3C3A-B7D2-F40B7AA8F542}.Debug|x64.ActiveCfg = Debug|x64
+		{C435EA93-932A-3C3A-B7D2-F40B7AA8F542}.Debug|x64.Build.0 = Debug|x64
+		{C435EA93-932A-3C3A-B7D2-F40B7AA8F542}.Release|x64.ActiveCfg = Release|x64
+		{C435EA93-932A-3C3A-B7D2-F40B7AA8F542}.Release|x64.Build.0 = Release|x64
+		{548EF23B-6B4A-3C5E-A9B0-3836BB967045}.Debug|x64.ActiveCfg = Debug|x64
+		{548EF23B-6B4A-3C5E-A9B0-3836BB967045}.Debug|x64.Build.0 = Debug|x64
+		{548EF23B-6B4A-3C5E-A9B0-3836BB967045}.Release|x64.ActiveCfg = Release|x64
+		{548EF23B-6B4A-3C5E-A9B0-3836BB967045}.Release|x64.Build.0 = Release|x64
+		{4675B013-8058-3034-B43B-93A25D54622C}.Debug|x64.ActiveCfg = Debug|x64
+		{4675B013-8058-3034-B43B-93A25D54622C}.Debug|x64.Build.0 = Debug|x64
+		{4675B013-8058-3034-B43B-93A25D54622C}.Release|x64.ActiveCfg = Release|x64
+		{4675B013-8058-3034-B43B-93A25D54622C}.Release|x64.Build.0 = Release|x64
+		{BAECCEC7-04FF-3324-ABF0-DFBCF911ABA1}.Debug|x64.ActiveCfg = Debug|x64
+		{BAECCEC7-04FF-3324-ABF0-DFBCF911ABA1}.Debug|x64.Build.0 = Debug|x64
+		{BAECCEC7-04FF-3324-ABF0-DFBCF911ABA1}.Release|x64.ActiveCfg = Release|x64
+		{BAECCEC7-04FF-3324-ABF0-DFBCF911ABA1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1 @@
+$(QINSTALL) qmldir ..\..\imports\org\qtproject\AutoTestQmlPluginType.2\ChildPlugin\qmldir

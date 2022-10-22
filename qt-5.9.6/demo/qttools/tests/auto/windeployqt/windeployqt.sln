@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testapp", "F:/qt/Src/qttools/tests/auto/windeployqt/testapp\testapp.vcxproj", "{750EA012-AF32-3F99-9106-BC22B16F2FA7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_windeployqt", "F:/qt/Src/qttools/tests/auto/windeployqt/test\tst_windeployqt.vcxproj", "{92E0ED7E-C2A4-3187-B896-77EAD26E444A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{750EA012-AF32-3F99-9106-BC22B16F2FA7}.Debug|x64.ActiveCfg = Debug|x64
+		{750EA012-AF32-3F99-9106-BC22B16F2FA7}.Debug|x64.Build.0 = Debug|x64
+		{750EA012-AF32-3F99-9106-BC22B16F2FA7}.Release|x64.ActiveCfg = Release|x64
+		{750EA012-AF32-3F99-9106-BC22B16F2FA7}.Release|x64.Build.0 = Release|x64
+		{92E0ED7E-C2A4-3187-B896-77EAD26E444A}.Debug|x64.ActiveCfg = Debug|x64
+		{92E0ED7E-C2A4-3187-B896-77EAD26E444A}.Debug|x64.Build.0 = Debug|x64
+		{92E0ED7E-C2A4-3187-B896-77EAD26E444A}.Release|x64.ActiveCfg = Release|x64
+		{92E0ED7E-C2A4-3187-B896-77EAD26E444A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

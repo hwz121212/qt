@@ -1,0 +1,466 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qqmlxmlhttprequest.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qqmlxmlhttprequest.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_qqmlxmlhttprequest_t {
+    QByteArrayData data[61];
+    char stringdata0[996];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_qqmlxmlhttprequest_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_qqmlxmlhttprequest_t qt_meta_stringdata_tst_qqmlxmlhttprequest = {
+    {
+QT_MOC_LITERAL(0, 0, 22), // "tst_qqmlxmlhttprequest"
+QT_MOC_LITERAL(1, 23, 17), // "domExceptionCodes"
+QT_MOC_LITERAL(2, 41, 0), // ""
+QT_MOC_LITERAL(3, 42, 17), // "callbackException"
+QT_MOC_LITERAL(4, 60, 22), // "callbackException_data"
+QT_MOC_LITERAL(5, 83, 17), // "staticStateValues"
+QT_MOC_LITERAL(6, 101, 19), // "instanceStateValues"
+QT_MOC_LITERAL(7, 121, 11), // "constructor"
+QT_MOC_LITERAL(8, 133, 12), // "defaultState"
+QT_MOC_LITERAL(9, 146, 4), // "open"
+QT_MOC_LITERAL(10, 151, 9), // "open_data"
+QT_MOC_LITERAL(11, 161, 19), // "open_invalid_method"
+QT_MOC_LITERAL(12, 181, 9), // "open_sync"
+QT_MOC_LITERAL(13, 191, 14), // "open_arg_count"
+QT_MOC_LITERAL(14, 206, 16), // "setRequestHeader"
+QT_MOC_LITERAL(15, 223, 32), // "setRequestHeader_caseInsensitive"
+QT_MOC_LITERAL(16, 256, 23), // "setRequestHeader_unsent"
+QT_MOC_LITERAL(17, 280, 33), // "setRequestHeader_illegalName_..."
+QT_MOC_LITERAL(18, 314, 28), // "setRequestHeader_illegalName"
+QT_MOC_LITERAL(19, 343, 21), // "setRequestHeader_sent"
+QT_MOC_LITERAL(20, 365, 21), // "setRequestHeader_args"
+QT_MOC_LITERAL(21, 387, 11), // "send_unsent"
+QT_MOC_LITERAL(22, 399, 16), // "send_alreadySent"
+QT_MOC_LITERAL(23, 416, 15), // "send_ignoreData"
+QT_MOC_LITERAL(24, 432, 13), // "send_withdata"
+QT_MOC_LITERAL(25, 446, 18), // "send_withdata_data"
+QT_MOC_LITERAL(26, 465, 12), // "send_options"
+QT_MOC_LITERAL(27, 478, 17), // "send_options_data"
+QT_MOC_LITERAL(28, 496, 10), // "send_patch"
+QT_MOC_LITERAL(29, 507, 5), // "abort"
+QT_MOC_LITERAL(30, 513, 12), // "abort_unsent"
+QT_MOC_LITERAL(31, 526, 12), // "abort_opened"
+QT_MOC_LITERAL(32, 539, 17), // "getResponseHeader"
+QT_MOC_LITERAL(33, 557, 24), // "getResponseHeader_unsent"
+QT_MOC_LITERAL(34, 582, 22), // "getResponseHeader_sent"
+QT_MOC_LITERAL(35, 605, 22), // "getResponseHeader_args"
+QT_MOC_LITERAL(36, 628, 21), // "getAllResponseHeaders"
+QT_MOC_LITERAL(37, 650, 28), // "getAllResponseHeaders_unsent"
+QT_MOC_LITERAL(38, 679, 26), // "getAllResponseHeaders_sent"
+QT_MOC_LITERAL(39, 706, 26), // "getAllResponseHeaders_args"
+QT_MOC_LITERAL(40, 733, 13), // "getBinaryData"
+QT_MOC_LITERAL(41, 747, 11), // "getJsonData"
+QT_MOC_LITERAL(42, 759, 6), // "status"
+QT_MOC_LITERAL(43, 766, 11), // "status_data"
+QT_MOC_LITERAL(44, 778, 10), // "statusText"
+QT_MOC_LITERAL(45, 789, 15), // "statusText_data"
+QT_MOC_LITERAL(46, 805, 12), // "responseText"
+QT_MOC_LITERAL(47, 818, 17), // "responseText_data"
+QT_MOC_LITERAL(48, 836, 19), // "responseXML_invalid"
+QT_MOC_LITERAL(49, 856, 18), // "invalidMethodUsage"
+QT_MOC_LITERAL(50, 875, 9), // "redirects"
+QT_MOC_LITERAL(51, 885, 7), // "nonUtf8"
+QT_MOC_LITERAL(52, 893, 12), // "nonUtf8_data"
+QT_MOC_LITERAL(53, 906, 12), // "sendPropfind"
+QT_MOC_LITERAL(54, 919, 17), // "sendPropfind_data"
+QT_MOC_LITERAL(55, 937, 8), // "document"
+QT_MOC_LITERAL(56, 946, 7), // "element"
+QT_MOC_LITERAL(57, 954, 4), // "attr"
+QT_MOC_LITERAL(58, 959, 4), // "text"
+QT_MOC_LITERAL(59, 964, 5), // "cdata"
+QT_MOC_LITERAL(60, 970, 25) // "stateChangeCallingContext"
+
+    },
+    "tst_qqmlxmlhttprequest\0domExceptionCodes\0"
+    "\0callbackException\0callbackException_data\0"
+    "staticStateValues\0instanceStateValues\0"
+    "constructor\0defaultState\0open\0open_data\0"
+    "open_invalid_method\0open_sync\0"
+    "open_arg_count\0setRequestHeader\0"
+    "setRequestHeader_caseInsensitive\0"
+    "setRequestHeader_unsent\0"
+    "setRequestHeader_illegalName_data\0"
+    "setRequestHeader_illegalName\0"
+    "setRequestHeader_sent\0setRequestHeader_args\0"
+    "send_unsent\0send_alreadySent\0"
+    "send_ignoreData\0send_withdata\0"
+    "send_withdata_data\0send_options\0"
+    "send_options_data\0send_patch\0abort\0"
+    "abort_unsent\0abort_opened\0getResponseHeader\0"
+    "getResponseHeader_unsent\0"
+    "getResponseHeader_sent\0getResponseHeader_args\0"
+    "getAllResponseHeaders\0"
+    "getAllResponseHeaders_unsent\0"
+    "getAllResponseHeaders_sent\0"
+    "getAllResponseHeaders_args\0getBinaryData\0"
+    "getJsonData\0status\0status_data\0"
+    "statusText\0statusText_data\0responseText\0"
+    "responseText_data\0responseXML_invalid\0"
+    "invalidMethodUsage\0redirects\0nonUtf8\0"
+    "nonUtf8_data\0sendPropfind\0sendPropfind_data\0"
+    "document\0element\0attr\0text\0cdata\0"
+    "stateChangeCallingContext"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_qqmlxmlhttprequest[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      59,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  309,    2, 0x08 /* Private */,
+       3,    0,  310,    2, 0x08 /* Private */,
+       4,    0,  311,    2, 0x08 /* Private */,
+       5,    0,  312,    2, 0x08 /* Private */,
+       6,    0,  313,    2, 0x08 /* Private */,
+       7,    0,  314,    2, 0x08 /* Private */,
+       8,    0,  315,    2, 0x08 /* Private */,
+       9,    0,  316,    2, 0x08 /* Private */,
+      10,    0,  317,    2, 0x08 /* Private */,
+      11,    0,  318,    2, 0x08 /* Private */,
+      12,    0,  319,    2, 0x08 /* Private */,
+      13,    0,  320,    2, 0x08 /* Private */,
+      14,    0,  321,    2, 0x08 /* Private */,
+      15,    0,  322,    2, 0x08 /* Private */,
+      16,    0,  323,    2, 0x08 /* Private */,
+      17,    0,  324,    2, 0x08 /* Private */,
+      18,    0,  325,    2, 0x08 /* Private */,
+      19,    0,  326,    2, 0x08 /* Private */,
+      20,    0,  327,    2, 0x08 /* Private */,
+      21,    0,  328,    2, 0x08 /* Private */,
+      22,    0,  329,    2, 0x08 /* Private */,
+      23,    0,  330,    2, 0x08 /* Private */,
+      24,    0,  331,    2, 0x08 /* Private */,
+      25,    0,  332,    2, 0x08 /* Private */,
+      26,    0,  333,    2, 0x08 /* Private */,
+      27,    0,  334,    2, 0x08 /* Private */,
+      28,    0,  335,    2, 0x08 /* Private */,
+      29,    0,  336,    2, 0x08 /* Private */,
+      30,    0,  337,    2, 0x08 /* Private */,
+      31,    0,  338,    2, 0x08 /* Private */,
+      32,    0,  339,    2, 0x08 /* Private */,
+      33,    0,  340,    2, 0x08 /* Private */,
+      34,    0,  341,    2, 0x08 /* Private */,
+      35,    0,  342,    2, 0x08 /* Private */,
+      36,    0,  343,    2, 0x08 /* Private */,
+      37,    0,  344,    2, 0x08 /* Private */,
+      38,    0,  345,    2, 0x08 /* Private */,
+      39,    0,  346,    2, 0x08 /* Private */,
+      40,    0,  347,    2, 0x08 /* Private */,
+      41,    0,  348,    2, 0x08 /* Private */,
+      42,    0,  349,    2, 0x08 /* Private */,
+      43,    0,  350,    2, 0x08 /* Private */,
+      44,    0,  351,    2, 0x08 /* Private */,
+      45,    0,  352,    2, 0x08 /* Private */,
+      46,    0,  353,    2, 0x08 /* Private */,
+      47,    0,  354,    2, 0x08 /* Private */,
+      48,    0,  355,    2, 0x08 /* Private */,
+      49,    0,  356,    2, 0x08 /* Private */,
+      50,    0,  357,    2, 0x08 /* Private */,
+      51,    0,  358,    2, 0x08 /* Private */,
+      52,    0,  359,    2, 0x08 /* Private */,
+      53,    0,  360,    2, 0x08 /* Private */,
+      54,    0,  361,    2, 0x08 /* Private */,
+      55,    0,  362,    2, 0x08 /* Private */,
+      56,    0,  363,    2, 0x08 /* Private */,
+      57,    0,  364,    2, 0x08 /* Private */,
+      58,    0,  365,    2, 0x08 /* Private */,
+      59,    0,  366,    2, 0x08 /* Private */,
+      60,    0,  367,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_qqmlxmlhttprequest::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_qqmlxmlhttprequest *_t = static_cast<tst_qqmlxmlhttprequest *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->domExceptionCodes(); break;
+        case 1: _t->callbackException(); break;
+        case 2: _t->callbackException_data(); break;
+        case 3: _t->staticStateValues(); break;
+        case 4: _t->instanceStateValues(); break;
+        case 5: _t->constructor(); break;
+        case 6: _t->defaultState(); break;
+        case 7: _t->open(); break;
+        case 8: _t->open_data(); break;
+        case 9: _t->open_invalid_method(); break;
+        case 10: _t->open_sync(); break;
+        case 11: _t->open_arg_count(); break;
+        case 12: _t->setRequestHeader(); break;
+        case 13: _t->setRequestHeader_caseInsensitive(); break;
+        case 14: _t->setRequestHeader_unsent(); break;
+        case 15: _t->setRequestHeader_illegalName_data(); break;
+        case 16: _t->setRequestHeader_illegalName(); break;
+        case 17: _t->setRequestHeader_sent(); break;
+        case 18: _t->setRequestHeader_args(); break;
+        case 19: _t->send_unsent(); break;
+        case 20: _t->send_alreadySent(); break;
+        case 21: _t->send_ignoreData(); break;
+        case 22: _t->send_withdata(); break;
+        case 23: _t->send_withdata_data(); break;
+        case 24: _t->send_options(); break;
+        case 25: _t->send_options_data(); break;
+        case 26: _t->send_patch(); break;
+        case 27: _t->abort(); break;
+        case 28: _t->abort_unsent(); break;
+        case 29: _t->abort_opened(); break;
+        case 30: _t->getResponseHeader(); break;
+        case 31: _t->getResponseHeader_unsent(); break;
+        case 32: _t->getResponseHeader_sent(); break;
+        case 33: _t->getResponseHeader_args(); break;
+        case 34: _t->getAllResponseHeaders(); break;
+        case 35: _t->getAllResponseHeaders_unsent(); break;
+        case 36: _t->getAllResponseHeaders_sent(); break;
+        case 37: _t->getAllResponseHeaders_args(); break;
+        case 38: _t->getBinaryData(); break;
+        case 39: _t->getJsonData(); break;
+        case 40: _t->status(); break;
+        case 41: _t->status_data(); break;
+        case 42: _t->statusText(); break;
+        case 43: _t->statusText_data(); break;
+        case 44: _t->responseText(); break;
+        case 45: _t->responseText_data(); break;
+        case 46: _t->responseXML_invalid(); break;
+        case 47: _t->invalidMethodUsage(); break;
+        case 48: _t->redirects(); break;
+        case 49: _t->nonUtf8(); break;
+        case 50: _t->nonUtf8_data(); break;
+        case 51: _t->sendPropfind(); break;
+        case 52: _t->sendPropfind_data(); break;
+        case 53: _t->document(); break;
+        case 54: _t->element(); break;
+        case 55: _t->attr(); break;
+        case 56: _t->text(); break;
+        case 57: _t->cdata(); break;
+        case 58: _t->stateChangeCallingContext(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_qqmlxmlhttprequest::staticMetaObject = {
+    { &QQmlDataTest::staticMetaObject, qt_meta_stringdata_tst_qqmlxmlhttprequest.data,
+      qt_meta_data_tst_qqmlxmlhttprequest,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_qqmlxmlhttprequest::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_qqmlxmlhttprequest::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_qqmlxmlhttprequest.stringdata0))
+        return static_cast<void*>(this);
+    return QQmlDataTest::qt_metacast(_clname);
+}
+
+int tst_qqmlxmlhttprequest::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QQmlDataTest::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 59)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 59;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 59)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 59;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_TestThreadedHTTPServer_t {
+    QByteArrayData data[6];
+    char stringdata0[57];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_TestThreadedHTTPServer_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_TestThreadedHTTPServer_t qt_meta_stringdata_TestThreadedHTTPServer = {
+    {
+QT_MOC_LITERAL(0, 0, 22), // "TestThreadedHTTPServer"
+QT_MOC_LITERAL(1, 23, 5), // "start"
+QT_MOC_LITERAL(2, 29, 0), // ""
+QT_MOC_LITERAL(3, 30, 9), // "expectUrl"
+QT_MOC_LITERAL(4, 40, 8), // "replyUrl"
+QT_MOC_LITERAL(5, 49, 7) // "bodyUrl"
+
+    },
+    "TestThreadedHTTPServer\0start\0\0expectUrl\0"
+    "replyUrl\0bodyUrl"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_TestThreadedHTTPServer[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    3,   19,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::QUrl, QMetaType::QUrl, QMetaType::QUrl,    3,    4,    5,
+
+       0        // eod
+};
+
+void TestThreadedHTTPServer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        TestThreadedHTTPServer *_t = static_cast<TestThreadedHTTPServer *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->start((*reinterpret_cast< const QUrl(*)>(_a[1])),(*reinterpret_cast< const QUrl(*)>(_a[2])),(*reinterpret_cast< const QUrl(*)>(_a[3]))); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObject TestThreadedHTTPServer::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_TestThreadedHTTPServer.data,
+      qt_meta_data_TestThreadedHTTPServer,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *TestThreadedHTTPServer::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *TestThreadedHTTPServer::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_TestThreadedHTTPServer.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int TestThreadedHTTPServer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

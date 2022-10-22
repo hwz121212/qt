@@ -1,0 +1,56 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qmakelib", "F:/qt/Src/qtbase/tests/auto/tools/qmakelib\tst_qmakelib.vcxproj", "{A56F9C2B-D0AD-34F1-B35F-F1A6617E116C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qmake", "F:/qt/Src/qtbase/tests/auto/tools/qmake\tst_qmake.vcxproj", "{88BCAB31-40DA-34F0-AD46-8D1F879728BC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_uic", "F:/qt/Src/qtbase/tests/auto/tools/uic\tst_uic.vcxproj", "{E9D9B65D-2616-3741-A223-1E0AD236C9DD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_moc", "F:/qt/Src/qtbase/tests/auto/tools/moc\tst_moc.vcxproj", "{2629FE24-3860-3423-A880-637E2E9DA0D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_rcc", "F:/qt/Src/qtbase/tests/auto/tools/rcc\tst_rcc.vcxproj", "{D90C7989-6723-334C-8A84-45F8C2B0C234}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qdbuscpp2xml", "F:/qt/Src/qtbase/tests/auto/tools/qdbuscpp2xml\tst_qdbuscpp2xml.vcxproj", "{DC6957DD-16B3-3270-B884-A38305C71061}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qdbusxml2cpp", "F:/qt/Src/qtbase/tests/auto/tools/qdbusxml2cpp\tst_qdbusxml2cpp.vcxproj", "{BB193D9E-2C81-39B2-8C17-0B6E456DC3EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A56F9C2B-D0AD-34F1-B35F-F1A6617E116C}.Debug|x64.ActiveCfg = Debug|x64
+		{A56F9C2B-D0AD-34F1-B35F-F1A6617E116C}.Debug|x64.Build.0 = Debug|x64
+		{A56F9C2B-D0AD-34F1-B35F-F1A6617E116C}.Release|x64.ActiveCfg = Release|x64
+		{A56F9C2B-D0AD-34F1-B35F-F1A6617E116C}.Release|x64.Build.0 = Release|x64
+		{88BCAB31-40DA-34F0-AD46-8D1F879728BC}.Debug|x64.ActiveCfg = Debug|x64
+		{88BCAB31-40DA-34F0-AD46-8D1F879728BC}.Debug|x64.Build.0 = Debug|x64
+		{88BCAB31-40DA-34F0-AD46-8D1F879728BC}.Release|x64.ActiveCfg = Release|x64
+		{88BCAB31-40DA-34F0-AD46-8D1F879728BC}.Release|x64.Build.0 = Release|x64
+		{E9D9B65D-2616-3741-A223-1E0AD236C9DD}.Debug|x64.ActiveCfg = Debug|x64
+		{E9D9B65D-2616-3741-A223-1E0AD236C9DD}.Debug|x64.Build.0 = Debug|x64
+		{E9D9B65D-2616-3741-A223-1E0AD236C9DD}.Release|x64.ActiveCfg = Release|x64
+		{E9D9B65D-2616-3741-A223-1E0AD236C9DD}.Release|x64.Build.0 = Release|x64
+		{2629FE24-3860-3423-A880-637E2E9DA0D0}.Debug|x64.ActiveCfg = Debug|x64
+		{2629FE24-3860-3423-A880-637E2E9DA0D0}.Debug|x64.Build.0 = Debug|x64
+		{2629FE24-3860-3423-A880-637E2E9DA0D0}.Release|x64.ActiveCfg = Release|x64
+		{2629FE24-3860-3423-A880-637E2E9DA0D0}.Release|x64.Build.0 = Release|x64
+		{D90C7989-6723-334C-8A84-45F8C2B0C234}.Debug|x64.ActiveCfg = Debug|x64
+		{D90C7989-6723-334C-8A84-45F8C2B0C234}.Debug|x64.Build.0 = Debug|x64
+		{D90C7989-6723-334C-8A84-45F8C2B0C234}.Release|x64.ActiveCfg = Release|x64
+		{D90C7989-6723-334C-8A84-45F8C2B0C234}.Release|x64.Build.0 = Release|x64
+		{DC6957DD-16B3-3270-B884-A38305C71061}.Debug|x64.ActiveCfg = Debug|x64
+		{DC6957DD-16B3-3270-B884-A38305C71061}.Debug|x64.Build.0 = Debug|x64
+		{DC6957DD-16B3-3270-B884-A38305C71061}.Release|x64.ActiveCfg = Release|x64
+		{DC6957DD-16B3-3270-B884-A38305C71061}.Release|x64.Build.0 = Release|x64
+		{BB193D9E-2C81-39B2-8C17-0B6E456DC3EE}.Debug|x64.ActiveCfg = Debug|x64
+		{BB193D9E-2C81-39B2-8C17-0B6E456DC3EE}.Debug|x64.Build.0 = Debug|x64
+		{BB193D9E-2C81-39B2-8C17-0B6E456DC3EE}.Release|x64.ActiveCfg = Release|x64
+		{BB193D9E-2C81-39B2-8C17-0B6E456DC3EE}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

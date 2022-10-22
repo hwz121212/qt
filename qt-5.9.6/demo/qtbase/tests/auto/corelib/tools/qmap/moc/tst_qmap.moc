@@ -1,0 +1,234 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qmap.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qmap.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QMap_t {
+    QByteArrayData data[31];
+    char stringdata0[356];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QMap_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QMap_t qt_meta_stringdata_tst_QMap = {
+    {
+QT_MOC_LITERAL(0, 0, 8), // "tst_QMap"
+QT_MOC_LITERAL(1, 9, 4), // "init"
+QT_MOC_LITERAL(2, 14, 0), // ""
+QT_MOC_LITERAL(3, 15, 4), // "ctor"
+QT_MOC_LITERAL(4, 20, 5), // "count"
+QT_MOC_LITERAL(5, 26, 5), // "clear"
+QT_MOC_LITERAL(6, 32, 8), // "beginEnd"
+QT_MOC_LITERAL(7, 41, 9), // "firstLast"
+QT_MOC_LITERAL(8, 51, 3), // "key"
+QT_MOC_LITERAL(9, 55, 4), // "swap"
+QT_MOC_LITERAL(10, 60, 11), // "operator_eq"
+QT_MOC_LITERAL(11, 72, 5), // "empty"
+QT_MOC_LITERAL(12, 78, 8), // "contains"
+QT_MOC_LITERAL(13, 87, 4), // "find"
+QT_MOC_LITERAL(14, 92, 9), // "constFind"
+QT_MOC_LITERAL(15, 102, 15), // "lowerUpperBound"
+QT_MOC_LITERAL(16, 118, 12), // "mergeCompare"
+QT_MOC_LITERAL(17, 131, 4), // "take"
+QT_MOC_LITERAL(18, 136, 9), // "iterators"
+QT_MOC_LITERAL(19, 146, 11), // "keyIterator"
+QT_MOC_LITERAL(20, 158, 22), // "keys_values_uniqueKeys"
+QT_MOC_LITERAL(21, 181, 18), // "qmultimap_specific"
+QT_MOC_LITERAL(22, 200, 17), // "const_shared_null"
+QT_MOC_LITERAL(23, 218, 11), // "equal_range"
+QT_MOC_LITERAL(24, 230, 11), // "setSharable"
+QT_MOC_LITERAL(25, 242, 6), // "insert"
+QT_MOC_LITERAL(26, 249, 17), // "checkMostLeftNode"
+QT_MOC_LITERAL(27, 267, 15), // "initializerList"
+QT_MOC_LITERAL(28, 283, 18), // "testInsertWithHint"
+QT_MOC_LITERAL(29, 302, 23), // "testInsertMultiWithHint"
+QT_MOC_LITERAL(30, 326, 29) // "eraseValidIteratorOnSharedMap"
+
+    },
+    "tst_QMap\0init\0\0ctor\0count\0clear\0"
+    "beginEnd\0firstLast\0key\0swap\0operator_eq\0"
+    "empty\0contains\0find\0constFind\0"
+    "lowerUpperBound\0mergeCompare\0take\0"
+    "iterators\0keyIterator\0keys_values_uniqueKeys\0"
+    "qmultimap_specific\0const_shared_null\0"
+    "equal_range\0setSharable\0insert\0"
+    "checkMostLeftNode\0initializerList\0"
+    "testInsertWithHint\0testInsertMultiWithHint\0"
+    "eraseValidIteratorOnSharedMap"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QMap[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      29,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  159,    2, 0x0a /* Public */,
+       3,    0,  160,    2, 0x08 /* Private */,
+       4,    0,  161,    2, 0x08 /* Private */,
+       5,    0,  162,    2, 0x08 /* Private */,
+       6,    0,  163,    2, 0x08 /* Private */,
+       7,    0,  164,    2, 0x08 /* Private */,
+       8,    0,  165,    2, 0x08 /* Private */,
+       9,    0,  166,    2, 0x08 /* Private */,
+      10,    0,  167,    2, 0x08 /* Private */,
+      11,    0,  168,    2, 0x08 /* Private */,
+      12,    0,  169,    2, 0x08 /* Private */,
+      13,    0,  170,    2, 0x08 /* Private */,
+      14,    0,  171,    2, 0x08 /* Private */,
+      15,    0,  172,    2, 0x08 /* Private */,
+      16,    0,  173,    2, 0x08 /* Private */,
+      17,    0,  174,    2, 0x08 /* Private */,
+      18,    0,  175,    2, 0x08 /* Private */,
+      19,    0,  176,    2, 0x08 /* Private */,
+      20,    0,  177,    2, 0x08 /* Private */,
+      21,    0,  178,    2, 0x08 /* Private */,
+      22,    0,  179,    2, 0x08 /* Private */,
+      23,    0,  180,    2, 0x08 /* Private */,
+      24,    0,  181,    2, 0x08 /* Private */,
+      25,    0,  182,    2, 0x08 /* Private */,
+      26,    0,  183,    2, 0x08 /* Private */,
+      27,    0,  184,    2, 0x08 /* Private */,
+      28,    0,  185,    2, 0x08 /* Private */,
+      29,    0,  186,    2, 0x08 /* Private */,
+      30,    0,  187,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QMap::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QMap *_t = static_cast<tst_QMap *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->init(); break;
+        case 1: _t->ctor(); break;
+        case 2: _t->count(); break;
+        case 3: _t->clear(); break;
+        case 4: _t->beginEnd(); break;
+        case 5: _t->firstLast(); break;
+        case 6: _t->key(); break;
+        case 7: _t->swap(); break;
+        case 8: _t->operator_eq(); break;
+        case 9: _t->empty(); break;
+        case 10: _t->contains(); break;
+        case 11: _t->find(); break;
+        case 12: _t->constFind(); break;
+        case 13: _t->lowerUpperBound(); break;
+        case 14: _t->mergeCompare(); break;
+        case 15: _t->take(); break;
+        case 16: _t->iterators(); break;
+        case 17: _t->keyIterator(); break;
+        case 18: _t->keys_values_uniqueKeys(); break;
+        case 19: _t->qmultimap_specific(); break;
+        case 20: _t->const_shared_null(); break;
+        case 21: _t->equal_range(); break;
+        case 22: _t->setSharable(); break;
+        case 23: _t->insert(); break;
+        case 24: _t->checkMostLeftNode(); break;
+        case 25: _t->initializerList(); break;
+        case 26: _t->testInsertWithHint(); break;
+        case 27: _t->testInsertMultiWithHint(); break;
+        case 28: _t->eraseValidIteratorOnSharedMap(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QMap::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QMap.data,
+      qt_meta_data_tst_QMap,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QMap::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QMap::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QMap.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QMap::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 29)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 29;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 29)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 29;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

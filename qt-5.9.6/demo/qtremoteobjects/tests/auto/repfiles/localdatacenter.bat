@@ -1,0 +1,2 @@
+..\..\..\..\..\tool\qt-5.9.6\repc.exe localdatacenter.rep -o replica -c rep_localdatacenter_replica.h
+..\..\..\..\..\tool\qt-5.9.6\repc.exe localdatacenter.rep -o source -c rep_localdatacenter_source.h

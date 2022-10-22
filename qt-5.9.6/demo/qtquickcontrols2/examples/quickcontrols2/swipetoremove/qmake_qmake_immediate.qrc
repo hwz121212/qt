@@ -1,0 +1,6 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="swipetoremove.qml">swipetoremove.qml</file>
+<file alias="fonts/fontello.ttf">fonts/fontello.ttf</file>
+</qresource>
+</RCC>

@@ -1,0 +1,336 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'main.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'main.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_qstringbuilder_t {
+    QByteArrayData data[54];
+    char stringdata0[726];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_qstringbuilder_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_qstringbuilder_t qt_meta_stringdata_tst_qstringbuilder = {
+    {
+QT_MOC_LITERAL(0, 0, 18), // "tst_qstringbuilder"
+QT_MOC_LITERAL(1, 19, 11), // "separator_0"
+QT_MOC_LITERAL(2, 31, 0), // ""
+QT_MOC_LITERAL(3, 32, 11), // "separator_1"
+QT_MOC_LITERAL(4, 44, 13), // "b_2_l1literal"
+QT_MOC_LITERAL(5, 58, 12), // "q_2_l1string"
+QT_MOC_LITERAL(6, 71, 11), // "separator_2"
+QT_MOC_LITERAL(7, 83, 10), // "b_2_string"
+QT_MOC_LITERAL(8, 94, 10), // "q_2_string"
+QT_MOC_LITERAL(9, 105, 10), // "s_2_string"
+QT_MOC_LITERAL(10, 116, 12), // "separator_2c"
+QT_MOC_LITERAL(11, 129, 13), // "b_2_stringref"
+QT_MOC_LITERAL(12, 143, 13), // "q_2_stringref"
+QT_MOC_LITERAL(13, 157, 12), // "separator_2b"
+QT_MOC_LITERAL(14, 170, 10), // "b_3_string"
+QT_MOC_LITERAL(15, 181, 10), // "q_3_string"
+QT_MOC_LITERAL(16, 192, 10), // "s_3_string"
+QT_MOC_LITERAL(17, 203, 12), // "separator_2e"
+QT_MOC_LITERAL(18, 216, 10), // "b_4_string"
+QT_MOC_LITERAL(19, 227, 10), // "q_4_string"
+QT_MOC_LITERAL(20, 238, 10), // "s_4_string"
+QT_MOC_LITERAL(21, 249, 12), // "separator_2a"
+QT_MOC_LITERAL(22, 262, 18), // "b_string_l1literal"
+QT_MOC_LITERAL(23, 281, 17), // "b_string_l1string"
+QT_MOC_LITERAL(24, 299, 18), // "q_string_l1literal"
+QT_MOC_LITERAL(25, 318, 17), // "q_string_l1string"
+QT_MOC_LITERAL(26, 336, 16), // "s_LITERAL_string"
+QT_MOC_LITERAL(27, 353, 11), // "separator_3"
+QT_MOC_LITERAL(28, 365, 13), // "b_3_l1literal"
+QT_MOC_LITERAL(29, 379, 12), // "q_3_l1string"
+QT_MOC_LITERAL(30, 392, 12), // "s_3_l1string"
+QT_MOC_LITERAL(31, 405, 11), // "separator_4"
+QT_MOC_LITERAL(32, 417, 13), // "b_4_l1literal"
+QT_MOC_LITERAL(33, 431, 12), // "q_4_l1string"
+QT_MOC_LITERAL(34, 444, 11), // "separator_5"
+QT_MOC_LITERAL(35, 456, 13), // "b_5_l1literal"
+QT_MOC_LITERAL(36, 470, 12), // "q_5_l1string"
+QT_MOC_LITERAL(37, 483, 11), // "separator_6"
+QT_MOC_LITERAL(38, 495, 15), // "b_string_4_char"
+QT_MOC_LITERAL(39, 511, 15), // "q_string_4_char"
+QT_MOC_LITERAL(40, 527, 15), // "s_string_4_char"
+QT_MOC_LITERAL(41, 543, 11), // "separator_7"
+QT_MOC_LITERAL(42, 555, 18), // "b_char_string_char"
+QT_MOC_LITERAL(43, 574, 18), // "q_char_string_char"
+QT_MOC_LITERAL(44, 593, 18), // "s_char_string_char"
+QT_MOC_LITERAL(45, 612, 11), // "separator_8"
+QT_MOC_LITERAL(46, 624, 12), // "b_string_arg"
+QT_MOC_LITERAL(47, 637, 12), // "q_string_arg"
+QT_MOC_LITERAL(48, 650, 15), // "q_bytearray_arg"
+QT_MOC_LITERAL(49, 666, 11), // "separator_9"
+QT_MOC_LITERAL(50, 678, 9), // "b_reserve"
+QT_MOC_LITERAL(51, 688, 13), // "b_reserve_lit"
+QT_MOC_LITERAL(52, 702, 9), // "s_reserve"
+QT_MOC_LITERAL(53, 712, 13) // "s_reserve_lit"
+
+    },
+    "tst_qstringbuilder\0separator_0\0\0"
+    "separator_1\0b_2_l1literal\0q_2_l1string\0"
+    "separator_2\0b_2_string\0q_2_string\0"
+    "s_2_string\0separator_2c\0b_2_stringref\0"
+    "q_2_stringref\0separator_2b\0b_3_string\0"
+    "q_3_string\0s_3_string\0separator_2e\0"
+    "b_4_string\0q_4_string\0s_4_string\0"
+    "separator_2a\0b_string_l1literal\0"
+    "b_string_l1string\0q_string_l1literal\0"
+    "q_string_l1string\0s_LITERAL_string\0"
+    "separator_3\0b_3_l1literal\0q_3_l1string\0"
+    "s_3_l1string\0separator_4\0b_4_l1literal\0"
+    "q_4_l1string\0separator_5\0b_5_l1literal\0"
+    "q_5_l1string\0separator_6\0b_string_4_char\0"
+    "q_string_4_char\0s_string_4_char\0"
+    "separator_7\0b_char_string_char\0"
+    "q_char_string_char\0s_char_string_char\0"
+    "separator_8\0b_string_arg\0q_string_arg\0"
+    "q_bytearray_arg\0separator_9\0b_reserve\0"
+    "b_reserve_lit\0s_reserve\0s_reserve_lit"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_qstringbuilder[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      52,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  274,    2, 0x08 /* Private */,
+       3,    0,  275,    2, 0x08 /* Private */,
+       4,    0,  276,    2, 0x08 /* Private */,
+       5,    0,  277,    2, 0x08 /* Private */,
+       6,    0,  278,    2, 0x08 /* Private */,
+       7,    0,  279,    2, 0x08 /* Private */,
+       8,    0,  280,    2, 0x08 /* Private */,
+       9,    0,  281,    2, 0x08 /* Private */,
+      10,    0,  282,    2, 0x08 /* Private */,
+      11,    0,  283,    2, 0x08 /* Private */,
+      12,    0,  284,    2, 0x08 /* Private */,
+      13,    0,  285,    2, 0x08 /* Private */,
+      14,    0,  286,    2, 0x08 /* Private */,
+      15,    0,  287,    2, 0x08 /* Private */,
+      16,    0,  288,    2, 0x08 /* Private */,
+      17,    0,  289,    2, 0x08 /* Private */,
+      18,    0,  290,    2, 0x08 /* Private */,
+      19,    0,  291,    2, 0x08 /* Private */,
+      20,    0,  292,    2, 0x08 /* Private */,
+      21,    0,  293,    2, 0x08 /* Private */,
+      22,    0,  294,    2, 0x08 /* Private */,
+      23,    0,  295,    2, 0x08 /* Private */,
+      24,    0,  296,    2, 0x08 /* Private */,
+      25,    0,  297,    2, 0x08 /* Private */,
+      26,    0,  298,    2, 0x08 /* Private */,
+      27,    0,  299,    2, 0x08 /* Private */,
+      28,    0,  300,    2, 0x08 /* Private */,
+      29,    0,  301,    2, 0x08 /* Private */,
+      30,    0,  302,    2, 0x08 /* Private */,
+      31,    0,  303,    2, 0x08 /* Private */,
+      32,    0,  304,    2, 0x08 /* Private */,
+      33,    0,  305,    2, 0x08 /* Private */,
+      34,    0,  306,    2, 0x08 /* Private */,
+      35,    0,  307,    2, 0x08 /* Private */,
+      36,    0,  308,    2, 0x08 /* Private */,
+      37,    0,  309,    2, 0x08 /* Private */,
+      38,    0,  310,    2, 0x08 /* Private */,
+      39,    0,  311,    2, 0x08 /* Private */,
+      40,    0,  312,    2, 0x08 /* Private */,
+      41,    0,  313,    2, 0x08 /* Private */,
+      42,    0,  314,    2, 0x08 /* Private */,
+      43,    0,  315,    2, 0x08 /* Private */,
+      44,    0,  316,    2, 0x08 /* Private */,
+      45,    0,  317,    2, 0x08 /* Private */,
+      46,    0,  318,    2, 0x08 /* Private */,
+      47,    0,  319,    2, 0x08 /* Private */,
+      48,    0,  320,    2, 0x08 /* Private */,
+      49,    0,  321,    2, 0x08 /* Private */,
+      50,    0,  322,    2, 0x08 /* Private */,
+      51,    0,  323,    2, 0x08 /* Private */,
+      52,    0,  324,    2, 0x08 /* Private */,
+      53,    0,  325,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_qstringbuilder::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_qstringbuilder *_t = static_cast<tst_qstringbuilder *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->separator_0(); break;
+        case 1: _t->separator_1(); break;
+        case 2: _t->b_2_l1literal(); break;
+        case 3: _t->q_2_l1string(); break;
+        case 4: _t->separator_2(); break;
+        case 5: _t->b_2_string(); break;
+        case 6: _t->q_2_string(); break;
+        case 7: _t->s_2_string(); break;
+        case 8: _t->separator_2c(); break;
+        case 9: _t->b_2_stringref(); break;
+        case 10: _t->q_2_stringref(); break;
+        case 11: _t->separator_2b(); break;
+        case 12: _t->b_3_string(); break;
+        case 13: _t->q_3_string(); break;
+        case 14: _t->s_3_string(); break;
+        case 15: _t->separator_2e(); break;
+        case 16: _t->b_4_string(); break;
+        case 17: _t->q_4_string(); break;
+        case 18: _t->s_4_string(); break;
+        case 19: _t->separator_2a(); break;
+        case 20: _t->b_string_l1literal(); break;
+        case 21: _t->b_string_l1string(); break;
+        case 22: _t->q_string_l1literal(); break;
+        case 23: _t->q_string_l1string(); break;
+        case 24: _t->s_LITERAL_string(); break;
+        case 25: _t->separator_3(); break;
+        case 26: _t->b_3_l1literal(); break;
+        case 27: _t->q_3_l1string(); break;
+        case 28: _t->s_3_l1string(); break;
+        case 29: _t->separator_4(); break;
+        case 30: _t->b_4_l1literal(); break;
+        case 31: _t->q_4_l1string(); break;
+        case 32: _t->separator_5(); break;
+        case 33: _t->b_5_l1literal(); break;
+        case 34: _t->q_5_l1string(); break;
+        case 35: _t->separator_6(); break;
+        case 36: _t->b_string_4_char(); break;
+        case 37: _t->q_string_4_char(); break;
+        case 38: _t->s_string_4_char(); break;
+        case 39: _t->separator_7(); break;
+        case 40: _t->b_char_string_char(); break;
+        case 41: _t->q_char_string_char(); break;
+        case 42: _t->s_char_string_char(); break;
+        case 43: _t->separator_8(); break;
+        case 44: _t->b_string_arg(); break;
+        case 45: _t->q_string_arg(); break;
+        case 46: _t->q_bytearray_arg(); break;
+        case 47: _t->separator_9(); break;
+        case 48: _t->b_reserve(); break;
+        case 49: _t->b_reserve_lit(); break;
+        case 50: _t->s_reserve(); break;
+        case 51: _t->s_reserve_lit(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_qstringbuilder::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_qstringbuilder.data,
+      qt_meta_data_tst_qstringbuilder,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_qstringbuilder::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_qstringbuilder::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_qstringbuilder.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_qstringbuilder::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 52)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 52;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 52)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 52;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

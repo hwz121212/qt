@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsqlquerymodel", "F:/qt/Src/qtbase/tests/auto/sql/models/qsqlquerymodel\tst_qsqlquerymodel.vcxproj", "{802929CF-6494-3D9A-BD52-AC0532858790}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsqlrelationaltablemodel", "F:/qt/Src/qtbase/tests/auto/sql/models/qsqlrelationaltablemodel\tst_qsqlrelationaltablemodel.vcxproj", "{A21910F7-B6E7-3D52-86AB-9E63C30208B0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsqltablemodel", "F:/qt/Src/qtbase/tests/auto/sql/models/qsqltablemodel\tst_qsqltablemodel.vcxproj", "{6171D1E2-45D1-3A07-9D19-84DBA273FE23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{802929CF-6494-3D9A-BD52-AC0532858790}.Debug|x64.ActiveCfg = Debug|x64
+		{802929CF-6494-3D9A-BD52-AC0532858790}.Debug|x64.Build.0 = Debug|x64
+		{802929CF-6494-3D9A-BD52-AC0532858790}.Release|x64.ActiveCfg = Release|x64
+		{802929CF-6494-3D9A-BD52-AC0532858790}.Release|x64.Build.0 = Release|x64
+		{A21910F7-B6E7-3D52-86AB-9E63C30208B0}.Debug|x64.ActiveCfg = Debug|x64
+		{A21910F7-B6E7-3D52-86AB-9E63C30208B0}.Debug|x64.Build.0 = Debug|x64
+		{A21910F7-B6E7-3D52-86AB-9E63C30208B0}.Release|x64.ActiveCfg = Release|x64
+		{A21910F7-B6E7-3D52-86AB-9E63C30208B0}.Release|x64.Build.0 = Release|x64
+		{6171D1E2-45D1-3A07-9D19-84DBA273FE23}.Debug|x64.ActiveCfg = Debug|x64
+		{6171D1E2-45D1-3A07-9D19-84DBA273FE23}.Debug|x64.Build.0 = Debug|x64
+		{6171D1E2-45D1-3A07-9D19-84DBA273FE23}.Release|x64.ActiveCfg = Release|x64
+		{6171D1E2-45D1-3A07-9D19-84DBA273FE23}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

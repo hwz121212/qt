@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_dummynmeapositioninfosource", "F:/qt/Src/qtlocation/tests/auto/qnmeapositioninfosource/dummynmeapositioninfosource\tst_dummynmeapositioninfosource.vcxproj", "{C4F5580D-5EDE-325D-8E04-2492731098E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qnmeapositioninfosource_realtime", "F:/qt/Src/qtlocation/tests/auto/qnmeapositioninfosource/qnmeapositioninfosource_realtime\tst_qnmeapositioninfosource_realtime.vcxproj", "{5AD65B22-0362-3C1F-A44A-33D86CA5D761}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qnmeapositioninfosource_simulation", "F:/qt/Src/qtlocation/tests/auto/qnmeapositioninfosource/qnmeapositioninfosource_simulation\tst_qnmeapositioninfosource_simulation.vcxproj", "{215680CA-4346-3C3D-9E06-8C8C3A3E57C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qnmeapositioninfosource_realtime_generic", "F:/qt/Src/qtlocation/tests/auto/qnmeapositioninfosource/qnmeapositioninfosource_realtime_generic\tst_qnmeapositioninfosource_realtime_generic.vcxproj", "{F56E307D-749B-38A4-8998-33C540FE5379}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qnmeapositioninfosource_simulation_generic", "F:/qt/Src/qtlocation/tests/auto/qnmeapositioninfosource/qnmeapositioninfosource_simulation_generic\tst_qnmeapositioninfosource_simulation_generic.vcxproj", "{2B2D01CB-17B5-35D5-93CF-82CE6B4BEDC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C4F5580D-5EDE-325D-8E04-2492731098E0}.Debug|x64.ActiveCfg = Debug|x64
+		{C4F5580D-5EDE-325D-8E04-2492731098E0}.Debug|x64.Build.0 = Debug|x64
+		{C4F5580D-5EDE-325D-8E04-2492731098E0}.Release|x64.ActiveCfg = Release|x64
+		{C4F5580D-5EDE-325D-8E04-2492731098E0}.Release|x64.Build.0 = Release|x64
+		{5AD65B22-0362-3C1F-A44A-33D86CA5D761}.Debug|x64.ActiveCfg = Debug|x64
+		{5AD65B22-0362-3C1F-A44A-33D86CA5D761}.Debug|x64.Build.0 = Debug|x64
+		{5AD65B22-0362-3C1F-A44A-33D86CA5D761}.Release|x64.ActiveCfg = Release|x64
+		{5AD65B22-0362-3C1F-A44A-33D86CA5D761}.Release|x64.Build.0 = Release|x64
+		{215680CA-4346-3C3D-9E06-8C8C3A3E57C6}.Debug|x64.ActiveCfg = Debug|x64
+		{215680CA-4346-3C3D-9E06-8C8C3A3E57C6}.Debug|x64.Build.0 = Debug|x64
+		{215680CA-4346-3C3D-9E06-8C8C3A3E57C6}.Release|x64.ActiveCfg = Release|x64
+		{215680CA-4346-3C3D-9E06-8C8C3A3E57C6}.Release|x64.Build.0 = Release|x64
+		{F56E307D-749B-38A4-8998-33C540FE5379}.Debug|x64.ActiveCfg = Debug|x64
+		{F56E307D-749B-38A4-8998-33C540FE5379}.Debug|x64.Build.0 = Debug|x64
+		{F56E307D-749B-38A4-8998-33C540FE5379}.Release|x64.ActiveCfg = Release|x64
+		{F56E307D-749B-38A4-8998-33C540FE5379}.Release|x64.Build.0 = Release|x64
+		{2B2D01CB-17B5-35D5-93CF-82CE6B4BEDC9}.Debug|x64.ActiveCfg = Debug|x64
+		{2B2D01CB-17B5-35D5-93CF-82CE6B4BEDC9}.Debug|x64.Build.0 = Debug|x64
+		{2B2D01CB-17B5-35D5-93CF-82CE6B4BEDC9}.Release|x64.ActiveCfg = Release|x64
+		{2B2D01CB-17B5-35D5-93CF-82CE6B4BEDC9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

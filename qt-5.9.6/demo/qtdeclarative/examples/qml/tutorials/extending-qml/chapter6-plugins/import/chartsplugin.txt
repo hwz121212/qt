@@ -1,0 +1,1 @@
+$(QINSTALL) qmldir ..\Charts\qmldir

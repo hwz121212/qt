@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="backslash-newlines.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="c-comments.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="cstyle-enums.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="cxx11-enums.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="cxx11-explicit-override-control.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="cxx11-final-classes.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="cxx17-namespaces.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="dir-in-include-path.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="escapes-in-string-literals.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="forward-declared-param.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="function-with-attributes.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="gadgetwithnoenums.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="grand-parent-gadget-class.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="namespace.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="namespaced-flags.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="no-keywords.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="non-gadget-parent-class.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="oldstyle-casts.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="parse-defines.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="plugin_metadata.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="pure-virtual-signals.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qinvokable.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qprivateslots.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="qtbug-35657-gadget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="related-metaobjects-in-gadget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="related-metaobjects-in-namespaces.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="related-metaobjects-name-conflict.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="single-quote-digit-separator-n3781.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="single_function_keyword.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="slots-with-void-template.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="task189996.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="task192552.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="task234909.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="task240368.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="task87883.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="trigraphs.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClInclude Include="using-namespaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <QtMoc Include="tst_moc.h">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tst_moc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

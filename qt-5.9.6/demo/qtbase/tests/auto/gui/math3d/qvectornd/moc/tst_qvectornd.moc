@@ -1,0 +1,643 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qvectornd.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qvectornd.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QVectorND_t {
+    QByteArrayData data[97];
+    char stringdata0[1245];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QVectorND_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QVectorND_t qt_meta_stringdata_tst_QVectorND = {
+    {
+QT_MOC_LITERAL(0, 0, 13), // "tst_QVectorND"
+QT_MOC_LITERAL(1, 14, 7), // "create2"
+QT_MOC_LITERAL(2, 22, 0), // ""
+QT_MOC_LITERAL(3, 23, 7), // "create3"
+QT_MOC_LITERAL(4, 31, 7), // "create4"
+QT_MOC_LITERAL(5, 39, 7), // "modify2"
+QT_MOC_LITERAL(6, 47, 7), // "modify3"
+QT_MOC_LITERAL(7, 55, 7), // "modify4"
+QT_MOC_LITERAL(8, 63, 12), // "length2_data"
+QT_MOC_LITERAL(9, 76, 7), // "length2"
+QT_MOC_LITERAL(10, 84, 12), // "length3_data"
+QT_MOC_LITERAL(11, 97, 7), // "length3"
+QT_MOC_LITERAL(12, 105, 12), // "length4_data"
+QT_MOC_LITERAL(13, 118, 7), // "length4"
+QT_MOC_LITERAL(14, 126, 16), // "normalized2_data"
+QT_MOC_LITERAL(15, 143, 11), // "normalized2"
+QT_MOC_LITERAL(16, 155, 16), // "normalized3_data"
+QT_MOC_LITERAL(17, 172, 11), // "normalized3"
+QT_MOC_LITERAL(18, 184, 16), // "normalized4_data"
+QT_MOC_LITERAL(19, 201, 11), // "normalized4"
+QT_MOC_LITERAL(20, 213, 15), // "normalize2_data"
+QT_MOC_LITERAL(21, 229, 10), // "normalize2"
+QT_MOC_LITERAL(22, 240, 15), // "normalize3_data"
+QT_MOC_LITERAL(23, 256, 10), // "normalize3"
+QT_MOC_LITERAL(24, 267, 15), // "normalize4_data"
+QT_MOC_LITERAL(25, 283, 10), // "normalize4"
+QT_MOC_LITERAL(26, 294, 8), // "compare2"
+QT_MOC_LITERAL(27, 303, 8), // "compare3"
+QT_MOC_LITERAL(28, 312, 8), // "compare4"
+QT_MOC_LITERAL(29, 321, 9), // "add2_data"
+QT_MOC_LITERAL(30, 331, 4), // "add2"
+QT_MOC_LITERAL(31, 336, 9), // "add3_data"
+QT_MOC_LITERAL(32, 346, 4), // "add3"
+QT_MOC_LITERAL(33, 351, 9), // "add4_data"
+QT_MOC_LITERAL(34, 361, 4), // "add4"
+QT_MOC_LITERAL(35, 366, 14), // "subtract2_data"
+QT_MOC_LITERAL(36, 381, 9), // "subtract2"
+QT_MOC_LITERAL(37, 391, 14), // "subtract3_data"
+QT_MOC_LITERAL(38, 406, 9), // "subtract3"
+QT_MOC_LITERAL(39, 416, 14), // "subtract4_data"
+QT_MOC_LITERAL(40, 431, 9), // "subtract4"
+QT_MOC_LITERAL(41, 441, 14), // "multiply2_data"
+QT_MOC_LITERAL(42, 456, 9), // "multiply2"
+QT_MOC_LITERAL(43, 466, 14), // "multiply3_data"
+QT_MOC_LITERAL(44, 481, 9), // "multiply3"
+QT_MOC_LITERAL(45, 491, 14), // "multiply4_data"
+QT_MOC_LITERAL(46, 506, 9), // "multiply4"
+QT_MOC_LITERAL(47, 516, 20), // "multiplyFactor2_data"
+QT_MOC_LITERAL(48, 537, 15), // "multiplyFactor2"
+QT_MOC_LITERAL(49, 553, 20), // "multiplyFactor3_data"
+QT_MOC_LITERAL(50, 574, 15), // "multiplyFactor3"
+QT_MOC_LITERAL(51, 590, 20), // "multiplyFactor4_data"
+QT_MOC_LITERAL(52, 611, 15), // "multiplyFactor4"
+QT_MOC_LITERAL(53, 627, 12), // "divide2_data"
+QT_MOC_LITERAL(54, 640, 7), // "divide2"
+QT_MOC_LITERAL(55, 648, 12), // "divide3_data"
+QT_MOC_LITERAL(56, 661, 7), // "divide3"
+QT_MOC_LITERAL(57, 669, 12), // "divide4_data"
+QT_MOC_LITERAL(58, 682, 7), // "divide4"
+QT_MOC_LITERAL(59, 690, 18), // "divideFactor2_data"
+QT_MOC_LITERAL(60, 709, 13), // "divideFactor2"
+QT_MOC_LITERAL(61, 723, 18), // "divideFactor3_data"
+QT_MOC_LITERAL(62, 742, 13), // "divideFactor3"
+QT_MOC_LITERAL(63, 756, 18), // "divideFactor4_data"
+QT_MOC_LITERAL(64, 775, 13), // "divideFactor4"
+QT_MOC_LITERAL(65, 789, 12), // "negate2_data"
+QT_MOC_LITERAL(66, 802, 7), // "negate2"
+QT_MOC_LITERAL(67, 810, 12), // "negate3_data"
+QT_MOC_LITERAL(68, 823, 7), // "negate3"
+QT_MOC_LITERAL(69, 831, 12), // "negate4_data"
+QT_MOC_LITERAL(70, 844, 7), // "negate4"
+QT_MOC_LITERAL(71, 852, 17), // "crossProduct_data"
+QT_MOC_LITERAL(72, 870, 12), // "crossProduct"
+QT_MOC_LITERAL(73, 883, 11), // "normal_data"
+QT_MOC_LITERAL(74, 895, 6), // "normal"
+QT_MOC_LITERAL(75, 902, 21), // "distanceToPoint2_data"
+QT_MOC_LITERAL(76, 924, 16), // "distanceToPoint2"
+QT_MOC_LITERAL(77, 941, 21), // "distanceToPoint3_data"
+QT_MOC_LITERAL(78, 963, 16), // "distanceToPoint3"
+QT_MOC_LITERAL(79, 980, 20), // "distanceToPlane_data"
+QT_MOC_LITERAL(80, 1001, 15), // "distanceToPlane"
+QT_MOC_LITERAL(81, 1017, 20), // "distanceToLine2_data"
+QT_MOC_LITERAL(82, 1038, 15), // "distanceToLine2"
+QT_MOC_LITERAL(83, 1054, 20), // "distanceToLine3_data"
+QT_MOC_LITERAL(84, 1075, 15), // "distanceToLine3"
+QT_MOC_LITERAL(85, 1091, 16), // "dotProduct2_data"
+QT_MOC_LITERAL(86, 1108, 11), // "dotProduct2"
+QT_MOC_LITERAL(87, 1120, 16), // "dotProduct3_data"
+QT_MOC_LITERAL(88, 1137, 11), // "dotProduct3"
+QT_MOC_LITERAL(89, 1149, 16), // "dotProduct4_data"
+QT_MOC_LITERAL(90, 1166, 11), // "dotProduct4"
+QT_MOC_LITERAL(91, 1178, 12), // "project_data"
+QT_MOC_LITERAL(92, 1191, 7), // "project"
+QT_MOC_LITERAL(93, 1199, 14), // "unproject_data"
+QT_MOC_LITERAL(94, 1214, 9), // "unproject"
+QT_MOC_LITERAL(95, 1224, 10), // "properties"
+QT_MOC_LITERAL(96, 1235, 9) // "metaTypes"
+
+    },
+    "tst_QVectorND\0create2\0\0create3\0create4\0"
+    "modify2\0modify3\0modify4\0length2_data\0"
+    "length2\0length3_data\0length3\0length4_data\0"
+    "length4\0normalized2_data\0normalized2\0"
+    "normalized3_data\0normalized3\0"
+    "normalized4_data\0normalized4\0"
+    "normalize2_data\0normalize2\0normalize3_data\0"
+    "normalize3\0normalize4_data\0normalize4\0"
+    "compare2\0compare3\0compare4\0add2_data\0"
+    "add2\0add3_data\0add3\0add4_data\0add4\0"
+    "subtract2_data\0subtract2\0subtract3_data\0"
+    "subtract3\0subtract4_data\0subtract4\0"
+    "multiply2_data\0multiply2\0multiply3_data\0"
+    "multiply3\0multiply4_data\0multiply4\0"
+    "multiplyFactor2_data\0multiplyFactor2\0"
+    "multiplyFactor3_data\0multiplyFactor3\0"
+    "multiplyFactor4_data\0multiplyFactor4\0"
+    "divide2_data\0divide2\0divide3_data\0"
+    "divide3\0divide4_data\0divide4\0"
+    "divideFactor2_data\0divideFactor2\0"
+    "divideFactor3_data\0divideFactor3\0"
+    "divideFactor4_data\0divideFactor4\0"
+    "negate2_data\0negate2\0negate3_data\0"
+    "negate3\0negate4_data\0negate4\0"
+    "crossProduct_data\0crossProduct\0"
+    "normal_data\0normal\0distanceToPoint2_data\0"
+    "distanceToPoint2\0distanceToPoint3_data\0"
+    "distanceToPoint3\0distanceToPlane_data\0"
+    "distanceToPlane\0distanceToLine2_data\0"
+    "distanceToLine2\0distanceToLine3_data\0"
+    "distanceToLine3\0dotProduct2_data\0"
+    "dotProduct2\0dotProduct3_data\0dotProduct3\0"
+    "dotProduct4_data\0dotProduct4\0project_data\0"
+    "project\0unproject_data\0unproject\0"
+    "properties\0metaTypes"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QVectorND[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      95,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  489,    2, 0x08 /* Private */,
+       3,    0,  490,    2, 0x08 /* Private */,
+       4,    0,  491,    2, 0x08 /* Private */,
+       5,    0,  492,    2, 0x08 /* Private */,
+       6,    0,  493,    2, 0x08 /* Private */,
+       7,    0,  494,    2, 0x08 /* Private */,
+       8,    0,  495,    2, 0x08 /* Private */,
+       9,    0,  496,    2, 0x08 /* Private */,
+      10,    0,  497,    2, 0x08 /* Private */,
+      11,    0,  498,    2, 0x08 /* Private */,
+      12,    0,  499,    2, 0x08 /* Private */,
+      13,    0,  500,    2, 0x08 /* Private */,
+      14,    0,  501,    2, 0x08 /* Private */,
+      15,    0,  502,    2, 0x08 /* Private */,
+      16,    0,  503,    2, 0x08 /* Private */,
+      17,    0,  504,    2, 0x08 /* Private */,
+      18,    0,  505,    2, 0x08 /* Private */,
+      19,    0,  506,    2, 0x08 /* Private */,
+      20,    0,  507,    2, 0x08 /* Private */,
+      21,    0,  508,    2, 0x08 /* Private */,
+      22,    0,  509,    2, 0x08 /* Private */,
+      23,    0,  510,    2, 0x08 /* Private */,
+      24,    0,  511,    2, 0x08 /* Private */,
+      25,    0,  512,    2, 0x08 /* Private */,
+      26,    0,  513,    2, 0x08 /* Private */,
+      27,    0,  514,    2, 0x08 /* Private */,
+      28,    0,  515,    2, 0x08 /* Private */,
+      29,    0,  516,    2, 0x08 /* Private */,
+      30,    0,  517,    2, 0x08 /* Private */,
+      31,    0,  518,    2, 0x08 /* Private */,
+      32,    0,  519,    2, 0x08 /* Private */,
+      33,    0,  520,    2, 0x08 /* Private */,
+      34,    0,  521,    2, 0x08 /* Private */,
+      35,    0,  522,    2, 0x08 /* Private */,
+      36,    0,  523,    2, 0x08 /* Private */,
+      37,    0,  524,    2, 0x08 /* Private */,
+      38,    0,  525,    2, 0x08 /* Private */,
+      39,    0,  526,    2, 0x08 /* Private */,
+      40,    0,  527,    2, 0x08 /* Private */,
+      41,    0,  528,    2, 0x08 /* Private */,
+      42,    0,  529,    2, 0x08 /* Private */,
+      43,    0,  530,    2, 0x08 /* Private */,
+      44,    0,  531,    2, 0x08 /* Private */,
+      45,    0,  532,    2, 0x08 /* Private */,
+      46,    0,  533,    2, 0x08 /* Private */,
+      47,    0,  534,    2, 0x08 /* Private */,
+      48,    0,  535,    2, 0x08 /* Private */,
+      49,    0,  536,    2, 0x08 /* Private */,
+      50,    0,  537,    2, 0x08 /* Private */,
+      51,    0,  538,    2, 0x08 /* Private */,
+      52,    0,  539,    2, 0x08 /* Private */,
+      53,    0,  540,    2, 0x08 /* Private */,
+      54,    0,  541,    2, 0x08 /* Private */,
+      55,    0,  542,    2, 0x08 /* Private */,
+      56,    0,  543,    2, 0x08 /* Private */,
+      57,    0,  544,    2, 0x08 /* Private */,
+      58,    0,  545,    2, 0x08 /* Private */,
+      59,    0,  546,    2, 0x08 /* Private */,
+      60,    0,  547,    2, 0x08 /* Private */,
+      61,    0,  548,    2, 0x08 /* Private */,
+      62,    0,  549,    2, 0x08 /* Private */,
+      63,    0,  550,    2, 0x08 /* Private */,
+      64,    0,  551,    2, 0x08 /* Private */,
+      65,    0,  552,    2, 0x08 /* Private */,
+      66,    0,  553,    2, 0x08 /* Private */,
+      67,    0,  554,    2, 0x08 /* Private */,
+      68,    0,  555,    2, 0x08 /* Private */,
+      69,    0,  556,    2, 0x08 /* Private */,
+      70,    0,  557,    2, 0x08 /* Private */,
+      71,    0,  558,    2, 0x08 /* Private */,
+      72,    0,  559,    2, 0x08 /* Private */,
+      73,    0,  560,    2, 0x08 /* Private */,
+      74,    0,  561,    2, 0x08 /* Private */,
+      75,    0,  562,    2, 0x08 /* Private */,
+      76,    0,  563,    2, 0x08 /* Private */,
+      77,    0,  564,    2, 0x08 /* Private */,
+      78,    0,  565,    2, 0x08 /* Private */,
+      79,    0,  566,    2, 0x08 /* Private */,
+      80,    0,  567,    2, 0x08 /* Private */,
+      81,    0,  568,    2, 0x08 /* Private */,
+      82,    0,  569,    2, 0x08 /* Private */,
+      83,    0,  570,    2, 0x08 /* Private */,
+      84,    0,  571,    2, 0x08 /* Private */,
+      85,    0,  572,    2, 0x08 /* Private */,
+      86,    0,  573,    2, 0x08 /* Private */,
+      87,    0,  574,    2, 0x08 /* Private */,
+      88,    0,  575,    2, 0x08 /* Private */,
+      89,    0,  576,    2, 0x08 /* Private */,
+      90,    0,  577,    2, 0x08 /* Private */,
+      91,    0,  578,    2, 0x08 /* Private */,
+      92,    0,  579,    2, 0x08 /* Private */,
+      93,    0,  580,    2, 0x08 /* Private */,
+      94,    0,  581,    2, 0x08 /* Private */,
+      95,    0,  582,    2, 0x08 /* Private */,
+      96,    0,  583,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QVectorND::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QVectorND *_t = static_cast<tst_QVectorND *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->create2(); break;
+        case 1: _t->create3(); break;
+        case 2: _t->create4(); break;
+        case 3: _t->modify2(); break;
+        case 4: _t->modify3(); break;
+        case 5: _t->modify4(); break;
+        case 6: _t->length2_data(); break;
+        case 7: _t->length2(); break;
+        case 8: _t->length3_data(); break;
+        case 9: _t->length3(); break;
+        case 10: _t->length4_data(); break;
+        case 11: _t->length4(); break;
+        case 12: _t->normalized2_data(); break;
+        case 13: _t->normalized2(); break;
+        case 14: _t->normalized3_data(); break;
+        case 15: _t->normalized3(); break;
+        case 16: _t->normalized4_data(); break;
+        case 17: _t->normalized4(); break;
+        case 18: _t->normalize2_data(); break;
+        case 19: _t->normalize2(); break;
+        case 20: _t->normalize3_data(); break;
+        case 21: _t->normalize3(); break;
+        case 22: _t->normalize4_data(); break;
+        case 23: _t->normalize4(); break;
+        case 24: _t->compare2(); break;
+        case 25: _t->compare3(); break;
+        case 26: _t->compare4(); break;
+        case 27: _t->add2_data(); break;
+        case 28: _t->add2(); break;
+        case 29: _t->add3_data(); break;
+        case 30: _t->add3(); break;
+        case 31: _t->add4_data(); break;
+        case 32: _t->add4(); break;
+        case 33: _t->subtract2_data(); break;
+        case 34: _t->subtract2(); break;
+        case 35: _t->subtract3_data(); break;
+        case 36: _t->subtract3(); break;
+        case 37: _t->subtract4_data(); break;
+        case 38: _t->subtract4(); break;
+        case 39: _t->multiply2_data(); break;
+        case 40: _t->multiply2(); break;
+        case 41: _t->multiply3_data(); break;
+        case 42: _t->multiply3(); break;
+        case 43: _t->multiply4_data(); break;
+        case 44: _t->multiply4(); break;
+        case 45: _t->multiplyFactor2_data(); break;
+        case 46: _t->multiplyFactor2(); break;
+        case 47: _t->multiplyFactor3_data(); break;
+        case 48: _t->multiplyFactor3(); break;
+        case 49: _t->multiplyFactor4_data(); break;
+        case 50: _t->multiplyFactor4(); break;
+        case 51: _t->divide2_data(); break;
+        case 52: _t->divide2(); break;
+        case 53: _t->divide3_data(); break;
+        case 54: _t->divide3(); break;
+        case 55: _t->divide4_data(); break;
+        case 56: _t->divide4(); break;
+        case 57: _t->divideFactor2_data(); break;
+        case 58: _t->divideFactor2(); break;
+        case 59: _t->divideFactor3_data(); break;
+        case 60: _t->divideFactor3(); break;
+        case 61: _t->divideFactor4_data(); break;
+        case 62: _t->divideFactor4(); break;
+        case 63: _t->negate2_data(); break;
+        case 64: _t->negate2(); break;
+        case 65: _t->negate3_data(); break;
+        case 66: _t->negate3(); break;
+        case 67: _t->negate4_data(); break;
+        case 68: _t->negate4(); break;
+        case 69: _t->crossProduct_data(); break;
+        case 70: _t->crossProduct(); break;
+        case 71: _t->normal_data(); break;
+        case 72: _t->normal(); break;
+        case 73: _t->distanceToPoint2_data(); break;
+        case 74: _t->distanceToPoint2(); break;
+        case 75: _t->distanceToPoint3_data(); break;
+        case 76: _t->distanceToPoint3(); break;
+        case 77: _t->distanceToPlane_data(); break;
+        case 78: _t->distanceToPlane(); break;
+        case 79: _t->distanceToLine2_data(); break;
+        case 80: _t->distanceToLine2(); break;
+        case 81: _t->distanceToLine3_data(); break;
+        case 82: _t->distanceToLine3(); break;
+        case 83: _t->dotProduct2_data(); break;
+        case 84: _t->dotProduct2(); break;
+        case 85: _t->dotProduct3_data(); break;
+        case 86: _t->dotProduct3(); break;
+        case 87: _t->dotProduct4_data(); break;
+        case 88: _t->dotProduct4(); break;
+        case 89: _t->project_data(); break;
+        case 90: _t->project(); break;
+        case 91: _t->unproject_data(); break;
+        case 92: _t->unproject(); break;
+        case 93: _t->properties(); break;
+        case 94: _t->metaTypes(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QVectorND::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QVectorND.data,
+      qt_meta_data_tst_QVectorND,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QVectorND::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QVectorND::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QVectorND.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QVectorND::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 95)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 95;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 95)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 95;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_tst_QVectorNDProperties_t {
+    QByteArrayData data[4];
+    char stringdata0[51];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QVectorNDProperties_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QVectorNDProperties_t qt_meta_stringdata_tst_QVectorNDProperties = {
+    {
+QT_MOC_LITERAL(0, 0, 23), // "tst_QVectorNDProperties"
+QT_MOC_LITERAL(1, 24, 8), // "vector2D"
+QT_MOC_LITERAL(2, 33, 8), // "vector3D"
+QT_MOC_LITERAL(3, 42, 8) // "vector4D"
+
+    },
+    "tst_QVectorNDProperties\0vector2D\0"
+    "vector3D\0vector4D"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QVectorNDProperties[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       3,   14, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // properties: name, type, flags
+       1, QMetaType::QVector2D, 0x00095103,
+       2, QMetaType::QVector3D, 0x00095103,
+       3, QMetaType::QVector4D, 0x00095103,
+
+       0        // eod
+};
+
+void tst_QVectorNDProperties::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+
+#ifndef QT_NO_PROPERTIES
+    if (_c == QMetaObject::ReadProperty) {
+        tst_QVectorNDProperties *_t = static_cast<tst_QVectorNDProperties *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< QVector2D*>(_v) = _t->vector2D(); break;
+        case 1: *reinterpret_cast< QVector3D*>(_v) = _t->vector3D(); break;
+        case 2: *reinterpret_cast< QVector4D*>(_v) = _t->vector4D(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        tst_QVectorNDProperties *_t = static_cast<tst_QVectorNDProperties *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setVector2D(*reinterpret_cast< QVector2D*>(_v)); break;
+        case 1: _t->setVector3D(*reinterpret_cast< QVector3D*>(_v)); break;
+        case 2: _t->setVector4D(*reinterpret_cast< QVector4D*>(_v)); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QVectorNDProperties::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QVectorNDProperties.data,
+      qt_meta_data_tst_QVectorNDProperties,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QVectorNDProperties::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QVectorNDProperties::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QVectorNDProperties.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QVectorNDProperties::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    
+#ifndef QT_NO_PROPERTIES
+   if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 3;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 3;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 3;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 3;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 3;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 3;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

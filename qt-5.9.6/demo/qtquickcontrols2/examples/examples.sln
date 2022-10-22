@@ -1,0 +1,91 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gallery", "quickcontrols2\gallery\gallery.vcxproj", "{3710BF42-86B8-3902-8B61-D487DD17EE84}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter1-settingup", "quickcontrols2\chattutorial\chapter1-settingup\chapter1-settingup.vcxproj", "{564C6D96-D674-3045-B877-2578FAEF48EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter2-lists", "quickcontrols2\chattutorial\chapter2-lists\chapter2-lists.vcxproj", "{A8DC695C-9383-3762-968B-F0518710DE00}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter3-navigation", "quickcontrols2\chattutorial\chapter3-navigation\chapter3-navigation.vcxproj", "{1A8BFC6B-2000-3D06-BE40-70440FA765DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter4-models", "quickcontrols2\chattutorial\chapter4-models\chapter4-models.vcxproj", "{C84E7354-1955-374D-BFB7-CA28B6180D45}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chapter5-styling", "quickcontrols2\chattutorial\chapter5-styling\chapter5-styling.vcxproj", "{D3BCD44C-B0FB-332C-B512-337714526CC7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "texteditor", "quickcontrols2\texteditor\texteditor.vcxproj", "{CE092AEE-C342-3B5E-9FB5-3355FC13DD29}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "contactlist", "quickcontrols2\contactlist\contactlist.vcxproj", "{3AAD010D-B070-3E0C-AEAC-4C6C2DDE6857}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sidepanel", "quickcontrols2\sidepanel\sidepanel.vcxproj", "{AFA50B52-B513-3980-B9AD-331E599D492F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "swipetoremove", "quickcontrols2\swipetoremove\swipetoremove.vcxproj", "{E4410B1D-9BC7-3838-9A24-B1737BDC676F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wearable", "quickcontrols2\wearable\wearable.vcxproj", "{B853661B-E359-334C-83B9-B6ED83F75C7F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "flatstyle", "quickcontrols2\flatstyle\flatstyle.vcxproj", "{38168C64-95CC-3F70-B47F-29B2AD81FFE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3710BF42-86B8-3902-8B61-D487DD17EE84}.Debug|x64.ActiveCfg = Debug|x64
+		{3710BF42-86B8-3902-8B61-D487DD17EE84}.Debug|x64.Build.0 = Debug|x64
+		{3710BF42-86B8-3902-8B61-D487DD17EE84}.Release|x64.ActiveCfg = Release|x64
+		{3710BF42-86B8-3902-8B61-D487DD17EE84}.Release|x64.Build.0 = Release|x64
+		{564C6D96-D674-3045-B877-2578FAEF48EA}.Debug|x64.ActiveCfg = Debug|x64
+		{564C6D96-D674-3045-B877-2578FAEF48EA}.Debug|x64.Build.0 = Debug|x64
+		{564C6D96-D674-3045-B877-2578FAEF48EA}.Release|x64.ActiveCfg = Release|x64
+		{564C6D96-D674-3045-B877-2578FAEF48EA}.Release|x64.Build.0 = Release|x64
+		{A8DC695C-9383-3762-968B-F0518710DE00}.Debug|x64.ActiveCfg = Debug|x64
+		{A8DC695C-9383-3762-968B-F0518710DE00}.Debug|x64.Build.0 = Debug|x64
+		{A8DC695C-9383-3762-968B-F0518710DE00}.Release|x64.ActiveCfg = Release|x64
+		{A8DC695C-9383-3762-968B-F0518710DE00}.Release|x64.Build.0 = Release|x64
+		{1A8BFC6B-2000-3D06-BE40-70440FA765DE}.Debug|x64.ActiveCfg = Debug|x64
+		{1A8BFC6B-2000-3D06-BE40-70440FA765DE}.Debug|x64.Build.0 = Debug|x64
+		{1A8BFC6B-2000-3D06-BE40-70440FA765DE}.Release|x64.ActiveCfg = Release|x64
+		{1A8BFC6B-2000-3D06-BE40-70440FA765DE}.Release|x64.Build.0 = Release|x64
+		{C84E7354-1955-374D-BFB7-CA28B6180D45}.Debug|x64.ActiveCfg = Debug|x64
+		{C84E7354-1955-374D-BFB7-CA28B6180D45}.Debug|x64.Build.0 = Debug|x64
+		{C84E7354-1955-374D-BFB7-CA28B6180D45}.Release|x64.ActiveCfg = Release|x64
+		{C84E7354-1955-374D-BFB7-CA28B6180D45}.Release|x64.Build.0 = Release|x64
+		{D3BCD44C-B0FB-332C-B512-337714526CC7}.Debug|x64.ActiveCfg = Debug|x64
+		{D3BCD44C-B0FB-332C-B512-337714526CC7}.Debug|x64.Build.0 = Debug|x64
+		{D3BCD44C-B0FB-332C-B512-337714526CC7}.Release|x64.ActiveCfg = Release|x64
+		{D3BCD44C-B0FB-332C-B512-337714526CC7}.Release|x64.Build.0 = Release|x64
+		{CE092AEE-C342-3B5E-9FB5-3355FC13DD29}.Debug|x64.ActiveCfg = Debug|x64
+		{CE092AEE-C342-3B5E-9FB5-3355FC13DD29}.Debug|x64.Build.0 = Debug|x64
+		{CE092AEE-C342-3B5E-9FB5-3355FC13DD29}.Release|x64.ActiveCfg = Release|x64
+		{CE092AEE-C342-3B5E-9FB5-3355FC13DD29}.Release|x64.Build.0 = Release|x64
+		{3AAD010D-B070-3E0C-AEAC-4C6C2DDE6857}.Debug|x64.ActiveCfg = Debug|x64
+		{3AAD010D-B070-3E0C-AEAC-4C6C2DDE6857}.Debug|x64.Build.0 = Debug|x64
+		{3AAD010D-B070-3E0C-AEAC-4C6C2DDE6857}.Release|x64.ActiveCfg = Release|x64
+		{3AAD010D-B070-3E0C-AEAC-4C6C2DDE6857}.Release|x64.Build.0 = Release|x64
+		{AFA50B52-B513-3980-B9AD-331E599D492F}.Debug|x64.ActiveCfg = Debug|x64
+		{AFA50B52-B513-3980-B9AD-331E599D492F}.Debug|x64.Build.0 = Debug|x64
+		{AFA50B52-B513-3980-B9AD-331E599D492F}.Release|x64.ActiveCfg = Release|x64
+		{AFA50B52-B513-3980-B9AD-331E599D492F}.Release|x64.Build.0 = Release|x64
+		{E4410B1D-9BC7-3838-9A24-B1737BDC676F}.Debug|x64.ActiveCfg = Debug|x64
+		{E4410B1D-9BC7-3838-9A24-B1737BDC676F}.Debug|x64.Build.0 = Debug|x64
+		{E4410B1D-9BC7-3838-9A24-B1737BDC676F}.Release|x64.ActiveCfg = Release|x64
+		{E4410B1D-9BC7-3838-9A24-B1737BDC676F}.Release|x64.Build.0 = Release|x64
+		{B853661B-E359-334C-83B9-B6ED83F75C7F}.Debug|x64.ActiveCfg = Debug|x64
+		{B853661B-E359-334C-83B9-B6ED83F75C7F}.Debug|x64.Build.0 = Debug|x64
+		{B853661B-E359-334C-83B9-B6ED83F75C7F}.Release|x64.ActiveCfg = Release|x64
+		{B853661B-E359-334C-83B9-B6ED83F75C7F}.Release|x64.Build.0 = Release|x64
+		{38168C64-95CC-3F70-B47F-29B2AD81FFE3}.Debug|x64.ActiveCfg = Debug|x64
+		{38168C64-95CC-3F70-B47F-29B2AD81FFE3}.Debug|x64.Build.0 = Debug|x64
+		{38168C64-95CC-3F70-B47F-29B2AD81FFE3}.Release|x64.ActiveCfg = Release|x64
+		{38168C64-95CC-3F70-B47F-29B2AD81FFE3}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = msvc2017_64
+		SolutionGuid = {05E0B01A-4E07-4179-BE2A-C0CCC940E7B6}
+	EndGlobalSection
+EndGlobal

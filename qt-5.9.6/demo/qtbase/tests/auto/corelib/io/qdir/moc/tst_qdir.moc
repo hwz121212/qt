@@ -1,0 +1,473 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qdir.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qdir.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QDir_t {
+    QByteArrayData data[85];
+    char stringdata0[1183];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QDir_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QDir_t qt_meta_stringdata_tst_QDir = {
+    {
+QT_MOC_LITERAL(0, 0, 8), // "tst_QDir"
+QT_MOC_LITERAL(1, 9, 4), // "init"
+QT_MOC_LITERAL(2, 14, 0), // ""
+QT_MOC_LITERAL(3, 15, 12), // "initTestCase"
+QT_MOC_LITERAL(4, 28, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(5, 44, 11), // "getSetCheck"
+QT_MOC_LITERAL(6, 56, 12), // "construction"
+QT_MOC_LITERAL(7, 69, 12), // "setPath_data"
+QT_MOC_LITERAL(8, 82, 7), // "setPath"
+QT_MOC_LITERAL(9, 90, 14), // "entryList_data"
+QT_MOC_LITERAL(10, 105, 9), // "entryList"
+QT_MOC_LITERAL(11, 115, 27), // "entryListWithTestFiles_data"
+QT_MOC_LITERAL(12, 143, 22), // "entryListWithTestFiles"
+QT_MOC_LITERAL(13, 166, 18), // "entryListTimedSort"
+QT_MOC_LITERAL(14, 185, 20), // "entryListSimple_data"
+QT_MOC_LITERAL(15, 206, 15), // "entryListSimple"
+QT_MOC_LITERAL(16, 222, 21), // "entryListWithSymLinks"
+QT_MOC_LITERAL(17, 244, 15), // "mkdirRmdir_data"
+QT_MOC_LITERAL(18, 260, 10), // "mkdirRmdir"
+QT_MOC_LITERAL(19, 271, 14), // "mkdirOnSymlink"
+QT_MOC_LITERAL(20, 286, 17), // "makedirReturnCode"
+QT_MOC_LITERAL(21, 304, 22), // "removeRecursively_data"
+QT_MOC_LITERAL(22, 327, 17), // "removeRecursively"
+QT_MOC_LITERAL(23, 345, 24), // "removeRecursivelyFailure"
+QT_MOC_LITERAL(24, 370, 24), // "removeRecursivelySymlink"
+QT_MOC_LITERAL(25, 395, 11), // "exists_data"
+QT_MOC_LITERAL(26, 407, 6), // "exists"
+QT_MOC_LITERAL(27, 414, 19), // "isRelativePath_data"
+QT_MOC_LITERAL(28, 434, 14), // "isRelativePath"
+QT_MOC_LITERAL(29, 449, 18), // "canonicalPath_data"
+QT_MOC_LITERAL(30, 468, 13), // "canonicalPath"
+QT_MOC_LITERAL(31, 482, 12), // "current_data"
+QT_MOC_LITERAL(32, 495, 7), // "current"
+QT_MOC_LITERAL(33, 503, 7), // "cd_data"
+QT_MOC_LITERAL(34, 511, 2), // "cd"
+QT_MOC_LITERAL(35, 514, 19), // "setNameFilters_data"
+QT_MOC_LITERAL(36, 534, 14), // "setNameFilters"
+QT_MOC_LITERAL(37, 549, 14), // "cleanPath_data"
+QT_MOC_LITERAL(38, 564, 9), // "cleanPath"
+QT_MOC_LITERAL(39, 574, 7), // "compare"
+QT_MOC_LITERAL(40, 582, 12), // "QDir_default"
+QT_MOC_LITERAL(41, 595, 13), // "filePath_data"
+QT_MOC_LITERAL(42, 609, 8), // "filePath"
+QT_MOC_LITERAL(43, 618, 21), // "absoluteFilePath_data"
+QT_MOC_LITERAL(44, 640, 16), // "absoluteFilePath"
+QT_MOC_LITERAL(45, 657, 17), // "absolutePath_data"
+QT_MOC_LITERAL(46, 675, 12), // "absolutePath"
+QT_MOC_LITERAL(47, 688, 21), // "relativeFilePath_data"
+QT_MOC_LITERAL(48, 710, 16), // "relativeFilePath"
+QT_MOC_LITERAL(49, 727, 6), // "remove"
+QT_MOC_LITERAL(50, 734, 6), // "rename"
+QT_MOC_LITERAL(51, 741, 12), // "exists2_data"
+QT_MOC_LITERAL(52, 754, 7), // "exists2"
+QT_MOC_LITERAL(53, 762, 12), // "dirName_data"
+QT_MOC_LITERAL(54, 775, 7), // "dirName"
+QT_MOC_LITERAL(55, 783, 11), // "operator_eq"
+QT_MOC_LITERAL(56, 795, 12), // "dotAndDotDot"
+QT_MOC_LITERAL(57, 808, 8), // "homePath"
+QT_MOC_LITERAL(58, 817, 8), // "tempPath"
+QT_MOC_LITERAL(59, 826, 8), // "rootPath"
+QT_MOC_LITERAL(60, 835, 16), // "nativeSeparators"
+QT_MOC_LITERAL(61, 852, 11), // "searchPaths"
+QT_MOC_LITERAL(62, 864, 16), // "searchPaths_data"
+QT_MOC_LITERAL(63, 881, 24), // "entryListWithSearchPaths"
+QT_MOC_LITERAL(64, 906, 17), // "longFileName_data"
+QT_MOC_LITERAL(65, 924, 12), // "longFileName"
+QT_MOC_LITERAL(66, 937, 15), // "updateFileLists"
+QT_MOC_LITERAL(67, 953, 19), // "detachingOperations"
+QT_MOC_LITERAL(68, 973, 11), // "testCaching"
+QT_MOC_LITERAL(69, 985, 11), // "isRoot_data"
+QT_MOC_LITERAL(70, 997, 6), // "isRoot"
+QT_MOC_LITERAL(71, 1004, 10), // "match_data"
+QT_MOC_LITERAL(72, 1015, 5), // "match"
+QT_MOC_LITERAL(73, 1021, 6), // "drives"
+QT_MOC_LITERAL(74, 1028, 13), // "arrayOperator"
+QT_MOC_LITERAL(75, 1042, 21), // "equalityOperator_data"
+QT_MOC_LITERAL(76, 1064, 16), // "equalityOperator"
+QT_MOC_LITERAL(77, 1081, 15), // "isRelative_data"
+QT_MOC_LITERAL(78, 1097, 10), // "isRelative"
+QT_MOC_LITERAL(79, 1108, 10), // "isReadable"
+QT_MOC_LITERAL(80, 1119, 13), // "cdNonreadable"
+QT_MOC_LITERAL(81, 1133, 16), // "cdBelowRoot_data"
+QT_MOC_LITERAL(82, 1150, 11), // "cdBelowRoot"
+QT_MOC_LITERAL(83, 1162, 8), // "emptyDir"
+QT_MOC_LITERAL(84, 1171, 11) // "nonEmptyDir"
+
+    },
+    "tst_QDir\0init\0\0initTestCase\0cleanupTestCase\0"
+    "getSetCheck\0construction\0setPath_data\0"
+    "setPath\0entryList_data\0entryList\0"
+    "entryListWithTestFiles_data\0"
+    "entryListWithTestFiles\0entryListTimedSort\0"
+    "entryListSimple_data\0entryListSimple\0"
+    "entryListWithSymLinks\0mkdirRmdir_data\0"
+    "mkdirRmdir\0mkdirOnSymlink\0makedirReturnCode\0"
+    "removeRecursively_data\0removeRecursively\0"
+    "removeRecursivelyFailure\0"
+    "removeRecursivelySymlink\0exists_data\0"
+    "exists\0isRelativePath_data\0isRelativePath\0"
+    "canonicalPath_data\0canonicalPath\0"
+    "current_data\0current\0cd_data\0cd\0"
+    "setNameFilters_data\0setNameFilters\0"
+    "cleanPath_data\0cleanPath\0compare\0"
+    "QDir_default\0filePath_data\0filePath\0"
+    "absoluteFilePath_data\0absoluteFilePath\0"
+    "absolutePath_data\0absolutePath\0"
+    "relativeFilePath_data\0relativeFilePath\0"
+    "remove\0rename\0exists2_data\0exists2\0"
+    "dirName_data\0dirName\0operator_eq\0"
+    "dotAndDotDot\0homePath\0tempPath\0rootPath\0"
+    "nativeSeparators\0searchPaths\0"
+    "searchPaths_data\0entryListWithSearchPaths\0"
+    "longFileName_data\0longFileName\0"
+    "updateFileLists\0detachingOperations\0"
+    "testCaching\0isRoot_data\0isRoot\0"
+    "match_data\0match\0drives\0arrayOperator\0"
+    "equalityOperator_data\0equalityOperator\0"
+    "isRelative_data\0isRelative\0isReadable\0"
+    "cdNonreadable\0cdBelowRoot_data\0"
+    "cdBelowRoot\0emptyDir\0nonEmptyDir"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QDir[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      83,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  429,    2, 0x08 /* Private */,
+       3,    0,  430,    2, 0x08 /* Private */,
+       4,    0,  431,    2, 0x08 /* Private */,
+       5,    0,  432,    2, 0x08 /* Private */,
+       6,    0,  433,    2, 0x08 /* Private */,
+       7,    0,  434,    2, 0x08 /* Private */,
+       8,    0,  435,    2, 0x08 /* Private */,
+       9,    0,  436,    2, 0x08 /* Private */,
+      10,    0,  437,    2, 0x08 /* Private */,
+      11,    0,  438,    2, 0x08 /* Private */,
+      12,    0,  439,    2, 0x08 /* Private */,
+      13,    0,  440,    2, 0x08 /* Private */,
+      14,    0,  441,    2, 0x08 /* Private */,
+      15,    0,  442,    2, 0x08 /* Private */,
+      16,    0,  443,    2, 0x08 /* Private */,
+      17,    0,  444,    2, 0x08 /* Private */,
+      18,    0,  445,    2, 0x08 /* Private */,
+      19,    0,  446,    2, 0x08 /* Private */,
+      20,    0,  447,    2, 0x08 /* Private */,
+      21,    0,  448,    2, 0x08 /* Private */,
+      22,    0,  449,    2, 0x08 /* Private */,
+      23,    0,  450,    2, 0x08 /* Private */,
+      24,    0,  451,    2, 0x08 /* Private */,
+      25,    0,  452,    2, 0x08 /* Private */,
+      26,    0,  453,    2, 0x08 /* Private */,
+      27,    0,  454,    2, 0x08 /* Private */,
+      28,    0,  455,    2, 0x08 /* Private */,
+      29,    0,  456,    2, 0x08 /* Private */,
+      30,    0,  457,    2, 0x08 /* Private */,
+      31,    0,  458,    2, 0x08 /* Private */,
+      32,    0,  459,    2, 0x08 /* Private */,
+      33,    0,  460,    2, 0x08 /* Private */,
+      34,    0,  461,    2, 0x08 /* Private */,
+      35,    0,  462,    2, 0x08 /* Private */,
+      36,    0,  463,    2, 0x08 /* Private */,
+      37,    0,  464,    2, 0x08 /* Private */,
+      38,    0,  465,    2, 0x08 /* Private */,
+      39,    0,  466,    2, 0x08 /* Private */,
+      40,    0,  467,    2, 0x08 /* Private */,
+      41,    0,  468,    2, 0x08 /* Private */,
+      42,    0,  469,    2, 0x08 /* Private */,
+      43,    0,  470,    2, 0x08 /* Private */,
+      44,    0,  471,    2, 0x08 /* Private */,
+      45,    0,  472,    2, 0x08 /* Private */,
+      46,    0,  473,    2, 0x08 /* Private */,
+      47,    0,  474,    2, 0x08 /* Private */,
+      48,    0,  475,    2, 0x08 /* Private */,
+      49,    0,  476,    2, 0x08 /* Private */,
+      50,    0,  477,    2, 0x08 /* Private */,
+      51,    0,  478,    2, 0x08 /* Private */,
+      52,    0,  479,    2, 0x08 /* Private */,
+      53,    0,  480,    2, 0x08 /* Private */,
+      54,    0,  481,    2, 0x08 /* Private */,
+      55,    0,  482,    2, 0x08 /* Private */,
+      56,    0,  483,    2, 0x08 /* Private */,
+      57,    0,  484,    2, 0x08 /* Private */,
+      58,    0,  485,    2, 0x08 /* Private */,
+      59,    0,  486,    2, 0x08 /* Private */,
+      60,    0,  487,    2, 0x08 /* Private */,
+      61,    0,  488,    2, 0x08 /* Private */,
+      62,    0,  489,    2, 0x08 /* Private */,
+      63,    0,  490,    2, 0x08 /* Private */,
+      64,    0,  491,    2, 0x08 /* Private */,
+      65,    0,  492,    2, 0x08 /* Private */,
+      66,    0,  493,    2, 0x08 /* Private */,
+      67,    0,  494,    2, 0x08 /* Private */,
+      68,    0,  495,    2, 0x08 /* Private */,
+      69,    0,  496,    2, 0x08 /* Private */,
+      70,    0,  497,    2, 0x08 /* Private */,
+      71,    0,  498,    2, 0x08 /* Private */,
+      72,    0,  499,    2, 0x08 /* Private */,
+      73,    0,  500,    2, 0x08 /* Private */,
+      74,    0,  501,    2, 0x08 /* Private */,
+      75,    0,  502,    2, 0x08 /* Private */,
+      76,    0,  503,    2, 0x08 /* Private */,
+      77,    0,  504,    2, 0x08 /* Private */,
+      78,    0,  505,    2, 0x08 /* Private */,
+      79,    0,  506,    2, 0x08 /* Private */,
+      80,    0,  507,    2, 0x08 /* Private */,
+      81,    0,  508,    2, 0x08 /* Private */,
+      82,    0,  509,    2, 0x08 /* Private */,
+      83,    0,  510,    2, 0x08 /* Private */,
+      84,    0,  511,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QDir::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QDir *_t = static_cast<tst_QDir *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->init(); break;
+        case 1: _t->initTestCase(); break;
+        case 2: _t->cleanupTestCase(); break;
+        case 3: _t->getSetCheck(); break;
+        case 4: _t->construction(); break;
+        case 5: _t->setPath_data(); break;
+        case 6: _t->setPath(); break;
+        case 7: _t->entryList_data(); break;
+        case 8: _t->entryList(); break;
+        case 9: _t->entryListWithTestFiles_data(); break;
+        case 10: _t->entryListWithTestFiles(); break;
+        case 11: _t->entryListTimedSort(); break;
+        case 12: _t->entryListSimple_data(); break;
+        case 13: _t->entryListSimple(); break;
+        case 14: _t->entryListWithSymLinks(); break;
+        case 15: _t->mkdirRmdir_data(); break;
+        case 16: _t->mkdirRmdir(); break;
+        case 17: _t->mkdirOnSymlink(); break;
+        case 18: _t->makedirReturnCode(); break;
+        case 19: _t->removeRecursively_data(); break;
+        case 20: _t->removeRecursively(); break;
+        case 21: _t->removeRecursivelyFailure(); break;
+        case 22: _t->removeRecursivelySymlink(); break;
+        case 23: _t->exists_data(); break;
+        case 24: _t->exists(); break;
+        case 25: _t->isRelativePath_data(); break;
+        case 26: _t->isRelativePath(); break;
+        case 27: _t->canonicalPath_data(); break;
+        case 28: _t->canonicalPath(); break;
+        case 29: _t->current_data(); break;
+        case 30: _t->current(); break;
+        case 31: _t->cd_data(); break;
+        case 32: _t->cd(); break;
+        case 33: _t->setNameFilters_data(); break;
+        case 34: _t->setNameFilters(); break;
+        case 35: _t->cleanPath_data(); break;
+        case 36: _t->cleanPath(); break;
+        case 37: _t->compare(); break;
+        case 38: _t->QDir_default(); break;
+        case 39: _t->filePath_data(); break;
+        case 40: _t->filePath(); break;
+        case 41: _t->absoluteFilePath_data(); break;
+        case 42: _t->absoluteFilePath(); break;
+        case 43: _t->absolutePath_data(); break;
+        case 44: _t->absolutePath(); break;
+        case 45: _t->relativeFilePath_data(); break;
+        case 46: _t->relativeFilePath(); break;
+        case 47: _t->remove(); break;
+        case 48: _t->rename(); break;
+        case 49: _t->exists2_data(); break;
+        case 50: _t->exists2(); break;
+        case 51: _t->dirName_data(); break;
+        case 52: _t->dirName(); break;
+        case 53: _t->operator_eq(); break;
+        case 54: _t->dotAndDotDot(); break;
+        case 55: _t->homePath(); break;
+        case 56: _t->tempPath(); break;
+        case 57: _t->rootPath(); break;
+        case 58: _t->nativeSeparators(); break;
+        case 59: _t->searchPaths(); break;
+        case 60: _t->searchPaths_data(); break;
+        case 61: _t->entryListWithSearchPaths(); break;
+        case 62: _t->longFileName_data(); break;
+        case 63: _t->longFileName(); break;
+        case 64: _t->updateFileLists(); break;
+        case 65: _t->detachingOperations(); break;
+        case 66: _t->testCaching(); break;
+        case 67: _t->isRoot_data(); break;
+        case 68: _t->isRoot(); break;
+        case 69: _t->match_data(); break;
+        case 70: _t->match(); break;
+        case 71: _t->drives(); break;
+        case 72: _t->arrayOperator(); break;
+        case 73: _t->equalityOperator_data(); break;
+        case 74: _t->equalityOperator(); break;
+        case 75: _t->isRelative_data(); break;
+        case 76: _t->isRelative(); break;
+        case 77: _t->isReadable(); break;
+        case 78: _t->cdNonreadable(); break;
+        case 79: _t->cdBelowRoot_data(); break;
+        case 80: _t->cdBelowRoot(); break;
+        case 81: _t->emptyDir(); break;
+        case 82: _t->nonEmptyDir(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QDir::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QDir.data,
+      qt_meta_data_tst_QDir,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QDir::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QDir::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QDir.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QDir::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 83)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 83;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 83)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 83;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

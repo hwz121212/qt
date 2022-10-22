@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "delegate", "F:/qt/Src/qtbase/tests/manual/widgets/itemviews/delegate\delegate.vcxproj", "{F6CEFE0F-3D5E-303E-BF50-48053CBD5612}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qheaderview", "F:/qt/Src/qtbase/tests/manual/widgets/itemviews/qheaderview\qheaderview.vcxproj", "{1F252121-CB09-38FD-8DD2-6484D8BBE816}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtreeview", "F:/qt/Src/qtbase/tests/manual/widgets/itemviews/qtreeview\qtreeview.vcxproj", "{EEC35590-5211-350D-A938-18343B33344A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtreewidget", "F:/qt/Src/qtbase/tests/manual/widgets/itemviews/qtreewidget\qtreewidget.vcxproj", "{EBBE9D62-EF59-38E5-8B2C-F41E998146AF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tableview-span-navigation", "F:/qt/Src/qtbase/tests/manual/widgets/itemviews/tableview-span-navigation\tableview-span-navigation.vcxproj", "{24E0D3C4-F3B0-35DA-A58D-666123E93D62}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6CEFE0F-3D5E-303E-BF50-48053CBD5612}.Debug|x64.ActiveCfg = Debug|x64
+		{F6CEFE0F-3D5E-303E-BF50-48053CBD5612}.Debug|x64.Build.0 = Debug|x64
+		{F6CEFE0F-3D5E-303E-BF50-48053CBD5612}.Release|x64.ActiveCfg = Release|x64
+		{F6CEFE0F-3D5E-303E-BF50-48053CBD5612}.Release|x64.Build.0 = Release|x64
+		{1F252121-CB09-38FD-8DD2-6484D8BBE816}.Debug|x64.ActiveCfg = Debug|x64
+		{1F252121-CB09-38FD-8DD2-6484D8BBE816}.Debug|x64.Build.0 = Debug|x64
+		{1F252121-CB09-38FD-8DD2-6484D8BBE816}.Release|x64.ActiveCfg = Release|x64
+		{1F252121-CB09-38FD-8DD2-6484D8BBE816}.Release|x64.Build.0 = Release|x64
+		{EEC35590-5211-350D-A938-18343B33344A}.Debug|x64.ActiveCfg = Debug|x64
+		{EEC35590-5211-350D-A938-18343B33344A}.Debug|x64.Build.0 = Debug|x64
+		{EEC35590-5211-350D-A938-18343B33344A}.Release|x64.ActiveCfg = Release|x64
+		{EEC35590-5211-350D-A938-18343B33344A}.Release|x64.Build.0 = Release|x64
+		{EBBE9D62-EF59-38E5-8B2C-F41E998146AF}.Debug|x64.ActiveCfg = Debug|x64
+		{EBBE9D62-EF59-38E5-8B2C-F41E998146AF}.Debug|x64.Build.0 = Debug|x64
+		{EBBE9D62-EF59-38E5-8B2C-F41E998146AF}.Release|x64.ActiveCfg = Release|x64
+		{EBBE9D62-EF59-38E5-8B2C-F41E998146AF}.Release|x64.Build.0 = Release|x64
+		{24E0D3C4-F3B0-35DA-A58D-666123E93D62}.Debug|x64.ActiveCfg = Debug|x64
+		{24E0D3C4-F3B0-35DA-A58D-666123E93D62}.Debug|x64.Build.0 = Debug|x64
+		{24E0D3C4-F3B0-35DA-A58D-666123E93D62}.Release|x64.ActiveCfg = Release|x64
+		{24E0D3C4-F3B0-35DA-A58D-666123E93D62}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,559 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qqmllocale.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qqmllocale.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_qqmllocale_t {
+    QByteArrayData data[55];
+    char stringdata0[1153];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_qqmllocale_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_qqmllocale_t qt_meta_stringdata_tst_qqmllocale = {
+    {
+QT_MOC_LITERAL(0, 0, 14), // "tst_qqmllocale"
+QT_MOC_LITERAL(1, 15, 13), // "defaultLocale"
+QT_MOC_LITERAL(2, 29, 0), // ""
+QT_MOC_LITERAL(3, 30, 15), // "properties_data"
+QT_MOC_LITERAL(4, 46, 10), // "properties"
+QT_MOC_LITERAL(5, 57, 19), // "currencySymbol_data"
+QT_MOC_LITERAL(6, 77, 14), // "currencySymbol"
+QT_MOC_LITERAL(7, 92, 14), // "monthName_data"
+QT_MOC_LITERAL(8, 107, 9), // "monthName"
+QT_MOC_LITERAL(9, 117, 24), // "standaloneMonthName_data"
+QT_MOC_LITERAL(10, 142, 19), // "standaloneMonthName"
+QT_MOC_LITERAL(11, 162, 12), // "dayName_data"
+QT_MOC_LITERAL(12, 175, 7), // "dayName"
+QT_MOC_LITERAL(13, 183, 22), // "standaloneDayName_data"
+QT_MOC_LITERAL(14, 206, 17), // "standaloneDayName"
+QT_MOC_LITERAL(15, 224, 19), // "firstDayOfWeek_data"
+QT_MOC_LITERAL(16, 244, 14), // "firstDayOfWeek"
+QT_MOC_LITERAL(17, 259, 13), // "weekDays_data"
+QT_MOC_LITERAL(18, 273, 8), // "weekDays"
+QT_MOC_LITERAL(19, 282, 16), // "uiLanguages_data"
+QT_MOC_LITERAL(20, 299, 11), // "uiLanguages"
+QT_MOC_LITERAL(21, 311, 15), // "dateFormat_data"
+QT_MOC_LITERAL(22, 327, 10), // "dateFormat"
+QT_MOC_LITERAL(23, 338, 19), // "dateTimeFormat_data"
+QT_MOC_LITERAL(24, 358, 14), // "dateTimeFormat"
+QT_MOC_LITERAL(25, 373, 15), // "timeFormat_data"
+QT_MOC_LITERAL(26, 389, 10), // "timeFormat"
+QT_MOC_LITERAL(27, 400, 23), // "dateToLocaleString_data"
+QT_MOC_LITERAL(28, 424, 18), // "dateToLocaleString"
+QT_MOC_LITERAL(29, 443, 32), // "dateToLocaleStringFormatted_data"
+QT_MOC_LITERAL(30, 476, 27), // "dateToLocaleStringFormatted"
+QT_MOC_LITERAL(31, 504, 27), // "dateToLocaleDateString_data"
+QT_MOC_LITERAL(32, 532, 22), // "dateToLocaleDateString"
+QT_MOC_LITERAL(33, 555, 36), // "dateToLocaleDateStringFormatt..."
+QT_MOC_LITERAL(34, 592, 31), // "dateToLocaleDateStringFormatted"
+QT_MOC_LITERAL(35, 624, 27), // "dateToLocaleTimeString_data"
+QT_MOC_LITERAL(36, 652, 22), // "dateToLocaleTimeString"
+QT_MOC_LITERAL(37, 675, 36), // "dateToLocaleTimeStringFormatt..."
+QT_MOC_LITERAL(38, 712, 31), // "dateToLocaleTimeStringFormatted"
+QT_MOC_LITERAL(39, 744, 25), // "dateFromLocaleString_data"
+QT_MOC_LITERAL(40, 770, 20), // "dateFromLocaleString"
+QT_MOC_LITERAL(41, 791, 29), // "dateFromLocaleDateString_data"
+QT_MOC_LITERAL(42, 821, 24), // "dateFromLocaleDateString"
+QT_MOC_LITERAL(43, 846, 29), // "dateFromLocaleTimeString_data"
+QT_MOC_LITERAL(44, 876, 24), // "dateFromLocaleTimeString"
+QT_MOC_LITERAL(45, 901, 25), // "numberToLocaleString_data"
+QT_MOC_LITERAL(46, 927, 20), // "numberToLocaleString"
+QT_MOC_LITERAL(47, 948, 33), // "numberToLocaleCurrencyString_..."
+QT_MOC_LITERAL(48, 982, 28), // "numberToLocaleCurrencyString"
+QT_MOC_LITERAL(49, 1011, 27), // "numberFromLocaleString_data"
+QT_MOC_LITERAL(50, 1039, 22), // "numberFromLocaleString"
+QT_MOC_LITERAL(51, 1062, 25), // "numberConstToLocaleString"
+QT_MOC_LITERAL(52, 1088, 24), // "stringLocaleCompare_data"
+QT_MOC_LITERAL(53, 1113, 19), // "stringLocaleCompare"
+QT_MOC_LITERAL(54, 1133, 19) // "localeAsCppProperty"
+
+    },
+    "tst_qqmllocale\0defaultLocale\0\0"
+    "properties_data\0properties\0"
+    "currencySymbol_data\0currencySymbol\0"
+    "monthName_data\0monthName\0"
+    "standaloneMonthName_data\0standaloneMonthName\0"
+    "dayName_data\0dayName\0standaloneDayName_data\0"
+    "standaloneDayName\0firstDayOfWeek_data\0"
+    "firstDayOfWeek\0weekDays_data\0weekDays\0"
+    "uiLanguages_data\0uiLanguages\0"
+    "dateFormat_data\0dateFormat\0"
+    "dateTimeFormat_data\0dateTimeFormat\0"
+    "timeFormat_data\0timeFormat\0"
+    "dateToLocaleString_data\0dateToLocaleString\0"
+    "dateToLocaleStringFormatted_data\0"
+    "dateToLocaleStringFormatted\0"
+    "dateToLocaleDateString_data\0"
+    "dateToLocaleDateString\0"
+    "dateToLocaleDateStringFormatted_data\0"
+    "dateToLocaleDateStringFormatted\0"
+    "dateToLocaleTimeString_data\0"
+    "dateToLocaleTimeString\0"
+    "dateToLocaleTimeStringFormatted_data\0"
+    "dateToLocaleTimeStringFormatted\0"
+    "dateFromLocaleString_data\0"
+    "dateFromLocaleString\0dateFromLocaleDateString_data\0"
+    "dateFromLocaleDateString\0"
+    "dateFromLocaleTimeString_data\0"
+    "dateFromLocaleTimeString\0"
+    "numberToLocaleString_data\0"
+    "numberToLocaleString\0"
+    "numberToLocaleCurrencyString_data\0"
+    "numberToLocaleCurrencyString\0"
+    "numberFromLocaleString_data\0"
+    "numberFromLocaleString\0numberConstToLocaleString\0"
+    "stringLocaleCompare_data\0stringLocaleCompare\0"
+    "localeAsCppProperty"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_qqmllocale[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      53,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  279,    2, 0x08 /* Private */,
+       3,    0,  280,    2, 0x08 /* Private */,
+       4,    0,  281,    2, 0x08 /* Private */,
+       5,    0,  282,    2, 0x08 /* Private */,
+       6,    0,  283,    2, 0x08 /* Private */,
+       7,    0,  284,    2, 0x08 /* Private */,
+       8,    0,  285,    2, 0x08 /* Private */,
+       9,    0,  286,    2, 0x08 /* Private */,
+      10,    0,  287,    2, 0x08 /* Private */,
+      11,    0,  288,    2, 0x08 /* Private */,
+      12,    0,  289,    2, 0x08 /* Private */,
+      13,    0,  290,    2, 0x08 /* Private */,
+      14,    0,  291,    2, 0x08 /* Private */,
+      15,    0,  292,    2, 0x08 /* Private */,
+      16,    0,  293,    2, 0x08 /* Private */,
+      17,    0,  294,    2, 0x08 /* Private */,
+      18,    0,  295,    2, 0x08 /* Private */,
+      19,    0,  296,    2, 0x08 /* Private */,
+      20,    0,  297,    2, 0x08 /* Private */,
+      21,    0,  298,    2, 0x08 /* Private */,
+      22,    0,  299,    2, 0x08 /* Private */,
+      23,    0,  300,    2, 0x08 /* Private */,
+      24,    0,  301,    2, 0x08 /* Private */,
+      25,    0,  302,    2, 0x08 /* Private */,
+      26,    0,  303,    2, 0x08 /* Private */,
+      27,    0,  304,    2, 0x08 /* Private */,
+      28,    0,  305,    2, 0x08 /* Private */,
+      29,    0,  306,    2, 0x08 /* Private */,
+      30,    0,  307,    2, 0x08 /* Private */,
+      31,    0,  308,    2, 0x08 /* Private */,
+      32,    0,  309,    2, 0x08 /* Private */,
+      33,    0,  310,    2, 0x08 /* Private */,
+      34,    0,  311,    2, 0x08 /* Private */,
+      35,    0,  312,    2, 0x08 /* Private */,
+      36,    0,  313,    2, 0x08 /* Private */,
+      37,    0,  314,    2, 0x08 /* Private */,
+      38,    0,  315,    2, 0x08 /* Private */,
+      39,    0,  316,    2, 0x08 /* Private */,
+      40,    0,  317,    2, 0x08 /* Private */,
+      41,    0,  318,    2, 0x08 /* Private */,
+      42,    0,  319,    2, 0x08 /* Private */,
+      43,    0,  320,    2, 0x08 /* Private */,
+      44,    0,  321,    2, 0x08 /* Private */,
+      45,    0,  322,    2, 0x08 /* Private */,
+      46,    0,  323,    2, 0x08 /* Private */,
+      47,    0,  324,    2, 0x08 /* Private */,
+      48,    0,  325,    2, 0x08 /* Private */,
+      49,    0,  326,    2, 0x08 /* Private */,
+      50,    0,  327,    2, 0x08 /* Private */,
+      51,    0,  328,    2, 0x08 /* Private */,
+      52,    0,  329,    2, 0x08 /* Private */,
+      53,    0,  330,    2, 0x08 /* Private */,
+      54,    0,  331,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_qqmllocale::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_qqmllocale *_t = static_cast<tst_qqmllocale *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->defaultLocale(); break;
+        case 1: _t->properties_data(); break;
+        case 2: _t->properties(); break;
+        case 3: _t->currencySymbol_data(); break;
+        case 4: _t->currencySymbol(); break;
+        case 5: _t->monthName_data(); break;
+        case 6: _t->monthName(); break;
+        case 7: _t->standaloneMonthName_data(); break;
+        case 8: _t->standaloneMonthName(); break;
+        case 9: _t->dayName_data(); break;
+        case 10: _t->dayName(); break;
+        case 11: _t->standaloneDayName_data(); break;
+        case 12: _t->standaloneDayName(); break;
+        case 13: _t->firstDayOfWeek_data(); break;
+        case 14: _t->firstDayOfWeek(); break;
+        case 15: _t->weekDays_data(); break;
+        case 16: _t->weekDays(); break;
+        case 17: _t->uiLanguages_data(); break;
+        case 18: _t->uiLanguages(); break;
+        case 19: _t->dateFormat_data(); break;
+        case 20: _t->dateFormat(); break;
+        case 21: _t->dateTimeFormat_data(); break;
+        case 22: _t->dateTimeFormat(); break;
+        case 23: _t->timeFormat_data(); break;
+        case 24: _t->timeFormat(); break;
+        case 25: _t->dateToLocaleString_data(); break;
+        case 26: _t->dateToLocaleString(); break;
+        case 27: _t->dateToLocaleStringFormatted_data(); break;
+        case 28: _t->dateToLocaleStringFormatted(); break;
+        case 29: _t->dateToLocaleDateString_data(); break;
+        case 30: _t->dateToLocaleDateString(); break;
+        case 31: _t->dateToLocaleDateStringFormatted_data(); break;
+        case 32: _t->dateToLocaleDateStringFormatted(); break;
+        case 33: _t->dateToLocaleTimeString_data(); break;
+        case 34: _t->dateToLocaleTimeString(); break;
+        case 35: _t->dateToLocaleTimeStringFormatted_data(); break;
+        case 36: _t->dateToLocaleTimeStringFormatted(); break;
+        case 37: _t->dateFromLocaleString_data(); break;
+        case 38: _t->dateFromLocaleString(); break;
+        case 39: _t->dateFromLocaleDateString_data(); break;
+        case 40: _t->dateFromLocaleDateString(); break;
+        case 41: _t->dateFromLocaleTimeString_data(); break;
+        case 42: _t->dateFromLocaleTimeString(); break;
+        case 43: _t->numberToLocaleString_data(); break;
+        case 44: _t->numberToLocaleString(); break;
+        case 45: _t->numberToLocaleCurrencyString_data(); break;
+        case 46: _t->numberToLocaleCurrencyString(); break;
+        case 47: _t->numberFromLocaleString_data(); break;
+        case 48: _t->numberFromLocaleString(); break;
+        case 49: _t->numberConstToLocaleString(); break;
+        case 50: _t->stringLocaleCompare_data(); break;
+        case 51: _t->stringLocaleCompare(); break;
+        case 52: _t->localeAsCppProperty(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_qqmllocale::staticMetaObject = {
+    { &QQmlDataTest::staticMetaObject, qt_meta_stringdata_tst_qqmllocale.data,
+      qt_meta_data_tst_qqmllocale,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_qqmllocale::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_qqmllocale::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_qqmllocale.stringdata0))
+        return static_cast<void*>(this);
+    return QQmlDataTest::qt_metacast(_clname);
+}
+
+int tst_qqmllocale::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QQmlDataTest::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 53)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 53;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 53)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 53;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_Calendar_t {
+    QByteArrayData data[2];
+    char stringdata0[16];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_Calendar_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_Calendar_t qt_meta_stringdata_Calendar = {
+    {
+QT_MOC_LITERAL(0, 0, 8), // "Calendar"
+QT_MOC_LITERAL(1, 9, 6) // "locale"
+
+    },
+    "Calendar\0locale"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_Calendar[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       1,   14, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // properties: name, type, flags
+       1, QMetaType::QLocale, 0x00095103,
+
+       0        // eod
+};
+
+void Calendar::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+
+#ifndef QT_NO_PROPERTIES
+    if (_c == QMetaObject::ReadProperty) {
+        Calendar *_t = static_cast<Calendar *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< QLocale*>(_v) = _t->locale(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        Calendar *_t = static_cast<Calendar *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setLocale(*reinterpret_cast< QLocale*>(_v)); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject Calendar::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_Calendar.data,
+      qt_meta_data_Calendar,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *Calendar::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *Calendar::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_Calendar.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int Calendar::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    
+#ifndef QT_NO_PROPERTIES
+   if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 1;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+struct qt_meta_stringdata_DateFormatter_t {
+    QByteArrayData data[4];
+    char stringdata0[45];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_DateFormatter_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_DateFormatter_t qt_meta_stringdata_DateFormatter = {
+    {
+QT_MOC_LITERAL(0, 0, 13), // "DateFormatter"
+QT_MOC_LITERAL(1, 14, 16), // "getLocalizedForm"
+QT_MOC_LITERAL(2, 31, 0), // ""
+QT_MOC_LITERAL(3, 32, 12) // "isoTimestamp"
+
+    },
+    "DateFormatter\0getLocalizedForm\0\0"
+    "isoTimestamp"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_DateFormatter[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // methods: name, argc, parameters, tag, flags
+       1,    1,   19,    2, 0x02 /* Public */,
+
+ // methods: parameters
+    QMetaType::QString, QMetaType::QString,    3,
+
+       0        // eod
+};
+
+void DateFormatter::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        DateFormatter *_t = static_cast<DateFormatter *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: { QString _r = _t->getLocalizedForm((*reinterpret_cast< const QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObject DateFormatter::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_DateFormatter.data,
+      qt_meta_data_DateFormatter,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *DateFormatter::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *DateFormatter::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_DateFormatter.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int DateFormatter::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

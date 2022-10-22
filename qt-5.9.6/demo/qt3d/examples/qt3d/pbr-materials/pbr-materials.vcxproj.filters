@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="BasicCamera.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Lights.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="TrefoilKnot.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\aluminium_random_brushed\aluminium_random_brushed_basecolor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\aluminium_random_brushed\aluminium_random_brushed_metallic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\aluminium_random_brushed\aluminium_random_brushed_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\aluminium_random_brushed\aluminium_random_brushed_roughness.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\american_walnut_crown_cut\american_walnut_crown_cut_basecolor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\american_walnut_crown_cut\american_walnut_crown_cut_metallic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\american_walnut_crown_cut\american_walnut_crown_cut_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\american_walnut_crown_cut\american_walnut_crown_cut_roughness.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\obj\ball.obj">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\ceramic_small_diamond\ceramic_small_diamond_ambient_occlusion.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\ceramic_small_diamond\ceramic_small_diamond_basecolor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\ceramic_small_diamond\ceramic_small_diamond_metallic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\ceramic_small_diamond\ceramic_small_diamond_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\ceramic_small_diamond\ceramic_small_diamond_roughness.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\ceramic_tiles_brown_tomato\ceramic_tiles_brown_tomato_basecolor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\ceramic_tiles_brown_tomato\ceramic_tiles_brown_tomato_metallic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\ceramic_tiles_brown_tomato\ceramic_tiles_brown_tomato_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\ceramic_tiles_brown_tomato\ceramic_tiles_brown_tomato_roughness.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\copper_brushed\copper_brushed_basecolor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\copper_brushed\copper_brushed_metallic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\copper_brushed\copper_brushed_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\copper_brushed\copper_brushed_roughness.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\exampleresources\cubemaps.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="..\exampleresources\assets\cubemaps\default\default_irradiance.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\cubemaps\default\default_specular.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\gold_leaf_waste\gold_leaf_waste_basecolor.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\gold_leaf_waste\gold_leaf_waste_metallic.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\gold_leaf_waste\gold_leaf_waste_normal.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\gold_leaf_waste\gold_leaf_waste_roughness.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\obj\material-sphere.obj">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="materials.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="..\exampleresources\assets\cubemaps\miramar\miramar_negx.webp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\cubemaps\miramar\miramar_negy.webp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\cubemaps\miramar\miramar_negz.webp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\cubemaps\miramar\miramar_posx.webp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\cubemaps\miramar\miramar_posy.webp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\cubemaps\miramar\miramar_posz.webp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\textures\no-ao.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\exampleresources\obj.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="..\exampleresources\assets\obj\plane-10x10.obj">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\exampleresources\textures.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="..\exampleresources\assets\obj\toyplane.obj">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\exampleresources\assets\obj\trefoil.obj">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

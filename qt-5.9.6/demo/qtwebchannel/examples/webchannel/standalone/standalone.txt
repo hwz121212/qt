@@ -1,0 +1,1 @@
+$(QINSTALL) ..\shared\qwebchannel.js .\qwebchannel.js

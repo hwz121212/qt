@@ -1,0 +1,222 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qquickpopup.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qquickpopup.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QQuickPopup_t {
+    QByteArrayData data[28];
+    char stringdata0[353];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QQuickPopup_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QQuickPopup_t qt_meta_stringdata_tst_QQuickPopup = {
+    {
+QT_MOC_LITERAL(0, 0, 15), // "tst_QQuickPopup"
+QT_MOC_LITERAL(1, 16, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 29, 0), // ""
+QT_MOC_LITERAL(3, 30, 12), // "visible_data"
+QT_MOC_LITERAL(4, 43, 7), // "visible"
+QT_MOC_LITERAL(5, 51, 5), // "state"
+QT_MOC_LITERAL(6, 57, 12), // "overlay_data"
+QT_MOC_LITERAL(7, 70, 7), // "overlay"
+QT_MOC_LITERAL(8, 78, 11), // "zOrder_data"
+QT_MOC_LITERAL(9, 90, 6), // "zOrder"
+QT_MOC_LITERAL(10, 97, 12), // "windowChange"
+QT_MOC_LITERAL(11, 110, 16), // "closePolicy_data"
+QT_MOC_LITERAL(12, 127, 11), // "closePolicy"
+QT_MOC_LITERAL(13, 139, 19), // "activeFocusOnClose1"
+QT_MOC_LITERAL(14, 159, 19), // "activeFocusOnClose2"
+QT_MOC_LITERAL(15, 179, 19), // "activeFocusOnClose3"
+QT_MOC_LITERAL(16, 199, 10), // "hover_data"
+QT_MOC_LITERAL(17, 210, 5), // "hover"
+QT_MOC_LITERAL(18, 216, 10), // "wheel_data"
+QT_MOC_LITERAL(19, 227, 5), // "wheel"
+QT_MOC_LITERAL(20, 233, 15), // "parentDestroyed"
+QT_MOC_LITERAL(21, 249, 6), // "nested"
+QT_MOC_LITERAL(22, 256, 7), // "grabber"
+QT_MOC_LITERAL(23, 264, 11), // "cursorShape"
+QT_MOC_LITERAL(24, 276, 17), // "componentComplete"
+QT_MOC_LITERAL(25, 294, 29), // "closeOnEscapeWithNestedPopups"
+QT_MOC_LITERAL(26, 324, 16), // "orientation_data"
+QT_MOC_LITERAL(27, 341, 11) // "orientation"
+
+    },
+    "tst_QQuickPopup\0initTestCase\0\0"
+    "visible_data\0visible\0state\0overlay_data\0"
+    "overlay\0zOrder_data\0zOrder\0windowChange\0"
+    "closePolicy_data\0closePolicy\0"
+    "activeFocusOnClose1\0activeFocusOnClose2\0"
+    "activeFocusOnClose3\0hover_data\0hover\0"
+    "wheel_data\0wheel\0parentDestroyed\0"
+    "nested\0grabber\0cursorShape\0componentComplete\0"
+    "closeOnEscapeWithNestedPopups\0"
+    "orientation_data\0orientation"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QQuickPopup[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      26,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  144,    2, 0x08 /* Private */,
+       3,    0,  145,    2, 0x08 /* Private */,
+       4,    0,  146,    2, 0x08 /* Private */,
+       5,    0,  147,    2, 0x08 /* Private */,
+       6,    0,  148,    2, 0x08 /* Private */,
+       7,    0,  149,    2, 0x08 /* Private */,
+       8,    0,  150,    2, 0x08 /* Private */,
+       9,    0,  151,    2, 0x08 /* Private */,
+      10,    0,  152,    2, 0x08 /* Private */,
+      11,    0,  153,    2, 0x08 /* Private */,
+      12,    0,  154,    2, 0x08 /* Private */,
+      13,    0,  155,    2, 0x08 /* Private */,
+      14,    0,  156,    2, 0x08 /* Private */,
+      15,    0,  157,    2, 0x08 /* Private */,
+      16,    0,  158,    2, 0x08 /* Private */,
+      17,    0,  159,    2, 0x08 /* Private */,
+      18,    0,  160,    2, 0x08 /* Private */,
+      19,    0,  161,    2, 0x08 /* Private */,
+      20,    0,  162,    2, 0x08 /* Private */,
+      21,    0,  163,    2, 0x08 /* Private */,
+      22,    0,  164,    2, 0x08 /* Private */,
+      23,    0,  165,    2, 0x08 /* Private */,
+      24,    0,  166,    2, 0x08 /* Private */,
+      25,    0,  167,    2, 0x08 /* Private */,
+      26,    0,  168,    2, 0x08 /* Private */,
+      27,    0,  169,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QQuickPopup::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QQuickPopup *_t = static_cast<tst_QQuickPopup *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->visible_data(); break;
+        case 2: _t->visible(); break;
+        case 3: _t->state(); break;
+        case 4: _t->overlay_data(); break;
+        case 5: _t->overlay(); break;
+        case 6: _t->zOrder_data(); break;
+        case 7: _t->zOrder(); break;
+        case 8: _t->windowChange(); break;
+        case 9: _t->closePolicy_data(); break;
+        case 10: _t->closePolicy(); break;
+        case 11: _t->activeFocusOnClose1(); break;
+        case 12: _t->activeFocusOnClose2(); break;
+        case 13: _t->activeFocusOnClose3(); break;
+        case 14: _t->hover_data(); break;
+        case 15: _t->hover(); break;
+        case 16: _t->wheel_data(); break;
+        case 17: _t->wheel(); break;
+        case 18: _t->parentDestroyed(); break;
+        case 19: _t->nested(); break;
+        case 20: _t->grabber(); break;
+        case 21: _t->cursorShape(); break;
+        case 22: _t->componentComplete(); break;
+        case 23: _t->closeOnEscapeWithNestedPopups(); break;
+        case 24: _t->orientation_data(); break;
+        case 25: _t->orientation(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QQuickPopup::staticMetaObject = {
+    { &QQmlDataTest::staticMetaObject, qt_meta_stringdata_tst_QQuickPopup.data,
+      qt_meta_data_tst_QQuickPopup,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QQuickPopup::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QQuickPopup::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QQuickPopup.stringdata0))
+        return static_cast<void*>(this);
+    return QQmlDataTest::qt_metacast(_clname);
+}
+
+int tst_QQuickPopup::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QQmlDataTest::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 26)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 26;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 26)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 26;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

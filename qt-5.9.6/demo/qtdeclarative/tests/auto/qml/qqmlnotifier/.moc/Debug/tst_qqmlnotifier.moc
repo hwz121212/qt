@@ -1,0 +1,609 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qqmlnotifier.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qqmlnotifier.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_ExportedClass_t {
+    QByteArrayData data[18];
+    char stringdata0[291];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ExportedClass_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ExportedClass_t qt_meta_stringdata_ExportedClass = {
+    {
+QT_MOC_LITERAL(0, 0, 13), // "ExportedClass"
+QT_MOC_LITERAL(1, 14, 20), // "qmlObjectPropChanged"
+QT_MOC_LITERAL(2, 35, 0), // ""
+QT_MOC_LITERAL(3, 36, 20), // "cppObjectPropChanged"
+QT_MOC_LITERAL(4, 57, 18), // "unboundPropChanged"
+QT_MOC_LITERAL(5, 76, 20), // "v8BindingPropChanged"
+QT_MOC_LITERAL(6, 97, 20), // "v4BindingPropChanged"
+QT_MOC_LITERAL(7, 118, 21), // "v4BindingProp2Changed"
+QT_MOC_LITERAL(8, 140, 24), // "scriptBindingPropChanged"
+QT_MOC_LITERAL(9, 165, 11), // "boundSignal"
+QT_MOC_LITERAL(10, 177, 12), // "unusedSignal"
+QT_MOC_LITERAL(11, 190, 13), // "qmlObjectProp"
+QT_MOC_LITERAL(12, 204, 13), // "cppObjectProp"
+QT_MOC_LITERAL(13, 218, 11), // "unboundProp"
+QT_MOC_LITERAL(14, 230, 13), // "v8BindingProp"
+QT_MOC_LITERAL(15, 244, 13), // "v4BindingProp"
+QT_MOC_LITERAL(16, 258, 14), // "v4BindingProp2"
+QT_MOC_LITERAL(17, 273, 17) // "scriptBindingProp"
+
+    },
+    "ExportedClass\0qmlObjectPropChanged\0\0"
+    "cppObjectPropChanged\0unboundPropChanged\0"
+    "v8BindingPropChanged\0v4BindingPropChanged\0"
+    "v4BindingProp2Changed\0scriptBindingPropChanged\0"
+    "boundSignal\0unusedSignal\0qmlObjectProp\0"
+    "cppObjectProp\0unboundProp\0v8BindingProp\0"
+    "v4BindingProp\0v4BindingProp2\0"
+    "scriptBindingProp"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_ExportedClass[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       9,   14, // methods
+       7,   68, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       9,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,   59,    2, 0x06 /* Public */,
+       3,    0,   60,    2, 0x06 /* Public */,
+       4,    0,   61,    2, 0x06 /* Public */,
+       5,    0,   62,    2, 0x06 /* Public */,
+       6,    0,   63,    2, 0x06 /* Public */,
+       7,    0,   64,    2, 0x06 /* Public */,
+       8,    0,   65,    2, 0x06 /* Public */,
+       9,    0,   66,    2, 0x06 /* Public */,
+      10,    0,   67,    2, 0x06 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+ // properties: name, type, flags
+      11, QMetaType::Int, 0x00495001,
+      12, QMetaType::Int, 0x00495001,
+      13, QMetaType::Int, 0x00495001,
+      14, QMetaType::Int, 0x00495001,
+      15, QMetaType::Int, 0x00495001,
+      16, QMetaType::Int, 0x00495001,
+      17, QMetaType::Int, 0x00495001,
+
+ // properties: notify_signal_id
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+
+       0        // eod
+};
+
+void ExportedClass::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        ExportedClass *_t = static_cast<ExportedClass *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->qmlObjectPropChanged(); break;
+        case 1: _t->cppObjectPropChanged(); break;
+        case 2: _t->unboundPropChanged(); break;
+        case 3: _t->v8BindingPropChanged(); break;
+        case 4: _t->v4BindingPropChanged(); break;
+        case 5: _t->v4BindingProp2Changed(); break;
+        case 6: _t->scriptBindingPropChanged(); break;
+        case 7: _t->boundSignal(); break;
+        case 8: _t->unusedSignal(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            typedef void (ExportedClass::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ExportedClass::qmlObjectPropChanged)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            typedef void (ExportedClass::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ExportedClass::cppObjectPropChanged)) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            typedef void (ExportedClass::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ExportedClass::unboundPropChanged)) {
+                *result = 2;
+                return;
+            }
+        }
+        {
+            typedef void (ExportedClass::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ExportedClass::v8BindingPropChanged)) {
+                *result = 3;
+                return;
+            }
+        }
+        {
+            typedef void (ExportedClass::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ExportedClass::v4BindingPropChanged)) {
+                *result = 4;
+                return;
+            }
+        }
+        {
+            typedef void (ExportedClass::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ExportedClass::v4BindingProp2Changed)) {
+                *result = 5;
+                return;
+            }
+        }
+        {
+            typedef void (ExportedClass::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ExportedClass::scriptBindingPropChanged)) {
+                *result = 6;
+                return;
+            }
+        }
+        {
+            typedef void (ExportedClass::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ExportedClass::boundSignal)) {
+                *result = 7;
+                return;
+            }
+        }
+        {
+            typedef void (ExportedClass::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&ExportedClass::unusedSignal)) {
+                *result = 8;
+                return;
+            }
+        }
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        ExportedClass *_t = static_cast<ExportedClass *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< int*>(_v) = _t->qmlObjectProp(); break;
+        case 1: *reinterpret_cast< int*>(_v) = _t->cppObjectProp(); break;
+        case 2: *reinterpret_cast< int*>(_v) = _t->unboundProp(); break;
+        case 3: *reinterpret_cast< int*>(_v) = _t->v8BindingProp(); break;
+        case 4: *reinterpret_cast< int*>(_v) = _t->v4BindingProp(); break;
+        case 5: *reinterpret_cast< int*>(_v) = _t->v4BindingProp2(); break;
+        case 6: *reinterpret_cast< int*>(_v) = _t->scriptBindingProp(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+    Q_UNUSED(_a);
+}
+
+const QMetaObject ExportedClass::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_ExportedClass.data,
+      qt_meta_data_ExportedClass,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *ExportedClass::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ExportedClass::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ExportedClass.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int ExportedClass::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 9)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 9;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 9)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 9;
+    }
+#ifndef QT_NO_PROPERTIES
+   else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 7;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 7;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 7;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 7;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 7;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 7;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void ExportedClass::qmlObjectPropChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+
+// SIGNAL 1
+void ExportedClass::cppObjectPropChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+}
+
+// SIGNAL 2
+void ExportedClass::unboundPropChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
+}
+
+// SIGNAL 3
+void ExportedClass::v8BindingPropChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, nullptr);
+}
+
+// SIGNAL 4
+void ExportedClass::v4BindingPropChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 4, nullptr);
+}
+
+// SIGNAL 5
+void ExportedClass::v4BindingProp2Changed()
+{
+    QMetaObject::activate(this, &staticMetaObject, 5, nullptr);
+}
+
+// SIGNAL 6
+void ExportedClass::scriptBindingPropChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 6, nullptr);
+}
+
+// SIGNAL 7
+void ExportedClass::boundSignal()
+{
+    QMetaObject::activate(this, &staticMetaObject, 7, nullptr);
+}
+
+// SIGNAL 8
+void ExportedClass::unusedSignal()
+{
+    QMetaObject::activate(this, &staticMetaObject, 8, nullptr);
+}
+struct qt_meta_stringdata_tst_qqmlnotifier_t {
+    QByteArrayData data[13];
+    char stringdata0[197];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_qqmlnotifier_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_qqmlnotifier_t qt_meta_stringdata_tst_qqmlnotifier = {
+    {
+QT_MOC_LITERAL(0, 0, 16), // "tst_qqmlnotifier"
+QT_MOC_LITERAL(1, 17, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 30, 0), // ""
+QT_MOC_LITERAL(3, 31, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(4, 47, 17), // "testConnectNotify"
+QT_MOC_LITERAL(5, 65, 15), // "removeV4Binding"
+QT_MOC_LITERAL(6, 81, 16), // "removeV4Binding2"
+QT_MOC_LITERAL(7, 98, 15), // "removeV8Binding"
+QT_MOC_LITERAL(8, 114, 19), // "removeScriptBinding"
+QT_MOC_LITERAL(9, 134, 12), // "readProperty"
+QT_MOC_LITERAL(10, 147, 14), // "propertyChange"
+QT_MOC_LITERAL(11, 162, 19), // "disconnectOnDestroy"
+QT_MOC_LITERAL(12, 182, 14) // "lotsOfBindings"
+
+    },
+    "tst_qqmlnotifier\0initTestCase\0\0"
+    "cleanupTestCase\0testConnectNotify\0"
+    "removeV4Binding\0removeV4Binding2\0"
+    "removeV8Binding\0removeScriptBinding\0"
+    "readProperty\0propertyChange\0"
+    "disconnectOnDestroy\0lotsOfBindings"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_qqmlnotifier[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      11,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   69,    2, 0x08 /* Private */,
+       3,    0,   70,    2, 0x08 /* Private */,
+       4,    0,   71,    2, 0x08 /* Private */,
+       5,    0,   72,    2, 0x08 /* Private */,
+       6,    0,   73,    2, 0x08 /* Private */,
+       7,    0,   74,    2, 0x08 /* Private */,
+       8,    0,   75,    2, 0x08 /* Private */,
+       9,    0,   76,    2, 0x08 /* Private */,
+      10,    0,   77,    2, 0x08 /* Private */,
+      11,    0,   78,    2, 0x08 /* Private */,
+      12,    0,   79,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_qqmlnotifier::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_qqmlnotifier *_t = static_cast<tst_qqmlnotifier *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->cleanupTestCase(); break;
+        case 2: _t->testConnectNotify(); break;
+        case 3: _t->removeV4Binding(); break;
+        case 4: _t->removeV4Binding2(); break;
+        case 5: _t->removeV8Binding(); break;
+        case 6: _t->removeScriptBinding(); break;
+        case 7: _t->readProperty(); break;
+        case 8: _t->propertyChange(); break;
+        case 9: _t->disconnectOnDestroy(); break;
+        case 10: _t->lotsOfBindings(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_qqmlnotifier::staticMetaObject = {
+    { &QQmlDataTest::staticMetaObject, qt_meta_stringdata_tst_qqmlnotifier.data,
+      qt_meta_data_tst_qqmlnotifier,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_qqmlnotifier::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_qqmlnotifier::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_qqmlnotifier.stringdata0))
+        return static_cast<void*>(this);
+    return QQmlDataTest::qt_metacast(_clname);
+}
+
+int tst_qqmlnotifier::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QQmlDataTest::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 11)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 11;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 11)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 11;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_TestObject_t {
+    QByteArrayData data[4];
+    char stringdata0[23];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_TestObject_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_TestObject_t qt_meta_stringdata_TestObject = {
+    {
+QT_MOC_LITERAL(0, 0, 10), // "TestObject"
+QT_MOC_LITERAL(1, 11, 8), // "aChanged"
+QT_MOC_LITERAL(2, 20, 0), // ""
+QT_MOC_LITERAL(3, 21, 1) // "a"
+
+    },
+    "TestObject\0aChanged\0\0a"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_TestObject[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       1,   20, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,   19,    2, 0x06 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void,
+
+ // properties: name, type, flags
+       3, QMetaType::Int, 0x00495001,
+
+ // properties: notify_signal_id
+       0,
+
+       0        // eod
+};
+
+void TestObject::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        TestObject *_t = static_cast<TestObject *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->aChanged(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            typedef void (TestObject::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&TestObject::aChanged)) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        TestObject *_t = static_cast<TestObject *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< int*>(_v) = _t->a(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+    Q_UNUSED(_a);
+}
+
+const QMetaObject TestObject::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_TestObject.data,
+      qt_meta_data_TestObject,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *TestObject::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *TestObject::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_TestObject.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int TestObject::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+#ifndef QT_NO_PROPERTIES
+   else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 1;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void TestObject::aChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

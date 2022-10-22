@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="tst_qvariant.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="stream\qt4.9\bool.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\bool.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\char.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\char.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\double.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\double.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\float.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\float.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\int.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\int.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\long.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\long.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qbitarray.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qbitarray.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qbytearray.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qbytearray.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qchar.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qchar.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qdate.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qdate.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qdatetime.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qdatetime.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qline.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qline.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qlinef.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qlinef.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qlocale.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qlocale.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qlonglong.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qlonglong.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qpoint.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qpoint.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qpointf.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qpointf.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qrect.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qrect.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qrectf.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qrectf.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qregexp.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qregexp.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qregularexpression.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qsize.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qsize.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qsizef.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qsizef.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qstring.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qstring.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qstringlist.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qstringlist.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qtime.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qtime.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qulonglong.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qulonglong.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qurl.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qurl.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\quuid.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qvariant.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qvariant.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qvariant.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="stream\qt4.9\qvarianthash.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qvarianthash.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qvariantlist.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qvariantlist.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\qvariantmap.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\qvariantmap.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\short.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\short.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\uchar.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\uchar.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\uint.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\uint.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\ulong.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\ulong.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\ushort.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\ushort.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt4.9\void.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="stream\qt5.0\void.bin">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

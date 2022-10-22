@@ -1,0 +1,636 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qvector.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qvector.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QVector_t {
+    QByteArrayData data[122];
+    char stringdata0[1745];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QVector_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QVector_t qt_meta_stringdata_tst_QVector = {
+    {
+QT_MOC_LITERAL(0, 0, 11), // "tst_QVector"
+QT_MOC_LITERAL(1, 12, 18), // "constructors_empty"
+QT_MOC_LITERAL(2, 31, 0), // ""
+QT_MOC_LITERAL(3, 32, 29), // "constructors_emptyReserveZero"
+QT_MOC_LITERAL(4, 62, 25), // "constructors_emptyReserve"
+QT_MOC_LITERAL(5, 88, 33), // "constructors_reserveAndInitia..."
+QT_MOC_LITERAL(6, 122, 18), // "copyConstructorInt"
+QT_MOC_LITERAL(7, 141, 22), // "copyConstructorMovable"
+QT_MOC_LITERAL(8, 164, 21), // "copyConstructorCustom"
+QT_MOC_LITERAL(9, 186, 13), // "assignmentInt"
+QT_MOC_LITERAL(10, 200, 17), // "assignmentMovable"
+QT_MOC_LITERAL(11, 218, 16), // "assignmentCustom"
+QT_MOC_LITERAL(12, 235, 6), // "addInt"
+QT_MOC_LITERAL(13, 242, 10), // "addMovable"
+QT_MOC_LITERAL(14, 253, 9), // "addCustom"
+QT_MOC_LITERAL(15, 263, 9), // "appendInt"
+QT_MOC_LITERAL(16, 273, 13), // "appendMovable"
+QT_MOC_LITERAL(17, 287, 12), // "appendCustom"
+QT_MOC_LITERAL(18, 300, 12), // "appendRvalue"
+QT_MOC_LITERAL(19, 313, 2), // "at"
+QT_MOC_LITERAL(20, 316, 11), // "capacityInt"
+QT_MOC_LITERAL(21, 328, 15), // "capacityMovable"
+QT_MOC_LITERAL(22, 344, 14), // "capacityCustom"
+QT_MOC_LITERAL(23, 359, 8), // "clearInt"
+QT_MOC_LITERAL(24, 368, 12), // "clearMovable"
+QT_MOC_LITERAL(25, 381, 11), // "clearCustom"
+QT_MOC_LITERAL(26, 393, 9), // "constData"
+QT_MOC_LITERAL(27, 403, 10), // "constFirst"
+QT_MOC_LITERAL(28, 414, 9), // "constLast"
+QT_MOC_LITERAL(29, 424, 8), // "contains"
+QT_MOC_LITERAL(30, 433, 8), // "countInt"
+QT_MOC_LITERAL(31, 442, 12), // "countMovable"
+QT_MOC_LITERAL(32, 455, 11), // "countCustom"
+QT_MOC_LITERAL(33, 467, 4), // "data"
+QT_MOC_LITERAL(34, 472, 8), // "emptyInt"
+QT_MOC_LITERAL(35, 481, 12), // "emptyMovable"
+QT_MOC_LITERAL(36, 494, 11), // "emptyCustom"
+QT_MOC_LITERAL(37, 506, 8), // "endsWith"
+QT_MOC_LITERAL(38, 515, 13), // "eraseEmptyInt"
+QT_MOC_LITERAL(39, 529, 17), // "eraseEmptyMovable"
+QT_MOC_LITERAL(40, 547, 16), // "eraseEmptyCustom"
+QT_MOC_LITERAL(41, 564, 21), // "eraseEmptyReservedInt"
+QT_MOC_LITERAL(42, 586, 25), // "eraseEmptyReservedMovable"
+QT_MOC_LITERAL(43, 612, 24), // "eraseEmptyReservedCustom"
+QT_MOC_LITERAL(44, 637, 8), // "eraseInt"
+QT_MOC_LITERAL(45, 646, 14), // "eraseIntShared"
+QT_MOC_LITERAL(46, 661, 12), // "eraseMovable"
+QT_MOC_LITERAL(47, 674, 18), // "eraseMovableShared"
+QT_MOC_LITERAL(48, 693, 11), // "eraseCustom"
+QT_MOC_LITERAL(49, 705, 17), // "eraseCustomShared"
+QT_MOC_LITERAL(50, 723, 16), // "eraseReservedInt"
+QT_MOC_LITERAL(51, 740, 20), // "eraseReservedMovable"
+QT_MOC_LITERAL(52, 761, 19), // "eraseReservedCustom"
+QT_MOC_LITERAL(53, 781, 7), // "fillInt"
+QT_MOC_LITERAL(54, 789, 11), // "fillMovable"
+QT_MOC_LITERAL(55, 801, 10), // "fillCustom"
+QT_MOC_LITERAL(56, 812, 5), // "first"
+QT_MOC_LITERAL(57, 818, 11), // "fromListInt"
+QT_MOC_LITERAL(58, 830, 15), // "fromListMovable"
+QT_MOC_LITERAL(59, 846, 14), // "fromListCustom"
+QT_MOC_LITERAL(60, 861, 13), // "fromStdVector"
+QT_MOC_LITERAL(61, 875, 7), // "indexOf"
+QT_MOC_LITERAL(62, 883, 9), // "insertInt"
+QT_MOC_LITERAL(63, 893, 13), // "insertMovable"
+QT_MOC_LITERAL(64, 907, 12), // "insertCustom"
+QT_MOC_LITERAL(65, 920, 7), // "isEmpty"
+QT_MOC_LITERAL(66, 928, 4), // "last"
+QT_MOC_LITERAL(67, 933, 11), // "lastIndexOf"
+QT_MOC_LITERAL(68, 945, 3), // "mid"
+QT_MOC_LITERAL(69, 949, 7), // "moveInt"
+QT_MOC_LITERAL(70, 957, 11), // "moveMovable"
+QT_MOC_LITERAL(71, 969, 10), // "moveCustom"
+QT_MOC_LITERAL(72, 980, 10), // "prependInt"
+QT_MOC_LITERAL(73, 991, 14), // "prependMovable"
+QT_MOC_LITERAL(74, 1006, 13), // "prependCustom"
+QT_MOC_LITERAL(75, 1020, 8), // "qhashInt"
+QT_MOC_LITERAL(76, 1029, 12), // "qhashMovable"
+QT_MOC_LITERAL(77, 1042, 11), // "qhashCustom"
+QT_MOC_LITERAL(78, 1054, 18), // "removeAllWithAlias"
+QT_MOC_LITERAL(79, 1073, 9), // "removeInt"
+QT_MOC_LITERAL(80, 1083, 13), // "removeMovable"
+QT_MOC_LITERAL(81, 1097, 12), // "removeCustom"
+QT_MOC_LITERAL(82, 1110, 15), // "removeFirstLast"
+QT_MOC_LITERAL(83, 1126, 14), // "resizePOD_data"
+QT_MOC_LITERAL(84, 1141, 9), // "resizePOD"
+QT_MOC_LITERAL(85, 1151, 25), // "resizeComplexMovable_data"
+QT_MOC_LITERAL(86, 1177, 20), // "resizeComplexMovable"
+QT_MOC_LITERAL(87, 1198, 18), // "resizeComplex_data"
+QT_MOC_LITERAL(88, 1217, 13), // "resizeComplex"
+QT_MOC_LITERAL(89, 1231, 17), // "resizeCtorAndDtor"
+QT_MOC_LITERAL(90, 1249, 16), // "reverseIterators"
+QT_MOC_LITERAL(91, 1266, 7), // "sizeInt"
+QT_MOC_LITERAL(92, 1274, 11), // "sizeMovable"
+QT_MOC_LITERAL(93, 1286, 10), // "sizeCustom"
+QT_MOC_LITERAL(94, 1297, 10), // "startsWith"
+QT_MOC_LITERAL(95, 1308, 7), // "swapInt"
+QT_MOC_LITERAL(96, 1316, 11), // "swapMovable"
+QT_MOC_LITERAL(97, 1328, 10), // "swapCustom"
+QT_MOC_LITERAL(98, 1339, 6), // "toList"
+QT_MOC_LITERAL(99, 1346, 11), // "toStdVector"
+QT_MOC_LITERAL(100, 1358, 5), // "value"
+QT_MOC_LITERAL(101, 1364, 13), // "testOperators"
+QT_MOC_LITERAL(102, 1378, 7), // "reserve"
+QT_MOC_LITERAL(103, 1386, 11), // "reserveZero"
+QT_MOC_LITERAL(104, 1398, 21), // "reallocAfterCopy_data"
+QT_MOC_LITERAL(105, 1420, 16), // "reallocAfterCopy"
+QT_MOC_LITERAL(106, 1437, 17), // "initializeListInt"
+QT_MOC_LITERAL(107, 1455, 21), // "initializeListMovable"
+QT_MOC_LITERAL(108, 1477, 20), // "initializeListCustom"
+QT_MOC_LITERAL(109, 1498, 17), // "const_shared_null"
+QT_MOC_LITERAL(110, 1516, 19), // "setSharableInt_data"
+QT_MOC_LITERAL(111, 1536, 14), // "setSharableInt"
+QT_MOC_LITERAL(112, 1551, 23), // "setSharableMovable_data"
+QT_MOC_LITERAL(113, 1575, 18), // "setSharableMovable"
+QT_MOC_LITERAL(114, 1594, 22), // "setSharableCustom_data"
+QT_MOC_LITERAL(115, 1617, 17), // "setSharableCustom"
+QT_MOC_LITERAL(116, 1635, 9), // "detachInt"
+QT_MOC_LITERAL(117, 1645, 13), // "detachMovable"
+QT_MOC_LITERAL(118, 1659, 12), // "detachCustom"
+QT_MOC_LITERAL(119, 1672, 21), // "detachThreadSafetyInt"
+QT_MOC_LITERAL(120, 1694, 25), // "detachThreadSafetyMovable"
+QT_MOC_LITERAL(121, 1720, 24) // "detachThreadSafetyCustom"
+
+    },
+    "tst_QVector\0constructors_empty\0\0"
+    "constructors_emptyReserveZero\0"
+    "constructors_emptyReserve\0"
+    "constructors_reserveAndInitialize\0"
+    "copyConstructorInt\0copyConstructorMovable\0"
+    "copyConstructorCustom\0assignmentInt\0"
+    "assignmentMovable\0assignmentCustom\0"
+    "addInt\0addMovable\0addCustom\0appendInt\0"
+    "appendMovable\0appendCustom\0appendRvalue\0"
+    "at\0capacityInt\0capacityMovable\0"
+    "capacityCustom\0clearInt\0clearMovable\0"
+    "clearCustom\0constData\0constFirst\0"
+    "constLast\0contains\0countInt\0countMovable\0"
+    "countCustom\0data\0emptyInt\0emptyMovable\0"
+    "emptyCustom\0endsWith\0eraseEmptyInt\0"
+    "eraseEmptyMovable\0eraseEmptyCustom\0"
+    "eraseEmptyReservedInt\0eraseEmptyReservedMovable\0"
+    "eraseEmptyReservedCustom\0eraseInt\0"
+    "eraseIntShared\0eraseMovable\0"
+    "eraseMovableShared\0eraseCustom\0"
+    "eraseCustomShared\0eraseReservedInt\0"
+    "eraseReservedMovable\0eraseReservedCustom\0"
+    "fillInt\0fillMovable\0fillCustom\0first\0"
+    "fromListInt\0fromListMovable\0fromListCustom\0"
+    "fromStdVector\0indexOf\0insertInt\0"
+    "insertMovable\0insertCustom\0isEmpty\0"
+    "last\0lastIndexOf\0mid\0moveInt\0moveMovable\0"
+    "moveCustom\0prependInt\0prependMovable\0"
+    "prependCustom\0qhashInt\0qhashMovable\0"
+    "qhashCustom\0removeAllWithAlias\0removeInt\0"
+    "removeMovable\0removeCustom\0removeFirstLast\0"
+    "resizePOD_data\0resizePOD\0"
+    "resizeComplexMovable_data\0"
+    "resizeComplexMovable\0resizeComplex_data\0"
+    "resizeComplex\0resizeCtorAndDtor\0"
+    "reverseIterators\0sizeInt\0sizeMovable\0"
+    "sizeCustom\0startsWith\0swapInt\0swapMovable\0"
+    "swapCustom\0toList\0toStdVector\0value\0"
+    "testOperators\0reserve\0reserveZero\0"
+    "reallocAfterCopy_data\0reallocAfterCopy\0"
+    "initializeListInt\0initializeListMovable\0"
+    "initializeListCustom\0const_shared_null\0"
+    "setSharableInt_data\0setSharableInt\0"
+    "setSharableMovable_data\0setSharableMovable\0"
+    "setSharableCustom_data\0setSharableCustom\0"
+    "detachInt\0detachMovable\0detachCustom\0"
+    "detachThreadSafetyInt\0detachThreadSafetyMovable\0"
+    "detachThreadSafetyCustom"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QVector[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+     120,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  614,    2, 0x08 /* Private */,
+       3,    0,  615,    2, 0x08 /* Private */,
+       4,    0,  616,    2, 0x08 /* Private */,
+       5,    0,  617,    2, 0x08 /* Private */,
+       6,    0,  618,    2, 0x08 /* Private */,
+       7,    0,  619,    2, 0x08 /* Private */,
+       8,    0,  620,    2, 0x08 /* Private */,
+       9,    0,  621,    2, 0x08 /* Private */,
+      10,    0,  622,    2, 0x08 /* Private */,
+      11,    0,  623,    2, 0x08 /* Private */,
+      12,    0,  624,    2, 0x08 /* Private */,
+      13,    0,  625,    2, 0x08 /* Private */,
+      14,    0,  626,    2, 0x08 /* Private */,
+      15,    0,  627,    2, 0x08 /* Private */,
+      16,    0,  628,    2, 0x08 /* Private */,
+      17,    0,  629,    2, 0x08 /* Private */,
+      18,    0,  630,    2, 0x08 /* Private */,
+      19,    0,  631,    2, 0x08 /* Private */,
+      20,    0,  632,    2, 0x08 /* Private */,
+      21,    0,  633,    2, 0x08 /* Private */,
+      22,    0,  634,    2, 0x08 /* Private */,
+      23,    0,  635,    2, 0x08 /* Private */,
+      24,    0,  636,    2, 0x08 /* Private */,
+      25,    0,  637,    2, 0x08 /* Private */,
+      26,    0,  638,    2, 0x08 /* Private */,
+      27,    0,  639,    2, 0x08 /* Private */,
+      28,    0,  640,    2, 0x08 /* Private */,
+      29,    0,  641,    2, 0x08 /* Private */,
+      30,    0,  642,    2, 0x08 /* Private */,
+      31,    0,  643,    2, 0x08 /* Private */,
+      32,    0,  644,    2, 0x08 /* Private */,
+      33,    0,  645,    2, 0x08 /* Private */,
+      34,    0,  646,    2, 0x08 /* Private */,
+      35,    0,  647,    2, 0x08 /* Private */,
+      36,    0,  648,    2, 0x08 /* Private */,
+      37,    0,  649,    2, 0x08 /* Private */,
+      38,    0,  650,    2, 0x08 /* Private */,
+      39,    0,  651,    2, 0x08 /* Private */,
+      40,    0,  652,    2, 0x08 /* Private */,
+      41,    0,  653,    2, 0x08 /* Private */,
+      42,    0,  654,    2, 0x08 /* Private */,
+      43,    0,  655,    2, 0x08 /* Private */,
+      44,    0,  656,    2, 0x08 /* Private */,
+      45,    0,  657,    2, 0x08 /* Private */,
+      46,    0,  658,    2, 0x08 /* Private */,
+      47,    0,  659,    2, 0x08 /* Private */,
+      48,    0,  660,    2, 0x08 /* Private */,
+      49,    0,  661,    2, 0x08 /* Private */,
+      50,    0,  662,    2, 0x08 /* Private */,
+      51,    0,  663,    2, 0x08 /* Private */,
+      52,    0,  664,    2, 0x08 /* Private */,
+      53,    0,  665,    2, 0x08 /* Private */,
+      54,    0,  666,    2, 0x08 /* Private */,
+      55,    0,  667,    2, 0x08 /* Private */,
+      56,    0,  668,    2, 0x08 /* Private */,
+      57,    0,  669,    2, 0x08 /* Private */,
+      58,    0,  670,    2, 0x08 /* Private */,
+      59,    0,  671,    2, 0x08 /* Private */,
+      60,    0,  672,    2, 0x08 /* Private */,
+      61,    0,  673,    2, 0x08 /* Private */,
+      62,    0,  674,    2, 0x08 /* Private */,
+      63,    0,  675,    2, 0x08 /* Private */,
+      64,    0,  676,    2, 0x08 /* Private */,
+      65,    0,  677,    2, 0x08 /* Private */,
+      66,    0,  678,    2, 0x08 /* Private */,
+      67,    0,  679,    2, 0x08 /* Private */,
+      68,    0,  680,    2, 0x08 /* Private */,
+      69,    0,  681,    2, 0x08 /* Private */,
+      70,    0,  682,    2, 0x08 /* Private */,
+      71,    0,  683,    2, 0x08 /* Private */,
+      72,    0,  684,    2, 0x08 /* Private */,
+      73,    0,  685,    2, 0x08 /* Private */,
+      74,    0,  686,    2, 0x08 /* Private */,
+      75,    0,  687,    2, 0x08 /* Private */,
+      76,    0,  688,    2, 0x08 /* Private */,
+      77,    0,  689,    2, 0x08 /* Private */,
+      78,    0,  690,    2, 0x08 /* Private */,
+      79,    0,  691,    2, 0x08 /* Private */,
+      80,    0,  692,    2, 0x08 /* Private */,
+      81,    0,  693,    2, 0x08 /* Private */,
+      82,    0,  694,    2, 0x08 /* Private */,
+      83,    0,  695,    2, 0x08 /* Private */,
+      84,    0,  696,    2, 0x08 /* Private */,
+      85,    0,  697,    2, 0x08 /* Private */,
+      86,    0,  698,    2, 0x08 /* Private */,
+      87,    0,  699,    2, 0x08 /* Private */,
+      88,    0,  700,    2, 0x08 /* Private */,
+      89,    0,  701,    2, 0x08 /* Private */,
+      90,    0,  702,    2, 0x08 /* Private */,
+      91,    0,  703,    2, 0x08 /* Private */,
+      92,    0,  704,    2, 0x08 /* Private */,
+      93,    0,  705,    2, 0x08 /* Private */,
+      94,    0,  706,    2, 0x08 /* Private */,
+      95,    0,  707,    2, 0x08 /* Private */,
+      96,    0,  708,    2, 0x08 /* Private */,
+      97,    0,  709,    2, 0x08 /* Private */,
+      98,    0,  710,    2, 0x08 /* Private */,
+      99,    0,  711,    2, 0x08 /* Private */,
+     100,    0,  712,    2, 0x08 /* Private */,
+     101,    0,  713,    2, 0x08 /* Private */,
+     102,    0,  714,    2, 0x08 /* Private */,
+     103,    0,  715,    2, 0x08 /* Private */,
+     104,    0,  716,    2, 0x08 /* Private */,
+     105,    0,  717,    2, 0x08 /* Private */,
+     106,    0,  718,    2, 0x08 /* Private */,
+     107,    0,  719,    2, 0x08 /* Private */,
+     108,    0,  720,    2, 0x08 /* Private */,
+     109,    0,  721,    2, 0x08 /* Private */,
+     110,    0,  722,    2, 0x08 /* Private */,
+     111,    0,  723,    2, 0x08 /* Private */,
+     112,    0,  724,    2, 0x08 /* Private */,
+     113,    0,  725,    2, 0x08 /* Private */,
+     114,    0,  726,    2, 0x08 /* Private */,
+     115,    0,  727,    2, 0x08 /* Private */,
+     116,    0,  728,    2, 0x08 /* Private */,
+     117,    0,  729,    2, 0x08 /* Private */,
+     118,    0,  730,    2, 0x08 /* Private */,
+     119,    0,  731,    2, 0x08 /* Private */,
+     120,    0,  732,    2, 0x08 /* Private */,
+     121,    0,  733,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QVector::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QVector *_t = static_cast<tst_QVector *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->constructors_empty(); break;
+        case 1: _t->constructors_emptyReserveZero(); break;
+        case 2: _t->constructors_emptyReserve(); break;
+        case 3: _t->constructors_reserveAndInitialize(); break;
+        case 4: _t->copyConstructorInt(); break;
+        case 5: _t->copyConstructorMovable(); break;
+        case 6: _t->copyConstructorCustom(); break;
+        case 7: _t->assignmentInt(); break;
+        case 8: _t->assignmentMovable(); break;
+        case 9: _t->assignmentCustom(); break;
+        case 10: _t->addInt(); break;
+        case 11: _t->addMovable(); break;
+        case 12: _t->addCustom(); break;
+        case 13: _t->appendInt(); break;
+        case 14: _t->appendMovable(); break;
+        case 15: _t->appendCustom(); break;
+        case 16: _t->appendRvalue(); break;
+        case 17: _t->at(); break;
+        case 18: _t->capacityInt(); break;
+        case 19: _t->capacityMovable(); break;
+        case 20: _t->capacityCustom(); break;
+        case 21: _t->clearInt(); break;
+        case 22: _t->clearMovable(); break;
+        case 23: _t->clearCustom(); break;
+        case 24: _t->constData(); break;
+        case 25: _t->constFirst(); break;
+        case 26: _t->constLast(); break;
+        case 27: _t->contains(); break;
+        case 28: _t->countInt(); break;
+        case 29: _t->countMovable(); break;
+        case 30: _t->countCustom(); break;
+        case 31: _t->data(); break;
+        case 32: _t->emptyInt(); break;
+        case 33: _t->emptyMovable(); break;
+        case 34: _t->emptyCustom(); break;
+        case 35: _t->endsWith(); break;
+        case 36: _t->eraseEmptyInt(); break;
+        case 37: _t->eraseEmptyMovable(); break;
+        case 38: _t->eraseEmptyCustom(); break;
+        case 39: _t->eraseEmptyReservedInt(); break;
+        case 40: _t->eraseEmptyReservedMovable(); break;
+        case 41: _t->eraseEmptyReservedCustom(); break;
+        case 42: _t->eraseInt(); break;
+        case 43: _t->eraseIntShared(); break;
+        case 44: _t->eraseMovable(); break;
+        case 45: _t->eraseMovableShared(); break;
+        case 46: _t->eraseCustom(); break;
+        case 47: _t->eraseCustomShared(); break;
+        case 48: _t->eraseReservedInt(); break;
+        case 49: _t->eraseReservedMovable(); break;
+        case 50: _t->eraseReservedCustom(); break;
+        case 51: _t->fillInt(); break;
+        case 52: _t->fillMovable(); break;
+        case 53: _t->fillCustom(); break;
+        case 54: _t->first(); break;
+        case 55: _t->fromListInt(); break;
+        case 56: _t->fromListMovable(); break;
+        case 57: _t->fromListCustom(); break;
+        case 58: _t->fromStdVector(); break;
+        case 59: _t->indexOf(); break;
+        case 60: _t->insertInt(); break;
+        case 61: _t->insertMovable(); break;
+        case 62: _t->insertCustom(); break;
+        case 63: _t->isEmpty(); break;
+        case 64: _t->last(); break;
+        case 65: _t->lastIndexOf(); break;
+        case 66: _t->mid(); break;
+        case 67: _t->moveInt(); break;
+        case 68: _t->moveMovable(); break;
+        case 69: _t->moveCustom(); break;
+        case 70: _t->prependInt(); break;
+        case 71: _t->prependMovable(); break;
+        case 72: _t->prependCustom(); break;
+        case 73: _t->qhashInt(); break;
+        case 74: _t->qhashMovable(); break;
+        case 75: _t->qhashCustom(); break;
+        case 76: _t->removeAllWithAlias(); break;
+        case 77: _t->removeInt(); break;
+        case 78: _t->removeMovable(); break;
+        case 79: _t->removeCustom(); break;
+        case 80: _t->removeFirstLast(); break;
+        case 81: _t->resizePOD_data(); break;
+        case 82: _t->resizePOD(); break;
+        case 83: _t->resizeComplexMovable_data(); break;
+        case 84: _t->resizeComplexMovable(); break;
+        case 85: _t->resizeComplex_data(); break;
+        case 86: _t->resizeComplex(); break;
+        case 87: _t->resizeCtorAndDtor(); break;
+        case 88: _t->reverseIterators(); break;
+        case 89: _t->sizeInt(); break;
+        case 90: _t->sizeMovable(); break;
+        case 91: _t->sizeCustom(); break;
+        case 92: _t->startsWith(); break;
+        case 93: _t->swapInt(); break;
+        case 94: _t->swapMovable(); break;
+        case 95: _t->swapCustom(); break;
+        case 96: _t->toList(); break;
+        case 97: _t->toStdVector(); break;
+        case 98: _t->value(); break;
+        case 99: _t->testOperators(); break;
+        case 100: _t->reserve(); break;
+        case 101: _t->reserveZero(); break;
+        case 102: _t->reallocAfterCopy_data(); break;
+        case 103: _t->reallocAfterCopy(); break;
+        case 104: _t->initializeListInt(); break;
+        case 105: _t->initializeListMovable(); break;
+        case 106: _t->initializeListCustom(); break;
+        case 107: _t->const_shared_null(); break;
+        case 108: _t->setSharableInt_data(); break;
+        case 109: _t->setSharableInt(); break;
+        case 110: _t->setSharableMovable_data(); break;
+        case 111: _t->setSharableMovable(); break;
+        case 112: _t->setSharableCustom_data(); break;
+        case 113: _t->setSharableCustom(); break;
+        case 114: _t->detachInt(); break;
+        case 115: _t->detachMovable(); break;
+        case 116: _t->detachCustom(); break;
+        case 117: _t->detachThreadSafetyInt(); break;
+        case 118: _t->detachThreadSafetyMovable(); break;
+        case 119: _t->detachThreadSafetyCustom(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QVector::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QVector.data,
+      qt_meta_data_tst_QVector,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QVector::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QVector::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QVector.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QVector::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 120)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 120;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 120)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 120;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

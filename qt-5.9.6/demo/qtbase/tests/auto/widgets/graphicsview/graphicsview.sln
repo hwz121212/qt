@@ -1,0 +1,80 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qgraphicseffectsource", "F:/qt/Src/qtbase/tests/auto/widgets/graphicsview/qgraphicseffectsource\tst_qgraphicseffectsource.vcxproj", "{C111B93E-9CFA-3CB6-89BF-FCE3773BD8F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qgraphicsgridlayout", "F:/qt/Src/qtbase/tests/auto/widgets/graphicsview/qgraphicsgridlayout\tst_qgraphicsgridlayout.vcxproj", "{1DF96EEC-E8A1-3F22-828C-5F3147E57932}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qgraphicsitemanimation", "F:/qt/Src/qtbase/tests/auto/widgets/graphicsview/qgraphicsitemanimation\tst_qgraphicsitemanimation.vcxproj", "{9BAD2351-B3E9-3310-9CC1-AF500B386239}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qgraphicslayout", "F:/qt/Src/qtbase/tests/auto/widgets/graphicsview/qgraphicslayout\tst_qgraphicslayout.vcxproj", "{71EB992E-39E3-3980-B610-B3C65F41B031}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qgraphicslayoutitem", "F:/qt/Src/qtbase/tests/auto/widgets/graphicsview/qgraphicslayoutitem\tst_qgraphicslayoutitem.vcxproj", "{AB0959C0-199A-33B5-BBA2-06C4F1576B69}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qgraphicslinearlayout", "F:/qt/Src/qtbase/tests/auto/widgets/graphicsview/qgraphicslinearlayout\tst_qgraphicslinearlayout.vcxproj", "{426EF21B-E063-3AC7-858F-1475E0CEA3B7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qgraphicsobject", "F:/qt/Src/qtbase/tests/auto/widgets/graphicsview/qgraphicsobject\tst_qgraphicsobject.vcxproj", "{4A16CDF3-67A6-3934-AE35-610BE780781A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qgraphicspixmapitem", "F:/qt/Src/qtbase/tests/auto/widgets/graphicsview/qgraphicspixmapitem\tst_qgraphicspixmapitem.vcxproj", "{5EE2DBAC-109F-357A-8046-2D34EB2A6EDD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qgraphicspolygonitem", "F:/qt/Src/qtbase/tests/auto/widgets/graphicsview/qgraphicspolygonitem\tst_qgraphicspolygonitem.vcxproj", "{125C4B09-803B-3038-9493-BBCB34A11736}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qgraphicstransform", "F:/qt/Src/qtbase/tests/auto/widgets/graphicsview/qgraphicstransform\tst_qgraphicstransform.vcxproj", "{11DCF10D-E484-3E2C-A6EF-BDBF1DFEDCD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qgraphicsview", "F:/qt/Src/qtbase/tests/auto/widgets/graphicsview/qgraphicsview\tst_qgraphicsview.vcxproj", "{1DB95DCD-DFB3-3851-BDA2-33BAE7F34204}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C111B93E-9CFA-3CB6-89BF-FCE3773BD8F1}.Debug|x64.ActiveCfg = Debug|x64
+		{C111B93E-9CFA-3CB6-89BF-FCE3773BD8F1}.Debug|x64.Build.0 = Debug|x64
+		{C111B93E-9CFA-3CB6-89BF-FCE3773BD8F1}.Release|x64.ActiveCfg = Release|x64
+		{C111B93E-9CFA-3CB6-89BF-FCE3773BD8F1}.Release|x64.Build.0 = Release|x64
+		{1DF96EEC-E8A1-3F22-828C-5F3147E57932}.Debug|x64.ActiveCfg = Debug|x64
+		{1DF96EEC-E8A1-3F22-828C-5F3147E57932}.Debug|x64.Build.0 = Debug|x64
+		{1DF96EEC-E8A1-3F22-828C-5F3147E57932}.Release|x64.ActiveCfg = Release|x64
+		{1DF96EEC-E8A1-3F22-828C-5F3147E57932}.Release|x64.Build.0 = Release|x64
+		{9BAD2351-B3E9-3310-9CC1-AF500B386239}.Debug|x64.ActiveCfg = Debug|x64
+		{9BAD2351-B3E9-3310-9CC1-AF500B386239}.Debug|x64.Build.0 = Debug|x64
+		{9BAD2351-B3E9-3310-9CC1-AF500B386239}.Release|x64.ActiveCfg = Release|x64
+		{9BAD2351-B3E9-3310-9CC1-AF500B386239}.Release|x64.Build.0 = Release|x64
+		{71EB992E-39E3-3980-B610-B3C65F41B031}.Debug|x64.ActiveCfg = Debug|x64
+		{71EB992E-39E3-3980-B610-B3C65F41B031}.Debug|x64.Build.0 = Debug|x64
+		{71EB992E-39E3-3980-B610-B3C65F41B031}.Release|x64.ActiveCfg = Release|x64
+		{71EB992E-39E3-3980-B610-B3C65F41B031}.Release|x64.Build.0 = Release|x64
+		{AB0959C0-199A-33B5-BBA2-06C4F1576B69}.Debug|x64.ActiveCfg = Debug|x64
+		{AB0959C0-199A-33B5-BBA2-06C4F1576B69}.Debug|x64.Build.0 = Debug|x64
+		{AB0959C0-199A-33B5-BBA2-06C4F1576B69}.Release|x64.ActiveCfg = Release|x64
+		{AB0959C0-199A-33B5-BBA2-06C4F1576B69}.Release|x64.Build.0 = Release|x64
+		{426EF21B-E063-3AC7-858F-1475E0CEA3B7}.Debug|x64.ActiveCfg = Debug|x64
+		{426EF21B-E063-3AC7-858F-1475E0CEA3B7}.Debug|x64.Build.0 = Debug|x64
+		{426EF21B-E063-3AC7-858F-1475E0CEA3B7}.Release|x64.ActiveCfg = Release|x64
+		{426EF21B-E063-3AC7-858F-1475E0CEA3B7}.Release|x64.Build.0 = Release|x64
+		{4A16CDF3-67A6-3934-AE35-610BE780781A}.Debug|x64.ActiveCfg = Debug|x64
+		{4A16CDF3-67A6-3934-AE35-610BE780781A}.Debug|x64.Build.0 = Debug|x64
+		{4A16CDF3-67A6-3934-AE35-610BE780781A}.Release|x64.ActiveCfg = Release|x64
+		{4A16CDF3-67A6-3934-AE35-610BE780781A}.Release|x64.Build.0 = Release|x64
+		{5EE2DBAC-109F-357A-8046-2D34EB2A6EDD}.Debug|x64.ActiveCfg = Debug|x64
+		{5EE2DBAC-109F-357A-8046-2D34EB2A6EDD}.Debug|x64.Build.0 = Debug|x64
+		{5EE2DBAC-109F-357A-8046-2D34EB2A6EDD}.Release|x64.ActiveCfg = Release|x64
+		{5EE2DBAC-109F-357A-8046-2D34EB2A6EDD}.Release|x64.Build.0 = Release|x64
+		{125C4B09-803B-3038-9493-BBCB34A11736}.Debug|x64.ActiveCfg = Debug|x64
+		{125C4B09-803B-3038-9493-BBCB34A11736}.Debug|x64.Build.0 = Debug|x64
+		{125C4B09-803B-3038-9493-BBCB34A11736}.Release|x64.ActiveCfg = Release|x64
+		{125C4B09-803B-3038-9493-BBCB34A11736}.Release|x64.Build.0 = Release|x64
+		{11DCF10D-E484-3E2C-A6EF-BDBF1DFEDCD7}.Debug|x64.ActiveCfg = Debug|x64
+		{11DCF10D-E484-3E2C-A6EF-BDBF1DFEDCD7}.Debug|x64.Build.0 = Debug|x64
+		{11DCF10D-E484-3E2C-A6EF-BDBF1DFEDCD7}.Release|x64.ActiveCfg = Release|x64
+		{11DCF10D-E484-3E2C-A6EF-BDBF1DFEDCD7}.Release|x64.Build.0 = Release|x64
+		{1DB95DCD-DFB3-3851-BDA2-33BAE7F34204}.Debug|x64.ActiveCfg = Debug|x64
+		{1DB95DCD-DFB3-3851-BDA2-33BAE7F34204}.Debug|x64.Build.0 = Debug|x64
+		{1DB95DCD-DFB3-3851-BDA2-33BAE7F34204}.Release|x64.ActiveCfg = Release|x64
+		{1DB95DCD-DFB3-3851-BDA2-33BAE7F34204}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

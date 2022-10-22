@@ -1,0 +1,206 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'qheaderviewbench.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'qheaderviewbench.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_BenchQHeaderView_t {
+    QByteArrayData data[24];
+    char stringdata0[377];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_BenchQHeaderView_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_BenchQHeaderView_t qt_meta_stringdata_BenchQHeaderView = {
+    {
+QT_MOC_LITERAL(0, 0, 16), // "BenchQHeaderView"
+QT_MOC_LITERAL(1, 17, 4), // "init"
+QT_MOC_LITERAL(2, 22, 0), // ""
+QT_MOC_LITERAL(3, 23, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(4, 39, 12), // "initTestCase"
+QT_MOC_LITERAL(5, 52, 7), // "cleanup"
+QT_MOC_LITERAL(6, 60, 25), // "visualIndexAtSpecial_data"
+QT_MOC_LITERAL(7, 86, 18), // "visualIndexAt_data"
+QT_MOC_LITERAL(8, 105, 18), // "hideShowBench_data"
+QT_MOC_LITERAL(9, 124, 22), // "swapSectionsBench_data"
+QT_MOC_LITERAL(10, 147, 21), // "moveSectionBench_data"
+QT_MOC_LITERAL(11, 169, 21), // "defaultSizeBench_data"
+QT_MOC_LITERAL(12, 191, 16), // "removeBench_data"
+QT_MOC_LITERAL(13, 208, 16), // "insertBench_data"
+QT_MOC_LITERAL(14, 225, 15), // "truncBench_data"
+QT_MOC_LITERAL(15, 241, 20), // "visualIndexAtSpecial"
+QT_MOC_LITERAL(16, 262, 13), // "visualIndexAt"
+QT_MOC_LITERAL(17, 276, 13), // "hideShowBench"
+QT_MOC_LITERAL(18, 290, 17), // "swapSectionsBench"
+QT_MOC_LITERAL(19, 308, 16), // "moveSectionBench"
+QT_MOC_LITERAL(20, 325, 16), // "defaultSizeBench"
+QT_MOC_LITERAL(21, 342, 11), // "removeBench"
+QT_MOC_LITERAL(22, 354, 11), // "insertBench"
+QT_MOC_LITERAL(23, 366, 10) // "truncBench"
+
+    },
+    "BenchQHeaderView\0init\0\0cleanupTestCase\0"
+    "initTestCase\0cleanup\0visualIndexAtSpecial_data\0"
+    "visualIndexAt_data\0hideShowBench_data\0"
+    "swapSectionsBench_data\0moveSectionBench_data\0"
+    "defaultSizeBench_data\0removeBench_data\0"
+    "insertBench_data\0truncBench_data\0"
+    "visualIndexAtSpecial\0visualIndexAt\0"
+    "hideShowBench\0swapSectionsBench\0"
+    "moveSectionBench\0defaultSizeBench\0"
+    "removeBench\0insertBench\0truncBench"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_BenchQHeaderView[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      22,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  124,    2, 0x08 /* Private */,
+       3,    0,  125,    2, 0x08 /* Private */,
+       4,    0,  126,    2, 0x08 /* Private */,
+       5,    0,  127,    2, 0x08 /* Private */,
+       6,    0,  128,    2, 0x08 /* Private */,
+       7,    0,  129,    2, 0x08 /* Private */,
+       8,    0,  130,    2, 0x08 /* Private */,
+       9,    0,  131,    2, 0x08 /* Private */,
+      10,    0,  132,    2, 0x08 /* Private */,
+      11,    0,  133,    2, 0x08 /* Private */,
+      12,    0,  134,    2, 0x08 /* Private */,
+      13,    0,  135,    2, 0x08 /* Private */,
+      14,    0,  136,    2, 0x08 /* Private */,
+      15,    0,  137,    2, 0x08 /* Private */,
+      16,    0,  138,    2, 0x08 /* Private */,
+      17,    0,  139,    2, 0x08 /* Private */,
+      18,    0,  140,    2, 0x08 /* Private */,
+      19,    0,  141,    2, 0x08 /* Private */,
+      20,    0,  142,    2, 0x08 /* Private */,
+      21,    0,  143,    2, 0x08 /* Private */,
+      22,    0,  144,    2, 0x08 /* Private */,
+      23,    0,  145,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void BenchQHeaderView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        BenchQHeaderView *_t = static_cast<BenchQHeaderView *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->init(); break;
+        case 1: _t->cleanupTestCase(); break;
+        case 2: _t->initTestCase(); break;
+        case 3: _t->cleanup(); break;
+        case 4: _t->visualIndexAtSpecial_data(); break;
+        case 5: _t->visualIndexAt_data(); break;
+        case 6: _t->hideShowBench_data(); break;
+        case 7: _t->swapSectionsBench_data(); break;
+        case 8: _t->moveSectionBench_data(); break;
+        case 9: _t->defaultSizeBench_data(); break;
+        case 10: _t->removeBench_data(); break;
+        case 11: _t->insertBench_data(); break;
+        case 12: _t->truncBench_data(); break;
+        case 13: _t->visualIndexAtSpecial(); break;
+        case 14: _t->visualIndexAt(); break;
+        case 15: _t->hideShowBench(); break;
+        case 16: _t->swapSectionsBench(); break;
+        case 17: _t->moveSectionBench(); break;
+        case 18: _t->defaultSizeBench(); break;
+        case 19: _t->removeBench(); break;
+        case 20: _t->insertBench(); break;
+        case 21: _t->truncBench(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject BenchQHeaderView::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_BenchQHeaderView.data,
+      qt_meta_data_BenchQHeaderView,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *BenchQHeaderView::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *BenchQHeaderView::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_BenchQHeaderView.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int BenchQHeaderView::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 22)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 22;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 22)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 22;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

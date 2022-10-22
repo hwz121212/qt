@@ -1,0 +1,62 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gallery", "F:/qt/Src/qtquickcontrols/examples/quickcontrols/controls/gallery\gallery.vcxproj", "{22CEE5B7-2ACC-3ABF-B616-0F02C62266A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tableview", "F:/qt/Src/qtquickcontrols/examples/quickcontrols/controls/tableview\tableview.vcxproj", "{D6BC4463-B07B-3F43-8F92-496A9A92DFF8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "touch", "F:/qt/Src/qtquickcontrols/examples/quickcontrols/controls/touch\touch.vcxproj", "{A0A75CD3-437F-3DE9-BA6D-E77E9C99C3C7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "styles", "F:/qt/Src/qtquickcontrols/examples/quickcontrols/controls/styles\styles.vcxproj", "{8761FC7B-EA0E-3BA8-AEE5-27A0023D1DB5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "uiforms", "F:/qt/Src/qtquickcontrols/examples/quickcontrols/controls/uiforms\uiforms.vcxproj", "{2295ECA4-44A6-3434-BADB-55DD50A8DA2B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "texteditor", "F:/qt/Src/qtquickcontrols/examples/quickcontrols/controls/texteditor\texteditor.vcxproj", "{897FF3FF-4F90-3148-ADBB-B335C0CC699C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "filesystembrowser", "F:/qt/Src/qtquickcontrols/examples/quickcontrols/controls/filesystembrowser\filesystembrowser.vcxproj", "{A712D043-940D-3A1B-9C3D-33F3E40C7561}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calendar", "F:/qt/Src/qtquickcontrols/examples/quickcontrols/controls/calendar\calendar.vcxproj", "{9D58293C-0A9D-3476-B8C1-5A7117004B81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22CEE5B7-2ACC-3ABF-B616-0F02C62266A3}.Debug|x64.ActiveCfg = Debug|x64
+		{22CEE5B7-2ACC-3ABF-B616-0F02C62266A3}.Debug|x64.Build.0 = Debug|x64
+		{22CEE5B7-2ACC-3ABF-B616-0F02C62266A3}.Release|x64.ActiveCfg = Release|x64
+		{22CEE5B7-2ACC-3ABF-B616-0F02C62266A3}.Release|x64.Build.0 = Release|x64
+		{D6BC4463-B07B-3F43-8F92-496A9A92DFF8}.Debug|x64.ActiveCfg = Debug|x64
+		{D6BC4463-B07B-3F43-8F92-496A9A92DFF8}.Debug|x64.Build.0 = Debug|x64
+		{D6BC4463-B07B-3F43-8F92-496A9A92DFF8}.Release|x64.ActiveCfg = Release|x64
+		{D6BC4463-B07B-3F43-8F92-496A9A92DFF8}.Release|x64.Build.0 = Release|x64
+		{A0A75CD3-437F-3DE9-BA6D-E77E9C99C3C7}.Debug|x64.ActiveCfg = Debug|x64
+		{A0A75CD3-437F-3DE9-BA6D-E77E9C99C3C7}.Debug|x64.Build.0 = Debug|x64
+		{A0A75CD3-437F-3DE9-BA6D-E77E9C99C3C7}.Release|x64.ActiveCfg = Release|x64
+		{A0A75CD3-437F-3DE9-BA6D-E77E9C99C3C7}.Release|x64.Build.0 = Release|x64
+		{8761FC7B-EA0E-3BA8-AEE5-27A0023D1DB5}.Debug|x64.ActiveCfg = Debug|x64
+		{8761FC7B-EA0E-3BA8-AEE5-27A0023D1DB5}.Debug|x64.Build.0 = Debug|x64
+		{8761FC7B-EA0E-3BA8-AEE5-27A0023D1DB5}.Release|x64.ActiveCfg = Release|x64
+		{8761FC7B-EA0E-3BA8-AEE5-27A0023D1DB5}.Release|x64.Build.0 = Release|x64
+		{2295ECA4-44A6-3434-BADB-55DD50A8DA2B}.Debug|x64.ActiveCfg = Debug|x64
+		{2295ECA4-44A6-3434-BADB-55DD50A8DA2B}.Debug|x64.Build.0 = Debug|x64
+		{2295ECA4-44A6-3434-BADB-55DD50A8DA2B}.Release|x64.ActiveCfg = Release|x64
+		{2295ECA4-44A6-3434-BADB-55DD50A8DA2B}.Release|x64.Build.0 = Release|x64
+		{897FF3FF-4F90-3148-ADBB-B335C0CC699C}.Debug|x64.ActiveCfg = Debug|x64
+		{897FF3FF-4F90-3148-ADBB-B335C0CC699C}.Debug|x64.Build.0 = Debug|x64
+		{897FF3FF-4F90-3148-ADBB-B335C0CC699C}.Release|x64.ActiveCfg = Release|x64
+		{897FF3FF-4F90-3148-ADBB-B335C0CC699C}.Release|x64.Build.0 = Release|x64
+		{A712D043-940D-3A1B-9C3D-33F3E40C7561}.Debug|x64.ActiveCfg = Debug|x64
+		{A712D043-940D-3A1B-9C3D-33F3E40C7561}.Debug|x64.Build.0 = Debug|x64
+		{A712D043-940D-3A1B-9C3D-33F3E40C7561}.Release|x64.ActiveCfg = Release|x64
+		{A712D043-940D-3A1B-9C3D-33F3E40C7561}.Release|x64.Build.0 = Release|x64
+		{9D58293C-0A9D-3476-B8C1-5A7117004B81}.Debug|x64.ActiveCfg = Debug|x64
+		{9D58293C-0A9D-3476-B8C1-5A7117004B81}.Debug|x64.Build.0 = Debug|x64
+		{9D58293C-0A9D-3476-B8C1-5A7117004B81}.Release|x64.ActiveCfg = Release|x64
+		{9D58293C-0A9D-3476-B8C1-5A7117004B81}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

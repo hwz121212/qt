@@ -1,0 +1,565 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_integration.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_integration.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_TestLargeData_t {
+    QByteArrayData data[4];
+    char stringdata0[25];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_TestLargeData_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_TestLargeData_t qt_meta_stringdata_TestLargeData = {
+    {
+QT_MOC_LITERAL(0, 0, 13), // "TestLargeData"
+QT_MOC_LITERAL(1, 14, 4), // "send"
+QT_MOC_LITERAL(2, 19, 0), // ""
+QT_MOC_LITERAL(3, 20, 4) // "data"
+
+    },
+    "TestLargeData\0send\0\0data"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_TestLargeData[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    1,   19,    2, 0x06 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::QByteArray,    3,
+
+       0        // eod
+};
+
+void TestLargeData::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        TestLargeData *_t = static_cast<TestLargeData *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->send((*reinterpret_cast< const QByteArray(*)>(_a[1]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            typedef void (TestLargeData::*_t)(const QByteArray & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&TestLargeData::send)) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+}
+
+const QMetaObject TestLargeData::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_TestLargeData.data,
+      qt_meta_data_TestLargeData,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *TestLargeData::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *TestLargeData::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_TestLargeData.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int TestLargeData::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void TestLargeData::send(const QByteArray & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+struct qt_meta_stringdata_TestDynamic_t {
+    QByteArrayData data[4];
+    char stringdata0[32];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_TestDynamic_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_TestDynamic_t qt_meta_stringdata_TestDynamic = {
+    {
+QT_MOC_LITERAL(0, 0, 11), // "TestDynamic"
+QT_MOC_LITERAL(1, 12, 12), // "valueChanged"
+QT_MOC_LITERAL(2, 25, 0), // ""
+QT_MOC_LITERAL(3, 26, 5) // "value"
+
+    },
+    "TestDynamic\0valueChanged\0\0value"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_TestDynamic[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       1,   20, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,   19,    2, 0x06 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void,
+
+ // properties: name, type, flags
+       3, QMetaType::Int, 0x00495103,
+
+ // properties: notify_signal_id
+       0,
+
+       0        // eod
+};
+
+void TestDynamic::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        TestDynamic *_t = static_cast<TestDynamic *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->valueChanged(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            typedef void (TestDynamic::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&TestDynamic::valueChanged)) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        TestDynamic *_t = static_cast<TestDynamic *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< int*>(_v) = _t->value(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        TestDynamic *_t = static_cast<TestDynamic *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setValue(*reinterpret_cast< int*>(_v)); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+    Q_UNUSED(_a);
+}
+
+const QMetaObject TestDynamic::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_TestDynamic.data,
+      qt_meta_data_TestDynamic,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *TestDynamic::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *TestDynamic::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_TestDynamic.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int TestDynamic::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+#ifndef QT_NO_PROPERTIES
+   else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 1;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void TestDynamic::valueChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+struct qt_meta_stringdata_tst_Integration_t {
+    QByteArrayData data[43];
+    char stringdata0[710];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_Integration_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_Integration_t qt_meta_stringdata_tst_Integration = {
+    {
+QT_MOC_LITERAL(0, 0, 15), // "tst_Integration"
+QT_MOC_LITERAL(1, 16, 13), // "forwardResult"
+QT_MOC_LITERAL(2, 30, 0), // ""
+QT_MOC_LITERAL(3, 31, 12), // "initTestCase"
+QT_MOC_LITERAL(4, 44, 7), // "cleanup"
+QT_MOC_LITERAL(5, 52, 9), // "basicTest"
+QT_MOC_LITERAL(6, 62, 18), // "persistRestoreTest"
+QT_MOC_LITERAL(7, 81, 11), // "persistTest"
+QT_MOC_LITERAL(8, 93, 8), // "enumTest"
+QT_MOC_LITERAL(9, 102, 15), // "namedObjectTest"
+QT_MOC_LITERAL(10, 118, 21), // "multipleInstancesTest"
+QT_MOC_LITERAL(11, 140, 17), // "registryAddedTest"
+QT_MOC_LITERAL(12, 158, 12), // "registryTest"
+QT_MOC_LITERAL(13, 171, 15), // "invalidUrlsTest"
+QT_MOC_LITERAL(14, 187, 14), // "noRegistryTest"
+QT_MOC_LITERAL(15, 202, 19), // "delayedRegistryTest"
+QT_MOC_LITERAL(16, 222, 16), // "defaultValueTest"
+QT_MOC_LITERAL(17, 239, 10), // "notifyTest"
+QT_MOC_LITERAL(18, 250, 17), // "dynamicNotifyTest"
+QT_MOC_LITERAL(19, 268, 8), // "slotTest"
+QT_MOC_LITERAL(20, 277, 19), // "slotTestWithWatcher"
+QT_MOC_LITERAL(21, 297, 22), // "slotTestDynamicReplica"
+QT_MOC_LITERAL(22, 320, 35), // "slotTestDynamicReplicaWithArg..."
+QT_MOC_LITERAL(23, 356, 24), // "expapiTestDynamicReplica"
+QT_MOC_LITERAL(24, 381, 17), // "slotTestInProcess"
+QT_MOC_LITERAL(25, 399, 33), // "slotTestWithUnnormalizedSigna..."
+QT_MOC_LITERAL(26, 433, 10), // "setterTest"
+QT_MOC_LITERAL(27, 444, 8), // "pushTest"
+QT_MOC_LITERAL(28, 453, 17), // "dynamicSetterTest"
+QT_MOC_LITERAL(29, 471, 21), // "slotWithParameterTest"
+QT_MOC_LITERAL(30, 493, 26), // "slotWithUserReturnTypeTest"
+QT_MOC_LITERAL(31, 520, 21), // "sequentialReplicaTest"
+QT_MOC_LITERAL(32, 542, 17), // "doubleReplicaTest"
+QT_MOC_LITERAL(33, 560, 14), // "twoReplicaTest"
+QT_MOC_LITERAL(34, 575, 21), // "rawDynamicReplicaTest"
+QT_MOC_LITERAL(35, 597, 18), // "dynamicReplicaTest"
+QT_MOC_LITERAL(36, 616, 7), // "apiTest"
+QT_MOC_LITERAL(37, 624, 13), // "apiInProcTest"
+QT_MOC_LITERAL(38, 638, 15), // "errorSignalTest"
+QT_MOC_LITERAL(39, 654, 22), // "clientBeforeServerTest"
+QT_MOC_LITERAL(40, 677, 13), // "largeDataTest"
+QT_MOC_LITERAL(41, 691, 7), // "PODTest"
+QT_MOC_LITERAL(42, 699, 10) // "SchemeTest"
+
+    },
+    "tst_Integration\0forwardResult\0\0"
+    "initTestCase\0cleanup\0basicTest\0"
+    "persistRestoreTest\0persistTest\0enumTest\0"
+    "namedObjectTest\0multipleInstancesTest\0"
+    "registryAddedTest\0registryTest\0"
+    "invalidUrlsTest\0noRegistryTest\0"
+    "delayedRegistryTest\0defaultValueTest\0"
+    "notifyTest\0dynamicNotifyTest\0slotTest\0"
+    "slotTestWithWatcher\0slotTestDynamicReplica\0"
+    "slotTestDynamicReplicaWithArguments\0"
+    "expapiTestDynamicReplica\0slotTestInProcess\0"
+    "slotTestWithUnnormalizedSignature\0"
+    "setterTest\0pushTest\0dynamicSetterTest\0"
+    "slotWithParameterTest\0slotWithUserReturnTypeTest\0"
+    "sequentialReplicaTest\0doubleReplicaTest\0"
+    "twoReplicaTest\0rawDynamicReplicaTest\0"
+    "dynamicReplicaTest\0apiTest\0apiInProcTest\0"
+    "errorSignalTest\0clientBeforeServerTest\0"
+    "largeDataTest\0PODTest\0SchemeTest"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_Integration[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      41,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    1,  219,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       3,    0,  222,    2, 0x08 /* Private */,
+       4,    0,  223,    2, 0x08 /* Private */,
+       5,    0,  224,    2, 0x08 /* Private */,
+       6,    0,  225,    2, 0x08 /* Private */,
+       7,    0,  226,    2, 0x08 /* Private */,
+       8,    0,  227,    2, 0x08 /* Private */,
+       9,    0,  228,    2, 0x08 /* Private */,
+      10,    0,  229,    2, 0x08 /* Private */,
+      11,    0,  230,    2, 0x08 /* Private */,
+      12,    0,  231,    2, 0x08 /* Private */,
+      13,    0,  232,    2, 0x08 /* Private */,
+      14,    0,  233,    2, 0x08 /* Private */,
+      15,    0,  234,    2, 0x08 /* Private */,
+      16,    0,  235,    2, 0x08 /* Private */,
+      17,    0,  236,    2, 0x08 /* Private */,
+      18,    0,  237,    2, 0x08 /* Private */,
+      19,    0,  238,    2, 0x08 /* Private */,
+      20,    0,  239,    2, 0x08 /* Private */,
+      21,    0,  240,    2, 0x08 /* Private */,
+      22,    0,  241,    2, 0x08 /* Private */,
+      23,    0,  242,    2, 0x08 /* Private */,
+      24,    0,  243,    2, 0x08 /* Private */,
+      25,    0,  244,    2, 0x08 /* Private */,
+      26,    0,  245,    2, 0x08 /* Private */,
+      27,    0,  246,    2, 0x08 /* Private */,
+      28,    0,  247,    2, 0x08 /* Private */,
+      29,    0,  248,    2, 0x08 /* Private */,
+      30,    0,  249,    2, 0x08 /* Private */,
+      31,    0,  250,    2, 0x08 /* Private */,
+      32,    0,  251,    2, 0x08 /* Private */,
+      33,    0,  252,    2, 0x08 /* Private */,
+      34,    0,  253,    2, 0x08 /* Private */,
+      35,    0,  254,    2, 0x08 /* Private */,
+      36,    0,  255,    2, 0x08 /* Private */,
+      37,    0,  256,    2, 0x08 /* Private */,
+      38,    0,  257,    2, 0x08 /* Private */,
+      39,    0,  258,    2, 0x08 /* Private */,
+      40,    0,  259,    2, 0x08 /* Private */,
+      41,    0,  260,    2, 0x08 /* Private */,
+      42,    0,  261,    2, 0x08 /* Private */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::Int,    2,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_Integration::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_Integration *_t = static_cast<tst_Integration *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->forwardResult((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 1: _t->initTestCase(); break;
+        case 2: _t->cleanup(); break;
+        case 3: _t->basicTest(); break;
+        case 4: _t->persistRestoreTest(); break;
+        case 5: _t->persistTest(); break;
+        case 6: _t->enumTest(); break;
+        case 7: _t->namedObjectTest(); break;
+        case 8: _t->multipleInstancesTest(); break;
+        case 9: _t->registryAddedTest(); break;
+        case 10: _t->registryTest(); break;
+        case 11: _t->invalidUrlsTest(); break;
+        case 12: _t->noRegistryTest(); break;
+        case 13: _t->delayedRegistryTest(); break;
+        case 14: _t->defaultValueTest(); break;
+        case 15: _t->notifyTest(); break;
+        case 16: _t->dynamicNotifyTest(); break;
+        case 17: _t->slotTest(); break;
+        case 18: _t->slotTestWithWatcher(); break;
+        case 19: _t->slotTestDynamicReplica(); break;
+        case 20: _t->slotTestDynamicReplicaWithArguments(); break;
+        case 21: _t->expapiTestDynamicReplica(); break;
+        case 22: _t->slotTestInProcess(); break;
+        case 23: _t->slotTestWithUnnormalizedSignature(); break;
+        case 24: _t->setterTest(); break;
+        case 25: _t->pushTest(); break;
+        case 26: _t->dynamicSetterTest(); break;
+        case 27: _t->slotWithParameterTest(); break;
+        case 28: _t->slotWithUserReturnTypeTest(); break;
+        case 29: _t->sequentialReplicaTest(); break;
+        case 30: _t->doubleReplicaTest(); break;
+        case 31: _t->twoReplicaTest(); break;
+        case 32: _t->rawDynamicReplicaTest(); break;
+        case 33: _t->dynamicReplicaTest(); break;
+        case 34: _t->apiTest(); break;
+        case 35: _t->apiInProcTest(); break;
+        case 36: _t->errorSignalTest(); break;
+        case 37: _t->clientBeforeServerTest(); break;
+        case 38: _t->largeDataTest(); break;
+        case 39: _t->PODTest(); break;
+        case 40: _t->SchemeTest(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            typedef void (tst_Integration::*_t)(int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&tst_Integration::forwardResult)) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+}
+
+const QMetaObject tst_Integration::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_Integration.data,
+      qt_meta_data_tst_Integration,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_Integration::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_Integration::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_Integration.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_Integration::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 41)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 41;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 41)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 41;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void tst_Integration::forwardResult(int _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

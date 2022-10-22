@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1D4F5887-34DB-3985-B76F-D7E6E2497690}</ProjectGuid>
+    <RootNamespace>tst_parser</RootNamespace>
+    <Keyword>QtVS_v304</Keyword>
+  <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion><QtMsBuild Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild></PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    
+    
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    
+    
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" /><Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')"><Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." /></Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" /><ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')"><Import Project="$(QtMsBuild)\qt_defaults.props" /></ImportGroup><PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"><OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir><IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir><IgnoreImportLibrary>true</IgnoreImportLibrary></PropertyGroup><PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'"><OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir><IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir><IgnoreImportLibrary>true</IgnoreImportLibrary><LinkIncremental>false</LinkIncremental></PropertyGroup><PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"><QtInstall>msvc2017_64</QtInstall><QtModules>core;network;gui;testlib;qml;scxml</QtModules></PropertyGroup><PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'"><QtInstall>msvc2017_64</QtInstall><QtModules>core;network;gui;testlib;qml;scxml</QtModules></PropertyGroup><ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')"><Import Project="$(QtMsBuild)\qt.props" /></ImportGroup>
+  
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.moc;.rcc;.uic;.;$(SolutionDir)thirdparty\qt-5.9.6\include;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWinExtras;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWinExtras\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWinExtras\5.9.6\QtWinExtras;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScxml;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScxml\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScxml\5.9.6\QtScxml;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScxml\5.9.6\QtScxml\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml\5.9.6\QtQml;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml\5.9.6\QtQml\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtANGLE;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuick;$(SolutionDir)thirdparty\qt-5.9.6\include\QtNetwork;$(SolutionDir)thirdparty\qt-5.9.6\include\QtTest;</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -utf-8 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;WIN64;QT_NO_DEBUG;QT_TESTCASE_BUILDDIR=".";NDEBUG;</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    <MultiProcessorCompilation>true</MultiProcessorCompilation></ClCompile>
+    <Link>
+      <AdditionalDependencies>Qt5Core.lib;Qt5Gui.lib;Qt5Qml.lib;Qt5Quick.lib;Qt5Network.lib;Qt5Scxml.lib;Qt5Test.lib;comdlg32.lib;oleaut32.lib;imm32.lib;winmm.lib;ws2_32.lib;ole32.lib;uuid.lib;advapi32.lib;gdi32.lib;user32.lib;shell32.lib;uxtheme.lib;dwmapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OptimizeReferences>true</OptimizeReferences>
+      
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;WIN64;QT_NO_DEBUG;QT_GUI_LIB;QT_SCXML_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_TESTLIB_LIB;QT_CORE_LIB;QT_TESTCASE_BUILDDIR=".";</PreprocessorDefinitions>
+    </ResourceCompile>
+  <QtRcc><InitFuncName>tst_parser</InitFuncName><Compression>default</Compression><ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription><QtRccDir>.rcc\$(Configuration)</QtRccDir><QtRccFileName>qrc_%(Filename).cpp</QtRccFileName></QtRcc></ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.moc;.rcc;.uic;.;$(SolutionDir)thirdparty\qt-5.9.6\include;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWinExtras;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWinExtras\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWinExtras\5.9.6\QtWinExtras;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScxml;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScxml\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScxml\5.9.6\QtScxml;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScxml\5.9.6\QtScxml\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml\5.9.6\QtQml;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml\5.9.6\QtQml\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtANGLE;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuick;$(SolutionDir)thirdparty\qt-5.9.6\include\QtNetwork;$(SolutionDir)thirdparty\qt-5.9.6\include\QtTest;</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -utf-8 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;WIN64;QT_TESTCASE_BUILDDIR=".";</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+    <MultiProcessorCompilation>true</MultiProcessorCompilation></ClCompile>
+    <Link>
+      <AdditionalDependencies>Qt5Core.lib;Qt5Gui.lib;Qt5Qml.lib;Qt5Quick.lib;Qt5Network.lib;Qt5Scxml.lib;Qt5Test.lib;comdlg32.lib;oleaut32.lib;imm32.lib;winmm.lib;ws2_32.lib;ole32.lib;uuid.lib;advapi32.lib;gdi32.lib;user32.lib;shell32.lib;uxtheme.lib;dwmapi.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;WIN64;QT_GUI_LIB;QT_SCXML_LIB;QT_QML_LIB;QT_NETWORK_LIB;QT_TESTLIB_LIB;QT_CORE_LIB;QT_TESTCASE_BUILDDIR=".";_DEBUG;</PreprocessorDefinitions>
+    </ResourceCompile>
+  <QtRcc><InitFuncName>tst_parser</InitFuncName><Compression>default</Compression><ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription><QtRccDir>.rcc\$(Configuration)</QtRccDir><QtRccFileName>qrc_%(Filename).cpp</QtRccFileName></QtRcc></ItemDefinitionGroup>
+  <ItemGroup>
+    
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zi -MDd -utf-8 -EHsc -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;.moc\debug\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.moc\debug\moc_predefs.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -O2 -Zi -MD -utf-8 -EHsc -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;.moc\release\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.moc\release\moc_predefs.h;%(Outputs)</Outputs>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </CustomBuild>
+    
+    
+    <QtMoc Include="tst_parser.cpp"><CompilerFlavor Condition="'$(Configuration)|$(Platform)'=='Release|x64'">msvc</CompilerFlavor><Include Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.moc/$(Configuration)/moc_predefs.h</Include><ExecutionDescription Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Moc'ing %(Identity)...</ExecutionDescription><DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource><CompilerFlavor Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">msvc</CompilerFlavor><Include Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.moc/$(Configuration)/moc_predefs.h</Include><ExecutionDescription Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Moc'ing %(Identity)...</ExecutionDescription><DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource><QtMocDir>.moc\$(Configuration)</QtMocDir><QtMocFileName>%(Filename).moc</QtMocFileName></QtMoc>
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\badInitial.scxml.errors" />
+    <None Include="data\badInitial.scxml" />
+    <None Include="data\commentInScript.scxml.errors" />
+    <None Include="data\commentInScript.scxml" />
+    <None Include="data\empty.scxml.errors" />
+    <None Include="data\empty.scxml" />
+    <None Include="data\eventnames.scxml.errors" />
+    <None Include="data\eventnames.scxml" />
+    <None Include="data\ids1.scxml.errors" />
+    <None Include="data\ids1.scxml" />
+    <None Include="data\ids2.scxml.errors" />
+    <None Include="data\ids2.scxml" />
+    <None Include="data\invalidContent.scxml.errors" />
+    <None Include="data\invalidContent.scxml" />
+    <None Include="data\invalidRoot1.scxml.errors" />
+    <None Include="data\invalidRoot1.scxml" />
+    <None Include="data\invalidRoot2.scxml.errors" />
+    <None Include="data\invalidRoot2.scxml" />
+    <None Include="data\invalidRoot3.scxml.errors" />
+    <None Include="data\invalidRoot3.scxml" />
+    <None Include="data\invalidRoot6.scxml.errors" />
+    <None Include="data\invalidRoot6.scxml" />
+    <None Include="data\invalidUnicode1.scxml.errors" />
+    <None Include="data\invalidUnicode1.scxml" />
+    <None Include="data\invalidXmlHeader1.scxml.errors" />
+    <None Include="data\invalidXmlHeader1.scxml" />
+    <None Include="data\invalidXmlHeader2.scxml.errors" />
+    <None Include="data\invalidXmlHeader2.scxml" />
+    <None Include="data\invalidstatemachinename.scxml.errors" />
+    <None Include="data\invalidstatemachinename.scxml" />
+    <None Include="data\misplacedinvoke.scxml.errors" />
+    <None Include="data\misplacedinvoke.scxml" />
+    <None Include="data\namespaces1.scxml.errors" />
+    <None Include="data\namespaces1.scxml" />
+    <None Include="data\nestedScxml.scxml.errors" />
+    <None Include="data\nestedScxml.scxml" />
+    <None Include="data\noContentInInvoke1.scxml.errors" />
+    <None Include="data\noContentInInvoke1.scxml" />
+    <None Include="data\noContentInInvoke2.scxml.errors" />
+    <None Include="data\noContentInInvoke2.scxml" />
+    <None Include="data\noContentInInvoke3.scxml.errors" />
+    <None Include="data\noContentInInvoke3.scxml" />
+    <None Include="data\noContentInInvoke4.scxml.errors" />
+    <None Include="data\noContentInInvoke4.scxml" />
+    <None Include="data\prematureEndOfDocument1.scxml.errors" />
+    <None Include="data\prematureEndOfDocument1.scxml" />
+    <None Include="data\prematureEndOfDocument2.scxml.errors" />
+    <None Include="data\prematureEndOfDocument2.scxml" />
+    <None Include="data\scxml1.scxml.errors" />
+    <None Include="data\scxml1.scxml" />
+    <None Include="data\scxml2.scxml.errors" />
+    <None Include="data\scxml2.scxml" />
+    <None Include="data\syntaxErrors1.scxml.errors" />
+    <None Include="data\syntaxErrors1.scxml" />
+    <None Include="data\syntaxErrors10.scxml.errors" />
+    <None Include="data\syntaxErrors10.scxml" />
+    <None Include="data\syntaxErrors11.scxml.errors" />
+    <None Include="data\syntaxErrors11.scxml" />
+    <None Include="data\syntaxErrors12.scxml.errors" />
+    <None Include="data\syntaxErrors12.scxml" />
+    <None Include="data\syntaxErrors13.scxml.errors" />
+    <None Include="data\syntaxErrors13.scxml" />
+    <None Include="data\syntaxErrors14.scxml.errors" />
+    <None Include="data\syntaxErrors14.scxml" />
+    <None Include="data\syntaxErrors15.scxml.errors" />
+    <None Include="data\syntaxErrors15.scxml" />
+    <None Include="data\syntaxErrors2.scxml.errors" />
+    <None Include="data\syntaxErrors2.scxml" />
+    <None Include="data\syntaxErrors3.scxml.errors" />
+    <None Include="data\syntaxErrors3.scxml" />
+    <None Include="data\syntaxErrors4.scxml.errors" />
+    <None Include="data\syntaxErrors4.scxml" />
+    <None Include="data\syntaxErrors5.scxml.errors" />
+    <None Include="data\syntaxErrors5.scxml" />
+    <None Include="data\syntaxErrors7.scxml.errors" />
+    <None Include="data\syntaxErrors7.scxml" />
+    <None Include="data\syntaxErrors9.scxml.errors" />
+    <None Include="data\syntaxErrors9.scxml" />
+    <None Include="data\test1.scxml.errors" />
+    <None Include="data\test1.scxml" />
+    <QtRcc Include="tst_parser.qrc">
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    </QtRcc>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" /><ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')"><Import Project="$(QtMsBuild)\qt.targets" /></ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

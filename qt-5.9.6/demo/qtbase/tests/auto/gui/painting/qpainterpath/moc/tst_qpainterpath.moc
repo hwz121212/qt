@@ -1,0 +1,288 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qpainterpath.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qpainterpath.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QPainterPath_t {
+    QByteArrayData data[42];
+    char stringdata0[718];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QPainterPath_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QPainterPath_t qt_meta_stringdata_tst_QPainterPath = {
+    {
+QT_MOC_LITERAL(0, 0, 16), // "tst_QPainterPath"
+QT_MOC_LITERAL(1, 17, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(2, 33, 0), // ""
+QT_MOC_LITERAL(3, 34, 11), // "getSetCheck"
+QT_MOC_LITERAL(4, 46, 4), // "swap"
+QT_MOC_LITERAL(5, 51, 21), // "contains_QPointF_data"
+QT_MOC_LITERAL(6, 73, 16), // "contains_QPointF"
+QT_MOC_LITERAL(7, 90, 20), // "contains_QRectF_data"
+QT_MOC_LITERAL(8, 111, 15), // "contains_QRectF"
+QT_MOC_LITERAL(9, 127, 22), // "intersects_QRectF_data"
+QT_MOC_LITERAL(10, 150, 17), // "intersects_QRectF"
+QT_MOC_LITERAL(11, 168, 30), // "testContainsAndIntersects_data"
+QT_MOC_LITERAL(12, 199, 25), // "testContainsAndIntersects"
+QT_MOC_LITERAL(13, 225, 19), // "testSimplified_data"
+QT_MOC_LITERAL(14, 245, 14), // "testSimplified"
+QT_MOC_LITERAL(15, 260, 16), // "testStroker_data"
+QT_MOC_LITERAL(16, 277, 11), // "testStroker"
+QT_MOC_LITERAL(17, 289, 15), // "currentPosition"
+QT_MOC_LITERAL(18, 305, 18), // "testOperatorEquals"
+QT_MOC_LITERAL(19, 324, 24), // "testOperatorEquals_fuzzy"
+QT_MOC_LITERAL(20, 349, 22), // "testOperatorDatastream"
+QT_MOC_LITERAL(21, 372, 18), // "testArcMoveTo_data"
+QT_MOC_LITERAL(22, 391, 13), // "testArcMoveTo"
+QT_MOC_LITERAL(23, 405, 20), // "setElementPositionAt"
+QT_MOC_LITERAL(24, 426, 15), // "testOnPath_data"
+QT_MOC_LITERAL(25, 442, 10), // "testOnPath"
+QT_MOC_LITERAL(26, 453, 19), // "pointAtPercent_data"
+QT_MOC_LITERAL(27, 473, 14), // "pointAtPercent"
+QT_MOC_LITERAL(28, 488, 14), // "angleAtPercent"
+QT_MOC_LITERAL(29, 503, 15), // "arcWinding_data"
+QT_MOC_LITERAL(30, 519, 10), // "arcWinding"
+QT_MOC_LITERAL(31, 530, 18), // "testToFillPolygons"
+QT_MOC_LITERAL(32, 549, 19), // "testNaNandInfinites"
+QT_MOC_LITERAL(33, 569, 7), // "closing"
+QT_MOC_LITERAL(34, 577, 14), // "operators_data"
+QT_MOC_LITERAL(35, 592, 9), // "operators"
+QT_MOC_LITERAL(36, 602, 25), // "connectPathDuplicatePoint"
+QT_MOC_LITERAL(37, 628, 17), // "connectPathMoveTo"
+QT_MOC_LITERAL(38, 646, 9), // "translate"
+QT_MOC_LITERAL(39, 656, 16), // "lineWithinBounds"
+QT_MOC_LITERAL(40, 673, 20), // "intersectionEquality"
+QT_MOC_LITERAL(41, 694, 23) // "intersectionPointOnEdge"
+
+    },
+    "tst_QPainterPath\0cleanupTestCase\0\0"
+    "getSetCheck\0swap\0contains_QPointF_data\0"
+    "contains_QPointF\0contains_QRectF_data\0"
+    "contains_QRectF\0intersects_QRectF_data\0"
+    "intersects_QRectF\0testContainsAndIntersects_data\0"
+    "testContainsAndIntersects\0testSimplified_data\0"
+    "testSimplified\0testStroker_data\0"
+    "testStroker\0currentPosition\0"
+    "testOperatorEquals\0testOperatorEquals_fuzzy\0"
+    "testOperatorDatastream\0testArcMoveTo_data\0"
+    "testArcMoveTo\0setElementPositionAt\0"
+    "testOnPath_data\0testOnPath\0"
+    "pointAtPercent_data\0pointAtPercent\0"
+    "angleAtPercent\0arcWinding_data\0"
+    "arcWinding\0testToFillPolygons\0"
+    "testNaNandInfinites\0closing\0operators_data\0"
+    "operators\0connectPathDuplicatePoint\0"
+    "connectPathMoveTo\0translate\0"
+    "lineWithinBounds\0intersectionEquality\0"
+    "intersectionPointOnEdge"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QPainterPath[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      40,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  214,    2, 0x0a /* Public */,
+       3,    0,  215,    2, 0x08 /* Private */,
+       4,    0,  216,    2, 0x08 /* Private */,
+       5,    0,  217,    2, 0x08 /* Private */,
+       6,    0,  218,    2, 0x08 /* Private */,
+       7,    0,  219,    2, 0x08 /* Private */,
+       8,    0,  220,    2, 0x08 /* Private */,
+       9,    0,  221,    2, 0x08 /* Private */,
+      10,    0,  222,    2, 0x08 /* Private */,
+      11,    0,  223,    2, 0x08 /* Private */,
+      12,    0,  224,    2, 0x08 /* Private */,
+      13,    0,  225,    2, 0x08 /* Private */,
+      14,    0,  226,    2, 0x08 /* Private */,
+      15,    0,  227,    2, 0x08 /* Private */,
+      16,    0,  228,    2, 0x08 /* Private */,
+      17,    0,  229,    2, 0x08 /* Private */,
+      18,    0,  230,    2, 0x08 /* Private */,
+      19,    0,  231,    2, 0x08 /* Private */,
+      20,    0,  232,    2, 0x08 /* Private */,
+      21,    0,  233,    2, 0x08 /* Private */,
+      22,    0,  234,    2, 0x08 /* Private */,
+      23,    0,  235,    2, 0x08 /* Private */,
+      24,    0,  236,    2, 0x08 /* Private */,
+      25,    0,  237,    2, 0x08 /* Private */,
+      26,    0,  238,    2, 0x08 /* Private */,
+      27,    0,  239,    2, 0x08 /* Private */,
+      28,    0,  240,    2, 0x08 /* Private */,
+      29,    0,  241,    2, 0x08 /* Private */,
+      30,    0,  242,    2, 0x08 /* Private */,
+      31,    0,  243,    2, 0x08 /* Private */,
+      32,    0,  244,    2, 0x08 /* Private */,
+      33,    0,  245,    2, 0x08 /* Private */,
+      34,    0,  246,    2, 0x08 /* Private */,
+      35,    0,  247,    2, 0x08 /* Private */,
+      36,    0,  248,    2, 0x08 /* Private */,
+      37,    0,  249,    2, 0x08 /* Private */,
+      38,    0,  250,    2, 0x08 /* Private */,
+      39,    0,  251,    2, 0x08 /* Private */,
+      40,    0,  252,    2, 0x08 /* Private */,
+      41,    0,  253,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QPainterPath::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QPainterPath *_t = static_cast<tst_QPainterPath *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->cleanupTestCase(); break;
+        case 1: _t->getSetCheck(); break;
+        case 2: _t->swap(); break;
+        case 3: _t->contains_QPointF_data(); break;
+        case 4: _t->contains_QPointF(); break;
+        case 5: _t->contains_QRectF_data(); break;
+        case 6: _t->contains_QRectF(); break;
+        case 7: _t->intersects_QRectF_data(); break;
+        case 8: _t->intersects_QRectF(); break;
+        case 9: _t->testContainsAndIntersects_data(); break;
+        case 10: _t->testContainsAndIntersects(); break;
+        case 11: _t->testSimplified_data(); break;
+        case 12: _t->testSimplified(); break;
+        case 13: _t->testStroker_data(); break;
+        case 14: _t->testStroker(); break;
+        case 15: _t->currentPosition(); break;
+        case 16: _t->testOperatorEquals(); break;
+        case 17: _t->testOperatorEquals_fuzzy(); break;
+        case 18: _t->testOperatorDatastream(); break;
+        case 19: _t->testArcMoveTo_data(); break;
+        case 20: _t->testArcMoveTo(); break;
+        case 21: _t->setElementPositionAt(); break;
+        case 22: _t->testOnPath_data(); break;
+        case 23: _t->testOnPath(); break;
+        case 24: _t->pointAtPercent_data(); break;
+        case 25: _t->pointAtPercent(); break;
+        case 26: _t->angleAtPercent(); break;
+        case 27: _t->arcWinding_data(); break;
+        case 28: _t->arcWinding(); break;
+        case 29: _t->testToFillPolygons(); break;
+        case 30: _t->testNaNandInfinites(); break;
+        case 31: _t->closing(); break;
+        case 32: _t->operators_data(); break;
+        case 33: _t->operators(); break;
+        case 34: _t->connectPathDuplicatePoint(); break;
+        case 35: _t->connectPathMoveTo(); break;
+        case 36: _t->translate(); break;
+        case 37: _t->lineWithinBounds(); break;
+        case 38: _t->intersectionEquality(); break;
+        case 39: _t->intersectionPointOnEdge(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QPainterPath::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QPainterPath.data,
+      qt_meta_data_tst_QPainterPath,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QPainterPath::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QPainterPath::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QPainterPath.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QPainterPath::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 40)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 40;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 40)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 40;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

@@ -1,0 +1,425 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qtransform.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qtransform.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QTransform_t {
+    QByteArrayData data[73];
+    char stringdata0[1095];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QTransform_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QTransform_t qt_meta_stringdata_tst_QTransform = {
+    {
+QT_MOC_LITERAL(0, 0, 14), // "tst_QTransform"
+QT_MOC_LITERAL(1, 15, 4), // "init"
+QT_MOC_LITERAL(2, 20, 0), // ""
+QT_MOC_LITERAL(3, 21, 7), // "cleanup"
+QT_MOC_LITERAL(4, 29, 9), // "construct"
+QT_MOC_LITERAL(5, 39, 14), // "translate_data"
+QT_MOC_LITERAL(6, 54, 9), // "translate"
+QT_MOC_LITERAL(7, 64, 10), // "scale_data"
+QT_MOC_LITERAL(8, 75, 5), // "scale"
+QT_MOC_LITERAL(9, 81, 10), // "shear_data"
+QT_MOC_LITERAL(10, 92, 5), // "shear"
+QT_MOC_LITERAL(11, 98, 11), // "rotate_data"
+QT_MOC_LITERAL(12, 110, 6), // "rotate"
+QT_MOC_LITERAL(13, 117, 14), // "rotateXYZ_data"
+QT_MOC_LITERAL(14, 132, 9), // "rotateXYZ"
+QT_MOC_LITERAL(15, 142, 19), // "operatorAssign_data"
+QT_MOC_LITERAL(16, 162, 14), // "operatorAssign"
+QT_MOC_LITERAL(17, 177, 18), // "operatorEqual_data"
+QT_MOC_LITERAL(18, 196, 13), // "operatorEqual"
+QT_MOC_LITERAL(19, 210, 21), // "operatorNotEqual_data"
+QT_MOC_LITERAL(20, 232, 16), // "operatorNotEqual"
+QT_MOC_LITERAL(21, 249, 21), // "operatorMultiply_data"
+QT_MOC_LITERAL(22, 271, 16), // "operatorMultiply"
+QT_MOC_LITERAL(23, 288, 28), // "operatorPlusEqualScalar_data"
+QT_MOC_LITERAL(24, 317, 23), // "operatorPlusEqualScalar"
+QT_MOC_LITERAL(25, 341, 29), // "operatorMinusEqualScalar_data"
+QT_MOC_LITERAL(26, 371, 24), // "operatorMinusEqualScalar"
+QT_MOC_LITERAL(27, 396, 26), // "operatorMultiplyEqual_data"
+QT_MOC_LITERAL(28, 423, 21), // "operatorMultiplyEqual"
+QT_MOC_LITERAL(29, 445, 32), // "operatorMultiplyEqualScalar_data"
+QT_MOC_LITERAL(30, 478, 27), // "operatorMultiplyEqualScalar"
+QT_MOC_LITERAL(31, 506, 30), // "operatorDivideEqualScalar_data"
+QT_MOC_LITERAL(32, 537, 25), // "operatorDivideEqualScalar"
+QT_MOC_LITERAL(33, 563, 14), // "mapQPoint_data"
+QT_MOC_LITERAL(34, 578, 9), // "mapQPoint"
+QT_MOC_LITERAL(35, 588, 15), // "mapQPointF_data"
+QT_MOC_LITERAL(36, 604, 10), // "mapQPointF"
+QT_MOC_LITERAL(37, 615, 12), // "mapRect_data"
+QT_MOC_LITERAL(38, 628, 7), // "mapRect"
+QT_MOC_LITERAL(39, 636, 13), // "mapRectF_data"
+QT_MOC_LITERAL(40, 650, 8), // "mapRectF"
+QT_MOC_LITERAL(41, 659, 16), // "mapQPolygon_data"
+QT_MOC_LITERAL(42, 676, 11), // "mapQPolygon"
+QT_MOC_LITERAL(43, 688, 17), // "mapQPolygonF_data"
+QT_MOC_LITERAL(44, 706, 12), // "mapQPolygonF"
+QT_MOC_LITERAL(45, 719, 15), // "mapQRegion_data"
+QT_MOC_LITERAL(46, 735, 10), // "mapQRegion"
+QT_MOC_LITERAL(47, 746, 17), // "mapToPolygon_data"
+QT_MOC_LITERAL(48, 764, 12), // "mapToPolygon"
+QT_MOC_LITERAL(49, 777, 20), // "mapQPainterPath_data"
+QT_MOC_LITERAL(50, 798, 15), // "mapQPainterPath"
+QT_MOC_LITERAL(51, 814, 15), // "isIdentity_data"
+QT_MOC_LITERAL(52, 830, 10), // "isIdentity"
+QT_MOC_LITERAL(53, 841, 13), // "isAffine_data"
+QT_MOC_LITERAL(54, 855, 8), // "isAffine"
+QT_MOC_LITERAL(55, 864, 17), // "isInvertible_data"
+QT_MOC_LITERAL(56, 882, 12), // "isInvertible"
+QT_MOC_LITERAL(57, 895, 15), // "isRotating_data"
+QT_MOC_LITERAL(58, 911, 10), // "isRotating"
+QT_MOC_LITERAL(59, 922, 14), // "isScaling_data"
+QT_MOC_LITERAL(60, 937, 9), // "isScaling"
+QT_MOC_LITERAL(61, 947, 18), // "isTranslating_data"
+QT_MOC_LITERAL(62, 966, 13), // "isTranslating"
+QT_MOC_LITERAL(63, 980, 9), // "type_data"
+QT_MOC_LITERAL(64, 990, 4), // "type"
+QT_MOC_LITERAL(65, 995, 16), // "determinant_data"
+QT_MOC_LITERAL(66, 1012, 11), // "determinant"
+QT_MOC_LITERAL(67, 1024, 12), // "adjoint_data"
+QT_MOC_LITERAL(68, 1037, 7), // "adjoint"
+QT_MOC_LITERAL(69, 1045, 15), // "transposed_data"
+QT_MOC_LITERAL(70, 1061, 10), // "transposed"
+QT_MOC_LITERAL(71, 1072, 13), // "inverted_data"
+QT_MOC_LITERAL(72, 1086, 8) // "inverted"
+
+    },
+    "tst_QTransform\0init\0\0cleanup\0construct\0"
+    "translate_data\0translate\0scale_data\0"
+    "scale\0shear_data\0shear\0rotate_data\0"
+    "rotate\0rotateXYZ_data\0rotateXYZ\0"
+    "operatorAssign_data\0operatorAssign\0"
+    "operatorEqual_data\0operatorEqual\0"
+    "operatorNotEqual_data\0operatorNotEqual\0"
+    "operatorMultiply_data\0operatorMultiply\0"
+    "operatorPlusEqualScalar_data\0"
+    "operatorPlusEqualScalar\0"
+    "operatorMinusEqualScalar_data\0"
+    "operatorMinusEqualScalar\0"
+    "operatorMultiplyEqual_data\0"
+    "operatorMultiplyEqual\0"
+    "operatorMultiplyEqualScalar_data\0"
+    "operatorMultiplyEqualScalar\0"
+    "operatorDivideEqualScalar_data\0"
+    "operatorDivideEqualScalar\0mapQPoint_data\0"
+    "mapQPoint\0mapQPointF_data\0mapQPointF\0"
+    "mapRect_data\0mapRect\0mapRectF_data\0"
+    "mapRectF\0mapQPolygon_data\0mapQPolygon\0"
+    "mapQPolygonF_data\0mapQPolygonF\0"
+    "mapQRegion_data\0mapQRegion\0mapToPolygon_data\0"
+    "mapToPolygon\0mapQPainterPath_data\0"
+    "mapQPainterPath\0isIdentity_data\0"
+    "isIdentity\0isAffine_data\0isAffine\0"
+    "isInvertible_data\0isInvertible\0"
+    "isRotating_data\0isRotating\0isScaling_data\0"
+    "isScaling\0isTranslating_data\0isTranslating\0"
+    "type_data\0type\0determinant_data\0"
+    "determinant\0adjoint_data\0adjoint\0"
+    "transposed_data\0transposed\0inverted_data\0"
+    "inverted"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QTransform[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      71,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  369,    2, 0x0a /* Public */,
+       3,    0,  370,    2, 0x0a /* Public */,
+       4,    0,  371,    2, 0x08 /* Private */,
+       5,    0,  372,    2, 0x08 /* Private */,
+       6,    0,  373,    2, 0x08 /* Private */,
+       7,    0,  374,    2, 0x08 /* Private */,
+       8,    0,  375,    2, 0x08 /* Private */,
+       9,    0,  376,    2, 0x08 /* Private */,
+      10,    0,  377,    2, 0x08 /* Private */,
+      11,    0,  378,    2, 0x08 /* Private */,
+      12,    0,  379,    2, 0x08 /* Private */,
+      13,    0,  380,    2, 0x08 /* Private */,
+      14,    0,  381,    2, 0x08 /* Private */,
+      15,    0,  382,    2, 0x08 /* Private */,
+      16,    0,  383,    2, 0x08 /* Private */,
+      17,    0,  384,    2, 0x08 /* Private */,
+      18,    0,  385,    2, 0x08 /* Private */,
+      19,    0,  386,    2, 0x08 /* Private */,
+      20,    0,  387,    2, 0x08 /* Private */,
+      21,    0,  388,    2, 0x08 /* Private */,
+      22,    0,  389,    2, 0x08 /* Private */,
+      23,    0,  390,    2, 0x08 /* Private */,
+      24,    0,  391,    2, 0x08 /* Private */,
+      25,    0,  392,    2, 0x08 /* Private */,
+      26,    0,  393,    2, 0x08 /* Private */,
+      27,    0,  394,    2, 0x08 /* Private */,
+      28,    0,  395,    2, 0x08 /* Private */,
+      29,    0,  396,    2, 0x08 /* Private */,
+      30,    0,  397,    2, 0x08 /* Private */,
+      31,    0,  398,    2, 0x08 /* Private */,
+      32,    0,  399,    2, 0x08 /* Private */,
+      33,    0,  400,    2, 0x08 /* Private */,
+      34,    0,  401,    2, 0x08 /* Private */,
+      35,    0,  402,    2, 0x08 /* Private */,
+      36,    0,  403,    2, 0x08 /* Private */,
+      37,    0,  404,    2, 0x08 /* Private */,
+      38,    0,  405,    2, 0x08 /* Private */,
+      39,    0,  406,    2, 0x08 /* Private */,
+      40,    0,  407,    2, 0x08 /* Private */,
+      41,    0,  408,    2, 0x08 /* Private */,
+      42,    0,  409,    2, 0x08 /* Private */,
+      43,    0,  410,    2, 0x08 /* Private */,
+      44,    0,  411,    2, 0x08 /* Private */,
+      45,    0,  412,    2, 0x08 /* Private */,
+      46,    0,  413,    2, 0x08 /* Private */,
+      47,    0,  414,    2, 0x08 /* Private */,
+      48,    0,  415,    2, 0x08 /* Private */,
+      49,    0,  416,    2, 0x08 /* Private */,
+      50,    0,  417,    2, 0x08 /* Private */,
+      51,    0,  418,    2, 0x08 /* Private */,
+      52,    0,  419,    2, 0x08 /* Private */,
+      53,    0,  420,    2, 0x08 /* Private */,
+      54,    0,  421,    2, 0x08 /* Private */,
+      55,    0,  422,    2, 0x08 /* Private */,
+      56,    0,  423,    2, 0x08 /* Private */,
+      57,    0,  424,    2, 0x08 /* Private */,
+      58,    0,  425,    2, 0x08 /* Private */,
+      59,    0,  426,    2, 0x08 /* Private */,
+      60,    0,  427,    2, 0x08 /* Private */,
+      61,    0,  428,    2, 0x08 /* Private */,
+      62,    0,  429,    2, 0x08 /* Private */,
+      63,    0,  430,    2, 0x08 /* Private */,
+      64,    0,  431,    2, 0x08 /* Private */,
+      65,    0,  432,    2, 0x08 /* Private */,
+      66,    0,  433,    2, 0x08 /* Private */,
+      67,    0,  434,    2, 0x08 /* Private */,
+      68,    0,  435,    2, 0x08 /* Private */,
+      69,    0,  436,    2, 0x08 /* Private */,
+      70,    0,  437,    2, 0x08 /* Private */,
+      71,    0,  438,    2, 0x08 /* Private */,
+      72,    0,  439,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QTransform::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QTransform *_t = static_cast<tst_QTransform *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->init(); break;
+        case 1: _t->cleanup(); break;
+        case 2: _t->construct(); break;
+        case 3: _t->translate_data(); break;
+        case 4: _t->translate(); break;
+        case 5: _t->scale_data(); break;
+        case 6: _t->scale(); break;
+        case 7: _t->shear_data(); break;
+        case 8: _t->shear(); break;
+        case 9: _t->rotate_data(); break;
+        case 10: _t->rotate(); break;
+        case 11: _t->rotateXYZ_data(); break;
+        case 12: _t->rotateXYZ(); break;
+        case 13: _t->operatorAssign_data(); break;
+        case 14: _t->operatorAssign(); break;
+        case 15: _t->operatorEqual_data(); break;
+        case 16: _t->operatorEqual(); break;
+        case 17: _t->operatorNotEqual_data(); break;
+        case 18: _t->operatorNotEqual(); break;
+        case 19: _t->operatorMultiply_data(); break;
+        case 20: _t->operatorMultiply(); break;
+        case 21: _t->operatorPlusEqualScalar_data(); break;
+        case 22: _t->operatorPlusEqualScalar(); break;
+        case 23: _t->operatorMinusEqualScalar_data(); break;
+        case 24: _t->operatorMinusEqualScalar(); break;
+        case 25: _t->operatorMultiplyEqual_data(); break;
+        case 26: _t->operatorMultiplyEqual(); break;
+        case 27: _t->operatorMultiplyEqualScalar_data(); break;
+        case 28: _t->operatorMultiplyEqualScalar(); break;
+        case 29: _t->operatorDivideEqualScalar_data(); break;
+        case 30: _t->operatorDivideEqualScalar(); break;
+        case 31: _t->mapQPoint_data(); break;
+        case 32: _t->mapQPoint(); break;
+        case 33: _t->mapQPointF_data(); break;
+        case 34: _t->mapQPointF(); break;
+        case 35: _t->mapRect_data(); break;
+        case 36: _t->mapRect(); break;
+        case 37: _t->mapRectF_data(); break;
+        case 38: _t->mapRectF(); break;
+        case 39: _t->mapQPolygon_data(); break;
+        case 40: _t->mapQPolygon(); break;
+        case 41: _t->mapQPolygonF_data(); break;
+        case 42: _t->mapQPolygonF(); break;
+        case 43: _t->mapQRegion_data(); break;
+        case 44: _t->mapQRegion(); break;
+        case 45: _t->mapToPolygon_data(); break;
+        case 46: _t->mapToPolygon(); break;
+        case 47: _t->mapQPainterPath_data(); break;
+        case 48: _t->mapQPainterPath(); break;
+        case 49: _t->isIdentity_data(); break;
+        case 50: _t->isIdentity(); break;
+        case 51: _t->isAffine_data(); break;
+        case 52: _t->isAffine(); break;
+        case 53: _t->isInvertible_data(); break;
+        case 54: _t->isInvertible(); break;
+        case 55: _t->isRotating_data(); break;
+        case 56: _t->isRotating(); break;
+        case 57: _t->isScaling_data(); break;
+        case 58: _t->isScaling(); break;
+        case 59: _t->isTranslating_data(); break;
+        case 60: _t->isTranslating(); break;
+        case 61: _t->type_data(); break;
+        case 62: _t->type(); break;
+        case 63: _t->determinant_data(); break;
+        case 64: _t->determinant(); break;
+        case 65: _t->adjoint_data(); break;
+        case 66: _t->adjoint(); break;
+        case 67: _t->transposed_data(); break;
+        case 68: _t->transposed(); break;
+        case 69: _t->inverted_data(); break;
+        case 70: _t->inverted(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QTransform::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QTransform.data,
+      qt_meta_data_tst_QTransform,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QTransform::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QTransform::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QTransform.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QTransform::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 71)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 71;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 71)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 71;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

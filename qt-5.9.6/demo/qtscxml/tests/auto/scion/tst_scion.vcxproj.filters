@@ -1,0 +1,3430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="myscxml">
+      <UniqueIdentifier>{E0D8C965-CC5F-43d7-AD63-FAEF0BBC0F85}-myscxml</UniqueIdentifier>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="myscxml">
+      <UniqueIdentifier>{E0D8C965-CC5F-43d7-AD63-FAEF0BBC0F85}-myscxml</UniqueIdentifier>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="tst_scion.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="scxml\actionSend_send1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\actionSend_send2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\actionSend_send3.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\actionSend_send4.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\actionSend_send5.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\actionSend_send6.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\actionSend_send7.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\actionSend_send8.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\assign_current_small_step_test0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\assign_current_small_step_test1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\assign_current_small_step_test2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\assign_current_small_step_test3.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\assign_current_small_step_test4.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\atom3_basic_tests_m0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\atom3_basic_tests_m1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\atom3_basic_tests_m2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\atom3_basic_tests_m3.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\basic_basic0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\basic_basic1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\basic_basic2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\cond_js_TestConditionalTransition.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\cond_js_test0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\cond_js_test1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\cond_js_test2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\content_expr_in_send_test0.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\default_initial_state_initial1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\default_initial_state_initial2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\delayedSend_send1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\delayedSend_send2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\delayedSend_send3.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\documentOrder_documentOrder0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\done_test0.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\foreach_test1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\hierarchy_documentOrder_test0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\hierarchy_documentOrder_test1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\hierarchy_hier0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\hierarchy_hier1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\hierarchy_hier2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\history_history0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\history_history1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\history_history2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\history_history3.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\history_history4.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\history_history5.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\history_history6.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\if_else_test0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\in_TestInPredicate.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\internal_transitions_test0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\internal_transitions_test1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClCompile Include="scxml\more_parallel_test0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\more_parallel_test1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\more_parallel_test10.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\more_parallel_test2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\more_parallel_test3.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\more_parallel_test4.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\more_parallel_test5.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\more_parallel_test6.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\more_parallel_test7.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\more_parallel_test8.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\more_parallel_test9.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\multiple_events_per_transition_test1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test10.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test11.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test12.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test13.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test14.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test15.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test16.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test17.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test18.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test19.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test20.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test21.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test22.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test23.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test24.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test25.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test26.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test27.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test28.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test29.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test3.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test30.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test31.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test4.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test5.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test6.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test7.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test8.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_interrupt_test9.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_test0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_test1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_test2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\parallel_test3.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    
+    
+    <ClCompile Include="scxml\script_src_test0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\script_src_test1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\script_src_test2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\script_src_test3.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\script_test0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\script_test1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\script_test2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\scxml_prefix_event_name_matching_star0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\scxml_prefix_event_name_matching_test0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\scxml_prefix_event_name_matching_test1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\send_data_send1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\send_internal_test0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\targetless_transition_test0.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\targetless_transition_test1.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\targetless_transition_test2.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\targetless_transition_test3.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <CustomBuild Include=".moc\debug\tst_scion.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\tst_scion.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <ClCompile Include="scxml\w3c_ecma_modified_test456.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test144.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test147.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test148.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test149.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test150.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test151.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test152.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test153.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test155.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test156.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test158.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test159.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test172.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test173.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test174.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test175.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test176.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test178.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test179.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test183.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test185.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test186.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test187.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test194.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test198.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test199.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test200.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test201.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test205.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test207.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test208.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test210.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test215.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test216.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test220.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test223.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test224.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test225.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test226.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test228.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test229.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test230.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test232.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test233.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test234.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test235.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test236.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test237.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test239.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test240.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test241.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test242.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test243.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test244.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test245.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test247.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test250.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test252.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test253.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test276.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test278.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test279.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test280.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test286.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test287.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test294.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test298.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test302.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test303.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test304.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test307.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test309.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test310.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test311.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test312.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test313.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test314.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test318.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test319.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test321.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test322.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test323.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test324.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test325.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test326.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test329.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test330.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test331.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test332.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test333.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test335.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test336.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test337.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test338.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test339.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test342.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test343.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test344.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test346.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test355.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test364.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test372.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test375.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test376.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test377.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test378.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test387.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test388.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test396.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test399.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test401.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test402.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test403a.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test403b.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test403c.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test404.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test405.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test406.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test407.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test409.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test411.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test412.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test413.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test416.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test417.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test419.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test421.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test422.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test423.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test436.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test444.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test445.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test448.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test449.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test451.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test453.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test456.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test487.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test488.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test503.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test504.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test505.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test506.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test521.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test525.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test527.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test528.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test529.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test533.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test550.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test551.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test552.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test554.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test558.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test560.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test562.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test569.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test570.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="scxml\w3c_ecma_test576.txml.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\cond-js\TestConditionalTransition.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\cond-js\TestConditionalTransition.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\in\TestInPredicate.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\in\TestInPredicate.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\basic\basic0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\basic\basic0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\basic\basic1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\basic\basic1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\basic\basic2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\basic\basic2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\documentOrder\documentOrder0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\documentOrder\documentOrder0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy\hier0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy\hier0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy\hier1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy\hier1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy\hier2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy\hier2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history3.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history3.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history4.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history4.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history5.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history5.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history6.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history6.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\default-initial-state\initial1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\default-initial-state\initial1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\default-initial-state\initial2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\default-initial-state\initial2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\atom3-basic-tests\m0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\atom3-basic-tests\m0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\atom3-basic-tests\m1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\atom3-basic-tests\m1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\atom3-basic-tests\m2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\atom3-basic-tests\m2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\atom3-basic-tests\m3.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\atom3-basic-tests\m3.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\modified_test456.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\modified_test456.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <QtRcc Include="scion.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\script-0-0.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\script-1-0.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\script-1-1.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\script-2-0.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\script-2-1.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\script-2-2.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\script-2-3.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\script-3-0.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\delayedSend\send1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\send-data\send1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\delayedSend\send1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\send-data\send1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\delayedSend\send2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\delayedSend\send2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send3.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\delayedSend\send3.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send3.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\delayedSend\send3.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send4.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send4.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send5.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send5.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send6.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send6.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send7.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send7.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send8.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send8.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\scxml-prefix-event-name-matching\star0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\scxml-prefix-event-name-matching\star0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\cond-js\test0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy+documentOrder\test0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\if-else\test0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\internal-transitions\test0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel\test0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\test0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script\test0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\scxml-prefix-event-name-matching\test0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\send-internal\test0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\targetless-transition\test0.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\cond-js\test0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy+documentOrder\test0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\if-else\test0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\internal-transitions\test0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel\test0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\test0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script\test0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\scxml-prefix-event-name-matching\test0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\send-internal\test0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\targetless-transition\test0.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\content-expr-in-send\test0.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\done\test0.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\content-expr-in-send\test0.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\done\test0.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\cond-js\test1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\foreach\test1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy+documentOrder\test1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\internal-transitions\test1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\multiple-events-per-transition\test1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel\test1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\test1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script\test1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\scxml-prefix-event-name-matching\test1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\targetless-transition\test1.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\cond-js\test1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\foreach\test1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy+documentOrder\test1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\internal-transitions\test1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\multiple-events-per-transition\test1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel\test1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\test1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script\test1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\scxml-prefix-event-name-matching\test1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\targetless-transition\test1.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test10.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test10.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test10.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test10.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test11.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test11.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test12.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test12.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test13.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test13.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test14.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test14.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test144.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test144.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test147.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test147.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test148.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test148.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test149.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test149.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test15.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test15.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test150.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test150.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test151.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test151.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test152.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test152.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test153.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test153.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test155.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test155.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test156.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test156.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test158.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test158.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test159.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test159.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test16.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test16.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test17.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test17.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test172.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test172.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test173.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test173.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test174.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test174.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test175.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test175.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test176.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test176.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test178.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test178.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test179.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test179.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test18.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test18.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test183.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test183.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test185.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test185.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test186.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test186.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test187.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test187.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test19.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test19.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test194.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test194.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test198.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test198.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test199.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test199.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\cond-js\test2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel\test2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\test2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script\test2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\targetless-transition\test2.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\cond-js\test2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel\test2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\test2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script\test2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\targetless-transition\test2.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test20.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test20.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test200.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test200.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test201.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test201.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test205.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test205.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test207.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test207.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test208.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test208.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test21.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test21.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test210.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test210.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test215.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test215.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test216.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test216.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\test216sub1.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test22.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test22.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test220.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test220.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test223.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test223.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test224.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test224.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test225.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test225.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test226.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test226.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test226sub1.txml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test228.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test228.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test229.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test229.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test23.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test23.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test230.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test230.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test232.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test232.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test233.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test233.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test234.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test234.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test235.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test235.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test236.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test236.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test237.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test237.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test239.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test239.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test239sub1.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test24.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test24.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test240.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test240.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test241.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test241.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test242.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test242.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test242sub1.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test243.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test243.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test244.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test244.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test245.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test245.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test247.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test247.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test25.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test25.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test250.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test250.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test252.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test252.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test253.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test253.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test26.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test26.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test27.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test27.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test276.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test276.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test276sub1.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test278.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test278.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test279.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test279.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test28.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test28.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test280.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test280.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test286.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test286.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test287.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test287.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test29.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test29.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test294.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test294.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test298.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test298.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test3.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test3.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test3.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel\test3.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\test3.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\targetless-transition\test3.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test3.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test3.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test3.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel\test3.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\test3.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\targetless-transition\test3.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test30.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test30.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test301.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test301.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test302.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test302.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test303.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test303.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test304.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test304.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test307.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test307.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test309.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test309.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test31.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test31.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test310.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test310.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test311.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test311.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test312.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test312.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test313.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test313.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test314.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test314.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test318.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test318.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test319.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test319.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test321.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test321.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test322.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test322.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test323.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test323.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test324.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test324.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test325.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test325.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test326.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test326.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test329.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test329.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test330.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test330.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test331.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test331.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test332.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test332.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test333.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test333.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test335.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test335.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test336.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test336.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test337.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test337.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test338.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test338.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test339.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test339.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test342.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test342.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test343.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test343.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test344.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test344.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test346.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test346.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test355.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test355.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test364.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test364.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test372.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test372.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test375.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test375.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test376.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test376.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test377.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test377.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test378.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test378.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test387.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test387.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test388.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test388.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test396.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test396.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test399.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test399.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test4.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test4.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test4.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test4.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test4.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test4.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test401.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test401.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test402.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test402.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test403a.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test403a.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test403b.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test403b.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test403c.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test403c.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test404.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test404.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test405.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test405.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test406.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test406.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test407.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test407.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test409.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test409.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test411.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test411.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test412.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test412.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test413.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test413.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test416.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test416.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test417.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test417.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test419.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test419.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test421.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test421.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test422.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test422.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test423.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test423.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test436.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test436.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test441a.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test441a.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test441b.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test441b.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test444.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test444.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test445.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test445.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test448.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test448.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test449.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test449.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test451.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test451.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test453.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test453.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test456.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test456.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test487.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test487.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test488.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test488.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test5.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test5.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test5.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test5.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test503.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test503.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test504.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test504.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test505.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test505.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test506.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test506.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test521.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test521.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test525.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test525.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test527.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test527.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test528.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test528.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test529.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test529.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test530.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test530.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test533.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test533.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test550.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test550.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test551.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test551.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test552.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test552.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test552.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test553.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test553.txml.scxml_">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test554.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test554.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test557.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test557.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test558.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test558.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test558.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test560.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test560.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test561.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test561.txml.scxml_">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test562.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test562.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test569.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test569.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test570.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test570.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test576.txml.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test576.txml.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test6.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test6.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test6.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test6.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test7.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test7.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test7.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test7.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test8.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test8.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test8.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test8.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test9.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test9.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test9.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test9.scxml">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\cond-js\TestConditionalTransition.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\in\TestInPredicate.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\basic\basic0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\basic\basic1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\basic\basic2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\documentOrder\documentOrder0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy\hier0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy\hier1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy\hier2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history3.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history4.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history5.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\history\history6.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\default-initial-state\initial1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\default-initial-state\initial2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\atom3-basic-tests\m0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\atom3-basic-tests\m1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\atom3-basic-tests\m2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\atom3-basic-tests\m3.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\modified_test456.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\delayedSend\send1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\send-data\send1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\delayedSend\send2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send3.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\delayedSend\send3.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send4.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send5.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send6.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send7.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\actionSend\send8.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\scxml-prefix-event-name-matching\star0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\cond-js\test0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy+documentOrder\test0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\if-else\test0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\internal-transitions\test0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel\test0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\test0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script\test0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\scxml-prefix-event-name-matching\test0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\send-internal\test0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\targetless-transition\test0.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\content-expr-in-send\test0.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\done\test0.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\cond-js\test1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\foreach\test1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\hierarchy+documentOrder\test1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\internal-transitions\test1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\multiple-events-per-transition\test1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel\test1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\test1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script\test1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\scxml-prefix-event-name-matching\test1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\targetless-transition\test1.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test10.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test10.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test11.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test12.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test13.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test14.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test144.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test147.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test148.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test149.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test15.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test150.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test151.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test152.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test153.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test155.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test156.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test158.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test159.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test16.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test17.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test172.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test173.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test174.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test175.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test176.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test178.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test179.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test18.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test183.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test185.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test186.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test187.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test19.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test194.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test198.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test199.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\cond-js\test2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel\test2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\test2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script\test2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\targetless-transition\test2.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test20.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test200.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test201.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test205.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test207.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test208.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test21.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test210.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test215.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test216.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test22.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test220.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test223.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test224.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test225.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test226.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test228.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test229.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test23.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test230.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test232.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test233.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test234.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test235.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test236.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test237.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test239.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test24.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test240.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test241.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test242.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test243.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test244.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test245.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test247.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test25.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test250.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test252.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test253.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test26.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test27.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test276.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test278.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test279.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test28.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test280.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test286.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test287.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test29.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test294.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test298.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test3.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test3.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test3.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel\test3.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\script-src\test3.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\targetless-transition\test3.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test30.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test302.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test303.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test304.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test307.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test309.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test31.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test310.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test311.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test312.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test313.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test314.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test318.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test319.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test321.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test322.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test323.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test324.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test325.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test326.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test329.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test330.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test331.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test332.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test333.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test335.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test336.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test337.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test338.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test339.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test342.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test343.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test344.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test346.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test355.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test364.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test372.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test375.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test376.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test377.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test378.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test387.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test388.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test396.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test399.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\assign-current-small-step\test4.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test4.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test4.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test401.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test402.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test403a.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test403b.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test403c.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test404.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test405.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test406.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test407.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test409.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test411.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test412.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test413.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test416.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test417.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test419.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test421.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test422.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test423.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test436.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test444.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test445.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test448.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test449.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test451.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test453.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test456.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test487.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test488.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test5.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test5.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test503.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test504.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test505.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test506.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test521.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test525.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test527.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test528.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test529.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test533.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test550.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test551.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test552.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test554.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test558.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test560.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test562.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test569.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test570.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\w3c-ecma\test576.txml.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test6.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test6.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test7.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test7.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test8.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test8.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\more-parallel\test9.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\3rdparty\scion-tests\scxml-test-framework\test\parallel+interrupt\test9.scxml">
+      <Filter>myscxml</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

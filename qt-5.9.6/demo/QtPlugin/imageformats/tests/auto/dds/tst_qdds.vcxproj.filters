@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{515e7e05-1691-4a2c-9f02-d62e781ac764}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="tst_qdds.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="dds\A16B16G16R16.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\A16B16G16R16F.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\A1R5G5B5.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\A2B10G10R10.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\A2R10G10B10.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\A2W10V10U10.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\A32B32G32R32F.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\A4L4.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\A4R4G4B4.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\A8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\A8B8G8R8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\A8L8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\A8R3G3B2.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\A8R8G8B8.2.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\A8R8G8B8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\ATI2.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\CxV8U8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\DXT1.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\DXT2.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\DXT3.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\DXT4.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\DXT5.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\G16R16.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\G16R16F.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\G32R32F.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\G8R8_G8B8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\L16.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\L6V5U5.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\L8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\P4.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\P8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\Q16W16V16U16.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\Q8W8V8U8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\R16F.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\R32F.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\R3G3B2.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\R5G6B5.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\R8G8B8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\R8G8_B8G8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\RXGB.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\UYVY.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\V16U16.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\V8U8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\X1R5G5B5.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\X4R4G4B4.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\X8B8G8R8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\X8L8V8U8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\X8R8G8B8.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="dds\YUY2.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="dds.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="dds\mipmaps.dds">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tst_qdds.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

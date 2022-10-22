@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="wearable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qml\Alarms\AlarmsPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\Clock.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Fitness\FitnessPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\LauncherPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\NaviButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\NavigationPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Notifications\NotificationsPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Style\PageIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\RouteElement.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Settings\SettingsPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Style\Slider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Style\Switch.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Style\UIStyle.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\WeatherPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\WorldClockPage.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Alarms\images\alarms.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Alarms\images\alarms@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Notifications\images\avatarf.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Notifications\images\avatarf@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Notifications\images\avatarm.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Notifications\images\avatarm@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\back@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\background.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Settings\images\bluetooth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Settings\images\bluetooth@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Settings\images\brightness.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Settings\images\brightness@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\center.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\center@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Settings\images\contrast.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Settings\images\contrast@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\images\end.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\images\end@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Fitness\fitness.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Fitness\images\fitness.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Fitness\images\fitness@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\home.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\home@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\images\humidity.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\images\humidity@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\images\leftturn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\images\leftturn@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Fitness\images\man-running.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Fitness\images\man-running@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Fitness\images\man-walking.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Fitness\images\man-walking@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Notifications\images\missedcall.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Notifications\images\missedcall@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\navigation.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\images\navigation.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\images\navigation@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Notifications\notifications.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Notifications\images\notifications.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Notifications\images\notifications@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\images\pressure.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\images\pressure@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Style\qmldir">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\images\rightturn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\images\rightturn@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\second.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\second@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Settings\images\settings.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Settings\images\settings@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\images\start.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\images\start@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\images\straight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\images\straight@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\images\sunrise.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\images\sunrise@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\images\sunset.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\images\sunset@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\swissdaydial.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\swissdaydial@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\swissdayhour.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\swissdayhour@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\swissdayminute.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\swissdayminute@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\swissnightdial.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\swissnightdial@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\swissnighthour.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\swissnighthour@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\swissnightminute.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\swissnightminute@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\images\temperature.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\images\temperature@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\images\uturn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\images\uturn@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Navigation\walk_route.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="wearable.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="wearable.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="qml\Weather\weather.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\weather.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\images\weather.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\images\weather@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Settings\images\wifi.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Settings\images\wifi@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\images\wind.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\Weather\images\wind@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\worldclock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\WorldClock\images\worldclock@2x.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts;xlf</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="i18n\qml_de.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="i18n\qml_fr.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PhotoViewerCore\AlbumDelegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhotoViewerCore\BusyIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhotoViewerCore\Button.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhotoViewerCore\EditableButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhotoViewerCore\PhotoDelegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhotoViewerCore\ProgressBar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhotoViewerCore\RssModel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhotoViewerCore\Tag.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhotoViewerCore\images\box-shadow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhotoViewerCore\images\busy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhotoViewerCore\images\cardboard.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qml.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="i18n\qml_de.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="i18n\qml_fr.qm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhotoViewerCore\script\script.js">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

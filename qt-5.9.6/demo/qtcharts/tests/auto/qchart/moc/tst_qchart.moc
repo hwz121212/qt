@@ -1,0 +1,393 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qchart.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qchart.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QChart_t {
+    QByteArrayData data[66];
+    char stringdata0[1001];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QChart_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QChart_t qt_meta_stringdata_tst_QChart = {
+    {
+QT_MOC_LITERAL(0, 0, 10), // "tst_QChart"
+QT_MOC_LITERAL(1, 11, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 24, 0), // ""
+QT_MOC_LITERAL(3, 25, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(4, 41, 4), // "init"
+QT_MOC_LITERAL(5, 46, 7), // "cleanup"
+QT_MOC_LITERAL(6, 54, 11), // "qchart_data"
+QT_MOC_LITERAL(7, 66, 6), // "qchart"
+QT_MOC_LITERAL(8, 73, 14), // "addSeries_data"
+QT_MOC_LITERAL(9, 88, 9), // "addSeries"
+QT_MOC_LITERAL(10, 98, 21), // "animationOptions_data"
+QT_MOC_LITERAL(11, 120, 16), // "animationOptions"
+QT_MOC_LITERAL(12, 137, 17), // "animationDuration"
+QT_MOC_LITERAL(13, 155, 19), // "animationCurve_data"
+QT_MOC_LITERAL(14, 175, 14), // "animationCurve"
+QT_MOC_LITERAL(15, 190, 10), // "axisX_data"
+QT_MOC_LITERAL(16, 201, 5), // "axisX"
+QT_MOC_LITERAL(17, 207, 10), // "axisY_data"
+QT_MOC_LITERAL(18, 218, 5), // "axisY"
+QT_MOC_LITERAL(19, 224, 20), // "backgroundBrush_data"
+QT_MOC_LITERAL(20, 245, 15), // "backgroundBrush"
+QT_MOC_LITERAL(21, 261, 18), // "backgroundPen_data"
+QT_MOC_LITERAL(22, 280, 13), // "backgroundPen"
+QT_MOC_LITERAL(23, 294, 24), // "isBackgroundVisible_data"
+QT_MOC_LITERAL(24, 319, 19), // "isBackgroundVisible"
+QT_MOC_LITERAL(25, 339, 28), // "plotAreaBackgroundBrush_data"
+QT_MOC_LITERAL(26, 368, 23), // "plotAreaBackgroundBrush"
+QT_MOC_LITERAL(27, 392, 26), // "plotAreaBackgroundPen_data"
+QT_MOC_LITERAL(28, 419, 21), // "plotAreaBackgroundPen"
+QT_MOC_LITERAL(29, 441, 32), // "isPlotAreaBackgroundVisible_data"
+QT_MOC_LITERAL(30, 474, 27), // "isPlotAreaBackgroundVisible"
+QT_MOC_LITERAL(31, 502, 11), // "legend_data"
+QT_MOC_LITERAL(32, 514, 6), // "legend"
+QT_MOC_LITERAL(33, 521, 13), // "plotArea_data"
+QT_MOC_LITERAL(34, 535, 8), // "plotArea"
+QT_MOC_LITERAL(35, 544, 20), // "removeAllSeries_data"
+QT_MOC_LITERAL(36, 565, 15), // "removeAllSeries"
+QT_MOC_LITERAL(37, 581, 17), // "removeSeries_data"
+QT_MOC_LITERAL(38, 599, 12), // "removeSeries"
+QT_MOC_LITERAL(39, 612, 17), // "scroll_right_data"
+QT_MOC_LITERAL(40, 630, 12), // "scroll_right"
+QT_MOC_LITERAL(41, 643, 16), // "scroll_left_data"
+QT_MOC_LITERAL(42, 660, 11), // "scroll_left"
+QT_MOC_LITERAL(43, 672, 14), // "scroll_up_data"
+QT_MOC_LITERAL(44, 687, 9), // "scroll_up"
+QT_MOC_LITERAL(45, 697, 16), // "scroll_down_data"
+QT_MOC_LITERAL(46, 714, 11), // "scroll_down"
+QT_MOC_LITERAL(47, 726, 10), // "theme_data"
+QT_MOC_LITERAL(48, 737, 5), // "theme"
+QT_MOC_LITERAL(49, 743, 10), // "title_data"
+QT_MOC_LITERAL(50, 754, 5), // "title"
+QT_MOC_LITERAL(51, 760, 15), // "titleBrush_data"
+QT_MOC_LITERAL(52, 776, 10), // "titleBrush"
+QT_MOC_LITERAL(53, 787, 14), // "titleFont_data"
+QT_MOC_LITERAL(54, 802, 9), // "titleFont"
+QT_MOC_LITERAL(55, 812, 11), // "zoomIn_data"
+QT_MOC_LITERAL(56, 824, 6), // "zoomIn"
+QT_MOC_LITERAL(57, 831, 12), // "zoomOut_data"
+QT_MOC_LITERAL(58, 844, 7), // "zoomOut"
+QT_MOC_LITERAL(59, 852, 9), // "zoomReset"
+QT_MOC_LITERAL(60, 862, 35), // "createDefaultAxesForLineSerie..."
+QT_MOC_LITERAL(61, 898, 30), // "createDefaultAxesForLineSeries"
+QT_MOC_LITERAL(62, 929, 20), // "axisPolarOrientation"
+QT_MOC_LITERAL(63, 950, 19), // "backgroundRoundness"
+QT_MOC_LITERAL(64, 970, 17), // "zoomInAndOut_data"
+QT_MOC_LITERAL(65, 988, 12) // "zoomInAndOut"
+
+    },
+    "tst_QChart\0initTestCase\0\0cleanupTestCase\0"
+    "init\0cleanup\0qchart_data\0qchart\0"
+    "addSeries_data\0addSeries\0animationOptions_data\0"
+    "animationOptions\0animationDuration\0"
+    "animationCurve_data\0animationCurve\0"
+    "axisX_data\0axisX\0axisY_data\0axisY\0"
+    "backgroundBrush_data\0backgroundBrush\0"
+    "backgroundPen_data\0backgroundPen\0"
+    "isBackgroundVisible_data\0isBackgroundVisible\0"
+    "plotAreaBackgroundBrush_data\0"
+    "plotAreaBackgroundBrush\0"
+    "plotAreaBackgroundPen_data\0"
+    "plotAreaBackgroundPen\0"
+    "isPlotAreaBackgroundVisible_data\0"
+    "isPlotAreaBackgroundVisible\0legend_data\0"
+    "legend\0plotArea_data\0plotArea\0"
+    "removeAllSeries_data\0removeAllSeries\0"
+    "removeSeries_data\0removeSeries\0"
+    "scroll_right_data\0scroll_right\0"
+    "scroll_left_data\0scroll_left\0"
+    "scroll_up_data\0scroll_up\0scroll_down_data\0"
+    "scroll_down\0theme_data\0theme\0title_data\0"
+    "title\0titleBrush_data\0titleBrush\0"
+    "titleFont_data\0titleFont\0zoomIn_data\0"
+    "zoomIn\0zoomOut_data\0zoomOut\0zoomReset\0"
+    "createDefaultAxesForLineSeries_data\0"
+    "createDefaultAxesForLineSeries\0"
+    "axisPolarOrientation\0backgroundRoundness\0"
+    "zoomInAndOut_data\0zoomInAndOut"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QChart[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      64,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  334,    2, 0x0a /* Public */,
+       3,    0,  335,    2, 0x0a /* Public */,
+       4,    0,  336,    2, 0x0a /* Public */,
+       5,    0,  337,    2, 0x0a /* Public */,
+       6,    0,  338,    2, 0x08 /* Private */,
+       7,    0,  339,    2, 0x08 /* Private */,
+       8,    0,  340,    2, 0x08 /* Private */,
+       9,    0,  341,    2, 0x08 /* Private */,
+      10,    0,  342,    2, 0x08 /* Private */,
+      11,    0,  343,    2, 0x08 /* Private */,
+      12,    0,  344,    2, 0x08 /* Private */,
+      13,    0,  345,    2, 0x08 /* Private */,
+      14,    0,  346,    2, 0x08 /* Private */,
+      15,    0,  347,    2, 0x08 /* Private */,
+      16,    0,  348,    2, 0x08 /* Private */,
+      17,    0,  349,    2, 0x08 /* Private */,
+      18,    0,  350,    2, 0x08 /* Private */,
+      19,    0,  351,    2, 0x08 /* Private */,
+      20,    0,  352,    2, 0x08 /* Private */,
+      21,    0,  353,    2, 0x08 /* Private */,
+      22,    0,  354,    2, 0x08 /* Private */,
+      23,    0,  355,    2, 0x08 /* Private */,
+      24,    0,  356,    2, 0x08 /* Private */,
+      25,    0,  357,    2, 0x08 /* Private */,
+      26,    0,  358,    2, 0x08 /* Private */,
+      27,    0,  359,    2, 0x08 /* Private */,
+      28,    0,  360,    2, 0x08 /* Private */,
+      29,    0,  361,    2, 0x08 /* Private */,
+      30,    0,  362,    2, 0x08 /* Private */,
+      31,    0,  363,    2, 0x08 /* Private */,
+      32,    0,  364,    2, 0x08 /* Private */,
+      33,    0,  365,    2, 0x08 /* Private */,
+      34,    0,  366,    2, 0x08 /* Private */,
+      35,    0,  367,    2, 0x08 /* Private */,
+      36,    0,  368,    2, 0x08 /* Private */,
+      37,    0,  369,    2, 0x08 /* Private */,
+      38,    0,  370,    2, 0x08 /* Private */,
+      39,    0,  371,    2, 0x08 /* Private */,
+      40,    0,  372,    2, 0x08 /* Private */,
+      41,    0,  373,    2, 0x08 /* Private */,
+      42,    0,  374,    2, 0x08 /* Private */,
+      43,    0,  375,    2, 0x08 /* Private */,
+      44,    0,  376,    2, 0x08 /* Private */,
+      45,    0,  377,    2, 0x08 /* Private */,
+      46,    0,  378,    2, 0x08 /* Private */,
+      47,    0,  379,    2, 0x08 /* Private */,
+      48,    0,  380,    2, 0x08 /* Private */,
+      49,    0,  381,    2, 0x08 /* Private */,
+      50,    0,  382,    2, 0x08 /* Private */,
+      51,    0,  383,    2, 0x08 /* Private */,
+      52,    0,  384,    2, 0x08 /* Private */,
+      53,    0,  385,    2, 0x08 /* Private */,
+      54,    0,  386,    2, 0x08 /* Private */,
+      55,    0,  387,    2, 0x08 /* Private */,
+      56,    0,  388,    2, 0x08 /* Private */,
+      57,    0,  389,    2, 0x08 /* Private */,
+      58,    0,  390,    2, 0x08 /* Private */,
+      59,    0,  391,    2, 0x08 /* Private */,
+      60,    0,  392,    2, 0x08 /* Private */,
+      61,    0,  393,    2, 0x08 /* Private */,
+      62,    0,  394,    2, 0x08 /* Private */,
+      63,    0,  395,    2, 0x08 /* Private */,
+      64,    0,  396,    2, 0x08 /* Private */,
+      65,    0,  397,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QChart::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QChart *_t = static_cast<tst_QChart *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->cleanupTestCase(); break;
+        case 2: _t->init(); break;
+        case 3: _t->cleanup(); break;
+        case 4: _t->qchart_data(); break;
+        case 5: _t->qchart(); break;
+        case 6: _t->addSeries_data(); break;
+        case 7: _t->addSeries(); break;
+        case 8: _t->animationOptions_data(); break;
+        case 9: _t->animationOptions(); break;
+        case 10: _t->animationDuration(); break;
+        case 11: _t->animationCurve_data(); break;
+        case 12: _t->animationCurve(); break;
+        case 13: _t->axisX_data(); break;
+        case 14: _t->axisX(); break;
+        case 15: _t->axisY_data(); break;
+        case 16: _t->axisY(); break;
+        case 17: _t->backgroundBrush_data(); break;
+        case 18: _t->backgroundBrush(); break;
+        case 19: _t->backgroundPen_data(); break;
+        case 20: _t->backgroundPen(); break;
+        case 21: _t->isBackgroundVisible_data(); break;
+        case 22: _t->isBackgroundVisible(); break;
+        case 23: _t->plotAreaBackgroundBrush_data(); break;
+        case 24: _t->plotAreaBackgroundBrush(); break;
+        case 25: _t->plotAreaBackgroundPen_data(); break;
+        case 26: _t->plotAreaBackgroundPen(); break;
+        case 27: _t->isPlotAreaBackgroundVisible_data(); break;
+        case 28: _t->isPlotAreaBackgroundVisible(); break;
+        case 29: _t->legend_data(); break;
+        case 30: _t->legend(); break;
+        case 31: _t->plotArea_data(); break;
+        case 32: _t->plotArea(); break;
+        case 33: _t->removeAllSeries_data(); break;
+        case 34: _t->removeAllSeries(); break;
+        case 35: _t->removeSeries_data(); break;
+        case 36: _t->removeSeries(); break;
+        case 37: _t->scroll_right_data(); break;
+        case 38: _t->scroll_right(); break;
+        case 39: _t->scroll_left_data(); break;
+        case 40: _t->scroll_left(); break;
+        case 41: _t->scroll_up_data(); break;
+        case 42: _t->scroll_up(); break;
+        case 43: _t->scroll_down_data(); break;
+        case 44: _t->scroll_down(); break;
+        case 45: _t->theme_data(); break;
+        case 46: _t->theme(); break;
+        case 47: _t->title_data(); break;
+        case 48: _t->title(); break;
+        case 49: _t->titleBrush_data(); break;
+        case 50: _t->titleBrush(); break;
+        case 51: _t->titleFont_data(); break;
+        case 52: _t->titleFont(); break;
+        case 53: _t->zoomIn_data(); break;
+        case 54: _t->zoomIn(); break;
+        case 55: _t->zoomOut_data(); break;
+        case 56: _t->zoomOut(); break;
+        case 57: _t->zoomReset(); break;
+        case 58: _t->createDefaultAxesForLineSeries_data(); break;
+        case 59: _t->createDefaultAxesForLineSeries(); break;
+        case 60: _t->axisPolarOrientation(); break;
+        case 61: _t->backgroundRoundness(); break;
+        case 62: _t->zoomInAndOut_data(); break;
+        case 63: _t->zoomInAndOut(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QChart::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QChart.data,
+      qt_meta_data_tst_QChart,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QChart::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QChart::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QChart.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QChart::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 64)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 64;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 64)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 64;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

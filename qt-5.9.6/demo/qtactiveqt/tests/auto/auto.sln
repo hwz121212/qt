@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "conversion", "F:/qt/Src/qtactiveqt/tests/auto/conversion\conversion.vcxproj", "{5C1BB64E-4D61-3937-BA14-A0E95FF51BF4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qaxobject", "F:/qt/Src/qtactiveqt/tests/auto/qaxobject\qaxobject.vcxproj", "{DFDC6180-7E4C-37F8-9E28-1BB1000CB1D1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qaxscript", "F:/qt/Src/qtactiveqt/tests/auto/qaxscript\qaxscript.vcxproj", "{8EBA20AA-95A0-3CD8-9EA1-5E3DD908AF13}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_dumpcpp", "F:/qt/Src/qtactiveqt/tests/auto/dumpcpp\tst_dumpcpp.vcxproj", "{354F40DC-E103-3EC6-8FF9-5FE9F636F79C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C1BB64E-4D61-3937-BA14-A0E95FF51BF4}.Debug|x64.ActiveCfg = Debug|x64
+		{5C1BB64E-4D61-3937-BA14-A0E95FF51BF4}.Debug|x64.Build.0 = Debug|x64
+		{5C1BB64E-4D61-3937-BA14-A0E95FF51BF4}.Release|x64.ActiveCfg = Release|x64
+		{5C1BB64E-4D61-3937-BA14-A0E95FF51BF4}.Release|x64.Build.0 = Release|x64
+		{DFDC6180-7E4C-37F8-9E28-1BB1000CB1D1}.Debug|x64.ActiveCfg = Debug|x64
+		{DFDC6180-7E4C-37F8-9E28-1BB1000CB1D1}.Debug|x64.Build.0 = Debug|x64
+		{DFDC6180-7E4C-37F8-9E28-1BB1000CB1D1}.Release|x64.ActiveCfg = Release|x64
+		{DFDC6180-7E4C-37F8-9E28-1BB1000CB1D1}.Release|x64.Build.0 = Release|x64
+		{8EBA20AA-95A0-3CD8-9EA1-5E3DD908AF13}.Debug|x64.ActiveCfg = Debug|x64
+		{8EBA20AA-95A0-3CD8-9EA1-5E3DD908AF13}.Debug|x64.Build.0 = Debug|x64
+		{8EBA20AA-95A0-3CD8-9EA1-5E3DD908AF13}.Release|x64.ActiveCfg = Release|x64
+		{8EBA20AA-95A0-3CD8-9EA1-5E3DD908AF13}.Release|x64.Build.0 = Release|x64
+		{354F40DC-E103-3EC6-8FF9-5FE9F636F79C}.Debug|x64.ActiveCfg = Debug|x64
+		{354F40DC-E103-3EC6-8FF9-5FE9F636F79C}.Debug|x64.Build.0 = Debug|x64
+		{354F40DC-E103-3EC6-8FF9-5FE9F636F79C}.Release|x64.ActiveCfg = Release|x64
+		{354F40DC-E103-3EC6-8FF9-5FE9F636F79C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

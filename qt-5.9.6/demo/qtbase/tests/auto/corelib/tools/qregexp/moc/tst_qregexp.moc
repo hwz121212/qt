@@ -1,0 +1,246 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qregexp.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qregexp.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QRegExp_t {
+    QByteArrayData data[34];
+    char stringdata0[535];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QRegExp_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QRegExp_t qt_meta_stringdata_tst_QRegExp = {
+    {
+QT_MOC_LITERAL(0, 0, 11), // "tst_QRegExp"
+QT_MOC_LITERAL(1, 12, 11), // "getSetCheck"
+QT_MOC_LITERAL(2, 24, 0), // ""
+QT_MOC_LITERAL(3, 25, 12), // "indexIn_data"
+QT_MOC_LITERAL(4, 38, 19), // "indexIn_addMoreRows"
+QT_MOC_LITERAL(5, 58, 4), // "stri"
+QT_MOC_LITERAL(6, 63, 7), // "indexIn"
+QT_MOC_LITERAL(7, 71, 16), // "lastIndexIn_data"
+QT_MOC_LITERAL(8, 88, 11), // "lastIndexIn"
+QT_MOC_LITERAL(9, 100, 13), // "matchedLength"
+QT_MOC_LITERAL(10, 114, 13), // "wildcard_data"
+QT_MOC_LITERAL(11, 128, 8), // "wildcard"
+QT_MOC_LITERAL(12, 137, 25), // "testEscapingWildcard_data"
+QT_MOC_LITERAL(13, 163, 20), // "testEscapingWildcard"
+QT_MOC_LITERAL(14, 184, 24), // "testInvalidWildcard_data"
+QT_MOC_LITERAL(15, 209, 19), // "testInvalidWildcard"
+QT_MOC_LITERAL(16, 229, 25), // "caretAnchoredOptimization"
+QT_MOC_LITERAL(17, 255, 7), // "isEmpty"
+QT_MOC_LITERAL(18, 263, 25), // "prepareEngineOptimization"
+QT_MOC_LITERAL(19, 289, 4), // "swap"
+QT_MOC_LITERAL(20, 294, 11), // "operator_eq"
+QT_MOC_LITERAL(21, 306, 10), // "exactMatch"
+QT_MOC_LITERAL(22, 317, 13), // "capturedTexts"
+QT_MOC_LITERAL(23, 331, 12), // "staticRegExp"
+QT_MOC_LITERAL(24, 344, 24), // "rainersSlowRegExpCopyBug"
+QT_MOC_LITERAL(25, 369, 27), // "nonExistingBackReferenceBug"
+QT_MOC_LITERAL(26, 397, 10), // "reentrancy"
+QT_MOC_LITERAL(27, 408, 21), // "threadsafeEngineCache"
+QT_MOC_LITERAL(28, 430, 25), // "posAndCapConsistency_data"
+QT_MOC_LITERAL(29, 456, 20), // "posAndCapConsistency"
+QT_MOC_LITERAL(30, 477, 8), // "interval"
+QT_MOC_LITERAL(31, 486, 18), // "validityCheck_data"
+QT_MOC_LITERAL(32, 505, 13), // "validityCheck"
+QT_MOC_LITERAL(33, 519, 15) // "escapeSequences"
+
+    },
+    "tst_QRegExp\0getSetCheck\0\0indexIn_data\0"
+    "indexIn_addMoreRows\0stri\0indexIn\0"
+    "lastIndexIn_data\0lastIndexIn\0matchedLength\0"
+    "wildcard_data\0wildcard\0testEscapingWildcard_data\0"
+    "testEscapingWildcard\0testInvalidWildcard_data\0"
+    "testInvalidWildcard\0caretAnchoredOptimization\0"
+    "isEmpty\0prepareEngineOptimization\0"
+    "swap\0operator_eq\0exactMatch\0capturedTexts\0"
+    "staticRegExp\0rainersSlowRegExpCopyBug\0"
+    "nonExistingBackReferenceBug\0reentrancy\0"
+    "threadsafeEngineCache\0posAndCapConsistency_data\0"
+    "posAndCapConsistency\0interval\0"
+    "validityCheck_data\0validityCheck\0"
+    "escapeSequences"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QRegExp[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      31,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  169,    2, 0x08 /* Private */,
+       3,    0,  170,    2, 0x08 /* Private */,
+       4,    1,  171,    2, 0x08 /* Private */,
+       6,    0,  174,    2, 0x08 /* Private */,
+       7,    0,  175,    2, 0x08 /* Private */,
+       8,    0,  176,    2, 0x08 /* Private */,
+       9,    0,  177,    2, 0x08 /* Private */,
+      10,    0,  178,    2, 0x08 /* Private */,
+      11,    0,  179,    2, 0x08 /* Private */,
+      12,    0,  180,    2, 0x08 /* Private */,
+      13,    0,  181,    2, 0x08 /* Private */,
+      14,    0,  182,    2, 0x08 /* Private */,
+      15,    0,  183,    2, 0x08 /* Private */,
+      16,    0,  184,    2, 0x08 /* Private */,
+      17,    0,  185,    2, 0x08 /* Private */,
+      18,    0,  186,    2, 0x08 /* Private */,
+      19,    0,  187,    2, 0x08 /* Private */,
+      20,    0,  188,    2, 0x08 /* Private */,
+      21,    0,  189,    2, 0x08 /* Private */,
+      22,    0,  190,    2, 0x08 /* Private */,
+      23,    0,  191,    2, 0x08 /* Private */,
+      24,    0,  192,    2, 0x08 /* Private */,
+      25,    0,  193,    2, 0x08 /* Private */,
+      26,    0,  194,    2, 0x08 /* Private */,
+      27,    0,  195,    2, 0x08 /* Private */,
+      28,    0,  196,    2, 0x08 /* Private */,
+      29,    0,  197,    2, 0x08 /* Private */,
+      30,    0,  198,    2, 0x08 /* Private */,
+      31,    0,  199,    2, 0x08 /* Private */,
+      32,    0,  200,    2, 0x08 /* Private */,
+      33,    0,  201,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QByteArray,    5,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QRegExp::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QRegExp *_t = static_cast<tst_QRegExp *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->getSetCheck(); break;
+        case 1: _t->indexIn_data(); break;
+        case 2: _t->indexIn_addMoreRows((*reinterpret_cast< const QByteArray(*)>(_a[1]))); break;
+        case 3: _t->indexIn(); break;
+        case 4: _t->lastIndexIn_data(); break;
+        case 5: _t->lastIndexIn(); break;
+        case 6: _t->matchedLength(); break;
+        case 7: _t->wildcard_data(); break;
+        case 8: _t->wildcard(); break;
+        case 9: _t->testEscapingWildcard_data(); break;
+        case 10: _t->testEscapingWildcard(); break;
+        case 11: _t->testInvalidWildcard_data(); break;
+        case 12: _t->testInvalidWildcard(); break;
+        case 13: _t->caretAnchoredOptimization(); break;
+        case 14: _t->isEmpty(); break;
+        case 15: _t->prepareEngineOptimization(); break;
+        case 16: _t->swap(); break;
+        case 17: _t->operator_eq(); break;
+        case 18: _t->exactMatch(); break;
+        case 19: _t->capturedTexts(); break;
+        case 20: _t->staticRegExp(); break;
+        case 21: _t->rainersSlowRegExpCopyBug(); break;
+        case 22: _t->nonExistingBackReferenceBug(); break;
+        case 23: _t->reentrancy(); break;
+        case 24: _t->threadsafeEngineCache(); break;
+        case 25: _t->posAndCapConsistency_data(); break;
+        case 26: _t->posAndCapConsistency(); break;
+        case 27: _t->interval(); break;
+        case 28: _t->validityCheck_data(); break;
+        case 29: _t->validityCheck(); break;
+        case 30: _t->escapeSequences(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObject tst_QRegExp::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QRegExp.data,
+      qt_meta_data_tst_QRegExp,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QRegExp::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QRegExp::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QRegExp.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QRegExp::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 31)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 31;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 31)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 31;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

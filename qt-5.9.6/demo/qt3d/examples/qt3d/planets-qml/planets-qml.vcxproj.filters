@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Distribution Files">
+      <UniqueIdentifier>{B83CAF91-C7BF-462F-B76C-EA11631F866C}</UniqueIdentifier>
+      <Extensions>*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="networkcontroller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="networkcontroller.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="AppleTVInput.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="FpsDisplay.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="InfoSheet.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Planet.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PlanetButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PlanetEffect.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PlanetFrameGraph.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PlanetMaterial.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PlanetsLight.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PlanetsMain.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Ring.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ShadowEffect.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SolarSystem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="StyledSlider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="SunEffect.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\earth.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\earthcloudmapcolortrans.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\earthcloudmapspec.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\earthmap2k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\earthnormal2k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\earthspec2k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\galaxy_starfield.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\jupiter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\jupitermap.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\license.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\mars.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\marsmap2k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\marsnormal2k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\mercury.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\mercurymap.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\mercurynormal.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\moonmap2k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\moonnormal2k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\neptune.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\neptunemap.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\es2\planetD.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\gl3\planetD.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\es2\planetD.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\gl3\planetD.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\es2\planetDB.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\gl3\planetDB.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\es2\planetDB.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\gl3\planetDB.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\es2\planetDS.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\gl3\planetDS.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\es2\planetDSB.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\gl3\planetDSB.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\gl3\planetDShadow.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\gl3\planetDShadow.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="planets-qml-images.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <QtRcc Include="planets-qml.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="planets.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="meshes\ring.obj">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\saturn.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\saturnmap.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\saturnringcolortrans.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\gl3\shadowmap.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\gl3\shadowmap.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="meshes\starfield.obj">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\es2\sun.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\gl3\sun.frag">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\sun.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\es2\sun.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="shaders\gl3\sun.vert">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\sunmap.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\uranus.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\uranusmap.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\nasa\uranusringcolortrans.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\venus.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\venusmap.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\solarsystemscope\venusnormal.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="android\AndroidManifest.xml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="PlanetsMain.qml">
+      <Filter>Distribution Files</Filter>
+    </None>
+    <None Include="images\license.txt">
+      <Filter>Distribution Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

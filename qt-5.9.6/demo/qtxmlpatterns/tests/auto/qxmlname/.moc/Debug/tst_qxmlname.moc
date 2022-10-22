@@ -1,0 +1,216 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qxmlname.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qxmlname.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QXmlName_t {
+    QByteArrayData data[26];
+    char stringdata0[425];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QXmlName_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QXmlName_t qt_meta_stringdata_tst_QXmlName = {
+    {
+QT_MOC_LITERAL(0, 0, 12), // "tst_QXmlName"
+QT_MOC_LITERAL(1, 13, 18), // "defaultConstructor"
+QT_MOC_LITERAL(2, 32, 0), // ""
+QT_MOC_LITERAL(3, 33, 19), // "argumentConstructor"
+QT_MOC_LITERAL(4, 53, 24), // "argumentConstructor_data"
+QT_MOC_LITERAL(5, 78, 35), // "argumentConstructorDefaultArg..."
+QT_MOC_LITERAL(6, 114, 17), // "equalnessoperator"
+QT_MOC_LITERAL(7, 132, 19), // "inequalnessoperator"
+QT_MOC_LITERAL(8, 152, 6), // "isNull"
+QT_MOC_LITERAL(9, 159, 13), // "operatorEqual"
+QT_MOC_LITERAL(10, 173, 18), // "operatorEqual_data"
+QT_MOC_LITERAL(11, 192, 16), // "operatorNotEqual"
+QT_MOC_LITERAL(12, 209, 21), // "operatorNotEqual_data"
+QT_MOC_LITERAL(13, 231, 11), // "toClarkName"
+QT_MOC_LITERAL(14, 243, 16), // "toClarkName_data"
+QT_MOC_LITERAL(15, 260, 16), // "constCorrectness"
+QT_MOC_LITERAL(16, 277, 5), // "qHash"
+QT_MOC_LITERAL(17, 283, 10), // "objectSize"
+QT_MOC_LITERAL(18, 294, 14), // "withinQVariant"
+QT_MOC_LITERAL(19, 309, 18), // "typeWithinQVariant"
+QT_MOC_LITERAL(20, 328, 8), // "isNCName"
+QT_MOC_LITERAL(21, 337, 13), // "isNCName_data"
+QT_MOC_LITERAL(22, 351, 17), // "isNCNameSignature"
+QT_MOC_LITERAL(23, 369, 13), // "fromClarkName"
+QT_MOC_LITERAL(24, 383, 18), // "fromClarkName_data"
+QT_MOC_LITERAL(25, 402, 22) // "fromClarkNameSignature"
+
+    },
+    "tst_QXmlName\0defaultConstructor\0\0"
+    "argumentConstructor\0argumentConstructor_data\0"
+    "argumentConstructorDefaultArguments\0"
+    "equalnessoperator\0inequalnessoperator\0"
+    "isNull\0operatorEqual\0operatorEqual_data\0"
+    "operatorNotEqual\0operatorNotEqual_data\0"
+    "toClarkName\0toClarkName_data\0"
+    "constCorrectness\0qHash\0objectSize\0"
+    "withinQVariant\0typeWithinQVariant\0"
+    "isNCName\0isNCName_data\0isNCNameSignature\0"
+    "fromClarkName\0fromClarkName_data\0"
+    "fromClarkNameSignature"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QXmlName[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      24,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  134,    2, 0x08 /* Private */,
+       3,    0,  135,    2, 0x08 /* Private */,
+       4,    0,  136,    2, 0x08 /* Private */,
+       5,    0,  137,    2, 0x08 /* Private */,
+       6,    0,  138,    2, 0x08 /* Private */,
+       7,    0,  139,    2, 0x08 /* Private */,
+       8,    0,  140,    2, 0x08 /* Private */,
+       9,    0,  141,    2, 0x08 /* Private */,
+      10,    0,  142,    2, 0x08 /* Private */,
+      11,    0,  143,    2, 0x08 /* Private */,
+      12,    0,  144,    2, 0x08 /* Private */,
+      13,    0,  145,    2, 0x08 /* Private */,
+      14,    0,  146,    2, 0x08 /* Private */,
+      15,    0,  147,    2, 0x08 /* Private */,
+      16,    0,  148,    2, 0x08 /* Private */,
+      17,    0,  149,    2, 0x08 /* Private */,
+      18,    0,  150,    2, 0x08 /* Private */,
+      19,    0,  151,    2, 0x08 /* Private */,
+      20,    0,  152,    2, 0x08 /* Private */,
+      21,    0,  153,    2, 0x08 /* Private */,
+      22,    0,  154,    2, 0x08 /* Private */,
+      23,    0,  155,    2, 0x08 /* Private */,
+      24,    0,  156,    2, 0x08 /* Private */,
+      25,    0,  157,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QXmlName::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QXmlName *_t = static_cast<tst_QXmlName *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->defaultConstructor(); break;
+        case 1: _t->argumentConstructor(); break;
+        case 2: _t->argumentConstructor_data(); break;
+        case 3: _t->argumentConstructorDefaultArguments(); break;
+        case 4: _t->equalnessoperator(); break;
+        case 5: _t->inequalnessoperator(); break;
+        case 6: _t->isNull(); break;
+        case 7: _t->operatorEqual(); break;
+        case 8: _t->operatorEqual_data(); break;
+        case 9: _t->operatorNotEqual(); break;
+        case 10: _t->operatorNotEqual_data(); break;
+        case 11: _t->toClarkName(); break;
+        case 12: _t->toClarkName_data(); break;
+        case 13: _t->constCorrectness(); break;
+        case 14: _t->qHash(); break;
+        case 15: _t->objectSize(); break;
+        case 16: _t->withinQVariant(); break;
+        case 17: _t->typeWithinQVariant(); break;
+        case 18: _t->isNCName(); break;
+        case 19: _t->isNCName_data(); break;
+        case 20: _t->isNCNameSignature(); break;
+        case 21: _t->fromClarkName(); break;
+        case 22: _t->fromClarkName_data(); break;
+        case 23: _t->fromClarkNameSignature(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QXmlName::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QXmlName.data,
+      qt_meta_data_tst_QXmlName,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QXmlName::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QXmlName::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QXmlName.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QXmlName::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 24)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 24;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 24)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 24;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

@@ -1,0 +1,56 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculatorform", "F:/qt/Src/qttools/examples/designer/calculatorform\calculatorform.vcxproj", "{F877E4F4-B69A-3717-9501-E3E917CE3CFB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "calculatorbuilder", "F:/qt/Src/qttools/examples/designer/calculatorbuilder\calculatorbuilder.vcxproj", "{62E05A86-8632-33FB-81A1-3DF6C6C74DF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "containerextension", "F:/qt/Src/qttools/examples/designer/containerextension\containerextension.vcxproj", "{B97FCD9E-BEA7-3B25-8BF0-EC34C170BFEF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "customwidgetplugin", "F:/qt/Src/qttools/examples/designer/customwidgetplugin\customwidgetplugin.vcxproj", "{74D25F43-351A-3E1D-9296-CE283381330C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "taskmenuextension", "F:/qt/Src/qttools/examples/designer/taskmenuextension\taskmenuextension.vcxproj", "{68AE21A1-FAA2-3408-B358-CEC8DDFA7DA0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worldtimeclockbuilder", "F:/qt/Src/qttools/examples/designer/worldtimeclockbuilder\worldtimeclockbuilder.vcxproj", "{E55FD423-3EFF-3606-A5F6-C2BDC178BE90}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worldtimeclockplugin", "F:/qt/Src/qttools/examples/designer/worldtimeclockplugin\worldtimeclockplugin.vcxproj", "{2A437FC5-B309-3109-BC3E-46EAD2DB53A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F877E4F4-B69A-3717-9501-E3E917CE3CFB}.Debug|x64.ActiveCfg = Debug|x64
+		{F877E4F4-B69A-3717-9501-E3E917CE3CFB}.Debug|x64.Build.0 = Debug|x64
+		{F877E4F4-B69A-3717-9501-E3E917CE3CFB}.Release|x64.ActiveCfg = Release|x64
+		{F877E4F4-B69A-3717-9501-E3E917CE3CFB}.Release|x64.Build.0 = Release|x64
+		{62E05A86-8632-33FB-81A1-3DF6C6C74DF9}.Debug|x64.ActiveCfg = Debug|x64
+		{62E05A86-8632-33FB-81A1-3DF6C6C74DF9}.Debug|x64.Build.0 = Debug|x64
+		{62E05A86-8632-33FB-81A1-3DF6C6C74DF9}.Release|x64.ActiveCfg = Release|x64
+		{62E05A86-8632-33FB-81A1-3DF6C6C74DF9}.Release|x64.Build.0 = Release|x64
+		{B97FCD9E-BEA7-3B25-8BF0-EC34C170BFEF}.Debug|x64.ActiveCfg = Debug|x64
+		{B97FCD9E-BEA7-3B25-8BF0-EC34C170BFEF}.Debug|x64.Build.0 = Debug|x64
+		{B97FCD9E-BEA7-3B25-8BF0-EC34C170BFEF}.Release|x64.ActiveCfg = Release|x64
+		{B97FCD9E-BEA7-3B25-8BF0-EC34C170BFEF}.Release|x64.Build.0 = Release|x64
+		{74D25F43-351A-3E1D-9296-CE283381330C}.Debug|x64.ActiveCfg = Debug|x64
+		{74D25F43-351A-3E1D-9296-CE283381330C}.Debug|x64.Build.0 = Debug|x64
+		{74D25F43-351A-3E1D-9296-CE283381330C}.Release|x64.ActiveCfg = Release|x64
+		{74D25F43-351A-3E1D-9296-CE283381330C}.Release|x64.Build.0 = Release|x64
+		{68AE21A1-FAA2-3408-B358-CEC8DDFA7DA0}.Debug|x64.ActiveCfg = Debug|x64
+		{68AE21A1-FAA2-3408-B358-CEC8DDFA7DA0}.Debug|x64.Build.0 = Debug|x64
+		{68AE21A1-FAA2-3408-B358-CEC8DDFA7DA0}.Release|x64.ActiveCfg = Release|x64
+		{68AE21A1-FAA2-3408-B358-CEC8DDFA7DA0}.Release|x64.Build.0 = Release|x64
+		{E55FD423-3EFF-3606-A5F6-C2BDC178BE90}.Debug|x64.ActiveCfg = Debug|x64
+		{E55FD423-3EFF-3606-A5F6-C2BDC178BE90}.Debug|x64.Build.0 = Debug|x64
+		{E55FD423-3EFF-3606-A5F6-C2BDC178BE90}.Release|x64.ActiveCfg = Release|x64
+		{E55FD423-3EFF-3606-A5F6-C2BDC178BE90}.Release|x64.Build.0 = Release|x64
+		{2A437FC5-B309-3109-BC3E-46EAD2DB53A3}.Debug|x64.ActiveCfg = Debug|x64
+		{2A437FC5-B309-3109-BC3E-46EAD2DB53A3}.Debug|x64.Build.0 = Debug|x64
+		{2A437FC5-B309-3109-BC3E-46EAD2DB53A3}.Release|x64.ActiveCfg = Release|x64
+		{2A437FC5-B309-3109-BC3E-46EAD2DB53A3}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

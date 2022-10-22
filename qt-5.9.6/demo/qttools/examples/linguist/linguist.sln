@@ -1,0 +1,32 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "arrowpad", "F:/qt/Src/qttools/examples/linguist/arrowpad\arrowpad.vcxproj", "{2FFF8914-6407-3ADD-8A75-74B535ACB808}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hellotr", "F:/qt/Src/qttools/examples/linguist/hellotr\hellotr.vcxproj", "{117236BA-C613-3A33-A701-23868C20DD83}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "trollprint", "F:/qt/Src/qttools/examples/linguist/trollprint\trollprint.vcxproj", "{B04FA94B-1823-3899-AC94-B9BEF5C7FB82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FFF8914-6407-3ADD-8A75-74B535ACB808}.Debug|x64.ActiveCfg = Debug|x64
+		{2FFF8914-6407-3ADD-8A75-74B535ACB808}.Debug|x64.Build.0 = Debug|x64
+		{2FFF8914-6407-3ADD-8A75-74B535ACB808}.Release|x64.ActiveCfg = Release|x64
+		{2FFF8914-6407-3ADD-8A75-74B535ACB808}.Release|x64.Build.0 = Release|x64
+		{117236BA-C613-3A33-A701-23868C20DD83}.Debug|x64.ActiveCfg = Debug|x64
+		{117236BA-C613-3A33-A701-23868C20DD83}.Debug|x64.Build.0 = Debug|x64
+		{117236BA-C613-3A33-A701-23868C20DD83}.Release|x64.ActiveCfg = Release|x64
+		{117236BA-C613-3A33-A701-23868C20DD83}.Release|x64.Build.0 = Release|x64
+		{B04FA94B-1823-3899-AC94-B9BEF5C7FB82}.Debug|x64.ActiveCfg = Debug|x64
+		{B04FA94B-1823-3899-AC94-B9BEF5C7FB82}.Debug|x64.Build.0 = Debug|x64
+		{B04FA94B-1823-3899-AC94-B9BEF5C7FB82}.Release|x64.ActiveCfg = Release|x64
+		{B04FA94B-1823-3899-AC94-B9BEF5C7FB82}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

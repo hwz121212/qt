@@ -1,0 +1,43 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_inputpanel", "auto\inputpanel\tst_inputpanel.vcxproj", "{BEAD386E-E2FD-3B2D-948C-F1D1E6CE8192}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_styles", "auto\styles\tst_styles.vcxproj", "{9C501F63-0ED6-3313-AD22-C4772A06BE2F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_layoutfilesystem", "auto\layoutfilesystem\tst_layoutfilesystem.vcxproj", "{9660D84C-2054-3330-B728-B02880BBC8A2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_layoutresources", "auto\layoutresources\tst_layoutresources.vcxproj", "{CA48D3BB-85E8-3A56-8233-6BF073B26EB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEAD386E-E2FD-3B2D-948C-F1D1E6CE8192}.Debug|x64.ActiveCfg = Debug|x64
+		{BEAD386E-E2FD-3B2D-948C-F1D1E6CE8192}.Debug|x64.Build.0 = Debug|x64
+		{BEAD386E-E2FD-3B2D-948C-F1D1E6CE8192}.Release|x64.ActiveCfg = Release|x64
+		{BEAD386E-E2FD-3B2D-948C-F1D1E6CE8192}.Release|x64.Build.0 = Release|x64
+		{9C501F63-0ED6-3313-AD22-C4772A06BE2F}.Debug|x64.ActiveCfg = Debug|x64
+		{9C501F63-0ED6-3313-AD22-C4772A06BE2F}.Debug|x64.Build.0 = Debug|x64
+		{9C501F63-0ED6-3313-AD22-C4772A06BE2F}.Release|x64.ActiveCfg = Release|x64
+		{9C501F63-0ED6-3313-AD22-C4772A06BE2F}.Release|x64.Build.0 = Release|x64
+		{9660D84C-2054-3330-B728-B02880BBC8A2}.Debug|x64.ActiveCfg = Debug|x64
+		{9660D84C-2054-3330-B728-B02880BBC8A2}.Debug|x64.Build.0 = Debug|x64
+		{9660D84C-2054-3330-B728-B02880BBC8A2}.Release|x64.ActiveCfg = Release|x64
+		{9660D84C-2054-3330-B728-B02880BBC8A2}.Release|x64.Build.0 = Release|x64
+		{CA48D3BB-85E8-3A56-8233-6BF073B26EB8}.Debug|x64.ActiveCfg = Debug|x64
+		{CA48D3BB-85E8-3A56-8233-6BF073B26EB8}.Debug|x64.Build.0 = Debug|x64
+		{CA48D3BB-85E8-3A56-8233-6BF073B26EB8}.Release|x64.ActiveCfg = Release|x64
+		{CA48D3BB-85E8-3A56-8233-6BF073B26EB8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = msvc2017_64
+		SolutionGuid = {66116ED7-5EAF-4261-BB1A-677A9F9ADAE1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource prefix="/">
+<file alias="qtquickcontrols2.conf">qtquickcontrols2.conf</file>
+<file alias="flatstyle.qml">flatstyle.qml</file>
+<file alias="MainForm.ui.qml">MainForm.ui.qml</file>
+<file alias="imports/Theme/qmldir">imports/Theme/qmldir</file>
+<file alias="imports/Theme/Theme.qml">imports/Theme/Theme.qml</file>
+<file alias="Flat/Button.qml">Flat/Button.qml</file>
+<file alias="Flat/CheckBox.qml">Flat/CheckBox.qml</file>
+<file alias="Flat/Switch.qml">Flat/Switch.qml</file>
+</qresource>
+</RCC>

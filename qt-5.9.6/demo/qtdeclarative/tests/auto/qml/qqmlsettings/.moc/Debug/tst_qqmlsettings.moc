@@ -1,0 +1,769 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qqmlsettings.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qqmlsettings.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QQmlSettings_t {
+    QByteArrayData data[12];
+    char stringdata0[105];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QQmlSettings_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QQmlSettings_t qt_meta_stringdata_tst_QQmlSettings = {
+    {
+QT_MOC_LITERAL(0, 0, 16), // "tst_QQmlSettings"
+QT_MOC_LITERAL(1, 17, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 30, 0), // ""
+QT_MOC_LITERAL(3, 31, 4), // "init"
+QT_MOC_LITERAL(4, 36, 7), // "cleanup"
+QT_MOC_LITERAL(5, 44, 5), // "basic"
+QT_MOC_LITERAL(6, 50, 5), // "types"
+QT_MOC_LITERAL(7, 56, 12), // "aliases_data"
+QT_MOC_LITERAL(8, 69, 7), // "aliases"
+QT_MOC_LITERAL(9, 77, 10), // "categories"
+QT_MOC_LITERAL(10, 88, 8), // "siblings"
+QT_MOC_LITERAL(11, 97, 7) // "initial"
+
+    },
+    "tst_QQmlSettings\0initTestCase\0\0init\0"
+    "cleanup\0basic\0types\0aliases_data\0"
+    "aliases\0categories\0siblings\0initial"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QQmlSettings[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      10,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   64,    2, 0x08 /* Private */,
+       3,    0,   65,    2, 0x08 /* Private */,
+       4,    0,   66,    2, 0x08 /* Private */,
+       5,    0,   67,    2, 0x08 /* Private */,
+       6,    0,   68,    2, 0x08 /* Private */,
+       7,    0,   69,    2, 0x08 /* Private */,
+       8,    0,   70,    2, 0x08 /* Private */,
+       9,    0,   71,    2, 0x08 /* Private */,
+      10,    0,   72,    2, 0x08 /* Private */,
+      11,    0,   73,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QQmlSettings::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QQmlSettings *_t = static_cast<tst_QQmlSettings *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->init(); break;
+        case 2: _t->cleanup(); break;
+        case 3: _t->basic(); break;
+        case 4: _t->types(); break;
+        case 5: _t->aliases_data(); break;
+        case 6: _t->aliases(); break;
+        case 7: _t->categories(); break;
+        case 8: _t->siblings(); break;
+        case 9: _t->initial(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QQmlSettings::staticMetaObject = {
+    { &QQmlDataTest::staticMetaObject, qt_meta_stringdata_tst_QQmlSettings.data,
+      qt_meta_data_tst_QQmlSettings,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QQmlSettings::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QQmlSettings::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QQmlSettings.stringdata0))
+        return static_cast<void*>(this);
+    return QQmlDataTest::qt_metacast(_clname);
+}
+
+int tst_QQmlSettings::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QQmlDataTest::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 10)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 10;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 10)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 10;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_CppObject_t {
+    QByteArrayData data[37];
+    char stringdata0[616];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_CppObject_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_CppObject_t qt_meta_stringdata_CppObject = {
+    {
+QT_MOC_LITERAL(0, 0, 9), // "CppObject"
+QT_MOC_LITERAL(1, 10, 18), // "intPropertyChanged"
+QT_MOC_LITERAL(2, 29, 0), // ""
+QT_MOC_LITERAL(3, 30, 3), // "arg"
+QT_MOC_LITERAL(4, 34, 19), // "boolPropertyChanged"
+QT_MOC_LITERAL(5, 54, 19), // "realPropertyChanged"
+QT_MOC_LITERAL(6, 74, 21), // "doublePropertyChanged"
+QT_MOC_LITERAL(7, 96, 21), // "stringPropertyChanged"
+QT_MOC_LITERAL(8, 118, 18), // "urlPropertyChanged"
+QT_MOC_LITERAL(9, 137, 18), // "varPropertyChanged"
+QT_MOC_LITERAL(10, 156, 21), // "objectPropertyChanged"
+QT_MOC_LITERAL(11, 178, 22), // "intListPropertyChanged"
+QT_MOC_LITERAL(12, 201, 25), // "stringListPropertyChanged"
+QT_MOC_LITERAL(13, 227, 25), // "objectListPropertyChanged"
+QT_MOC_LITERAL(14, 253, 19), // "datePropertyChanged"
+QT_MOC_LITERAL(15, 273, 19), // "sizePropertyChanged"
+QT_MOC_LITERAL(16, 293, 20), // "pointPropertyChanged"
+QT_MOC_LITERAL(17, 314, 19), // "rectPropertyChanged"
+QT_MOC_LITERAL(18, 334, 20), // "colorPropertyChanged"
+QT_MOC_LITERAL(19, 355, 19), // "fontPropertyChanged"
+QT_MOC_LITERAL(20, 375, 11), // "intProperty"
+QT_MOC_LITERAL(21, 387, 12), // "boolProperty"
+QT_MOC_LITERAL(22, 400, 12), // "realProperty"
+QT_MOC_LITERAL(23, 413, 14), // "doubleProperty"
+QT_MOC_LITERAL(24, 428, 14), // "stringProperty"
+QT_MOC_LITERAL(25, 443, 11), // "urlProperty"
+QT_MOC_LITERAL(26, 455, 11), // "varProperty"
+QT_MOC_LITERAL(27, 467, 14), // "objectProperty"
+QT_MOC_LITERAL(28, 482, 15), // "intListProperty"
+QT_MOC_LITERAL(29, 498, 18), // "stringListProperty"
+QT_MOC_LITERAL(30, 517, 18), // "objectListProperty"
+QT_MOC_LITERAL(31, 536, 12), // "dateProperty"
+QT_MOC_LITERAL(32, 549, 12), // "sizeProperty"
+QT_MOC_LITERAL(33, 562, 13), // "pointProperty"
+QT_MOC_LITERAL(34, 576, 12), // "rectProperty"
+QT_MOC_LITERAL(35, 589, 13), // "colorProperty"
+QT_MOC_LITERAL(36, 603, 12) // "fontProperty"
+
+    },
+    "CppObject\0intPropertyChanged\0\0arg\0"
+    "boolPropertyChanged\0realPropertyChanged\0"
+    "doublePropertyChanged\0stringPropertyChanged\0"
+    "urlPropertyChanged\0varPropertyChanged\0"
+    "objectPropertyChanged\0intListPropertyChanged\0"
+    "stringListPropertyChanged\0"
+    "objectListPropertyChanged\0datePropertyChanged\0"
+    "sizePropertyChanged\0pointPropertyChanged\0"
+    "rectPropertyChanged\0colorPropertyChanged\0"
+    "fontPropertyChanged\0intProperty\0"
+    "boolProperty\0realProperty\0doubleProperty\0"
+    "stringProperty\0urlProperty\0varProperty\0"
+    "objectProperty\0intListProperty\0"
+    "stringListProperty\0objectListProperty\0"
+    "dateProperty\0sizeProperty\0pointProperty\0"
+    "rectProperty\0colorProperty\0fontProperty"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_CppObject[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      17,   14, // methods
+      17,  150, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+      17,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    1,   99,    2, 0x06 /* Public */,
+       4,    1,  102,    2, 0x06 /* Public */,
+       5,    1,  105,    2, 0x06 /* Public */,
+       6,    1,  108,    2, 0x06 /* Public */,
+       7,    1,  111,    2, 0x06 /* Public */,
+       8,    1,  114,    2, 0x06 /* Public */,
+       9,    1,  117,    2, 0x06 /* Public */,
+      10,    1,  120,    2, 0x06 /* Public */,
+      11,    1,  123,    2, 0x06 /* Public */,
+      12,    1,  126,    2, 0x06 /* Public */,
+      13,    1,  129,    2, 0x06 /* Public */,
+      14,    1,  132,    2, 0x06 /* Public */,
+      15,    1,  135,    2, 0x06 /* Public */,
+      16,    1,  138,    2, 0x06 /* Public */,
+      17,    1,  141,    2, 0x06 /* Public */,
+      18,    1,  144,    2, 0x06 /* Public */,
+      19,    1,  147,    2, 0x06 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::Int,    3,
+    QMetaType::Void, QMetaType::Bool,    3,
+    QMetaType::Void, QMetaType::QReal,    3,
+    QMetaType::Void, QMetaType::Double,    3,
+    QMetaType::Void, QMetaType::QString,    3,
+    QMetaType::Void, QMetaType::QUrl,    3,
+    QMetaType::Void, QMetaType::QVariant,    3,
+    QMetaType::Void, QMetaType::QVariantMap,    3,
+    QMetaType::Void, QMetaType::QVariantList,    3,
+    QMetaType::Void, QMetaType::QVariantList,    3,
+    QMetaType::Void, QMetaType::QVariantList,    3,
+    QMetaType::Void, QMetaType::QDate,    3,
+    QMetaType::Void, QMetaType::QSizeF,    3,
+    QMetaType::Void, QMetaType::QPointF,    3,
+    QMetaType::Void, QMetaType::QRectF,    3,
+    QMetaType::Void, QMetaType::QColor,    3,
+    QMetaType::Void, QMetaType::QFont,    3,
+
+ // properties: name, type, flags
+      20, QMetaType::Int, 0x00495003,
+      21, QMetaType::Bool, 0x00495003,
+      22, QMetaType::QReal, 0x00495003,
+      23, QMetaType::Double, 0x00495003,
+      24, QMetaType::QString, 0x00495003,
+      25, QMetaType::QUrl, 0x00495003,
+      26, QMetaType::QVariant, 0x00495003,
+      27, QMetaType::QVariantMap, 0x00495003,
+      28, QMetaType::QVariantList, 0x00495003,
+      29, QMetaType::QVariantList, 0x00495003,
+      30, QMetaType::QVariantList, 0x00495003,
+      31, QMetaType::QDate, 0x00495003,
+      32, QMetaType::QSizeF, 0x00495003,
+      33, QMetaType::QPointF, 0x00495003,
+      34, QMetaType::QRectF, 0x00495003,
+      35, QMetaType::QColor, 0x00495003,
+      36, QMetaType::QFont, 0x00495003,
+
+ // properties: notify_signal_id
+       0,
+       1,
+       2,
+       3,
+       4,
+       5,
+       6,
+       7,
+       8,
+       9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+
+       0        // eod
+};
+
+void CppObject::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        CppObject *_t = static_cast<CppObject *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->intPropertyChanged((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 1: _t->boolPropertyChanged((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 2: _t->realPropertyChanged((*reinterpret_cast< qreal(*)>(_a[1]))); break;
+        case 3: _t->doublePropertyChanged((*reinterpret_cast< double(*)>(_a[1]))); break;
+        case 4: _t->stringPropertyChanged((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 5: _t->urlPropertyChanged((*reinterpret_cast< const QUrl(*)>(_a[1]))); break;
+        case 6: _t->varPropertyChanged((*reinterpret_cast< const QVariant(*)>(_a[1]))); break;
+        case 7: _t->objectPropertyChanged((*reinterpret_cast< const QVariantMap(*)>(_a[1]))); break;
+        case 8: _t->intListPropertyChanged((*reinterpret_cast< const QVariantList(*)>(_a[1]))); break;
+        case 9: _t->stringListPropertyChanged((*reinterpret_cast< const QVariantList(*)>(_a[1]))); break;
+        case 10: _t->objectListPropertyChanged((*reinterpret_cast< const QVariantList(*)>(_a[1]))); break;
+        case 11: _t->datePropertyChanged((*reinterpret_cast< const QDate(*)>(_a[1]))); break;
+        case 12: _t->sizePropertyChanged((*reinterpret_cast< const QSizeF(*)>(_a[1]))); break;
+        case 13: _t->pointPropertyChanged((*reinterpret_cast< const QPointF(*)>(_a[1]))); break;
+        case 14: _t->rectPropertyChanged((*reinterpret_cast< const QRectF(*)>(_a[1]))); break;
+        case 15: _t->colorPropertyChanged((*reinterpret_cast< const QColor(*)>(_a[1]))); break;
+        case 16: _t->fontPropertyChanged((*reinterpret_cast< const QFont(*)>(_a[1]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            typedef void (CppObject::*_t)(int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::intPropertyChanged)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(bool );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::boolPropertyChanged)) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(qreal );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::realPropertyChanged)) {
+                *result = 2;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(double );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::doublePropertyChanged)) {
+                *result = 3;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(const QString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::stringPropertyChanged)) {
+                *result = 4;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(const QUrl & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::urlPropertyChanged)) {
+                *result = 5;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(const QVariant & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::varPropertyChanged)) {
+                *result = 6;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(const QVariantMap & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::objectPropertyChanged)) {
+                *result = 7;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(const QVariantList & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::intListPropertyChanged)) {
+                *result = 8;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(const QVariantList & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::stringListPropertyChanged)) {
+                *result = 9;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(const QVariantList & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::objectListPropertyChanged)) {
+                *result = 10;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(const QDate & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::datePropertyChanged)) {
+                *result = 11;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(const QSizeF & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::sizePropertyChanged)) {
+                *result = 12;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(const QPointF & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::pointPropertyChanged)) {
+                *result = 13;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(const QRectF & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::rectPropertyChanged)) {
+                *result = 14;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(const QColor & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::colorPropertyChanged)) {
+                *result = 15;
+                return;
+            }
+        }
+        {
+            typedef void (CppObject::*_t)(const QFont & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&CppObject::fontPropertyChanged)) {
+                *result = 16;
+                return;
+            }
+        }
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        CppObject *_t = static_cast<CppObject *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< int*>(_v) = _t->m_intProperty; break;
+        case 1: *reinterpret_cast< bool*>(_v) = _t->m_boolProperty; break;
+        case 2: *reinterpret_cast< qreal*>(_v) = _t->m_realProperty; break;
+        case 3: *reinterpret_cast< double*>(_v) = _t->m_doubleProperty; break;
+        case 4: *reinterpret_cast< QString*>(_v) = _t->m_stringProperty; break;
+        case 5: *reinterpret_cast< QUrl*>(_v) = _t->m_urlProperty; break;
+        case 6: *reinterpret_cast< QVariant*>(_v) = _t->m_varProperty; break;
+        case 7: *reinterpret_cast< QVariantMap*>(_v) = _t->m_objectProperty; break;
+        case 8: *reinterpret_cast< QVariantList*>(_v) = _t->m_intListProperty; break;
+        case 9: *reinterpret_cast< QVariantList*>(_v) = _t->m_stringListProperty; break;
+        case 10: *reinterpret_cast< QVariantList*>(_v) = _t->m_objectListProperty; break;
+        case 11: *reinterpret_cast< QDate*>(_v) = _t->m_dateProperty; break;
+        case 12: *reinterpret_cast< QSizeF*>(_v) = _t->m_sizeProperty; break;
+        case 13: *reinterpret_cast< QPointF*>(_v) = _t->m_pointProperty; break;
+        case 14: *reinterpret_cast< QRectF*>(_v) = _t->m_rectProperty; break;
+        case 15: *reinterpret_cast< QColor*>(_v) = _t->m_colorProperty; break;
+        case 16: *reinterpret_cast< QFont*>(_v) = _t->m_fontProperty; break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        CppObject *_t = static_cast<CppObject *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0:
+            if (_t->m_intProperty != *reinterpret_cast< int*>(_v)) {
+                _t->m_intProperty = *reinterpret_cast< int*>(_v);
+                Q_EMIT _t->intPropertyChanged(_t->m_intProperty);
+            }
+            break;
+        case 1:
+            if (_t->m_boolProperty != *reinterpret_cast< bool*>(_v)) {
+                _t->m_boolProperty = *reinterpret_cast< bool*>(_v);
+                Q_EMIT _t->boolPropertyChanged(_t->m_boolProperty);
+            }
+            break;
+        case 2:
+            if (_t->m_realProperty != *reinterpret_cast< qreal*>(_v)) {
+                _t->m_realProperty = *reinterpret_cast< qreal*>(_v);
+                Q_EMIT _t->realPropertyChanged(_t->m_realProperty);
+            }
+            break;
+        case 3:
+            if (_t->m_doubleProperty != *reinterpret_cast< double*>(_v)) {
+                _t->m_doubleProperty = *reinterpret_cast< double*>(_v);
+                Q_EMIT _t->doublePropertyChanged(_t->m_doubleProperty);
+            }
+            break;
+        case 4:
+            if (_t->m_stringProperty != *reinterpret_cast< QString*>(_v)) {
+                _t->m_stringProperty = *reinterpret_cast< QString*>(_v);
+                Q_EMIT _t->stringPropertyChanged(_t->m_stringProperty);
+            }
+            break;
+        case 5:
+            if (_t->m_urlProperty != *reinterpret_cast< QUrl*>(_v)) {
+                _t->m_urlProperty = *reinterpret_cast< QUrl*>(_v);
+                Q_EMIT _t->urlPropertyChanged(_t->m_urlProperty);
+            }
+            break;
+        case 6:
+            if (_t->m_varProperty != *reinterpret_cast< QVariant*>(_v)) {
+                _t->m_varProperty = *reinterpret_cast< QVariant*>(_v);
+                Q_EMIT _t->varPropertyChanged(_t->m_varProperty);
+            }
+            break;
+        case 7:
+            if (_t->m_objectProperty != *reinterpret_cast< QVariantMap*>(_v)) {
+                _t->m_objectProperty = *reinterpret_cast< QVariantMap*>(_v);
+                Q_EMIT _t->objectPropertyChanged(_t->m_objectProperty);
+            }
+            break;
+        case 8:
+            if (_t->m_intListProperty != *reinterpret_cast< QVariantList*>(_v)) {
+                _t->m_intListProperty = *reinterpret_cast< QVariantList*>(_v);
+                Q_EMIT _t->intListPropertyChanged(_t->m_intListProperty);
+            }
+            break;
+        case 9:
+            if (_t->m_stringListProperty != *reinterpret_cast< QVariantList*>(_v)) {
+                _t->m_stringListProperty = *reinterpret_cast< QVariantList*>(_v);
+                Q_EMIT _t->stringListPropertyChanged(_t->m_stringListProperty);
+            }
+            break;
+        case 10:
+            if (_t->m_objectListProperty != *reinterpret_cast< QVariantList*>(_v)) {
+                _t->m_objectListProperty = *reinterpret_cast< QVariantList*>(_v);
+                Q_EMIT _t->objectListPropertyChanged(_t->m_objectListProperty);
+            }
+            break;
+        case 11:
+            if (_t->m_dateProperty != *reinterpret_cast< QDate*>(_v)) {
+                _t->m_dateProperty = *reinterpret_cast< QDate*>(_v);
+                Q_EMIT _t->datePropertyChanged(_t->m_dateProperty);
+            }
+            break;
+        case 12:
+            if (_t->m_sizeProperty != *reinterpret_cast< QSizeF*>(_v)) {
+                _t->m_sizeProperty = *reinterpret_cast< QSizeF*>(_v);
+                Q_EMIT _t->sizePropertyChanged(_t->m_sizeProperty);
+            }
+            break;
+        case 13:
+            if (_t->m_pointProperty != *reinterpret_cast< QPointF*>(_v)) {
+                _t->m_pointProperty = *reinterpret_cast< QPointF*>(_v);
+                Q_EMIT _t->pointPropertyChanged(_t->m_pointProperty);
+            }
+            break;
+        case 14:
+            if (_t->m_rectProperty != *reinterpret_cast< QRectF*>(_v)) {
+                _t->m_rectProperty = *reinterpret_cast< QRectF*>(_v);
+                Q_EMIT _t->rectPropertyChanged(_t->m_rectProperty);
+            }
+            break;
+        case 15:
+            if (_t->m_colorProperty != *reinterpret_cast< QColor*>(_v)) {
+                _t->m_colorProperty = *reinterpret_cast< QColor*>(_v);
+                Q_EMIT _t->colorPropertyChanged(_t->m_colorProperty);
+            }
+            break;
+        case 16:
+            if (_t->m_fontProperty != *reinterpret_cast< QFont*>(_v)) {
+                _t->m_fontProperty = *reinterpret_cast< QFont*>(_v);
+                Q_EMIT _t->fontPropertyChanged(_t->m_fontProperty);
+            }
+            break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+}
+
+const QMetaObject CppObject::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_CppObject.data,
+      qt_meta_data_CppObject,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *CppObject::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *CppObject::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CppObject.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int CppObject::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 17)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 17;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 17)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 17;
+    }
+#ifndef QT_NO_PROPERTIES
+   else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 17;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 17;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 17;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 17;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 17;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 17;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void CppObject::intPropertyChanged(int _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+
+// SIGNAL 1
+void CppObject::boolPropertyChanged(bool _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+
+// SIGNAL 2
+void CppObject::realPropertyChanged(qreal _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+
+// SIGNAL 3
+void CppObject::doublePropertyChanged(double _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 3, _a);
+}
+
+// SIGNAL 4
+void CppObject::stringPropertyChanged(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 4, _a);
+}
+
+// SIGNAL 5
+void CppObject::urlPropertyChanged(const QUrl & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 5, _a);
+}
+
+// SIGNAL 6
+void CppObject::varPropertyChanged(const QVariant & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 6, _a);
+}
+
+// SIGNAL 7
+void CppObject::objectPropertyChanged(const QVariantMap & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 7, _a);
+}
+
+// SIGNAL 8
+void CppObject::intListPropertyChanged(const QVariantList & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 8, _a);
+}
+
+// SIGNAL 9
+void CppObject::stringListPropertyChanged(const QVariantList & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 9, _a);
+}
+
+// SIGNAL 10
+void CppObject::objectListPropertyChanged(const QVariantList & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 10, _a);
+}
+
+// SIGNAL 11
+void CppObject::datePropertyChanged(const QDate & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 11, _a);
+}
+
+// SIGNAL 12
+void CppObject::sizePropertyChanged(const QSizeF & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 12, _a);
+}
+
+// SIGNAL 13
+void CppObject::pointPropertyChanged(const QPointF & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 13, _a);
+}
+
+// SIGNAL 14
+void CppObject::rectPropertyChanged(const QRectF & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 14, _a);
+}
+
+// SIGNAL 15
+void CppObject::colorPropertyChanged(const QColor & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 15, _a);
+}
+
+// SIGNAL 16
+void CppObject::fontPropertyChanged(const QFont & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 16, _a);
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

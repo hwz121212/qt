@@ -1,0 +1,56 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qudpsocket", "F:/qt/Src/qtbase/tests/auto/network/socket/qudpsocket/test\tst_qudpsocket.vcxproj", "{E6B8F363-0A49-3180-84AB-E81F112343A1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clientserver", "F:/qt/Src/qtbase/tests/auto/network/socket/qudpsocket/clientserver\clientserver.vcxproj", "{A0C9A3F0-EF19-31B8-834A-321C4FB84079}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qlocalsocket", "F:/qt/Src/qtbase/tests/auto/network/socket/qlocalsocket/test\tst_qlocalsocket.vcxproj", "{4AAA5F77-D75E-32D5-804C-C5EEC7AE90E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "socketprocess", "F:/qt/Src/qtbase/tests/auto/network/socket/qlocalsocket/socketprocess\socketprocess.vcxproj", "{D56EFC37-BDBA-3D58-8831-53D08C87D6D0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qtcpserver", "F:/qt/Src/qtbase/tests/auto/network/socket/qtcpserver/test\tst_qtcpserver.vcxproj", "{1B9E850B-1FDF-36F5-A2CC-281B19A6D75B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "crashingServer", "F:/qt/Src/qtbase/tests/auto/network/socket/qtcpserver/crashingServer\crashingServer.vcxproj", "{85EE31AE-1013-3442-8A06-D45EA5E290A7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qabstractsocket", "F:/qt/Src/qtbase/tests/auto/network/socket/qabstractsocket\tst_qabstractsocket.vcxproj", "{903B717F-5415-3BA9-9589-6ABF02AD551F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6B8F363-0A49-3180-84AB-E81F112343A1}.Debug|x64.ActiveCfg = Debug|x64
+		{E6B8F363-0A49-3180-84AB-E81F112343A1}.Debug|x64.Build.0 = Debug|x64
+		{E6B8F363-0A49-3180-84AB-E81F112343A1}.Release|x64.ActiveCfg = Release|x64
+		{E6B8F363-0A49-3180-84AB-E81F112343A1}.Release|x64.Build.0 = Release|x64
+		{A0C9A3F0-EF19-31B8-834A-321C4FB84079}.Debug|x64.ActiveCfg = Debug|x64
+		{A0C9A3F0-EF19-31B8-834A-321C4FB84079}.Debug|x64.Build.0 = Debug|x64
+		{A0C9A3F0-EF19-31B8-834A-321C4FB84079}.Release|x64.ActiveCfg = Release|x64
+		{A0C9A3F0-EF19-31B8-834A-321C4FB84079}.Release|x64.Build.0 = Release|x64
+		{4AAA5F77-D75E-32D5-804C-C5EEC7AE90E0}.Debug|x64.ActiveCfg = Debug|x64
+		{4AAA5F77-D75E-32D5-804C-C5EEC7AE90E0}.Debug|x64.Build.0 = Debug|x64
+		{4AAA5F77-D75E-32D5-804C-C5EEC7AE90E0}.Release|x64.ActiveCfg = Release|x64
+		{4AAA5F77-D75E-32D5-804C-C5EEC7AE90E0}.Release|x64.Build.0 = Release|x64
+		{D56EFC37-BDBA-3D58-8831-53D08C87D6D0}.Debug|x64.ActiveCfg = Debug|x64
+		{D56EFC37-BDBA-3D58-8831-53D08C87D6D0}.Debug|x64.Build.0 = Debug|x64
+		{D56EFC37-BDBA-3D58-8831-53D08C87D6D0}.Release|x64.ActiveCfg = Release|x64
+		{D56EFC37-BDBA-3D58-8831-53D08C87D6D0}.Release|x64.Build.0 = Release|x64
+		{1B9E850B-1FDF-36F5-A2CC-281B19A6D75B}.Debug|x64.ActiveCfg = Debug|x64
+		{1B9E850B-1FDF-36F5-A2CC-281B19A6D75B}.Debug|x64.Build.0 = Debug|x64
+		{1B9E850B-1FDF-36F5-A2CC-281B19A6D75B}.Release|x64.ActiveCfg = Release|x64
+		{1B9E850B-1FDF-36F5-A2CC-281B19A6D75B}.Release|x64.Build.0 = Release|x64
+		{85EE31AE-1013-3442-8A06-D45EA5E290A7}.Debug|x64.ActiveCfg = Debug|x64
+		{85EE31AE-1013-3442-8A06-D45EA5E290A7}.Debug|x64.Build.0 = Debug|x64
+		{85EE31AE-1013-3442-8A06-D45EA5E290A7}.Release|x64.ActiveCfg = Release|x64
+		{85EE31AE-1013-3442-8A06-D45EA5E290A7}.Release|x64.Build.0 = Release|x64
+		{903B717F-5415-3BA9-9589-6ABF02AD551F}.Debug|x64.ActiveCfg = Debug|x64
+		{903B717F-5415-3BA9-9589-6ABF02AD551F}.Debug|x64.Build.0 = Debug|x64
+		{903B717F-5415-3BA9-9589-6ABF02AD551F}.Release|x64.ActiveCfg = Release|x64
+		{903B717F-5415-3BA9-9589-6ABF02AD551F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

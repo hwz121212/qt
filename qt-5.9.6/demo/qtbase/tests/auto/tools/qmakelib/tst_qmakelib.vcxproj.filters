@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="library">
+      <UniqueIdentifier>{ea8f6b49-e79e-4c85-ac66-1b4a5ce9dd6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="evaltest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="parsertest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tst_qmakelib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="library\ioutils.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\proitems.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\qmakebuiltins.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\qmakeevaluator.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\qmakeglobals.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\qmakeparser.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+    <ClCompile Include="library\qmakevfs.cpp">
+      <Filter>library</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="tst_qmakelib.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="library\ioutils.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\proitems.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\qmake_global.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\qmakeevaluator.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\qmakeevaluator_p.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\qmakeglobals.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\qmakeparser.h">
+      <Filter>library</Filter>
+    </ClInclude>
+    <ClInclude Include="library\qmakevfs.h">
+      <Filter>library</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

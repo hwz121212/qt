@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="qmllocationflickr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="flickrmobile\Button.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\GeoTab.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\GridDelegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\ImageDetails.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\ListDelegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrcommon\Progress.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrcommon\RestModel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrcommon\ScrollBar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrcommon\Slider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\TitleBar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\ToolBar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickr-90.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickr.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="flickr.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="flickrmobile\images\gloss.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\images\lineedit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\images\lineedit.sci">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\images\moon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\nmealog.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\images\quit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\images\star.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\images\stripes.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\images\sun.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\images\titlebar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\images\titlebar.sci">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\images\toolbutton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="flickrmobile\images\toolbutton.sci">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

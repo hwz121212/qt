@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qcompleter", "F:/qt/Src/qtbase/tests/auto/widgets/util/qcompleter\tst_qcompleter.vcxproj", "{86AB8D94-AA2B-3DA8-9881-40D2B34D2D5A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qscroller", "F:/qt/Src/qtbase/tests/auto/widgets/util/qscroller\tst_qscroller.vcxproj", "{445D8855-BEB5-361D-8C54-9CF9821960C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qsystemtrayicon", "F:/qt/Src/qtbase/tests/auto/widgets/util/qsystemtrayicon\tst_qsystemtrayicon.vcxproj", "{625A63DB-AB68-3D61-BDB2-075D4BC36711}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qundogroup", "F:/qt/Src/qtbase/tests/auto/widgets/util/qundogroup\tst_qundogroup.vcxproj", "{EEB65B36-12F0-38CE-B2B0-08A5A1BBB775}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qundostack", "F:/qt/Src/qtbase/tests/auto/widgets/util/qundostack\tst_qundostack.vcxproj", "{5C9D76EC-61B9-3DDB-A402-CB907403455E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86AB8D94-AA2B-3DA8-9881-40D2B34D2D5A}.Debug|x64.ActiveCfg = Debug|x64
+		{86AB8D94-AA2B-3DA8-9881-40D2B34D2D5A}.Debug|x64.Build.0 = Debug|x64
+		{86AB8D94-AA2B-3DA8-9881-40D2B34D2D5A}.Release|x64.ActiveCfg = Release|x64
+		{86AB8D94-AA2B-3DA8-9881-40D2B34D2D5A}.Release|x64.Build.0 = Release|x64
+		{445D8855-BEB5-361D-8C54-9CF9821960C5}.Debug|x64.ActiveCfg = Debug|x64
+		{445D8855-BEB5-361D-8C54-9CF9821960C5}.Debug|x64.Build.0 = Debug|x64
+		{445D8855-BEB5-361D-8C54-9CF9821960C5}.Release|x64.ActiveCfg = Release|x64
+		{445D8855-BEB5-361D-8C54-9CF9821960C5}.Release|x64.Build.0 = Release|x64
+		{625A63DB-AB68-3D61-BDB2-075D4BC36711}.Debug|x64.ActiveCfg = Debug|x64
+		{625A63DB-AB68-3D61-BDB2-075D4BC36711}.Debug|x64.Build.0 = Debug|x64
+		{625A63DB-AB68-3D61-BDB2-075D4BC36711}.Release|x64.ActiveCfg = Release|x64
+		{625A63DB-AB68-3D61-BDB2-075D4BC36711}.Release|x64.Build.0 = Release|x64
+		{EEB65B36-12F0-38CE-B2B0-08A5A1BBB775}.Debug|x64.ActiveCfg = Debug|x64
+		{EEB65B36-12F0-38CE-B2B0-08A5A1BBB775}.Debug|x64.Build.0 = Debug|x64
+		{EEB65B36-12F0-38CE-B2B0-08A5A1BBB775}.Release|x64.ActiveCfg = Release|x64
+		{EEB65B36-12F0-38CE-B2B0-08A5A1BBB775}.Release|x64.Build.0 = Release|x64
+		{5C9D76EC-61B9-3DDB-A402-CB907403455E}.Debug|x64.ActiveCfg = Debug|x64
+		{5C9D76EC-61B9-3DDB-A402-CB907403455E}.Debug|x64.Build.0 = Debug|x64
+		{5C9D76EC-61B9-3DDB-A402-CB907403455E}.Release|x64.ActiveCfg = Release|x64
+		{5C9D76EC-61B9-3DDB-A402-CB907403455E}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

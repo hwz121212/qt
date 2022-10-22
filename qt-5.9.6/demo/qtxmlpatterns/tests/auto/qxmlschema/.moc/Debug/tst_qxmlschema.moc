@@ -1,0 +1,204 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qxmlschema.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qxmlschema.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QXmlSchema_t {
+    QByteArrayData data[23];
+    char stringdata0[444];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QXmlSchema_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QXmlSchema_t qt_meta_stringdata_tst_QXmlSchema = {
+    {
+QT_MOC_LITERAL(0, 0, 14), // "tst_QXmlSchema"
+QT_MOC_LITERAL(1, 15, 18), // "defaultConstructor"
+QT_MOC_LITERAL(2, 34, 0), // ""
+QT_MOC_LITERAL(3, 35, 15), // "copyConstructor"
+QT_MOC_LITERAL(4, 51, 23), // "constructorQXmlNamePool"
+QT_MOC_LITERAL(5, 75, 16), // "copyMutationTest"
+QT_MOC_LITERAL(6, 92, 7), // "isValid"
+QT_MOC_LITERAL(7, 100, 11), // "documentUri"
+QT_MOC_LITERAL(8, 112, 20), // "loadSchemaUrlSuccess"
+QT_MOC_LITERAL(9, 133, 17), // "loadSchemaUrlFail"
+QT_MOC_LITERAL(10, 151, 23), // "loadSchemaDeviceSuccess"
+QT_MOC_LITERAL(11, 175, 20), // "loadSchemaDeviceFail"
+QT_MOC_LITERAL(12, 196, 21), // "loadSchemaDataSuccess"
+QT_MOC_LITERAL(13, 218, 18), // "loadSchemaDataFail"
+QT_MOC_LITERAL(14, 237, 29), // "networkAccessManagerSignature"
+QT_MOC_LITERAL(15, 267, 32), // "networkAccessManagerDefaultValue"
+QT_MOC_LITERAL(16, 300, 20), // "networkAccessManager"
+QT_MOC_LITERAL(17, 321, 23), // "messageHandlerSignature"
+QT_MOC_LITERAL(18, 345, 26), // "messageHandlerDefaultValue"
+QT_MOC_LITERAL(19, 372, 14), // "messageHandler"
+QT_MOC_LITERAL(20, 387, 20), // "uriResolverSignature"
+QT_MOC_LITERAL(21, 408, 23), // "uriResolverDefaultValue"
+QT_MOC_LITERAL(22, 432, 11) // "uriResolver"
+
+    },
+    "tst_QXmlSchema\0defaultConstructor\0\0"
+    "copyConstructor\0constructorQXmlNamePool\0"
+    "copyMutationTest\0isValid\0documentUri\0"
+    "loadSchemaUrlSuccess\0loadSchemaUrlFail\0"
+    "loadSchemaDeviceSuccess\0loadSchemaDeviceFail\0"
+    "loadSchemaDataSuccess\0loadSchemaDataFail\0"
+    "networkAccessManagerSignature\0"
+    "networkAccessManagerDefaultValue\0"
+    "networkAccessManager\0messageHandlerSignature\0"
+    "messageHandlerDefaultValue\0messageHandler\0"
+    "uriResolverSignature\0uriResolverDefaultValue\0"
+    "uriResolver"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QXmlSchema[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      21,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  119,    2, 0x08 /* Private */,
+       3,    0,  120,    2, 0x08 /* Private */,
+       4,    0,  121,    2, 0x08 /* Private */,
+       5,    0,  122,    2, 0x08 /* Private */,
+       6,    0,  123,    2, 0x08 /* Private */,
+       7,    0,  124,    2, 0x08 /* Private */,
+       8,    0,  125,    2, 0x08 /* Private */,
+       9,    0,  126,    2, 0x08 /* Private */,
+      10,    0,  127,    2, 0x08 /* Private */,
+      11,    0,  128,    2, 0x08 /* Private */,
+      12,    0,  129,    2, 0x08 /* Private */,
+      13,    0,  130,    2, 0x08 /* Private */,
+      14,    0,  131,    2, 0x08 /* Private */,
+      15,    0,  132,    2, 0x08 /* Private */,
+      16,    0,  133,    2, 0x08 /* Private */,
+      17,    0,  134,    2, 0x08 /* Private */,
+      18,    0,  135,    2, 0x08 /* Private */,
+      19,    0,  136,    2, 0x08 /* Private */,
+      20,    0,  137,    2, 0x08 /* Private */,
+      21,    0,  138,    2, 0x08 /* Private */,
+      22,    0,  139,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QXmlSchema::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QXmlSchema *_t = static_cast<tst_QXmlSchema *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->defaultConstructor(); break;
+        case 1: _t->copyConstructor(); break;
+        case 2: _t->constructorQXmlNamePool(); break;
+        case 3: _t->copyMutationTest(); break;
+        case 4: _t->isValid(); break;
+        case 5: _t->documentUri(); break;
+        case 6: _t->loadSchemaUrlSuccess(); break;
+        case 7: _t->loadSchemaUrlFail(); break;
+        case 8: _t->loadSchemaDeviceSuccess(); break;
+        case 9: _t->loadSchemaDeviceFail(); break;
+        case 10: _t->loadSchemaDataSuccess(); break;
+        case 11: _t->loadSchemaDataFail(); break;
+        case 12: _t->networkAccessManagerSignature(); break;
+        case 13: _t->networkAccessManagerDefaultValue(); break;
+        case 14: _t->networkAccessManager(); break;
+        case 15: _t->messageHandlerSignature(); break;
+        case 16: _t->messageHandlerDefaultValue(); break;
+        case 17: _t->messageHandler(); break;
+        case 18: _t->uriResolverSignature(); break;
+        case 19: _t->uriResolverDefaultValue(); break;
+        case 20: _t->uriResolver(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QXmlSchema::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QXmlSchema.data,
+      qt_meta_data_tst_QXmlSchema,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QXmlSchema::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QXmlSchema::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QXmlSchema.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QXmlSchema::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 21)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 21;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 21)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 21;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

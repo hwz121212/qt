@@ -1,0 +1,20 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rubberband", "F:/qt/Src/qtbase/tests/manual/widgets/qgraphicsview/rubberband\rubberband.vcxproj", "{00EE4B38-988B-3738-834F-8FC0B30D4016}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00EE4B38-988B-3738-834F-8FC0B30D4016}.Debug|x64.ActiveCfg = Debug|x64
+		{00EE4B38-988B-3738-834F-8FC0B30D4016}.Debug|x64.Build.0 = Debug|x64
+		{00EE4B38-988B-3738-834F-8FC0B30D4016}.Release|x64.ActiveCfg = Release|x64
+		{00EE4B38-988B-3738-834F-8FC0B30D4016}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

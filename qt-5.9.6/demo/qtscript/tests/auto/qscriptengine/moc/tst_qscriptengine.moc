@@ -1,0 +1,1157 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qscriptengine.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qscriptengine.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QScriptEngine_t {
+    QByteArrayData data[168];
+    char stringdata0[4017];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QScriptEngine_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QScriptEngine_t qt_meta_stringdata_tst_QScriptEngine = {
+    {
+QT_MOC_LITERAL(0, 0, 17), // "tst_QScriptEngine"
+QT_MOC_LITERAL(1, 18, 19), // "constructWithParent"
+QT_MOC_LITERAL(2, 38, 0), // ""
+QT_MOC_LITERAL(3, 39, 14), // "currentContext"
+QT_MOC_LITERAL(4, 54, 14), // "pushPopContext"
+QT_MOC_LITERAL(5, 69, 26), // "getSetDefaultPrototype_int"
+QT_MOC_LITERAL(6, 96, 33), // "getSetDefaultPrototype_custom..."
+QT_MOC_LITERAL(7, 130, 11), // "newFunction"
+QT_MOC_LITERAL(8, 142, 18), // "newFunctionWithArg"
+QT_MOC_LITERAL(9, 161, 20), // "newFunctionWithProto"
+QT_MOC_LITERAL(10, 182, 9), // "newObject"
+QT_MOC_LITERAL(11, 192, 8), // "newArray"
+QT_MOC_LITERAL(12, 201, 27), // "newArray_HooliganTask218092"
+QT_MOC_LITERAL(13, 229, 27), // "newArray_HooliganTask233836"
+QT_MOC_LITERAL(14, 257, 10), // "newVariant"
+QT_MOC_LITERAL(15, 268, 27), // "newVariant_defaultPrototype"
+QT_MOC_LITERAL(16, 296, 24), // "newVariant_promoteObject"
+QT_MOC_LITERAL(17, 321, 23), // "newVariant_replaceValue"
+QT_MOC_LITERAL(18, 345, 26), // "newVariant_valueOfToString"
+QT_MOC_LITERAL(19, 372, 27), // "newVariant_promoteNonObject"
+QT_MOC_LITERAL(20, 400, 34), // "newVariant_promoteNonQScriptO..."
+QT_MOC_LITERAL(21, 435, 9), // "newRegExp"
+QT_MOC_LITERAL(22, 445, 8), // "jsRegExp"
+QT_MOC_LITERAL(23, 454, 7), // "newDate"
+QT_MOC_LITERAL(24, 462, 11), // "jsParseDate"
+QT_MOC_LITERAL(25, 474, 10), // "newQObject"
+QT_MOC_LITERAL(26, 485, 20), // "newQObject_ownership"
+QT_MOC_LITERAL(27, 506, 24), // "newQObject_promoteObject"
+QT_MOC_LITERAL(28, 531, 22), // "newQObject_sameQObject"
+QT_MOC_LITERAL(29, 554, 27), // "newQObject_defaultPrototype"
+QT_MOC_LITERAL(30, 582, 27), // "newQObject_promoteNonObject"
+QT_MOC_LITERAL(31, 610, 34), // "newQObject_promoteNonQScriptO..."
+QT_MOC_LITERAL(32, 645, 14), // "newQMetaObject"
+QT_MOC_LITERAL(33, 660, 19), // "newActivationObject"
+QT_MOC_LITERAL(34, 680, 18), // "getSetGlobalObject"
+QT_MOC_LITERAL(35, 699, 22), // "globalObjectProperties"
+QT_MOC_LITERAL(36, 722, 32), // "globalObjectProperties_enumerate"
+QT_MOC_LITERAL(37, 755, 26), // "createGlobalObjectProperty"
+QT_MOC_LITERAL(38, 782, 32), // "globalObjectGetterSetterProperty"
+QT_MOC_LITERAL(39, 815, 31), // "customGlobalObjectWithPrototype"
+QT_MOC_LITERAL(40, 847, 31), // "globalObjectWithCustomPrototype"
+QT_MOC_LITERAL(41, 879, 25), // "builtinFunctionNames_data"
+QT_MOC_LITERAL(42, 905, 20), // "builtinFunctionNames"
+QT_MOC_LITERAL(43, 926, 16), // "checkSyntax_data"
+QT_MOC_LITERAL(44, 943, 11), // "checkSyntax"
+QT_MOC_LITERAL(45, 955, 16), // "canEvaluate_data"
+QT_MOC_LITERAL(46, 972, 11), // "canEvaluate"
+QT_MOC_LITERAL(47, 984, 13), // "evaluate_data"
+QT_MOC_LITERAL(48, 998, 8), // "evaluate"
+QT_MOC_LITERAL(49, 1007, 14), // "nestedEvaluate"
+QT_MOC_LITERAL(50, 1022, 17), // "uncaughtException"
+QT_MOC_LITERAL(51, 1040, 18), // "errorMessage_QT679"
+QT_MOC_LITERAL(52, 1059, 21), // "valueConversion_basic"
+QT_MOC_LITERAL(53, 1081, 26), // "valueConversion_customType"
+QT_MOC_LITERAL(54, 1108, 24), // "valueConversion_sequence"
+QT_MOC_LITERAL(55, 1133, 24), // "valueConversion_QVariant"
+QT_MOC_LITERAL(56, 1158, 34), // "valueConversion_hooliganTask2..."
+QT_MOC_LITERAL(57, 1193, 22), // "valueConversion_basic2"
+QT_MOC_LITERAL(58, 1216, 24), // "valueConversion_dateTime"
+QT_MOC_LITERAL(59, 1241, 22), // "valueConversion_regExp"
+QT_MOC_LITERAL(60, 1264, 20), // "valueConversion_long"
+QT_MOC_LITERAL(61, 1285, 30), // "qScriptValueFromValue_noEngine"
+QT_MOC_LITERAL(62, 1316, 15), // "importExtension"
+QT_MOC_LITERAL(63, 1332, 17), // "infiniteRecursion"
+QT_MOC_LITERAL(64, 1350, 22), // "castWithPrototypeChain"
+QT_MOC_LITERAL(65, 1373, 27), // "castWithMultipleInheritance"
+QT_MOC_LITERAL(66, 1401, 14), // "collectGarbage"
+QT_MOC_LITERAL(67, 1416, 26), // "reportAdditionalMemoryCost"
+QT_MOC_LITERAL(68, 1443, 25), // "gcWithNestedDataStructure"
+QT_MOC_LITERAL(69, 1469, 25), // "processEventsWhileRunning"
+QT_MOC_LITERAL(70, 1495, 32), // "throwErrorFromProcessEvents_data"
+QT_MOC_LITERAL(71, 1528, 27), // "throwErrorFromProcessEvents"
+QT_MOC_LITERAL(72, 1556, 28), // "disableProcessEventsInterval"
+QT_MOC_LITERAL(73, 1585, 10), // "stacktrace"
+QT_MOC_LITERAL(74, 1596, 29), // "stacktrace_callJSFromCpp_data"
+QT_MOC_LITERAL(75, 1626, 24), // "stacktrace_callJSFromCpp"
+QT_MOC_LITERAL(76, 1651, 18), // "numberParsing_data"
+QT_MOC_LITERAL(77, 1670, 13), // "numberParsing"
+QT_MOC_LITERAL(78, 1684, 27), // "automaticSemicolonInsertion"
+QT_MOC_LITERAL(79, 1712, 29), // "abortEvaluation_notEvaluating"
+QT_MOC_LITERAL(80, 1742, 20), // "abortEvaluation_data"
+QT_MOC_LITERAL(81, 1763, 15), // "abortEvaluation"
+QT_MOC_LITERAL(82, 1779, 24), // "abortEvaluation_tryCatch"
+QT_MOC_LITERAL(83, 1804, 26), // "abortEvaluation_fromNative"
+QT_MOC_LITERAL(84, 1831, 25), // "abortEvaluation_QTBUG9433"
+QT_MOC_LITERAL(85, 1857, 26), // "isEvaluating_notEvaluating"
+QT_MOC_LITERAL(86, 1884, 23), // "isEvaluating_fromNative"
+QT_MOC_LITERAL(87, 1908, 22), // "isEvaluating_fromEvent"
+QT_MOC_LITERAL(88, 1931, 30), // "printFunctionWithCustomHandler"
+QT_MOC_LITERAL(89, 1962, 20), // "printThrowsException"
+QT_MOC_LITERAL(90, 1983, 17), // "errorConstructors"
+QT_MOC_LITERAL(91, 2001, 31), // "argumentsProperty_globalContext"
+QT_MOC_LITERAL(92, 2033, 20), // "argumentsProperty_JS"
+QT_MOC_LITERAL(93, 2054, 42), // "argumentsProperty_evaluateInN..."
+QT_MOC_LITERAL(94, 2097, 13), // "jsNumberClass"
+QT_MOC_LITERAL(95, 2111, 23), // "jsForInStatement_simple"
+QT_MOC_LITERAL(96, 2135, 36), // "jsForInStatement_prototypePro..."
+QT_MOC_LITERAL(97, 2172, 37), // "jsForInStatement_mutateWhileI..."
+QT_MOC_LITERAL(98, 2210, 23), // "jsForInStatement_arrays"
+QT_MOC_LITERAL(99, 2234, 33), // "jsForInStatement_nullAndUndef..."
+QT_MOC_LITERAL(100, 2268, 32), // "jsFunctionDeclarationAsStatement"
+QT_MOC_LITERAL(101, 2301, 13), // "stringObjects"
+QT_MOC_LITERAL(102, 2315, 28), // "jsStringPrototypeReplaceBugs"
+QT_MOC_LITERAL(103, 2344, 29), // "getterSetterThisObject_global"
+QT_MOC_LITERAL(104, 2374, 28), // "getterSetterThisObject_plain"
+QT_MOC_LITERAL(105, 2403, 37), // "getterSetterThisObject_protot..."
+QT_MOC_LITERAL(106, 2441, 33), // "getterSetterThisObject_activa..."
+QT_MOC_LITERAL(107, 2475, 18), // "jsContinueInSwitch"
+QT_MOC_LITERAL(108, 2494, 33), // "jsShadowReadOnlyPrototypeProp..."
+QT_MOC_LITERAL(109, 2528, 8), // "toObject"
+QT_MOC_LITERAL(110, 2537, 20), // "jsReservedWords_data"
+QT_MOC_LITERAL(111, 2558, 15), // "jsReservedWords"
+QT_MOC_LITERAL(112, 2574, 26), // "jsFutureReservedWords_data"
+QT_MOC_LITERAL(113, 2601, 21), // "jsFutureReservedWords"
+QT_MOC_LITERAL(114, 2623, 26), // "jsThrowInsideWithStatement"
+QT_MOC_LITERAL(115, 2650, 21), // "getSetAgent_ownership"
+QT_MOC_LITERAL(116, 2672, 23), // "getSetAgent_deleteAgent"
+QT_MOC_LITERAL(117, 2696, 27), // "getSetAgent_differentEngine"
+QT_MOC_LITERAL(118, 2724, 24), // "reentrancy_stringHandles"
+QT_MOC_LITERAL(119, 2749, 32), // "reentrancy_processEventsInterval"
+QT_MOC_LITERAL(120, 2782, 25), // "reentrancy_typeConversion"
+QT_MOC_LITERAL(121, 2808, 33), // "reentrancy_globalObjectProper..."
+QT_MOC_LITERAL(122, 2842, 16), // "reentrancy_Array"
+QT_MOC_LITERAL(123, 2859, 25), // "reentrancy_objectCreation"
+QT_MOC_LITERAL(124, 2885, 25), // "jsIncDecNonObjectProperty"
+QT_MOC_LITERAL(125, 2911, 31), // "installTranslatorFunctions_data"
+QT_MOC_LITERAL(126, 2943, 26), // "installTranslatorFunctions"
+QT_MOC_LITERAL(127, 2970, 20), // "translateScript_data"
+QT_MOC_LITERAL(128, 2991, 15), // "translateScript"
+QT_MOC_LITERAL(129, 3007, 27), // "translateScript_crossScript"
+QT_MOC_LITERAL(130, 3035, 34), // "translateScript_callQsTrFromN..."
+QT_MOC_LITERAL(131, 3070, 22), // "translateScript_trNoOp"
+QT_MOC_LITERAL(132, 3093, 31), // "translateScript_callQsTrFromCpp"
+QT_MOC_LITERAL(133, 3125, 29), // "translateWithInvalidArgs_data"
+QT_MOC_LITERAL(134, 3155, 24), // "translateWithInvalidArgs"
+QT_MOC_LITERAL(135, 3180, 23), // "translationContext_data"
+QT_MOC_LITERAL(136, 3204, 18), // "translationContext"
+QT_MOC_LITERAL(137, 3223, 22), // "translateScriptIdBased"
+QT_MOC_LITERAL(138, 3246, 27), // "translateScriptUnicode_data"
+QT_MOC_LITERAL(139, 3274, 22), // "translateScriptUnicode"
+QT_MOC_LITERAL(140, 3297, 34), // "translateScriptUnicodeIdBased..."
+QT_MOC_LITERAL(141, 3332, 29), // "translateScriptUnicodeIdBased"
+QT_MOC_LITERAL(142, 3362, 28), // "translateFromBuiltinCallback"
+QT_MOC_LITERAL(143, 3391, 14), // "functionScopes"
+QT_MOC_LITERAL(144, 3406, 20), // "nativeFunctionScopes"
+QT_MOC_LITERAL(145, 3427, 15), // "evaluateProgram"
+QT_MOC_LITERAL(146, 3443, 27), // "evaluateProgram_customScope"
+QT_MOC_LITERAL(147, 3471, 23), // "evaluateProgram_closure"
+QT_MOC_LITERAL(148, 3495, 28), // "evaluateProgram_executeLater"
+QT_MOC_LITERAL(149, 3524, 31), // "evaluateProgram_multipleEngines"
+QT_MOC_LITERAL(150, 3556, 21), // "evaluateProgram_empty"
+QT_MOC_LITERAL(151, 3578, 26), // "collectGarbageAfterConnect"
+QT_MOC_LITERAL(152, 3605, 34), // "collectGarbageAfterNativeArgu..."
+QT_MOC_LITERAL(153, 3640, 39), // "promoteThisObjectToQObjectInC..."
+QT_MOC_LITERAL(154, 3680, 26), // "scriptValueFromQMetaObject"
+QT_MOC_LITERAL(155, 3707, 18), // "qRegExpInport_data"
+QT_MOC_LITERAL(156, 3726, 13), // "qRegExpInport"
+QT_MOC_LITERAL(157, 3740, 10), // "reentrency"
+QT_MOC_LITERAL(158, 3751, 25), // "newFixedStaticScopeObject"
+QT_MOC_LITERAL(159, 3777, 27), // "newGrowingStaticScopeObject"
+QT_MOC_LITERAL(160, 3805, 19), // "dateRoundtripJSQtJS"
+QT_MOC_LITERAL(161, 3825, 19), // "dateRoundtripQtJSQt"
+QT_MOC_LITERAL(162, 3845, 18), // "dateConversionJSQt"
+QT_MOC_LITERAL(163, 3864, 18), // "dateConversionQtJS"
+QT_MOC_LITERAL(164, 3883, 35), // "stringListFromArrayWithEmptyE..."
+QT_MOC_LITERAL(165, 3919, 36), // "collectQObjectWithCachedWrapp..."
+QT_MOC_LITERAL(166, 3956, 31), // "collectQObjectWithCachedWrapper"
+QT_MOC_LITERAL(167, 3988, 28) // "pushContext_noInheritedScope"
+
+    },
+    "tst_QScriptEngine\0constructWithParent\0"
+    "\0currentContext\0pushPopContext\0"
+    "getSetDefaultPrototype_int\0"
+    "getSetDefaultPrototype_customType\0"
+    "newFunction\0newFunctionWithArg\0"
+    "newFunctionWithProto\0newObject\0newArray\0"
+    "newArray_HooliganTask218092\0"
+    "newArray_HooliganTask233836\0newVariant\0"
+    "newVariant_defaultPrototype\0"
+    "newVariant_promoteObject\0"
+    "newVariant_replaceValue\0"
+    "newVariant_valueOfToString\0"
+    "newVariant_promoteNonObject\0"
+    "newVariant_promoteNonQScriptObject\0"
+    "newRegExp\0jsRegExp\0newDate\0jsParseDate\0"
+    "newQObject\0newQObject_ownership\0"
+    "newQObject_promoteObject\0"
+    "newQObject_sameQObject\0"
+    "newQObject_defaultPrototype\0"
+    "newQObject_promoteNonObject\0"
+    "newQObject_promoteNonQScriptObject\0"
+    "newQMetaObject\0newActivationObject\0"
+    "getSetGlobalObject\0globalObjectProperties\0"
+    "globalObjectProperties_enumerate\0"
+    "createGlobalObjectProperty\0"
+    "globalObjectGetterSetterProperty\0"
+    "customGlobalObjectWithPrototype\0"
+    "globalObjectWithCustomPrototype\0"
+    "builtinFunctionNames_data\0"
+    "builtinFunctionNames\0checkSyntax_data\0"
+    "checkSyntax\0canEvaluate_data\0canEvaluate\0"
+    "evaluate_data\0evaluate\0nestedEvaluate\0"
+    "uncaughtException\0errorMessage_QT679\0"
+    "valueConversion_basic\0valueConversion_customType\0"
+    "valueConversion_sequence\0"
+    "valueConversion_QVariant\0"
+    "valueConversion_hooliganTask248802\0"
+    "valueConversion_basic2\0valueConversion_dateTime\0"
+    "valueConversion_regExp\0valueConversion_long\0"
+    "qScriptValueFromValue_noEngine\0"
+    "importExtension\0infiniteRecursion\0"
+    "castWithPrototypeChain\0"
+    "castWithMultipleInheritance\0collectGarbage\0"
+    "reportAdditionalMemoryCost\0"
+    "gcWithNestedDataStructure\0"
+    "processEventsWhileRunning\0"
+    "throwErrorFromProcessEvents_data\0"
+    "throwErrorFromProcessEvents\0"
+    "disableProcessEventsInterval\0stacktrace\0"
+    "stacktrace_callJSFromCpp_data\0"
+    "stacktrace_callJSFromCpp\0numberParsing_data\0"
+    "numberParsing\0automaticSemicolonInsertion\0"
+    "abortEvaluation_notEvaluating\0"
+    "abortEvaluation_data\0abortEvaluation\0"
+    "abortEvaluation_tryCatch\0"
+    "abortEvaluation_fromNative\0"
+    "abortEvaluation_QTBUG9433\0"
+    "isEvaluating_notEvaluating\0"
+    "isEvaluating_fromNative\0isEvaluating_fromEvent\0"
+    "printFunctionWithCustomHandler\0"
+    "printThrowsException\0errorConstructors\0"
+    "argumentsProperty_globalContext\0"
+    "argumentsProperty_JS\0"
+    "argumentsProperty_evaluateInNativeFunction\0"
+    "jsNumberClass\0jsForInStatement_simple\0"
+    "jsForInStatement_prototypeProperties\0"
+    "jsForInStatement_mutateWhileIterating\0"
+    "jsForInStatement_arrays\0"
+    "jsForInStatement_nullAndUndefined\0"
+    "jsFunctionDeclarationAsStatement\0"
+    "stringObjects\0jsStringPrototypeReplaceBugs\0"
+    "getterSetterThisObject_global\0"
+    "getterSetterThisObject_plain\0"
+    "getterSetterThisObject_prototypeChain\0"
+    "getterSetterThisObject_activation\0"
+    "jsContinueInSwitch\0jsShadowReadOnlyPrototypeProperty\0"
+    "toObject\0jsReservedWords_data\0"
+    "jsReservedWords\0jsFutureReservedWords_data\0"
+    "jsFutureReservedWords\0jsThrowInsideWithStatement\0"
+    "getSetAgent_ownership\0getSetAgent_deleteAgent\0"
+    "getSetAgent_differentEngine\0"
+    "reentrancy_stringHandles\0"
+    "reentrancy_processEventsInterval\0"
+    "reentrancy_typeConversion\0"
+    "reentrancy_globalObjectProperties\0"
+    "reentrancy_Array\0reentrancy_objectCreation\0"
+    "jsIncDecNonObjectProperty\0"
+    "installTranslatorFunctions_data\0"
+    "installTranslatorFunctions\0"
+    "translateScript_data\0translateScript\0"
+    "translateScript_crossScript\0"
+    "translateScript_callQsTrFromNative\0"
+    "translateScript_trNoOp\0"
+    "translateScript_callQsTrFromCpp\0"
+    "translateWithInvalidArgs_data\0"
+    "translateWithInvalidArgs\0"
+    "translationContext_data\0translationContext\0"
+    "translateScriptIdBased\0"
+    "translateScriptUnicode_data\0"
+    "translateScriptUnicode\0"
+    "translateScriptUnicodeIdBased_data\0"
+    "translateScriptUnicodeIdBased\0"
+    "translateFromBuiltinCallback\0"
+    "functionScopes\0nativeFunctionScopes\0"
+    "evaluateProgram\0evaluateProgram_customScope\0"
+    "evaluateProgram_closure\0"
+    "evaluateProgram_executeLater\0"
+    "evaluateProgram_multipleEngines\0"
+    "evaluateProgram_empty\0collectGarbageAfterConnect\0"
+    "collectGarbageAfterNativeArguments\0"
+    "promoteThisObjectToQObjectInConstructor\0"
+    "scriptValueFromQMetaObject\0"
+    "qRegExpInport_data\0qRegExpInport\0"
+    "reentrency\0newFixedStaticScopeObject\0"
+    "newGrowingStaticScopeObject\0"
+    "dateRoundtripJSQtJS\0dateRoundtripQtJSQt\0"
+    "dateConversionJSQt\0dateConversionQtJS\0"
+    "stringListFromArrayWithEmptyElement\0"
+    "collectQObjectWithCachedWrapper_data\0"
+    "collectQObjectWithCachedWrapper\0"
+    "pushContext_noInheritedScope"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QScriptEngine[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+     166,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  844,    2, 0x08 /* Private */,
+       3,    0,  845,    2, 0x08 /* Private */,
+       4,    0,  846,    2, 0x08 /* Private */,
+       5,    0,  847,    2, 0x08 /* Private */,
+       6,    0,  848,    2, 0x08 /* Private */,
+       7,    0,  849,    2, 0x08 /* Private */,
+       8,    0,  850,    2, 0x08 /* Private */,
+       9,    0,  851,    2, 0x08 /* Private */,
+      10,    0,  852,    2, 0x08 /* Private */,
+      11,    0,  853,    2, 0x08 /* Private */,
+      12,    0,  854,    2, 0x08 /* Private */,
+      13,    0,  855,    2, 0x08 /* Private */,
+      14,    0,  856,    2, 0x08 /* Private */,
+      15,    0,  857,    2, 0x08 /* Private */,
+      16,    0,  858,    2, 0x08 /* Private */,
+      17,    0,  859,    2, 0x08 /* Private */,
+      18,    0,  860,    2, 0x08 /* Private */,
+      19,    0,  861,    2, 0x08 /* Private */,
+      20,    0,  862,    2, 0x08 /* Private */,
+      21,    0,  863,    2, 0x08 /* Private */,
+      22,    0,  864,    2, 0x08 /* Private */,
+      23,    0,  865,    2, 0x08 /* Private */,
+      24,    0,  866,    2, 0x08 /* Private */,
+      25,    0,  867,    2, 0x08 /* Private */,
+      26,    0,  868,    2, 0x08 /* Private */,
+      27,    0,  869,    2, 0x08 /* Private */,
+      28,    0,  870,    2, 0x08 /* Private */,
+      29,    0,  871,    2, 0x08 /* Private */,
+      30,    0,  872,    2, 0x08 /* Private */,
+      31,    0,  873,    2, 0x08 /* Private */,
+      32,    0,  874,    2, 0x08 /* Private */,
+      33,    0,  875,    2, 0x08 /* Private */,
+      34,    0,  876,    2, 0x08 /* Private */,
+      35,    0,  877,    2, 0x08 /* Private */,
+      36,    0,  878,    2, 0x08 /* Private */,
+      37,    0,  879,    2, 0x08 /* Private */,
+      38,    0,  880,    2, 0x08 /* Private */,
+      39,    0,  881,    2, 0x08 /* Private */,
+      40,    0,  882,    2, 0x08 /* Private */,
+      41,    0,  883,    2, 0x08 /* Private */,
+      42,    0,  884,    2, 0x08 /* Private */,
+      43,    0,  885,    2, 0x08 /* Private */,
+      44,    0,  886,    2, 0x08 /* Private */,
+      45,    0,  887,    2, 0x08 /* Private */,
+      46,    0,  888,    2, 0x08 /* Private */,
+      47,    0,  889,    2, 0x08 /* Private */,
+      48,    0,  890,    2, 0x08 /* Private */,
+      49,    0,  891,    2, 0x08 /* Private */,
+      50,    0,  892,    2, 0x08 /* Private */,
+      51,    0,  893,    2, 0x08 /* Private */,
+      52,    0,  894,    2, 0x08 /* Private */,
+      53,    0,  895,    2, 0x08 /* Private */,
+      54,    0,  896,    2, 0x08 /* Private */,
+      55,    0,  897,    2, 0x08 /* Private */,
+      56,    0,  898,    2, 0x08 /* Private */,
+      57,    0,  899,    2, 0x08 /* Private */,
+      58,    0,  900,    2, 0x08 /* Private */,
+      59,    0,  901,    2, 0x08 /* Private */,
+      60,    0,  902,    2, 0x08 /* Private */,
+      61,    0,  903,    2, 0x08 /* Private */,
+      62,    0,  904,    2, 0x08 /* Private */,
+      63,    0,  905,    2, 0x08 /* Private */,
+      64,    0,  906,    2, 0x08 /* Private */,
+      65,    0,  907,    2, 0x08 /* Private */,
+      66,    0,  908,    2, 0x08 /* Private */,
+      67,    0,  909,    2, 0x08 /* Private */,
+      68,    0,  910,    2, 0x08 /* Private */,
+      69,    0,  911,    2, 0x08 /* Private */,
+      70,    0,  912,    2, 0x08 /* Private */,
+      71,    0,  913,    2, 0x08 /* Private */,
+      72,    0,  914,    2, 0x08 /* Private */,
+      73,    0,  915,    2, 0x08 /* Private */,
+      74,    0,  916,    2, 0x08 /* Private */,
+      75,    0,  917,    2, 0x08 /* Private */,
+      76,    0,  918,    2, 0x08 /* Private */,
+      77,    0,  919,    2, 0x08 /* Private */,
+      78,    0,  920,    2, 0x08 /* Private */,
+      79,    0,  921,    2, 0x08 /* Private */,
+      80,    0,  922,    2, 0x08 /* Private */,
+      81,    0,  923,    2, 0x08 /* Private */,
+      82,    0,  924,    2, 0x08 /* Private */,
+      83,    0,  925,    2, 0x08 /* Private */,
+      84,    0,  926,    2, 0x08 /* Private */,
+      85,    0,  927,    2, 0x08 /* Private */,
+      86,    0,  928,    2, 0x08 /* Private */,
+      87,    0,  929,    2, 0x08 /* Private */,
+      88,    0,  930,    2, 0x08 /* Private */,
+      89,    0,  931,    2, 0x08 /* Private */,
+      90,    0,  932,    2, 0x08 /* Private */,
+      91,    0,  933,    2, 0x08 /* Private */,
+      92,    0,  934,    2, 0x08 /* Private */,
+      93,    0,  935,    2, 0x08 /* Private */,
+      94,    0,  936,    2, 0x08 /* Private */,
+      95,    0,  937,    2, 0x08 /* Private */,
+      96,    0,  938,    2, 0x08 /* Private */,
+      97,    0,  939,    2, 0x08 /* Private */,
+      98,    0,  940,    2, 0x08 /* Private */,
+      99,    0,  941,    2, 0x08 /* Private */,
+     100,    0,  942,    2, 0x08 /* Private */,
+     101,    0,  943,    2, 0x08 /* Private */,
+     102,    0,  944,    2, 0x08 /* Private */,
+     103,    0,  945,    2, 0x08 /* Private */,
+     104,    0,  946,    2, 0x08 /* Private */,
+     105,    0,  947,    2, 0x08 /* Private */,
+     106,    0,  948,    2, 0x08 /* Private */,
+     107,    0,  949,    2, 0x08 /* Private */,
+     108,    0,  950,    2, 0x08 /* Private */,
+     109,    0,  951,    2, 0x08 /* Private */,
+     110,    0,  952,    2, 0x08 /* Private */,
+     111,    0,  953,    2, 0x08 /* Private */,
+     112,    0,  954,    2, 0x08 /* Private */,
+     113,    0,  955,    2, 0x08 /* Private */,
+     114,    0,  956,    2, 0x08 /* Private */,
+     115,    0,  957,    2, 0x08 /* Private */,
+     116,    0,  958,    2, 0x08 /* Private */,
+     117,    0,  959,    2, 0x08 /* Private */,
+     118,    0,  960,    2, 0x08 /* Private */,
+     119,    0,  961,    2, 0x08 /* Private */,
+     120,    0,  962,    2, 0x08 /* Private */,
+     121,    0,  963,    2, 0x08 /* Private */,
+     122,    0,  964,    2, 0x08 /* Private */,
+     123,    0,  965,    2, 0x08 /* Private */,
+     124,    0,  966,    2, 0x08 /* Private */,
+     125,    0,  967,    2, 0x08 /* Private */,
+     126,    0,  968,    2, 0x08 /* Private */,
+     127,    0,  969,    2, 0x08 /* Private */,
+     128,    0,  970,    2, 0x08 /* Private */,
+     129,    0,  971,    2, 0x08 /* Private */,
+     130,    0,  972,    2, 0x08 /* Private */,
+     131,    0,  973,    2, 0x08 /* Private */,
+     132,    0,  974,    2, 0x08 /* Private */,
+     133,    0,  975,    2, 0x08 /* Private */,
+     134,    0,  976,    2, 0x08 /* Private */,
+     135,    0,  977,    2, 0x08 /* Private */,
+     136,    0,  978,    2, 0x08 /* Private */,
+     137,    0,  979,    2, 0x08 /* Private */,
+     138,    0,  980,    2, 0x08 /* Private */,
+     139,    0,  981,    2, 0x08 /* Private */,
+     140,    0,  982,    2, 0x08 /* Private */,
+     141,    0,  983,    2, 0x08 /* Private */,
+     142,    0,  984,    2, 0x08 /* Private */,
+     143,    0,  985,    2, 0x08 /* Private */,
+     144,    0,  986,    2, 0x08 /* Private */,
+     145,    0,  987,    2, 0x08 /* Private */,
+     146,    0,  988,    2, 0x08 /* Private */,
+     147,    0,  989,    2, 0x08 /* Private */,
+     148,    0,  990,    2, 0x08 /* Private */,
+     149,    0,  991,    2, 0x08 /* Private */,
+     150,    0,  992,    2, 0x08 /* Private */,
+     151,    0,  993,    2, 0x08 /* Private */,
+     152,    0,  994,    2, 0x08 /* Private */,
+     153,    0,  995,    2, 0x08 /* Private */,
+     154,    0,  996,    2, 0x08 /* Private */,
+     155,    0,  997,    2, 0x08 /* Private */,
+     156,    0,  998,    2, 0x08 /* Private */,
+     157,    0,  999,    2, 0x08 /* Private */,
+     158,    0, 1000,    2, 0x08 /* Private */,
+     159,    0, 1001,    2, 0x08 /* Private */,
+     160,    0, 1002,    2, 0x08 /* Private */,
+     161,    0, 1003,    2, 0x08 /* Private */,
+     162,    0, 1004,    2, 0x08 /* Private */,
+     163,    0, 1005,    2, 0x08 /* Private */,
+     164,    0, 1006,    2, 0x08 /* Private */,
+     165,    0, 1007,    2, 0x08 /* Private */,
+     166,    0, 1008,    2, 0x08 /* Private */,
+     167,    0, 1009,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QScriptEngine::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QScriptEngine *_t = static_cast<tst_QScriptEngine *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->constructWithParent(); break;
+        case 1: _t->currentContext(); break;
+        case 2: _t->pushPopContext(); break;
+        case 3: _t->getSetDefaultPrototype_int(); break;
+        case 4: _t->getSetDefaultPrototype_customType(); break;
+        case 5: _t->newFunction(); break;
+        case 6: _t->newFunctionWithArg(); break;
+        case 7: _t->newFunctionWithProto(); break;
+        case 8: _t->newObject(); break;
+        case 9: _t->newArray(); break;
+        case 10: _t->newArray_HooliganTask218092(); break;
+        case 11: _t->newArray_HooliganTask233836(); break;
+        case 12: _t->newVariant(); break;
+        case 13: _t->newVariant_defaultPrototype(); break;
+        case 14: _t->newVariant_promoteObject(); break;
+        case 15: _t->newVariant_replaceValue(); break;
+        case 16: _t->newVariant_valueOfToString(); break;
+        case 17: _t->newVariant_promoteNonObject(); break;
+        case 18: _t->newVariant_promoteNonQScriptObject(); break;
+        case 19: _t->newRegExp(); break;
+        case 20: _t->jsRegExp(); break;
+        case 21: _t->newDate(); break;
+        case 22: _t->jsParseDate(); break;
+        case 23: _t->newQObject(); break;
+        case 24: _t->newQObject_ownership(); break;
+        case 25: _t->newQObject_promoteObject(); break;
+        case 26: _t->newQObject_sameQObject(); break;
+        case 27: _t->newQObject_defaultPrototype(); break;
+        case 28: _t->newQObject_promoteNonObject(); break;
+        case 29: _t->newQObject_promoteNonQScriptObject(); break;
+        case 30: _t->newQMetaObject(); break;
+        case 31: _t->newActivationObject(); break;
+        case 32: _t->getSetGlobalObject(); break;
+        case 33: _t->globalObjectProperties(); break;
+        case 34: _t->globalObjectProperties_enumerate(); break;
+        case 35: _t->createGlobalObjectProperty(); break;
+        case 36: _t->globalObjectGetterSetterProperty(); break;
+        case 37: _t->customGlobalObjectWithPrototype(); break;
+        case 38: _t->globalObjectWithCustomPrototype(); break;
+        case 39: _t->builtinFunctionNames_data(); break;
+        case 40: _t->builtinFunctionNames(); break;
+        case 41: _t->checkSyntax_data(); break;
+        case 42: _t->checkSyntax(); break;
+        case 43: _t->canEvaluate_data(); break;
+        case 44: _t->canEvaluate(); break;
+        case 45: _t->evaluate_data(); break;
+        case 46: _t->evaluate(); break;
+        case 47: _t->nestedEvaluate(); break;
+        case 48: _t->uncaughtException(); break;
+        case 49: _t->errorMessage_QT679(); break;
+        case 50: _t->valueConversion_basic(); break;
+        case 51: _t->valueConversion_customType(); break;
+        case 52: _t->valueConversion_sequence(); break;
+        case 53: _t->valueConversion_QVariant(); break;
+        case 54: _t->valueConversion_hooliganTask248802(); break;
+        case 55: _t->valueConversion_basic2(); break;
+        case 56: _t->valueConversion_dateTime(); break;
+        case 57: _t->valueConversion_regExp(); break;
+        case 58: _t->valueConversion_long(); break;
+        case 59: _t->qScriptValueFromValue_noEngine(); break;
+        case 60: _t->importExtension(); break;
+        case 61: _t->infiniteRecursion(); break;
+        case 62: _t->castWithPrototypeChain(); break;
+        case 63: _t->castWithMultipleInheritance(); break;
+        case 64: _t->collectGarbage(); break;
+        case 65: _t->reportAdditionalMemoryCost(); break;
+        case 66: _t->gcWithNestedDataStructure(); break;
+        case 67: _t->processEventsWhileRunning(); break;
+        case 68: _t->throwErrorFromProcessEvents_data(); break;
+        case 69: _t->throwErrorFromProcessEvents(); break;
+        case 70: _t->disableProcessEventsInterval(); break;
+        case 71: _t->stacktrace(); break;
+        case 72: _t->stacktrace_callJSFromCpp_data(); break;
+        case 73: _t->stacktrace_callJSFromCpp(); break;
+        case 74: _t->numberParsing_data(); break;
+        case 75: _t->numberParsing(); break;
+        case 76: _t->automaticSemicolonInsertion(); break;
+        case 77: _t->abortEvaluation_notEvaluating(); break;
+        case 78: _t->abortEvaluation_data(); break;
+        case 79: _t->abortEvaluation(); break;
+        case 80: _t->abortEvaluation_tryCatch(); break;
+        case 81: _t->abortEvaluation_fromNative(); break;
+        case 82: _t->abortEvaluation_QTBUG9433(); break;
+        case 83: _t->isEvaluating_notEvaluating(); break;
+        case 84: _t->isEvaluating_fromNative(); break;
+        case 85: _t->isEvaluating_fromEvent(); break;
+        case 86: _t->printFunctionWithCustomHandler(); break;
+        case 87: _t->printThrowsException(); break;
+        case 88: _t->errorConstructors(); break;
+        case 89: _t->argumentsProperty_globalContext(); break;
+        case 90: _t->argumentsProperty_JS(); break;
+        case 91: _t->argumentsProperty_evaluateInNativeFunction(); break;
+        case 92: _t->jsNumberClass(); break;
+        case 93: _t->jsForInStatement_simple(); break;
+        case 94: _t->jsForInStatement_prototypeProperties(); break;
+        case 95: _t->jsForInStatement_mutateWhileIterating(); break;
+        case 96: _t->jsForInStatement_arrays(); break;
+        case 97: _t->jsForInStatement_nullAndUndefined(); break;
+        case 98: _t->jsFunctionDeclarationAsStatement(); break;
+        case 99: _t->stringObjects(); break;
+        case 100: _t->jsStringPrototypeReplaceBugs(); break;
+        case 101: _t->getterSetterThisObject_global(); break;
+        case 102: _t->getterSetterThisObject_plain(); break;
+        case 103: _t->getterSetterThisObject_prototypeChain(); break;
+        case 104: _t->getterSetterThisObject_activation(); break;
+        case 105: _t->jsContinueInSwitch(); break;
+        case 106: _t->jsShadowReadOnlyPrototypeProperty(); break;
+        case 107: _t->toObject(); break;
+        case 108: _t->jsReservedWords_data(); break;
+        case 109: _t->jsReservedWords(); break;
+        case 110: _t->jsFutureReservedWords_data(); break;
+        case 111: _t->jsFutureReservedWords(); break;
+        case 112: _t->jsThrowInsideWithStatement(); break;
+        case 113: _t->getSetAgent_ownership(); break;
+        case 114: _t->getSetAgent_deleteAgent(); break;
+        case 115: _t->getSetAgent_differentEngine(); break;
+        case 116: _t->reentrancy_stringHandles(); break;
+        case 117: _t->reentrancy_processEventsInterval(); break;
+        case 118: _t->reentrancy_typeConversion(); break;
+        case 119: _t->reentrancy_globalObjectProperties(); break;
+        case 120: _t->reentrancy_Array(); break;
+        case 121: _t->reentrancy_objectCreation(); break;
+        case 122: _t->jsIncDecNonObjectProperty(); break;
+        case 123: _t->installTranslatorFunctions_data(); break;
+        case 124: _t->installTranslatorFunctions(); break;
+        case 125: _t->translateScript_data(); break;
+        case 126: _t->translateScript(); break;
+        case 127: _t->translateScript_crossScript(); break;
+        case 128: _t->translateScript_callQsTrFromNative(); break;
+        case 129: _t->translateScript_trNoOp(); break;
+        case 130: _t->translateScript_callQsTrFromCpp(); break;
+        case 131: _t->translateWithInvalidArgs_data(); break;
+        case 132: _t->translateWithInvalidArgs(); break;
+        case 133: _t->translationContext_data(); break;
+        case 134: _t->translationContext(); break;
+        case 135: _t->translateScriptIdBased(); break;
+        case 136: _t->translateScriptUnicode_data(); break;
+        case 137: _t->translateScriptUnicode(); break;
+        case 138: _t->translateScriptUnicodeIdBased_data(); break;
+        case 139: _t->translateScriptUnicodeIdBased(); break;
+        case 140: _t->translateFromBuiltinCallback(); break;
+        case 141: _t->functionScopes(); break;
+        case 142: _t->nativeFunctionScopes(); break;
+        case 143: _t->evaluateProgram(); break;
+        case 144: _t->evaluateProgram_customScope(); break;
+        case 145: _t->evaluateProgram_closure(); break;
+        case 146: _t->evaluateProgram_executeLater(); break;
+        case 147: _t->evaluateProgram_multipleEngines(); break;
+        case 148: _t->evaluateProgram_empty(); break;
+        case 149: _t->collectGarbageAfterConnect(); break;
+        case 150: _t->collectGarbageAfterNativeArguments(); break;
+        case 151: _t->promoteThisObjectToQObjectInConstructor(); break;
+        case 152: _t->scriptValueFromQMetaObject(); break;
+        case 153: _t->qRegExpInport_data(); break;
+        case 154: _t->qRegExpInport(); break;
+        case 155: _t->reentrency(); break;
+        case 156: _t->newFixedStaticScopeObject(); break;
+        case 157: _t->newGrowingStaticScopeObject(); break;
+        case 158: _t->dateRoundtripJSQtJS(); break;
+        case 159: _t->dateRoundtripQtJSQt(); break;
+        case 160: _t->dateConversionJSQt(); break;
+        case 161: _t->dateConversionQtJS(); break;
+        case 162: _t->stringListFromArrayWithEmptyElement(); break;
+        case 163: _t->collectQObjectWithCachedWrapper_data(); break;
+        case 164: _t->collectQObjectWithCachedWrapper(); break;
+        case 165: _t->pushContext_noInheritedScope(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QScriptEngine::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QScriptEngine.data,
+      qt_meta_data_tst_QScriptEngine,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QScriptEngine::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QScriptEngine::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QScriptEngine.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QScriptEngine::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 166)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 166;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 166)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 166;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_Zoo_t {
+    QByteArrayData data[6];
+    char stringdata0[23];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_Zoo_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_Zoo_t qt_meta_stringdata_Zoo = {
+    {
+QT_MOC_LITERAL(0, 0, 3), // "Zoo"
+QT_MOC_LITERAL(1, 4, 5), // "toBaz"
+QT_MOC_LITERAL(2, 10, 4), // "Baz*"
+QT_MOC_LITERAL(3, 15, 0), // ""
+QT_MOC_LITERAL(4, 16, 4), // "Bar*"
+QT_MOC_LITERAL(5, 21, 1) // "b"
+
+    },
+    "Zoo\0toBaz\0Baz*\0\0Bar*\0b"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_Zoo[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    1,   19,    3, 0x0a /* Public */,
+
+ // slots: parameters
+    0x80000000 | 2, 0x80000000 | 4,    5,
+
+       0        // eod
+};
+
+void Zoo::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        Zoo *_t = static_cast<Zoo *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: { Baz* _r = _t->toBaz((*reinterpret_cast< Bar*(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< Baz**>(_a[0]) = std::move(_r); }  break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 0:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< Bar* >(); break;
+            }
+            break;
+        }
+    }
+}
+
+const QMetaObject Zoo::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_Zoo.data,
+      qt_meta_data_Zoo,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *Zoo::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *Zoo::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_Zoo.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int Zoo::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_Klazz_t {
+    QByteArrayData data[1];
+    char stringdata0[6];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_Klazz_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_Klazz_t qt_meta_stringdata_Klazz = {
+    {
+QT_MOC_LITERAL(0, 0, 5) // "Klazz"
+
+    },
+    "Klazz"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_Klazz[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void Klazz::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject Klazz::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_Klazz.data,
+      qt_meta_data_Klazz,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *Klazz::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *Klazz::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_Klazz.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "QStandardItem"))
+        return static_cast< QStandardItem*>(this);
+    if (!strcmp(_clname, "QGraphicsItem"))
+        return static_cast< QGraphicsItem*>(this);
+    return QWidget::qt_metacast(_clname);
+}
+
+int Klazz::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_ThreadedEngine_t {
+    QByteArrayData data[3];
+    char stringdata0[22];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ThreadedEngine_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ThreadedEngine_t qt_meta_stringdata_ThreadedEngine = {
+    {
+QT_MOC_LITERAL(0, 0, 14), // "ThreadedEngine"
+QT_MOC_LITERAL(1, 15, 5), // "sleep"
+QT_MOC_LITERAL(2, 21, 0) // ""
+
+    },
+    "ThreadedEngine\0sleep\0"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_ThreadedEngine[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   19,    2, 0x0a /* Public */,
+
+ // slots: parameters
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void ThreadedEngine::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        ThreadedEngine *_t = static_cast<ThreadedEngine *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->sleep(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject ThreadedEngine::staticMetaObject = {
+    { &QThread::staticMetaObject, qt_meta_stringdata_ThreadedEngine.data,
+      qt_meta_data_ThreadedEngine,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *ThreadedEngine::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ThreadedEngine::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ThreadedEngine.stringdata0))
+        return static_cast<void*>(this);
+    return QThread::qt_metacast(_clname);
+}
+
+int ThreadedEngine::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QThread::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

@@ -1,0 +1,7 @@
+$(QTDIR)\bin\idc.exe "$(TargetPath)" /idl $(IntDir)wrapperax.idl -version 1.0
+if errorlevel 1 goto VCEnd
+ midl /NOLOGO $(IntDir)wrapperax.idl /nologo /tlb $(IntDir)wrapperax.tlb
+if errorlevel 1 goto VCEnd
+ $(QTDIR)\bin\idc.exe "$(TargetPath)" /tlb $(IntDir)wrapperax.tlb
+if errorlevel 1 goto VCEnd
+ $(QTDIR)\bin\idc.exe "$(TargetPath)" /regserver

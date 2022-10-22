@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\calendar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\camera.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\cellphone\cellphone.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="cellphone.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="qml\cellphone\cellphone_case.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\cellphone\cellphone_front.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\cellphone\cellphone_icon.json">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\cellphone\cellphoneapp.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\cellphone\cellphonecanvas.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\clock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\cellphone\colorselector.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\contacts.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\cellphone\fpsdisplay.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\gallery.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\games.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\lock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\mail.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="qml\cellphone\main.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\maps.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\menu_background.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\music.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\plutomap1k.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qtlogo_with_alpha.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\settings.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\..\3rdparty\three.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\todo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\videos.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content\towers\Bomb.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\BuildButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\towers\Factory.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\GameCanvas.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\GameOverScreen.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\InfoBar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\towers\Melee.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\mobs\MobBase.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\NewGameScreen.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\towers\Ranged.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\SoundEffect.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\towers\TowerBase.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\background.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\bomb-action.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\audio\bomb-action.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\bomb-idle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\bomb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\button-help.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\button-play.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\catch-action.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\audio\catch-action.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\catch.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\audio\catch.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\cloud.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\currency.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\audio\currency.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\dialog-bomb.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\dialog-factory.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\dialog-melee.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\dialog-pointer.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\dialog-shooter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\dialog.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\factory-action.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\audio\factory-action.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\factory-idle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\factory.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\grid.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\help.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\lifes.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\logic.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\logo-bubble.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\logo-fish.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\logo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="maroon.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="maroon.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="content\gfx\melee-action.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\audio\melee-action.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\melee-idle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\melee.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\mob-idle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\mob.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\points.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\projectile-action.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\audio\projectile-action.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\projectile.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\scores.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\shooter-action.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\audio\shooter-action.wav">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\shooter-idle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\shooter.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\sunlight.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\text-1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\text-2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\text-3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\text-blank.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\text-gameover.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\text-go.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\gfx\wave.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

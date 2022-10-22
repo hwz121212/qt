@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6AF733B7-01B8-3A0B-9D11-5F3F868F4630}</ProjectGuid>
+    <RootNamespace>tst_qscriptv8testsuite</RootNamespace>
+    <Keyword>QtVS_v301</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    
+    
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolset>v141</PlatformToolset>
+    
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    
+    
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <PropertyGroup Condition="'$(QtMsBuild)'=='' or !Exists('$(QtMsBuild)\qt.targets')">
+    <QtMsBuild>$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') or !Exists('$(QtMsBuild)\qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt_defaults.props')">
+    <Import Project="$(QtMsBuild)\qt_defaults.props" />
+  </ImportGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <QtInstall>msvc2017_64</QtInstall>
+    <QtModules>core;testlib;script</QtModules>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <QtInstall>msvc2017_64</QtInstall>
+    <QtModules>core;testlib;script</QtModules>
+  </PropertyGroup>
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.props')">
+    <Import Project="$(QtMsBuild)\qt.props" />
+  </ImportGroup>
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+    
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
+    
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;$(SolutionDir)thirdparty\qt-5.9.6\include;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScript;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScript\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScript\5.9.6\QtScript;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScript\5.9.6\QtScript\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScriptTools;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScriptTools\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScriptTools\5.9.6\QtScriptTools;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScriptTools\5.9.6\QtScriptTools\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickParticles;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickParticles\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickParticles\5.9.6\QtQuickParticles;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickParticles\5.9.6\QtQuickParticles\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickTemplates2;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickTemplates2\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickTemplates2\5.9.6\QtQuickTemplates2;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickTemplates2\5.9.6\QtQuickTemplates2\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickControls2;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickControls2\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickControls2\5.9.6\QtQuickControls2;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickControls2\5.9.6\QtQuickControls2\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuick;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuick\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuick\5.9.6\QtQuick;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuick\5.9.6\QtQuick\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml\5.9.6\QtQml;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6\QtCore\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtANGLE;$(SolutionDir)thirdparty\qt-5.9.6\include\QtNetwork;$(SolutionDir)thirdparty\qt-5.9.6\mkspecs\win32-msvc;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSql;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSql\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSql\5.9.6\QtSql;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSql\5.9.6\QtSql\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtTest;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6\QtWidgets;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6\QtWidgets\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSensors;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSensors\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSensors\5.9.6\QtSensors;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSensors\5.9.6\QtSensors\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtPurchasing;$(SolutionDir)thirdparty\qt-5.9.6\include\QtPurchasing\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtPurchasing\5.9.6\QtPurchasing;$(SolutionDir)thirdparty\qt-5.9.6\include\QtPurchasing\5.9.6\QtPurchasing\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml\5.9.6\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtUiTools</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -utf-8 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;WIN64;QT_NO_FOREACH;QT_DISABLE_DEPRECATED_BEFORE=0;QT_NO_DEBUG;QT_TESTCASE_BUILDDIR=".";NDEBUG;</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Qt5Network.lib;Qt5Script.lib;Qt5ScriptTools.lib;libQt5UiTools_shared.lib;Qt5Designer.lib;Qt5DBus.lib;Qt5Test.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OptimizeReferences>true</OptimizeReferences>
+      
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;WIN64;QT_NO_FOREACH;QT_DISABLE_DEPRECATED_BEFORE=0;QT_NO_DEBUG;QT_SCRIPT_LIB;QT_TESTLIB_LIB;QT_CORE_LIB;QT_TESTCASE_BUILDDIR=".";</PreprocessorDefinitions>
+    </ResourceCompile>
+    <QtRcc>
+      <InitFuncName>qscriptv8testsuite</InitFuncName>
+      <Compression>default</Compression>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <QtRccDir>rcc</QtRccDir>
+      <QtRccFileName>qrc_%(Filename).cpp</QtRccFileName>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>.;$(SolutionDir)thirdparty\qt-5.9.6\include;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScript;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScript\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScript\5.9.6\QtScript;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScript\5.9.6\QtScript\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScriptTools;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScriptTools\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScriptTools\5.9.6\QtScriptTools;$(SolutionDir)thirdparty\qt-5.9.6\include\QtScriptTools\5.9.6\QtScriptTools\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickParticles;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickParticles\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickParticles\5.9.6\QtQuickParticles;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickParticles\5.9.6\QtQuickParticles\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickTemplates2;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickTemplates2\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickTemplates2\5.9.6\QtQuickTemplates2;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickTemplates2\5.9.6\QtQuickTemplates2\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickControls2;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickControls2\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickControls2\5.9.6\QtQuickControls2;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuickControls2\5.9.6\QtQuickControls2\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuick;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuick\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuick\5.9.6\QtQuick;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQuick\5.9.6\QtQuick\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtGui\5.9.6\QtGui;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml\5.9.6\QtQml;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6\QtCore;$(SolutionDir)thirdparty\qt-5.9.6\include\QtCore\5.9.6\QtCore\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtANGLE;$(SolutionDir)thirdparty\qt-5.9.6\include\QtNetwork;$(SolutionDir)thirdparty\qt-5.9.6\mkspecs\win32-msvc;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSql;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSql\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSql\5.9.6\QtSql;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSql\5.9.6\QtSql\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtTest;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6\QtWidgets;$(SolutionDir)thirdparty\qt-5.9.6\include\QtWidgets\5.9.6\QtWidgets\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSensors;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSensors\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSensors\5.9.6\QtSensors;$(SolutionDir)thirdparty\qt-5.9.6\include\QtSensors\5.9.6\QtSensors\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtPurchasing;$(SolutionDir)thirdparty\qt-5.9.6\include\QtPurchasing\5.9.6;$(SolutionDir)thirdparty\qt-5.9.6\include\QtPurchasing\5.9.6\QtPurchasing;$(SolutionDir)thirdparty\qt-5.9.6\include\QtPurchasing\5.9.6\QtPurchasing\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtQml\5.9.6\private;$(SolutionDir)thirdparty\qt-5.9.6\include\QtUiTools</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -utf-8 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
+      
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4577;4467;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;WIN64;QT_NO_FOREACH;QT_DISABLE_DEPRECATED_BEFORE=0;QT_TESTCASE_BUILDDIR=".";</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <WarningLevel>Level3</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Qt5Network.lib;Qt5Script.lib;Qt5ScriptTools.lib;libQt5UiTools_shared.lib;Qt5Designer.lib;Qt5DBus.lib;Qt5Test.lib;winmm.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Console</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_CONSOLE;UNICODE;_UNICODE;WIN32;WIN64;QT_NO_FOREACH;QT_DISABLE_DEPRECATED_BEFORE=0;QT_SCRIPT_LIB;QT_TESTLIB_LIB;QT_CORE_LIB;QT_TESTCASE_BUILDDIR=".";_DEBUG;</PreprocessorDefinitions>
+    </ResourceCompile>
+    <QtRcc>
+      <InitFuncName>qscriptv8testsuite</InitFuncName>
+      <Compression>default</Compression>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <QtRccDir>rcc</QtRccDir>
+      <QtRccFileName>qrc_%(Filename).cpp</QtRccFileName>
+    </QtRcc>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="abstracttestsuite.cpp" />
+    <ClCompile Include="tst_qscriptv8testsuite.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="abstracttestsuite.h" />
+  </ItemGroup>
+  <ItemGroup>
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tests\apply.js" />
+    <None Include="tests\arguments-call-apply.js" />
+    <None Include="tests\arguments-enum.js" />
+    <None Include="tests\arguments-indirect.js" />
+    <None Include="tests\arguments-opt.js" />
+    <None Include="tests\arguments.js" />
+    <None Include="tests\array-concat.js" />
+    <None Include="tests\array-functions-prototype.js" />
+    <None Include="tests\array-indexing.js" />
+    <None Include="tests\array-iteration.js" />
+    <None Include="tests\array-join.js" />
+    <None Include="tests\array-length.js" />
+    <None Include="tests\array-sort.js" />
+    <None Include="tests\array-splice-webkit.js" />
+    <None Include="tests\array-splice.js" />
+    <None Include="tests\array_length.js" />
+    <None Include="tests\ascii-regexp-subject.js" />
+    <None Include="tests\binary-operation-overwrite.js" />
+    <None Include="tests\body-not-visible.js" />
+    <None Include="tests\call-non-function-call.js" />
+    <None Include="tests\call-non-function.js" />
+    <None Include="tests\call.js" />
+    <None Include="tests\char-escape.js" />
+    <None Include="tests\class-of-builtins.js" />
+    <None Include="tests\closure.js" />
+    <None Include="tests\compare-nan.js" />
+    <None Include="tests\const-redecl.js" />
+    <None Include="tests\const.js" />
+    <None Include="tests\cyclic-array-to-string.js" />
+    <None Include="tests\date-parse.js" />
+    <None Include="tests\date.js" />
+    <None Include="tests\declare-locally.js" />
+    <None Include="tests\deep-recursion.js" />
+    <None Include="tests\delay-syntax-error.js" />
+    <None Include="tests\delete-global-properties.js" />
+    <None Include="tests\delete-in-eval.js" />
+    <None Include="tests\delete-in-with.js" />
+    <None Include="tests\delete-vars-from-eval.js" />
+    <None Include="tests\delete.js" />
+    <None Include="tests\do-not-strip-fc.js" />
+    <None Include="tests\dont-enum-array-holes.js" />
+    <None Include="tests\dont-reinit-global-var.js" />
+    <None Include="tests\double-equals.js" />
+    <None Include="tests\dtoa.js" />
+    <None Include="tests\enumeration_order.js" />
+    <None Include="tests\escape.js" />
+    <None Include="tests\eval-typeof-non-existing.js" />
+    <None Include="tests\execScript-case-insensitive.js" />
+    <None Include="expect_fail.txt" />
+    <None Include="tests\extra-arguments.js" />
+    <None Include="tests\extra-commas.js" />
+    <None Include="tests\for-in-null-or-undefined.js" />
+    <None Include="tests\for-in-special-cases.js" />
+    <None Include="tests\for-in.js" />
+    <None Include="tests\fun-as-prototype.js" />
+    <None Include="tests\fun_name.js" />
+    <None Include="tests\function-arguments-null.js" />
+    <None Include="tests\function-caller.js" />
+    <None Include="tests\function-property.js" />
+    <None Include="tests\function-prototype.js" />
+    <None Include="tests\function-source.js" />
+    <None Include="tests\function.js" />
+    <None Include="tests\fuzz-accessors.js" />
+    <None Include="tests\getter-in-value-prototype.js" />
+    <None Include="tests\global-const-var-conflicts.js" />
+    <None Include="tests\global-vars-eval.js" />
+    <None Include="tests\global-vars-with.js" />
+    <None Include="tests\has-own-property.js" />
+    <None Include="tests\html-comments.js" />
+    <None Include="tests\html-string-funcs.js" />
+    <None Include="tests\if-in-undefined.js" />
+    <None Include="tests\in.js" />
+    <None Include="tests\instanceof.js" />
+    <None Include="tests\integer-to-string.js" />
+    <None Include="tests\invalid-lhs.js" />
+    <None Include="tests\keyed-ic.js" />
+    <None Include="tests\large-object-literal.js" />
+    <None Include="tests\lazy-load.js" />
+    <None Include="tests\length.js" />
+    <None Include="tests\math-min-max.js" />
+    <None Include="tests\megamorphic-callbacks.js" />
+    <None Include="tests\mjsunit.js" />
+    <None Include="tests\mul-exhaustive.js" />
+    <None Include="tests\negate-zero.js" />
+    <None Include="tests\negate.js" />
+    <None Include="tests\nested-repetition-count-overflow.js" />
+    <None Include="tests\new.js" />
+    <None Include="tests\newline-in-string.js" />
+    <None Include="tests\no-branch-elimination.js" />
+    <None Include="tests\no-octal-constants-above-256.js" />
+    <None Include="tests\no-semicolon.js" />
+    <None Include="tests\non-ascii-replace.js" />
+    <None Include="tests\nul-characters.js" />
+    <None Include="tests\number-limits.js" />
+    <None Include="tests\number-tostring.js" />
+    <None Include="tests\obj-construct.js" />
+    <None Include="tests\parse-int-float.js" />
+    <None Include="tests\property-object-key.js" />
+    <None Include="tests\proto.js" />
+    <None Include="tests\prototype.js" />
+    <QtRcc Include="qscriptv8testsuite.qrc">
+    </QtRcc>
+    <None Include="tests\regexp-multiline-stack-trace.js" />
+    <None Include="tests\regexp-multiline.js" />
+    <None Include="tests\regexp-standalones.js" />
+    <None Include="tests\regexp-static.js" />
+    <None Include="tests\regexp.js" />
+    <None Include="tests\scanner.js" />
+    <None Include="skip.txt" />
+    <None Include="tests\smi-negative-zero.js" />
+    <None Include="tests\smi-ops.js" />
+    <None Include="tests\sparse-array-reverse.js" />
+    <None Include="tests\sparse-array.js" />
+    <None Include="tests\str-to-num.js" />
+    <None Include="tests\stress-array-push.js" />
+    <None Include="tests\strict-equals.js" />
+    <None Include="tests\string-case.js" />
+    <None Include="tests\string-charat.js" />
+    <None Include="tests\string-charcodeat.js" />
+    <None Include="tests\string-flatten.js" />
+    <None Include="tests\string-index.js" />
+    <None Include="tests\string-indexof.js" />
+    <None Include="tests\string-lastindexof.js" />
+    <None Include="tests\string-localecompare.js" />
+    <None Include="tests\string-search.js" />
+    <None Include="tests\string-split.js" />
+    <None Include="tests\substr.js" />
+    <None Include="tests\this-in-callbacks.js" />
+    <None Include="tests\this.js" />
+    <None Include="tests\throw-exception-for-null-access.js" />
+    <None Include="tests\to-precision.js" />
+    <None Include="tests\tobool.js" />
+    <None Include="tests\toint32.js" />
+    <None Include="tests\touint32.js" />
+    <None Include="tests\try-finally-nested.js" />
+    <None Include="tests\try.js" />
+    <None Include="tests\try_catch_scopes.js" />
+    <None Include="tests\unicode-string-to-number.js" />
+    <None Include="tests\unicode-test.js" />
+    <None Include="tests\unusual-constructor.js" />
+    <None Include="tests\uri.js" />
+    <None Include="tests\value-callic-prototype-change.js" />
+    <None Include="tests\var.js" />
+    <None Include="tests\with-leave.js" />
+    <None Include="tests\with-parameter-access.js" />
+    <None Include="tests\with-value.js" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
+    <Import Project="$(QtMsBuild)\qt.targets" />
+  </ImportGroup>
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

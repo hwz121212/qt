@@ -1,0 +1,10 @@
+<CustomBuild Include="qmldir">
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QINSTALL) qmldir ..\Explorer\qmldir</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">COPY qmldir</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\Explorer\qmldir;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">qmldir;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QINSTALL) qmldir ..\Explorer\qmldir</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">COPY qmldir</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">..\Explorer\qmldir;%(Outputs)</Outputs>
+    </CustomBuild>

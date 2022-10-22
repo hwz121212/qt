@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="map\CircleItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\Geocode.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\GeocodeForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\ImageItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="menus\ItemPopupMenu.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\Locale.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\LocaleForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="menus\MainMenu.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\MapComponent.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="menus\MapPopupMenu.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\MapSliders.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\Marker.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="menus\MarkerPopupMenu.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\Message.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\MessageForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\MiniMap.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\PolygonItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\PolylineItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="map\RectangleItem.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\ReverseGeocode.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\ReverseGeocodeForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\RouteAddress.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\RouteAddressForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\RouteCoordinate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\RouteCoordinateForm.ui.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\RouteList.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\RouteListDelegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="forms\RouteListHeader.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="helper.js">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\icon.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="mapviewer.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="mapviewer.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="resources\marker.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scale.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resources\scale_end.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

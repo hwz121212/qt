@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gridview\pics\AddressBook_48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pathview\pics\AddressBook_48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gridview\pics\AudioPlayer_48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pathview\pics\AudioPlayer_48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\Button.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gridview\pics\Camera_48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pathview\pics\Camera_48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\CheckBox.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\Clock.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gridview\pics\DateBook_48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pathview\pics\DateBook_48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="package\Delegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gridview\pics\EMail_48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pathview\pics\EMail_48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\Label.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\LauncherList.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\ParallaxView.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\PetsModel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\PressAndHoldButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\QuitButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\RecipesModel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\SimpleLauncherDelegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\Slider.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\SmallText.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\Smiley.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\TabSet.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\TextButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\TextField.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gridview\pics\TodoList_48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pathview\pics\TodoList_48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\ToggleButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gridview\pics\VideoPlayer_48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pathview\pics\VideoPlayer_48.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\pics\arrow-down.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\pics\arrow-up.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\images\back.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\pics\background.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\background.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\center.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\images\checkmark.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\clock-night.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\clock.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\displaymargin.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="visualdatamodel\dragselection.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\dynamiclist.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\expandingdelegates.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\pics\face-smile.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\pics\fruit-salad.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="gridview\gridview-example.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\pics\hamburger.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\highlight.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\highlightranges.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\pics\home-page.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\pics\home-page.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\hour.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\pics\lemonade.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\pics\list-delete.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\pics\minus-sign.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\minute.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\pics\moreDown.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\pics\moreUp.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\images\next.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="objectmodel\objectmodel.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\pics\pancakes.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\parallax.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pathview\pathview-example.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\pics\plus-sign.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\images\qt-logo.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\quit.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\second.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\sections.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\pics\shadow.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\shared\shared.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="..\shared\images\slider_handle.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="visualdatamodel\slideshow.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\shared\images\tab.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="listview\content\pics\vegetable-soup.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="package\view.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="views.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="views.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="parallax\content\pics\yast-joystick.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="parallax\content\pics\yast-wol.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

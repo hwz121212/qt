@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="qmlcamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CameraButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CameraListButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CameraListPopup.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CameraPropertyButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="CameraPropertyPopup.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="FocusButton.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhotoCaptureControls.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="PhotoPreview.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Popup.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="VideoCaptureControls.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="VideoPreview.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ZoomControl.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\camera_auto_mode.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\camera_camera_setting.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\camera_flash_auto.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\camera_flash_fill.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\camera_flash_off.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\camera_flash_redeye.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\camera_white_balance_cloudy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\camera_white_balance_flourescent.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\camera_white_balance_incandescent.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\camera_white_balance_sunny.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="declarative-camera.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="declarative-camera.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="images\toolbutton.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\toolbutton.sci">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,62 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "textureandlight", "F:/qt/Src/qtcanvas3d/examples/canvas3d/textureandlight\textureandlight.vcxproj", "{52E3AE8D-5369-3C49-AFE8-D030280292EA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "framebuffer", "F:/qt/Src/qtcanvas3d/examples/canvas3d/framebuffer\framebuffer.vcxproj", "{841F1FA2-715B-3FDC-BEF8-E7317A97E589}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "interaction", "F:/qt/Src/qtcanvas3d/examples/canvas3d/interaction\interaction.vcxproj", "{5F3252C5-C0B0-33E3-A1A1-39EFCA8BF694}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsonmodels", "F:/qt/Src/qtcanvas3d/examples/canvas3d/jsonmodels\jsonmodels.vcxproj", "{8CEA7C39-C02B-3EA9-8B5F-1F8CB0E2A8FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quickitemtexture", "F:/qt/Src/qtcanvas3d/examples/canvas3d/quickitemtexture\quickitemtexture.vcxproj", "{E2EBE67F-9B27-3B46-8F33-1C10EBE6CD0A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "oneqt", "F:/qt/Src/qtcanvas3d/examples/canvas3d/threejs/oneqt\oneqt.vcxproj", "{ED29719A-818C-31F1-A2B0-AFF471F096B9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "planets", "F:/qt/Src/qtcanvas3d/examples/canvas3d/threejs/planets\planets.vcxproj", "{520E3C62-5DCA-327A-99B7-84719526AE5D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cellphone", "F:/qt/Src/qtcanvas3d/examples/canvas3d/threejs/cellphone\cellphone.vcxproj", "{E7F1A6B3-7556-381B-8F70-D4B4D4D4B772}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52E3AE8D-5369-3C49-AFE8-D030280292EA}.Debug|x64.ActiveCfg = Debug|x64
+		{52E3AE8D-5369-3C49-AFE8-D030280292EA}.Debug|x64.Build.0 = Debug|x64
+		{52E3AE8D-5369-3C49-AFE8-D030280292EA}.Release|x64.ActiveCfg = Release|x64
+		{52E3AE8D-5369-3C49-AFE8-D030280292EA}.Release|x64.Build.0 = Release|x64
+		{841F1FA2-715B-3FDC-BEF8-E7317A97E589}.Debug|x64.ActiveCfg = Debug|x64
+		{841F1FA2-715B-3FDC-BEF8-E7317A97E589}.Debug|x64.Build.0 = Debug|x64
+		{841F1FA2-715B-3FDC-BEF8-E7317A97E589}.Release|x64.ActiveCfg = Release|x64
+		{841F1FA2-715B-3FDC-BEF8-E7317A97E589}.Release|x64.Build.0 = Release|x64
+		{5F3252C5-C0B0-33E3-A1A1-39EFCA8BF694}.Debug|x64.ActiveCfg = Debug|x64
+		{5F3252C5-C0B0-33E3-A1A1-39EFCA8BF694}.Debug|x64.Build.0 = Debug|x64
+		{5F3252C5-C0B0-33E3-A1A1-39EFCA8BF694}.Release|x64.ActiveCfg = Release|x64
+		{5F3252C5-C0B0-33E3-A1A1-39EFCA8BF694}.Release|x64.Build.0 = Release|x64
+		{8CEA7C39-C02B-3EA9-8B5F-1F8CB0E2A8FA}.Debug|x64.ActiveCfg = Debug|x64
+		{8CEA7C39-C02B-3EA9-8B5F-1F8CB0E2A8FA}.Debug|x64.Build.0 = Debug|x64
+		{8CEA7C39-C02B-3EA9-8B5F-1F8CB0E2A8FA}.Release|x64.ActiveCfg = Release|x64
+		{8CEA7C39-C02B-3EA9-8B5F-1F8CB0E2A8FA}.Release|x64.Build.0 = Release|x64
+		{E2EBE67F-9B27-3B46-8F33-1C10EBE6CD0A}.Debug|x64.ActiveCfg = Debug|x64
+		{E2EBE67F-9B27-3B46-8F33-1C10EBE6CD0A}.Debug|x64.Build.0 = Debug|x64
+		{E2EBE67F-9B27-3B46-8F33-1C10EBE6CD0A}.Release|x64.ActiveCfg = Release|x64
+		{E2EBE67F-9B27-3B46-8F33-1C10EBE6CD0A}.Release|x64.Build.0 = Release|x64
+		{ED29719A-818C-31F1-A2B0-AFF471F096B9}.Debug|x64.ActiveCfg = Debug|x64
+		{ED29719A-818C-31F1-A2B0-AFF471F096B9}.Debug|x64.Build.0 = Debug|x64
+		{ED29719A-818C-31F1-A2B0-AFF471F096B9}.Release|x64.ActiveCfg = Release|x64
+		{ED29719A-818C-31F1-A2B0-AFF471F096B9}.Release|x64.Build.0 = Release|x64
+		{520E3C62-5DCA-327A-99B7-84719526AE5D}.Debug|x64.ActiveCfg = Debug|x64
+		{520E3C62-5DCA-327A-99B7-84719526AE5D}.Debug|x64.Build.0 = Debug|x64
+		{520E3C62-5DCA-327A-99B7-84719526AE5D}.Release|x64.ActiveCfg = Release|x64
+		{520E3C62-5DCA-327A-99B7-84719526AE5D}.Release|x64.Build.0 = Release|x64
+		{E7F1A6B3-7556-381B-8F70-D4B4D4D4B772}.Debug|x64.ActiveCfg = Debug|x64
+		{E7F1A6B3-7556-381B-8F70-D4B4D4D4B772}.Debug|x64.Build.0 = Debug|x64
+		{E7F1A6B3-7556-381B-8F70-D4B4D4D4B772}.Release|x64.ActiveCfg = Release|x64
+		{E7F1A6B3-7556-381B-8F70-D4B4D4D4B772}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

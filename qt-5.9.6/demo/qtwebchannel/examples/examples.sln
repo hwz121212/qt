@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chatserver", "webchannel\chatserver-cpp\chatserver.vcxproj", "{53E5C22F-FFC6-3E12-9153-E70209D119F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "standalone", "webchannel\standalone\standalone.vcxproj", "{FA3116E8-1785-309A-8808-E05E5D637CBA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53E5C22F-FFC6-3E12-9153-E70209D119F3}.Debug|x64.ActiveCfg = Debug|x64
+		{53E5C22F-FFC6-3E12-9153-E70209D119F3}.Debug|x64.Build.0 = Debug|x64
+		{53E5C22F-FFC6-3E12-9153-E70209D119F3}.Release|x64.ActiveCfg = Release|x64
+		{53E5C22F-FFC6-3E12-9153-E70209D119F3}.Release|x64.Build.0 = Release|x64
+		{FA3116E8-1785-309A-8808-E05E5D637CBA}.Debug|x64.ActiveCfg = Debug|x64
+		{FA3116E8-1785-309A-8808-E05E5D637CBA}.Debug|x64.Build.0 = Debug|x64
+		{FA3116E8-1785-309A-8808-E05E5D637CBA}.Release|x64.ActiveCfg = Release|x64
+		{FA3116E8-1785-309A-8808-E05E5D637CBA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = msvc2017_64
+		SolutionGuid = {BE207FC3-4C2B-47B4-B95D-A4B3A697119C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,1446 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'main.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'main.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_LotsOfSignals_t {
+    QByteArrayData data[71];
+    char stringdata0[972];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_LotsOfSignals_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_LotsOfSignals_t qt_meta_stringdata_LotsOfSignals = {
+    {
+QT_MOC_LITERAL(0, 0, 13), // "LotsOfSignals"
+QT_MOC_LITERAL(1, 14, 12), // "extraSignal1"
+QT_MOC_LITERAL(2, 27, 0), // ""
+QT_MOC_LITERAL(3, 28, 12), // "extraSignal2"
+QT_MOC_LITERAL(4, 41, 12), // "extraSignal3"
+QT_MOC_LITERAL(5, 54, 12), // "extraSignal4"
+QT_MOC_LITERAL(6, 67, 12), // "extraSignal5"
+QT_MOC_LITERAL(7, 80, 12), // "extraSignal6"
+QT_MOC_LITERAL(8, 93, 12), // "extraSignal7"
+QT_MOC_LITERAL(9, 106, 12), // "extraSignal8"
+QT_MOC_LITERAL(10, 119, 12), // "extraSignal9"
+QT_MOC_LITERAL(11, 132, 13), // "extraSignal10"
+QT_MOC_LITERAL(12, 146, 13), // "extraSignal12"
+QT_MOC_LITERAL(13, 160, 13), // "extraSignal13"
+QT_MOC_LITERAL(14, 174, 13), // "extraSignal14"
+QT_MOC_LITERAL(15, 188, 13), // "extraSignal15"
+QT_MOC_LITERAL(16, 202, 13), // "extraSignal16"
+QT_MOC_LITERAL(17, 216, 13), // "extraSignal17"
+QT_MOC_LITERAL(18, 230, 13), // "extraSignal18"
+QT_MOC_LITERAL(19, 244, 13), // "extraSignal19"
+QT_MOC_LITERAL(20, 258, 13), // "extraSignal20"
+QT_MOC_LITERAL(21, 272, 13), // "extraSignal21"
+QT_MOC_LITERAL(22, 286, 13), // "extraSignal22"
+QT_MOC_LITERAL(23, 300, 13), // "extraSignal23"
+QT_MOC_LITERAL(24, 314, 13), // "extraSignal24"
+QT_MOC_LITERAL(25, 328, 13), // "extraSignal25"
+QT_MOC_LITERAL(26, 342, 13), // "extraSignal26"
+QT_MOC_LITERAL(27, 356, 13), // "extraSignal27"
+QT_MOC_LITERAL(28, 370, 13), // "extraSignal28"
+QT_MOC_LITERAL(29, 384, 13), // "extraSignal29"
+QT_MOC_LITERAL(30, 398, 13), // "extraSignal30"
+QT_MOC_LITERAL(31, 412, 13), // "extraSignal31"
+QT_MOC_LITERAL(32, 426, 13), // "extraSignal32"
+QT_MOC_LITERAL(33, 440, 13), // "extraSignal33"
+QT_MOC_LITERAL(34, 454, 13), // "extraSignal34"
+QT_MOC_LITERAL(35, 468, 13), // "extraSignal35"
+QT_MOC_LITERAL(36, 482, 13), // "extraSignal36"
+QT_MOC_LITERAL(37, 496, 13), // "extraSignal37"
+QT_MOC_LITERAL(38, 510, 13), // "extraSignal38"
+QT_MOC_LITERAL(39, 524, 13), // "extraSignal39"
+QT_MOC_LITERAL(40, 538, 13), // "extraSignal40"
+QT_MOC_LITERAL(41, 552, 13), // "extraSignal41"
+QT_MOC_LITERAL(42, 566, 13), // "extraSignal42"
+QT_MOC_LITERAL(43, 580, 13), // "extraSignal43"
+QT_MOC_LITERAL(44, 594, 13), // "extraSignal44"
+QT_MOC_LITERAL(45, 608, 13), // "extraSignal45"
+QT_MOC_LITERAL(46, 622, 13), // "extraSignal46"
+QT_MOC_LITERAL(47, 636, 13), // "extraSignal47"
+QT_MOC_LITERAL(48, 650, 13), // "extraSignal48"
+QT_MOC_LITERAL(49, 664, 13), // "extraSignal49"
+QT_MOC_LITERAL(50, 678, 13), // "extraSignal50"
+QT_MOC_LITERAL(51, 692, 13), // "extraSignal51"
+QT_MOC_LITERAL(52, 706, 13), // "extraSignal52"
+QT_MOC_LITERAL(53, 720, 13), // "extraSignal53"
+QT_MOC_LITERAL(54, 734, 13), // "extraSignal54"
+QT_MOC_LITERAL(55, 748, 13), // "extraSignal55"
+QT_MOC_LITERAL(56, 762, 13), // "extraSignal56"
+QT_MOC_LITERAL(57, 776, 13), // "extraSignal57"
+QT_MOC_LITERAL(58, 790, 13), // "extraSignal58"
+QT_MOC_LITERAL(59, 804, 13), // "extraSignal59"
+QT_MOC_LITERAL(60, 818, 13), // "extraSignal60"
+QT_MOC_LITERAL(61, 832, 13), // "extraSignal61"
+QT_MOC_LITERAL(62, 846, 13), // "extraSignal62"
+QT_MOC_LITERAL(63, 860, 13), // "extraSignal63"
+QT_MOC_LITERAL(64, 874, 13), // "extraSignal64"
+QT_MOC_LITERAL(65, 888, 13), // "extraSignal65"
+QT_MOC_LITERAL(66, 902, 13), // "extraSignal66"
+QT_MOC_LITERAL(67, 916, 13), // "extraSignal67"
+QT_MOC_LITERAL(68, 930, 13), // "extraSignal68"
+QT_MOC_LITERAL(69, 944, 13), // "extraSignal69"
+QT_MOC_LITERAL(70, 958, 13) // "extraSignal70"
+
+    },
+    "LotsOfSignals\0extraSignal1\0\0extraSignal2\0"
+    "extraSignal3\0extraSignal4\0extraSignal5\0"
+    "extraSignal6\0extraSignal7\0extraSignal8\0"
+    "extraSignal9\0extraSignal10\0extraSignal12\0"
+    "extraSignal13\0extraSignal14\0extraSignal15\0"
+    "extraSignal16\0extraSignal17\0extraSignal18\0"
+    "extraSignal19\0extraSignal20\0extraSignal21\0"
+    "extraSignal22\0extraSignal23\0extraSignal24\0"
+    "extraSignal25\0extraSignal26\0extraSignal27\0"
+    "extraSignal28\0extraSignal29\0extraSignal30\0"
+    "extraSignal31\0extraSignal32\0extraSignal33\0"
+    "extraSignal34\0extraSignal35\0extraSignal36\0"
+    "extraSignal37\0extraSignal38\0extraSignal39\0"
+    "extraSignal40\0extraSignal41\0extraSignal42\0"
+    "extraSignal43\0extraSignal44\0extraSignal45\0"
+    "extraSignal46\0extraSignal47\0extraSignal48\0"
+    "extraSignal49\0extraSignal50\0extraSignal51\0"
+    "extraSignal52\0extraSignal53\0extraSignal54\0"
+    "extraSignal55\0extraSignal56\0extraSignal57\0"
+    "extraSignal58\0extraSignal59\0extraSignal60\0"
+    "extraSignal61\0extraSignal62\0extraSignal63\0"
+    "extraSignal64\0extraSignal65\0extraSignal66\0"
+    "extraSignal67\0extraSignal68\0extraSignal69\0"
+    "extraSignal70"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_LotsOfSignals[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      69,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+      69,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,  359,    2, 0x06 /* Public */,
+       3,    0,  360,    2, 0x06 /* Public */,
+       4,    0,  361,    2, 0x06 /* Public */,
+       5,    0,  362,    2, 0x06 /* Public */,
+       6,    0,  363,    2, 0x06 /* Public */,
+       7,    0,  364,    2, 0x06 /* Public */,
+       8,    0,  365,    2, 0x06 /* Public */,
+       9,    0,  366,    2, 0x06 /* Public */,
+      10,    0,  367,    2, 0x06 /* Public */,
+      11,    0,  368,    2, 0x06 /* Public */,
+      12,    0,  369,    2, 0x06 /* Public */,
+      13,    0,  370,    2, 0x06 /* Public */,
+      14,    0,  371,    2, 0x06 /* Public */,
+      15,    0,  372,    2, 0x06 /* Public */,
+      16,    0,  373,    2, 0x06 /* Public */,
+      17,    0,  374,    2, 0x06 /* Public */,
+      18,    0,  375,    2, 0x06 /* Public */,
+      19,    0,  376,    2, 0x06 /* Public */,
+      20,    0,  377,    2, 0x06 /* Public */,
+      21,    0,  378,    2, 0x06 /* Public */,
+      22,    0,  379,    2, 0x06 /* Public */,
+      23,    0,  380,    2, 0x06 /* Public */,
+      24,    0,  381,    2, 0x06 /* Public */,
+      25,    0,  382,    2, 0x06 /* Public */,
+      26,    0,  383,    2, 0x06 /* Public */,
+      27,    0,  384,    2, 0x06 /* Public */,
+      28,    0,  385,    2, 0x06 /* Public */,
+      29,    0,  386,    2, 0x06 /* Public */,
+      30,    0,  387,    2, 0x06 /* Public */,
+      31,    0,  388,    2, 0x06 /* Public */,
+      32,    0,  389,    2, 0x06 /* Public */,
+      33,    0,  390,    2, 0x06 /* Public */,
+      34,    0,  391,    2, 0x06 /* Public */,
+      35,    0,  392,    2, 0x06 /* Public */,
+      36,    0,  393,    2, 0x06 /* Public */,
+      37,    0,  394,    2, 0x06 /* Public */,
+      38,    0,  395,    2, 0x06 /* Public */,
+      39,    0,  396,    2, 0x06 /* Public */,
+      40,    0,  397,    2, 0x06 /* Public */,
+      41,    0,  398,    2, 0x06 /* Public */,
+      42,    0,  399,    2, 0x06 /* Public */,
+      43,    0,  400,    2, 0x06 /* Public */,
+      44,    0,  401,    2, 0x06 /* Public */,
+      45,    0,  402,    2, 0x06 /* Public */,
+      46,    0,  403,    2, 0x06 /* Public */,
+      47,    0,  404,    2, 0x06 /* Public */,
+      48,    0,  405,    2, 0x06 /* Public */,
+      49,    0,  406,    2, 0x06 /* Public */,
+      50,    0,  407,    2, 0x06 /* Public */,
+      51,    0,  408,    2, 0x06 /* Public */,
+      52,    0,  409,    2, 0x06 /* Public */,
+      53,    0,  410,    2, 0x06 /* Public */,
+      54,    0,  411,    2, 0x06 /* Public */,
+      55,    0,  412,    2, 0x06 /* Public */,
+      56,    0,  413,    2, 0x06 /* Public */,
+      57,    0,  414,    2, 0x06 /* Public */,
+      58,    0,  415,    2, 0x06 /* Public */,
+      59,    0,  416,    2, 0x06 /* Public */,
+      60,    0,  417,    2, 0x06 /* Public */,
+      61,    0,  418,    2, 0x06 /* Public */,
+      62,    0,  419,    2, 0x06 /* Public */,
+      63,    0,  420,    2, 0x06 /* Public */,
+      64,    0,  421,    2, 0x06 /* Public */,
+      65,    0,  422,    2, 0x06 /* Public */,
+      66,    0,  423,    2, 0x06 /* Public */,
+      67,    0,  424,    2, 0x06 /* Public */,
+      68,    0,  425,    2, 0x06 /* Public */,
+      69,    0,  426,    2, 0x06 /* Public */,
+      70,    0,  427,    2, 0x06 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void LotsOfSignals::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        LotsOfSignals *_t = static_cast<LotsOfSignals *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->extraSignal1(); break;
+        case 1: _t->extraSignal2(); break;
+        case 2: _t->extraSignal3(); break;
+        case 3: _t->extraSignal4(); break;
+        case 4: _t->extraSignal5(); break;
+        case 5: _t->extraSignal6(); break;
+        case 6: _t->extraSignal7(); break;
+        case 7: _t->extraSignal8(); break;
+        case 8: _t->extraSignal9(); break;
+        case 9: _t->extraSignal10(); break;
+        case 10: _t->extraSignal12(); break;
+        case 11: _t->extraSignal13(); break;
+        case 12: _t->extraSignal14(); break;
+        case 13: _t->extraSignal15(); break;
+        case 14: _t->extraSignal16(); break;
+        case 15: _t->extraSignal17(); break;
+        case 16: _t->extraSignal18(); break;
+        case 17: _t->extraSignal19(); break;
+        case 18: _t->extraSignal20(); break;
+        case 19: _t->extraSignal21(); break;
+        case 20: _t->extraSignal22(); break;
+        case 21: _t->extraSignal23(); break;
+        case 22: _t->extraSignal24(); break;
+        case 23: _t->extraSignal25(); break;
+        case 24: _t->extraSignal26(); break;
+        case 25: _t->extraSignal27(); break;
+        case 26: _t->extraSignal28(); break;
+        case 27: _t->extraSignal29(); break;
+        case 28: _t->extraSignal30(); break;
+        case 29: _t->extraSignal31(); break;
+        case 30: _t->extraSignal32(); break;
+        case 31: _t->extraSignal33(); break;
+        case 32: _t->extraSignal34(); break;
+        case 33: _t->extraSignal35(); break;
+        case 34: _t->extraSignal36(); break;
+        case 35: _t->extraSignal37(); break;
+        case 36: _t->extraSignal38(); break;
+        case 37: _t->extraSignal39(); break;
+        case 38: _t->extraSignal40(); break;
+        case 39: _t->extraSignal41(); break;
+        case 40: _t->extraSignal42(); break;
+        case 41: _t->extraSignal43(); break;
+        case 42: _t->extraSignal44(); break;
+        case 43: _t->extraSignal45(); break;
+        case 44: _t->extraSignal46(); break;
+        case 45: _t->extraSignal47(); break;
+        case 46: _t->extraSignal48(); break;
+        case 47: _t->extraSignal49(); break;
+        case 48: _t->extraSignal50(); break;
+        case 49: _t->extraSignal51(); break;
+        case 50: _t->extraSignal52(); break;
+        case 51: _t->extraSignal53(); break;
+        case 52: _t->extraSignal54(); break;
+        case 53: _t->extraSignal55(); break;
+        case 54: _t->extraSignal56(); break;
+        case 55: _t->extraSignal57(); break;
+        case 56: _t->extraSignal58(); break;
+        case 57: _t->extraSignal59(); break;
+        case 58: _t->extraSignal60(); break;
+        case 59: _t->extraSignal61(); break;
+        case 60: _t->extraSignal62(); break;
+        case 61: _t->extraSignal63(); break;
+        case 62: _t->extraSignal64(); break;
+        case 63: _t->extraSignal65(); break;
+        case 64: _t->extraSignal66(); break;
+        case 65: _t->extraSignal67(); break;
+        case 66: _t->extraSignal68(); break;
+        case 67: _t->extraSignal69(); break;
+        case 68: _t->extraSignal70(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal1)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal2)) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal3)) {
+                *result = 2;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal4)) {
+                *result = 3;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal5)) {
+                *result = 4;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal6)) {
+                *result = 5;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal7)) {
+                *result = 6;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal8)) {
+                *result = 7;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal9)) {
+                *result = 8;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal10)) {
+                *result = 9;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal12)) {
+                *result = 10;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal13)) {
+                *result = 11;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal14)) {
+                *result = 12;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal15)) {
+                *result = 13;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal16)) {
+                *result = 14;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal17)) {
+                *result = 15;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal18)) {
+                *result = 16;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal19)) {
+                *result = 17;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal20)) {
+                *result = 18;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal21)) {
+                *result = 19;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal22)) {
+                *result = 20;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal23)) {
+                *result = 21;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal24)) {
+                *result = 22;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal25)) {
+                *result = 23;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal26)) {
+                *result = 24;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal27)) {
+                *result = 25;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal28)) {
+                *result = 26;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal29)) {
+                *result = 27;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal30)) {
+                *result = 28;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal31)) {
+                *result = 29;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal32)) {
+                *result = 30;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal33)) {
+                *result = 31;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal34)) {
+                *result = 32;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal35)) {
+                *result = 33;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal36)) {
+                *result = 34;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal37)) {
+                *result = 35;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal38)) {
+                *result = 36;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal39)) {
+                *result = 37;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal40)) {
+                *result = 38;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal41)) {
+                *result = 39;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal42)) {
+                *result = 40;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal43)) {
+                *result = 41;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal44)) {
+                *result = 42;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal45)) {
+                *result = 43;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal46)) {
+                *result = 44;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal47)) {
+                *result = 45;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal48)) {
+                *result = 46;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal49)) {
+                *result = 47;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal50)) {
+                *result = 48;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal51)) {
+                *result = 49;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal52)) {
+                *result = 50;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal53)) {
+                *result = 51;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal54)) {
+                *result = 52;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal55)) {
+                *result = 53;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal56)) {
+                *result = 54;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal57)) {
+                *result = 55;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal58)) {
+                *result = 56;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal59)) {
+                *result = 57;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal60)) {
+                *result = 58;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal61)) {
+                *result = 59;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal62)) {
+                *result = 60;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal63)) {
+                *result = 61;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal64)) {
+                *result = 62;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal65)) {
+                *result = 63;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal66)) {
+                *result = 64;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal67)) {
+                *result = 65;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal68)) {
+                *result = 66;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal69)) {
+                *result = 67;
+                return;
+            }
+        }
+        {
+            typedef void (LotsOfSignals::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&LotsOfSignals::extraSignal70)) {
+                *result = 68;
+                return;
+            }
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject LotsOfSignals::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_LotsOfSignals.data,
+      qt_meta_data_LotsOfSignals,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *LotsOfSignals::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *LotsOfSignals::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_LotsOfSignals.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int LotsOfSignals::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 69)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 69;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 69)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 69;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void LotsOfSignals::extraSignal1()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+
+// SIGNAL 1
+void LotsOfSignals::extraSignal2()
+{
+    QMetaObject::activate(this, &staticMetaObject, 1, nullptr);
+}
+
+// SIGNAL 2
+void LotsOfSignals::extraSignal3()
+{
+    QMetaObject::activate(this, &staticMetaObject, 2, nullptr);
+}
+
+// SIGNAL 3
+void LotsOfSignals::extraSignal4()
+{
+    QMetaObject::activate(this, &staticMetaObject, 3, nullptr);
+}
+
+// SIGNAL 4
+void LotsOfSignals::extraSignal5()
+{
+    QMetaObject::activate(this, &staticMetaObject, 4, nullptr);
+}
+
+// SIGNAL 5
+void LotsOfSignals::extraSignal6()
+{
+    QMetaObject::activate(this, &staticMetaObject, 5, nullptr);
+}
+
+// SIGNAL 6
+void LotsOfSignals::extraSignal7()
+{
+    QMetaObject::activate(this, &staticMetaObject, 6, nullptr);
+}
+
+// SIGNAL 7
+void LotsOfSignals::extraSignal8()
+{
+    QMetaObject::activate(this, &staticMetaObject, 7, nullptr);
+}
+
+// SIGNAL 8
+void LotsOfSignals::extraSignal9()
+{
+    QMetaObject::activate(this, &staticMetaObject, 8, nullptr);
+}
+
+// SIGNAL 9
+void LotsOfSignals::extraSignal10()
+{
+    QMetaObject::activate(this, &staticMetaObject, 9, nullptr);
+}
+
+// SIGNAL 10
+void LotsOfSignals::extraSignal12()
+{
+    QMetaObject::activate(this, &staticMetaObject, 10, nullptr);
+}
+
+// SIGNAL 11
+void LotsOfSignals::extraSignal13()
+{
+    QMetaObject::activate(this, &staticMetaObject, 11, nullptr);
+}
+
+// SIGNAL 12
+void LotsOfSignals::extraSignal14()
+{
+    QMetaObject::activate(this, &staticMetaObject, 12, nullptr);
+}
+
+// SIGNAL 13
+void LotsOfSignals::extraSignal15()
+{
+    QMetaObject::activate(this, &staticMetaObject, 13, nullptr);
+}
+
+// SIGNAL 14
+void LotsOfSignals::extraSignal16()
+{
+    QMetaObject::activate(this, &staticMetaObject, 14, nullptr);
+}
+
+// SIGNAL 15
+void LotsOfSignals::extraSignal17()
+{
+    QMetaObject::activate(this, &staticMetaObject, 15, nullptr);
+}
+
+// SIGNAL 16
+void LotsOfSignals::extraSignal18()
+{
+    QMetaObject::activate(this, &staticMetaObject, 16, nullptr);
+}
+
+// SIGNAL 17
+void LotsOfSignals::extraSignal19()
+{
+    QMetaObject::activate(this, &staticMetaObject, 17, nullptr);
+}
+
+// SIGNAL 18
+void LotsOfSignals::extraSignal20()
+{
+    QMetaObject::activate(this, &staticMetaObject, 18, nullptr);
+}
+
+// SIGNAL 19
+void LotsOfSignals::extraSignal21()
+{
+    QMetaObject::activate(this, &staticMetaObject, 19, nullptr);
+}
+
+// SIGNAL 20
+void LotsOfSignals::extraSignal22()
+{
+    QMetaObject::activate(this, &staticMetaObject, 20, nullptr);
+}
+
+// SIGNAL 21
+void LotsOfSignals::extraSignal23()
+{
+    QMetaObject::activate(this, &staticMetaObject, 21, nullptr);
+}
+
+// SIGNAL 22
+void LotsOfSignals::extraSignal24()
+{
+    QMetaObject::activate(this, &staticMetaObject, 22, nullptr);
+}
+
+// SIGNAL 23
+void LotsOfSignals::extraSignal25()
+{
+    QMetaObject::activate(this, &staticMetaObject, 23, nullptr);
+}
+
+// SIGNAL 24
+void LotsOfSignals::extraSignal26()
+{
+    QMetaObject::activate(this, &staticMetaObject, 24, nullptr);
+}
+
+// SIGNAL 25
+void LotsOfSignals::extraSignal27()
+{
+    QMetaObject::activate(this, &staticMetaObject, 25, nullptr);
+}
+
+// SIGNAL 26
+void LotsOfSignals::extraSignal28()
+{
+    QMetaObject::activate(this, &staticMetaObject, 26, nullptr);
+}
+
+// SIGNAL 27
+void LotsOfSignals::extraSignal29()
+{
+    QMetaObject::activate(this, &staticMetaObject, 27, nullptr);
+}
+
+// SIGNAL 28
+void LotsOfSignals::extraSignal30()
+{
+    QMetaObject::activate(this, &staticMetaObject, 28, nullptr);
+}
+
+// SIGNAL 29
+void LotsOfSignals::extraSignal31()
+{
+    QMetaObject::activate(this, &staticMetaObject, 29, nullptr);
+}
+
+// SIGNAL 30
+void LotsOfSignals::extraSignal32()
+{
+    QMetaObject::activate(this, &staticMetaObject, 30, nullptr);
+}
+
+// SIGNAL 31
+void LotsOfSignals::extraSignal33()
+{
+    QMetaObject::activate(this, &staticMetaObject, 31, nullptr);
+}
+
+// SIGNAL 32
+void LotsOfSignals::extraSignal34()
+{
+    QMetaObject::activate(this, &staticMetaObject, 32, nullptr);
+}
+
+// SIGNAL 33
+void LotsOfSignals::extraSignal35()
+{
+    QMetaObject::activate(this, &staticMetaObject, 33, nullptr);
+}
+
+// SIGNAL 34
+void LotsOfSignals::extraSignal36()
+{
+    QMetaObject::activate(this, &staticMetaObject, 34, nullptr);
+}
+
+// SIGNAL 35
+void LotsOfSignals::extraSignal37()
+{
+    QMetaObject::activate(this, &staticMetaObject, 35, nullptr);
+}
+
+// SIGNAL 36
+void LotsOfSignals::extraSignal38()
+{
+    QMetaObject::activate(this, &staticMetaObject, 36, nullptr);
+}
+
+// SIGNAL 37
+void LotsOfSignals::extraSignal39()
+{
+    QMetaObject::activate(this, &staticMetaObject, 37, nullptr);
+}
+
+// SIGNAL 38
+void LotsOfSignals::extraSignal40()
+{
+    QMetaObject::activate(this, &staticMetaObject, 38, nullptr);
+}
+
+// SIGNAL 39
+void LotsOfSignals::extraSignal41()
+{
+    QMetaObject::activate(this, &staticMetaObject, 39, nullptr);
+}
+
+// SIGNAL 40
+void LotsOfSignals::extraSignal42()
+{
+    QMetaObject::activate(this, &staticMetaObject, 40, nullptr);
+}
+
+// SIGNAL 41
+void LotsOfSignals::extraSignal43()
+{
+    QMetaObject::activate(this, &staticMetaObject, 41, nullptr);
+}
+
+// SIGNAL 42
+void LotsOfSignals::extraSignal44()
+{
+    QMetaObject::activate(this, &staticMetaObject, 42, nullptr);
+}
+
+// SIGNAL 43
+void LotsOfSignals::extraSignal45()
+{
+    QMetaObject::activate(this, &staticMetaObject, 43, nullptr);
+}
+
+// SIGNAL 44
+void LotsOfSignals::extraSignal46()
+{
+    QMetaObject::activate(this, &staticMetaObject, 44, nullptr);
+}
+
+// SIGNAL 45
+void LotsOfSignals::extraSignal47()
+{
+    QMetaObject::activate(this, &staticMetaObject, 45, nullptr);
+}
+
+// SIGNAL 46
+void LotsOfSignals::extraSignal48()
+{
+    QMetaObject::activate(this, &staticMetaObject, 46, nullptr);
+}
+
+// SIGNAL 47
+void LotsOfSignals::extraSignal49()
+{
+    QMetaObject::activate(this, &staticMetaObject, 47, nullptr);
+}
+
+// SIGNAL 48
+void LotsOfSignals::extraSignal50()
+{
+    QMetaObject::activate(this, &staticMetaObject, 48, nullptr);
+}
+
+// SIGNAL 49
+void LotsOfSignals::extraSignal51()
+{
+    QMetaObject::activate(this, &staticMetaObject, 49, nullptr);
+}
+
+// SIGNAL 50
+void LotsOfSignals::extraSignal52()
+{
+    QMetaObject::activate(this, &staticMetaObject, 50, nullptr);
+}
+
+// SIGNAL 51
+void LotsOfSignals::extraSignal53()
+{
+    QMetaObject::activate(this, &staticMetaObject, 51, nullptr);
+}
+
+// SIGNAL 52
+void LotsOfSignals::extraSignal54()
+{
+    QMetaObject::activate(this, &staticMetaObject, 52, nullptr);
+}
+
+// SIGNAL 53
+void LotsOfSignals::extraSignal55()
+{
+    QMetaObject::activate(this, &staticMetaObject, 53, nullptr);
+}
+
+// SIGNAL 54
+void LotsOfSignals::extraSignal56()
+{
+    QMetaObject::activate(this, &staticMetaObject, 54, nullptr);
+}
+
+// SIGNAL 55
+void LotsOfSignals::extraSignal57()
+{
+    QMetaObject::activate(this, &staticMetaObject, 55, nullptr);
+}
+
+// SIGNAL 56
+void LotsOfSignals::extraSignal58()
+{
+    QMetaObject::activate(this, &staticMetaObject, 56, nullptr);
+}
+
+// SIGNAL 57
+void LotsOfSignals::extraSignal59()
+{
+    QMetaObject::activate(this, &staticMetaObject, 57, nullptr);
+}
+
+// SIGNAL 58
+void LotsOfSignals::extraSignal60()
+{
+    QMetaObject::activate(this, &staticMetaObject, 58, nullptr);
+}
+
+// SIGNAL 59
+void LotsOfSignals::extraSignal61()
+{
+    QMetaObject::activate(this, &staticMetaObject, 59, nullptr);
+}
+
+// SIGNAL 60
+void LotsOfSignals::extraSignal62()
+{
+    QMetaObject::activate(this, &staticMetaObject, 60, nullptr);
+}
+
+// SIGNAL 61
+void LotsOfSignals::extraSignal63()
+{
+    QMetaObject::activate(this, &staticMetaObject, 61, nullptr);
+}
+
+// SIGNAL 62
+void LotsOfSignals::extraSignal64()
+{
+    QMetaObject::activate(this, &staticMetaObject, 62, nullptr);
+}
+
+// SIGNAL 63
+void LotsOfSignals::extraSignal65()
+{
+    QMetaObject::activate(this, &staticMetaObject, 63, nullptr);
+}
+
+// SIGNAL 64
+void LotsOfSignals::extraSignal66()
+{
+    QMetaObject::activate(this, &staticMetaObject, 64, nullptr);
+}
+
+// SIGNAL 65
+void LotsOfSignals::extraSignal67()
+{
+    QMetaObject::activate(this, &staticMetaObject, 65, nullptr);
+}
+
+// SIGNAL 66
+void LotsOfSignals::extraSignal68()
+{
+    QMetaObject::activate(this, &staticMetaObject, 66, nullptr);
+}
+
+// SIGNAL 67
+void LotsOfSignals::extraSignal69()
+{
+    QMetaObject::activate(this, &staticMetaObject, 67, nullptr);
+}
+
+// SIGNAL 68
+void LotsOfSignals::extraSignal70()
+{
+    QMetaObject::activate(this, &staticMetaObject, 68, nullptr);
+}
+struct qt_meta_stringdata_tst_qmetaobject_t {
+    QByteArrayData data[14];
+    char stringdata0[207];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_qmetaobject_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_qmetaobject_t qt_meta_stringdata_tst_qmetaobject = {
+    {
+QT_MOC_LITERAL(0, 0, 15), // "tst_qmetaobject"
+QT_MOC_LITERAL(1, 16, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 29, 0), // ""
+QT_MOC_LITERAL(3, 30, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(4, 46, 20), // "indexOfProperty_data"
+QT_MOC_LITERAL(5, 67, 15), // "indexOfProperty"
+QT_MOC_LITERAL(6, 83, 18), // "indexOfMethod_data"
+QT_MOC_LITERAL(7, 102, 13), // "indexOfMethod"
+QT_MOC_LITERAL(8, 116, 18), // "indexOfSignal_data"
+QT_MOC_LITERAL(9, 135, 13), // "indexOfSignal"
+QT_MOC_LITERAL(10, 149, 16), // "indexOfSlot_data"
+QT_MOC_LITERAL(11, 166, 11), // "indexOfSlot"
+QT_MOC_LITERAL(12, 178, 16), // "unconnected_data"
+QT_MOC_LITERAL(13, 195, 11) // "unconnected"
+
+    },
+    "tst_qmetaobject\0initTestCase\0\0"
+    "cleanupTestCase\0indexOfProperty_data\0"
+    "indexOfProperty\0indexOfMethod_data\0"
+    "indexOfMethod\0indexOfSignal_data\0"
+    "indexOfSignal\0indexOfSlot_data\0"
+    "indexOfSlot\0unconnected_data\0unconnected"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_qmetaobject[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      12,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,   74,    2, 0x08 /* Private */,
+       3,    0,   75,    2, 0x08 /* Private */,
+       4,    0,   76,    2, 0x08 /* Private */,
+       5,    0,   77,    2, 0x08 /* Private */,
+       6,    0,   78,    2, 0x08 /* Private */,
+       7,    0,   79,    2, 0x08 /* Private */,
+       8,    0,   80,    2, 0x08 /* Private */,
+       9,    0,   81,    2, 0x08 /* Private */,
+      10,    0,   82,    2, 0x08 /* Private */,
+      11,    0,   83,    2, 0x08 /* Private */,
+      12,    0,   84,    2, 0x08 /* Private */,
+      13,    0,   85,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_qmetaobject::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_qmetaobject *_t = static_cast<tst_qmetaobject *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->cleanupTestCase(); break;
+        case 2: _t->indexOfProperty_data(); break;
+        case 3: _t->indexOfProperty(); break;
+        case 4: _t->indexOfMethod_data(); break;
+        case 5: _t->indexOfMethod(); break;
+        case 6: _t->indexOfSignal_data(); break;
+        case 7: _t->indexOfSignal(); break;
+        case 8: _t->indexOfSlot_data(); break;
+        case 9: _t->indexOfSlot(); break;
+        case 10: _t->unconnected_data(); break;
+        case 11: _t->unconnected(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_qmetaobject::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_qmetaobject.data,
+      qt_meta_data_tst_qmetaobject,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_qmetaobject::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_qmetaobject::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_qmetaobject.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_qmetaobject::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 12)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 12;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 12)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 12;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

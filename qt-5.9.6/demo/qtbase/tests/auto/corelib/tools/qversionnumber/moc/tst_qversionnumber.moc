@@ -1,0 +1,289 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qversionnumber.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qversionnumber.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QVersionNumber_t {
+    QByteArrayData data[43];
+    char stringdata0[654];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QVersionNumber_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QVersionNumber_t qt_meta_stringdata_tst_QVersionNumber = {
+    {
+QT_MOC_LITERAL(0, 0, 18), // "tst_QVersionNumber"
+QT_MOC_LITERAL(1, 19, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 32, 0), // ""
+QT_MOC_LITERAL(3, 33, 18), // "constructorDefault"
+QT_MOC_LITERAL(4, 52, 25), // "constructorVersioned_data"
+QT_MOC_LITERAL(5, 78, 20), // "constructorVersioned"
+QT_MOC_LITERAL(6, 99, 19), // "constructorExplicit"
+QT_MOC_LITERAL(7, 119, 20), // "constructorCopy_data"
+QT_MOC_LITERAL(8, 140, 15), // "constructorCopy"
+QT_MOC_LITERAL(9, 156, 19), // "compareGreater_data"
+QT_MOC_LITERAL(10, 176, 14), // "compareGreater"
+QT_MOC_LITERAL(11, 191, 24), // "compareGreaterEqual_data"
+QT_MOC_LITERAL(12, 216, 19), // "compareGreaterEqual"
+QT_MOC_LITERAL(13, 236, 16), // "compareLess_data"
+QT_MOC_LITERAL(14, 253, 11), // "compareLess"
+QT_MOC_LITERAL(15, 265, 21), // "compareLessEqual_data"
+QT_MOC_LITERAL(16, 287, 16), // "compareLessEqual"
+QT_MOC_LITERAL(17, 304, 17), // "compareEqual_data"
+QT_MOC_LITERAL(18, 322, 12), // "compareEqual"
+QT_MOC_LITERAL(19, 335, 20), // "compareNotEqual_data"
+QT_MOC_LITERAL(20, 356, 15), // "compareNotEqual"
+QT_MOC_LITERAL(21, 372, 12), // "compare_data"
+QT_MOC_LITERAL(22, 385, 7), // "compare"
+QT_MOC_LITERAL(23, 393, 15), // "isPrefixOf_data"
+QT_MOC_LITERAL(24, 409, 10), // "isPrefixOf"
+QT_MOC_LITERAL(25, 420, 17), // "commonPrefix_data"
+QT_MOC_LITERAL(26, 438, 12), // "commonPrefix"
+QT_MOC_LITERAL(27, 451, 15), // "normalized_data"
+QT_MOC_LITERAL(28, 467, 10), // "normalized"
+QT_MOC_LITERAL(29, 478, 17), // "isNormalized_data"
+QT_MOC_LITERAL(30, 496, 12), // "isNormalized"
+QT_MOC_LITERAL(31, 509, 15), // "assignment_data"
+QT_MOC_LITERAL(32, 525, 10), // "assignment"
+QT_MOC_LITERAL(33, 536, 15), // "fromString_data"
+QT_MOC_LITERAL(34, 552, 10), // "fromString"
+QT_MOC_LITERAL(35, 563, 13), // "toString_data"
+QT_MOC_LITERAL(36, 577, 8), // "toString"
+QT_MOC_LITERAL(37, 586, 11), // "isNull_data"
+QT_MOC_LITERAL(38, 598, 6), // "isNull"
+QT_MOC_LITERAL(39, 605, 14), // "serialize_data"
+QT_MOC_LITERAL(40, 620, 9), // "serialize"
+QT_MOC_LITERAL(41, 630, 13), // "moveSemantics"
+QT_MOC_LITERAL(42, 644, 9) // "qtVersion"
+
+    },
+    "tst_QVersionNumber\0initTestCase\0\0"
+    "constructorDefault\0constructorVersioned_data\0"
+    "constructorVersioned\0constructorExplicit\0"
+    "constructorCopy_data\0constructorCopy\0"
+    "compareGreater_data\0compareGreater\0"
+    "compareGreaterEqual_data\0compareGreaterEqual\0"
+    "compareLess_data\0compareLess\0"
+    "compareLessEqual_data\0compareLessEqual\0"
+    "compareEqual_data\0compareEqual\0"
+    "compareNotEqual_data\0compareNotEqual\0"
+    "compare_data\0compare\0isPrefixOf_data\0"
+    "isPrefixOf\0commonPrefix_data\0commonPrefix\0"
+    "normalized_data\0normalized\0isNormalized_data\0"
+    "isNormalized\0assignment_data\0assignment\0"
+    "fromString_data\0fromString\0toString_data\0"
+    "toString\0isNull_data\0isNull\0serialize_data\0"
+    "serialize\0moveSemantics\0qtVersion"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QVersionNumber[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      41,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  219,    2, 0x08 /* Private */,
+       3,    0,  220,    2, 0x08 /* Private */,
+       4,    0,  221,    2, 0x08 /* Private */,
+       5,    0,  222,    2, 0x08 /* Private */,
+       6,    0,  223,    2, 0x08 /* Private */,
+       7,    0,  224,    2, 0x08 /* Private */,
+       8,    0,  225,    2, 0x08 /* Private */,
+       9,    0,  226,    2, 0x08 /* Private */,
+      10,    0,  227,    2, 0x08 /* Private */,
+      11,    0,  228,    2, 0x08 /* Private */,
+      12,    0,  229,    2, 0x08 /* Private */,
+      13,    0,  230,    2, 0x08 /* Private */,
+      14,    0,  231,    2, 0x08 /* Private */,
+      15,    0,  232,    2, 0x08 /* Private */,
+      16,    0,  233,    2, 0x08 /* Private */,
+      17,    0,  234,    2, 0x08 /* Private */,
+      18,    0,  235,    2, 0x08 /* Private */,
+      19,    0,  236,    2, 0x08 /* Private */,
+      20,    0,  237,    2, 0x08 /* Private */,
+      21,    0,  238,    2, 0x08 /* Private */,
+      22,    0,  239,    2, 0x08 /* Private */,
+      23,    0,  240,    2, 0x08 /* Private */,
+      24,    0,  241,    2, 0x08 /* Private */,
+      25,    0,  242,    2, 0x08 /* Private */,
+      26,    0,  243,    2, 0x08 /* Private */,
+      27,    0,  244,    2, 0x08 /* Private */,
+      28,    0,  245,    2, 0x08 /* Private */,
+      29,    0,  246,    2, 0x08 /* Private */,
+      30,    0,  247,    2, 0x08 /* Private */,
+      31,    0,  248,    2, 0x08 /* Private */,
+      32,    0,  249,    2, 0x08 /* Private */,
+      33,    0,  250,    2, 0x08 /* Private */,
+      34,    0,  251,    2, 0x08 /* Private */,
+      35,    0,  252,    2, 0x08 /* Private */,
+      36,    0,  253,    2, 0x08 /* Private */,
+      37,    0,  254,    2, 0x08 /* Private */,
+      38,    0,  255,    2, 0x08 /* Private */,
+      39,    0,  256,    2, 0x08 /* Private */,
+      40,    0,  257,    2, 0x08 /* Private */,
+      41,    0,  258,    2, 0x08 /* Private */,
+      42,    0,  259,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QVersionNumber::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QVersionNumber *_t = static_cast<tst_QVersionNumber *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->constructorDefault(); break;
+        case 2: _t->constructorVersioned_data(); break;
+        case 3: _t->constructorVersioned(); break;
+        case 4: _t->constructorExplicit(); break;
+        case 5: _t->constructorCopy_data(); break;
+        case 6: _t->constructorCopy(); break;
+        case 7: _t->compareGreater_data(); break;
+        case 8: _t->compareGreater(); break;
+        case 9: _t->compareGreaterEqual_data(); break;
+        case 10: _t->compareGreaterEqual(); break;
+        case 11: _t->compareLess_data(); break;
+        case 12: _t->compareLess(); break;
+        case 13: _t->compareLessEqual_data(); break;
+        case 14: _t->compareLessEqual(); break;
+        case 15: _t->compareEqual_data(); break;
+        case 16: _t->compareEqual(); break;
+        case 17: _t->compareNotEqual_data(); break;
+        case 18: _t->compareNotEqual(); break;
+        case 19: _t->compare_data(); break;
+        case 20: _t->compare(); break;
+        case 21: _t->isPrefixOf_data(); break;
+        case 22: _t->isPrefixOf(); break;
+        case 23: _t->commonPrefix_data(); break;
+        case 24: _t->commonPrefix(); break;
+        case 25: _t->normalized_data(); break;
+        case 26: _t->normalized(); break;
+        case 27: _t->isNormalized_data(); break;
+        case 28: _t->isNormalized(); break;
+        case 29: _t->assignment_data(); break;
+        case 30: _t->assignment(); break;
+        case 31: _t->fromString_data(); break;
+        case 32: _t->fromString(); break;
+        case 33: _t->toString_data(); break;
+        case 34: _t->toString(); break;
+        case 35: _t->isNull_data(); break;
+        case 36: _t->isNull(); break;
+        case 37: _t->serialize_data(); break;
+        case 38: _t->serialize(); break;
+        case 39: _t->moveSemantics(); break;
+        case 40: _t->qtVersion(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QVersionNumber::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QVersionNumber.data,
+      qt_meta_data_tst_QVersionNumber,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QVersionNumber::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QVersionNumber::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QVersionNumber.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QVersionNumber::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 41)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 41;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 41)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 41;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

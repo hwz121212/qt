@@ -1,0 +1,1777 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qmetaobject.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#include <QtCore/QSharedPointer>
+#include <QtCore/QWeakPointer>
+#include <QtCore/QPointer>
+#include <QtCore/QList>
+#include <QtCore/QVector>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qmetaobject.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_MyNamespace__MyClass_t {
+    QByteArrayData data[15];
+    char stringdata0[158];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_MyNamespace__MyClass_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_MyNamespace__MyClass_t qt_meta_stringdata_MyNamespace__MyClass = {
+    {
+QT_MOC_LITERAL(0, 0, 20), // "MyNamespace::MyClass"
+QT_MOC_LITERAL(1, 21, 6), // "myEnum"
+QT_MOC_LITERAL(2, 28, 6), // "MyEnum"
+QT_MOC_LITERAL(3, 35, 7), // "myFlags"
+QT_MOC_LITERAL(4, 43, 7), // "MyFlags"
+QT_MOC_LITERAL(5, 51, 7), // "MyEnum1"
+QT_MOC_LITERAL(6, 59, 7), // "MyEnum2"
+QT_MOC_LITERAL(7, 67, 7), // "MyEnum3"
+QT_MOC_LITERAL(8, 75, 13), // "MyAnotherEnum"
+QT_MOC_LITERAL(9, 89, 14), // "MyAnotherEnum1"
+QT_MOC_LITERAL(10, 104, 14), // "MyAnotherEnum2"
+QT_MOC_LITERAL(11, 119, 14), // "MyAnotherEnum3"
+QT_MOC_LITERAL(12, 134, 7), // "MyFlag1"
+QT_MOC_LITERAL(13, 142, 7), // "MyFlag2"
+QT_MOC_LITERAL(14, 150, 7) // "MyFlag3"
+
+    },
+    "MyNamespace::MyClass\0myEnum\0MyEnum\0"
+    "myFlags\0MyFlags\0MyEnum1\0MyEnum2\0MyEnum3\0"
+    "MyAnotherEnum\0MyAnotherEnum1\0"
+    "MyAnotherEnum2\0MyAnotherEnum3\0MyFlag1\0"
+    "MyFlag2\0MyFlag3"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_MyNamespace__MyClass[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       2,   14, // properties
+       3,   20, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // properties: name, type, flags
+       1, 0x80000000 | 2, 0x0009510b,
+       3, 0x80000000 | 4, 0x0009510b,
+
+ // enums: name, flags, count, data
+       2, 0x0,    3,   32,
+       8, 0x0,    3,   38,
+       4, 0x1,    3,   44,
+
+ // enum data: key, value
+       5, uint(MyNamespace::MyClass::MyEnum1),
+       6, uint(MyNamespace::MyClass::MyEnum2),
+       7, uint(MyNamespace::MyClass::MyEnum3),
+       9, uint(MyNamespace::MyClass::MyAnotherEnum1),
+      10, uint(MyNamespace::MyClass::MyAnotherEnum2),
+      11, uint(MyNamespace::MyClass::MyAnotherEnum3),
+      12, uint(MyNamespace::MyClass::MyFlag1),
+      13, uint(MyNamespace::MyClass::MyFlag2),
+      14, uint(MyNamespace::MyClass::MyFlag3),
+
+       0        // eod
+};
+
+void MyNamespace::MyClass::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+
+#ifndef QT_NO_PROPERTIES
+    if (_c == QMetaObject::ReadProperty) {
+        MyClass *_t = static_cast<MyClass *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< MyEnum*>(_v) = _t->myEnum(); break;
+        case 1: *reinterpret_cast<int*>(_v) = QFlag(_t->myFlags()); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        MyClass *_t = static_cast<MyClass *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setMyEnum(*reinterpret_cast< MyEnum*>(_v)); break;
+        case 1: _t->setMyFlags(QFlag(*reinterpret_cast<int*>(_v))); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject MyNamespace::MyClass::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_MyNamespace__MyClass.data,
+      qt_meta_data_MyNamespace__MyClass,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *MyNamespace::MyClass::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *MyNamespace::MyClass::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_MyNamespace__MyClass.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int MyNamespace::MyClass::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    
+#ifndef QT_NO_PROPERTIES
+   if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 2;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+struct qt_meta_stringdata_MyNamespace__MyClass2_t {
+    QByteArrayData data[15];
+    char stringdata0[159];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_MyNamespace__MyClass2_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_MyNamespace__MyClass2_t qt_meta_stringdata_MyNamespace__MyClass2 = {
+    {
+QT_MOC_LITERAL(0, 0, 21), // "MyNamespace::MyClass2"
+QT_MOC_LITERAL(1, 22, 6), // "myEnum"
+QT_MOC_LITERAL(2, 29, 6), // "MyEnum"
+QT_MOC_LITERAL(3, 36, 7), // "myFlags"
+QT_MOC_LITERAL(4, 44, 7), // "MyFlags"
+QT_MOC_LITERAL(5, 52, 7), // "MyEnum1"
+QT_MOC_LITERAL(6, 60, 7), // "MyEnum2"
+QT_MOC_LITERAL(7, 68, 7), // "MyEnum3"
+QT_MOC_LITERAL(8, 76, 13), // "MyAnotherEnum"
+QT_MOC_LITERAL(9, 90, 14), // "MyAnotherEnum1"
+QT_MOC_LITERAL(10, 105, 14), // "MyAnotherEnum2"
+QT_MOC_LITERAL(11, 120, 14), // "MyAnotherEnum3"
+QT_MOC_LITERAL(12, 135, 7), // "MyFlag1"
+QT_MOC_LITERAL(13, 143, 7), // "MyFlag2"
+QT_MOC_LITERAL(14, 151, 7) // "MyFlag3"
+
+    },
+    "MyNamespace::MyClass2\0myEnum\0MyEnum\0"
+    "myFlags\0MyFlags\0MyEnum1\0MyEnum2\0MyEnum3\0"
+    "MyAnotherEnum\0MyAnotherEnum1\0"
+    "MyAnotherEnum2\0MyAnotherEnum3\0MyFlag1\0"
+    "MyFlag2\0MyFlag3"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_MyNamespace__MyClass2[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       2,   14, // properties
+       3,   20, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // properties: name, type, flags
+       1, 0x80000000 | 2, 0x0009510b,
+       3, 0x80000000 | 4, 0x0009510b,
+
+ // enums: name, flags, count, data
+       2, 0x0,    3,   32,
+       8, 0x0,    3,   38,
+       4, 0x1,    3,   44,
+
+ // enum data: key, value
+       5, uint(MyNamespace::MyClass2::MyEnum1),
+       6, uint(MyNamespace::MyClass2::MyEnum2),
+       7, uint(MyNamespace::MyClass2::MyEnum3),
+       9, uint(MyNamespace::MyClass2::MyAnotherEnum1),
+      10, uint(MyNamespace::MyClass2::MyAnotherEnum2),
+      11, uint(MyNamespace::MyClass2::MyAnotherEnum3),
+      12, uint(MyNamespace::MyClass2::MyFlag1),
+      13, uint(MyNamespace::MyClass2::MyFlag2),
+      14, uint(MyNamespace::MyClass2::MyFlag3),
+
+       0        // eod
+};
+
+void MyNamespace::MyClass2::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+
+#ifndef QT_NO_PROPERTIES
+    if (_c == QMetaObject::ReadProperty) {
+        MyClass2 *_t = static_cast<MyClass2 *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< MyEnum*>(_v) = _t->myEnum(); break;
+        case 1: *reinterpret_cast<int*>(_v) = QFlag(_t->myFlags()); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        MyClass2 *_t = static_cast<MyClass2 *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setMyEnum(*reinterpret_cast< MyEnum*>(_v)); break;
+        case 1: _t->setMyFlags(QFlag(*reinterpret_cast<int*>(_v))); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject MyNamespace::MyClass2::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_MyNamespace__MyClass2.data,
+      qt_meta_data_MyNamespace__MyClass2,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *MyNamespace::MyClass2::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *MyNamespace::MyClass2::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_MyNamespace__MyClass2.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int MyNamespace::MyClass2::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    
+#ifndef QT_NO_PROPERTIES
+   if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 2;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 2;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+struct qt_meta_stringdata_MyNamespace__MyClassSubclass_t {
+    QByteArrayData data[1];
+    char stringdata0[29];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_MyNamespace__MyClassSubclass_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_MyNamespace__MyClassSubclass_t qt_meta_stringdata_MyNamespace__MyClassSubclass = {
+    {
+QT_MOC_LITERAL(0, 0, 28) // "MyNamespace::MyClassSubclass"
+
+    },
+    "MyNamespace::MyClassSubclass"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_MyNamespace__MyClassSubclass[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void MyNamespace::MyClassSubclass::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject MyNamespace::MyClassSubclass::staticMetaObject = {
+    { &MyClass::staticMetaObject, qt_meta_stringdata_MyNamespace__MyClassSubclass.data,
+      qt_meta_data_MyNamespace__MyClassSubclass,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *MyNamespace::MyClassSubclass::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *MyNamespace::MyClassSubclass::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_MyNamespace__MyClassSubclass.stringdata0))
+        return static_cast<void*>(this);
+    return MyClass::qt_metacast(_clname);
+}
+
+int MyNamespace::MyClassSubclass::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = MyClass::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_MyNamespace__MyClassSubclass2_t {
+    QByteArrayData data[1];
+    char stringdata0[30];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_MyNamespace__MyClassSubclass2_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_MyNamespace__MyClassSubclass2_t qt_meta_stringdata_MyNamespace__MyClassSubclass2 = {
+    {
+QT_MOC_LITERAL(0, 0, 29) // "MyNamespace::MyClassSubclass2"
+
+    },
+    "MyNamespace::MyClassSubclass2"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_MyNamespace__MyClassSubclass2[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void MyNamespace::MyClassSubclass2::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject MyNamespace::MyClassSubclass2::staticMetaObject = {
+    { &MyClass2::staticMetaObject, qt_meta_stringdata_MyNamespace__MyClassSubclass2.data,
+      qt_meta_data_MyNamespace__MyClassSubclass2,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *MyNamespace::MyClassSubclass2::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *MyNamespace::MyClassSubclass2::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_MyNamespace__MyClassSubclass2.stringdata0))
+        return static_cast<void*>(this);
+    return MyClass2::qt_metacast(_clname);
+}
+
+int MyNamespace::MyClassSubclass2::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = MyClass2::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_MyNamespace__MyClass2Subclass_t {
+    QByteArrayData data[1];
+    char stringdata0[30];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_MyNamespace__MyClass2Subclass_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_MyNamespace__MyClass2Subclass_t qt_meta_stringdata_MyNamespace__MyClass2Subclass = {
+    {
+QT_MOC_LITERAL(0, 0, 29) // "MyNamespace::MyClass2Subclass"
+
+    },
+    "MyNamespace::MyClass2Subclass"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_MyNamespace__MyClass2Subclass[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void MyNamespace::MyClass2Subclass::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject MyNamespace::MyClass2Subclass::staticMetaObject = {
+    { &MyClass::staticMetaObject, qt_meta_stringdata_MyNamespace__MyClass2Subclass.data,
+      qt_meta_data_MyNamespace__MyClass2Subclass,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *MyNamespace::MyClass2Subclass::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *MyNamespace::MyClass2Subclass::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_MyNamespace__MyClass2Subclass.stringdata0))
+        return static_cast<void*>(this);
+    return MyClass::qt_metacast(_clname);
+}
+
+int MyNamespace::MyClass2Subclass::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = MyClass::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_tst_QMetaObject_t {
+    QByteArrayData data[54];
+    char stringdata0[754];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QMetaObject_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QMetaObject_t qt_meta_stringdata_tst_QMetaObject = {
+    {
+QT_MOC_LITERAL(0, 0, 15), // "tst_QMetaObject"
+QT_MOC_LITERAL(1, 16, 13), // "value6Changed"
+QT_MOC_LITERAL(2, 30, 0), // ""
+QT_MOC_LITERAL(3, 31, 13), // "value7Changed"
+QT_MOC_LITERAL(4, 45, 18), // "connectSlotsByName"
+QT_MOC_LITERAL(5, 64, 16), // "invokeMetaMember"
+QT_MOC_LITERAL(6, 81, 22), // "invokeQueuedMetaMember"
+QT_MOC_LITERAL(7, 104, 30), // "invokeBlockingQueuedMetaMember"
+QT_MOC_LITERAL(8, 135, 17), // "invokeCustomTypes"
+QT_MOC_LITERAL(9, 153, 21), // "invokeMetaConstructor"
+QT_MOC_LITERAL(10, 175, 18), // "invokeTypedefTypes"
+QT_MOC_LITERAL(11, 194, 15), // "invokeException"
+QT_MOC_LITERAL(12, 210, 24), // "invokeQueuedAutoRegister"
+QT_MOC_LITERAL(13, 235, 23), // "qtMetaObjectInheritance"
+QT_MOC_LITERAL(14, 259, 24), // "normalizedSignature_data"
+QT_MOC_LITERAL(15, 284, 19), // "normalizedSignature"
+QT_MOC_LITERAL(16, 304, 19), // "normalizedType_data"
+QT_MOC_LITERAL(17, 324, 14), // "normalizedType"
+QT_MOC_LITERAL(18, 339, 18), // "customPropertyType"
+QT_MOC_LITERAL(19, 358, 15), // "checkScope_data"
+QT_MOC_LITERAL(20, 374, 10), // "checkScope"
+QT_MOC_LITERAL(21, 385, 14), // "propertyNotify"
+QT_MOC_LITERAL(22, 400, 16), // "propertyConstant"
+QT_MOC_LITERAL(23, 417, 13), // "propertyFinal"
+QT_MOC_LITERAL(24, 431, 6), // "stdSet"
+QT_MOC_LITERAL(25, 438, 9), // "classInfo"
+QT_MOC_LITERAL(26, 448, 10), // "metaMethod"
+QT_MOC_LITERAL(27, 459, 18), // "indexOfMethod_data"
+QT_MOC_LITERAL(28, 478, 13), // "indexOfMethod"
+QT_MOC_LITERAL(29, 492, 16), // "indexOfMethodPMF"
+QT_MOC_LITERAL(30, 509, 17), // "signalOffset_data"
+QT_MOC_LITERAL(31, 527, 12), // "signalOffset"
+QT_MOC_LITERAL(32, 540, 16), // "signalCount_data"
+QT_MOC_LITERAL(33, 557, 11), // "signalCount"
+QT_MOC_LITERAL(34, 569, 11), // "signal_data"
+QT_MOC_LITERAL(35, 581, 6), // "signal"
+QT_MOC_LITERAL(36, 588, 16), // "signalIndex_data"
+QT_MOC_LITERAL(37, 605, 11), // "signalIndex"
+QT_MOC_LITERAL(38, 617, 15), // "enumDebugStream"
+QT_MOC_LITERAL(39, 633, 13), // "inherits_data"
+QT_MOC_LITERAL(40, 647, 8), // "inherits"
+QT_MOC_LITERAL(41, 656, 5), // "value"
+QT_MOC_LITERAL(42, 662, 8), // "EnumType"
+QT_MOC_LITERAL(43, 671, 6), // "value2"
+QT_MOC_LITERAL(44, 678, 6), // "value3"
+QT_MOC_LITERAL(45, 685, 8), // "MyStruct"
+QT_MOC_LITERAL(46, 694, 6), // "value4"
+QT_MOC_LITERAL(47, 701, 6), // "value5"
+QT_MOC_LITERAL(48, 708, 6), // "value6"
+QT_MOC_LITERAL(49, 715, 6), // "value7"
+QT_MOC_LITERAL(50, 722, 6), // "value8"
+QT_MOC_LITERAL(51, 729, 6), // "value9"
+QT_MOC_LITERAL(52, 736, 7), // "value10"
+QT_MOC_LITERAL(53, 744, 9) // "EnumType1"
+
+    },
+    "tst_QMetaObject\0value6Changed\0\0"
+    "value7Changed\0connectSlotsByName\0"
+    "invokeMetaMember\0invokeQueuedMetaMember\0"
+    "invokeBlockingQueuedMetaMember\0"
+    "invokeCustomTypes\0invokeMetaConstructor\0"
+    "invokeTypedefTypes\0invokeException\0"
+    "invokeQueuedAutoRegister\0"
+    "qtMetaObjectInheritance\0"
+    "normalizedSignature_data\0normalizedSignature\0"
+    "normalizedType_data\0normalizedType\0"
+    "customPropertyType\0checkScope_data\0"
+    "checkScope\0propertyNotify\0propertyConstant\0"
+    "propertyFinal\0stdSet\0classInfo\0"
+    "metaMethod\0indexOfMethod_data\0"
+    "indexOfMethod\0indexOfMethodPMF\0"
+    "signalOffset_data\0signalOffset\0"
+    "signalCount_data\0signalCount\0signal_data\0"
+    "signal\0signalIndex_data\0signalIndex\0"
+    "enumDebugStream\0inherits_data\0inherits\0"
+    "value\0EnumType\0value2\0value3\0MyStruct\0"
+    "value4\0value5\0value6\0value7\0value8\0"
+    "value9\0value10\0EnumType1"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QMetaObject[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      39,   14, // methods
+      10,  250, // properties
+       1,  290, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       2,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,  209,    2, 0x06 /* Public */,
+       3,    1,  210,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       4,    0,  213,    2, 0x08 /* Private */,
+       5,    0,  214,    2, 0x08 /* Private */,
+       6,    0,  215,    2, 0x08 /* Private */,
+       7,    0,  216,    2, 0x08 /* Private */,
+       8,    0,  217,    2, 0x08 /* Private */,
+       9,    0,  218,    2, 0x08 /* Private */,
+      10,    0,  219,    2, 0x08 /* Private */,
+      11,    0,  220,    2, 0x08 /* Private */,
+      12,    0,  221,    2, 0x08 /* Private */,
+      13,    0,  222,    2, 0x08 /* Private */,
+      14,    0,  223,    2, 0x08 /* Private */,
+      15,    0,  224,    2, 0x08 /* Private */,
+      16,    0,  225,    2, 0x08 /* Private */,
+      17,    0,  226,    2, 0x08 /* Private */,
+      18,    0,  227,    2, 0x08 /* Private */,
+      19,    0,  228,    2, 0x08 /* Private */,
+      20,    0,  229,    2, 0x08 /* Private */,
+      21,    0,  230,    2, 0x08 /* Private */,
+      22,    0,  231,    2, 0x08 /* Private */,
+      23,    0,  232,    2, 0x08 /* Private */,
+      24,    0,  233,    2, 0x08 /* Private */,
+      25,    0,  234,    2, 0x08 /* Private */,
+      26,    0,  235,    2, 0x08 /* Private */,
+      27,    0,  236,    2, 0x08 /* Private */,
+      28,    0,  237,    2, 0x08 /* Private */,
+      29,    0,  238,    2, 0x08 /* Private */,
+      30,    0,  239,    2, 0x08 /* Private */,
+      31,    0,  240,    2, 0x08 /* Private */,
+      32,    0,  241,    2, 0x08 /* Private */,
+      33,    0,  242,    2, 0x08 /* Private */,
+      34,    0,  243,    2, 0x08 /* Private */,
+      35,    0,  244,    2, 0x08 /* Private */,
+      36,    0,  245,    2, 0x08 /* Private */,
+      37,    0,  246,    2, 0x08 /* Private */,
+      38,    0,  247,    2, 0x08 /* Private */,
+      39,    0,  248,    2, 0x08 /* Private */,
+      40,    0,  249,    2, 0x08 /* Private */,
+
+ // signals: parameters
+    QMetaType::Void,
+    QMetaType::Void, QMetaType::QString,    2,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+ // properties: name, type, flags
+      41, 0x80000000 | 42, 0x0009510b,
+      43, 0x80000000 | 42, 0x0009500b,
+      44, 0x80000000 | 45, 0x0009500b,
+      46, QMetaType::QVariantList, 0x00095003,
+      47, QMetaType::QVariantList, 0x00095003,
+      48, QMetaType::Int, 0x00495001,
+      49, 0x80000000 | 45, 0x0049500b,
+      50, QMetaType::Int, 0x00095001,
+      51, QMetaType::Int, 0x00095401,
+      52, QMetaType::Int, 0x00095801,
+
+ // properties: notify_signal_id
+       0,
+       0,
+       0,
+       0,
+       0,
+       0,
+       1,
+       0,
+       0,
+       0,
+
+ // enums: name, flags, count, data
+      42, 0x0,    1,  294,
+
+ // enum data: key, value
+      53, uint(tst_QMetaObject::EnumType1),
+
+       0        // eod
+};
+
+void tst_QMetaObject::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QMetaObject *_t = static_cast<tst_QMetaObject *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->value6Changed(); break;
+        case 1: _t->value7Changed((*reinterpret_cast< const QString(*)>(_a[1]))); break;
+        case 2: _t->connectSlotsByName(); break;
+        case 3: _t->invokeMetaMember(); break;
+        case 4: _t->invokeQueuedMetaMember(); break;
+        case 5: _t->invokeBlockingQueuedMetaMember(); break;
+        case 6: _t->invokeCustomTypes(); break;
+        case 7: _t->invokeMetaConstructor(); break;
+        case 8: _t->invokeTypedefTypes(); break;
+        case 9: _t->invokeException(); break;
+        case 10: _t->invokeQueuedAutoRegister(); break;
+        case 11: _t->qtMetaObjectInheritance(); break;
+        case 12: _t->normalizedSignature_data(); break;
+        case 13: _t->normalizedSignature(); break;
+        case 14: _t->normalizedType_data(); break;
+        case 15: _t->normalizedType(); break;
+        case 16: _t->customPropertyType(); break;
+        case 17: _t->checkScope_data(); break;
+        case 18: _t->checkScope(); break;
+        case 19: _t->propertyNotify(); break;
+        case 20: _t->propertyConstant(); break;
+        case 21: _t->propertyFinal(); break;
+        case 22: _t->stdSet(); break;
+        case 23: _t->classInfo(); break;
+        case 24: _t->metaMethod(); break;
+        case 25: _t->indexOfMethod_data(); break;
+        case 26: _t->indexOfMethod(); break;
+        case 27: _t->indexOfMethodPMF(); break;
+        case 28: _t->signalOffset_data(); break;
+        case 29: _t->signalOffset(); break;
+        case 30: _t->signalCount_data(); break;
+        case 31: _t->signalCount(); break;
+        case 32: _t->signal_data(); break;
+        case 33: _t->signal(); break;
+        case 34: _t->signalIndex_data(); break;
+        case 35: _t->signalIndex(); break;
+        case 36: _t->enumDebugStream(); break;
+        case 37: _t->inherits_data(); break;
+        case 38: _t->inherits(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            typedef void (tst_QMetaObject::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&tst_QMetaObject::value6Changed)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            typedef void (tst_QMetaObject::*_t)(const QString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&tst_QMetaObject::value7Changed)) {
+                *result = 1;
+                return;
+            }
+        }
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        tst_QMetaObject *_t = static_cast<tst_QMetaObject *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< EnumType*>(_v) = _t->getValue(); break;
+        case 1: *reinterpret_cast< EnumType*>(_v) = _t->get_value(); break;
+        case 2: *reinterpret_cast< MyStruct*>(_v) = _t->val3(); break;
+        case 3: *reinterpret_cast< QList<QVariant>*>(_v) = _t->val4(); break;
+        case 4: *reinterpret_cast< QVariantList*>(_v) = _t->val5(); break;
+        case 5: *reinterpret_cast< int*>(_v) = _t->value6(); break;
+        case 6: *reinterpret_cast< MyStruct*>(_v) = _t->value7(); break;
+        case 7: *reinterpret_cast< int*>(_v) = _t->value8(); break;
+        case 8: *reinterpret_cast< int*>(_v) = _t->value9(); break;
+        case 9: *reinterpret_cast< int*>(_v) = _t->value10(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        tst_QMetaObject *_t = static_cast<tst_QMetaObject *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setValue(*reinterpret_cast< EnumType*>(_v)); break;
+        case 1: _t->set_value(*reinterpret_cast< EnumType*>(_v)); break;
+        case 2: _t->setVal3(*reinterpret_cast< MyStruct*>(_v)); break;
+        case 3: _t->setVal4(*reinterpret_cast< QList<QVariant>*>(_v)); break;
+        case 4: _t->setVal5(*reinterpret_cast< QVariantList*>(_v)); break;
+        case 6: _t->setVal7(*reinterpret_cast< MyStruct*>(_v)); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+}
+
+const QMetaObject tst_QMetaObject::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QMetaObject.data,
+      qt_meta_data_tst_QMetaObject,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QMetaObject::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QMetaObject::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QMetaObject.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QMetaObject::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 39)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 39;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 39)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 39;
+    }
+#ifndef QT_NO_PROPERTIES
+   else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 10;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 10;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 10;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 10;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 10;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 10;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void tst_QMetaObject::value6Changed()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+
+// SIGNAL 1
+void tst_QMetaObject::value7Changed(const QString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+}
+struct qt_meta_stringdata_CTestObject_t {
+    QByteArrayData data[5];
+    char stringdata0[57];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_CTestObject_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_CTestObject_t qt_meta_stringdata_CTestObject = {
+    {
+QT_MOC_LITERAL(0, 0, 11), // "CTestObject"
+QT_MOC_LITERAL(1, 12, 19), // "on_child1_destroyed"
+QT_MOC_LITERAL(2, 32, 0), // ""
+QT_MOC_LITERAL(3, 33, 3), // "obj"
+QT_MOC_LITERAL(4, 37, 19) // "on_child2_destroyed"
+
+    },
+    "CTestObject\0on_child1_destroyed\0\0obj\0"
+    "on_child2_destroyed"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_CTestObject[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       3,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    1,   29,    2, 0x0a /* Public */,
+       1,    0,   32,    2, 0x2a /* Public | MethodCloned */,
+       4,    0,   33,    2, 0x0a /* Public */,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::QObjectStar,    3,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void CTestObject::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        CTestObject *_t = static_cast<CTestObject *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->on_child1_destroyed((*reinterpret_cast< QObject*(*)>(_a[1]))); break;
+        case 1: _t->on_child1_destroyed(); break;
+        case 2: _t->on_child2_destroyed(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObject CTestObject::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_CTestObject.data,
+      qt_meta_data_CTestObject,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *CTestObject::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *CTestObject::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CTestObject.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int CTestObject::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 3)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 3;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 3)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 3;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_CTestObjectOverloads_t {
+    QByteArrayData data[4];
+    char stringdata0[46];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_CTestObjectOverloads_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_CTestObjectOverloads_t qt_meta_stringdata_CTestObjectOverloads = {
+    {
+QT_MOC_LITERAL(0, 0, 20), // "CTestObjectOverloads"
+QT_MOC_LITERAL(1, 21, 19), // "on_child1_destroyed"
+QT_MOC_LITERAL(2, 41, 0), // ""
+QT_MOC_LITERAL(3, 42, 3) // "obj"
+
+    },
+    "CTestObjectOverloads\0on_child1_destroyed\0"
+    "\0obj"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_CTestObjectOverloads[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    1,   24,    2, 0x08 /* Private */,
+       1,    0,   27,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void, QMetaType::QObjectStar,    3,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void CTestObjectOverloads::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        CTestObjectOverloads *_t = static_cast<CTestObjectOverloads *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->on_child1_destroyed((*reinterpret_cast< QObject*(*)>(_a[1]))); break;
+        case 1: _t->on_child1_destroyed(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObject CTestObjectOverloads::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_CTestObjectOverloads.data,
+      qt_meta_data_CTestObjectOverloads,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *CTestObjectOverloads::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *CTestObjectOverloads::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CTestObjectOverloads.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int CTestObjectOverloads::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 2)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 2;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_QtTestObject_t {
+    QByteArrayData data[61];
+    char stringdata0[509];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_QtTestObject_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_QtTestObject_t qt_meta_stringdata_QtTestObject = {
+    {
+QT_MOC_LITERAL(0, 0, 12), // "QtTestObject"
+QT_MOC_LITERAL(1, 13, 4), // "sig0"
+QT_MOC_LITERAL(2, 18, 0), // ""
+QT_MOC_LITERAL(3, 19, 4), // "sig1"
+QT_MOC_LITERAL(4, 24, 2), // "s1"
+QT_MOC_LITERAL(5, 27, 5), // "sig10"
+QT_MOC_LITERAL(6, 33, 2), // "s2"
+QT_MOC_LITERAL(7, 36, 2), // "s3"
+QT_MOC_LITERAL(8, 39, 2), // "s4"
+QT_MOC_LITERAL(9, 42, 2), // "s5"
+QT_MOC_LITERAL(10, 45, 2), // "s6"
+QT_MOC_LITERAL(11, 48, 2), // "s7"
+QT_MOC_LITERAL(12, 51, 2), // "s8"
+QT_MOC_LITERAL(13, 54, 2), // "s9"
+QT_MOC_LITERAL(14, 57, 3), // "s10"
+QT_MOC_LITERAL(15, 61, 3), // "sl0"
+QT_MOC_LITERAL(16, 65, 3), // "sl1"
+QT_MOC_LITERAL(17, 69, 3), // "sl2"
+QT_MOC_LITERAL(18, 73, 3), // "sl3"
+QT_MOC_LITERAL(19, 77, 3), // "sl4"
+QT_MOC_LITERAL(20, 81, 3), // "sl5"
+QT_MOC_LITERAL(21, 85, 3), // "sl6"
+QT_MOC_LITERAL(22, 89, 3), // "sl7"
+QT_MOC_LITERAL(23, 93, 3), // "sl8"
+QT_MOC_LITERAL(24, 97, 3), // "sl9"
+QT_MOC_LITERAL(25, 101, 4), // "sl10"
+QT_MOC_LITERAL(26, 106, 4), // "sl11"
+QT_MOC_LITERAL(27, 111, 4), // "sl12"
+QT_MOC_LITERAL(28, 116, 11), // "const char*"
+QT_MOC_LITERAL(29, 128, 4), // "sl13"
+QT_MOC_LITERAL(30, 133, 14), // "QList<QString>"
+QT_MOC_LITERAL(31, 148, 2), // "l1"
+QT_MOC_LITERAL(32, 151, 4), // "sl14"
+QT_MOC_LITERAL(33, 156, 10), // "testSender"
+QT_MOC_LITERAL(34, 167, 13), // "testReference"
+QT_MOC_LITERAL(35, 181, 8), // "QString&"
+QT_MOC_LITERAL(36, 190, 3), // "str"
+QT_MOC_LITERAL(37, 194, 12), // "testLongLong"
+QT_MOC_LITERAL(38, 207, 3), // "ll1"
+QT_MOC_LITERAL(39, 211, 3), // "ll2"
+QT_MOC_LITERAL(40, 215, 12), // "moveToThread"
+QT_MOC_LITERAL(41, 228, 8), // "QThread*"
+QT_MOC_LITERAL(42, 237, 1), // "t"
+QT_MOC_LITERAL(43, 239, 33), // "slotWithUnregisteredParameter..."
+QT_MOC_LITERAL(44, 273, 18), // "MyUnregisteredType"
+QT_MOC_LITERAL(45, 292, 12), // "throwingSlot"
+QT_MOC_LITERAL(46, 305, 13), // "CountedStruct"
+QT_MOC_LITERAL(47, 319, 27), // "slotWithRegistrableArgument"
+QT_MOC_LITERAL(48, 347, 13), // "QtTestObject*"
+QT_MOC_LITERAL(49, 361, 2), // "o1"
+QT_MOC_LITERAL(50, 364, 22), // "QPointer<QtTestObject>"
+QT_MOC_LITERAL(51, 387, 2), // "o2"
+QT_MOC_LITERAL(52, 390, 28), // "QSharedPointer<QtTestObject>"
+QT_MOC_LITERAL(53, 419, 2), // "o3"
+QT_MOC_LITERAL(54, 422, 26), // "QWeakPointer<QtTestObject>"
+QT_MOC_LITERAL(55, 449, 2), // "o4"
+QT_MOC_LITERAL(56, 452, 22), // "QVector<QtTestObject*>"
+QT_MOC_LITERAL(57, 475, 2), // "o5"
+QT_MOC_LITERAL(58, 478, 20), // "QList<QtTestObject*>"
+QT_MOC_LITERAL(59, 499, 2), // "o6"
+QT_MOC_LITERAL(60, 502, 6) // "parent"
+
+    },
+    "QtTestObject\0sig0\0\0sig1\0s1\0sig10\0s2\0"
+    "s3\0s4\0s5\0s6\0s7\0s8\0s9\0s10\0sl0\0sl1\0sl2\0"
+    "sl3\0sl4\0sl5\0sl6\0sl7\0sl8\0sl9\0sl10\0sl11\0"
+    "sl12\0const char*\0sl13\0QList<QString>\0"
+    "l1\0sl14\0testSender\0testReference\0"
+    "QString&\0str\0testLongLong\0ll1\0ll2\0"
+    "moveToThread\0QThread*\0t\0"
+    "slotWithUnregisteredParameterType\0"
+    "MyUnregisteredType\0throwingSlot\0"
+    "CountedStruct\0slotWithRegistrableArgument\0"
+    "QtTestObject*\0o1\0QPointer<QtTestObject>\0"
+    "o2\0QSharedPointer<QtTestObject>\0o3\0"
+    "QWeakPointer<QtTestObject>\0o4\0"
+    "QVector<QtTestObject*>\0o5\0"
+    "QList<QtTestObject*>\0o6\0parent"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_QtTestObject[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      25,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       1,  327, // constructors
+       0,       // flags
+       3,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,  139,    2, 0x06 /* Public */,
+       3,    1,  140,    2, 0x06 /* Public */,
+       5,   10,  143,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+      15,    0,  164,    2, 0x0a /* Public */,
+      16,    1,  165,    2, 0x0a /* Public */,
+      17,    2,  168,    2, 0x0a /* Public */,
+      18,    3,  173,    2, 0x0a /* Public */,
+      19,    4,  180,    2, 0x0a /* Public */,
+      20,    5,  189,    2, 0x0a /* Public */,
+      21,    6,  200,    2, 0x0a /* Public */,
+      22,    7,  213,    2, 0x0a /* Public */,
+      23,    8,  228,    2, 0x0a /* Public */,
+      24,    9,  245,    2, 0x0a /* Public */,
+      25,   10,  264,    2, 0x0a /* Public */,
+      26,    0,  285,    2, 0x0a /* Public */,
+      27,    0,  286,    2, 0x0a /* Public */,
+      29,    1,  287,    2, 0x0a /* Public */,
+      32,    0,  290,    2, 0x0a /* Public */,
+      33,    0,  291,    2, 0x0a /* Public */,
+      34,    1,  292,    2, 0x0a /* Public */,
+      37,    2,  295,    2, 0x0a /* Public */,
+      40,    1,  300,    2, 0x0a /* Public */,
+      43,    1,  303,    2, 0x0a /* Public */,
+      45,    2,  306,    2, 0x0a /* Public */,
+      47,    6,  311,    2, 0x0a /* Public */,
+
+ // signals: parameters
+    QMetaType::Void,
+    QMetaType::QString, QMetaType::QString,    4,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,    4,    6,    7,    8,    9,   10,   11,   12,   13,   14,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::QString, QMetaType::QString,    4,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString,    4,    6,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString,    4,    6,    7,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,    4,    6,    7,    8,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,    4,    6,    7,    8,    9,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,    4,    6,    7,    8,    9,   10,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,    4,    6,    7,    8,    9,   10,   11,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,    4,    6,    7,    8,    9,   10,   11,   12,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,    4,    6,    7,    8,    9,   10,   11,   12,   13,
+    QMetaType::Void, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString, QMetaType::QString,    4,    6,    7,    8,    9,   10,   11,   12,   13,   14,
+    QMetaType::QObjectStar,
+    0x80000000 | 28,
+    0x80000000 | 30, 0x80000000 | 30,   31,
+    QMetaType::LongLong,
+    QMetaType::Void,
+    QMetaType::Void, 0x80000000 | 35,   36,
+    QMetaType::Void, QMetaType::LongLong, QMetaType::ULongLong,   38,   39,
+    QMetaType::Void, 0x80000000 | 41,   42,
+    QMetaType::Void, 0x80000000 | 44,    2,
+    0x80000000 | 46, 0x80000000 | 46, 0x80000000 | 46,    2,    6,
+    QMetaType::Void, 0x80000000 | 48, 0x80000000 | 50, 0x80000000 | 52, 0x80000000 | 54, 0x80000000 | 56, 0x80000000 | 58,   49,   51,   53,   55,   57,   59,
+
+ // constructors: parameters
+    0x80000000 | 2, QMetaType::QObjectStar,   60,
+
+ // constructors: name, argc, parameters, tag, flags
+       0,    1,  324,    2, 0x0e /* Public */,
+
+       0        // eod
+};
+
+void QtTestObject::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::CreateInstance) {
+        switch (_id) {
+        case 0: { QtTestObject *_r = new QtTestObject((*reinterpret_cast< QObject*(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast<QObject**>(_a[0]) = _r; } break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::InvokeMetaMethod) {
+        QtTestObject *_t = static_cast<QtTestObject *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->sig0(); break;
+        case 1: { QString _r = _t->sig1((*reinterpret_cast< QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 2: _t->sig10((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6])),(*reinterpret_cast< QString(*)>(_a[7])),(*reinterpret_cast< QString(*)>(_a[8])),(*reinterpret_cast< QString(*)>(_a[9])),(*reinterpret_cast< QString(*)>(_a[10]))); break;
+        case 3: _t->sl0(); break;
+        case 4: { QString _r = _t->sl1((*reinterpret_cast< QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QString*>(_a[0]) = std::move(_r); }  break;
+        case 5: _t->sl2((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2]))); break;
+        case 6: _t->sl3((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3]))); break;
+        case 7: _t->sl4((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< const QString(*)>(_a[4]))); break;
+        case 8: _t->sl5((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4])),(*reinterpret_cast< const QString(*)>(_a[5]))); break;
+        case 9: _t->sl6((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4])),(*reinterpret_cast< const QString(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6]))); break;
+        case 10: _t->sl7((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6])),(*reinterpret_cast< QString(*)>(_a[7]))); break;
+        case 11: _t->sl8((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6])),(*reinterpret_cast< QString(*)>(_a[7])),(*reinterpret_cast< QString(*)>(_a[8]))); break;
+        case 12: _t->sl9((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6])),(*reinterpret_cast< QString(*)>(_a[7])),(*reinterpret_cast< QString(*)>(_a[8])),(*reinterpret_cast< QString(*)>(_a[9]))); break;
+        case 13: _t->sl10((*reinterpret_cast< QString(*)>(_a[1])),(*reinterpret_cast< QString(*)>(_a[2])),(*reinterpret_cast< QString(*)>(_a[3])),(*reinterpret_cast< QString(*)>(_a[4])),(*reinterpret_cast< QString(*)>(_a[5])),(*reinterpret_cast< QString(*)>(_a[6])),(*reinterpret_cast< QString(*)>(_a[7])),(*reinterpret_cast< QString(*)>(_a[8])),(*reinterpret_cast< QString(*)>(_a[9])),(*reinterpret_cast< QString(*)>(_a[10]))); break;
+        case 14: { QObject* _r = _t->sl11();
+            if (_a[0]) *reinterpret_cast< QObject**>(_a[0]) = std::move(_r); }  break;
+        case 15: { const char* _r = _t->sl12();
+            if (_a[0]) *reinterpret_cast< const char**>(_a[0]) = std::move(_r); }  break;
+        case 16: { QList<QString> _r = _t->sl13((*reinterpret_cast< QList<QString>(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< QList<QString>*>(_a[0]) = std::move(_r); }  break;
+        case 17: { qint64 _r = _t->sl14();
+            if (_a[0]) *reinterpret_cast< qint64*>(_a[0]) = std::move(_r); }  break;
+        case 18: _t->testSender(); break;
+        case 19: _t->testReference((*reinterpret_cast< QString(*)>(_a[1]))); break;
+        case 20: _t->testLongLong((*reinterpret_cast< qint64(*)>(_a[1])),(*reinterpret_cast< quint64(*)>(_a[2]))); break;
+        case 21: _t->moveToThread((*reinterpret_cast< QThread*(*)>(_a[1]))); break;
+        case 22: _t->slotWithUnregisteredParameterType((*reinterpret_cast< MyUnregisteredType(*)>(_a[1]))); break;
+        case 23: { CountedStruct _r = _t->throwingSlot((*reinterpret_cast< const CountedStruct(*)>(_a[1])),(*reinterpret_cast< CountedStruct(*)>(_a[2])));
+            if (_a[0]) *reinterpret_cast< CountedStruct*>(_a[0]) = std::move(_r); }  break;
+        case 24: _t->slotWithRegistrableArgument((*reinterpret_cast< QtTestObject*(*)>(_a[1])),(*reinterpret_cast< QPointer<QtTestObject>(*)>(_a[2])),(*reinterpret_cast< QSharedPointer<QtTestObject>(*)>(_a[3])),(*reinterpret_cast< QWeakPointer<QtTestObject>(*)>(_a[4])),(*reinterpret_cast< QVector<QtTestObject*>(*)>(_a[5])),(*reinterpret_cast< QList<QtTestObject*>(*)>(_a[6]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        switch (_id) {
+        default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+        case 16:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QList<QString> >(); break;
+            }
+            break;
+        case 21:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QThread* >(); break;
+            }
+            break;
+        case 24:
+            switch (*reinterpret_cast<int*>(_a[1])) {
+            default: *reinterpret_cast<int*>(_a[0]) = -1; break;
+            case 5:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QList<QtTestObject*> >(); break;
+            case 1:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QPointer<QtTestObject> >(); break;
+            case 2:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QSharedPointer<QtTestObject> >(); break;
+            case 4:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QVector<QtTestObject*> >(); break;
+            case 3:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QWeakPointer<QtTestObject> >(); break;
+            case 0:
+                *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< QtTestObject* >(); break;
+            }
+            break;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            typedef void (QtTestObject::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QtTestObject::sig0)) {
+                *result = 0;
+                return;
+            }
+        }
+        {
+            typedef QString (QtTestObject::*_t)(QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QtTestObject::sig1)) {
+                *result = 1;
+                return;
+            }
+        }
+        {
+            typedef void (QtTestObject::*_t)(QString , QString , QString , QString , QString , QString , QString , QString , QString , QString );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QtTestObject::sig10)) {
+                *result = 2;
+                return;
+            }
+        }
+    }
+}
+
+const QMetaObject QtTestObject::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_QtTestObject.data,
+      qt_meta_data_QtTestObject,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *QtTestObject::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *QtTestObject::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_QtTestObject.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int QtTestObject::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 25)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 25;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 25)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 25;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void QtTestObject::sig0()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+
+// SIGNAL 1
+QString QtTestObject::sig1(QString _t1)
+{
+    QString _t0{};
+    void *_a[] = { const_cast<void*>(reinterpret_cast<const void*>(&_t0)), const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 1, _a);
+    return _t0;
+}
+
+// SIGNAL 2
+void QtTestObject::sig10(QString _t1, QString _t2, QString _t3, QString _t4, QString _t5, QString _t6, QString _t7, QString _t8, QString _t9, QString _t10)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)), const_cast<void*>(reinterpret_cast<const void*>(&_t8)), const_cast<void*>(reinterpret_cast<const void*>(&_t9)), const_cast<void*>(reinterpret_cast<const void*>(&_t10)) };
+    QMetaObject::activate(this, &staticMetaObject, 2, _a);
+}
+struct qt_meta_stringdata_QtTestCustomObject_t {
+    QByteArrayData data[8];
+    char stringdata0[69];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_QtTestCustomObject_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_QtTestCustomObject_t qt_meta_stringdata_QtTestCustomObject = {
+    {
+QT_MOC_LITERAL(0, 0, 18), // "QtTestCustomObject"
+QT_MOC_LITERAL(1, 19, 10), // "sig_custom"
+QT_MOC_LITERAL(2, 30, 0), // ""
+QT_MOC_LITERAL(3, 31, 12), // "CustomString"
+QT_MOC_LITERAL(4, 44, 6), // "string"
+QT_MOC_LITERAL(5, 51, 3), // "sl1"
+QT_MOC_LITERAL(6, 55, 6), // "MyType"
+QT_MOC_LITERAL(7, 62, 6) // "myType"
+
+    },
+    "QtTestCustomObject\0sig_custom\0\0"
+    "CustomString\0string\0sl1\0MyType\0myType"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_QtTestCustomObject[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       2,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    1,   24,    2, 0x06 /* Public */,
+
+ // slots: name, argc, parameters, tag, flags
+       5,    1,   27,    2, 0x0a /* Public */,
+
+ // signals: parameters
+    QMetaType::Void, 0x80000000 | 3,    4,
+
+ // slots: parameters
+    QMetaType::Void, 0x80000000 | 6,    7,
+
+       0        // eod
+};
+
+void QtTestCustomObject::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        QtTestCustomObject *_t = static_cast<QtTestCustomObject *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->sig_custom((*reinterpret_cast< const CustomString(*)>(_a[1]))); break;
+        case 1: _t->sl1((*reinterpret_cast< MyType(*)>(_a[1]))); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            typedef void (QtTestCustomObject::*_t)(const CustomString & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&QtTestCustomObject::sig_custom)) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+}
+
+const QMetaObject QtTestCustomObject::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_QtTestCustomObject.data,
+      qt_meta_data_QtTestCustomObject,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *QtTestCustomObject::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *QtTestCustomObject::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_QtTestCustomObject.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int QtTestCustomObject::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 2)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 2;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 2)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 2;
+    }
+    return _id;
+}
+
+// SIGNAL 0
+void QtTestCustomObject::sig_custom(const CustomString & _t1)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
+}
+struct qt_meta_stringdata_NamespaceWithConstructibleClass__ConstructibleClass_t {
+    QByteArrayData data[4];
+    char stringdata0[79];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_NamespaceWithConstructibleClass__ConstructibleClass_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_NamespaceWithConstructibleClass__ConstructibleClass_t qt_meta_stringdata_NamespaceWithConstructibleClass__ConstructibleClass = {
+    {
+QT_MOC_LITERAL(0, 0, 51), // "NamespaceWithConstructibleCla..."
+QT_MOC_LITERAL(1, 52, 18), // "ConstructibleClass"
+QT_MOC_LITERAL(2, 71, 0), // ""
+QT_MOC_LITERAL(3, 72, 6) // "parent"
+
+    },
+    "NamespaceWithConstructibleClass::ConstructibleClass\0"
+    "ConstructibleClass\0\0parent"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_NamespaceWithConstructibleClass__ConstructibleClass[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       2,   18, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // constructors: parameters
+    0x80000000 | 2, QMetaType::QObjectStar,    3,
+    0x80000000 | 2,
+
+ // constructors: name, argc, parameters, tag, flags
+       1,    1,   14,    2, 0x0e /* Public */,
+       1,    0,   17,    2, 0x2e /* Public | MethodCloned */,
+
+       0        // eod
+};
+
+void NamespaceWithConstructibleClass::ConstructibleClass::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::CreateInstance) {
+        switch (_id) {
+        case 0: { ConstructibleClass *_r = new ConstructibleClass((*reinterpret_cast< QObject*(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast<QObject**>(_a[0]) = _r; } break;
+        case 1: { ConstructibleClass *_r = new ConstructibleClass();
+            if (_a[0]) *reinterpret_cast<QObject**>(_a[0]) = _r; } break;
+        default: break;
+        }
+    }
+    Q_UNUSED(_o);
+}
+
+const QMetaObject NamespaceWithConstructibleClass::ConstructibleClass::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_NamespaceWithConstructibleClass__ConstructibleClass.data,
+      qt_meta_data_NamespaceWithConstructibleClass__ConstructibleClass,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *NamespaceWithConstructibleClass::ConstructibleClass::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *NamespaceWithConstructibleClass::ConstructibleClass::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_NamespaceWithConstructibleClass__ConstructibleClass.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int NamespaceWithConstructibleClass::ConstructibleClass::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_ClassInfoTestObjectA_t {
+    QByteArrayData data[3];
+    char stringdata0[45];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ClassInfoTestObjectA_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ClassInfoTestObjectA_t qt_meta_stringdata_ClassInfoTestObjectA = {
+    {
+QT_MOC_LITERAL(0, 0, 20), // "ClassInfoTestObjectA"
+QT_MOC_LITERAL(1, 21, 6), // "Author"
+QT_MOC_LITERAL(2, 28, 16) // "Christopher Pike"
+
+    },
+    "ClassInfoTestObjectA\0Author\0"
+    "Christopher Pike"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_ClassInfoTestObjectA[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       1,   14, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // classinfo: key, value
+       1,    2,
+
+       0        // eod
+};
+
+void ClassInfoTestObjectA::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject ClassInfoTestObjectA::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_ClassInfoTestObjectA.data,
+      qt_meta_data_ClassInfoTestObjectA,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *ClassInfoTestObjectA::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ClassInfoTestObjectA::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ClassInfoTestObjectA.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int ClassInfoTestObjectA::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_ClassInfoTestObjectB_t {
+    QByteArrayData data[1];
+    char stringdata0[21];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ClassInfoTestObjectB_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ClassInfoTestObjectB_t qt_meta_stringdata_ClassInfoTestObjectB = {
+    {
+QT_MOC_LITERAL(0, 0, 20) // "ClassInfoTestObjectB"
+
+    },
+    "ClassInfoTestObjectB"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_ClassInfoTestObjectB[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void ClassInfoTestObjectB::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject ClassInfoTestObjectB::staticMetaObject = {
+    { &ClassInfoTestObjectA::staticMetaObject, qt_meta_stringdata_ClassInfoTestObjectB.data,
+      qt_meta_data_ClassInfoTestObjectB,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *ClassInfoTestObjectB::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ClassInfoTestObjectB::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ClassInfoTestObjectB.stringdata0))
+        return static_cast<void*>(this);
+    return ClassInfoTestObjectA::qt_metacast(_clname);
+}
+
+int ClassInfoTestObjectB::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = ClassInfoTestObjectA::qt_metacall(_c, _id, _a);
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

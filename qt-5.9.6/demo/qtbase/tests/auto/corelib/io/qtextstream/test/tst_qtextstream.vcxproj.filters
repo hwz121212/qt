@@ -1,0 +1,3079 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\tst_qtextstream.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QByteArray_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QByteArray_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QChar_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QChar_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_QString_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_QString_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_char_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_char_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Latin1_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Latin1_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Latin1_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Latin1_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Locale_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Locale_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Locale_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Locale_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_RawUnicode_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_RawUnicode_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_RawUnicode_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_RawUnicode_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeNetworkOrder_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeNetworkOrder_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeNetworkOrder_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeNetworkOrder_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeReverse_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeReverse_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeReverse_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeReverse_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeUTF8_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeUTF8_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_UnicodeUTF8_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_UnicodeUTF8_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Unicode_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Unicode_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_double_resource_Unicode_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_double_resource_Unicode_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_float_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_float_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Latin1_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Latin1_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Latin1_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Latin1_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Latin1_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Latin1_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Latin1_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Latin1_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Locale_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Locale_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Locale_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Locale_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Locale_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Locale_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Locale_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Locale_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_RawUnicode_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_RawUnicode_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_RawUnicode_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_RawUnicode_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_RawUnicode_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_RawUnicode_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_RawUnicode_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_RawUnicode_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeNetworkOrder_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeNetworkOrder_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeNetworkOrder_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeNetworkOrder_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeNetworkOrder_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeNetworkOrder_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeNetworkOrder_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeNetworkOrder_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeReverse_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeReverse_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeReverse_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeReverse_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeReverse_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeReverse_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeReverse_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeReverse_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeUTF8_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeUTF8_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeUTF8_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeUTF8_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeUTF8_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeUTF8_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_UnicodeUTF8_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_UnicodeUTF8_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Unicode_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Unicode_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Unicode_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Unicode_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Unicode_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Unicode_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_int_resource_Unicode_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_int_resource_Unicode_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Latin1_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Latin1_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Latin1_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Latin1_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Latin1_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Latin1_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Latin1_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Latin1_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Locale_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Locale_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Locale_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Locale_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Locale_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Locale_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Locale_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Locale_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_RawUnicode_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_RawUnicode_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_RawUnicode_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_RawUnicode_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_RawUnicode_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_RawUnicode_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_RawUnicode_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_RawUnicode_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeNetworkOrder_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeNetworkOrder_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeNetworkOrder_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeNetworkOrder_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeNetworkOrder_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeNetworkOrder_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeNetworkOrder_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeNetworkOrder_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeReverse_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeReverse_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeReverse_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeReverse_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeReverse_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeReverse_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeReverse_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeReverse_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeUTF8_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeUTF8_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeUTF8_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeUTF8_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeUTF8_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeUTF8_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_UnicodeUTF8_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_UnicodeUTF8_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Unicode_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Unicode_5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Unicode_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Unicode_6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Unicode_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Unicode_7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_long_resource_Unicode_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_long_resource_Unicode_8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_short_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_short_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_uint_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_uint_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ulong_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ulong_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Latin1_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Latin1_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Latin1_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Latin1_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Latin1_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Locale_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Locale_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Locale_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Locale_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Locale_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_RawUnicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_RawUnicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_RawUnicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_RawUnicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_RawUnicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeNetworkOrder_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeNetworkOrder_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeNetworkOrder_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeNetworkOrder_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeNetworkOrder_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeReverse_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeReverse_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeReverse_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeReverse_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeReverse_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeUTF8_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeUTF8_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeUTF8_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeUTF8_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_UnicodeUTF8_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Unicode_0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Unicode_1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Unicode_2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Unicode_3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shift_ushort_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shift_ushort_resource_Unicode_4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource0.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource1.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource10.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource10.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource11.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource11.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource12.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource12.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource2.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource20.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource20.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource21.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource21.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource3.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource4.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource5.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource6.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource7.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource8.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\big_endian\operator_shiftright_resource9.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\resources\little_endian\operator_shiftright_resource9.data">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\qtextstream.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+</Project>

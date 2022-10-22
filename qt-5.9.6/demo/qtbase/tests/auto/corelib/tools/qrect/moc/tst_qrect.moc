@@ -1,0 +1,585 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qrect.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qrect.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QRect_t {
+    QByteArrayData data[111];
+    char stringdata0[1461];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QRect_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QRect_t qt_meta_stringdata_tst_QRect = {
+    {
+QT_MOC_LITERAL(0, 0, 9), // "tst_QRect"
+QT_MOC_LITERAL(1, 10, 11), // "isNull_data"
+QT_MOC_LITERAL(2, 22, 0), // ""
+QT_MOC_LITERAL(3, 23, 6), // "isNull"
+QT_MOC_LITERAL(4, 30, 15), // "newIsEmpty_data"
+QT_MOC_LITERAL(5, 46, 10), // "newIsEmpty"
+QT_MOC_LITERAL(6, 57, 15), // "newIsValid_data"
+QT_MOC_LITERAL(7, 73, 10), // "newIsValid"
+QT_MOC_LITERAL(8, 84, 15), // "normalized_data"
+QT_MOC_LITERAL(9, 100, 10), // "normalized"
+QT_MOC_LITERAL(10, 111, 9), // "left_data"
+QT_MOC_LITERAL(11, 121, 4), // "left"
+QT_MOC_LITERAL(12, 126, 8), // "top_data"
+QT_MOC_LITERAL(13, 135, 3), // "top"
+QT_MOC_LITERAL(14, 139, 10), // "right_data"
+QT_MOC_LITERAL(15, 150, 5), // "right"
+QT_MOC_LITERAL(16, 156, 11), // "bottom_data"
+QT_MOC_LITERAL(17, 168, 6), // "bottom"
+QT_MOC_LITERAL(18, 175, 6), // "x_data"
+QT_MOC_LITERAL(19, 182, 1), // "x"
+QT_MOC_LITERAL(20, 184, 6), // "y_data"
+QT_MOC_LITERAL(21, 191, 1), // "y"
+QT_MOC_LITERAL(22, 193, 19), // "setWidthHeight_data"
+QT_MOC_LITERAL(23, 213, 14), // "setWidthHeight"
+QT_MOC_LITERAL(24, 228, 12), // "setLeft_data"
+QT_MOC_LITERAL(25, 241, 7), // "setLeft"
+QT_MOC_LITERAL(26, 249, 11), // "setTop_data"
+QT_MOC_LITERAL(27, 261, 6), // "setTop"
+QT_MOC_LITERAL(28, 268, 13), // "setRight_data"
+QT_MOC_LITERAL(29, 282, 8), // "setRight"
+QT_MOC_LITERAL(30, 291, 14), // "setBottom_data"
+QT_MOC_LITERAL(31, 306, 9), // "setBottom"
+QT_MOC_LITERAL(32, 316, 18), // "newSetTopLeft_data"
+QT_MOC_LITERAL(33, 335, 13), // "newSetTopLeft"
+QT_MOC_LITERAL(34, 349, 22), // "newSetBottomRight_data"
+QT_MOC_LITERAL(35, 372, 17), // "newSetBottomRight"
+QT_MOC_LITERAL(36, 390, 19), // "newSetTopRight_data"
+QT_MOC_LITERAL(37, 410, 14), // "newSetTopRight"
+QT_MOC_LITERAL(38, 425, 21), // "newSetBottomLeft_data"
+QT_MOC_LITERAL(39, 447, 16), // "newSetBottomLeft"
+QT_MOC_LITERAL(40, 464, 12), // "topLeft_data"
+QT_MOC_LITERAL(41, 477, 7), // "topLeft"
+QT_MOC_LITERAL(42, 485, 16), // "bottomRight_data"
+QT_MOC_LITERAL(43, 502, 11), // "bottomRight"
+QT_MOC_LITERAL(44, 514, 13), // "topRight_data"
+QT_MOC_LITERAL(45, 528, 8), // "topRight"
+QT_MOC_LITERAL(46, 537, 15), // "bottomLeft_data"
+QT_MOC_LITERAL(47, 553, 10), // "bottomLeft"
+QT_MOC_LITERAL(48, 564, 11), // "center_data"
+QT_MOC_LITERAL(49, 576, 6), // "center"
+QT_MOC_LITERAL(50, 583, 12), // "getRect_data"
+QT_MOC_LITERAL(51, 596, 7), // "getRect"
+QT_MOC_LITERAL(52, 604, 14), // "getCoords_data"
+QT_MOC_LITERAL(53, 619, 9), // "getCoords"
+QT_MOC_LITERAL(54, 629, 16), // "newMoveLeft_data"
+QT_MOC_LITERAL(55, 646, 11), // "newMoveLeft"
+QT_MOC_LITERAL(56, 658, 15), // "newMoveTop_data"
+QT_MOC_LITERAL(57, 674, 10), // "newMoveTop"
+QT_MOC_LITERAL(58, 685, 17), // "newMoveRight_data"
+QT_MOC_LITERAL(59, 703, 12), // "newMoveRight"
+QT_MOC_LITERAL(60, 716, 18), // "newMoveBottom_data"
+QT_MOC_LITERAL(61, 735, 13), // "newMoveBottom"
+QT_MOC_LITERAL(62, 749, 19), // "newMoveTopLeft_data"
+QT_MOC_LITERAL(63, 769, 14), // "newMoveTopLeft"
+QT_MOC_LITERAL(64, 784, 23), // "newMoveBottomRight_data"
+QT_MOC_LITERAL(65, 808, 18), // "newMoveBottomRight"
+QT_MOC_LITERAL(66, 827, 7), // "margins"
+QT_MOC_LITERAL(67, 835, 8), // "marginsf"
+QT_MOC_LITERAL(68, 844, 14), // "translate_data"
+QT_MOC_LITERAL(69, 859, 9), // "translate"
+QT_MOC_LITERAL(70, 869, 15), // "transposed_data"
+QT_MOC_LITERAL(71, 885, 10), // "transposed"
+QT_MOC_LITERAL(72, 896, 7), // "moveTop"
+QT_MOC_LITERAL(73, 904, 10), // "moveBottom"
+QT_MOC_LITERAL(74, 915, 8), // "moveLeft"
+QT_MOC_LITERAL(75, 924, 9), // "moveRight"
+QT_MOC_LITERAL(76, 934, 11), // "moveTopLeft"
+QT_MOC_LITERAL(77, 946, 12), // "moveTopRight"
+QT_MOC_LITERAL(78, 959, 14), // "moveBottomLeft"
+QT_MOC_LITERAL(79, 974, 15), // "moveBottomRight"
+QT_MOC_LITERAL(80, 990, 10), // "setTopLeft"
+QT_MOC_LITERAL(81, 1001, 11), // "setTopRight"
+QT_MOC_LITERAL(82, 1013, 13), // "setBottomLeft"
+QT_MOC_LITERAL(83, 1027, 14), // "setBottomRight"
+QT_MOC_LITERAL(84, 1042, 12), // "operator_amp"
+QT_MOC_LITERAL(85, 1055, 15), // "operator_amp_eq"
+QT_MOC_LITERAL(86, 1071, 7), // "isEmpty"
+QT_MOC_LITERAL(87, 1079, 7), // "isValid"
+QT_MOC_LITERAL(88, 1087, 15), // "testAdjust_data"
+QT_MOC_LITERAL(89, 1103, 10), // "testAdjust"
+QT_MOC_LITERAL(90, 1114, 20), // "intersectedRect_data"
+QT_MOC_LITERAL(91, 1135, 15), // "intersectedRect"
+QT_MOC_LITERAL(92, 1151, 21), // "intersectedRectF_data"
+QT_MOC_LITERAL(93, 1173, 16), // "intersectedRectF"
+QT_MOC_LITERAL(94, 1190, 15), // "unitedRect_data"
+QT_MOC_LITERAL(95, 1206, 10), // "unitedRect"
+QT_MOC_LITERAL(96, 1217, 16), // "unitedRectF_data"
+QT_MOC_LITERAL(97, 1234, 11), // "unitedRectF"
+QT_MOC_LITERAL(98, 1246, 19), // "intersectsRect_data"
+QT_MOC_LITERAL(99, 1266, 14), // "intersectsRect"
+QT_MOC_LITERAL(100, 1281, 20), // "intersectsRectF_data"
+QT_MOC_LITERAL(101, 1302, 15), // "intersectsRectF"
+QT_MOC_LITERAL(102, 1318, 17), // "containsRect_data"
+QT_MOC_LITERAL(103, 1336, 12), // "containsRect"
+QT_MOC_LITERAL(104, 1349, 18), // "containsRectF_data"
+QT_MOC_LITERAL(105, 1368, 13), // "containsRectF"
+QT_MOC_LITERAL(106, 1382, 18), // "containsPoint_data"
+QT_MOC_LITERAL(107, 1401, 13), // "containsPoint"
+QT_MOC_LITERAL(108, 1415, 19), // "containsPointF_data"
+QT_MOC_LITERAL(109, 1435, 14), // "containsPointF"
+QT_MOC_LITERAL(110, 1450, 10) // "smallRects"
+
+    },
+    "tst_QRect\0isNull_data\0\0isNull\0"
+    "newIsEmpty_data\0newIsEmpty\0newIsValid_data\0"
+    "newIsValid\0normalized_data\0normalized\0"
+    "left_data\0left\0top_data\0top\0right_data\0"
+    "right\0bottom_data\0bottom\0x_data\0x\0"
+    "y_data\0y\0setWidthHeight_data\0"
+    "setWidthHeight\0setLeft_data\0setLeft\0"
+    "setTop_data\0setTop\0setRight_data\0"
+    "setRight\0setBottom_data\0setBottom\0"
+    "newSetTopLeft_data\0newSetTopLeft\0"
+    "newSetBottomRight_data\0newSetBottomRight\0"
+    "newSetTopRight_data\0newSetTopRight\0"
+    "newSetBottomLeft_data\0newSetBottomLeft\0"
+    "topLeft_data\0topLeft\0bottomRight_data\0"
+    "bottomRight\0topRight_data\0topRight\0"
+    "bottomLeft_data\0bottomLeft\0center_data\0"
+    "center\0getRect_data\0getRect\0getCoords_data\0"
+    "getCoords\0newMoveLeft_data\0newMoveLeft\0"
+    "newMoveTop_data\0newMoveTop\0newMoveRight_data\0"
+    "newMoveRight\0newMoveBottom_data\0"
+    "newMoveBottom\0newMoveTopLeft_data\0"
+    "newMoveTopLeft\0newMoveBottomRight_data\0"
+    "newMoveBottomRight\0margins\0marginsf\0"
+    "translate_data\0translate\0transposed_data\0"
+    "transposed\0moveTop\0moveBottom\0moveLeft\0"
+    "moveRight\0moveTopLeft\0moveTopRight\0"
+    "moveBottomLeft\0moveBottomRight\0"
+    "setTopLeft\0setTopRight\0setBottomLeft\0"
+    "setBottomRight\0operator_amp\0operator_amp_eq\0"
+    "isEmpty\0isValid\0testAdjust_data\0"
+    "testAdjust\0intersectedRect_data\0"
+    "intersectedRect\0intersectedRectF_data\0"
+    "intersectedRectF\0unitedRect_data\0"
+    "unitedRect\0unitedRectF_data\0unitedRectF\0"
+    "intersectsRect_data\0intersectsRect\0"
+    "intersectsRectF_data\0intersectsRectF\0"
+    "containsRect_data\0containsRect\0"
+    "containsRectF_data\0containsRectF\0"
+    "containsPoint_data\0containsPoint\0"
+    "containsPointF_data\0containsPointF\0"
+    "smallRects"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QRect[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+     109,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  559,    2, 0x08 /* Private */,
+       3,    0,  560,    2, 0x08 /* Private */,
+       4,    0,  561,    2, 0x08 /* Private */,
+       5,    0,  562,    2, 0x08 /* Private */,
+       6,    0,  563,    2, 0x08 /* Private */,
+       7,    0,  564,    2, 0x08 /* Private */,
+       8,    0,  565,    2, 0x08 /* Private */,
+       9,    0,  566,    2, 0x08 /* Private */,
+      10,    0,  567,    2, 0x08 /* Private */,
+      11,    0,  568,    2, 0x08 /* Private */,
+      12,    0,  569,    2, 0x08 /* Private */,
+      13,    0,  570,    2, 0x08 /* Private */,
+      14,    0,  571,    2, 0x08 /* Private */,
+      15,    0,  572,    2, 0x08 /* Private */,
+      16,    0,  573,    2, 0x08 /* Private */,
+      17,    0,  574,    2, 0x08 /* Private */,
+      18,    0,  575,    2, 0x08 /* Private */,
+      19,    0,  576,    2, 0x08 /* Private */,
+      20,    0,  577,    2, 0x08 /* Private */,
+      21,    0,  578,    2, 0x08 /* Private */,
+      22,    0,  579,    2, 0x08 /* Private */,
+      23,    0,  580,    2, 0x08 /* Private */,
+      24,    0,  581,    2, 0x08 /* Private */,
+      25,    0,  582,    2, 0x08 /* Private */,
+      26,    0,  583,    2, 0x08 /* Private */,
+      27,    0,  584,    2, 0x08 /* Private */,
+      28,    0,  585,    2, 0x08 /* Private */,
+      29,    0,  586,    2, 0x08 /* Private */,
+      30,    0,  587,    2, 0x08 /* Private */,
+      31,    0,  588,    2, 0x08 /* Private */,
+      32,    0,  589,    2, 0x08 /* Private */,
+      33,    0,  590,    2, 0x08 /* Private */,
+      34,    0,  591,    2, 0x08 /* Private */,
+      35,    0,  592,    2, 0x08 /* Private */,
+      36,    0,  593,    2, 0x08 /* Private */,
+      37,    0,  594,    2, 0x08 /* Private */,
+      38,    0,  595,    2, 0x08 /* Private */,
+      39,    0,  596,    2, 0x08 /* Private */,
+      40,    0,  597,    2, 0x08 /* Private */,
+      41,    0,  598,    2, 0x08 /* Private */,
+      42,    0,  599,    2, 0x08 /* Private */,
+      43,    0,  600,    2, 0x08 /* Private */,
+      44,    0,  601,    2, 0x08 /* Private */,
+      45,    0,  602,    2, 0x08 /* Private */,
+      46,    0,  603,    2, 0x08 /* Private */,
+      47,    0,  604,    2, 0x08 /* Private */,
+      48,    0,  605,    2, 0x08 /* Private */,
+      49,    0,  606,    2, 0x08 /* Private */,
+      50,    0,  607,    2, 0x08 /* Private */,
+      51,    0,  608,    2, 0x08 /* Private */,
+      52,    0,  609,    2, 0x08 /* Private */,
+      53,    0,  610,    2, 0x08 /* Private */,
+      54,    0,  611,    2, 0x08 /* Private */,
+      55,    0,  612,    2, 0x08 /* Private */,
+      56,    0,  613,    2, 0x08 /* Private */,
+      57,    0,  614,    2, 0x08 /* Private */,
+      58,    0,  615,    2, 0x08 /* Private */,
+      59,    0,  616,    2, 0x08 /* Private */,
+      60,    0,  617,    2, 0x08 /* Private */,
+      61,    0,  618,    2, 0x08 /* Private */,
+      62,    0,  619,    2, 0x08 /* Private */,
+      63,    0,  620,    2, 0x08 /* Private */,
+      64,    0,  621,    2, 0x08 /* Private */,
+      65,    0,  622,    2, 0x08 /* Private */,
+      66,    0,  623,    2, 0x08 /* Private */,
+      67,    0,  624,    2, 0x08 /* Private */,
+      68,    0,  625,    2, 0x08 /* Private */,
+      69,    0,  626,    2, 0x08 /* Private */,
+      70,    0,  627,    2, 0x08 /* Private */,
+      71,    0,  628,    2, 0x08 /* Private */,
+      72,    0,  629,    2, 0x08 /* Private */,
+      73,    0,  630,    2, 0x08 /* Private */,
+      74,    0,  631,    2, 0x08 /* Private */,
+      75,    0,  632,    2, 0x08 /* Private */,
+      76,    0,  633,    2, 0x08 /* Private */,
+      77,    0,  634,    2, 0x08 /* Private */,
+      78,    0,  635,    2, 0x08 /* Private */,
+      79,    0,  636,    2, 0x08 /* Private */,
+      80,    0,  637,    2, 0x08 /* Private */,
+      81,    0,  638,    2, 0x08 /* Private */,
+      82,    0,  639,    2, 0x08 /* Private */,
+      83,    0,  640,    2, 0x08 /* Private */,
+      84,    0,  641,    2, 0x08 /* Private */,
+      85,    0,  642,    2, 0x08 /* Private */,
+      86,    0,  643,    2, 0x08 /* Private */,
+      87,    0,  644,    2, 0x08 /* Private */,
+      88,    0,  645,    2, 0x08 /* Private */,
+      89,    0,  646,    2, 0x08 /* Private */,
+      90,    0,  647,    2, 0x08 /* Private */,
+      91,    0,  648,    2, 0x08 /* Private */,
+      92,    0,  649,    2, 0x08 /* Private */,
+      93,    0,  650,    2, 0x08 /* Private */,
+      94,    0,  651,    2, 0x08 /* Private */,
+      95,    0,  652,    2, 0x08 /* Private */,
+      96,    0,  653,    2, 0x08 /* Private */,
+      97,    0,  654,    2, 0x08 /* Private */,
+      98,    0,  655,    2, 0x08 /* Private */,
+      99,    0,  656,    2, 0x08 /* Private */,
+     100,    0,  657,    2, 0x08 /* Private */,
+     101,    0,  658,    2, 0x08 /* Private */,
+     102,    0,  659,    2, 0x08 /* Private */,
+     103,    0,  660,    2, 0x08 /* Private */,
+     104,    0,  661,    2, 0x08 /* Private */,
+     105,    0,  662,    2, 0x08 /* Private */,
+     106,    0,  663,    2, 0x08 /* Private */,
+     107,    0,  664,    2, 0x08 /* Private */,
+     108,    0,  665,    2, 0x08 /* Private */,
+     109,    0,  666,    2, 0x08 /* Private */,
+     110,    0,  667,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QRect::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QRect *_t = static_cast<tst_QRect *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->isNull_data(); break;
+        case 1: _t->isNull(); break;
+        case 2: _t->newIsEmpty_data(); break;
+        case 3: _t->newIsEmpty(); break;
+        case 4: _t->newIsValid_data(); break;
+        case 5: _t->newIsValid(); break;
+        case 6: _t->normalized_data(); break;
+        case 7: _t->normalized(); break;
+        case 8: _t->left_data(); break;
+        case 9: _t->left(); break;
+        case 10: _t->top_data(); break;
+        case 11: _t->top(); break;
+        case 12: _t->right_data(); break;
+        case 13: _t->right(); break;
+        case 14: _t->bottom_data(); break;
+        case 15: _t->bottom(); break;
+        case 16: _t->x_data(); break;
+        case 17: _t->x(); break;
+        case 18: _t->y_data(); break;
+        case 19: _t->y(); break;
+        case 20: _t->setWidthHeight_data(); break;
+        case 21: _t->setWidthHeight(); break;
+        case 22: _t->setLeft_data(); break;
+        case 23: _t->setLeft(); break;
+        case 24: _t->setTop_data(); break;
+        case 25: _t->setTop(); break;
+        case 26: _t->setRight_data(); break;
+        case 27: _t->setRight(); break;
+        case 28: _t->setBottom_data(); break;
+        case 29: _t->setBottom(); break;
+        case 30: _t->newSetTopLeft_data(); break;
+        case 31: _t->newSetTopLeft(); break;
+        case 32: _t->newSetBottomRight_data(); break;
+        case 33: _t->newSetBottomRight(); break;
+        case 34: _t->newSetTopRight_data(); break;
+        case 35: _t->newSetTopRight(); break;
+        case 36: _t->newSetBottomLeft_data(); break;
+        case 37: _t->newSetBottomLeft(); break;
+        case 38: _t->topLeft_data(); break;
+        case 39: _t->topLeft(); break;
+        case 40: _t->bottomRight_data(); break;
+        case 41: _t->bottomRight(); break;
+        case 42: _t->topRight_data(); break;
+        case 43: _t->topRight(); break;
+        case 44: _t->bottomLeft_data(); break;
+        case 45: _t->bottomLeft(); break;
+        case 46: _t->center_data(); break;
+        case 47: _t->center(); break;
+        case 48: _t->getRect_data(); break;
+        case 49: _t->getRect(); break;
+        case 50: _t->getCoords_data(); break;
+        case 51: _t->getCoords(); break;
+        case 52: _t->newMoveLeft_data(); break;
+        case 53: _t->newMoveLeft(); break;
+        case 54: _t->newMoveTop_data(); break;
+        case 55: _t->newMoveTop(); break;
+        case 56: _t->newMoveRight_data(); break;
+        case 57: _t->newMoveRight(); break;
+        case 58: _t->newMoveBottom_data(); break;
+        case 59: _t->newMoveBottom(); break;
+        case 60: _t->newMoveTopLeft_data(); break;
+        case 61: _t->newMoveTopLeft(); break;
+        case 62: _t->newMoveBottomRight_data(); break;
+        case 63: _t->newMoveBottomRight(); break;
+        case 64: _t->margins(); break;
+        case 65: _t->marginsf(); break;
+        case 66: _t->translate_data(); break;
+        case 67: _t->translate(); break;
+        case 68: _t->transposed_data(); break;
+        case 69: _t->transposed(); break;
+        case 70: _t->moveTop(); break;
+        case 71: _t->moveBottom(); break;
+        case 72: _t->moveLeft(); break;
+        case 73: _t->moveRight(); break;
+        case 74: _t->moveTopLeft(); break;
+        case 75: _t->moveTopRight(); break;
+        case 76: _t->moveBottomLeft(); break;
+        case 77: _t->moveBottomRight(); break;
+        case 78: _t->setTopLeft(); break;
+        case 79: _t->setTopRight(); break;
+        case 80: _t->setBottomLeft(); break;
+        case 81: _t->setBottomRight(); break;
+        case 82: _t->operator_amp(); break;
+        case 83: _t->operator_amp_eq(); break;
+        case 84: _t->isEmpty(); break;
+        case 85: _t->isValid(); break;
+        case 86: _t->testAdjust_data(); break;
+        case 87: _t->testAdjust(); break;
+        case 88: _t->intersectedRect_data(); break;
+        case 89: _t->intersectedRect(); break;
+        case 90: _t->intersectedRectF_data(); break;
+        case 91: _t->intersectedRectF(); break;
+        case 92: _t->unitedRect_data(); break;
+        case 93: _t->unitedRect(); break;
+        case 94: _t->unitedRectF_data(); break;
+        case 95: _t->unitedRectF(); break;
+        case 96: _t->intersectsRect_data(); break;
+        case 97: _t->intersectsRect(); break;
+        case 98: _t->intersectsRectF_data(); break;
+        case 99: _t->intersectsRectF(); break;
+        case 100: _t->containsRect_data(); break;
+        case 101: _t->containsRect(); break;
+        case 102: _t->containsRectF_data(); break;
+        case 103: _t->containsRectF(); break;
+        case 104: _t->containsPoint_data(); break;
+        case 105: _t->containsPoint(); break;
+        case 106: _t->containsPointF_data(); break;
+        case 107: _t->containsPointF(); break;
+        case 108: _t->smallRects(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QRect::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QRect.data,
+      qt_meta_data_tst_QRect,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QRect::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QRect::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QRect.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QRect::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 109)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 109;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 109)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 109;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

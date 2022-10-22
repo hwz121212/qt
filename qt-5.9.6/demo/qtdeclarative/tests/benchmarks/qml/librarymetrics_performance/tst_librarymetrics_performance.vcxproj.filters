@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="tst_librarymetrics_performance.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+    <CustomBuild Include=".moc\debug\tst_librarymetrics_performance.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\tst_librarymetrics_performance.moc.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\absolutepositioning.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\absolutepositioning.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\anchoredpositioning.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\anchoredpositioning.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\anchorwithbindingpositioning.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\anchorwithbindingpositioning.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\anchorwithgridpositioning.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\anchorwithgridpositioning.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\animations.1.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\animations.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\animations.3.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\animations.4.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\bindingpositioning.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\bindingpositioning.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\bindingwithgridpositioning.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\bindingwithgridpositioning.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\expression.1.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\expression.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\expression.3.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\expression.4.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\flickable.1.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\flickable.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\flickable.3.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\green.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\grid.1.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\image.1.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\image.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\image.3.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\image.4.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.1.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.10.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.11.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.12.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.13.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.14.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.15.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.16.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.17.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.18.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.19.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.20.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.21.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.22.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.23.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.24.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.25.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.3.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.4.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.5.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.6.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.7.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.8.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\item.9.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\listview.1.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\listview.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\listview.3.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\mousearea.1.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\mousearea.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\mousearea.3.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\nopositioning.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\nopositioning.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include=".rcc\qmake_qmake_immediate.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+
+    <None Include="data\rectangle.1.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\rectangle.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\rectangle.3.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\repeater.1.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\repeater.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\states.1.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\states.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\text.1.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\text.2.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="data\text.3.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

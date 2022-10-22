@@ -1,0 +1,44 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple", "simple\simple.vcxproj", "{CE0B2A84-6BC2-3536-95EC-49322CEA5623}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mouseItem", "mouseItem\mouseItem.vcxproj", "{33B01DCE-8BD9-3890-97DA-B3EF30F4F663}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "keyNavigation", "keyNavigation\keyNavigation.vcxproj", "{7E7BE05D-A2B5-3A64-8897-DCEA1CA970C3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "configureButtons", "configureButtons\configureButtons.vcxproj", "{AE3F11CD-F5FE-390A-8D8B-0B289532132A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "quickGamepad", "quickGamepad\quickGamepad.vcxproj", "{4534AF84-534B-3AC7-B8B1-441FA2DFCE11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE0B2A84-6BC2-3536-95EC-49322CEA5623}.Debug|x64.ActiveCfg = Debug|x64
+		{CE0B2A84-6BC2-3536-95EC-49322CEA5623}.Debug|x64.Build.0 = Debug|x64
+		{CE0B2A84-6BC2-3536-95EC-49322CEA5623}.Release|x64.ActiveCfg = Release|x64
+		{CE0B2A84-6BC2-3536-95EC-49322CEA5623}.Release|x64.Build.0 = Release|x64
+		{33B01DCE-8BD9-3890-97DA-B3EF30F4F663}.Debug|x64.ActiveCfg = Debug|x64
+		{33B01DCE-8BD9-3890-97DA-B3EF30F4F663}.Debug|x64.Build.0 = Debug|x64
+		{33B01DCE-8BD9-3890-97DA-B3EF30F4F663}.Release|x64.ActiveCfg = Release|x64
+		{33B01DCE-8BD9-3890-97DA-B3EF30F4F663}.Release|x64.Build.0 = Release|x64
+		{7E7BE05D-A2B5-3A64-8897-DCEA1CA970C3}.Debug|x64.ActiveCfg = Debug|x64
+		{7E7BE05D-A2B5-3A64-8897-DCEA1CA970C3}.Debug|x64.Build.0 = Debug|x64
+		{7E7BE05D-A2B5-3A64-8897-DCEA1CA970C3}.Release|x64.ActiveCfg = Release|x64
+		{7E7BE05D-A2B5-3A64-8897-DCEA1CA970C3}.Release|x64.Build.0 = Release|x64
+		{AE3F11CD-F5FE-390A-8D8B-0B289532132A}.Debug|x64.ActiveCfg = Debug|x64
+		{AE3F11CD-F5FE-390A-8D8B-0B289532132A}.Debug|x64.Build.0 = Debug|x64
+		{AE3F11CD-F5FE-390A-8D8B-0B289532132A}.Release|x64.ActiveCfg = Release|x64
+		{AE3F11CD-F5FE-390A-8D8B-0B289532132A}.Release|x64.Build.0 = Release|x64
+		{4534AF84-534B-3AC7-B8B1-441FA2DFCE11}.Debug|x64.ActiveCfg = Debug|x64
+		{4534AF84-534B-3AC7-B8B1-441FA2DFCE11}.Debug|x64.Build.0 = Debug|x64
+		{4534AF84-534B-3AC7-B8B1-441FA2DFCE11}.Release|x64.ActiveCfg = Release|x64
+		{4534AF84-534B-3AC7-B8B1-441FA2DFCE11}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

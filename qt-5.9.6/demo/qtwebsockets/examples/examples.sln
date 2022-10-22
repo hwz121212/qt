@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "echoclient", "websockets\echoclient\echoclient.vcxproj", "{5D4A43DE-9239-33D2-A7CE-969F1314A4E7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "echoserver", "websockets\echoserver\echoserver.vcxproj", "{2AB273DB-9BF1-347C-B402-81E23B4D00E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chatserver", "websockets\simplechat\chatserver.vcxproj", "{F31C43B6-196C-305F-8FF1-3CC8A74C6C2E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qmlwebsocketclient", "websockets\qmlwebsocketclient\qmlwebsocketclient.vcxproj", "{272A169E-0A56-30A7-A5A2-9DD2FBF0516D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qmlwebsocketserver", "websockets\qmlwebsocketserver\qmlwebsocketserver.vcxproj", "{473B48D1-A0B8-3290-9D1A-4FC1C961ACAA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D4A43DE-9239-33D2-A7CE-969F1314A4E7}.Debug|x64.ActiveCfg = Debug|x64
+		{5D4A43DE-9239-33D2-A7CE-969F1314A4E7}.Debug|x64.Build.0 = Debug|x64
+		{5D4A43DE-9239-33D2-A7CE-969F1314A4E7}.Release|x64.ActiveCfg = Release|x64
+		{5D4A43DE-9239-33D2-A7CE-969F1314A4E7}.Release|x64.Build.0 = Release|x64
+		{2AB273DB-9BF1-347C-B402-81E23B4D00E5}.Debug|x64.ActiveCfg = Debug|x64
+		{2AB273DB-9BF1-347C-B402-81E23B4D00E5}.Debug|x64.Build.0 = Debug|x64
+		{2AB273DB-9BF1-347C-B402-81E23B4D00E5}.Release|x64.ActiveCfg = Release|x64
+		{2AB273DB-9BF1-347C-B402-81E23B4D00E5}.Release|x64.Build.0 = Release|x64
+		{F31C43B6-196C-305F-8FF1-3CC8A74C6C2E}.Debug|x64.ActiveCfg = Debug|x64
+		{F31C43B6-196C-305F-8FF1-3CC8A74C6C2E}.Debug|x64.Build.0 = Debug|x64
+		{F31C43B6-196C-305F-8FF1-3CC8A74C6C2E}.Release|x64.ActiveCfg = Release|x64
+		{F31C43B6-196C-305F-8FF1-3CC8A74C6C2E}.Release|x64.Build.0 = Release|x64
+		{272A169E-0A56-30A7-A5A2-9DD2FBF0516D}.Debug|x64.ActiveCfg = Debug|x64
+		{272A169E-0A56-30A7-A5A2-9DD2FBF0516D}.Debug|x64.Build.0 = Debug|x64
+		{272A169E-0A56-30A7-A5A2-9DD2FBF0516D}.Release|x64.ActiveCfg = Release|x64
+		{272A169E-0A56-30A7-A5A2-9DD2FBF0516D}.Release|x64.Build.0 = Release|x64
+		{473B48D1-A0B8-3290-9D1A-4FC1C961ACAA}.Debug|x64.ActiveCfg = Debug|x64
+		{473B48D1-A0B8-3290-9D1A-4FC1C961ACAA}.Debug|x64.Build.0 = Debug|x64
+		{473B48D1-A0B8-3290-9D1A-4FC1C961ACAA}.Release|x64.ActiveCfg = Release|x64
+		{473B48D1-A0B8-3290-9D1A-4FC1C961ACAA}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = msvc2017_64
+		SolutionGuid = {4D712DF8-4DE4-4501-9846-D8239BD0361E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,91 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_lrelease", "auto\linguist\lrelease\tst_lrelease.vcxproj", "{5443271A-DE29-35FF-B85F-EDF49FDA26B9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_lconvert", "auto\linguist\lconvert\tst_lconvert.vcxproj", "{9CAE3B2C-67F8-352F-AEDD-2E78DF2D8C1A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_lupdate", "auto\linguist\lupdate\tst_lupdate.vcxproj", "{47D26E3C-E0BA-3B43-A05A-29BDF499EA06}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qtattributionsscanner", "auto\qtattributionsscanner\tst_qtattributionsscanner.vcxproj", "{1E0FEE48-3464-3518-93DF-CD9560BBF5CA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qhelpcontentmodel", "auto\qhelpcontentmodel\tst_qhelpcontentmodel.vcxproj", "{46F7B0CC-FFE8-3300-86F7-F02EEEAD10FD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qhelpenginecore", "auto\qhelpenginecore\tst_qhelpenginecore.vcxproj", "{B2BE31E4-1AC9-316A-ACC9-E0BB9AB97742}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qhelpgenerator", "auto\qhelpgenerator\tst_qhelpgenerator.vcxproj", "{CED53F0E-7281-3D05-8407-CC20A156DE9E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qhelpindexmodel", "auto\qhelpindexmodel\tst_qhelpindexmodel.vcxproj", "{DC2A397D-A07A-3D14-80FB-EFE44FC4EDDB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qhelpprojectdata", "auto\qhelpprojectdata\tst_qhelpprojectdata.vcxproj", "{BD420D2F-CBB9-3E6C-9917-F4E8237ADB91}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_tdiag", "auto\qtdiag\tst_tdiag.vcxproj", "{A3098B71-68F4-36E8-B51A-26CD08856172}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testapp", "auto\windeployqt\testapp\testapp.vcxproj", "{750EA012-AF32-3F99-9106-BC22B16F2FA7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_windeployqt", "auto\windeployqt\test\tst_windeployqt.vcxproj", "{92E0ED7E-C2A4-3187-B896-77EAD26E444A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5443271A-DE29-35FF-B85F-EDF49FDA26B9}.Debug|x64.ActiveCfg = Debug|x64
+		{5443271A-DE29-35FF-B85F-EDF49FDA26B9}.Debug|x64.Build.0 = Debug|x64
+		{5443271A-DE29-35FF-B85F-EDF49FDA26B9}.Release|x64.ActiveCfg = Release|x64
+		{5443271A-DE29-35FF-B85F-EDF49FDA26B9}.Release|x64.Build.0 = Release|x64
+		{9CAE3B2C-67F8-352F-AEDD-2E78DF2D8C1A}.Debug|x64.ActiveCfg = Debug|x64
+		{9CAE3B2C-67F8-352F-AEDD-2E78DF2D8C1A}.Debug|x64.Build.0 = Debug|x64
+		{9CAE3B2C-67F8-352F-AEDD-2E78DF2D8C1A}.Release|x64.ActiveCfg = Release|x64
+		{9CAE3B2C-67F8-352F-AEDD-2E78DF2D8C1A}.Release|x64.Build.0 = Release|x64
+		{47D26E3C-E0BA-3B43-A05A-29BDF499EA06}.Debug|x64.ActiveCfg = Debug|x64
+		{47D26E3C-E0BA-3B43-A05A-29BDF499EA06}.Debug|x64.Build.0 = Debug|x64
+		{47D26E3C-E0BA-3B43-A05A-29BDF499EA06}.Release|x64.ActiveCfg = Release|x64
+		{47D26E3C-E0BA-3B43-A05A-29BDF499EA06}.Release|x64.Build.0 = Release|x64
+		{1E0FEE48-3464-3518-93DF-CD9560BBF5CA}.Debug|x64.ActiveCfg = Debug|x64
+		{1E0FEE48-3464-3518-93DF-CD9560BBF5CA}.Debug|x64.Build.0 = Debug|x64
+		{1E0FEE48-3464-3518-93DF-CD9560BBF5CA}.Release|x64.ActiveCfg = Release|x64
+		{1E0FEE48-3464-3518-93DF-CD9560BBF5CA}.Release|x64.Build.0 = Release|x64
+		{46F7B0CC-FFE8-3300-86F7-F02EEEAD10FD}.Debug|x64.ActiveCfg = Debug|x64
+		{46F7B0CC-FFE8-3300-86F7-F02EEEAD10FD}.Debug|x64.Build.0 = Debug|x64
+		{46F7B0CC-FFE8-3300-86F7-F02EEEAD10FD}.Release|x64.ActiveCfg = Release|x64
+		{46F7B0CC-FFE8-3300-86F7-F02EEEAD10FD}.Release|x64.Build.0 = Release|x64
+		{B2BE31E4-1AC9-316A-ACC9-E0BB9AB97742}.Debug|x64.ActiveCfg = Debug|x64
+		{B2BE31E4-1AC9-316A-ACC9-E0BB9AB97742}.Debug|x64.Build.0 = Debug|x64
+		{B2BE31E4-1AC9-316A-ACC9-E0BB9AB97742}.Release|x64.ActiveCfg = Release|x64
+		{B2BE31E4-1AC9-316A-ACC9-E0BB9AB97742}.Release|x64.Build.0 = Release|x64
+		{CED53F0E-7281-3D05-8407-CC20A156DE9E}.Debug|x64.ActiveCfg = Debug|x64
+		{CED53F0E-7281-3D05-8407-CC20A156DE9E}.Debug|x64.Build.0 = Debug|x64
+		{CED53F0E-7281-3D05-8407-CC20A156DE9E}.Release|x64.ActiveCfg = Release|x64
+		{CED53F0E-7281-3D05-8407-CC20A156DE9E}.Release|x64.Build.0 = Release|x64
+		{DC2A397D-A07A-3D14-80FB-EFE44FC4EDDB}.Debug|x64.ActiveCfg = Debug|x64
+		{DC2A397D-A07A-3D14-80FB-EFE44FC4EDDB}.Debug|x64.Build.0 = Debug|x64
+		{DC2A397D-A07A-3D14-80FB-EFE44FC4EDDB}.Release|x64.ActiveCfg = Release|x64
+		{DC2A397D-A07A-3D14-80FB-EFE44FC4EDDB}.Release|x64.Build.0 = Release|x64
+		{BD420D2F-CBB9-3E6C-9917-F4E8237ADB91}.Debug|x64.ActiveCfg = Debug|x64
+		{BD420D2F-CBB9-3E6C-9917-F4E8237ADB91}.Debug|x64.Build.0 = Debug|x64
+		{BD420D2F-CBB9-3E6C-9917-F4E8237ADB91}.Release|x64.ActiveCfg = Release|x64
+		{BD420D2F-CBB9-3E6C-9917-F4E8237ADB91}.Release|x64.Build.0 = Release|x64
+		{A3098B71-68F4-36E8-B51A-26CD08856172}.Debug|x64.ActiveCfg = Debug|x64
+		{A3098B71-68F4-36E8-B51A-26CD08856172}.Debug|x64.Build.0 = Debug|x64
+		{A3098B71-68F4-36E8-B51A-26CD08856172}.Release|x64.ActiveCfg = Release|x64
+		{A3098B71-68F4-36E8-B51A-26CD08856172}.Release|x64.Build.0 = Release|x64
+		{750EA012-AF32-3F99-9106-BC22B16F2FA7}.Debug|x64.ActiveCfg = Debug|x64
+		{750EA012-AF32-3F99-9106-BC22B16F2FA7}.Debug|x64.Build.0 = Debug|x64
+		{750EA012-AF32-3F99-9106-BC22B16F2FA7}.Release|x64.ActiveCfg = Release|x64
+		{750EA012-AF32-3F99-9106-BC22B16F2FA7}.Release|x64.Build.0 = Release|x64
+		{92E0ED7E-C2A4-3187-B896-77EAD26E444A}.Debug|x64.ActiveCfg = Debug|x64
+		{92E0ED7E-C2A4-3187-B896-77EAD26E444A}.Debug|x64.Build.0 = Debug|x64
+		{92E0ED7E-C2A4-3187-B896-77EAD26E444A}.Release|x64.ActiveCfg = Release|x64
+		{92E0ED7E-C2A4-3187-B896-77EAD26E444A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = msvc2017_64
+		SolutionGuid = {8790E221-1932-4811-8DFC-BE0BC97D8B95}
+	EndGlobalSection
+EndGlobal

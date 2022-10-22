@@ -1,0 +1,571 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qfile.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qfile.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QFile_t {
+    QByteArrayData data[107];
+    char stringdata0[1478];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QFile_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QFile_t qt_meta_stringdata_tst_QFile = {
+    {
+QT_MOC_LITERAL(0, 0, 9), // "tst_QFile"
+QT_MOC_LITERAL(1, 10, 4), // "init"
+QT_MOC_LITERAL(2, 15, 0), // ""
+QT_MOC_LITERAL(3, 16, 7), // "cleanup"
+QT_MOC_LITERAL(4, 24, 12), // "initTestCase"
+QT_MOC_LITERAL(5, 37, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(6, 53, 6), // "exists"
+QT_MOC_LITERAL(7, 60, 9), // "open_data"
+QT_MOC_LITERAL(8, 70, 4), // "open"
+QT_MOC_LITERAL(9, 75, 14), // "openUnbuffered"
+QT_MOC_LITERAL(10, 90, 9), // "size_data"
+QT_MOC_LITERAL(11, 100, 4), // "size"
+QT_MOC_LITERAL(12, 105, 11), // "sizeNoExist"
+QT_MOC_LITERAL(13, 117, 4), // "seek"
+QT_MOC_LITERAL(14, 122, 7), // "setSize"
+QT_MOC_LITERAL(15, 130, 11), // "setSizeSeek"
+QT_MOC_LITERAL(16, 142, 5), // "atEnd"
+QT_MOC_LITERAL(17, 148, 8), // "readLine"
+QT_MOC_LITERAL(18, 157, 9), // "readLine2"
+QT_MOC_LITERAL(19, 167, 18), // "readLineNullInLine"
+QT_MOC_LITERAL(20, 186, 12), // "readAll_data"
+QT_MOC_LITERAL(21, 199, 7), // "readAll"
+QT_MOC_LITERAL(22, 207, 13), // "readAllBuffer"
+QT_MOC_LITERAL(23, 221, 12), // "readAllStdin"
+QT_MOC_LITERAL(24, 234, 13), // "readLineStdin"
+QT_MOC_LITERAL(25, 248, 24), // "readLineStdin_lineByLine"
+QT_MOC_LITERAL(26, 273, 4), // "text"
+QT_MOC_LITERAL(27, 278, 16), // "missingEndOfLine"
+QT_MOC_LITERAL(28, 295, 9), // "readBlock"
+QT_MOC_LITERAL(29, 305, 5), // "getch"
+QT_MOC_LITERAL(30, 311, 9), // "ungetChar"
+QT_MOC_LITERAL(31, 321, 10), // "createFile"
+QT_MOC_LITERAL(32, 332, 6), // "append"
+QT_MOC_LITERAL(33, 339, 16), // "permissions_data"
+QT_MOC_LITERAL(34, 356, 11), // "permissions"
+QT_MOC_LITERAL(35, 368, 20), // "permissionsNtfs_data"
+QT_MOC_LITERAL(36, 389, 15), // "permissionsNtfs"
+QT_MOC_LITERAL(37, 405, 14), // "setPermissions"
+QT_MOC_LITERAL(38, 420, 4), // "copy"
+QT_MOC_LITERAL(39, 425, 13), // "copyAfterFail"
+QT_MOC_LITERAL(40, 439, 24), // "copyRemovesTemporaryFile"
+QT_MOC_LITERAL(41, 464, 21), // "copyShouldntOverwrite"
+QT_MOC_LITERAL(42, 486, 12), // "copyFallback"
+QT_MOC_LITERAL(43, 499, 4), // "link"
+QT_MOC_LITERAL(44, 504, 9), // "linkToDir"
+QT_MOC_LITERAL(45, 514, 30), // "absolutePathLinkToRelativePath"
+QT_MOC_LITERAL(46, 545, 14), // "readBrokenLink"
+QT_MOC_LITERAL(47, 560, 17), // "readTextFile_data"
+QT_MOC_LITERAL(48, 578, 12), // "readTextFile"
+QT_MOC_LITERAL(49, 591, 13), // "readTextFile2"
+QT_MOC_LITERAL(50, 605, 18), // "writeTextFile_data"
+QT_MOC_LITERAL(51, 624, 13), // "writeTextFile"
+QT_MOC_LITERAL(52, 638, 19), // "largeUncFileSupport"
+QT_MOC_LITERAL(53, 658, 5), // "flush"
+QT_MOC_LITERAL(54, 664, 12), // "bufferedRead"
+QT_MOC_LITERAL(55, 677, 10), // "encodeName"
+QT_MOC_LITERAL(56, 688, 8), // "truncate"
+QT_MOC_LITERAL(57, 697, 9), // "seekToPos"
+QT_MOC_LITERAL(58, 707, 18), // "seekAfterEndOfFile"
+QT_MOC_LITERAL(59, 726, 13), // "FILEReadWrite"
+QT_MOC_LITERAL(60, 740, 17), // "i18nFileName_data"
+QT_MOC_LITERAL(61, 758, 12), // "i18nFileName"
+QT_MOC_LITERAL(62, 771, 17), // "longFileName_data"
+QT_MOC_LITERAL(63, 789, 12), // "longFileName"
+QT_MOC_LITERAL(64, 802, 17), // "fileEngineHandler"
+QT_MOC_LITERAL(65, 820, 9), // "getCharFF"
+QT_MOC_LITERAL(66, 830, 17), // "remove_and_exists"
+QT_MOC_LITERAL(67, 848, 14), // "removeOpenFile"
+QT_MOC_LITERAL(68, 863, 8), // "fullDisk"
+QT_MOC_LITERAL(69, 872, 24), // "writeLargeDataBlock_data"
+QT_MOC_LITERAL(70, 897, 19), // "writeLargeDataBlock"
+QT_MOC_LITERAL(71, 917, 21), // "readFromWriteOnlyFile"
+QT_MOC_LITERAL(72, 939, 19), // "writeToReadOnlyFile"
+QT_MOC_LITERAL(73, 959, 8), // "textFile"
+QT_MOC_LITERAL(74, 968, 11), // "rename_data"
+QT_MOC_LITERAL(75, 980, 6), // "rename"
+QT_MOC_LITERAL(76, 987, 26), // "renameWithAtEndSpecialFile"
+QT_MOC_LITERAL(77, 1014, 14), // "renameFallback"
+QT_MOC_LITERAL(78, 1029, 14), // "renameMultiple"
+QT_MOC_LITERAL(79, 1044, 13), // "appendAndRead"
+QT_MOC_LITERAL(80, 1058, 27), // "miscWithUncPathAsCurrentDir"
+QT_MOC_LITERAL(81, 1086, 13), // "standarderror"
+QT_MOC_LITERAL(82, 1100, 6), // "handle"
+QT_MOC_LITERAL(83, 1107, 17), // "nativeHandleLeaks"
+QT_MOC_LITERAL(84, 1125, 12), // "readEof_data"
+QT_MOC_LITERAL(85, 1138, 7), // "readEof"
+QT_MOC_LITERAL(86, 1146, 8), // "map_data"
+QT_MOC_LITERAL(87, 1155, 3), // "map"
+QT_MOC_LITERAL(88, 1159, 16), // "mapResource_data"
+QT_MOC_LITERAL(89, 1176, 11), // "mapResource"
+QT_MOC_LITERAL(90, 1188, 16), // "mapOpenMode_data"
+QT_MOC_LITERAL(91, 1205, 11), // "mapOpenMode"
+QT_MOC_LITERAL(92, 1217, 19), // "mapWrittenFile_data"
+QT_MOC_LITERAL(93, 1237, 14), // "mapWrittenFile"
+QT_MOC_LITERAL(94, 1252, 34), // "openStandardStreamsFileDescri..."
+QT_MOC_LITERAL(95, 1287, 34), // "openStandardStreamsBufferedSt..."
+QT_MOC_LITERAL(96, 1322, 11), // "resize_data"
+QT_MOC_LITERAL(97, 1334, 6), // "resize"
+QT_MOC_LITERAL(98, 1341, 18), // "objectConstructors"
+QT_MOC_LITERAL(99, 1360, 15), // "caseSensitivity"
+QT_MOC_LITERAL(100, 1376, 15), // "autocloseHandle"
+QT_MOC_LITERAL(101, 1392, 18), // "posAfterFailedStat"
+QT_MOC_LITERAL(102, 1411, 13), // "openDirectory"
+QT_MOC_LITERAL(103, 1425, 12), // "writeNothing"
+QT_MOC_LITERAL(104, 1438, 16), // "invalidFile_data"
+QT_MOC_LITERAL(105, 1455, 11), // "invalidFile"
+QT_MOC_LITERAL(106, 1467, 10) // "reuseQFile"
+
+    },
+    "tst_QFile\0init\0\0cleanup\0initTestCase\0"
+    "cleanupTestCase\0exists\0open_data\0open\0"
+    "openUnbuffered\0size_data\0size\0sizeNoExist\0"
+    "seek\0setSize\0setSizeSeek\0atEnd\0readLine\0"
+    "readLine2\0readLineNullInLine\0readAll_data\0"
+    "readAll\0readAllBuffer\0readAllStdin\0"
+    "readLineStdin\0readLineStdin_lineByLine\0"
+    "text\0missingEndOfLine\0readBlock\0getch\0"
+    "ungetChar\0createFile\0append\0"
+    "permissions_data\0permissions\0"
+    "permissionsNtfs_data\0permissionsNtfs\0"
+    "setPermissions\0copy\0copyAfterFail\0"
+    "copyRemovesTemporaryFile\0copyShouldntOverwrite\0"
+    "copyFallback\0link\0linkToDir\0"
+    "absolutePathLinkToRelativePath\0"
+    "readBrokenLink\0readTextFile_data\0"
+    "readTextFile\0readTextFile2\0"
+    "writeTextFile_data\0writeTextFile\0"
+    "largeUncFileSupport\0flush\0bufferedRead\0"
+    "encodeName\0truncate\0seekToPos\0"
+    "seekAfterEndOfFile\0FILEReadWrite\0"
+    "i18nFileName_data\0i18nFileName\0"
+    "longFileName_data\0longFileName\0"
+    "fileEngineHandler\0getCharFF\0"
+    "remove_and_exists\0removeOpenFile\0"
+    "fullDisk\0writeLargeDataBlock_data\0"
+    "writeLargeDataBlock\0readFromWriteOnlyFile\0"
+    "writeToReadOnlyFile\0textFile\0rename_data\0"
+    "rename\0renameWithAtEndSpecialFile\0"
+    "renameFallback\0renameMultiple\0"
+    "appendAndRead\0miscWithUncPathAsCurrentDir\0"
+    "standarderror\0handle\0nativeHandleLeaks\0"
+    "readEof_data\0readEof\0map_data\0map\0"
+    "mapResource_data\0mapResource\0"
+    "mapOpenMode_data\0mapOpenMode\0"
+    "mapWrittenFile_data\0mapWrittenFile\0"
+    "openStandardStreamsFileDescriptors\0"
+    "openStandardStreamsBufferedStreams\0"
+    "resize_data\0resize\0objectConstructors\0"
+    "caseSensitivity\0autocloseHandle\0"
+    "posAfterFailedStat\0openDirectory\0"
+    "writeNothing\0invalidFile_data\0invalidFile\0"
+    "reuseQFile"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QFile[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+     105,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  539,    2, 0x08 /* Private */,
+       3,    0,  540,    2, 0x08 /* Private */,
+       4,    0,  541,    2, 0x08 /* Private */,
+       5,    0,  542,    2, 0x08 /* Private */,
+       6,    0,  543,    2, 0x08 /* Private */,
+       7,    0,  544,    2, 0x08 /* Private */,
+       8,    0,  545,    2, 0x08 /* Private */,
+       9,    0,  546,    2, 0x08 /* Private */,
+      10,    0,  547,    2, 0x08 /* Private */,
+      11,    0,  548,    2, 0x08 /* Private */,
+      12,    0,  549,    2, 0x08 /* Private */,
+      13,    0,  550,    2, 0x08 /* Private */,
+      14,    0,  551,    2, 0x08 /* Private */,
+      15,    0,  552,    2, 0x08 /* Private */,
+      16,    0,  553,    2, 0x08 /* Private */,
+      17,    0,  554,    2, 0x08 /* Private */,
+      18,    0,  555,    2, 0x08 /* Private */,
+      19,    0,  556,    2, 0x08 /* Private */,
+      20,    0,  557,    2, 0x08 /* Private */,
+      21,    0,  558,    2, 0x08 /* Private */,
+      22,    0,  559,    2, 0x08 /* Private */,
+      23,    0,  560,    2, 0x08 /* Private */,
+      24,    0,  561,    2, 0x08 /* Private */,
+      25,    0,  562,    2, 0x08 /* Private */,
+      26,    0,  563,    2, 0x08 /* Private */,
+      27,    0,  564,    2, 0x08 /* Private */,
+      28,    0,  565,    2, 0x08 /* Private */,
+      29,    0,  566,    2, 0x08 /* Private */,
+      30,    0,  567,    2, 0x08 /* Private */,
+      31,    0,  568,    2, 0x08 /* Private */,
+      32,    0,  569,    2, 0x08 /* Private */,
+      33,    0,  570,    2, 0x08 /* Private */,
+      34,    0,  571,    2, 0x08 /* Private */,
+      35,    0,  572,    2, 0x08 /* Private */,
+      36,    0,  573,    2, 0x08 /* Private */,
+      37,    0,  574,    2, 0x08 /* Private */,
+      38,    0,  575,    2, 0x08 /* Private */,
+      39,    0,  576,    2, 0x08 /* Private */,
+      40,    0,  577,    2, 0x08 /* Private */,
+      41,    0,  578,    2, 0x08 /* Private */,
+      42,    0,  579,    2, 0x08 /* Private */,
+      43,    0,  580,    2, 0x08 /* Private */,
+      44,    0,  581,    2, 0x08 /* Private */,
+      45,    0,  582,    2, 0x08 /* Private */,
+      46,    0,  583,    2, 0x08 /* Private */,
+      47,    0,  584,    2, 0x08 /* Private */,
+      48,    0,  585,    2, 0x08 /* Private */,
+      49,    0,  586,    2, 0x08 /* Private */,
+      50,    0,  587,    2, 0x08 /* Private */,
+      51,    0,  588,    2, 0x08 /* Private */,
+      52,    0,  589,    2, 0x08 /* Private */,
+      53,    0,  590,    2, 0x08 /* Private */,
+      54,    0,  591,    2, 0x08 /* Private */,
+      55,    0,  592,    2, 0x08 /* Private */,
+      56,    0,  593,    2, 0x08 /* Private */,
+      57,    0,  594,    2, 0x08 /* Private */,
+      58,    0,  595,    2, 0x08 /* Private */,
+      59,    0,  596,    2, 0x08 /* Private */,
+      60,    0,  597,    2, 0x08 /* Private */,
+      61,    0,  598,    2, 0x08 /* Private */,
+      62,    0,  599,    2, 0x08 /* Private */,
+      63,    0,  600,    2, 0x08 /* Private */,
+      64,    0,  601,    2, 0x08 /* Private */,
+      65,    0,  602,    2, 0x08 /* Private */,
+      66,    0,  603,    2, 0x08 /* Private */,
+      67,    0,  604,    2, 0x08 /* Private */,
+      68,    0,  605,    2, 0x08 /* Private */,
+      69,    0,  606,    2, 0x08 /* Private */,
+      70,    0,  607,    2, 0x08 /* Private */,
+      71,    0,  608,    2, 0x08 /* Private */,
+      72,    0,  609,    2, 0x08 /* Private */,
+      73,    0,  610,    2, 0x08 /* Private */,
+      74,    0,  611,    2, 0x08 /* Private */,
+      75,    0,  612,    2, 0x08 /* Private */,
+      76,    0,  613,    2, 0x08 /* Private */,
+      77,    0,  614,    2, 0x08 /* Private */,
+      78,    0,  615,    2, 0x08 /* Private */,
+      79,    0,  616,    2, 0x08 /* Private */,
+      80,    0,  617,    2, 0x08 /* Private */,
+      81,    0,  618,    2, 0x08 /* Private */,
+      82,    0,  619,    2, 0x08 /* Private */,
+      83,    0,  620,    2, 0x08 /* Private */,
+      84,    0,  621,    2, 0x08 /* Private */,
+      85,    0,  622,    2, 0x08 /* Private */,
+      86,    0,  623,    2, 0x08 /* Private */,
+      87,    0,  624,    2, 0x08 /* Private */,
+      88,    0,  625,    2, 0x08 /* Private */,
+      89,    0,  626,    2, 0x08 /* Private */,
+      90,    0,  627,    2, 0x08 /* Private */,
+      91,    0,  628,    2, 0x08 /* Private */,
+      92,    0,  629,    2, 0x08 /* Private */,
+      93,    0,  630,    2, 0x08 /* Private */,
+      94,    0,  631,    2, 0x08 /* Private */,
+      95,    0,  632,    2, 0x08 /* Private */,
+      96,    0,  633,    2, 0x08 /* Private */,
+      97,    0,  634,    2, 0x08 /* Private */,
+      98,    0,  635,    2, 0x08 /* Private */,
+      99,    0,  636,    2, 0x08 /* Private */,
+     100,    0,  637,    2, 0x08 /* Private */,
+     101,    0,  638,    2, 0x08 /* Private */,
+     102,    0,  639,    2, 0x08 /* Private */,
+     103,    0,  640,    2, 0x08 /* Private */,
+     104,    0,  641,    2, 0x08 /* Private */,
+     105,    0,  642,    2, 0x08 /* Private */,
+     106,    0,  643,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QFile::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QFile *_t = static_cast<tst_QFile *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->init(); break;
+        case 1: _t->cleanup(); break;
+        case 2: _t->initTestCase(); break;
+        case 3: _t->cleanupTestCase(); break;
+        case 4: _t->exists(); break;
+        case 5: _t->open_data(); break;
+        case 6: _t->open(); break;
+        case 7: _t->openUnbuffered(); break;
+        case 8: _t->size_data(); break;
+        case 9: _t->size(); break;
+        case 10: _t->sizeNoExist(); break;
+        case 11: _t->seek(); break;
+        case 12: _t->setSize(); break;
+        case 13: _t->setSizeSeek(); break;
+        case 14: _t->atEnd(); break;
+        case 15: _t->readLine(); break;
+        case 16: _t->readLine2(); break;
+        case 17: _t->readLineNullInLine(); break;
+        case 18: _t->readAll_data(); break;
+        case 19: _t->readAll(); break;
+        case 20: _t->readAllBuffer(); break;
+        case 21: _t->readAllStdin(); break;
+        case 22: _t->readLineStdin(); break;
+        case 23: _t->readLineStdin_lineByLine(); break;
+        case 24: _t->text(); break;
+        case 25: _t->missingEndOfLine(); break;
+        case 26: _t->readBlock(); break;
+        case 27: _t->getch(); break;
+        case 28: _t->ungetChar(); break;
+        case 29: _t->createFile(); break;
+        case 30: _t->append(); break;
+        case 31: _t->permissions_data(); break;
+        case 32: _t->permissions(); break;
+        case 33: _t->permissionsNtfs_data(); break;
+        case 34: _t->permissionsNtfs(); break;
+        case 35: _t->setPermissions(); break;
+        case 36: _t->copy(); break;
+        case 37: _t->copyAfterFail(); break;
+        case 38: _t->copyRemovesTemporaryFile(); break;
+        case 39: _t->copyShouldntOverwrite(); break;
+        case 40: _t->copyFallback(); break;
+        case 41: _t->link(); break;
+        case 42: _t->linkToDir(); break;
+        case 43: _t->absolutePathLinkToRelativePath(); break;
+        case 44: _t->readBrokenLink(); break;
+        case 45: _t->readTextFile_data(); break;
+        case 46: _t->readTextFile(); break;
+        case 47: _t->readTextFile2(); break;
+        case 48: _t->writeTextFile_data(); break;
+        case 49: _t->writeTextFile(); break;
+        case 50: _t->largeUncFileSupport(); break;
+        case 51: _t->flush(); break;
+        case 52: _t->bufferedRead(); break;
+        case 53: _t->encodeName(); break;
+        case 54: _t->truncate(); break;
+        case 55: _t->seekToPos(); break;
+        case 56: _t->seekAfterEndOfFile(); break;
+        case 57: _t->FILEReadWrite(); break;
+        case 58: _t->i18nFileName_data(); break;
+        case 59: _t->i18nFileName(); break;
+        case 60: _t->longFileName_data(); break;
+        case 61: _t->longFileName(); break;
+        case 62: _t->fileEngineHandler(); break;
+        case 63: _t->getCharFF(); break;
+        case 64: _t->remove_and_exists(); break;
+        case 65: _t->removeOpenFile(); break;
+        case 66: _t->fullDisk(); break;
+        case 67: _t->writeLargeDataBlock_data(); break;
+        case 68: _t->writeLargeDataBlock(); break;
+        case 69: _t->readFromWriteOnlyFile(); break;
+        case 70: _t->writeToReadOnlyFile(); break;
+        case 71: _t->textFile(); break;
+        case 72: _t->rename_data(); break;
+        case 73: _t->rename(); break;
+        case 74: _t->renameWithAtEndSpecialFile(); break;
+        case 75: _t->renameFallback(); break;
+        case 76: _t->renameMultiple(); break;
+        case 77: _t->appendAndRead(); break;
+        case 78: _t->miscWithUncPathAsCurrentDir(); break;
+        case 79: _t->standarderror(); break;
+        case 80: _t->handle(); break;
+        case 81: _t->nativeHandleLeaks(); break;
+        case 82: _t->readEof_data(); break;
+        case 83: _t->readEof(); break;
+        case 84: _t->map_data(); break;
+        case 85: _t->map(); break;
+        case 86: _t->mapResource_data(); break;
+        case 87: _t->mapResource(); break;
+        case 88: _t->mapOpenMode_data(); break;
+        case 89: _t->mapOpenMode(); break;
+        case 90: _t->mapWrittenFile_data(); break;
+        case 91: _t->mapWrittenFile(); break;
+        case 92: _t->openStandardStreamsFileDescriptors(); break;
+        case 93: _t->openStandardStreamsBufferedStreams(); break;
+        case 94: _t->resize_data(); break;
+        case 95: _t->resize(); break;
+        case 96: _t->objectConstructors(); break;
+        case 97: _t->caseSensitivity(); break;
+        case 98: _t->autocloseHandle(); break;
+        case 99: _t->posAfterFailedStat(); break;
+        case 100: _t->openDirectory(); break;
+        case 101: _t->writeNothing(); break;
+        case 102: _t->invalidFile_data(); break;
+        case 103: _t->invalidFile(); break;
+        case 104: _t->reuseQFile(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QFile::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QFile.data,
+      qt_meta_data_tst_QFile,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QFile::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QFile::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QFile.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QFile::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 105)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 105;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 105)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 105;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

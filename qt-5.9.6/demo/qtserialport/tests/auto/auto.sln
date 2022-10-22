@@ -1,0 +1,26 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qserialport", "F:/qt/Src/qtserialport/tests/auto/qserialport\tst_qserialport.vcxproj", "{626C3752-48B2-3F7C-9119-CA532C3D2E8E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qserialportinfo", "F:/qt/Src/qtserialport/tests/auto/qserialportinfo\tst_qserialportinfo.vcxproj", "{D047303B-D2BE-3894-B719-33BF63E8A29C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{626C3752-48B2-3F7C-9119-CA532C3D2E8E}.Debug|x64.ActiveCfg = Debug|x64
+		{626C3752-48B2-3F7C-9119-CA532C3D2E8E}.Debug|x64.Build.0 = Debug|x64
+		{626C3752-48B2-3F7C-9119-CA532C3D2E8E}.Release|x64.ActiveCfg = Release|x64
+		{626C3752-48B2-3F7C-9119-CA532C3D2E8E}.Release|x64.Build.0 = Release|x64
+		{D047303B-D2BE-3894-B719-33BF63E8A29C}.Debug|x64.ActiveCfg = Debug|x64
+		{D047303B-D2BE-3894-B719-33BF63E8A29C}.Debug|x64.Build.0 = Debug|x64
+		{D047303B-D2BE-3894-B719-33BF63E8A29C}.Release|x64.ActiveCfg = Release|x64
+		{D047303B-D2BE-3894-B719-33BF63E8A29C}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

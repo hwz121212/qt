@@ -1,0 +1,462 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qqmlengine.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qqmlengine.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_qqmlengine_t {
+    QByteArrayData data[26];
+    char stringdata0[484];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_qqmlengine_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_qqmlengine_t qt_meta_stringdata_tst_qqmlengine = {
+    {
+QT_MOC_LITERAL(0, 0, 14), // "tst_qqmlengine"
+QT_MOC_LITERAL(1, 15, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 28, 0), // ""
+QT_MOC_LITERAL(3, 29, 11), // "rootContext"
+QT_MOC_LITERAL(4, 41, 20), // "networkAccessManager"
+QT_MOC_LITERAL(5, 62, 31), // "synchronousNetworkAccessManager"
+QT_MOC_LITERAL(6, 94, 7), // "baseUrl"
+QT_MOC_LITERAL(7, 102, 16), // "contextForObject"
+QT_MOC_LITERAL(8, 119, 18), // "offlineStoragePath"
+QT_MOC_LITERAL(9, 138, 26), // "offlineDatabaseStoragePath"
+QT_MOC_LITERAL(10, 165, 19), // "clearComponentCache"
+QT_MOC_LITERAL(11, 185, 18), // "trimComponentCache"
+QT_MOC_LITERAL(12, 204, 23), // "trimComponentCache_data"
+QT_MOC_LITERAL(13, 228, 19), // "repeatedCompilation"
+QT_MOC_LITERAL(14, 248, 17), // "failedCompilation"
+QT_MOC_LITERAL(15, 266, 22), // "failedCompilation_data"
+QT_MOC_LITERAL(16, 289, 29), // "outputWarningsToStandardError"
+QT_MOC_LITERAL(17, 319, 15), // "objectOwnership"
+QT_MOC_LITERAL(18, 335, 15), // "multipleEngines"
+QT_MOC_LITERAL(19, 351, 16), // "qtqmlModule_data"
+QT_MOC_LITERAL(20, 368, 11), // "qtqmlModule"
+QT_MOC_LITERAL(21, 380, 19), // "urlInterceptor_data"
+QT_MOC_LITERAL(22, 400, 14), // "urlInterceptor"
+QT_MOC_LITERAL(23, 415, 20), // "qmlContextProperties"
+QT_MOC_LITERAL(24, 436, 16), // "testGCCorruption"
+QT_MOC_LITERAL(25, 453, 30) // "createAQObjectForOwnershipTest"
+
+    },
+    "tst_qqmlengine\0initTestCase\0\0rootContext\0"
+    "networkAccessManager\0"
+    "synchronousNetworkAccessManager\0baseUrl\0"
+    "contextForObject\0offlineStoragePath\0"
+    "offlineDatabaseStoragePath\0"
+    "clearComponentCache\0trimComponentCache\0"
+    "trimComponentCache_data\0repeatedCompilation\0"
+    "failedCompilation\0failedCompilation_data\0"
+    "outputWarningsToStandardError\0"
+    "objectOwnership\0multipleEngines\0"
+    "qtqmlModule_data\0qtqmlModule\0"
+    "urlInterceptor_data\0urlInterceptor\0"
+    "qmlContextProperties\0testGCCorruption\0"
+    "createAQObjectForOwnershipTest"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_qqmlengine[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      24,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  134,    2, 0x08 /* Private */,
+       3,    0,  135,    2, 0x08 /* Private */,
+       4,    0,  136,    2, 0x08 /* Private */,
+       5,    0,  137,    2, 0x08 /* Private */,
+       6,    0,  138,    2, 0x08 /* Private */,
+       7,    0,  139,    2, 0x08 /* Private */,
+       8,    0,  140,    2, 0x08 /* Private */,
+       9,    0,  141,    2, 0x08 /* Private */,
+      10,    0,  142,    2, 0x08 /* Private */,
+      11,    0,  143,    2, 0x08 /* Private */,
+      12,    0,  144,    2, 0x08 /* Private */,
+      13,    0,  145,    2, 0x08 /* Private */,
+      14,    0,  146,    2, 0x08 /* Private */,
+      15,    0,  147,    2, 0x08 /* Private */,
+      16,    0,  148,    2, 0x08 /* Private */,
+      17,    0,  149,    2, 0x08 /* Private */,
+      18,    0,  150,    2, 0x08 /* Private */,
+      19,    0,  151,    2, 0x08 /* Private */,
+      20,    0,  152,    2, 0x08 /* Private */,
+      21,    0,  153,    2, 0x08 /* Private */,
+      22,    0,  154,    2, 0x08 /* Private */,
+      23,    0,  155,    2, 0x08 /* Private */,
+      24,    0,  156,    2, 0x08 /* Private */,
+      25,    0,  157,    2, 0x0a /* Public */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::QObjectStar,
+
+       0        // eod
+};
+
+void tst_qqmlengine::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_qqmlengine *_t = static_cast<tst_qqmlengine *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->rootContext(); break;
+        case 2: _t->networkAccessManager(); break;
+        case 3: _t->synchronousNetworkAccessManager(); break;
+        case 4: _t->baseUrl(); break;
+        case 5: _t->contextForObject(); break;
+        case 6: _t->offlineStoragePath(); break;
+        case 7: _t->offlineDatabaseStoragePath(); break;
+        case 8: _t->clearComponentCache(); break;
+        case 9: _t->trimComponentCache(); break;
+        case 10: _t->trimComponentCache_data(); break;
+        case 11: _t->repeatedCompilation(); break;
+        case 12: _t->failedCompilation(); break;
+        case 13: _t->failedCompilation_data(); break;
+        case 14: _t->outputWarningsToStandardError(); break;
+        case 15: _t->objectOwnership(); break;
+        case 16: _t->multipleEngines(); break;
+        case 17: _t->qtqmlModule_data(); break;
+        case 18: _t->qtqmlModule(); break;
+        case 19: _t->urlInterceptor_data(); break;
+        case 20: _t->urlInterceptor(); break;
+        case 21: _t->qmlContextProperties(); break;
+        case 22: _t->testGCCorruption(); break;
+        case 23: { QObject* _r = _t->createAQObjectForOwnershipTest();
+            if (_a[0]) *reinterpret_cast< QObject**>(_a[0]) = std::move(_r); }  break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObject tst_qqmlengine::staticMetaObject = {
+    { &QQmlDataTest::staticMetaObject, qt_meta_stringdata_tst_qqmlengine.data,
+      qt_meta_data_tst_qqmlengine,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_qqmlengine::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_qqmlengine::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_qqmlengine.stringdata0))
+        return static_cast<void*>(this);
+    return QQmlDataTest::qt_metacast(_clname);
+}
+
+int tst_qqmlengine::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QQmlDataTest::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 24)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 24;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 24)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 24;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_ImmediateReply_t {
+    QByteArrayData data[1];
+    char stringdata0[15];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ImmediateReply_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ImmediateReply_t qt_meta_stringdata_ImmediateReply = {
+    {
+QT_MOC_LITERAL(0, 0, 14) // "ImmediateReply"
+
+    },
+    "ImmediateReply"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_ImmediateReply[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void ImmediateReply::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject ImmediateReply::staticMetaObject = {
+    { &QNetworkReply::staticMetaObject, qt_meta_stringdata_ImmediateReply.data,
+      qt_meta_data_ImmediateReply,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *ImmediateReply::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ImmediateReply::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ImmediateReply.stringdata0))
+        return static_cast<void*>(this);
+    return QNetworkReply::qt_metacast(_clname);
+}
+
+int ImmediateReply::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QNetworkReply::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_ImmediateManager_t {
+    QByteArrayData data[1];
+    char stringdata0[17];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ImmediateManager_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ImmediateManager_t qt_meta_stringdata_ImmediateManager = {
+    {
+QT_MOC_LITERAL(0, 0, 16) // "ImmediateManager"
+
+    },
+    "ImmediateManager"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_ImmediateManager[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void ImmediateManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject ImmediateManager::staticMetaObject = {
+    { &QNetworkAccessManager::staticMetaObject, qt_meta_stringdata_ImmediateManager.data,
+      qt_meta_data_ImmediateManager,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *ImmediateManager::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ImmediateManager::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ImmediateManager.stringdata0))
+        return static_cast<void*>(this);
+    return QNetworkAccessManager::qt_metacast(_clname);
+}
+
+int ImmediateManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QNetworkAccessManager::qt_metacall(_c, _id, _a);
+    return _id;
+}
+struct qt_meta_stringdata_ComponentCacheFunctions_t {
+    QByteArrayData data[8];
+    char stringdata0[97];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_ComponentCacheFunctions_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_ComponentCacheFunctions_t qt_meta_stringdata_ComponentCacheFunctions = {
+    {
+QT_MOC_LITERAL(0, 0, 23), // "ComponentCacheFunctions"
+QT_MOC_LITERAL(1, 24, 4), // "trim"
+QT_MOC_LITERAL(2, 29, 0), // ""
+QT_MOC_LITERAL(3, 30, 12), // "isTypeLoaded"
+QT_MOC_LITERAL(4, 43, 4), // "file"
+QT_MOC_LITERAL(5, 48, 14), // "isScriptLoaded"
+QT_MOC_LITERAL(6, 63, 15), // "beginIncubation"
+QT_MOC_LITERAL(7, 79, 17) // "waitForIncubation"
+
+    },
+    "ComponentCacheFunctions\0trim\0\0"
+    "isTypeLoaded\0file\0isScriptLoaded\0"
+    "beginIncubation\0waitForIncubation"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_ComponentCacheFunctions[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       5,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // methods: name, argc, parameters, tag, flags
+       1,    0,   39,    2, 0x02 /* Public */,
+       3,    1,   40,    2, 0x02 /* Public */,
+       5,    1,   43,    2, 0x02 /* Public */,
+       6,    0,   46,    2, 0x02 /* Public */,
+       7,    0,   47,    2, 0x02 /* Public */,
+
+ // methods: parameters
+    QMetaType::Void,
+    QMetaType::Bool, QMetaType::QString,    4,
+    QMetaType::Bool, QMetaType::QString,    4,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void ComponentCacheFunctions::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        ComponentCacheFunctions *_t = static_cast<ComponentCacheFunctions *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->trim(); break;
+        case 1: { bool _r = _t->isTypeLoaded((*reinterpret_cast< QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 2: { bool _r = _t->isScriptLoaded((*reinterpret_cast< QString(*)>(_a[1])));
+            if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
+        case 3: _t->beginIncubation(); break;
+        case 4: _t->waitForIncubation(); break;
+        default: ;
+        }
+    }
+}
+
+const QMetaObject ComponentCacheFunctions::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_ComponentCacheFunctions.data,
+      qt_meta_data_ComponentCacheFunctions,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *ComponentCacheFunctions::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *ComponentCacheFunctions::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_ComponentCacheFunctions.stringdata0))
+        return static_cast<void*>(this);
+    if (!strcmp(_clname, "QQmlIncubationController"))
+        return static_cast< QQmlIncubationController*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int ComponentCacheFunctions::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 5)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 5;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 5)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 5;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

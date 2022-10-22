@@ -1,0 +1,220 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qhelpenginecore.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qhelpenginecore.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QHelpEngineCore_t {
+    QByteArrayData data[27];
+    char stringdata0[418];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QHelpEngineCore_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QHelpEngineCore_t qt_meta_stringdata_tst_QHelpEngineCore = {
+    {
+QT_MOC_LITERAL(0, 0, 19), // "tst_QHelpEngineCore"
+QT_MOC_LITERAL(1, 20, 4), // "init"
+QT_MOC_LITERAL(2, 25, 0), // ""
+QT_MOC_LITERAL(3, 26, 9), // "setupData"
+QT_MOC_LITERAL(4, 36, 14), // "collectionFile"
+QT_MOC_LITERAL(5, 51, 17), // "setCollectionFile"
+QT_MOC_LITERAL(6, 69, 18), // "copyCollectionFile"
+QT_MOC_LITERAL(7, 88, 13), // "namespaceName"
+QT_MOC_LITERAL(8, 102, 24), // "registeredDocumentations"
+QT_MOC_LITERAL(9, 127, 21), // "registerDocumentation"
+QT_MOC_LITERAL(10, 149, 23), // "unregisterDocumentation"
+QT_MOC_LITERAL(11, 173, 21), // "documentationFileName"
+QT_MOC_LITERAL(12, 195, 13), // "customFilters"
+QT_MOC_LITERAL(13, 209, 18), // "removeCustomFilter"
+QT_MOC_LITERAL(14, 228, 15), // "addCustomFilter"
+QT_MOC_LITERAL(15, 244, 16), // "filterAttributes"
+QT_MOC_LITERAL(16, 261, 13), // "currentFilter"
+QT_MOC_LITERAL(17, 275, 16), // "setCurrentFilter"
+QT_MOC_LITERAL(18, 292, 19), // "filterAttributeSets"
+QT_MOC_LITERAL(19, 312, 5), // "files"
+QT_MOC_LITERAL(20, 318, 8), // "fileData"
+QT_MOC_LITERAL(21, 327, 18), // "linksForIdentifier"
+QT_MOC_LITERAL(22, 346, 11), // "customValue"
+QT_MOC_LITERAL(23, 358, 14), // "setCustomValue"
+QT_MOC_LITERAL(24, 373, 17), // "removeCustomValue"
+QT_MOC_LITERAL(25, 391, 17), // "setAutoSaveFilter"
+QT_MOC_LITERAL(26, 409, 8) // "metaData"
+
+    },
+    "tst_QHelpEngineCore\0init\0\0setupData\0"
+    "collectionFile\0setCollectionFile\0"
+    "copyCollectionFile\0namespaceName\0"
+    "registeredDocumentations\0registerDocumentation\0"
+    "unregisterDocumentation\0documentationFileName\0"
+    "customFilters\0removeCustomFilter\0"
+    "addCustomFilter\0filterAttributes\0"
+    "currentFilter\0setCurrentFilter\0"
+    "filterAttributeSets\0files\0fileData\0"
+    "linksForIdentifier\0customValue\0"
+    "setCustomValue\0removeCustomValue\0"
+    "setAutoSaveFilter\0metaData"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QHelpEngineCore[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      25,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  139,    2, 0x08 /* Private */,
+       3,    0,  140,    2, 0x08 /* Private */,
+       4,    0,  141,    2, 0x08 /* Private */,
+       5,    0,  142,    2, 0x08 /* Private */,
+       6,    0,  143,    2, 0x08 /* Private */,
+       7,    0,  144,    2, 0x08 /* Private */,
+       8,    0,  145,    2, 0x08 /* Private */,
+       9,    0,  146,    2, 0x08 /* Private */,
+      10,    0,  147,    2, 0x08 /* Private */,
+      11,    0,  148,    2, 0x08 /* Private */,
+      12,    0,  149,    2, 0x08 /* Private */,
+      13,    0,  150,    2, 0x08 /* Private */,
+      14,    0,  151,    2, 0x08 /* Private */,
+      15,    0,  152,    2, 0x08 /* Private */,
+      16,    0,  153,    2, 0x08 /* Private */,
+      17,    0,  154,    2, 0x08 /* Private */,
+      18,    0,  155,    2, 0x08 /* Private */,
+      19,    0,  156,    2, 0x08 /* Private */,
+      20,    0,  157,    2, 0x08 /* Private */,
+      21,    0,  158,    2, 0x08 /* Private */,
+      22,    0,  159,    2, 0x08 /* Private */,
+      23,    0,  160,    2, 0x08 /* Private */,
+      24,    0,  161,    2, 0x08 /* Private */,
+      25,    0,  162,    2, 0x08 /* Private */,
+      26,    0,  163,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QHelpEngineCore::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QHelpEngineCore *_t = static_cast<tst_QHelpEngineCore *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->init(); break;
+        case 1: _t->setupData(); break;
+        case 2: _t->collectionFile(); break;
+        case 3: _t->setCollectionFile(); break;
+        case 4: _t->copyCollectionFile(); break;
+        case 5: _t->namespaceName(); break;
+        case 6: _t->registeredDocumentations(); break;
+        case 7: _t->registerDocumentation(); break;
+        case 8: _t->unregisterDocumentation(); break;
+        case 9: _t->documentationFileName(); break;
+        case 10: _t->customFilters(); break;
+        case 11: _t->removeCustomFilter(); break;
+        case 12: _t->addCustomFilter(); break;
+        case 13: _t->filterAttributes(); break;
+        case 14: _t->currentFilter(); break;
+        case 15: _t->setCurrentFilter(); break;
+        case 16: _t->filterAttributeSets(); break;
+        case 17: _t->files(); break;
+        case 18: _t->fileData(); break;
+        case 19: _t->linksForIdentifier(); break;
+        case 20: _t->customValue(); break;
+        case 21: _t->setCustomValue(); break;
+        case 22: _t->removeCustomValue(); break;
+        case 23: _t->setAutoSaveFilter(); break;
+        case 24: _t->metaData(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QHelpEngineCore::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QHelpEngineCore.data,
+      qt_meta_data_tst_QHelpEngineCore,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QHelpEngineCore::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QHelpEngineCore::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QHelpEngineCore.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QHelpEngineCore::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 25)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 25;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 25)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 25;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

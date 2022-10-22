@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{44fefbe8-7302-45b1-8adc-0a06011b102d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="tst_qicns.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="icns.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="icns\test-32bit.icns">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icns\test-jp2.icns">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icns\test-legacy.icns">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icns\test-png.icns">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icns\test-variants.icns">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icns\test-write-1024.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icns\test-write-128.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icns\test-write-16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icns\test-write-256.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icns\test-write-32.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icns\test-write-512.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icns\test-write-64.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tst_qicns.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

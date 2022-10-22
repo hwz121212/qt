@@ -1,0 +1,530 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qstringapisymmetry.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qstringapisymmetry.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QStringApiSymmetry_t {
+    QByteArrayData data[88];
+    char stringdata0[2611];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QStringApiSymmetry_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QStringApiSymmetry_t qt_meta_stringdata_tst_QStringApiSymmetry = {
+    {
+QT_MOC_LITERAL(0, 0, 22), // "tst_QStringApiSymmetry"
+QT_MOC_LITERAL(1, 23, 24), // "compare_QChar_QChar_data"
+QT_MOC_LITERAL(2, 48, 0), // ""
+QT_MOC_LITERAL(3, 49, 19), // "compare_QChar_QChar"
+QT_MOC_LITERAL(4, 69, 29), // "compare_QChar_QStringRef_data"
+QT_MOC_LITERAL(5, 99, 24), // "compare_QChar_QStringRef"
+QT_MOC_LITERAL(6, 124, 26), // "compare_QChar_QString_data"
+QT_MOC_LITERAL(7, 151, 21), // "compare_QChar_QString"
+QT_MOC_LITERAL(8, 173, 32), // "compare_QChar_QLatin1String_data"
+QT_MOC_LITERAL(9, 206, 27), // "compare_QChar_QLatin1String"
+QT_MOC_LITERAL(10, 234, 29), // "compare_QChar_QByteArray_data"
+QT_MOC_LITERAL(11, 264, 24), // "compare_QChar_QByteArray"
+QT_MOC_LITERAL(12, 289, 34), // "compare_QChar_const_char_star..."
+QT_MOC_LITERAL(13, 324, 29), // "compare_QChar_const_char_star"
+QT_MOC_LITERAL(14, 354, 29), // "compare_QStringRef_QChar_data"
+QT_MOC_LITERAL(15, 384, 24), // "compare_QStringRef_QChar"
+QT_MOC_LITERAL(16, 409, 34), // "compare_QStringRef_QStringRef..."
+QT_MOC_LITERAL(17, 444, 29), // "compare_QStringRef_QStringRef"
+QT_MOC_LITERAL(18, 474, 31), // "compare_QStringRef_QString_data"
+QT_MOC_LITERAL(19, 506, 26), // "compare_QStringRef_QString"
+QT_MOC_LITERAL(20, 533, 37), // "compare_QStringRef_QLatin1Str..."
+QT_MOC_LITERAL(21, 571, 32), // "compare_QStringRef_QLatin1String"
+QT_MOC_LITERAL(22, 604, 34), // "compare_QStringRef_QByteArray..."
+QT_MOC_LITERAL(23, 639, 29), // "compare_QStringRef_QByteArray"
+QT_MOC_LITERAL(24, 669, 39), // "compare_QStringRef_const_char..."
+QT_MOC_LITERAL(25, 709, 34), // "compare_QStringRef_const_char..."
+QT_MOC_LITERAL(26, 744, 26), // "compare_QString_QChar_data"
+QT_MOC_LITERAL(27, 771, 21), // "compare_QString_QChar"
+QT_MOC_LITERAL(28, 793, 31), // "compare_QString_QStringRef_data"
+QT_MOC_LITERAL(29, 825, 26), // "compare_QString_QStringRef"
+QT_MOC_LITERAL(30, 852, 28), // "compare_QString_QString_data"
+QT_MOC_LITERAL(31, 881, 23), // "compare_QString_QString"
+QT_MOC_LITERAL(32, 905, 34), // "compare_QString_QLatin1String..."
+QT_MOC_LITERAL(33, 940, 29), // "compare_QString_QLatin1String"
+QT_MOC_LITERAL(34, 970, 31), // "compare_QString_QByteArray_data"
+QT_MOC_LITERAL(35, 1002, 26), // "compare_QString_QByteArray"
+QT_MOC_LITERAL(36, 1029, 36), // "compare_QString_const_char_st..."
+QT_MOC_LITERAL(37, 1066, 31), // "compare_QString_const_char_star"
+QT_MOC_LITERAL(38, 1098, 32), // "compare_QLatin1String_QChar_data"
+QT_MOC_LITERAL(39, 1131, 27), // "compare_QLatin1String_QChar"
+QT_MOC_LITERAL(40, 1159, 37), // "compare_QLatin1String_QString..."
+QT_MOC_LITERAL(41, 1197, 32), // "compare_QLatin1String_QStringRef"
+QT_MOC_LITERAL(42, 1230, 34), // "compare_QLatin1String_QString..."
+QT_MOC_LITERAL(43, 1265, 29), // "compare_QLatin1String_QString"
+QT_MOC_LITERAL(44, 1295, 40), // "compare_QLatin1String_QLatin1..."
+QT_MOC_LITERAL(45, 1336, 35), // "compare_QLatin1String_QLatin1..."
+QT_MOC_LITERAL(46, 1372, 37), // "compare_QLatin1String_QByteAr..."
+QT_MOC_LITERAL(47, 1410, 32), // "compare_QLatin1String_QByteArray"
+QT_MOC_LITERAL(48, 1443, 42), // "compare_QLatin1String_const_c..."
+QT_MOC_LITERAL(49, 1486, 37), // "compare_QLatin1String_const_c..."
+QT_MOC_LITERAL(50, 1524, 29), // "compare_QByteArray_QChar_data"
+QT_MOC_LITERAL(51, 1554, 24), // "compare_QByteArray_QChar"
+QT_MOC_LITERAL(52, 1579, 34), // "compare_QByteArray_QStringRef..."
+QT_MOC_LITERAL(53, 1614, 29), // "compare_QByteArray_QStringRef"
+QT_MOC_LITERAL(54, 1644, 31), // "compare_QByteArray_QString_data"
+QT_MOC_LITERAL(55, 1676, 26), // "compare_QByteArray_QString"
+QT_MOC_LITERAL(56, 1703, 37), // "compare_QByteArray_QLatin1Str..."
+QT_MOC_LITERAL(57, 1741, 32), // "compare_QByteArray_QLatin1String"
+QT_MOC_LITERAL(58, 1774, 34), // "compare_QByteArray_QByteArray..."
+QT_MOC_LITERAL(59, 1809, 29), // "compare_QByteArray_QByteArray"
+QT_MOC_LITERAL(60, 1839, 39), // "compare_QByteArray_const_char..."
+QT_MOC_LITERAL(61, 1879, 34), // "compare_QByteArray_const_char..."
+QT_MOC_LITERAL(62, 1914, 34), // "compare_const_char_star_QChar..."
+QT_MOC_LITERAL(63, 1949, 29), // "compare_const_char_star_QChar"
+QT_MOC_LITERAL(64, 1979, 39), // "compare_const_char_star_QStri..."
+QT_MOC_LITERAL(65, 2019, 34), // "compare_const_char_star_QStri..."
+QT_MOC_LITERAL(66, 2054, 36), // "compare_const_char_star_QStri..."
+QT_MOC_LITERAL(67, 2091, 31), // "compare_const_char_star_QString"
+QT_MOC_LITERAL(68, 2123, 42), // "compare_const_char_star_QLati..."
+QT_MOC_LITERAL(69, 2166, 37), // "compare_const_char_star_QLati..."
+QT_MOC_LITERAL(70, 2204, 39), // "compare_const_char_star_QByte..."
+QT_MOC_LITERAL(71, 2244, 34), // "compare_const_char_star_QByte..."
+QT_MOC_LITERAL(72, 2279, 24), // "toLocal8Bit_QString_data"
+QT_MOC_LITERAL(73, 2304, 19), // "toLocal8Bit_QString"
+QT_MOC_LITERAL(74, 2324, 27), // "toLocal8Bit_QStringRef_data"
+QT_MOC_LITERAL(75, 2352, 22), // "toLocal8Bit_QStringRef"
+QT_MOC_LITERAL(76, 2375, 21), // "toLatin1_QString_data"
+QT_MOC_LITERAL(77, 2397, 16), // "toLatin1_QString"
+QT_MOC_LITERAL(78, 2414, 24), // "toLatin1_QStringRef_data"
+QT_MOC_LITERAL(79, 2439, 19), // "toLatin1_QStringRef"
+QT_MOC_LITERAL(80, 2459, 19), // "toUtf8_QString_data"
+QT_MOC_LITERAL(81, 2479, 14), // "toUtf8_QString"
+QT_MOC_LITERAL(82, 2494, 22), // "toUtf8_QStringRef_data"
+QT_MOC_LITERAL(83, 2517, 17), // "toUtf8_QStringRef"
+QT_MOC_LITERAL(84, 2535, 19), // "toUcs4_QString_data"
+QT_MOC_LITERAL(85, 2555, 14), // "toUcs4_QString"
+QT_MOC_LITERAL(86, 2570, 22), // "toUcs4_QStringRef_data"
+QT_MOC_LITERAL(87, 2593, 17) // "toUcs4_QStringRef"
+
+    },
+    "tst_QStringApiSymmetry\0compare_QChar_QChar_data\0"
+    "\0compare_QChar_QChar\0compare_QChar_QStringRef_data\0"
+    "compare_QChar_QStringRef\0"
+    "compare_QChar_QString_data\0"
+    "compare_QChar_QString\0"
+    "compare_QChar_QLatin1String_data\0"
+    "compare_QChar_QLatin1String\0"
+    "compare_QChar_QByteArray_data\0"
+    "compare_QChar_QByteArray\0"
+    "compare_QChar_const_char_star_data\0"
+    "compare_QChar_const_char_star\0"
+    "compare_QStringRef_QChar_data\0"
+    "compare_QStringRef_QChar\0"
+    "compare_QStringRef_QStringRef_data\0"
+    "compare_QStringRef_QStringRef\0"
+    "compare_QStringRef_QString_data\0"
+    "compare_QStringRef_QString\0"
+    "compare_QStringRef_QLatin1String_data\0"
+    "compare_QStringRef_QLatin1String\0"
+    "compare_QStringRef_QByteArray_data\0"
+    "compare_QStringRef_QByteArray\0"
+    "compare_QStringRef_const_char_star_data\0"
+    "compare_QStringRef_const_char_star\0"
+    "compare_QString_QChar_data\0"
+    "compare_QString_QChar\0"
+    "compare_QString_QStringRef_data\0"
+    "compare_QString_QStringRef\0"
+    "compare_QString_QString_data\0"
+    "compare_QString_QString\0"
+    "compare_QString_QLatin1String_data\0"
+    "compare_QString_QLatin1String\0"
+    "compare_QString_QByteArray_data\0"
+    "compare_QString_QByteArray\0"
+    "compare_QString_const_char_star_data\0"
+    "compare_QString_const_char_star\0"
+    "compare_QLatin1String_QChar_data\0"
+    "compare_QLatin1String_QChar\0"
+    "compare_QLatin1String_QStringRef_data\0"
+    "compare_QLatin1String_QStringRef\0"
+    "compare_QLatin1String_QString_data\0"
+    "compare_QLatin1String_QString\0"
+    "compare_QLatin1String_QLatin1String_data\0"
+    "compare_QLatin1String_QLatin1String\0"
+    "compare_QLatin1String_QByteArray_data\0"
+    "compare_QLatin1String_QByteArray\0"
+    "compare_QLatin1String_const_char_star_data\0"
+    "compare_QLatin1String_const_char_star\0"
+    "compare_QByteArray_QChar_data\0"
+    "compare_QByteArray_QChar\0"
+    "compare_QByteArray_QStringRef_data\0"
+    "compare_QByteArray_QStringRef\0"
+    "compare_QByteArray_QString_data\0"
+    "compare_QByteArray_QString\0"
+    "compare_QByteArray_QLatin1String_data\0"
+    "compare_QByteArray_QLatin1String\0"
+    "compare_QByteArray_QByteArray_data\0"
+    "compare_QByteArray_QByteArray\0"
+    "compare_QByteArray_const_char_star_data\0"
+    "compare_QByteArray_const_char_star\0"
+    "compare_const_char_star_QChar_data\0"
+    "compare_const_char_star_QChar\0"
+    "compare_const_char_star_QStringRef_data\0"
+    "compare_const_char_star_QStringRef\0"
+    "compare_const_char_star_QString_data\0"
+    "compare_const_char_star_QString\0"
+    "compare_const_char_star_QLatin1String_data\0"
+    "compare_const_char_star_QLatin1String\0"
+    "compare_const_char_star_QByteArray_data\0"
+    "compare_const_char_star_QByteArray\0"
+    "toLocal8Bit_QString_data\0toLocal8Bit_QString\0"
+    "toLocal8Bit_QStringRef_data\0"
+    "toLocal8Bit_QStringRef\0toLatin1_QString_data\0"
+    "toLatin1_QString\0toLatin1_QStringRef_data\0"
+    "toLatin1_QStringRef\0toUtf8_QString_data\0"
+    "toUtf8_QString\0toUtf8_QStringRef_data\0"
+    "toUtf8_QStringRef\0toUcs4_QString_data\0"
+    "toUcs4_QString\0toUcs4_QStringRef_data\0"
+    "toUcs4_QStringRef"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QStringApiSymmetry[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      86,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  444,    2, 0x08 /* Private */,
+       3,    0,  445,    2, 0x08 /* Private */,
+       4,    0,  446,    2, 0x08 /* Private */,
+       5,    0,  447,    2, 0x08 /* Private */,
+       6,    0,  448,    2, 0x08 /* Private */,
+       7,    0,  449,    2, 0x08 /* Private */,
+       8,    0,  450,    2, 0x08 /* Private */,
+       9,    0,  451,    2, 0x08 /* Private */,
+      10,    0,  452,    2, 0x08 /* Private */,
+      11,    0,  453,    2, 0x08 /* Private */,
+      12,    0,  454,    2, 0x08 /* Private */,
+      13,    0,  455,    2, 0x08 /* Private */,
+      14,    0,  456,    2, 0x08 /* Private */,
+      15,    0,  457,    2, 0x08 /* Private */,
+      16,    0,  458,    2, 0x08 /* Private */,
+      17,    0,  459,    2, 0x08 /* Private */,
+      18,    0,  460,    2, 0x08 /* Private */,
+      19,    0,  461,    2, 0x08 /* Private */,
+      20,    0,  462,    2, 0x08 /* Private */,
+      21,    0,  463,    2, 0x08 /* Private */,
+      22,    0,  464,    2, 0x08 /* Private */,
+      23,    0,  465,    2, 0x08 /* Private */,
+      24,    0,  466,    2, 0x08 /* Private */,
+      25,    0,  467,    2, 0x08 /* Private */,
+      26,    0,  468,    2, 0x08 /* Private */,
+      27,    0,  469,    2, 0x08 /* Private */,
+      28,    0,  470,    2, 0x08 /* Private */,
+      29,    0,  471,    2, 0x08 /* Private */,
+      30,    0,  472,    2, 0x08 /* Private */,
+      31,    0,  473,    2, 0x08 /* Private */,
+      32,    0,  474,    2, 0x08 /* Private */,
+      33,    0,  475,    2, 0x08 /* Private */,
+      34,    0,  476,    2, 0x08 /* Private */,
+      35,    0,  477,    2, 0x08 /* Private */,
+      36,    0,  478,    2, 0x08 /* Private */,
+      37,    0,  479,    2, 0x08 /* Private */,
+      38,    0,  480,    2, 0x08 /* Private */,
+      39,    0,  481,    2, 0x08 /* Private */,
+      40,    0,  482,    2, 0x08 /* Private */,
+      41,    0,  483,    2, 0x08 /* Private */,
+      42,    0,  484,    2, 0x08 /* Private */,
+      43,    0,  485,    2, 0x08 /* Private */,
+      44,    0,  486,    2, 0x08 /* Private */,
+      45,    0,  487,    2, 0x08 /* Private */,
+      46,    0,  488,    2, 0x08 /* Private */,
+      47,    0,  489,    2, 0x08 /* Private */,
+      48,    0,  490,    2, 0x08 /* Private */,
+      49,    0,  491,    2, 0x08 /* Private */,
+      50,    0,  492,    2, 0x08 /* Private */,
+      51,    0,  493,    2, 0x08 /* Private */,
+      52,    0,  494,    2, 0x08 /* Private */,
+      53,    0,  495,    2, 0x08 /* Private */,
+      54,    0,  496,    2, 0x08 /* Private */,
+      55,    0,  497,    2, 0x08 /* Private */,
+      56,    0,  498,    2, 0x08 /* Private */,
+      57,    0,  499,    2, 0x08 /* Private */,
+      58,    0,  500,    2, 0x08 /* Private */,
+      59,    0,  501,    2, 0x08 /* Private */,
+      60,    0,  502,    2, 0x08 /* Private */,
+      61,    0,  503,    2, 0x08 /* Private */,
+      62,    0,  504,    2, 0x08 /* Private */,
+      63,    0,  505,    2, 0x08 /* Private */,
+      64,    0,  506,    2, 0x08 /* Private */,
+      65,    0,  507,    2, 0x08 /* Private */,
+      66,    0,  508,    2, 0x08 /* Private */,
+      67,    0,  509,    2, 0x08 /* Private */,
+      68,    0,  510,    2, 0x08 /* Private */,
+      69,    0,  511,    2, 0x08 /* Private */,
+      70,    0,  512,    2, 0x08 /* Private */,
+      71,    0,  513,    2, 0x08 /* Private */,
+      72,    0,  514,    2, 0x08 /* Private */,
+      73,    0,  515,    2, 0x08 /* Private */,
+      74,    0,  516,    2, 0x08 /* Private */,
+      75,    0,  517,    2, 0x08 /* Private */,
+      76,    0,  518,    2, 0x08 /* Private */,
+      77,    0,  519,    2, 0x08 /* Private */,
+      78,    0,  520,    2, 0x08 /* Private */,
+      79,    0,  521,    2, 0x08 /* Private */,
+      80,    0,  522,    2, 0x08 /* Private */,
+      81,    0,  523,    2, 0x08 /* Private */,
+      82,    0,  524,    2, 0x08 /* Private */,
+      83,    0,  525,    2, 0x08 /* Private */,
+      84,    0,  526,    2, 0x08 /* Private */,
+      85,    0,  527,    2, 0x08 /* Private */,
+      86,    0,  528,    2, 0x08 /* Private */,
+      87,    0,  529,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QStringApiSymmetry::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QStringApiSymmetry *_t = static_cast<tst_QStringApiSymmetry *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->compare_QChar_QChar_data(); break;
+        case 1: _t->compare_QChar_QChar(); break;
+        case 2: _t->compare_QChar_QStringRef_data(); break;
+        case 3: _t->compare_QChar_QStringRef(); break;
+        case 4: _t->compare_QChar_QString_data(); break;
+        case 5: _t->compare_QChar_QString(); break;
+        case 6: _t->compare_QChar_QLatin1String_data(); break;
+        case 7: _t->compare_QChar_QLatin1String(); break;
+        case 8: _t->compare_QChar_QByteArray_data(); break;
+        case 9: _t->compare_QChar_QByteArray(); break;
+        case 10: _t->compare_QChar_const_char_star_data(); break;
+        case 11: _t->compare_QChar_const_char_star(); break;
+        case 12: _t->compare_QStringRef_QChar_data(); break;
+        case 13: _t->compare_QStringRef_QChar(); break;
+        case 14: _t->compare_QStringRef_QStringRef_data(); break;
+        case 15: _t->compare_QStringRef_QStringRef(); break;
+        case 16: _t->compare_QStringRef_QString_data(); break;
+        case 17: _t->compare_QStringRef_QString(); break;
+        case 18: _t->compare_QStringRef_QLatin1String_data(); break;
+        case 19: _t->compare_QStringRef_QLatin1String(); break;
+        case 20: _t->compare_QStringRef_QByteArray_data(); break;
+        case 21: _t->compare_QStringRef_QByteArray(); break;
+        case 22: _t->compare_QStringRef_const_char_star_data(); break;
+        case 23: _t->compare_QStringRef_const_char_star(); break;
+        case 24: _t->compare_QString_QChar_data(); break;
+        case 25: _t->compare_QString_QChar(); break;
+        case 26: _t->compare_QString_QStringRef_data(); break;
+        case 27: _t->compare_QString_QStringRef(); break;
+        case 28: _t->compare_QString_QString_data(); break;
+        case 29: _t->compare_QString_QString(); break;
+        case 30: _t->compare_QString_QLatin1String_data(); break;
+        case 31: _t->compare_QString_QLatin1String(); break;
+        case 32: _t->compare_QString_QByteArray_data(); break;
+        case 33: _t->compare_QString_QByteArray(); break;
+        case 34: _t->compare_QString_const_char_star_data(); break;
+        case 35: _t->compare_QString_const_char_star(); break;
+        case 36: _t->compare_QLatin1String_QChar_data(); break;
+        case 37: _t->compare_QLatin1String_QChar(); break;
+        case 38: _t->compare_QLatin1String_QStringRef_data(); break;
+        case 39: _t->compare_QLatin1String_QStringRef(); break;
+        case 40: _t->compare_QLatin1String_QString_data(); break;
+        case 41: _t->compare_QLatin1String_QString(); break;
+        case 42: _t->compare_QLatin1String_QLatin1String_data(); break;
+        case 43: _t->compare_QLatin1String_QLatin1String(); break;
+        case 44: _t->compare_QLatin1String_QByteArray_data(); break;
+        case 45: _t->compare_QLatin1String_QByteArray(); break;
+        case 46: _t->compare_QLatin1String_const_char_star_data(); break;
+        case 47: _t->compare_QLatin1String_const_char_star(); break;
+        case 48: _t->compare_QByteArray_QChar_data(); break;
+        case 49: _t->compare_QByteArray_QChar(); break;
+        case 50: _t->compare_QByteArray_QStringRef_data(); break;
+        case 51: _t->compare_QByteArray_QStringRef(); break;
+        case 52: _t->compare_QByteArray_QString_data(); break;
+        case 53: _t->compare_QByteArray_QString(); break;
+        case 54: _t->compare_QByteArray_QLatin1String_data(); break;
+        case 55: _t->compare_QByteArray_QLatin1String(); break;
+        case 56: _t->compare_QByteArray_QByteArray_data(); break;
+        case 57: _t->compare_QByteArray_QByteArray(); break;
+        case 58: _t->compare_QByteArray_const_char_star_data(); break;
+        case 59: _t->compare_QByteArray_const_char_star(); break;
+        case 60: _t->compare_const_char_star_QChar_data(); break;
+        case 61: _t->compare_const_char_star_QChar(); break;
+        case 62: _t->compare_const_char_star_QStringRef_data(); break;
+        case 63: _t->compare_const_char_star_QStringRef(); break;
+        case 64: _t->compare_const_char_star_QString_data(); break;
+        case 65: _t->compare_const_char_star_QString(); break;
+        case 66: _t->compare_const_char_star_QLatin1String_data(); break;
+        case 67: _t->compare_const_char_star_QLatin1String(); break;
+        case 68: _t->compare_const_char_star_QByteArray_data(); break;
+        case 69: _t->compare_const_char_star_QByteArray(); break;
+        case 70: _t->toLocal8Bit_QString_data(); break;
+        case 71: _t->toLocal8Bit_QString(); break;
+        case 72: _t->toLocal8Bit_QStringRef_data(); break;
+        case 73: _t->toLocal8Bit_QStringRef(); break;
+        case 74: _t->toLatin1_QString_data(); break;
+        case 75: _t->toLatin1_QString(); break;
+        case 76: _t->toLatin1_QStringRef_data(); break;
+        case 77: _t->toLatin1_QStringRef(); break;
+        case 78: _t->toUtf8_QString_data(); break;
+        case 79: _t->toUtf8_QString(); break;
+        case 80: _t->toUtf8_QStringRef_data(); break;
+        case 81: _t->toUtf8_QStringRef(); break;
+        case 82: _t->toUcs4_QString_data(); break;
+        case 83: _t->toUcs4_QString(); break;
+        case 84: _t->toUcs4_QStringRef_data(); break;
+        case 85: _t->toUcs4_QStringRef(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QStringApiSymmetry::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QStringApiSymmetry.data,
+      qt_meta_data_tst_QStringApiSymmetry,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QStringApiSymmetry::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QStringApiSymmetry::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QStringApiSymmetry.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QStringApiSymmetry::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 86)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 86;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 86)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 86;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

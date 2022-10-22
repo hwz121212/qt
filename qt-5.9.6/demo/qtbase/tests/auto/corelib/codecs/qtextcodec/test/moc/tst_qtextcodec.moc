@@ -1,0 +1,276 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qtextcodec.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qtextcodec.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QTextCodec_t {
+    QByteArrayData data[40];
+    char stringdata0[577];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QTextCodec_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QTextCodec_t qt_meta_stringdata_tst_QTextCodec = {
+    {
+QT_MOC_LITERAL(0, 0, 14), // "tst_QTextCodec"
+QT_MOC_LITERAL(1, 15, 12), // "threadSafety"
+QT_MOC_LITERAL(2, 28, 0), // ""
+QT_MOC_LITERAL(3, 29, 14), // "toUnicode_data"
+QT_MOC_LITERAL(4, 44, 9), // "toUnicode"
+QT_MOC_LITERAL(5, 54, 17), // "codecForName_data"
+QT_MOC_LITERAL(6, 72, 12), // "codecForName"
+QT_MOC_LITERAL(7, 85, 16), // "fromUnicode_data"
+QT_MOC_LITERAL(8, 102, 11), // "fromUnicode"
+QT_MOC_LITERAL(9, 114, 22), // "toUnicode_codecForHtml"
+QT_MOC_LITERAL(10, 137, 21), // "toUnicode_incremental"
+QT_MOC_LITERAL(11, 159, 14), // "codecForLocale"
+QT_MOC_LITERAL(12, 174, 12), // "asciiToIscii"
+QT_MOC_LITERAL(13, 187, 23), // "nonFlaggedCodepointFFFF"
+QT_MOC_LITERAL(14, 211, 12), // "flagF7808080"
+QT_MOC_LITERAL(15, 224, 16), // "nonFlaggedEFBFBF"
+QT_MOC_LITERAL(16, 241, 8), // "decode0D"
+QT_MOC_LITERAL(17, 250, 13), // "aliasForUTF16"
+QT_MOC_LITERAL(18, 264, 11), // "mibForTSCII"
+QT_MOC_LITERAL(19, 276, 13), // "codecForTSCII"
+QT_MOC_LITERAL(20, 290, 10), // "iso8859_16"
+QT_MOC_LITERAL(21, 301, 14), // "utf8Codec_data"
+QT_MOC_LITERAL(22, 316, 9), // "utf8Codec"
+QT_MOC_LITERAL(23, 326, 12), // "utf8bom_data"
+QT_MOC_LITERAL(24, 339, 7), // "utf8bom"
+QT_MOC_LITERAL(25, 347, 17), // "utf8stateful_data"
+QT_MOC_LITERAL(26, 365, 12), // "utf8stateful"
+QT_MOC_LITERAL(27, 378, 15), // "utfHeaders_data"
+QT_MOC_LITERAL(28, 394, 10), // "utfHeaders"
+QT_MOC_LITERAL(29, 405, 17), // "codecForHtml_data"
+QT_MOC_LITERAL(30, 423, 12), // "codecForHtml"
+QT_MOC_LITERAL(31, 436, 20), // "codecForUtfText_data"
+QT_MOC_LITERAL(32, 457, 15), // "codecForUtfText"
+QT_MOC_LITERAL(33, 473, 12), // "invalidNames"
+QT_MOC_LITERAL(34, 486, 17), // "checkAliases_data"
+QT_MOC_LITERAL(35, 504, 12), // "checkAliases"
+QT_MOC_LITERAL(36, 517, 22), // "moreToFromUnicode_data"
+QT_MOC_LITERAL(37, 540, 17), // "moreToFromUnicode"
+QT_MOC_LITERAL(38, 558, 8), // "shiftJis"
+QT_MOC_LITERAL(39, 567, 9) // "userCodec"
+
+    },
+    "tst_QTextCodec\0threadSafety\0\0"
+    "toUnicode_data\0toUnicode\0codecForName_data\0"
+    "codecForName\0fromUnicode_data\0fromUnicode\0"
+    "toUnicode_codecForHtml\0toUnicode_incremental\0"
+    "codecForLocale\0asciiToIscii\0"
+    "nonFlaggedCodepointFFFF\0flagF7808080\0"
+    "nonFlaggedEFBFBF\0decode0D\0aliasForUTF16\0"
+    "mibForTSCII\0codecForTSCII\0iso8859_16\0"
+    "utf8Codec_data\0utf8Codec\0utf8bom_data\0"
+    "utf8bom\0utf8stateful_data\0utf8stateful\0"
+    "utfHeaders_data\0utfHeaders\0codecForHtml_data\0"
+    "codecForHtml\0codecForUtfText_data\0"
+    "codecForUtfText\0invalidNames\0"
+    "checkAliases_data\0checkAliases\0"
+    "moreToFromUnicode_data\0moreToFromUnicode\0"
+    "shiftJis\0userCodec"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QTextCodec[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      38,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  204,    2, 0x08 /* Private */,
+       3,    0,  205,    2, 0x08 /* Private */,
+       4,    0,  206,    2, 0x08 /* Private */,
+       5,    0,  207,    2, 0x08 /* Private */,
+       6,    0,  208,    2, 0x08 /* Private */,
+       7,    0,  209,    2, 0x08 /* Private */,
+       8,    0,  210,    2, 0x08 /* Private */,
+       9,    0,  211,    2, 0x08 /* Private */,
+      10,    0,  212,    2, 0x08 /* Private */,
+      11,    0,  213,    2, 0x08 /* Private */,
+      12,    0,  214,    2, 0x08 /* Private */,
+      13,    0,  215,    2, 0x08 /* Private */,
+      14,    0,  216,    2, 0x08 /* Private */,
+      15,    0,  217,    2, 0x08 /* Private */,
+      16,    0,  218,    2, 0x08 /* Private */,
+      17,    0,  219,    2, 0x08 /* Private */,
+      18,    0,  220,    2, 0x08 /* Private */,
+      19,    0,  221,    2, 0x08 /* Private */,
+      20,    0,  222,    2, 0x08 /* Private */,
+      21,    0,  223,    2, 0x08 /* Private */,
+      22,    0,  224,    2, 0x08 /* Private */,
+      23,    0,  225,    2, 0x08 /* Private */,
+      24,    0,  226,    2, 0x08 /* Private */,
+      25,    0,  227,    2, 0x08 /* Private */,
+      26,    0,  228,    2, 0x08 /* Private */,
+      27,    0,  229,    2, 0x08 /* Private */,
+      28,    0,  230,    2, 0x08 /* Private */,
+      29,    0,  231,    2, 0x08 /* Private */,
+      30,    0,  232,    2, 0x08 /* Private */,
+      31,    0,  233,    2, 0x08 /* Private */,
+      32,    0,  234,    2, 0x08 /* Private */,
+      33,    0,  235,    2, 0x08 /* Private */,
+      34,    0,  236,    2, 0x08 /* Private */,
+      35,    0,  237,    2, 0x08 /* Private */,
+      36,    0,  238,    2, 0x08 /* Private */,
+      37,    0,  239,    2, 0x08 /* Private */,
+      38,    0,  240,    2, 0x08 /* Private */,
+      39,    0,  241,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QTextCodec::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QTextCodec *_t = static_cast<tst_QTextCodec *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->threadSafety(); break;
+        case 1: _t->toUnicode_data(); break;
+        case 2: _t->toUnicode(); break;
+        case 3: _t->codecForName_data(); break;
+        case 4: _t->codecForName(); break;
+        case 5: _t->fromUnicode_data(); break;
+        case 6: _t->fromUnicode(); break;
+        case 7: _t->toUnicode_codecForHtml(); break;
+        case 8: _t->toUnicode_incremental(); break;
+        case 9: _t->codecForLocale(); break;
+        case 10: _t->asciiToIscii(); break;
+        case 11: _t->nonFlaggedCodepointFFFF(); break;
+        case 12: _t->flagF7808080(); break;
+        case 13: _t->nonFlaggedEFBFBF(); break;
+        case 14: _t->decode0D(); break;
+        case 15: _t->aliasForUTF16(); break;
+        case 16: _t->mibForTSCII(); break;
+        case 17: _t->codecForTSCII(); break;
+        case 18: _t->iso8859_16(); break;
+        case 19: _t->utf8Codec_data(); break;
+        case 20: _t->utf8Codec(); break;
+        case 21: _t->utf8bom_data(); break;
+        case 22: _t->utf8bom(); break;
+        case 23: _t->utf8stateful_data(); break;
+        case 24: _t->utf8stateful(); break;
+        case 25: _t->utfHeaders_data(); break;
+        case 26: _t->utfHeaders(); break;
+        case 27: _t->codecForHtml_data(); break;
+        case 28: _t->codecForHtml(); break;
+        case 29: _t->codecForUtfText_data(); break;
+        case 30: _t->codecForUtfText(); break;
+        case 31: _t->invalidNames(); break;
+        case 32: _t->checkAliases_data(); break;
+        case 33: _t->checkAliases(); break;
+        case 34: _t->moreToFromUnicode_data(); break;
+        case 35: _t->moreToFromUnicode(); break;
+        case 36: _t->shiftJis(); break;
+        case 37: _t->userCodec(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QTextCodec::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QTextCodec.data,
+      qt_meta_data_tst_QTextCodec,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QTextCodec::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QTextCodec::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QTextCodec.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QTextCodec::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 38)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 38;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 38)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 38;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

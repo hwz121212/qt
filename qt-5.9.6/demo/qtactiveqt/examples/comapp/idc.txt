@@ -1,0 +1,7 @@
+$(SolutionDir)tool\qt-5.9.6\idc.exe "$(TargetPath)" /idl $(IntDir)comapp.idl -version 1.0
+if errorlevel 1 goto VCEnd
+ midl /NOLOGO $(IntDir)comapp.idl /nologo /tlb $(IntDir)comapp.tlb
+if errorlevel 1 goto VCEnd
+ $(QTDIR)\bin\idc.exe "$(TargetPath)" /tlb $(IntDir)comapp.tlb
+if errorlevel 1 goto VCEnd
+$(SolutionDir)tool\qt-5.9.6\idc.exe "$(TargetPath)" /regserver

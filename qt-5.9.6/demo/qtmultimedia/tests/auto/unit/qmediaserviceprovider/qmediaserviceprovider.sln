@@ -1,0 +1,50 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mockserviceplugin1", "F:/qt/Src/qtmultimedia/tests/auto/unit/qmediaserviceprovider/mockserviceplugin1\mockserviceplugin1.vcxproj", "{46EC0888-FD45-3E5F-965C-923132BB5E41}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mockserviceplugin2", "F:/qt/Src/qtmultimedia/tests/auto/unit/qmediaserviceprovider/mockserviceplugin2\mockserviceplugin2.vcxproj", "{B33F045C-443E-34EC-8E64-CA0354BE718C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mockserviceplugin3", "F:/qt/Src/qtmultimedia/tests/auto/unit/qmediaserviceprovider/mockserviceplugin3\mockserviceplugin3.vcxproj", "{04A986C2-C335-369F-8169-157432DE597A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mockserviceplugin4", "F:/qt/Src/qtmultimedia/tests/auto/unit/qmediaserviceprovider/mockserviceplugin4\mockserviceplugin4.vcxproj", "{61C555E7-D6C5-3548-8E3D-30AF1668DE52}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mockserviceplugin5", "F:/qt/Src/qtmultimedia/tests/auto/unit/qmediaserviceprovider/mockserviceplugin5\mockserviceplugin5.vcxproj", "{7AA882F0-72B2-335B-86BF-A33C45220E1C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tst_qmediaserviceprovider", "F:/qt/Src/qtmultimedia/tests/auto/unit/qmediaserviceprovider/test\tst_qmediaserviceprovider.vcxproj", "{E5DE9B4C-B914-3E93-94A6-0B9E12E59DB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46EC0888-FD45-3E5F-965C-923132BB5E41}.Debug|x64.ActiveCfg = Debug|x64
+		{46EC0888-FD45-3E5F-965C-923132BB5E41}.Debug|x64.Build.0 = Debug|x64
+		{46EC0888-FD45-3E5F-965C-923132BB5E41}.Release|x64.ActiveCfg = Release|x64
+		{46EC0888-FD45-3E5F-965C-923132BB5E41}.Release|x64.Build.0 = Release|x64
+		{B33F045C-443E-34EC-8E64-CA0354BE718C}.Debug|x64.ActiveCfg = Debug|x64
+		{B33F045C-443E-34EC-8E64-CA0354BE718C}.Debug|x64.Build.0 = Debug|x64
+		{B33F045C-443E-34EC-8E64-CA0354BE718C}.Release|x64.ActiveCfg = Release|x64
+		{B33F045C-443E-34EC-8E64-CA0354BE718C}.Release|x64.Build.0 = Release|x64
+		{04A986C2-C335-369F-8169-157432DE597A}.Debug|x64.ActiveCfg = Debug|x64
+		{04A986C2-C335-369F-8169-157432DE597A}.Debug|x64.Build.0 = Debug|x64
+		{04A986C2-C335-369F-8169-157432DE597A}.Release|x64.ActiveCfg = Release|x64
+		{04A986C2-C335-369F-8169-157432DE597A}.Release|x64.Build.0 = Release|x64
+		{61C555E7-D6C5-3548-8E3D-30AF1668DE52}.Debug|x64.ActiveCfg = Debug|x64
+		{61C555E7-D6C5-3548-8E3D-30AF1668DE52}.Debug|x64.Build.0 = Debug|x64
+		{61C555E7-D6C5-3548-8E3D-30AF1668DE52}.Release|x64.ActiveCfg = Release|x64
+		{61C555E7-D6C5-3548-8E3D-30AF1668DE52}.Release|x64.Build.0 = Release|x64
+		{7AA882F0-72B2-335B-86BF-A33C45220E1C}.Debug|x64.ActiveCfg = Debug|x64
+		{7AA882F0-72B2-335B-86BF-A33C45220E1C}.Debug|x64.Build.0 = Debug|x64
+		{7AA882F0-72B2-335B-86BF-A33C45220E1C}.Release|x64.ActiveCfg = Release|x64
+		{7AA882F0-72B2-335B-86BF-A33C45220E1C}.Release|x64.Build.0 = Release|x64
+		{E5DE9B4C-B914-3E93-94A6-0B9E12E59DB1}.Debug|x64.ActiveCfg = Debug|x64
+		{E5DE9B4C-B914-3E93-94A6-0B9E12E59DB1}.Debug|x64.Build.0 = Debug|x64
+		{E5DE9B4C-B914-3E93-94A6-0B9E12E59DB1}.Release|x64.ActiveCfg = Release|x64
+		{E5DE9B4C-B914-3E93-94A6-0B9E12E59DB1}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

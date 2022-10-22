@@ -1,0 +1,856 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qpainter.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qpainter.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_QPainter_t {
+    QByteArrayData data[153];
+    char stringdata0[2866];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QPainter_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QPainter_t qt_meta_stringdata_tst_QPainter = {
+    {
+QT_MOC_LITERAL(0, 0, 12), // "tst_QPainter"
+QT_MOC_LITERAL(1, 13, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(2, 29, 0), // ""
+QT_MOC_LITERAL(3, 30, 11), // "getSetCheck"
+QT_MOC_LITERAL(4, 42, 20), // "drawPixmap_comp_data"
+QT_MOC_LITERAL(5, 63, 15), // "drawPixmap_comp"
+QT_MOC_LITERAL(6, 79, 19), // "saveAndRestore_data"
+QT_MOC_LITERAL(7, 99, 14), // "saveAndRestore"
+QT_MOC_LITERAL(8, 114, 16), // "drawBorderPixmap"
+QT_MOC_LITERAL(9, 131, 19), // "drawPixmapFragments"
+QT_MOC_LITERAL(10, 151, 23), // "drawPixmapNegativeScale"
+QT_MOC_LITERAL(11, 175, 13), // "drawLine_data"
+QT_MOC_LITERAL(12, 189, 8), // "drawLine"
+QT_MOC_LITERAL(13, 198, 16), // "drawLine_clipped"
+QT_MOC_LITERAL(14, 215, 19), // "drawLine_task121143"
+QT_MOC_LITERAL(15, 235, 19), // "drawLine_task216948"
+QT_MOC_LITERAL(16, 255, 19), // "drawLine_task190634"
+QT_MOC_LITERAL(17, 275, 19), // "drawLine_task229459"
+QT_MOC_LITERAL(18, 295, 19), // "drawLine_task234891"
+QT_MOC_LITERAL(19, 315, 17), // "drawLineEndPoints"
+QT_MOC_LITERAL(20, 333, 13), // "drawRect_data"
+QT_MOC_LITERAL(21, 347, 8), // "drawRect"
+QT_MOC_LITERAL(22, 356, 9), // "drawRect2"
+QT_MOC_LITERAL(23, 366, 13), // "fillRect_data"
+QT_MOC_LITERAL(24, 380, 8), // "fillRect"
+QT_MOC_LITERAL(25, 389, 14), // "fillRect2_data"
+QT_MOC_LITERAL(26, 404, 9), // "fillRect2"
+QT_MOC_LITERAL(27, 414, 14), // "fillRect3_data"
+QT_MOC_LITERAL(28, 429, 9), // "fillRect3"
+QT_MOC_LITERAL(29, 439, 14), // "fillRect4_data"
+QT_MOC_LITERAL(30, 454, 9), // "fillRect4"
+QT_MOC_LITERAL(31, 464, 22), // "fillRectNonPremul_data"
+QT_MOC_LITERAL(32, 487, 17), // "fillRectNonPremul"
+QT_MOC_LITERAL(33, 505, 18), // "fillRectRGB30_data"
+QT_MOC_LITERAL(34, 524, 13), // "fillRectRGB30"
+QT_MOC_LITERAL(35, 538, 16), // "drawEllipse_data"
+QT_MOC_LITERAL(36, 555, 11), // "drawEllipse"
+QT_MOC_LITERAL(37, 567, 23), // "drawClippedEllipse_data"
+QT_MOC_LITERAL(38, 591, 18), // "drawClippedEllipse"
+QT_MOC_LITERAL(39, 610, 13), // "drawPath_data"
+QT_MOC_LITERAL(40, 624, 8), // "drawPath"
+QT_MOC_LITERAL(41, 633, 9), // "drawPath2"
+QT_MOC_LITERAL(42, 643, 9), // "drawPath3"
+QT_MOC_LITERAL(43, 653, 18), // "drawRoundRect_data"
+QT_MOC_LITERAL(44, 672, 13), // "drawRoundRect"
+QT_MOC_LITERAL(45, 686, 18), // "qimageFormats_data"
+QT_MOC_LITERAL(46, 705, 13), // "qimageFormats"
+QT_MOC_LITERAL(47, 719, 22), // "textOnTransparentImage"
+QT_MOC_LITERAL(48, 742, 8), // "initFrom"
+QT_MOC_LITERAL(49, 751, 9), // "setWindow"
+QT_MOC_LITERAL(50, 761, 14), // "combinedMatrix"
+QT_MOC_LITERAL(51, 776, 11), // "renderHints"
+QT_MOC_LITERAL(52, 788, 21), // "disableEnableClipping"
+QT_MOC_LITERAL(53, 810, 11), // "setClipRect"
+QT_MOC_LITERAL(54, 822, 30), // "setEqualClipRegionAndPath_data"
+QT_MOC_LITERAL(55, 853, 25), // "setEqualClipRegionAndPath"
+QT_MOC_LITERAL(56, 879, 19), // "clipRectSaveRestore"
+QT_MOC_LITERAL(57, 899, 20), // "clippedFillPath_data"
+QT_MOC_LITERAL(58, 920, 15), // "clippedFillPath"
+QT_MOC_LITERAL(59, 936, 17), // "clippedLines_data"
+QT_MOC_LITERAL(60, 954, 12), // "clippedLines"
+QT_MOC_LITERAL(61, 967, 19), // "clippedPolygon_data"
+QT_MOC_LITERAL(62, 987, 14), // "clippedPolygon"
+QT_MOC_LITERAL(63, 1002, 11), // "clippedText"
+QT_MOC_LITERAL(64, 1014, 16), // "clipBoundingRect"
+QT_MOC_LITERAL(65, 1031, 15), // "setOpacity_data"
+QT_MOC_LITERAL(66, 1047, 10), // "setOpacity"
+QT_MOC_LITERAL(67, 1058, 35), // "drawhelper_blend_untransforme..."
+QT_MOC_LITERAL(68, 1094, 30), // "drawhelper_blend_untransformed"
+QT_MOC_LITERAL(69, 1125, 41), // "drawhelper_blend_tiled_untran..."
+QT_MOC_LITERAL(70, 1167, 36), // "drawhelper_blend_tiled_untran..."
+QT_MOC_LITERAL(71, 1204, 18), // "porterDuff_warning"
+QT_MOC_LITERAL(72, 1223, 22), // "drawhelper_blend_color"
+QT_MOC_LITERAL(73, 1246, 19), // "childWidgetViewport"
+QT_MOC_LITERAL(74, 1266, 35), // "fillRect_objectBoundingModeGr..."
+QT_MOC_LITERAL(75, 1302, 28), // "fillRect_stretchToDeviceMode"
+QT_MOC_LITERAL(76, 1331, 10), // "monoImages"
+QT_MOC_LITERAL(77, 1342, 27), // "linearGradientSymmetry_data"
+QT_MOC_LITERAL(78, 1370, 22), // "linearGradientSymmetry"
+QT_MOC_LITERAL(79, 1393, 21), // "gradientInterpolation"
+QT_MOC_LITERAL(80, 1415, 24), // "gradientPixelFormat_data"
+QT_MOC_LITERAL(81, 1440, 19), // "gradientPixelFormat"
+QT_MOC_LITERAL(82, 1460, 24), // "linearGradientRgb30_data"
+QT_MOC_LITERAL(83, 1485, 19), // "linearGradientRgb30"
+QT_MOC_LITERAL(84, 1505, 24), // "radialGradientRgb30_data"
+QT_MOC_LITERAL(85, 1530, 19), // "radialGradientRgb30"
+QT_MOC_LITERAL(86, 1550, 19), // "fpe_pixmapTransform"
+QT_MOC_LITERAL(87, 1570, 19), // "fpe_zeroLengthLines"
+QT_MOC_LITERAL(88, 1590, 13), // "fpe_divByZero"
+QT_MOC_LITERAL(89, 1604, 20), // "fpe_steepSlopes_data"
+QT_MOC_LITERAL(90, 1625, 15), // "fpe_steepSlopes"
+QT_MOC_LITERAL(91, 1641, 28), // "fpe_rasterizeLine_task232012"
+QT_MOC_LITERAL(92, 1670, 19), // "fpe_radialGradients"
+QT_MOC_LITERAL(93, 1690, 18), // "rasterizer_asserts"
+QT_MOC_LITERAL(94, 1709, 25), // "rasterizer_negativeCoords"
+QT_MOC_LITERAL(95, 1735, 18), // "blendOverFlow_data"
+QT_MOC_LITERAL(96, 1754, 13), // "blendOverFlow"
+QT_MOC_LITERAL(97, 1768, 23), // "largeImagePainting_data"
+QT_MOC_LITERAL(98, 1792, 18), // "largeImagePainting"
+QT_MOC_LITERAL(99, 1811, 23), // "imageScaling_task206785"
+QT_MOC_LITERAL(100, 1835, 22), // "outlineFillConsistency"
+QT_MOC_LITERAL(101, 1858, 25), // "drawImage_task217400_data"
+QT_MOC_LITERAL(102, 1884, 20), // "drawImage_task217400"
+QT_MOC_LITERAL(103, 1905, 13), // "drawImage_1x1"
+QT_MOC_LITERAL(104, 1919, 20), // "drawImage_task258776"
+QT_MOC_LITERAL(105, 1940, 20), // "drawImage_QTBUG28324"
+QT_MOC_LITERAL(106, 1961, 19), // "drawRect_task215378"
+QT_MOC_LITERAL(107, 1981, 19), // "drawRect_task247505"
+QT_MOC_LITERAL(108, 2001, 14), // "drawImage_data"
+QT_MOC_LITERAL(109, 2016, 9), // "drawImage"
+QT_MOC_LITERAL(110, 2026, 12), // "clippedImage"
+QT_MOC_LITERAL(111, 2039, 26), // "stateResetBetweenQPainters"
+QT_MOC_LITERAL(112, 2066, 20), // "imageCoordinateLimit"
+QT_MOC_LITERAL(113, 2087, 18), // "imageBlending_data"
+QT_MOC_LITERAL(114, 2106, 13), // "imageBlending"
+QT_MOC_LITERAL(115, 2120, 21), // "imageBlending_clipped"
+QT_MOC_LITERAL(116, 2142, 17), // "paintOnNullPixmap"
+QT_MOC_LITERAL(117, 2160, 20), // "checkCompositionMode"
+QT_MOC_LITERAL(118, 2181, 11), // "drawPolygon"
+QT_MOC_LITERAL(119, 2193, 15), // "inactivePainter"
+QT_MOC_LITERAL(120, 2209, 18), // "extendedBlendModes"
+QT_MOC_LITERAL(121, 2228, 11), // "zeroOpacity"
+QT_MOC_LITERAL(122, 2240, 11), // "clippingBug"
+QT_MOC_LITERAL(123, 2252, 9), // "emptyClip"
+QT_MOC_LITERAL(124, 2262, 33), // "taskQT4444_dontOverflowDashOf..."
+QT_MOC_LITERAL(125, 2296, 12), // "painterBegin"
+QT_MOC_LITERAL(126, 2309, 18), // "setPenColorOnImage"
+QT_MOC_LITERAL(127, 2328, 19), // "setPenColorOnPixmap"
+QT_MOC_LITERAL(128, 2348, 30), // "QTBUG5939_attachPainterPrivate"
+QT_MOC_LITERAL(129, 2379, 15), // "drawPointScaled"
+QT_MOC_LITERAL(130, 2395, 37), // "QTBUG14614_gradientCacheRaceC..."
+QT_MOC_LITERAL(131, 2433, 15), // "drawTextOpacity"
+QT_MOC_LITERAL(132, 2449, 26), // "QTBUG17053_zeroDashPattern"
+QT_MOC_LITERAL(133, 2476, 28), // "QTBUG38781_NoBrushAndQBitmap"
+QT_MOC_LITERAL(134, 2505, 24), // "drawTextOutsideGuiThread"
+QT_MOC_LITERAL(135, 2530, 24), // "drawTextWithComplexBrush"
+QT_MOC_LITERAL(136, 2555, 26), // "QTBUG26013_squareCapStroke"
+QT_MOC_LITERAL(137, 2582, 19), // "QTBUG25153_drawLine"
+QT_MOC_LITERAL(138, 2602, 28), // "cosmeticStrokerClipping_data"
+QT_MOC_LITERAL(139, 2631, 23), // "cosmeticStrokerClipping"
+QT_MOC_LITERAL(140, 2655, 19), // "blendARGBonRGB_data"
+QT_MOC_LITERAL(141, 2675, 14), // "blendARGBonRGB"
+QT_MOC_LITERAL(142, 2690, 23), // "RasterOp_NotDestination"
+QT_MOC_LITERAL(143, 2714, 17), // "drawTextNoHinting"
+QT_MOC_LITERAL(144, 2732, 17), // "drawPolyline_data"
+QT_MOC_LITERAL(145, 2750, 12), // "drawPolyline"
+QT_MOC_LITERAL(146, 2763, 27), // "QTBUG50153_drawImage_assert"
+QT_MOC_LITERAL(147, 2791, 16), // "rotateImage_data"
+QT_MOC_LITERAL(148, 2808, 11), // "rotateImage"
+QT_MOC_LITERAL(149, 2820, 10), // "QTBUG56252"
+QT_MOC_LITERAL(150, 2831, 14), // "blendNullRGB32"
+QT_MOC_LITERAL(151, 2846, 7), // "toRGB64"
+QT_MOC_LITERAL(152, 2854, 11) // "fillPolygon"
+
+    },
+    "tst_QPainter\0cleanupTestCase\0\0getSetCheck\0"
+    "drawPixmap_comp_data\0drawPixmap_comp\0"
+    "saveAndRestore_data\0saveAndRestore\0"
+    "drawBorderPixmap\0drawPixmapFragments\0"
+    "drawPixmapNegativeScale\0drawLine_data\0"
+    "drawLine\0drawLine_clipped\0drawLine_task121143\0"
+    "drawLine_task216948\0drawLine_task190634\0"
+    "drawLine_task229459\0drawLine_task234891\0"
+    "drawLineEndPoints\0drawRect_data\0"
+    "drawRect\0drawRect2\0fillRect_data\0"
+    "fillRect\0fillRect2_data\0fillRect2\0"
+    "fillRect3_data\0fillRect3\0fillRect4_data\0"
+    "fillRect4\0fillRectNonPremul_data\0"
+    "fillRectNonPremul\0fillRectRGB30_data\0"
+    "fillRectRGB30\0drawEllipse_data\0"
+    "drawEllipse\0drawClippedEllipse_data\0"
+    "drawClippedEllipse\0drawPath_data\0"
+    "drawPath\0drawPath2\0drawPath3\0"
+    "drawRoundRect_data\0drawRoundRect\0"
+    "qimageFormats_data\0qimageFormats\0"
+    "textOnTransparentImage\0initFrom\0"
+    "setWindow\0combinedMatrix\0renderHints\0"
+    "disableEnableClipping\0setClipRect\0"
+    "setEqualClipRegionAndPath_data\0"
+    "setEqualClipRegionAndPath\0clipRectSaveRestore\0"
+    "clippedFillPath_data\0clippedFillPath\0"
+    "clippedLines_data\0clippedLines\0"
+    "clippedPolygon_data\0clippedPolygon\0"
+    "clippedText\0clipBoundingRect\0"
+    "setOpacity_data\0setOpacity\0"
+    "drawhelper_blend_untransformed_data\0"
+    "drawhelper_blend_untransformed\0"
+    "drawhelper_blend_tiled_untransformed_data\0"
+    "drawhelper_blend_tiled_untransformed\0"
+    "porterDuff_warning\0drawhelper_blend_color\0"
+    "childWidgetViewport\0"
+    "fillRect_objectBoundingModeGradient\0"
+    "fillRect_stretchToDeviceMode\0monoImages\0"
+    "linearGradientSymmetry_data\0"
+    "linearGradientSymmetry\0gradientInterpolation\0"
+    "gradientPixelFormat_data\0gradientPixelFormat\0"
+    "linearGradientRgb30_data\0linearGradientRgb30\0"
+    "radialGradientRgb30_data\0radialGradientRgb30\0"
+    "fpe_pixmapTransform\0fpe_zeroLengthLines\0"
+    "fpe_divByZero\0fpe_steepSlopes_data\0"
+    "fpe_steepSlopes\0fpe_rasterizeLine_task232012\0"
+    "fpe_radialGradients\0rasterizer_asserts\0"
+    "rasterizer_negativeCoords\0blendOverFlow_data\0"
+    "blendOverFlow\0largeImagePainting_data\0"
+    "largeImagePainting\0imageScaling_task206785\0"
+    "outlineFillConsistency\0drawImage_task217400_data\0"
+    "drawImage_task217400\0drawImage_1x1\0"
+    "drawImage_task258776\0drawImage_QTBUG28324\0"
+    "drawRect_task215378\0drawRect_task247505\0"
+    "drawImage_data\0drawImage\0clippedImage\0"
+    "stateResetBetweenQPainters\0"
+    "imageCoordinateLimit\0imageBlending_data\0"
+    "imageBlending\0imageBlending_clipped\0"
+    "paintOnNullPixmap\0checkCompositionMode\0"
+    "drawPolygon\0inactivePainter\0"
+    "extendedBlendModes\0zeroOpacity\0"
+    "clippingBug\0emptyClip\0"
+    "taskQT4444_dontOverflowDashOffset\0"
+    "painterBegin\0setPenColorOnImage\0"
+    "setPenColorOnPixmap\0QTBUG5939_attachPainterPrivate\0"
+    "drawPointScaled\0QTBUG14614_gradientCacheRaceCondition\0"
+    "drawTextOpacity\0QTBUG17053_zeroDashPattern\0"
+    "QTBUG38781_NoBrushAndQBitmap\0"
+    "drawTextOutsideGuiThread\0"
+    "drawTextWithComplexBrush\0"
+    "QTBUG26013_squareCapStroke\0"
+    "QTBUG25153_drawLine\0cosmeticStrokerClipping_data\0"
+    "cosmeticStrokerClipping\0blendARGBonRGB_data\0"
+    "blendARGBonRGB\0RasterOp_NotDestination\0"
+    "drawTextNoHinting\0drawPolyline_data\0"
+    "drawPolyline\0QTBUG50153_drawImage_assert\0"
+    "rotateImage_data\0rotateImage\0QTBUG56252\0"
+    "blendNullRGB32\0toRGB64\0fillPolygon"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QPainter[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+     151,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  769,    2, 0x08 /* Private */,
+       3,    0,  770,    2, 0x08 /* Private */,
+       4,    0,  771,    2, 0x08 /* Private */,
+       5,    0,  772,    2, 0x08 /* Private */,
+       6,    0,  773,    2, 0x08 /* Private */,
+       7,    0,  774,    2, 0x08 /* Private */,
+       8,    0,  775,    2, 0x08 /* Private */,
+       9,    0,  776,    2, 0x08 /* Private */,
+      10,    0,  777,    2, 0x08 /* Private */,
+      11,    0,  778,    2, 0x08 /* Private */,
+      12,    0,  779,    2, 0x08 /* Private */,
+      13,    0,  780,    2, 0x08 /* Private */,
+      14,    0,  781,    2, 0x08 /* Private */,
+      15,    0,  782,    2, 0x08 /* Private */,
+      16,    0,  783,    2, 0x08 /* Private */,
+      17,    0,  784,    2, 0x08 /* Private */,
+      18,    0,  785,    2, 0x08 /* Private */,
+      19,    0,  786,    2, 0x08 /* Private */,
+      20,    0,  787,    2, 0x08 /* Private */,
+      21,    0,  788,    2, 0x08 /* Private */,
+      22,    0,  789,    2, 0x08 /* Private */,
+      23,    0,  790,    2, 0x08 /* Private */,
+      24,    0,  791,    2, 0x08 /* Private */,
+      25,    0,  792,    2, 0x08 /* Private */,
+      26,    0,  793,    2, 0x08 /* Private */,
+      27,    0,  794,    2, 0x08 /* Private */,
+      28,    0,  795,    2, 0x08 /* Private */,
+      29,    0,  796,    2, 0x08 /* Private */,
+      30,    0,  797,    2, 0x08 /* Private */,
+      31,    0,  798,    2, 0x08 /* Private */,
+      32,    0,  799,    2, 0x08 /* Private */,
+      33,    0,  800,    2, 0x08 /* Private */,
+      34,    0,  801,    2, 0x08 /* Private */,
+      35,    0,  802,    2, 0x08 /* Private */,
+      36,    0,  803,    2, 0x08 /* Private */,
+      37,    0,  804,    2, 0x08 /* Private */,
+      38,    0,  805,    2, 0x08 /* Private */,
+      39,    0,  806,    2, 0x08 /* Private */,
+      40,    0,  807,    2, 0x08 /* Private */,
+      41,    0,  808,    2, 0x08 /* Private */,
+      42,    0,  809,    2, 0x08 /* Private */,
+      43,    0,  810,    2, 0x08 /* Private */,
+      44,    0,  811,    2, 0x08 /* Private */,
+      45,    0,  812,    2, 0x08 /* Private */,
+      46,    0,  813,    2, 0x08 /* Private */,
+      47,    0,  814,    2, 0x08 /* Private */,
+      48,    0,  815,    2, 0x08 /* Private */,
+      49,    0,  816,    2, 0x08 /* Private */,
+      50,    0,  817,    2, 0x08 /* Private */,
+      51,    0,  818,    2, 0x08 /* Private */,
+      52,    0,  819,    2, 0x08 /* Private */,
+      53,    0,  820,    2, 0x08 /* Private */,
+      54,    0,  821,    2, 0x08 /* Private */,
+      55,    0,  822,    2, 0x08 /* Private */,
+      56,    0,  823,    2, 0x08 /* Private */,
+      57,    0,  824,    2, 0x08 /* Private */,
+      58,    0,  825,    2, 0x08 /* Private */,
+      59,    0,  826,    2, 0x08 /* Private */,
+      60,    0,  827,    2, 0x08 /* Private */,
+      61,    0,  828,    2, 0x08 /* Private */,
+      62,    0,  829,    2, 0x08 /* Private */,
+      63,    0,  830,    2, 0x08 /* Private */,
+      64,    0,  831,    2, 0x08 /* Private */,
+      65,    0,  832,    2, 0x08 /* Private */,
+      66,    0,  833,    2, 0x08 /* Private */,
+      67,    0,  834,    2, 0x08 /* Private */,
+      68,    0,  835,    2, 0x08 /* Private */,
+      69,    0,  836,    2, 0x08 /* Private */,
+      70,    0,  837,    2, 0x08 /* Private */,
+      71,    0,  838,    2, 0x08 /* Private */,
+      72,    0,  839,    2, 0x08 /* Private */,
+      73,    0,  840,    2, 0x08 /* Private */,
+      74,    0,  841,    2, 0x08 /* Private */,
+      75,    0,  842,    2, 0x08 /* Private */,
+      76,    0,  843,    2, 0x08 /* Private */,
+      77,    0,  844,    2, 0x08 /* Private */,
+      78,    0,  845,    2, 0x08 /* Private */,
+      79,    0,  846,    2, 0x08 /* Private */,
+      80,    0,  847,    2, 0x08 /* Private */,
+      81,    0,  848,    2, 0x08 /* Private */,
+      82,    0,  849,    2, 0x08 /* Private */,
+      83,    0,  850,    2, 0x08 /* Private */,
+      84,    0,  851,    2, 0x08 /* Private */,
+      85,    0,  852,    2, 0x08 /* Private */,
+      86,    0,  853,    2, 0x08 /* Private */,
+      87,    0,  854,    2, 0x08 /* Private */,
+      88,    0,  855,    2, 0x08 /* Private */,
+      89,    0,  856,    2, 0x08 /* Private */,
+      90,    0,  857,    2, 0x08 /* Private */,
+      91,    0,  858,    2, 0x08 /* Private */,
+      92,    0,  859,    2, 0x08 /* Private */,
+      93,    0,  860,    2, 0x08 /* Private */,
+      94,    0,  861,    2, 0x08 /* Private */,
+      95,    0,  862,    2, 0x08 /* Private */,
+      96,    0,  863,    2, 0x08 /* Private */,
+      97,    0,  864,    2, 0x08 /* Private */,
+      98,    0,  865,    2, 0x08 /* Private */,
+      99,    0,  866,    2, 0x08 /* Private */,
+     100,    0,  867,    2, 0x08 /* Private */,
+     101,    0,  868,    2, 0x08 /* Private */,
+     102,    0,  869,    2, 0x08 /* Private */,
+     103,    0,  870,    2, 0x08 /* Private */,
+     104,    0,  871,    2, 0x08 /* Private */,
+     105,    0,  872,    2, 0x08 /* Private */,
+     106,    0,  873,    2, 0x08 /* Private */,
+     107,    0,  874,    2, 0x08 /* Private */,
+     108,    0,  875,    2, 0x08 /* Private */,
+     109,    0,  876,    2, 0x08 /* Private */,
+     110,    0,  877,    2, 0x08 /* Private */,
+     111,    0,  878,    2, 0x08 /* Private */,
+     112,    0,  879,    2, 0x08 /* Private */,
+     113,    0,  880,    2, 0x08 /* Private */,
+     114,    0,  881,    2, 0x08 /* Private */,
+     115,    0,  882,    2, 0x08 /* Private */,
+     116,    0,  883,    2, 0x08 /* Private */,
+     117,    0,  884,    2, 0x08 /* Private */,
+     118,    0,  885,    2, 0x08 /* Private */,
+     119,    0,  886,    2, 0x08 /* Private */,
+     120,    0,  887,    2, 0x08 /* Private */,
+     121,    0,  888,    2, 0x08 /* Private */,
+     122,    0,  889,    2, 0x08 /* Private */,
+     123,    0,  890,    2, 0x08 /* Private */,
+     124,    0,  891,    2, 0x08 /* Private */,
+     125,    0,  892,    2, 0x08 /* Private */,
+     126,    0,  893,    2, 0x08 /* Private */,
+     127,    0,  894,    2, 0x08 /* Private */,
+     128,    0,  895,    2, 0x08 /* Private */,
+     129,    0,  896,    2, 0x08 /* Private */,
+     130,    0,  897,    2, 0x08 /* Private */,
+     131,    0,  898,    2, 0x08 /* Private */,
+     132,    0,  899,    2, 0x08 /* Private */,
+     133,    0,  900,    2, 0x08 /* Private */,
+     134,    0,  901,    2, 0x08 /* Private */,
+     135,    0,  902,    2, 0x08 /* Private */,
+     136,    0,  903,    2, 0x08 /* Private */,
+     137,    0,  904,    2, 0x08 /* Private */,
+     138,    0,  905,    2, 0x08 /* Private */,
+     139,    0,  906,    2, 0x08 /* Private */,
+     140,    0,  907,    2, 0x08 /* Private */,
+     141,    0,  908,    2, 0x08 /* Private */,
+     142,    0,  909,    2, 0x08 /* Private */,
+     143,    0,  910,    2, 0x08 /* Private */,
+     144,    0,  911,    2, 0x08 /* Private */,
+     145,    0,  912,    2, 0x08 /* Private */,
+     146,    0,  913,    2, 0x08 /* Private */,
+     147,    0,  914,    2, 0x08 /* Private */,
+     148,    0,  915,    2, 0x08 /* Private */,
+     149,    0,  916,    2, 0x08 /* Private */,
+     150,    0,  917,    2, 0x08 /* Private */,
+     151,    0,  918,    2, 0x08 /* Private */,
+     152,    0,  919,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QPainter::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QPainter *_t = static_cast<tst_QPainter *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->cleanupTestCase(); break;
+        case 1: _t->getSetCheck(); break;
+        case 2: _t->drawPixmap_comp_data(); break;
+        case 3: _t->drawPixmap_comp(); break;
+        case 4: _t->saveAndRestore_data(); break;
+        case 5: _t->saveAndRestore(); break;
+        case 6: _t->drawBorderPixmap(); break;
+        case 7: _t->drawPixmapFragments(); break;
+        case 8: _t->drawPixmapNegativeScale(); break;
+        case 9: _t->drawLine_data(); break;
+        case 10: _t->drawLine(); break;
+        case 11: _t->drawLine_clipped(); break;
+        case 12: _t->drawLine_task121143(); break;
+        case 13: _t->drawLine_task216948(); break;
+        case 14: _t->drawLine_task190634(); break;
+        case 15: _t->drawLine_task229459(); break;
+        case 16: _t->drawLine_task234891(); break;
+        case 17: _t->drawLineEndPoints(); break;
+        case 18: _t->drawRect_data(); break;
+        case 19: _t->drawRect(); break;
+        case 20: _t->drawRect2(); break;
+        case 21: _t->fillRect_data(); break;
+        case 22: _t->fillRect(); break;
+        case 23: _t->fillRect2_data(); break;
+        case 24: _t->fillRect2(); break;
+        case 25: _t->fillRect3_data(); break;
+        case 26: _t->fillRect3(); break;
+        case 27: _t->fillRect4_data(); break;
+        case 28: _t->fillRect4(); break;
+        case 29: _t->fillRectNonPremul_data(); break;
+        case 30: _t->fillRectNonPremul(); break;
+        case 31: _t->fillRectRGB30_data(); break;
+        case 32: _t->fillRectRGB30(); break;
+        case 33: _t->drawEllipse_data(); break;
+        case 34: _t->drawEllipse(); break;
+        case 35: _t->drawClippedEllipse_data(); break;
+        case 36: _t->drawClippedEllipse(); break;
+        case 37: _t->drawPath_data(); break;
+        case 38: _t->drawPath(); break;
+        case 39: _t->drawPath2(); break;
+        case 40: _t->drawPath3(); break;
+        case 41: _t->drawRoundRect_data(); break;
+        case 42: _t->drawRoundRect(); break;
+        case 43: _t->qimageFormats_data(); break;
+        case 44: _t->qimageFormats(); break;
+        case 45: _t->textOnTransparentImage(); break;
+        case 46: _t->initFrom(); break;
+        case 47: _t->setWindow(); break;
+        case 48: _t->combinedMatrix(); break;
+        case 49: _t->renderHints(); break;
+        case 50: _t->disableEnableClipping(); break;
+        case 51: _t->setClipRect(); break;
+        case 52: _t->setEqualClipRegionAndPath_data(); break;
+        case 53: _t->setEqualClipRegionAndPath(); break;
+        case 54: _t->clipRectSaveRestore(); break;
+        case 55: _t->clippedFillPath_data(); break;
+        case 56: _t->clippedFillPath(); break;
+        case 57: _t->clippedLines_data(); break;
+        case 58: _t->clippedLines(); break;
+        case 59: _t->clippedPolygon_data(); break;
+        case 60: _t->clippedPolygon(); break;
+        case 61: _t->clippedText(); break;
+        case 62: _t->clipBoundingRect(); break;
+        case 63: _t->setOpacity_data(); break;
+        case 64: _t->setOpacity(); break;
+        case 65: _t->drawhelper_blend_untransformed_data(); break;
+        case 66: _t->drawhelper_blend_untransformed(); break;
+        case 67: _t->drawhelper_blend_tiled_untransformed_data(); break;
+        case 68: _t->drawhelper_blend_tiled_untransformed(); break;
+        case 69: _t->porterDuff_warning(); break;
+        case 70: _t->drawhelper_blend_color(); break;
+        case 71: _t->childWidgetViewport(); break;
+        case 72: _t->fillRect_objectBoundingModeGradient(); break;
+        case 73: _t->fillRect_stretchToDeviceMode(); break;
+        case 74: _t->monoImages(); break;
+        case 75: _t->linearGradientSymmetry_data(); break;
+        case 76: _t->linearGradientSymmetry(); break;
+        case 77: _t->gradientInterpolation(); break;
+        case 78: _t->gradientPixelFormat_data(); break;
+        case 79: _t->gradientPixelFormat(); break;
+        case 80: _t->linearGradientRgb30_data(); break;
+        case 81: _t->linearGradientRgb30(); break;
+        case 82: _t->radialGradientRgb30_data(); break;
+        case 83: _t->radialGradientRgb30(); break;
+        case 84: _t->fpe_pixmapTransform(); break;
+        case 85: _t->fpe_zeroLengthLines(); break;
+        case 86: _t->fpe_divByZero(); break;
+        case 87: _t->fpe_steepSlopes_data(); break;
+        case 88: _t->fpe_steepSlopes(); break;
+        case 89: _t->fpe_rasterizeLine_task232012(); break;
+        case 90: _t->fpe_radialGradients(); break;
+        case 91: _t->rasterizer_asserts(); break;
+        case 92: _t->rasterizer_negativeCoords(); break;
+        case 93: _t->blendOverFlow_data(); break;
+        case 94: _t->blendOverFlow(); break;
+        case 95: _t->largeImagePainting_data(); break;
+        case 96: _t->largeImagePainting(); break;
+        case 97: _t->imageScaling_task206785(); break;
+        case 98: _t->outlineFillConsistency(); break;
+        case 99: _t->drawImage_task217400_data(); break;
+        case 100: _t->drawImage_task217400(); break;
+        case 101: _t->drawImage_1x1(); break;
+        case 102: _t->drawImage_task258776(); break;
+        case 103: _t->drawImage_QTBUG28324(); break;
+        case 104: _t->drawRect_task215378(); break;
+        case 105: _t->drawRect_task247505(); break;
+        case 106: _t->drawImage_data(); break;
+        case 107: _t->drawImage(); break;
+        case 108: _t->clippedImage(); break;
+        case 109: _t->stateResetBetweenQPainters(); break;
+        case 110: _t->imageCoordinateLimit(); break;
+        case 111: _t->imageBlending_data(); break;
+        case 112: _t->imageBlending(); break;
+        case 113: _t->imageBlending_clipped(); break;
+        case 114: _t->paintOnNullPixmap(); break;
+        case 115: _t->checkCompositionMode(); break;
+        case 116: _t->drawPolygon(); break;
+        case 117: _t->inactivePainter(); break;
+        case 118: _t->extendedBlendModes(); break;
+        case 119: _t->zeroOpacity(); break;
+        case 120: _t->clippingBug(); break;
+        case 121: _t->emptyClip(); break;
+        case 122: _t->taskQT4444_dontOverflowDashOffset(); break;
+        case 123: _t->painterBegin(); break;
+        case 124: _t->setPenColorOnImage(); break;
+        case 125: _t->setPenColorOnPixmap(); break;
+        case 126: _t->QTBUG5939_attachPainterPrivate(); break;
+        case 127: _t->drawPointScaled(); break;
+        case 128: _t->QTBUG14614_gradientCacheRaceCondition(); break;
+        case 129: _t->drawTextOpacity(); break;
+        case 130: _t->QTBUG17053_zeroDashPattern(); break;
+        case 131: _t->QTBUG38781_NoBrushAndQBitmap(); break;
+        case 132: _t->drawTextOutsideGuiThread(); break;
+        case 133: _t->drawTextWithComplexBrush(); break;
+        case 134: _t->QTBUG26013_squareCapStroke(); break;
+        case 135: _t->QTBUG25153_drawLine(); break;
+        case 136: _t->cosmeticStrokerClipping_data(); break;
+        case 137: _t->cosmeticStrokerClipping(); break;
+        case 138: _t->blendARGBonRGB_data(); break;
+        case 139: _t->blendARGBonRGB(); break;
+        case 140: _t->RasterOp_NotDestination(); break;
+        case 141: _t->drawTextNoHinting(); break;
+        case 142: _t->drawPolyline_data(); break;
+        case 143: _t->drawPolyline(); break;
+        case 144: _t->QTBUG50153_drawImage_assert(); break;
+        case 145: _t->rotateImage_data(); break;
+        case 146: _t->rotateImage(); break;
+        case 147: _t->QTBUG56252(); break;
+        case 148: _t->blendNullRGB32(); break;
+        case 149: _t->toRGB64(); break;
+        case 150: _t->fillPolygon(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QPainter::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QPainter.data,
+      qt_meta_data_tst_QPainter,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QPainter::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QPainter::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QPainter.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QPainter::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 151)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 151;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 151)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 151;
+    }
+    return _id;
+}
+struct qt_meta_stringdata_TestWidget_t {
+    QByteArrayData data[1];
+    char stringdata0[11];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_TestWidget_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_TestWidget_t qt_meta_stringdata_TestWidget = {
+    {
+QT_MOC_LITERAL(0, 0, 10) // "TestWidget"
+
+    },
+    "TestWidget"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_TestWidget[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+       0        // eod
+};
+
+void TestWidget::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject TestWidget::staticMetaObject = {
+    { &QWidget::staticMetaObject, qt_meta_stringdata_TestWidget.data,
+      qt_meta_data_TestWidget,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *TestWidget::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *TestWidget::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_TestWidget.stringdata0))
+        return static_cast<void*>(this);
+    return QWidget::qt_metacast(_clname);
+}
+
+int TestWidget::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QWidget::qt_metacall(_c, _id, _a);
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

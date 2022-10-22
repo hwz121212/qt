@@ -1,0 +1,109 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2092
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gruesensor", "sensors\grue\lib\gruesensor.vcxproj", "{242AA437-38A5-39CE-8595-E0905C5A12D9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtsensors_grue", "sensors\grue\plugin\qtsensors_grue.vcxproj", "{22FC65A2-4779-3B91-9BF1-F7CE052001D3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{242AA437-38A5-39CE-8595-E0905C5A12D9} = {242AA437-38A5-39CE-8595-E0905C5A12D9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "detect_grue", "sensors\grue\console_app\detect_grue.vcxproj", "{EA31AA50-B2D5-31AF-8D94-F83DEDCCEFB4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "declarative_grue", "sensors\grue\import\declarative_grue.vcxproj", "{3C0D7EC6-A446-34BB-A04B-A87329E47047}"
+	ProjectSection(ProjectDependencies) = postProject
+		{242AA437-38A5-39CE-8595-E0905C5A12D9} = {242AA437-38A5-39CE-8595-E0905C5A12D9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "grue_app", "sensors\grue\grue_app.vcxproj", "{F17EF97A-3AE4-3051-8A56-DF0AC5C47A44}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maze", "sensors\maze\maze.vcxproj", "{CF580C8A-C866-37E0-BBFE-5F3D27C1A94A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtsensorgestures_counterplugin", "sensors\qmlsensorgestures\plugin\qtsensorgestures_counterplugin.vcxproj", "{C69E6C06-FF1D-3495-B519-F22F54F70744}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qmlsensorgestures", "sensors\qmlsensorgestures\qmlsensorgestures.vcxproj", "{805072D0-6CB4-3359-A8C9-A6D9D162D197}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qmlqtsensors", "sensors\qmlqtsensors\qmlqtsensors.vcxproj", "{B142668E-EA45-3C24-86D2-26322DDFE5B4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "declarative_explorer", "sensors\sensor_explorer\import\declarative_explorer.vcxproj", "{0BCFEA35-BE1B-3159-B355-321ABFC0E245}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sensor_explorer", "sensors\sensor_explorer\sensor_explorer.vcxproj", "{02751B45-CF4D-3AA2-B31D-1591195C41F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "shakeit", "sensors\shakeit\shakeit.vcxproj", "{5EB684A3-DFC6-3794-8922-8046F64948A4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "accelbubble", "sensors\accelbubble\accelbubble.vcxproj", "{D29132B6-20F8-333C-96FD-0ED7710AC4F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gesture", "sensors\sensorgestures\gesture.vcxproj", "{682ED13E-7B4E-379B-81CA-F0178441BFA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{242AA437-38A5-39CE-8595-E0905C5A12D9}.Debug|x64.ActiveCfg = Debug|x64
+		{242AA437-38A5-39CE-8595-E0905C5A12D9}.Debug|x64.Build.0 = Debug|x64
+		{242AA437-38A5-39CE-8595-E0905C5A12D9}.Release|x64.ActiveCfg = Release|x64
+		{242AA437-38A5-39CE-8595-E0905C5A12D9}.Release|x64.Build.0 = Release|x64
+		{22FC65A2-4779-3B91-9BF1-F7CE052001D3}.Debug|x64.ActiveCfg = Debug|x64
+		{22FC65A2-4779-3B91-9BF1-F7CE052001D3}.Debug|x64.Build.0 = Debug|x64
+		{22FC65A2-4779-3B91-9BF1-F7CE052001D3}.Release|x64.ActiveCfg = Release|x64
+		{22FC65A2-4779-3B91-9BF1-F7CE052001D3}.Release|x64.Build.0 = Release|x64
+		{EA31AA50-B2D5-31AF-8D94-F83DEDCCEFB4}.Debug|x64.ActiveCfg = Debug|x64
+		{EA31AA50-B2D5-31AF-8D94-F83DEDCCEFB4}.Debug|x64.Build.0 = Debug|x64
+		{EA31AA50-B2D5-31AF-8D94-F83DEDCCEFB4}.Release|x64.ActiveCfg = Release|x64
+		{EA31AA50-B2D5-31AF-8D94-F83DEDCCEFB4}.Release|x64.Build.0 = Release|x64
+		{3C0D7EC6-A446-34BB-A04B-A87329E47047}.Debug|x64.ActiveCfg = Debug|x64
+		{3C0D7EC6-A446-34BB-A04B-A87329E47047}.Debug|x64.Build.0 = Debug|x64
+		{3C0D7EC6-A446-34BB-A04B-A87329E47047}.Release|x64.ActiveCfg = Release|x64
+		{3C0D7EC6-A446-34BB-A04B-A87329E47047}.Release|x64.Build.0 = Release|x64
+		{F17EF97A-3AE4-3051-8A56-DF0AC5C47A44}.Debug|x64.ActiveCfg = Debug|x64
+		{F17EF97A-3AE4-3051-8A56-DF0AC5C47A44}.Debug|x64.Build.0 = Debug|x64
+		{F17EF97A-3AE4-3051-8A56-DF0AC5C47A44}.Release|x64.ActiveCfg = Release|x64
+		{F17EF97A-3AE4-3051-8A56-DF0AC5C47A44}.Release|x64.Build.0 = Release|x64
+		{CF580C8A-C866-37E0-BBFE-5F3D27C1A94A}.Debug|x64.ActiveCfg = Debug|x64
+		{CF580C8A-C866-37E0-BBFE-5F3D27C1A94A}.Debug|x64.Build.0 = Debug|x64
+		{CF580C8A-C866-37E0-BBFE-5F3D27C1A94A}.Release|x64.ActiveCfg = Release|x64
+		{CF580C8A-C866-37E0-BBFE-5F3D27C1A94A}.Release|x64.Build.0 = Release|x64
+		{C69E6C06-FF1D-3495-B519-F22F54F70744}.Debug|x64.ActiveCfg = Debug|x64
+		{C69E6C06-FF1D-3495-B519-F22F54F70744}.Debug|x64.Build.0 = Debug|x64
+		{C69E6C06-FF1D-3495-B519-F22F54F70744}.Release|x64.ActiveCfg = Release|x64
+		{C69E6C06-FF1D-3495-B519-F22F54F70744}.Release|x64.Build.0 = Release|x64
+		{805072D0-6CB4-3359-A8C9-A6D9D162D197}.Debug|x64.ActiveCfg = Debug|x64
+		{805072D0-6CB4-3359-A8C9-A6D9D162D197}.Debug|x64.Build.0 = Debug|x64
+		{805072D0-6CB4-3359-A8C9-A6D9D162D197}.Release|x64.ActiveCfg = Release|x64
+		{805072D0-6CB4-3359-A8C9-A6D9D162D197}.Release|x64.Build.0 = Release|x64
+		{B142668E-EA45-3C24-86D2-26322DDFE5B4}.Debug|x64.ActiveCfg = Debug|x64
+		{B142668E-EA45-3C24-86D2-26322DDFE5B4}.Debug|x64.Build.0 = Debug|x64
+		{B142668E-EA45-3C24-86D2-26322DDFE5B4}.Release|x64.ActiveCfg = Release|x64
+		{B142668E-EA45-3C24-86D2-26322DDFE5B4}.Release|x64.Build.0 = Release|x64
+		{0BCFEA35-BE1B-3159-B355-321ABFC0E245}.Debug|x64.ActiveCfg = Debug|x64
+		{0BCFEA35-BE1B-3159-B355-321ABFC0E245}.Debug|x64.Build.0 = Debug|x64
+		{0BCFEA35-BE1B-3159-B355-321ABFC0E245}.Release|x64.ActiveCfg = Release|x64
+		{0BCFEA35-BE1B-3159-B355-321ABFC0E245}.Release|x64.Build.0 = Release|x64
+		{02751B45-CF4D-3AA2-B31D-1591195C41F5}.Debug|x64.ActiveCfg = Debug|x64
+		{02751B45-CF4D-3AA2-B31D-1591195C41F5}.Debug|x64.Build.0 = Debug|x64
+		{02751B45-CF4D-3AA2-B31D-1591195C41F5}.Release|x64.ActiveCfg = Release|x64
+		{02751B45-CF4D-3AA2-B31D-1591195C41F5}.Release|x64.Build.0 = Release|x64
+		{5EB684A3-DFC6-3794-8922-8046F64948A4}.Debug|x64.ActiveCfg = Debug|x64
+		{5EB684A3-DFC6-3794-8922-8046F64948A4}.Debug|x64.Build.0 = Debug|x64
+		{5EB684A3-DFC6-3794-8922-8046F64948A4}.Release|x64.ActiveCfg = Release|x64
+		{5EB684A3-DFC6-3794-8922-8046F64948A4}.Release|x64.Build.0 = Release|x64
+		{D29132B6-20F8-333C-96FD-0ED7710AC4F1}.Debug|x64.ActiveCfg = Debug|x64
+		{D29132B6-20F8-333C-96FD-0ED7710AC4F1}.Debug|x64.Build.0 = Debug|x64
+		{D29132B6-20F8-333C-96FD-0ED7710AC4F1}.Release|x64.ActiveCfg = Release|x64
+		{D29132B6-20F8-333C-96FD-0ED7710AC4F1}.Release|x64.Build.0 = Release|x64
+		{682ED13E-7B4E-379B-81CA-F0178441BFA2}.Debug|x64.ActiveCfg = Debug|x64
+		{682ED13E-7B4E-379B-81CA-F0178441BFA2}.Debug|x64.Build.0 = Debug|x64
+		{682ED13E-7B4E-379B-81CA-F0178441BFA2}.Release|x64.ActiveCfg = Release|x64
+		{682ED13E-7B4E-379B-81CA-F0178441BFA2}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		Qt5Version = msvc2017_64
+		SolutionGuid = {52BCB20E-AF9B-4F81-A31D-6E787B8BC6CE}
+	EndGlobalSection
+EndGlobal

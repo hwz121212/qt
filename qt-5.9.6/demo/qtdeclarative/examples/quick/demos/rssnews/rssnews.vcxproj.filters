@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include=".moc\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include=".moc\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    
+    
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="content\images\Asia.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\images\Business.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\BusyIndicator.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\CategoryDelegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\images\Entertainment.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\images\Europe.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\images\Health.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\NewsDelegate.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\images\Politics.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\RssFeeds.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\images\Science.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\ScrollBar.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\images\Sports.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\images\Technology.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\images\TopStories.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\images\USNational.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\images\World.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\images\btn_close.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="content\images\busy.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="rssnews.qml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="rssnews.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="content\images\scrollbar.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

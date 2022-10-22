@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\shared\emulationdetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\expected_alive.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_assert.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_assert.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_assert.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_assert.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_assert.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_badxml.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_badxml.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_badxml.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_badxml.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_badxml.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibcallgrind.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibcallgrind.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibcounting.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibcounting.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibcounting.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibcounting.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibcounting.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibeventcounter.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibeventcounter.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibeventcounter.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibeventcounter.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibeventcounter.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchliboptions.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibtickcounter.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibtickcounter.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibtickcounter.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibtickcounter.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibtickcounter.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibwalltime.csv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibwalltime.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibwalltime.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibwalltime.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_benchlibwalltime.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_blacklisted.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_cmptest.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_cmptest.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_cmptest.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_cmptest.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_cmptest.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_commandlinedata.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_commandlinedata.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_commandlinedata.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_commandlinedata.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_commandlinedata.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_counting.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_counting.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_counting.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_counting.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_counting.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_crashes_1.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_crashes_2.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_crashes_3.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_datatable.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_datatable.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_datatable.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_datatable.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_datatable.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_datetime.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_datetime.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_datetime.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_datetime.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_datetime.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_differentexec.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_exceptionthrow.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_exceptionthrow.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_exceptionthrow.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_exceptionthrow.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_exceptionthrow.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_expectfail.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_expectfail.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_expectfail.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_expectfail.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_expectfail.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failcleanup.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failcleanup.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failcleanup.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failcleanup.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failcleanup.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failinit.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failinit.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failinit.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failinit.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failinit.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failinitdata.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failinitdata.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failinitdata.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failinitdata.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_failinitdata.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_fetchbogus.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_fetchbogus.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_fetchbogus.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_fetchbogus.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_fetchbogus.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_findtestdata.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_findtestdata.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_findtestdata.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_findtestdata.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_findtestdata.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_float.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_globaldata.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_globaldata.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_globaldata.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_globaldata.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_globaldata.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_longstring.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_longstring.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_longstring.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_longstring.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_longstring.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_maxwarnings.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_maxwarnings.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_maxwarnings.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_maxwarnings.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_maxwarnings.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_multiexec.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_printdatatags.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_printdatatagswithglobaltags.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_qexecstringlist.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_silent.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_silent.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_singleskip.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_singleskip.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_singleskip.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_singleskip.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_singleskip.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skip.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skip.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skip.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skip.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skip.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipcleanup.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipcleanup.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipcleanup.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipcleanup.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipcleanup.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipinit.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipinit.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipinit.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipinit.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipinit.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipinitdata.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipinitdata.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipinitdata.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipinitdata.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_skipinitdata.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_sleep.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_sleep.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_strcmp.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_strcmp.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_strcmp.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_strcmp.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_strcmp.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_subtest.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_subtest.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_subtest.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_subtest.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_subtest.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verbose1.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verbose1.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verbose1.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verbose1.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verbose1.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verbose2.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verbose2.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verbose2.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verbose2.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verbose2.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verifyexceptionthrown.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verifyexceptionthrown.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verifyexceptionthrown.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verifyexceptionthrown.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_verifyexceptionthrown.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_warnings.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_warnings.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_warnings.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_warnings.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_warnings.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_xunit.lightxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_xunit.teamcity">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_xunit.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_xunit.xml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\expected_xunit.xunitxml">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="..\selftests.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\tst_selftests.h">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\tst_selftests.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

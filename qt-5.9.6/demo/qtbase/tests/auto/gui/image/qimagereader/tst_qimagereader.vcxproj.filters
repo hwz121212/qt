@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;moc;h;def;odl;idl;res;</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="tst_qimagereader.cpp">
+      <Filter>Source Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="tmp\debug\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tmp\release\moc_predefs.h.cbt">
+      <Filter>Generated Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="images\16bpp.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\4bpp-rle.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\YCbCr_cmyk.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\YCbCr_cmyk.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\YCbCr_rgb.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\away.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bat1.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\bat2.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\beavis.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\black.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\black.xpm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\colorful.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\corrupt-colors.xpm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\corrupt-pixels.xpm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\corrupt.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\corrupt.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\corrupt.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\corrupt.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\corrupt.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\corrupt.svgz">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\corrupt.xbm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\crash-signed-char.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\earth.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\endless-anim.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\font.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\four-frames.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\gnus.xbm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\image.pbm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\image.pgm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\image.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\image.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\kollada.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\marble.xpm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\namedcolors.xpm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\negativeheight.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\noclearcode.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\noclearcode.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\nontransparent.xpm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <QtRcc Include="qimagereader.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+    <None Include="images\qt-gif-anim.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qt-gif-noanim.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qt.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qt1.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qt2.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qt3.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qt4.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qt5.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qt6.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qt7.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qt8.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\qtbug13653-no_eoi.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\rect.svg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\rect.svgz">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\rgb32bf.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\runners.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\teapot.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\test.ppm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\test.xpm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\test32bfv4.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\test32v5.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\transparent.xpm">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\trolltech.gif">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\tst7.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\tst7.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\txts.jpg">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="images\txts.png">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,496 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_qqmlenginedebugservice.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_qqmlenginedebugservice.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_NonScriptProperty_t {
+    QByteArrayData data[4];
+    char stringdata0[54];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_NonScriptProperty_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_NonScriptProperty_t qt_meta_stringdata_NonScriptProperty = {
+    {
+QT_MOC_LITERAL(0, 0, 17), // "NonScriptProperty"
+QT_MOC_LITERAL(1, 18, 20), // "nonScriptPropChanged"
+QT_MOC_LITERAL(2, 39, 0), // ""
+QT_MOC_LITERAL(3, 40, 13) // "nonScriptProp"
+
+    },
+    "NonScriptProperty\0nonScriptPropChanged\0"
+    "\0nonScriptProp"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_NonScriptProperty[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       1,   14, // methods
+       1,   20, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    0,   19,    2, 0x06 /* Public */,
+
+ // signals: parameters
+    QMetaType::Void,
+
+ // properties: name, type, flags
+       3, QMetaType::Int, 0x00491103,
+
+ // properties: notify_signal_id
+       0,
+
+       0        // eod
+};
+
+void NonScriptProperty::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        NonScriptProperty *_t = static_cast<NonScriptProperty *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->nonScriptPropChanged(); break;
+        default: ;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            typedef void (NonScriptProperty::*_t)();
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&NonScriptProperty::nonScriptPropChanged)) {
+                *result = 0;
+                return;
+            }
+        }
+    }
+#ifndef QT_NO_PROPERTIES
+    else if (_c == QMetaObject::ReadProperty) {
+        NonScriptProperty *_t = static_cast<NonScriptProperty *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< int*>(_v) = _t->nonScriptProp(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+        NonScriptProperty *_t = static_cast<NonScriptProperty *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: _t->setNonScriptProp(*reinterpret_cast< int*>(_v)); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+    Q_UNUSED(_a);
+}
+
+const QMetaObject NonScriptProperty::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_NonScriptProperty.data,
+      qt_meta_data_NonScriptProperty,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *NonScriptProperty::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *NonScriptProperty::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_NonScriptProperty.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int NonScriptProperty::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 1)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 1)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 1;
+    }
+#ifndef QT_NO_PROPERTIES
+   else if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 1;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+
+// SIGNAL 0
+void NonScriptProperty::nonScriptPropChanged()
+{
+    QMetaObject::activate(this, &staticMetaObject, 0, nullptr);
+}
+struct qt_meta_stringdata_CustomTypes_t {
+    QByteArrayData data[2];
+    char stringdata0[23];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_CustomTypes_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_CustomTypes_t qt_meta_stringdata_CustomTypes = {
+    {
+QT_MOC_LITERAL(0, 0, 11), // "CustomTypes"
+QT_MOC_LITERAL(1, 12, 10) // "modelIndex"
+
+    },
+    "CustomTypes\0modelIndex"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_CustomTypes[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+       0,    0, // methods
+       1,   14, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // properties: name, type, flags
+       1, QMetaType::QModelIndex, 0x00095001,
+
+       0        // eod
+};
+
+void CustomTypes::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+
+#ifndef QT_NO_PROPERTIES
+    if (_c == QMetaObject::ReadProperty) {
+        CustomTypes *_t = static_cast<CustomTypes *>(_o);
+        Q_UNUSED(_t)
+        void *_v = _a[0];
+        switch (_id) {
+        case 0: *reinterpret_cast< QModelIndex*>(_v) = _t->modelIndex(); break;
+        default: break;
+        }
+    } else if (_c == QMetaObject::WriteProperty) {
+    } else if (_c == QMetaObject::ResetProperty) {
+    }
+#endif // QT_NO_PROPERTIES
+    Q_UNUSED(_o);
+    Q_UNUSED(_id);
+    Q_UNUSED(_c);
+    Q_UNUSED(_a);
+}
+
+const QMetaObject CustomTypes::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_CustomTypes.data,
+      qt_meta_data_CustomTypes,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *CustomTypes::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *CustomTypes::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_CustomTypes.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int CustomTypes::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    
+#ifndef QT_NO_PROPERTIES
+   if (_c == QMetaObject::ReadProperty || _c == QMetaObject::WriteProperty
+            || _c == QMetaObject::ResetProperty || _c == QMetaObject::RegisterPropertyMetaType) {
+        qt_static_metacall(this, _c, _id, _a);
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyDesignable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyScriptable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyStored) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyEditable) {
+        _id -= 1;
+    } else if (_c == QMetaObject::QueryPropertyUser) {
+        _id -= 1;
+    }
+#endif // QT_NO_PROPERTIES
+    return _id;
+}
+struct qt_meta_stringdata_tst_QQmlEngineDebugService_t {
+    QByteArrayData data[31];
+    char stringdata0[623];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_QQmlEngineDebugService_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_QQmlEngineDebugService_t qt_meta_stringdata_tst_QQmlEngineDebugService = {
+    {
+QT_MOC_LITERAL(0, 0, 26), // "tst_QQmlEngineDebugService"
+QT_MOC_LITERAL(1, 27, 12), // "initTestCase"
+QT_MOC_LITERAL(2, 40, 0), // ""
+QT_MOC_LITERAL(3, 41, 15), // "cleanupTestCase"
+QT_MOC_LITERAL(4, 57, 14), // "watch_property"
+QT_MOC_LITERAL(5, 72, 12), // "watch_object"
+QT_MOC_LITERAL(6, 85, 16), // "watch_expression"
+QT_MOC_LITERAL(7, 102, 21), // "watch_expression_data"
+QT_MOC_LITERAL(8, 124, 13), // "watch_context"
+QT_MOC_LITERAL(9, 138, 10), // "watch_file"
+QT_MOC_LITERAL(10, 149, 21), // "queryAvailableEngines"
+QT_MOC_LITERAL(11, 171, 17), // "queryRootContexts"
+QT_MOC_LITERAL(12, 189, 11), // "queryObject"
+QT_MOC_LITERAL(13, 201, 16), // "queryObject_data"
+QT_MOC_LITERAL(14, 218, 23), // "queryObjectsForLocation"
+QT_MOC_LITERAL(15, 242, 28), // "queryObjectsForLocation_data"
+QT_MOC_LITERAL(16, 271, 21), // "queryExpressionResult"
+QT_MOC_LITERAL(17, 293, 26), // "queryExpressionResult_data"
+QT_MOC_LITERAL(18, 320, 34), // "queryExpressionResultInRootCo..."
+QT_MOC_LITERAL(19, 355, 23), // "queryExpressionResultBC"
+QT_MOC_LITERAL(20, 379, 28), // "queryExpressionResultBC_data"
+QT_MOC_LITERAL(21, 408, 19), // "setBindingForObject"
+QT_MOC_LITERAL(22, 428, 21), // "resetBindingForObject"
+QT_MOC_LITERAL(23, 450, 13), // "setMethodBody"
+QT_MOC_LITERAL(24, 464, 15), // "queryObjectTree"
+QT_MOC_LITERAL(25, 480, 18), // "setBindingInStates"
+QT_MOC_LITERAL(26, 499, 28), // "regression_QTCREATORBUG_7451"
+QT_MOC_LITERAL(27, 528, 33), // "queryObjectWithNonStreamableT..."
+QT_MOC_LITERAL(28, 562, 18), // "asynchronousCreate"
+QT_MOC_LITERAL(29, 581, 15), // "invalidContexts"
+QT_MOC_LITERAL(30, 597, 25) // "createObjectOnDestruction"
+
+    },
+    "tst_QQmlEngineDebugService\0initTestCase\0"
+    "\0cleanupTestCase\0watch_property\0"
+    "watch_object\0watch_expression\0"
+    "watch_expression_data\0watch_context\0"
+    "watch_file\0queryAvailableEngines\0"
+    "queryRootContexts\0queryObject\0"
+    "queryObject_data\0queryObjectsForLocation\0"
+    "queryObjectsForLocation_data\0"
+    "queryExpressionResult\0queryExpressionResult_data\0"
+    "queryExpressionResultInRootContext\0"
+    "queryExpressionResultBC\0"
+    "queryExpressionResultBC_data\0"
+    "setBindingForObject\0resetBindingForObject\0"
+    "setMethodBody\0queryObjectTree\0"
+    "setBindingInStates\0regression_QTCREATORBUG_7451\0"
+    "queryObjectWithNonStreamableTypes\0"
+    "asynchronousCreate\0invalidContexts\0"
+    "createObjectOnDestruction"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_QQmlEngineDebugService[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      29,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  159,    2, 0x08 /* Private */,
+       3,    0,  160,    2, 0x08 /* Private */,
+       4,    0,  161,    2, 0x08 /* Private */,
+       5,    0,  162,    2, 0x08 /* Private */,
+       6,    0,  163,    2, 0x08 /* Private */,
+       7,    0,  164,    2, 0x08 /* Private */,
+       8,    0,  165,    2, 0x08 /* Private */,
+       9,    0,  166,    2, 0x08 /* Private */,
+      10,    0,  167,    2, 0x08 /* Private */,
+      11,    0,  168,    2, 0x08 /* Private */,
+      12,    0,  169,    2, 0x08 /* Private */,
+      13,    0,  170,    2, 0x08 /* Private */,
+      14,    0,  171,    2, 0x08 /* Private */,
+      15,    0,  172,    2, 0x08 /* Private */,
+      16,    0,  173,    2, 0x08 /* Private */,
+      17,    0,  174,    2, 0x08 /* Private */,
+      18,    0,  175,    2, 0x08 /* Private */,
+      19,    0,  176,    2, 0x08 /* Private */,
+      20,    0,  177,    2, 0x08 /* Private */,
+      21,    0,  178,    2, 0x08 /* Private */,
+      22,    0,  179,    2, 0x08 /* Private */,
+      23,    0,  180,    2, 0x08 /* Private */,
+      24,    0,  181,    2, 0x08 /* Private */,
+      25,    0,  182,    2, 0x08 /* Private */,
+      26,    0,  183,    2, 0x08 /* Private */,
+      27,    0,  184,    2, 0x08 /* Private */,
+      28,    0,  185,    2, 0x08 /* Private */,
+      29,    0,  186,    2, 0x08 /* Private */,
+      30,    0,  187,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_QQmlEngineDebugService::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_QQmlEngineDebugService *_t = static_cast<tst_QQmlEngineDebugService *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->initTestCase(); break;
+        case 1: _t->cleanupTestCase(); break;
+        case 2: _t->watch_property(); break;
+        case 3: _t->watch_object(); break;
+        case 4: _t->watch_expression(); break;
+        case 5: _t->watch_expression_data(); break;
+        case 6: _t->watch_context(); break;
+        case 7: _t->watch_file(); break;
+        case 8: _t->queryAvailableEngines(); break;
+        case 9: _t->queryRootContexts(); break;
+        case 10: _t->queryObject(); break;
+        case 11: _t->queryObject_data(); break;
+        case 12: _t->queryObjectsForLocation(); break;
+        case 13: _t->queryObjectsForLocation_data(); break;
+        case 14: _t->queryExpressionResult(); break;
+        case 15: _t->queryExpressionResult_data(); break;
+        case 16: _t->queryExpressionResultInRootContext(); break;
+        case 17: _t->queryExpressionResultBC(); break;
+        case 18: _t->queryExpressionResultBC_data(); break;
+        case 19: _t->setBindingForObject(); break;
+        case 20: _t->resetBindingForObject(); break;
+        case 21: _t->setMethodBody(); break;
+        case 22: _t->queryObjectTree(); break;
+        case 23: _t->setBindingInStates(); break;
+        case 24: _t->regression_QTCREATORBUG_7451(); break;
+        case 25: _t->queryObjectWithNonStreamableTypes(); break;
+        case 26: _t->asynchronousCreate(); break;
+        case 27: _t->invalidContexts(); break;
+        case 28: _t->createObjectOnDestruction(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_QQmlEngineDebugService::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_QQmlEngineDebugService.data,
+      qt_meta_data_tst_QQmlEngineDebugService,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_QQmlEngineDebugService::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_QQmlEngineDebugService::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_QQmlEngineDebugService.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_QQmlEngineDebugService::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 29)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 29;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 29)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 29;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE

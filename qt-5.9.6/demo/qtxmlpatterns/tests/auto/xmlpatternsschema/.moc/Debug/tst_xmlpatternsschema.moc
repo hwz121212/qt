@@ -1,0 +1,203 @@
+/****************************************************************************
+** Meta object code from reading C++ file 'tst_xmlpatternsschema.cpp'
+**
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.9.6)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#include <QtCore/qbytearray.h>
+#include <QtCore/qmetatype.h>
+#if !defined(Q_MOC_OUTPUT_REVISION)
+#error "The header file 'tst_xmlpatternsschema.cpp' doesn't include <QObject>."
+#elif Q_MOC_OUTPUT_REVISION != 67
+#error "This file was generated using the moc from 5.9.6. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
+struct qt_meta_stringdata_tst_XMLPatternsSchema_t {
+    QByteArrayData data[23];
+    char stringdata0[388];
+};
+#define QT_MOC_LITERAL(idx, ofs, len) \
+    Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
+    qptrdiff(offsetof(qt_meta_stringdata_tst_XMLPatternsSchema_t, stringdata0) + ofs \
+        - idx * sizeof(QByteArrayData)) \
+    )
+static const qt_meta_stringdata_tst_XMLPatternsSchema_t qt_meta_stringdata_tst_XMLPatternsSchema = {
+    {
+QT_MOC_LITERAL(0, 0, 21), // "tst_XMLPatternsSchema"
+QT_MOC_LITERAL(1, 22, 4), // "init"
+QT_MOC_LITERAL(2, 27, 0), // ""
+QT_MOC_LITERAL(3, 28, 7), // "cleanup"
+QT_MOC_LITERAL(4, 36, 17), // "stateMachineTest1"
+QT_MOC_LITERAL(5, 54, 17), // "stateMachineTest2"
+QT_MOC_LITERAL(6, 72, 17), // "stateMachineTest3"
+QT_MOC_LITERAL(7, 90, 17), // "stateMachineTest4"
+QT_MOC_LITERAL(8, 108, 17), // "stateMachineTest5"
+QT_MOC_LITERAL(9, 126, 17), // "stateMachineTest6"
+QT_MOC_LITERAL(10, 144, 17), // "stateMachineTest7"
+QT_MOC_LITERAL(11, 162, 17), // "stateMachineTest8"
+QT_MOC_LITERAL(12, 180, 17), // "stateMachineTest9"
+QT_MOC_LITERAL(13, 198, 18), // "stateMachineTest10"
+QT_MOC_LITERAL(14, 217, 18), // "stateMachineTest11"
+QT_MOC_LITERAL(15, 236, 18), // "stateMachineTest12"
+QT_MOC_LITERAL(16, 255, 18), // "stateMachineTest13"
+QT_MOC_LITERAL(17, 274, 18), // "stateMachineTest14"
+QT_MOC_LITERAL(18, 293, 18), // "stateMachineTest15"
+QT_MOC_LITERAL(19, 312, 18), // "stateMachineTest16"
+QT_MOC_LITERAL(20, 331, 18), // "stateMachineTest17"
+QT_MOC_LITERAL(21, 350, 18), // "stateMachineTest18"
+QT_MOC_LITERAL(22, 369, 18) // "stateMachineTest19"
+
+    },
+    "tst_XMLPatternsSchema\0init\0\0cleanup\0"
+    "stateMachineTest1\0stateMachineTest2\0"
+    "stateMachineTest3\0stateMachineTest4\0"
+    "stateMachineTest5\0stateMachineTest6\0"
+    "stateMachineTest7\0stateMachineTest8\0"
+    "stateMachineTest9\0stateMachineTest10\0"
+    "stateMachineTest11\0stateMachineTest12\0"
+    "stateMachineTest13\0stateMachineTest14\0"
+    "stateMachineTest15\0stateMachineTest16\0"
+    "stateMachineTest17\0stateMachineTest18\0"
+    "stateMachineTest19"
+};
+#undef QT_MOC_LITERAL
+
+static const uint qt_meta_data_tst_XMLPatternsSchema[] = {
+
+ // content:
+       7,       // revision
+       0,       // classname
+       0,    0, // classinfo
+      21,   14, // methods
+       0,    0, // properties
+       0,    0, // enums/sets
+       0,    0, // constructors
+       0,       // flags
+       0,       // signalCount
+
+ // slots: name, argc, parameters, tag, flags
+       1,    0,  119,    2, 0x0a /* Public */,
+       3,    0,  120,    2, 0x0a /* Public */,
+       4,    0,  121,    2, 0x08 /* Private */,
+       5,    0,  122,    2, 0x08 /* Private */,
+       6,    0,  123,    2, 0x08 /* Private */,
+       7,    0,  124,    2, 0x08 /* Private */,
+       8,    0,  125,    2, 0x08 /* Private */,
+       9,    0,  126,    2, 0x08 /* Private */,
+      10,    0,  127,    2, 0x08 /* Private */,
+      11,    0,  128,    2, 0x08 /* Private */,
+      12,    0,  129,    2, 0x08 /* Private */,
+      13,    0,  130,    2, 0x08 /* Private */,
+      14,    0,  131,    2, 0x08 /* Private */,
+      15,    0,  132,    2, 0x08 /* Private */,
+      16,    0,  133,    2, 0x08 /* Private */,
+      17,    0,  134,    2, 0x08 /* Private */,
+      18,    0,  135,    2, 0x08 /* Private */,
+      19,    0,  136,    2, 0x08 /* Private */,
+      20,    0,  137,    2, 0x08 /* Private */,
+      21,    0,  138,    2, 0x08 /* Private */,
+      22,    0,  139,    2, 0x08 /* Private */,
+
+ // slots: parameters
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
+
+       0        // eod
+};
+
+void tst_XMLPatternsSchema::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+{
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        tst_XMLPatternsSchema *_t = static_cast<tst_XMLPatternsSchema *>(_o);
+        Q_UNUSED(_t)
+        switch (_id) {
+        case 0: _t->init(); break;
+        case 1: _t->cleanup(); break;
+        case 2: _t->stateMachineTest1(); break;
+        case 3: _t->stateMachineTest2(); break;
+        case 4: _t->stateMachineTest3(); break;
+        case 5: _t->stateMachineTest4(); break;
+        case 6: _t->stateMachineTest5(); break;
+        case 7: _t->stateMachineTest6(); break;
+        case 8: _t->stateMachineTest7(); break;
+        case 9: _t->stateMachineTest8(); break;
+        case 10: _t->stateMachineTest9(); break;
+        case 11: _t->stateMachineTest10(); break;
+        case 12: _t->stateMachineTest11(); break;
+        case 13: _t->stateMachineTest12(); break;
+        case 14: _t->stateMachineTest13(); break;
+        case 15: _t->stateMachineTest14(); break;
+        case 16: _t->stateMachineTest15(); break;
+        case 17: _t->stateMachineTest16(); break;
+        case 18: _t->stateMachineTest17(); break;
+        case 19: _t->stateMachineTest18(); break;
+        case 20: _t->stateMachineTest19(); break;
+        default: ;
+        }
+    }
+    Q_UNUSED(_a);
+}
+
+const QMetaObject tst_XMLPatternsSchema::staticMetaObject = {
+    { &QObject::staticMetaObject, qt_meta_stringdata_tst_XMLPatternsSchema.data,
+      qt_meta_data_tst_XMLPatternsSchema,  qt_static_metacall, nullptr, nullptr}
+};
+
+
+const QMetaObject *tst_XMLPatternsSchema::metaObject() const
+{
+    return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
+}
+
+void *tst_XMLPatternsSchema::qt_metacast(const char *_clname)
+{
+    if (!_clname) return nullptr;
+    if (!strcmp(_clname, qt_meta_stringdata_tst_XMLPatternsSchema.stringdata0))
+        return static_cast<void*>(this);
+    return QObject::qt_metacast(_clname);
+}
+
+int tst_XMLPatternsSchema::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+{
+    _id = QObject::qt_metacall(_c, _id, _a);
+    if (_id < 0)
+        return _id;
+    if (_c == QMetaObject::InvokeMetaMethod) {
+        if (_id < 21)
+            qt_static_metacall(this, _c, _id, _a);
+        _id -= 21;
+    } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
+        if (_id < 21)
+            *reinterpret_cast<int*>(_a[0]) = -1;
+        _id -= 21;
+    }
+    return _id;
+}
+QT_WARNING_POP
+QT_END_MOC_NAMESPACE
