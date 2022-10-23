@@ -7,8 +7,8 @@ http://c.biancheng.net/view/3851.html
 https://blog.csdn.net/xh_acmagic/article/details/107965063
 
 
-1. backup目录下的qt-everywhere-opensource-src-5.9.6.zip是从https://download.qt.io/archive/qt/5.9/5.9.6/下载而来的。下载时间【北京时间2022-08-06】
-2. qt-5.9.6目录下的代码是由backup目录下的qt-everywhere-opensource-src-5.9.6.zip重构而来的，重构时间【北京时间2022-08-06】
+1. qt-everywhere-opensource-src-5.9.6.zip 是从 https://download.qt.io/archive/qt/5.9/5.9.6/ 下载而来的。下载时间【北京时间2022-08-06】
+2. qt-5.9.6 目录下的代码是由 qt-everywhere-opensource-src-5.9.6.zip 重构而来的，重构时间【北京时间2022-08-06】
 
 
 1.错误问题：
