@@ -49,7 +49,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -60,13 +60,9 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>;WIN32;_WINDOWS;double_conversion_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;double_conversion_EXPORTS</PreprocessorDefinitions>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>;WIN32;_DEBUG;_WINDOWS;double_conversion_EXPORTS</PreprocessorDefinitions>
-      
-    </ResourceCompile>
-
+    
     <PreLinkEvent>
       <Message>
       </Message>
@@ -83,10 +79,13 @@
       <ModuleDefinitionFile>double-conversion.def</ModuleDefinitionFile>
       <SubSystem>Console</SubSystem>
     </Link>
+    <Lib>
+      <AdditionalLibraryDirectories />
+    </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.</AdditionalIncludeDirectories>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <Optimization>MaxSpeed</Optimization>
@@ -95,15 +94,11 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>;WIN32;_WINDOWS;NDEBUG;double_conversion_EXPORTS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;double_conversion_EXPORTS</PreprocessorDefinitions>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>;WIN32;_WINDOWS;NDEBUG;double_conversion_EXPORTS</PreprocessorDefinitions>
-      
-    </ResourceCompile>
-
+    
     <PreLinkEvent>
       <Message>
       </Message>
@@ -120,6 +115,9 @@
       <ModuleDefinitionFile>double-conversion.def</ModuleDefinitionFile>
       <SubSystem>Console</SubSystem>
     </Link>
+    <Lib>
+      <AdditionalLibraryDirectories />
+    </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="double-conversion\bignum.cc" />
