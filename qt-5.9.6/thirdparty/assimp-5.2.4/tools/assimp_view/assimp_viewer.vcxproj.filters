@@ -86,4 +86,7 @@
       <UniqueIdentifier>{D1B328AC-EF80-34D0-9D31-0720B07E32EB}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="assimp_view.rc" />
+  </ItemGroup>
 </Project>

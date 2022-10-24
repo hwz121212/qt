@@ -67,7 +67,7 @@
       <PreprocessorDefinitions>ASSIMP_BUILD_NO_OWN_ZLIB;WIN32;_WINDOWS;_DEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_DOUBLE_PRECISION;ASSIMP_BUILD_NO_C4D_IMPORTER</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>libzlib.lib;assimp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>libzlib.lib;libpoly2tri.lib;libpugixml.lib;libopenddlparser.lib;libopen3dgc.lib;libassimp_zip.lib;libassimp_unzip.lib;libassimp_clipper.lib;libassimp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -94,7 +94,7 @@
       <PreprocessorDefinitions>ASSIMP_BUILD_NO_OWN_ZLIB;WIN32;_WINDOWS;NDEBUG;ASSIMP_BUILD_NO_M3D_IMPORTER;ASSIMP_BUILD_NO_M3D_EXPORTER;WIN32_LEAN_AND_MEAN;UNICODE;_UNICODE;ASSIMP_DOUBLE_PRECISION;ASSIMP_BUILD_NO_C4D_IMPORTER</PreprocessorDefinitions>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>libzlib.lib;assimp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>libzlib.lib;libpoly2tri.lib;libpugixml.lib;libopenddlparser.lib;libopen3dgc.lib;libassimp_zip.lib;libassimp_unzip.lib;libassimp_clipper.lib;libassimp.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
