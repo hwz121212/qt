@@ -18,7 +18,7 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{5BC595F3-9CF1-4AD5-94DA-9AC6CA4BFAB2}</ProjectGuid>
+    <ProjectGuid>{A78DCBC4-077B-4884-A7F4-D9AF70EDB538}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>staticlibtemplate</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
