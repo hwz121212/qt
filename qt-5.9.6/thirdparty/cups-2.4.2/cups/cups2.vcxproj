@@ -51,12 +51,10 @@
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <Midl>
-      <TargetEnvironment>X64</TargetEnvironment>
-    </Midl>
+    
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <AdditionalIncludeDirectories>..;..\vcnet;$(SolutionDir)thirdparty\openssl-1.1.1q\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\cups_regex</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;..\vcnet;$(SolutionDir)thirdparty\openssl-1.1.1q\include;$(SolutionDir)thirdparty\zlib-1.2.12;$(SolutionDir)thirdparty\cups_regex</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>DEBUG;_DEBUG;_WINDOWS;_USRDLL;LIBCUPS2_EXPORTS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -76,12 +74,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <Midl>
-      <TargetEnvironment>X64</TargetEnvironment>
-    </Midl>
+    
     <ClCompile>
       <Optimization>MinSpace</Optimization>
-      <AdditionalIncludeDirectories>..;..\vcnet;$(SolutionDir)thirdparty\openssl-1.1.1q\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\cups_regex</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..;..\vcnet;$(SolutionDir)thirdparty\openssl-1.1.1q\include;$(SolutionDir)thirdparty\zlib-1.2.12;$(SolutionDir)thirdparty\cups_regex</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>DEBUG;NDEBUG;_WINDOWS;_USRDLL;LIBCUPS2_EXPORTS;_CRT_SECURE_NO_DEPRECATE;_CRT_SECURE_NO_WARNINGS;</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <PrecompiledHeader />
