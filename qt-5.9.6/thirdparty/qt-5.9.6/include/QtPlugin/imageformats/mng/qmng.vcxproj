@@ -83,7 +83,7 @@
   </ImportGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;moc;..\..\..\..\include;..\..\..\..\include\QtGui;..\..\..\..\include\QtCore;..\..\..\..\mkspecs\win32-msvc;$(SolutionDir)thirdparty\mng-1.0.10;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\jpeg-9e</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;moc;..\..\..\..\include;..\..\..\..\include\QtGui;..\..\..\..\include\QtCore;..\..\..\..\mkspecs\win32-msvc;$(SolutionDir)thirdparty\mng-1.0.10\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\jpeg-9e\include</AdditionalIncludeDirectories>
       <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -utf-8 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
       <BrowseInformation>false</BrowseInformation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -127,7 +127,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;moc;..\..\..\..\include;..\..\..\..\include\QtGui;..\..\..\..\include\QtCore;..\..\..\..\mkspecs\win32-msvc;$(SolutionDir)thirdparty\mng-1.0.10;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\jpeg-9e</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;moc;..\..\..\..\include;..\..\..\..\include\QtGui;..\..\..\..\include\QtCore;..\..\..\..\mkspecs\win32-msvc;$(SolutionDir)thirdparty\mng-1.0.10\include;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\jpeg-9e\include</AdditionalIncludeDirectories>
       <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -utf-8 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 %(AdditionalOptions)</AdditionalOptions>
       <BrowseInformation>false</BrowseInformation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
