@@ -49,7 +49,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;</AdditionalIncludeDirectories>
       
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -61,28 +61,18 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;PTW32_CLEANUP_SEH;PTW32_STATIC_LIB;PTW32_ARCHAMD64;PTW32_BUILD_INLINED;HAVE_CONFIG_H;PTW32_RC_MSC</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;PTW32_CLEANUP_SEH;PTW32_STATIC_LIB;PTW32_ARCHAMD64;PTW32_BUILD_INLINED;HAVE_CONFIG_H;PTW32_RC_MSC</PreprocessorDefinitions>
       
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;PTW32_CLEANUP_SEH;PTW32_STATIC_LIB;PTW32_ARCHAMD64;PTW32_BUILD_INLINED;HAVE_CONFIG_H;PTW32_RC_MSC</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ResourceCompile>
-    <Midl>
-      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      
-      <HeaderFileName>%(Filename).h</HeaderFileName>
-      
-      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
-      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
-    </Midl>
+    
+    
     <Lib>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;</AdditionalIncludeDirectories>
       
       <ExceptionHandling>SyncCThrow</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -92,23 +82,13 @@
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PTW32_CLEANUP_SEH;PTW32_STATIC_LIB;PTW32_ARCHAMD64;PTW32_BUILD_INLINED;HAVE_CONFIG_H;PTW32_RC_MSC</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;PTW32_CLEANUP_SEH;PTW32_STATIC_LIB;PTW32_ARCHAMD64;PTW32_BUILD_INLINED;HAVE_CONFIG_H;PTW32_RC_MSC</PreprocessorDefinitions>
       
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;PTW32_CLEANUP_SEH;PTW32_STATIC_LIB;PTW32_ARCHAMD64;PTW32_BUILD_INLINED;HAVE_CONFIG_H;PTW32_RC_MSC</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-    </ResourceCompile>
-    <Midl>
-      <AdditionalIncludeDirectories>.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      
-      <HeaderFileName>%(Filename).h</HeaderFileName>
-      
-      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
-      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
-    </Midl>
+    
+    
     <Lib>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
