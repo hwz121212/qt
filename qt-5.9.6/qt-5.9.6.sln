@@ -101,6 +101,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt5Widgets", "thirdparty\qt
 	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt5Network", "thirdparty\qt-5.9.6\include\QtNetwork\Qt5Network\Qt5Network.vcxproj", "{CD4EE001-206F-3BE1-AE8F-13F840916799}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9CEF22B5-77DA-35C3-A3F1-1370923716FF} = {9CEF22B5-77DA-35C3-A3F1-1370923716FF}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt5Concurrent", "thirdparty\qt-5.9.6\include\QtConcurrent\Qt5Concurrent\Qt5Concurrent.vcxproj", "{67E272B8-7D4F-3CF7-8BA7-4DDF242DBF4F}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -434,6 +437,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libanglecommon", "thirdparty\qt-5.9.6\include\QtANGLE\common\libanglecommon.vcxproj", "{6066FBE0-BD49-469C-90C3-2717680EEE28}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt5Xml", "thirdparty\qt-5.9.6\include\QtXml\Qt5Xml\Qt5Xml.vcxproj", "{742703B1-90F9-4E2F-992E-F914166239BB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9CEF22B5-77DA-35C3-A3F1-1370923716FF} = {9CEF22B5-77DA-35C3-A3F1-1370923716FF}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qmake", "thirdparty\qt-5.9.6\include\QtCore\qmake\qmake.vcxproj", "{FF60EDDE-BE9B-3DBF-B3E6-94FF7EE11A23}"
 EndProject
