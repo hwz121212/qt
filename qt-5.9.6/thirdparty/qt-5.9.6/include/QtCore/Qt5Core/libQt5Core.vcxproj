@@ -73,7 +73,7 @@
   </ImportGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;..;global;..\..\..\include;..\..\..\include\QtCore;..\..\..\include\QtCore\5.9.6;..\..\..\include\QtCore\5.9.6\QtCore;..\..\..\include\QtCore\5.9.6\QtCore\private;..\..\..\mkspecs\win32-msvc;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\double-conversion-3.2.1;$(SolutionDir)thirdparty\pcre2-qt\include;$(SolutionDir)thirdparty\harfbuzz_qt\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;..;global;..\..\..\include;..\..\..\include\QtCore;..\..\..\include\QtCore\5.9.6;..\..\..\include\QtCore\5.9.6\QtCore;..\..\..\include\QtCore\5.9.6\QtCore\private;..\..\..\mkspecs\win32-msvc;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\double-conversion-3.2.1;$(SolutionDir)thirdparty\pcre2-10.40\include;$(SolutionDir)thirdparty\harfbuzz_qt\include</AdditionalIncludeDirectories>
       <BrowseInformation>false</BrowseInformation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -130,12 +130,12 @@
     </QtRcc>
     <Lib>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libzlib.lib;libpcre2-qt.lib;libharfbuzz_qt.lib;libdouble-conversion.lib;</AdditionalDependencies>
+      <AdditionalDependencies>libzlib.lib;libpcre2.lib;libharfbuzz_qt.lib;libdouble-conversion.lib</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;..;global;..\..\..\include;..\..\..\include\QtCore;..\..\..\include\QtCore\5.9.6;..\..\..\include\QtCore\5.9.6\QtCore;..\..\..\include\QtCore\5.9.6\QtCore\private;..\..\..\mkspecs\win32-msvc;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\double-conversion-3.2.1;$(SolutionDir)thirdparty\pcre2-qt\include;$(SolutionDir)thirdparty\harfbuzz_qt\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>.;..;global;..\..\..\include;..\..\..\include\QtCore;..\..\..\include\QtCore\5.9.6;..\..\..\include\QtCore\5.9.6\QtCore;..\..\..\include\QtCore\5.9.6\QtCore\private;..\..\..\mkspecs\win32-msvc;$(SolutionDir)thirdparty\zlib-1.2.12\include;$(SolutionDir)thirdparty\double-conversion-3.2.1;$(SolutionDir)thirdparty\pcre2-10.40\include;$(SolutionDir)thirdparty\harfbuzz_qt\include</AdditionalIncludeDirectories>
       <BrowseInformation>false</BrowseInformation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -190,7 +190,7 @@
     </QtMoc>
     <Lib>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
-      <AdditionalDependencies>libzlib.lib;libpcre2-qt.lib;libharfbuzz_qt.lib;libdouble-conversion.lib;</AdditionalDependencies>
+      <AdditionalDependencies>libzlib.lib;libpcre2.lib;libharfbuzz_qt.lib;libdouble-conversion.lib</AdditionalDependencies>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
