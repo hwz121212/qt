@@ -827,12 +827,21 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_lib", "0_lib", "{69BA28E2-9B23-4F1F-9568-ED3E67E4EAA8}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt53DCore", "thirdparty\qt-5.9.6\include\Qt3DCore\Qt53DCore\Qt53DCore.vcxproj", "{7E6482F1-AFED-3015-9EE2-3B8F5EC6BA6E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8747F298-28A7-39D4-B357-E694E468431A} = {8747F298-28A7-39D4-B357-E694E468431A}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt53DQuick", "thirdparty\qt-5.9.6\include\Qt3DQuick\Qt53DQuick\Qt53DQuick.vcxproj", "{F4323037-BEE6-3E36-BF0F-252BF2B9DC9B}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt53DLogic", "thirdparty\qt-5.9.6\include\Qt3DLogic\Qt53DLogic\Qt53DLogic.vcxproj", "{96A2C2E7-53AD-3862-9D91-BAB2DAE1DBC0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8747F298-28A7-39D4-B357-E694E468431A} = {8747F298-28A7-39D4-B357-E694E468431A}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt53DInput", "thirdparty\qt-5.9.6\include\Qt3DInput\Qt53DInput\Qt53DInput.vcxproj", "{C195F6B7-3E99-37AF-A9CB-3FF35C9058A9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8747F298-28A7-39D4-B357-E694E468431A} = {8747F298-28A7-39D4-B357-E694E468431A}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt53DExtras", "thirdparty\qt-5.9.6\include\Qt3DExtras\Qt53DExtras\Qt53DExtras.vcxproj", "{C322BF4A-07DE-3905-8489-153C554765C7}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -1136,6 +1145,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "declarative_purchasing", "thirdparty\qt-5.9.6\include\QtQml\qml\QtPurchasing\purchasing\declarative_purchasing.vcxproj", "{2BF99A47-3F14-3B69-A0AE-05872FC15DA4}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt5Script", "thirdparty\qt-5.9.6\include\QtScript\Qt5Script\Qt5Script.vcxproj", "{0531B960-A576-39D8-B7D5-0A6E289CC794}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8747F298-28A7-39D4-B357-E694E468431A} = {8747F298-28A7-39D4-B357-E694E468431A}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt5ScriptTools", "thirdparty\qt-5.9.6\include\QtScriptTools\Qt5ScriptTools\Qt5ScriptTools.vcxproj", "{A2451673-1D0C-391B-B07D-FA8600103628}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -1259,6 +1271,9 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mockserviceplugin5", "thirdparty\qt-5.9.6\include\QtPlugin\mediaservice\mockserviceplugin\mockserviceplugin5\mockserviceplugin5.vcxproj", "{7AA882F0-72B2-335B-86BF-A33C45220E1C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt5Positioning", "thirdparty\qt-5.9.6\include\QtPositioning\Qt5Positioning\Qt5Positioning.vcxproj", "{0722D245-D89A-3B93-A200-8028005662B3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8747F298-28A7-39D4-B357-E694E468431A} = {8747F298-28A7-39D4-B357-E694E468431A}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt5Location", "thirdparty\qt-5.9.6\include\QtLocation\Qt5Location\Qt5Location.vcxproj", "{F35E4D79-0FF0-3B04-8713-244C111482E5}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -1303,15 +1318,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "qtposition_serialnmea", "th
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libqtgeoservices_nokia", "thirdparty\qt-5.9.6\include\QtPlugin\geoservices\nokia\libqtgeoservices_nokia.vcxproj", "{288090C1-FBCB-4FA9-BD95-340AB7883EED}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt5WebView", "thirdparty\qt-5.9.6\include\QtWebView\Qt5WebView\Qt5WebView.vcxproj", "{20AFFFDA-88A4-3074-A9D9-2353D5B36368}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "QtWebView", "QtWebView", "{34BCB259-4E1A-4CF5-AB3A-D7D3D9C3EFF0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "declarative_webview", "thirdparty\qt-5.9.6\include\QtQml\qml\QtWebView\webview\declarative_webview.vcxproj", "{94182CED-E689-3839-BBC5-3FBB1B201643}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt5WebEngine", "thirdparty\qt-5.9.6\include\QtWebEngine\Qt5WebEngine\Qt5WebEngine.vcxproj", "{CAD6D07C-89ED-3677-93A2-FE55A8692B4C}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Qt5WebEngineWidgets", "thirdparty\qt-5.9.6\include\QtWebEngineWidgets\Qt5WebEngineWidgets\Qt5WebEngineWidgets.vcxproj", "{0A890CD3-4A71-3A53-8A27-23579E94EDFC}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libglib", "thirdparty\glib-2.48.2\libglib.vcxproj", "{3196BCE2-227A-445C-8428-836D410001CF}"
 EndProject
@@ -2825,22 +2834,10 @@ Global
 		{288090C1-FBCB-4FA9-BD95-340AB7883EED}.Debug|x64.Build.0 = Debug|x64
 		{288090C1-FBCB-4FA9-BD95-340AB7883EED}.Release|x64.ActiveCfg = Release|x64
 		{288090C1-FBCB-4FA9-BD95-340AB7883EED}.Release|x64.Build.0 = Release|x64
-		{20AFFFDA-88A4-3074-A9D9-2353D5B36368}.Debug|x64.ActiveCfg = Debug|x64
-		{20AFFFDA-88A4-3074-A9D9-2353D5B36368}.Debug|x64.Build.0 = Debug|x64
-		{20AFFFDA-88A4-3074-A9D9-2353D5B36368}.Release|x64.ActiveCfg = Release|x64
-		{20AFFFDA-88A4-3074-A9D9-2353D5B36368}.Release|x64.Build.0 = Release|x64
 		{94182CED-E689-3839-BBC5-3FBB1B201643}.Debug|x64.ActiveCfg = Debug|x64
 		{94182CED-E689-3839-BBC5-3FBB1B201643}.Debug|x64.Build.0 = Debug|x64
 		{94182CED-E689-3839-BBC5-3FBB1B201643}.Release|x64.ActiveCfg = Release|x64
 		{94182CED-E689-3839-BBC5-3FBB1B201643}.Release|x64.Build.0 = Release|x64
-		{CAD6D07C-89ED-3677-93A2-FE55A8692B4C}.Debug|x64.ActiveCfg = Debug|x64
-		{CAD6D07C-89ED-3677-93A2-FE55A8692B4C}.Debug|x64.Build.0 = Debug|x64
-		{CAD6D07C-89ED-3677-93A2-FE55A8692B4C}.Release|x64.ActiveCfg = Release|x64
-		{CAD6D07C-89ED-3677-93A2-FE55A8692B4C}.Release|x64.Build.0 = Release|x64
-		{0A890CD3-4A71-3A53-8A27-23579E94EDFC}.Debug|x64.ActiveCfg = Debug|x64
-		{0A890CD3-4A71-3A53-8A27-23579E94EDFC}.Debug|x64.Build.0 = Debug|x64
-		{0A890CD3-4A71-3A53-8A27-23579E94EDFC}.Release|x64.ActiveCfg = Release|x64
-		{0A890CD3-4A71-3A53-8A27-23579E94EDFC}.Release|x64.Build.0 = Release|x64
 		{3196BCE2-227A-445C-8428-836D410001CF}.Debug|x64.ActiveCfg = Debug|x64
 		{3196BCE2-227A-445C-8428-836D410001CF}.Debug|x64.Build.0 = Debug|x64
 		{3196BCE2-227A-445C-8428-836D410001CF}.Release|x64.ActiveCfg = Release|x64
@@ -3365,11 +3362,8 @@ Global
 		{F625BBAA-401F-33C1-A95D-588C5F3EC22C} = {954515DA-159F-4172-9772-13BBCE63049A}
 		{0077BBED-A16D-350B-9B32-68B740E68A33} = {954515DA-159F-4172-9772-13BBCE63049A}
 		{288090C1-FBCB-4FA9-BD95-340AB7883EED} = {DB600ABD-1414-4B5A-A24C-43BF29CFC70F}
-		{20AFFFDA-88A4-3074-A9D9-2353D5B36368} = {440A2F1E-C1D2-49F4-AB49-ACF5A29132E8}
 		{34BCB259-4E1A-4CF5-AB3A-D7D3D9C3EFF0} = {BFF5F30D-BF8C-4D96-B1F3-8D263B303598}
 		{94182CED-E689-3839-BBC5-3FBB1B201643} = {34BCB259-4E1A-4CF5-AB3A-D7D3D9C3EFF0}
-		{CAD6D07C-89ED-3677-93A2-FE55A8692B4C} = {440A2F1E-C1D2-49F4-AB49-ACF5A29132E8}
-		{0A890CD3-4A71-3A53-8A27-23579E94EDFC} = {440A2F1E-C1D2-49F4-AB49-ACF5A29132E8}
 		{3196BCE2-227A-445C-8428-836D410001CF} = {DE2B993B-F808-4461-9EC8-23C591E9E9C4}
 		{DE2B993B-F808-4461-9EC8-23C591E9E9C4} = {69BA28E2-9B23-4F1F-9568-ED3E67E4EAA8}
 		{662DF000-5E56-459C-8E2F-4D5F4F77E2DB} = {DE2B993B-F808-4461-9EC8-23C591E9E9C4}
