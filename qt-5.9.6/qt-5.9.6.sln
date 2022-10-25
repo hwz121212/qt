@@ -940,6 +940,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sceneparsers", "sceneparsers", "{DDCE127A-ECD2-4173-B809-15C41DE083B9}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "assimpsceneimport", "thirdparty\qt-5.9.6\include\QtPlugin\sceneparsers\assimp\assimpsceneimport.vcxproj", "{E5AE28E9-774C-434A-A00F-D1F96D89BD2D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E7D3A6FB-0053-46F9-B10D-4F27FE526700} = {E7D3A6FB-0053-46F9-B10D-4F27FE526700}
+	EndProjectSection
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gltfsceneimport", "thirdparty\qt-5.9.6\include\QtPlugin\sceneparsers\gltf\gltfsceneimport.vcxproj", "{3AA31B4B-A6AE-4D99-9DE3-FC86185139A4}"
 EndProject
