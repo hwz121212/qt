@@ -53,8 +53,8 @@
 #include "qgeocircle.h"
 
 /* poly2tri triangulator includes */
-#include <common/shapes.h>
-#include <sweep/cdt.h>
+#include <shapes.h>
+#include <cdt.h>
 
 #include <QtPositioning/private/qclipperutils_p.h>
 
