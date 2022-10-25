@@ -6,9 +6,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\placeholder.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="libport.h">
       <Filter>Header Files</Filter>
     </ClInclude>

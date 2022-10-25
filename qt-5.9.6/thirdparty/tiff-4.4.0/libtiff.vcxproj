@@ -11,21 +11,21 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{10C3D04C-4BC4-308E-8035-B765ED1DC8B7}</ProjectGuid>
+    <ProjectGuid>{89DC3EA3-9065-4245-9DEE-2DE898409964}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
-    <ProjectName>mkg3states</ProjectName>
+    <ProjectName>libtiff</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>Application</ConfigurationType>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
@@ -38,18 +38,18 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)lib\$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)lib\$(Configuration)\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;..\port;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>
@@ -60,32 +60,14 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>;WIN32;_WINDOWS;TIFF_DISABLE_DEPRECATED;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;TIFF_DISABLE_DEPRECATED;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS</PreprocessorDefinitions>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>;WIN32;_DEBUG;_WINDOWS;TIFF_DISABLE_DEPRECATED;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.;..\port;</AdditionalIncludeDirectories>
-    </ResourceCompile>
-    <Midl>
-      <AdditionalIncludeDirectories>.;..\port;</AdditionalIncludeDirectories>
-      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
-      <HeaderFileName>%(Filename).h</HeaderFileName>
-      
-      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
-      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
-    </Midl>
-    <Link>
-      <AdditionalDependencies>tiff.lib;port.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <SubSystem>Console</SubSystem>
-    </Link>
+    
+
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>.;..\port;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
       <ExceptionHandling>
       </ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -94,38 +76,70 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>;WIN32;_WINDOWS;NDEBUG;TIFF_DISABLE_DEPRECATED;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;TIFF_DISABLE_DEPRECATED;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS;NDEBUG</PreprocessorDefinitions>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
-    <ResourceCompile>
-      <PreprocessorDefinitions>;WIN32;_WINDOWS;NDEBUG;TIFF_DISABLE_DEPRECATED;_CRT_SECURE_NO_WARNINGS;_CRT_NONSTDC_NO_WARNINGS</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>.;..\port;</AdditionalIncludeDirectories>
-    </ResourceCompile>
-    <Midl>
-      <AdditionalIncludeDirectories>.;..\port;</AdditionalIncludeDirectories>
-      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
-      <HeaderFileName>%(Filename).h</HeaderFileName>
-      
-      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
-      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
-    </Midl>
-    <Link>
-      <AdditionalDependencies>tiff.lib;port.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
-      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
-      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
-      <GenerateDebugInformation>false</GenerateDebugInformation>
-      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <SubSystem>Console</SubSystem>
-    </Link>
+    
+
   </ItemDefinitionGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\placeholder.h" />
-    <ClCompile Include="mkg3states.c" />
-    <ClInclude Include="tif_fax3.h" />
-    <ClCompile Include="..\port\getopt.c" />
+    <ClInclude Include="include\tiff.h" />
+    <ClInclude Include="include\tiffio.h" />
+    <ClInclude Include="include\tiffio.hxx" />
+    <ClInclude Include="include\tiffvers.h" />
+    <ClInclude Include="include\tiffconf.h" />
+    <ClInclude Include="include\t4.h" />
+    <ClInclude Include="include\tif_dir.h" />
+    <ClInclude Include="include\tif_predict.h" />
+    <ClInclude Include="include\tiffiop.h" />
+    <ClInclude Include="include\uvcode.h" />
+    <ClInclude Include="include\tif_config.h" />
+    <ClCompile Include="src\tif_aux.c" />
+    <ClCompile Include="src\tif_close.c" />
+    <ClCompile Include="src\tif_codec.c" />
+    <ClCompile Include="src\tif_color.c" />
+    <ClCompile Include="src\tif_compress.c" />
+    <ClCompile Include="src\tif_dir.c" />
+    <ClCompile Include="src\tif_dirinfo.c" />
+    <ClCompile Include="src\tif_dirread.c" />
+    <ClCompile Include="src\tif_dirwrite.c" />
+    <ClCompile Include="src\tif_dumpmode.c" />
+    <ClCompile Include="src\tif_error.c" />
+    <ClCompile Include="src\tif_extension.c" />
+    <ClCompile Include="src\tif_fax3.c" />
+    <ClCompile Include="src\tif_fax3sm.c" />
+    <ClCompile Include="src\tif_flush.c" />
+    <ClCompile Include="src\tif_getimage.c" />
+    <ClCompile Include="src\tif_jbig.c" />
+    <ClCompile Include="src\tif_jpeg.c" />
+    <ClCompile Include="src\tif_jpeg_12.c" />
+    <ClCompile Include="src\tif_lerc.c" />
+    <ClCompile Include="src\tif_luv.c" />
+    <ClCompile Include="src\tif_lzma.c" />
+    <ClCompile Include="src\tif_lzw.c" />
+    <ClCompile Include="src\tif_next.c" />
+    <ClCompile Include="src\tif_ojpeg.c" />
+    <ClCompile Include="src\tif_open.c" />
+    <ClCompile Include="src\tif_packbits.c" />
+    <ClCompile Include="src\tif_pixarlog.c" />
+    <ClCompile Include="src\tif_predict.c" />
+    <ClCompile Include="src\tif_print.c" />
+    <ClCompile Include="src\tif_read.c" />
+    <ClCompile Include="src\tif_stream.cxx" />
+    <ClCompile Include="src\tif_strip.c" />
+    <ClCompile Include="src\tif_swab.c" />
+    <ClCompile Include="src\tif_thunder.c" />
+    <ClCompile Include="src\tif_tile.c" />
+    <ClCompile Include="src\tif_version.c" />
+    <ClCompile Include="src\tif_warning.c" />
+    <ClCompile Include="src\tif_webp.c" />
+    <ClCompile Include="src\tif_write.c" />
+    <ClCompile Include="src\tif_zip.c" />
+    <ClCompile Include="src\tif_zstd.c" />
+    <ClCompile Include="src\tif_win32.c" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
