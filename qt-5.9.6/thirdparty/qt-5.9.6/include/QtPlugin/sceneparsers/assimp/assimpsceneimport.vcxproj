@@ -107,7 +107,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>assimp.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Qml.lib;Qt5Quick.lib;Qt5Test.lib;Qt5QuickTest.lib;Qt5Network.lib;Qt5XmlPatterns.lib;Qt53DCore.lib;Qt53DRender.lib;Qt53DQuickScene2D.lib;Qt53DExtras.lib;Qt53DAnimation.lib</AdditionalDependencies>
+      <AdditionalDependencies>libzlib.lib;libpoly2tri.lib;libpugixml.lib;libopenddlparser.lib;libopen3dgc.lib;libassimp_zip.lib;libassimp_unzip.lib;libassimp_clipper.lib;libassimp.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Qml.lib;Qt5Quick.lib;Qt5Test.lib;Qt5QuickTest.lib;Qt5Network.lib;Qt5XmlPatterns.lib;Qt53DCore.lib;Qt53DRender.lib;Qt53DQuickScene2D.lib;Qt53DExtras.lib;Qt53DAnimation.lib;Advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -159,7 +159,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>assimp.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Qml.lib;Qt5Quick.lib;Qt5Test.lib;Qt5QuickTest.lib;Qt5Network.lib;Qt5XmlPatterns.lib;Qt53DCore.lib;Qt53DRender.lib;Qt53DQuickScene2D.lib;Qt53DExtras.lib;Qt53DAnimation.lib</AdditionalDependencies>
+      <AdditionalDependencies>libzlib.lib;libpoly2tri.lib;libpugixml.lib;libopenddlparser.lib;libopen3dgc.lib;libassimp_zip.lib;libassimp_unzip.lib;libassimp_clipper.lib;libassimp.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Qml.lib;Qt5Quick.lib;Qt5Test.lib;Qt5QuickTest.lib;Qt5Network.lib;Qt5XmlPatterns.lib;Qt53DCore.lib;Qt53DRender.lib;Qt53DQuickScene2D.lib;Qt53DExtras.lib;Qt53DAnimation.lib;Advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
