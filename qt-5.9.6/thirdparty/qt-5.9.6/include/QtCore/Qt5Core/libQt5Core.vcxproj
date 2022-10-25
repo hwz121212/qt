@@ -90,7 +90,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>libzlib.lib;libpcre2-qt.lib;libharfbuzz_qt.lib;libdouble-conversion.lib;mpr.lib;version.lib;ws2_32.lib;kernel32.lib;user32.lib;shell32.lib;uuid.lib;ole32.lib;advapi32.lib;winmm.lib;</AdditionalDependencies>
+      <AdditionalDependencies>libzlib.lib;libpcre2.lib;libharfbuzz_qt.lib;libdouble-conversion.lib;mpr.lib;version.lib;ws2_32.lib;kernel32.lib;user32.lib;shell32.lib;uuid.lib;ole32.lib;advapi32.lib;winmm.lib;</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -152,7 +152,7 @@
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>libzlib.lib;libpcre2-qt.lib;libharfbuzz_qt.lib;libdouble-conversion.lib;mpr.lib;version.lib;ws2_32.lib;kernel32.lib;user32.lib;shell32.lib;uuid.lib;ole32.lib;advapi32.lib;winmm.lib;</AdditionalDependencies>
+      <AdditionalDependencies>libzlib.lib;libpcre2.lib;libharfbuzz_qt.lib;libdouble-conversion.lib;mpr.lib;version.lib;ws2_32.lib;kernel32.lib;user32.lib;shell32.lib;uuid.lib;ole32.lib;advapi32.lib;winmm.lib;</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
