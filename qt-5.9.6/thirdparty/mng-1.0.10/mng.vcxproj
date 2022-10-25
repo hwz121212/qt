@@ -56,19 +56,19 @@
     <ClCompile Include="src\libmng_zlib.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{40A69F40-063E-43FD-8543-455495D8733E}</ProjectGuid>
+    <ProjectGuid>{C344C315-E502-4203-9A1E-7148AB074CCB}</ProjectGuid>
     <Keyword>MFCProj</Keyword>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
-    <ProjectName>libmng</ProjectName>
+    <ProjectName>mng</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <PlatformToolset>v141</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
-    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
     <PlatformToolset>v141</PlatformToolset>
     <UseOfMfc>false</UseOfMfc>
   </PropertyGroup>
@@ -88,17 +88,17 @@
     <_ProjectFileVersion>15.0.28307.705</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)lib\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
     <IntDir>$(SolutionDir)..\Temp\$(SolutionName)\$(ProjectName)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;MNG_SUPPORT_DISPLAY;MNG_SUPPORT_READ;MNG_SUPPORT_WRITE;MNG_ACCESS_CHUNKS;MNG_STORE_CHUNKS;_CRT_SECURE_NO_DEPRECATE;MNG_ERROR_TELLTALE;_DEBUG</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ZLIB_DLL;MNG_DLL;MNG_BUILD_DLL;MNG_SUPPORT_DISPLAY;MNG_SUPPORT_READ;MNG_SUPPORT_WRITE;MNG_ACCESS_CHUNKS;MNG_STORE_CHUNKS;_CRT_SECURE_NO_DEPRECATE;MNG_ERROR_TELLTALE;_DEBUG</PreprocessorDefinitions>
       <MinimalRebuild>true</MinimalRebuild>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
@@ -114,12 +114,17 @@
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Bscmake>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
+      <ImportLibrary>$(SolutionDir)lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
+      <AdditionalDependencies>zlib.lib;libjpeg.lib</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <Optimization>MaxSpeed</Optimization>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;MNG_SUPPORT_DISPLAY;MNG_SUPPORT_READ;MNG_SUPPORT_WRITE;MNG_ACCESS_CHUNKS;MNG_STORE_CHUNKS;_CRT_SECURE_NO_DEPRECATE;MNG_ERROR_TELLTALE;NDEBUG</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ZLIB_DLL;MNG_DLL;MNG_BUILD_DLL;MNG_SUPPORT_DISPLAY;MNG_SUPPORT_READ;MNG_SUPPORT_WRITE;MNG_ACCESS_CHUNKS;MNG_STORE_CHUNKS;_CRT_SECURE_NO_DEPRECATE;MNG_ERROR_TELLTALE;NDEBUG</PreprocessorDefinitions>
       <StringPooling>true</StringPooling>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <FunctionLevelLinking>true</FunctionLevelLinking>
@@ -134,6 +139,11 @@
     <Bscmake>
       <SuppressStartupBanner>true</SuppressStartupBanner>
     </Bscmake>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
+      <ImportLibrary>$(SolutionDir)lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
+      <AdditionalDependencies>zlib.lib;libjpeg.lib</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

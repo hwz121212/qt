@@ -59,7 +59,7 @@
 /* *                                                                        * */
 /* ************************************************************************** */
 
-mng_bool mng_store_error   (mng_datap   pData,
+MNG_EXT mng_bool mng_store_error   (mng_datap   pData,
                             mng_retcode iError,
                             mng_retcode iExtra1,
                             mng_retcode iExtra2);
