@@ -5,7 +5,7 @@
 3. 部分项目依赖项没有配置
 
 
-在电脑上安装以下软件：
+在电脑win10操作系统上安装以下软件：
 1. vs2017(VS_Community2017_15.9.50)
 2. qt-opensource-windows-x86-5.9.6.exe
 3. qt-vsaddin-msvc2017-2.4.1-rev.25.vsix
