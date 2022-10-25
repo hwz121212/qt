@@ -64,7 +64,7 @@
       <WarningLevel>Level3</WarningLevel>
     <MultiProcessorCompilation>true</MultiProcessorCompilation></ClCompile>
     <Link>
-      <AdditionalDependencies>assimp.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Qt5Qml.lib;Qt5Quick.lib;Qt5Test.lib;Qt5QuickTest.lib;Qt5Network.lib;Qt5XmlPatterns.lib;Qt53DCore.lib;Qt53DRender.lib;Qt53DQuickScene2D.lib;Qt53DExtras.lib;Qt53DAnimation.lib;Qt5QuickWidgets.lib;Qt53DQuick.lib;Qt53DQuickExtras.lib;shell32.lib;Qt53DInput.lib;</AdditionalDependencies>
+      <AdditionalDependencies>libassimp.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Qt5Qml.lib;Qt5Quick.lib;Qt5Test.lib;Qt5QuickTest.lib;Qt5Network.lib;Qt5XmlPatterns.lib;Qt53DCore.lib;Qt53DRender.lib;Qt53DQuickScene2D.lib;Qt53DExtras.lib;Qt53DAnimation.lib;Qt5QuickWidgets.lib;Qt53DQuick.lib;Qt53DQuickExtras.lib;shell32.lib;Qt53DInput.lib;</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
       <DataExecutionPrevention>true</DataExecutionPrevention>
@@ -105,7 +105,7 @@
       <WarningLevel>Level3</WarningLevel>
     <MultiProcessorCompilation>true</MultiProcessorCompilation></ClCompile>
     <Link>
-      <AdditionalDependencies>assimp.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Qt5Qml.lib;Qt5Quick.lib;Qt5Test.lib;Qt5QuickTest.lib;Qt5Network.lib;Qt5XmlPatterns.lib;Qt53DCore.lib;Qt53DRender.lib;Qt53DQuickScene2D.lib;Qt53DExtras.lib;Qt53DAnimation.lib;Qt5QuickWidgets.lib;Qt53DQuick.lib;Qt53DQuickExtras.lib;shell32.lib;Qt53DInput.lib;</AdditionalDependencies>
+      <AdditionalDependencies>libassimp.lib;Qt5Core.lib;Qt5Gui.lib;Qt5Widgets.lib;Qt5Qml.lib;Qt5Quick.lib;Qt5Test.lib;Qt5QuickTest.lib;Qt5Network.lib;Qt5XmlPatterns.lib;Qt53DCore.lib;Qt53DRender.lib;Qt53DQuickScene2D.lib;Qt53DExtras.lib;Qt53DAnimation.lib;Qt5QuickWidgets.lib;Qt53DQuick.lib;Qt53DQuickExtras.lib;shell32.lib;Qt53DInput.lib;</AdditionalDependencies>
       <AdditionalLibraryDirectories>$(SolutionDir)lib\$(Configuration)\</AdditionalLibraryDirectories>
       <AdditionalOptions>"/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
       <DataExecutionPrevention>true</DataExecutionPrevention>
